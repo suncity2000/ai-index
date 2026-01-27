@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Global AI Index Tracker</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: 'Pretendard', sans-serif; background: #f4f7f9; padding: 20px; }
+        .grid { display: grid; grid-template-columns: 1-1fr 1fr; gap: 20px; }
+        .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <h1>🤖 AI 모델 및 국가별 수준 추이 분석</h1>
+    <div class="grid">
+        <div class="card">
+            <h2>모델별 지능 지수 (Elo) 추이</h2>
+            <canvas id="intelligenceChart"></canvas>
+        </div>
+        <div class="card">
+            <h2>국가별 AI 발전 지수 (6개월 전 vs 현재)</h2>
+            <canvas id="countryChart"></canvas>
+        </div>
+    </div>
+
+    <script>
+        // 이 부분에 data.json의 데이터를 fetch로 불러오는 로직이 들어갑니다.
+        const ctx1 = document.getElementById('intelligenceChart').getContext('2d');
+        new Chart(ctx1, {
+            type: 'line',
+            data: {
+                labels: ['24.01', '24.07', '25.01', '25.07', '26.01'], // 6개월 단위
+                datasets: [
+                    { label: 'GPT-4o', data: [1250, 1280, 1310, 1350, 1380], borderColor: 'blue' },
+                    { label: 'Claude 3.5', data: [1200, 1260, 1320, 1340, 1400], borderColor: 'orange' }
+                ]
+            }
+        });
+        // ... 다른 차트들도 유사하게 구현
+    </script>
+</body>
+</html>
