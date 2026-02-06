@@ -2,42 +2,88 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Global AI Index Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Global Index Dashboard</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
-        body { font-family: 'Pretendard', sans-serif; background: #f4f7f9; padding: 20px; }
-        .grid { display: grid; grid-template-columns: 1-1fr 1fr; gap: 20px; }
-        .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        :root { --bg: #f8fafc; --card: #ffffff; --primary: #3b82f6; }
+        body { font-family: 'Pretendard', sans-serif; background: var(--bg); margin: 0; padding: 40px; color: #1e293b; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .header { margin-bottom: 40px; text-align: center; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); gap: 24px; }
+        .card { background: var(--card); padding: 24px; border-radius: 16px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+        h1 { font-size: 2.5rem; margin-bottom: 8px; color: #0f172a; }
+        h2 { font-size: 1.25rem; margin-bottom: 20px; color: #475569; border-left: 4px solid var(--primary); padding-left: 12px; }
     </style>
 </head>
 <body>
-    <h1>🤖 AI 모델 및 국가별 수준 추이 분석</h1>
-    <div class="grid">
-        <div class="card">
-            <h2>모델별 지능 지수 (Elo) 추이</h2>
-            <canvas id="intelligenceChart"></canvas>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 Global AI Tracker</h1>
+            <p>공개 벤치마크 기반 실시간 AI 지표 및 6개월 단위 추이 분석</p>
         </div>
-        <div class="card">
-            <h2>국가별 AI 발전 지수 (6개월 전 vs 현재)</h2>
-            <canvas id="countryChart"></canvas>
+
+        <div class="grid">
+            <div class="card">
+                <h2>모델별 지능 지수(Elo) 시계열 추이</h2>
+                <canvas id="intelligenceChart"></canvas>
+            </div>
+            <div class="card">
+                <h2>국가별 AI 발전 지수 비교</h2>
+                <canvas id="countryChart"></canvas>
+            </div>
         </div>
     </div>
 
     <script>
-        // 이 부분에 data.json의 데이터를 fetch로 불러오는 로직이 들어갑니다.
-        const ctx1 = document.getElementById('intelligenceChart').getContext('2d');
-        new Chart(ctx1, {
-            type: 'line',
-            data: {
-                labels: ['24.01', '24.07', '25.01', '25.07', '26.01'], // 6개월 단위
-                datasets: [
-                    { label: 'GPT-4o', data: [1250, 1280, 1310, 1350, 1380], borderColor: 'blue' },
-                    { label: 'Claude 3.5', data: [1200, 1260, 1320, 1340, 1400], borderColor: 'orange' }
-                ]
-            }
-        });
-        // ... 다른 차트들도 유사하게 구현
+        async function loadData() {
+            // data.json 파일을 불러옵니다 (브라우저 캐시 방지를 위해 쿼리스트링 추가)
+            const response = await fetch('data.json?t=' + new Date().getTime());
+            const data = await response.json();
+
+            // 1. 차트 라벨 (날짜 추출)
+            const labels = data.map(entry => entry.date);
+
+            // 2. 모델별 데이터 재구성 (GPT-4o 예시)
+            const gptScores = data.map(entry => {
+                const model = entry.intelligence.find(m => m.name === 'GPT-4o');
+                return model ? model.score : null;
+            });
+
+            const claudeScores = data.map(entry => {
+                const model = entry.intelligence.find(m => m.name === 'Claude 3.5');
+                return model ? model.score : null;
+            });
+
+            // --- 지능 지수 차트 ---
+            new Chart(document.getElementById('intelligenceChart'), {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        { label: 'GPT-4o', data: gptScores, borderColor: '#3b82f6', tension: 0.3 },
+                        { label: 'Claude 3.5', data: claudeScores, borderColor: '#f97316', tension: 0.3 }
+                    ]
+                },
+                options: { responsive: true, plugins: { legend: { position: 'top' } } }
+            });
+
+            // --- 국가별 차트 (가장 최신 데이터 기준) ---
+            const latest = data[data.length - 1];
+            new Chart(document.getElementById('countryChart'), {
+                type: 'bar',
+                data: {
+                    labels: latest.country_rank.map(c => c.country),
+                    datasets: [{
+                        label: '발전 점수',
+                        data: latest.country_rank.map(c => c.score),
+                        backgroundColor: ['#3b82f6', '#10b981', '#f59e0b']
+                    }]
+                }
+            });
+        }
+
+        loadData();
     </script>
 </body>
 </html>
