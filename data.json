@@ -73,6 +73,24 @@
                 "score": 65
             }
         ],
+        "user_popularity": [
+            {
+                "name": "ChatGPT",
+                "score": 100
+            },
+            {
+                "name": "Claude",
+                "score": 45
+            },
+            {
+                "name": "Gemini",
+                "score": 60
+            },
+            {
+                "name": "Perplexity",
+                "score": 35
+            }
+        ],
         "country_rank": [
             {
                 "country": "USA",
