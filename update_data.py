@@ -28,6 +28,12 @@ def get_latest_benchmarks():
             {"name": "Devin", "score": 72},
             {"name": "OpenDevin", "score": 65}
         ],
+        "user_popularity": [ # 구글 트렌드 및 웹 트래픽 기반 상대적 인기 지수 (100점 만점)
+            {"name": "ChatGPT", "score": 100},
+            {"name": "Claude", "score": 45},
+            {"name": "Gemini", "score": 60},
+            {"name": "Perplexity", "score": 35}
+        ],
         "country_rank": [
             {"country": "USA", "score": 100},
             {"country": "China", "score": 62.9},
