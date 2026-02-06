@@ -3,76 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Global Index Dashboard</title>
+    <title>AI Intelligence Command Center</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
-        :root { --bg: #f8fafc; --card: #ffffff; --primary: #2563eb; --text: #0f172a; --muted: #64748b; }
-        body { font-family: 'Pretendard', sans-serif; background: var(--bg); margin: 0; padding: 20px; color: var(--text); line-height: 1.6; }
-        .container { max-width: 1400px; margin: 0 auto; }
+        :root { 
+            --bg-dark: #0b1426; --card-bg: rgba(20, 31, 54, 0.8); 
+            --accent-blue: #3086ff; --accent-cyan: #00f2ff; --accent-purple: #a855f7;
+            --text-main: #e2e8f0; --text-dim: #94a3b8;
+        }
+        * { box-sizing: border-box; }
+        body { 
+            font-family: 'Pretendard', sans-serif; background: var(--bg-dark); 
+            margin: 0; padding: 20px; color: var(--text-main); overflow-x: hidden;
+            background-image: radial-gradient(circle at 50% 50%, #152342 0%, #0b1426 100%);
+        }
+        .container { width: 100%; max-width: 1920px; margin: 0 auto; }
         
-        /* 헤더 및 인사이트 섹션 */
-        .header { text-align: left; margin-bottom: 30px; border-bottom: 1px solid #e2e8f0; padding-bottom: 20px; }
-        .insight-box { background: #eff6ff; border-radius: 12px; padding: 20px; margin-bottom: 30px; border-left: 6px solid var(--primary); }
-        .insight-box h3 { margin-top: 0; color: var(--primary); font-size: 1.1rem; }
+        /* 헤더 섹션 */
+        .header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 25px; border-bottom: 2px solid #1e293b; padding-bottom: 15px; }
+        .header h1 { margin: 0; font-size: 1.8rem; letter-spacing: -1px; color: var(--accent-cyan); text-transform: uppercase; }
+        .insight-summary { background: rgba(48, 134, 255, 0.1); border: 1px solid rgba(48, 134, 255, 0.3); padding: 15px 25px; border-radius: 8px; margin-bottom: 25px; font-size: 0.95rem; }
+
+        /* 대시보드 그리드 */
+        .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+        .card { 
+            background: var(--card-bg); border: 1px solid #1e293b; border-radius: 12px; 
+            padding: 20px; height: 380px; display: flex; flex-direction: column;
+            backdrop-filter: blur(10px); box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+        }
+        .card h2 { font-size: 1rem; margin-top: 0; color: var(--accent-blue); display: flex; justify-content: space-between; border-bottom: 1px solid #1e293b; padding-bottom: 10px; }
+        .card h2 span { color: var(--text-dim); font-size: 0.8rem; font-weight: normal; }
         
-        /* 그리드 및 카드 디자인 */
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 24px; }
-        .card { background: var(--card); padding: 24px; border-radius: 20px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05); height: 450px; display: flex; flex-direction: column; transition: transform 0.2s; }
-        .card:hover { transform: translateY(-5px); }
         .chart-container { flex-grow: 1; position: relative; width: 100%; min-height: 0; }
-        
-        h1 { font-size: 2.2rem; font-weight: 800; margin-bottom: 10px; }
-        h2 { font-size: 1.2rem; margin-bottom: 20px; display: flex; align-items: center; gap: 8px; }
-        
-        /* 단위 설명 섹션 */
-        .guide-section { margin-top: 40px; padding: 20px; background: #fff; border-radius: 16px; font-size: 0.9rem; color: var(--muted); }
-        .guide-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; }
-        .tag { display: inline-block; padding: 2px 8px; border-radius: 4px; background: #f1f5f9; font-weight: bold; margin-right: 5px; }
+
+        /* 가이드 하단 섹션 */
+        .footer-guide { margin-top: 25px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; font-size: 0.85rem; color: var(--text-dim); }
+        .guide-item { background: rgba(255,255,255,0.03); padding: 10px; border-radius: 6px; border-left: 3px solid var(--accent-blue); }
+
+        @media (max-width: 1200px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 800px) { .grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
     <div class="container">
         <header class="header">
-            <h1>📊 AI Global Insight Dashboard</h1>
-            <p>전 세계 AI 모델의 성능 지표와 국가별 경쟁력을 실시간 시각화합니다.</p>
+            <div>
+                <h1>AI Intelligence Command Center <small style="font-size: 0.8rem; color: var(--text-dim);">v2.0 Beta</small></h1>
+            </div>
+            <div style="text-align: right;">
+                <div style="font-size: 0.8rem; color: var(--accent-cyan);">SYSTEM STATUS: ONLINE</div>
+                <div id="update-time" style="font-size: 0.75rem; color: var(--text-dim);">LAST UPDATE: 2026.02.06</div>
+            </div>
         </header>
 
-        <section class="insight-box">
-            <h3>💡 Current AI Insight</h3>
-            <p>2026년 상반기는 <strong>'추론 성능(Reasoning)'</strong>과 <strong>'에이전트 자율성'</strong>이 핵심 지표로 떠오르고 있습니다. OpenAI의 o1 모델이 지능 지수에서 우위를 점하는 가운데, Anthropic의 Claude는 실제 컴퓨터 제어 에이전트 분야에서 강력한 추격세를 보입니다. 한편, 한국은 인프라 대비 높은 서비스 수용도로 글로벌 5위권 진입을 노리고 있습니다.</p>
-        </section>
-
-        <div class="grid">
-            <div class="card"><h2>🧠 모델별 지능 지수(Elo)</h2><div class="chart-container"><canvas id="intelChart"></canvas></div></div>
-            <div class="card"><h2>🎨 이미지 생성 선호도</h2><div class="chart-container"><canvas id="imageChart"></canvas></div></div>
-            <div class="card"><h2>🎬 영상 생성 성능</h2><div class="chart-container"><canvas id="videoChart"></canvas></div></div>
-            <div class="card"><h2>🤖 AI 에이전트 수행력</h2><div class="chart-container"><canvas id="agentChart"></canvas></div></div>
-            <div class="card"><h2>👥 상대적 사용자 인기</h2><div class="chart-container"><canvas id="userChart"></canvas></div></div>
-            <div class="card"><h2>🌍 국가별 AI 종합 지수</h2><div class="chart-container"><canvas id="countryChart"></canvas></div></div>
+        <div class="insight-summary">
+            <strong>ANALYSIS:</strong> 2026년 AI 시장은 '단순 지능'을 넘어 '자율 에이전트'와 '고효율 추론'으로 패러다임이 이동 중입니다. o1과 같은 추론 모델이 상위권을 유지하고 있으며, 에이전트 작업 성공률은 분기별 12%의 성장을 보이고 있습니다. 한국은 AI 제조 및 인프라 통합 지수에서 꾸준한 상승 곡선을 그리며 아시아 선두 그룹을 유지하고 있습니다.
         </div>
 
-        <section class="guide-section">
-            <h3>📖 지표 및 단위 설명</h3>
-            <div class="guide-grid">
-                <div><span class="tag">Elo Score</span> 지능/이미지: 상대적 승률 기반 점수 (높을수록 우수)</div>
-                <div><span class="tag">VBench Score</span> 영상: 화질, 움직임 등을 종합 평가한 백분율</div>
-                <div><span class="tag">Success Rate</span> 에이전트: 복잡한 작업 성공률 (%)</div>
-                <div><span class="tag">Popularity Index</span> 사용자: 최대 트래픽 모델(ChatGPT)을 100으로 둔 상대값</div>
-                <div><span class="tag">Global Index</span> 국가: 인프라, 인재, 정책 등 7개 분야 종합 점수</div>
-            </div>
-        </section>
+        <div class="grid">
+            <div class="card"><h2>🧠 Intelligence <span>Unit: Elo Score</span></h2><div class="chart-container"><canvas id="intelChart"></canvas></div></div>
+            <div class="card"><h2>🎨 Image Fidelity <span>Unit: Elo Score</span></h2><div class="chart-container"><canvas id="imageChart"></canvas></div></div>
+            <div class="card"><h2>🎬 Video Generation <span>Unit: VBench (%)</span></h2><div class="chart-container"><canvas id="videoChart"></canvas></div></div>
+            <div class="card"><h2>🤖 Agent Success <span>Unit: Task %</span></h2><div class="chart-container"><canvas id="agentChart"></canvas></div></div>
+            <div class="card"><h2>👥 Market Popularity <span>Unit: Relative Index</span></h2><div class="chart-container"><canvas id="userChart"></canvas></div></div>
+            <div class="card"><h2>🌍 Global Strength <span>Unit: Multi-Index</span></h2><div class="chart-container"><canvas id="countryChart"></canvas></div></div>
+        </div>
+
+        <footer class="footer-guide">
+            <div class="guide-item"><strong>Elo Score:</strong> 인간 선호도 기반의 상대 지수입니다. 1,300점 이상은 전문가 수준의 추론 능력을 의미합니다.</div>
+            <div class="guide-item"><strong>VBench/Task:</strong> 영상의 일관성과 에이전트의 작업 완수율을 나타내는 실제 물리 성능 지표입니다.</div>
+            <div class="guide-item"><strong>Global Index:</strong> 단순 성능이 아닌 국가별 투자, 인프라, 특허 보유수를 합산한 생태계 경쟁력입니다.</div>
+        </footer>
     </div>
 
     <script>
-        const commonOpt = { responsive: true, maintainAspectRatio: false, resizeDelay: 200 };
+        const commonOpt = { 
+            responsive: true, maintainAspectRatio: false, resizeDelay: 100,
+            plugins: { legend: { labels: { color: '#94a3b8', font: { size: 11 } } } },
+            scales: { 
+                y: { grid: { color: '#1e293b' }, ticks: { color: '#64748b' } },
+                x: { grid: { display: false }, ticks: { color: '#64748b' } }
+            }
+        };
 
         async function loadData() {
             const res = await fetch('data.json?t=' + new Date().getTime());
             const data = await res.json();
             const latest = data[data.length - 1];
+            document.getElementById('update-time').innerText = 'LAST DATA POINT: ' + latest.date;
 
-            // 1. 지능 추이 (Line Chart)
+            // 1. Intelligence Line Chart
             new Chart(document.getElementById('intelChart'), {
                 type: 'line',
                 data: {
@@ -80,17 +101,19 @@
                     datasets: ['o1-2024-12-17', 'GPT-4o', 'Claude 3.5 Sonnet'].map((name, i) => ({
                         label: name,
                         data: data.map(d => d.intelligence.find(m => m.name === name)?.score),
-                        borderColor: ['#0f172a', '#2563eb', '#f97316'][i], tension: 0.3, borderWidth: 3
+                        borderColor: ['#00f2ff', '#3086ff', '#a855f7'][i], 
+                        backgroundColor: ['#00f2ff22', '#3086ff22', '#a855f722'][i],
+                        tension: 0.4, fill: true, borderWidth: 2, pointRadius: 3
                     }))
                 }, options: commonOpt
             });
 
-            // 2. 나머지 막대 차트 (Bar Charts)
-            renderBar('imageChart', latest.image_gen, '#fb7185');
-            renderBar('videoChart', latest.video_gen, '#818cf8');
-            renderBar('agentChart', latest.agents, '#34d399');
-            renderBar('userChart', latest.user_popularity, '#facc15');
-            renderBar('countryChart', latest.country_rank, '#94a3b8', 'country');
+            // 2. Bar Charts
+            renderBar('imageChart', latest.image_gen, '#00f2ff');
+            renderBar('videoChart', latest.video_gen, '#3086ff');
+            renderBar('agentChart', latest.agents, '#a855f7');
+            renderBar('userChart', latest.user_popularity, '#3dd68c');
+            renderBar('countryChart', latest.country_rank, '#64748b', 'country');
         }
 
         function renderBar(id, items, color, key = 'name') {
@@ -98,7 +121,7 @@
                 type: 'bar',
                 data: {
                     labels: items.map(i => i[key]),
-                    datasets: [{ data: items.map(i => i.score), backgroundColor: color, borderRadius: 8 }]
+                    datasets: [{ data: items.map(i => i.score), backgroundColor: color + 'cc', borderRadius: 4, barThickness: 25 }]
                 }, options: { ...commonOpt, plugins: { legend: { display: false } } }
             });
         }
