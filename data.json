@@ -3,16 +3,20 @@
         "date": "2026-02",
         "intelligence": [
             {
-                "name": "GPT-4o",
-                "score": 1350
+                "name": "o1-2024-12-17",
+                "score": 1362
             },
             {
-                "name": "Claude 3.5",
-                "score": 1380
+                "name": "GPT-4o",
+                "score": 1335
+            },
+            {
+                "name": "Claude 3.5 Sonnet",
+                "score": 1324
             },
             {
                 "name": "Gemini 1.5 Pro",
-                "score": 1320
+                "score": 1308
             }
         ],
         "country_rank": [
@@ -22,11 +26,19 @@
             },
             {
                 "country": "China",
-                "score": 85
+                "score": 62.9
+            },
+            {
+                "country": "Singapore",
+                "score": 50.4
+            },
+            {
+                "country": "UK",
+                "score": 44.8
             },
             {
                 "country": "South Korea",
-                "score": 75
+                "score": 41.5
             }
         ]
     }
