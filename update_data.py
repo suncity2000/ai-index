@@ -43,20 +43,57 @@ def get_latest_benchmarks():
         ]
     }
 
+
 def update_json():
     filename = 'data.json'
     current_date = datetime.datetime.now().strftime("%Y-%m")
-    benchmarks = get_latest_benchmarks()
     
+    new_entry = {
+        "date": current_date,
+        "intelligence": [
+            {"name": "o1-2024-12-17", "score": 1362},
+            {"name": "GPT-4o", "score": 1335},
+            {"name": "Claude 3.5 Sonnet", "score": 1324},
+            {"name": "Gemini 1.5 Pro", "score": 1308}
+        ],
+        "image_gen": [
+            {"name": "Flux.1 [pro]", "score": 1240},
+            {"name": "Midjourney v6.1", "score": 1215},
+            {"name": "Imagen 3", "score": 1180},
+            {"name": "DALL-E 3", "score": 1130}
+        ],
+        "video_gen": [
+            {"name": "Sora (Preview)", "score": 98},
+            {"name": "Kling AI", "score": 95},
+            {"name": "Runway Gen-3", "score": 92},
+            {"name": "Luma Dream", "score": 88}
+        ],
+        "agents": [
+            {"name": "Claude 3.5 (Comp Use)", "score": 88},
+            {"name": "GPT-4o (Agentic)", "score": 85},
+            {"name": "Devin", "score": 72},
+            {"name": "OpenDevin", "score": 65}
+        ],
+        "user_popularity": [
+            {"name": "ChatGPT", "score": 100},
+            {"name": "Gemini", "score": 60},
+            {"name": "Claude", "score": 45},
+            {"name": "Perplexity", "score": 35}
+        ],
+        "country_rank": [
+            {"country": "USA", "score": 100},
+            {"country": "China", "score": 62.9},
+            {"country": "UK", "score": 44.8},
+            {"country": "South Korea", "score": 41.5}
+        ]
+    }
+
     try:
         with open(filename, 'r', encoding='utf-8') as f:
             history = json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
         history = []
 
-    new_entry = {"date": current_date, **benchmarks}
-    
-    # 해당 월 데이터 업데이트 또는 추가
     idx = next((i for i, item in enumerate(history) if item['date'] == current_date), None)
     if idx is not None:
         history[idx] = new_entry
