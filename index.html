@@ -10,13 +10,28 @@
         body { font-family: 'Pretendard', sans-serif; background: var(--bg); margin: 0; padding: 40px; color: #1e293b; }
         .container { max-width: 1200px; margin: 0 auto; }
         .header { margin-bottom: 40px; text-align: center; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); gap: 24px; }
-        .card { background: var(--card); padding: 24px; border-radius: 16px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
-        /* 차트 컨테이너 높이 고정 */
+        
+        /* 그리드 설정: 화면이 작아지면 1열로 변환 */
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); 
+            gap: 24px; 
+        }
+        
+        .card { 
+            background: var(--card); 
+            padding: 24px; 
+            border-radius: 16px; 
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); 
+            min-height: 480px; /* 카드의 최소 높이 설정 */
+        }
+
+        /* 핵심: 차트가 들어가는 컨테이너의 높이를 고정하고 넘치는 것을 방지 */
         .chart-container {
             position: relative;
-            height: 400px; /* 여기서 높이를 조절하세요 */
+            height: 380px; /* 차트 본체의 높이 */
             width: 100%;
+            overflow: hidden; /* 차트가 부모를 뚫고 나가는 것 방지 */
         }
 
         h2 { font-size: 1.25rem; margin-bottom: 20px; color: #475569; border-left: 4px solid var(--primary); padding-left: 12px; }
@@ -47,66 +62,59 @@
 
     <script>
         async function loadData() {
-            // 1. data.json 파일을 불러옵니다 (브라우저 캐시 방지를 위해 타임스탬프 추가)
-            const response = await fetch('data.json?t=' + new Date().getTime());
-            const data = await response.json();
-        
-            // 2. 차트 하단에 표시될 날짜(Labels)를 추출합니다.
-            const labels = data.map(entry => entry.date);
-        
-            // 3. 지능 지수(Elo) 차트를 위한 모델 리스트와 색상을 설정합니다.
-            const modelNames = ['o1-2024-12-17', 'GPT-4o', 'Claude 3.5 Sonnet', 'Gemini 1.5 Pro'];
-            const colors = ['#000000', '#3b82f6', '#f97316', '#10b981'];
-        
-            // 4. 각 모델별로 시간에 따른 점수 변화 데이터를 생성합니다.
-            const datasets = modelNames.map((name, i) => ({
-                label: name,
-                data: data.map(entry => {
-                    const model = entry.intelligence.find(m => m.name === name);
-                    return model ? model.score : null; // 해당 날짜에 모델 데이터가 없으면 null
-                }),
-                borderColor: colors[i],
-                backgroundColor: colors[i] + '22', // 선 아래 살짝 색칠 (투명도 추가)
-                tension: 0.3, // 선을 부드럽게 곡선화
-                fill: false
-            }));
-        
-            // 5. 지능 지수 선 그래프(Line Chart) 생성
-            new Chart(document.getElementById('intelligenceChart'), {
-                type: 'line',
-                data: { labels: labels, datasets: datasets },
-                options: { 
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: { position: 'top' }
+            try {
+                const response = await fetch('data.json?t=' + new Date().getTime());
+                const data = await response.json();
+                
+                const labels = data.map(entry => entry.date);
+                const modelNames = ['o1-2024-12-17', 'GPT-4o', 'Claude 3.5 Sonnet', 'Gemini 1.5 Pro'];
+                const colors = ['#000000', '#3b82f6', '#f97316', '#10b981'];
+
+                const datasets = modelNames.map((name, i) => ({
+                    label: name,
+                    data: data.map(entry => {
+                        const model = entry.intelligence.find(m => m.name === name);
+                        return model ? model.score : null;
+                    }),
+                    borderColor: colors[i],
+                    backgroundColor: colors[i] + '22',
+                    tension: 0.3,
+                    fill: false
+                }));
+
+                // 1. 지능 지수 선 그래프
+                new Chart(document.getElementById('intelligenceChart'), {
+                    type: 'line',
+                    data: { labels: labels, datasets: datasets },
+                    options: { 
+                        responsive: true,
+                        maintainAspectRatio: false, // 컨테이너 크기에 맞춤
+                        plugins: { legend: { position: 'top' } },
+                        scales: { y: { beginAtZero: false } }
+                    }
+                });
+
+                // 2. 국가별 발전 지수 막대 그래프
+                const latest = data[data.length - 1];
+                new Chart(document.getElementById('countryChart'), {
+                    type: 'bar',
+                    data: {
+                        labels: latest.country_rank.map(c => c.country),
+                        datasets: [{
+                            label: '국가별 AI 지수',
+                            data: latest.country_rank.map(c => c.score),
+                            backgroundColor: ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6']
+                        }]
                     },
-                    scales: {
-                        y: { beginAtZero: false } // 점수 차이를 잘 보기 위해 0부터 시작하지 않음
+                    options: { 
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: { legend: { display: false } }
                     }
-                }
-            });
-        
-            // 6. 국가별 발전 지수 막대 그래프(Bar Chart) 생성 - 가장 최근 데이터 기준
-            const latest = data[data.length - 1];
-            new Chart(document.getElementById('countryChart'), {
-                type: 'bar',
-                data: {
-                    labels: latest.country_rank.map(c => c.country),
-                    datasets: [{
-                        label: '국가별 AI 지수',
-                        data: latest.country_rank.map(c => c.score),
-                        backgroundColor: ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6']
-                    }]
-                },
-                options: { 
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: { display: false } // 막대 그래프는 범례 생략
-                    }
-                }
-            });
+                });
+            } catch (e) {
+                console.error("데이터 로드 실패:", e);
+            }
         }
         loadData();
     </script>
