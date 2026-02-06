@@ -37,52 +37,67 @@
 
     <script>
         async function loadData() {
-            // data.json 파일을 불러옵니다 (브라우저 캐시 방지를 위해 쿼리스트링 추가)
+            // 1. data.json 파일을 불러옵니다 (브라우저 캐시 방지를 위해 타임스탬프 추가)
             const response = await fetch('data.json?t=' + new Date().getTime());
             const data = await response.json();
-
-            // 1. 차트 라벨 (날짜 추출)
+        
+            // 2. 차트 하단에 표시될 날짜(Labels)를 추출합니다.
             const labels = data.map(entry => entry.date);
-
-            // 2. 모델별 데이터 재구성 (GPT-4o 예시)
-            const gptScores = data.map(entry => {
-                const model = entry.intelligence.find(m => m.name === 'GPT-4o');
-                return model ? model.score : null;
-            });
-
-            const claudeScores = data.map(entry => {
-                const model = entry.intelligence.find(m => m.name === 'Claude 3.5');
-                return model ? model.score : null;
-            });
-
-            // --- 지능 지수 차트 ---
+        
+            // 3. 지능 지수(Elo) 차트를 위한 모델 리스트와 색상을 설정합니다.
+            const modelNames = ['o1-2024-12-17', 'GPT-4o', 'Claude 3.5 Sonnet', 'Gemini 1.5 Pro'];
+            const colors = ['#000000', '#3b82f6', '#f97316', '#10b981'];
+        
+            // 4. 각 모델별로 시간에 따른 점수 변화 데이터를 생성합니다.
+            const datasets = modelNames.map((name, i) => ({
+                label: name,
+                data: data.map(entry => {
+                    const model = entry.intelligence.find(m => m.name === name);
+                    return model ? model.score : null; // 해당 날짜에 모델 데이터가 없으면 null
+                }),
+                borderColor: colors[i],
+                backgroundColor: colors[i] + '22', // 선 아래 살짝 색칠 (투명도 추가)
+                tension: 0.3, // 선을 부드럽게 곡선화
+                fill: false
+            }));
+        
+            // 5. 지능 지수 선 그래프(Line Chart) 생성
             new Chart(document.getElementById('intelligenceChart'), {
                 type: 'line',
-                data: {
-                    labels: labels,
-                    datasets: [
-                        { label: 'GPT-4o', data: gptScores, borderColor: '#3b82f6', tension: 0.3 },
-                        { label: 'Claude 3.5', data: claudeScores, borderColor: '#f97316', tension: 0.3 }
-                    ]
-                },
-                options: { responsive: true, plugins: { legend: { position: 'top' } } }
+                data: { labels: labels, datasets: datasets },
+                options: { 
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'top' }
+                    },
+                    scales: {
+                        y: { beginAtZero: false } // 점수 차이를 잘 보기 위해 0부터 시작하지 않음
+                    }
+                }
             });
-
-            // --- 국가별 차트 (가장 최신 데이터 기준) ---
+        
+            // 6. 국가별 발전 지수 막대 그래프(Bar Chart) 생성 - 가장 최근 데이터 기준
             const latest = data[data.length - 1];
             new Chart(document.getElementById('countryChart'), {
                 type: 'bar',
                 data: {
                     labels: latest.country_rank.map(c => c.country),
                     datasets: [{
-                        label: '발전 점수',
+                        label: '국가별 AI 지수',
                         data: latest.country_rank.map(c => c.score),
-                        backgroundColor: ['#3b82f6', '#10b981', '#f59e0b']
+                        backgroundColor: ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6']
                     }]
+                },
+                options: { 
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false } // 막대 그래프는 범례 생략
+                    }
                 }
             });
         }
-
         loadData();
     </script>
 </body>
