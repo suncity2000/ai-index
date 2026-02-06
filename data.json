@@ -19,6 +19,60 @@
                 "score": 1308
             }
         ],
+        "image_gen": [
+            {
+                "name": "Flux.1 [pro]",
+                "score": 1240
+            },
+            {
+                "name": "Midjourney v6.1",
+                "score": 1215
+            },
+            {
+                "name": "DALL-E 3",
+                "score": 1130
+            },
+            {
+                "name": "Imagen 3",
+                "score": 1180
+            }
+        ],
+        "video_gen": [
+            {
+                "name": "Kling AI",
+                "score": 95
+            },
+            {
+                "name": "Sora (Preview)",
+                "score": 98
+            },
+            {
+                "name": "Runway Gen-3",
+                "score": 92
+            },
+            {
+                "name": "Luma Dream",
+                "score": 88
+            }
+        ],
+        "agents": [
+            {
+                "name": "Claude 3.5 (Comp Use)",
+                "score": 88
+            },
+            {
+                "name": "GPT-4o (Agentic)",
+                "score": 85
+            },
+            {
+                "name": "Devin",
+                "score": 72
+            },
+            {
+                "name": "OpenDevin",
+                "score": 65
+            }
+        ],
         "country_rank": [
             {
                 "country": "USA",
@@ -33,12 +87,12 @@
                 "score": 50.4
             },
             {
-                "country": "UK",
-                "score": 44.8
-            },
-            {
                 "country": "South Korea",
                 "score": 41.5
+            },
+            {
+                "country": "UK",
+                "score": 44.8
             }
         ]
     }
