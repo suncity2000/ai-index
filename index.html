@@ -47,18 +47,13 @@
         </div>
 
         <div class="grid">
-            <div class="card">
-                <h2>모델별 지능 지수(Elo) 시계열 추이</h2>
-                <div class="chart-container">
-                    <canvas id="intelligenceChart"></canvas>
-                </div>
-            </div>
-            <div class="card">
-                <h2>국가별 AI 발전 지수 비교</h2>
-                <div class="chart-container">
-                    <canvas id="countryChart"></canvas>
-                </div>
-            </div>
+            <div class="card"><h2>모델별 지능 지수(Elo)</h2><div class="chart-container"><canvas id="intelligenceChart"></canvas></div></div>
+            
+            <div class="card"><h2>이미지 생성 선호도</h2><div class="chart-container"><canvas id="imageChart"></canvas></div></div>
+            <div class="card"><h2>영상 생성 성능(VBench)</h2><div class="chart-container"><canvas id="videoChart"></canvas></div></div>
+            <div class="card"><h2>AI 에이전트 수행 능력</h2><div class="chart-container"><canvas id="agentChart"></canvas></div></div>
+            
+            <div class="card"><h2>국가별 AI 발전 지수</h2><div class="chart-container"><canvas id="countryChart"></canvas></div></div>
         </div>
     </div>
 
@@ -121,6 +116,23 @@
             }
         }
         loadData();
+        // 이미지 생성 차트 (가장 최신 데이터 기준 막대 그래프 예시)
+        const latest = data[data.length - 1];
+        createBarChart('imageChart', latest.image_gen, '선호도 점수', '#f87171');
+        createBarChart('videoChart', latest.video_gen, '성능 점수', '#818cf8');
+        createBarChart('agentChart', latest.agents, '수행 점수', '#34d399');
+    
+        // 차트 생성을 도와주는 공통 함수
+        function createBarChart(id, items, label, color) {
+            new Chart(document.getElementById(id), {
+                type: 'bar',
+                data: {
+                    labels: items.map(i => i.name),
+                    datasets: [{ label: label, data: items.map(i => i.score), backgroundColor: color }]
+                },
+                options: commonOptions
+            });
+        }
     </script>
 </body>
 </html>
