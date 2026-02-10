@@ -18,31 +18,31 @@ jobs:
 
       - name: Fetch LLM data
         run: |
-          curl -H "Authorization: Bearer ${{ secrets.AI_MODELS_KEY }}" \
+          curl -H "X-API-Key: ${{ secrets.AI_MODELS_KEY }}" \
                -o data/llms.json \
                https://artificialanalysis.ai/api/v2/data/llms/models
 
       - name: Fetch Text-to-Image data
         run: |
-          curl -H "Authorization: Bearer ${{ secrets.AI_MODELS_KEY }}" \
+          curl -H "X-API-Key: ${{ secrets.AI_MODELS_KEY }}" \
                -o data/text-to-image.json \
                https://artificialanalysis.ai/api/v2/data/media/text-to-image
 
       - name: Fetch Text-to-Speech data
         run: |
-          curl -H "Authorization: Bearer ${{ secrets.AI_MODELS_KEY }}" \
+          curl -H "X-API-Key: ${{ secrets.AI_MODELS_KEY }}" \
                -o data/text-to-speech.json \
                https://artificialanalysis.ai/api/v2/data/media/text-to-speech
 
       - name: Fetch Text-to-Video data
         run: |
-          curl -H "Authorization: Bearer ${{ secrets.AI_MODELS_KEY }}" \
+          curl -H "X-API-Key: ${{ secrets.AI_MODELS_KEY }}" \
                -o data/text-to-video.json \
                https://artificialanalysis.ai/api/v2/data/media/text-to-video
 
       - name: Fetch Image-to-Video data
         run: |
-          curl -H "Authorization: Bearer ${{ secrets.AI_MODELS_KEY }}" \
+          curl -H "X-API-Key: ${{ secrets.AI_MODELS_KEY }}" \
                -o data/image-to-video.json \
                https://artificialanalysis.ai/api/v2/data/media/image-to-video
 
