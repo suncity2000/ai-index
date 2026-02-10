@@ -1,0 +1,54 @@
+{
+  "companies": [
+    {
+      "name": "Naver",
+      "keywords": ["naver", "hyperclova", "clova", "네이버"],
+      "description": "네이버"
+    },
+    {
+      "name": "Kakao",
+      "keywords": ["kakao", "kakaobrain", "kogpt", "karlo", "카카오"],
+      "description": "카카오"
+    },
+    {
+      "name": "LG AI Research",
+      "keywords": ["lg", "exaone", "엘지"],
+      "description": "LG AI연구원"
+    },
+    {
+      "name": "SK Telecom",
+      "keywords": ["skt", "sk telecom", "a.", "에이닷"],
+      "description": "SK텔레콤"
+    },
+    {
+      "name": "KT",
+      "keywords": ["kt", "케이티"],
+      "description": "KT"
+    },
+    {
+      "name": "Upstage",
+      "keywords": ["upstage", "solar", "업스테이지"],
+      "description": "업스테이지"
+    },
+    {
+      "name": "Riiid",
+      "keywords": ["riiid", "santa", "리이드"],
+      "description": "리이드"
+    },
+    {
+      "name": "Scatter Lab",
+      "keywords": ["scatterlab", "scatter lab", "luda", "이루다", "스캐터랩"],
+      "description": "스캐터랩"
+    },
+    {
+      "name": "Wrtn Technologies",
+      "keywords": ["wrtn", "뤼튼", "rytn"],
+      "description": "뤼튼테크놀로지스"
+    },
+    {
+      "name": "42Maru",
+      "keywords": ["42maru", "포티투마루"],
+      "description": "42마루"
+    }
+  ]
+}

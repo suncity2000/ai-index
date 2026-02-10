@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Analysis Index - AI 모델 성능 분석</title>
+    <meta name="description" content="AI 모델들의 성능을 종합적으로 분석하고 비교하는 대시보드">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom Tailwind Config -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-200">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white/80 dark:bg-gray-800/80 backdrop-blur-lg border-b border-gray-200 dark:border-gray-700">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-4">
+                    <h1 class="text-2xl md:text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                        🤖 AI Analysis Index
+                    </h1>
+                </div>
+
+                <!-- Theme Toggle -->
+                <button id="theme-toggle" class="p-2 rounded-lg bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
+                    <svg id="theme-icon-light" class="w-6 h-6 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                    </svg>
+                    <svg id="theme-icon-dark" class="w-6 h-6 block dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Stats Bar -->
+    <div class="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-6">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4">
+                    <div class="text-sm opacity-90">전체 추적 모델</div>
+                    <div class="text-3xl font-bold mt-1">
+                        <span id="total-models">-</span>
+                        <span class="text-lg font-normal ml-1">개</span>
+                    </div>
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4">
+                    <div class="text-sm opacity-90">🇰🇷 한국 서비스</div>
+                    <div class="text-3xl font-bold mt-1">
+                        <span id="korean-models">-</span>
+                        <span class="text-lg font-normal ml-1">개</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+        <!-- Category Tabs -->
+        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg mb-6 overflow-hidden">
+            <div class="border-b border-gray-200 dark:border-gray-700">
+                <nav class="flex overflow-x-auto" id="category-tabs">
+                    <button data-category="llm" class="category-tab active px-6 py-4 font-medium text-sm whitespace-nowrap border-b-2 border-blue-500 text-blue-600 dark:text-blue-400">
+                        💬 LLM
+                    </button>
+                    <button data-category="text-to-image" class="category-tab px-6 py-4 font-medium text-sm whitespace-nowrap border-b-2 border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200">
+                        🎨 Text-to-Image
+                    </button>
+                    <button data-category="text-to-speech" class="category-tab px-6 py-4 font-medium text-sm whitespace-nowrap border-b-2 border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200">
+                        🎙️ Text-to-Speech
+                    </button>
+                    <button data-category="text-to-video" class="category-tab px-6 py-4 font-medium text-sm whitespace-nowrap border-b-2 border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200">
+                        🎬 Text-to-Video
+                    </button>
+                    <button data-category="image-to-video" class="category-tab px-6 py-4 font-medium text-sm whitespace-nowrap border-b-2 border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200">
+                        🎞️ Image-to-Video
+                    </button>
+                </nav>
+            </div>
+
+            <!-- LLM Filter Tabs (only visible for LLM category) -->
+            <div id="llm-filters" class="border-b border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-700/50 p-4">
+                <nav class="flex flex-wrap gap-2">
+                    <button data-filter="overall" class="llm-filter-tab active px-4 py-2 rounded-lg bg-blue-500 text-white font-medium text-sm">
+                        🏆 종합순위
+                    </button>
+                    <button data-filter="coding" class="llm-filter-tab px-4 py-2 rounded-lg bg-gray-200 dark:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium text-sm hover:bg-gray-300 dark:hover:bg-gray-500">
+                        💻 코딩
+                    </button>
+                    <button data-filter="math" class="llm-filter-tab px-4 py-2 rounded-lg bg-gray-200 dark:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium text-sm hover:bg-gray-300 dark:hover:bg-gray-500">
+                        🔢 수학
+                    </button>
+                    <button data-filter="value" class="llm-filter-tab px-4 py-2 rounded-lg bg-gray-200 dark:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium text-sm hover:bg-gray-300 dark:hover:bg-gray-500">
+                        💰 가성비
+                    </button>
+                    <button data-filter="speed" class="llm-filter-tab px-4 py-2 rounded-lg bg-gray-200 dark:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium text-sm hover:bg-gray-300 dark:hover:bg-gray-500">
+                        ⚡ 속도
+                    </button>
+                </nav>
+            </div>
+
+            <!-- Loading State -->
+            <div id="loading" class="p-12 text-center">
+                <div class="inline-block animate-spin rounded-full h-12 w-12 border-4 border-gray-300 border-t-blue-500"></div>
+                <p class="mt-4 text-gray-600 dark:text-gray-400">데이터를 불러오는 중...</p>
+            </div>
+
+            <!-- Content Area -->
+            <div id="content" class="hidden">
+                <!-- Data will be inserted here -->
+            </div>
+        </div>
+
+        <!-- Last Updated -->
+        <div class="text-center text-sm text-gray-500 dark:text-gray-400">
+            <p>마지막 업데이트: <span id="last-updated">-</span></p>
+            <p class="mt-1">데이터 출처: <a href="https://artificialanalysis.ai" target="_blank" class="text-blue-500 hover:underline">Artificial Analysis</a></p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 mt-12">
+        <div class="container mx-auto px-4 py-6 text-center text-sm text-gray-600 dark:text-gray-400">
+            <p>© 2024 AI Analysis Index. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
