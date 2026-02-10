@@ -114,7 +114,9 @@ function updateStats() {
 
 // Check if company is Korean
 function isKoreanCompany(item) {
-    const searchText = `${item.model_name || item.name || ''} ${item.provider || item.company || ''}`.toLowerCase();
+    const modelName = item.model_name || item.name || '';
+    const companyName = item.model_creator?.name || item.provider || item.company || '';
+    const searchText = `${modelName} ${companyName}`.toLowerCase();
     return koreanCompanies.some(company =>
         company.keywords.some(keyword => searchText.includes(keyword.toLowerCase()))
     );
@@ -176,7 +178,7 @@ function renderLLMContent() {
     }
 
     // Determine which field to sort by
-    let sortField, sortLabel;
+    let sortField, sortLabel, sortOrder = 'desc';
     switch (currentFilter) {
         case 'coding':
             sortField = 'artificial_analysis_coding_index';
@@ -187,11 +189,12 @@ function renderLLMContent() {
             sortLabel = '수학 점수';
             break;
         case 'value':
-            sortField = 'value_score'; // This might need adjustment based on actual API
+            sortField = 'price_1m_blended_3_to_1';
             sortLabel = '가성비 점수';
+            sortOrder = 'asc'; // Lower is better for price
             break;
         case 'speed':
-            sortField = 'speed'; // This might need adjustment based on actual API
+            sortField = 'median_output_tokens_per_second';
             sortLabel = '속도';
             break;
         default:
@@ -199,10 +202,31 @@ function renderLLMContent() {
             sortLabel = '종합 점수';
     }
 
+    // Helper function to get value from item
+    const getValue = (item, field) => {
+        // For evaluation fields, check evaluations object
+        if (item.evaluations && item.evaluations[field] !== undefined) {
+            return item.evaluations[field];
+        }
+        // For pricing/speed fields, check pricing/root object
+        if (item.pricing && item.pricing[field] !== undefined) {
+            return item.pricing[field];
+        }
+        // Check root object
+        return item[field];
+    };
+
     // Sort and filter data
     const sortedData = data
-        .filter(item => item[sortField] !== null && item[sortField] !== undefined)
-        .sort((a, b) => (b[sortField] || 0) - (a[sortField] || 0))
+        .filter(item => {
+            const value = getValue(item, sortField);
+            return value !== null && value !== undefined;
+        })
+        .sort((a, b) => {
+            const aVal = getValue(a, sortField) || 0;
+            const bVal = getValue(b, sortField) || 0;
+            return sortOrder === 'asc' ? aVal - bVal : bVal - aVal;
+        })
         .slice(0, 20);
 
     const getMedalEmoji = (rank) => {
@@ -219,8 +243,9 @@ function renderLLMContent() {
                 ${sortedData.map((item, index) => {
                     const rank = index + 1;
                     const isKorean = isKoreanCompany(item);
-                    const score = item[sortField];
+                    const score = getValue(item, sortField);
                     const medal = getMedalEmoji(rank);
+                    const provider = item.model_creator?.name || item.provider || item.company || '-';
 
                     return `
                         <div class="flex items-center justify-between p-4 bg-gray-50 dark:bg-gray-700/50 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
@@ -231,19 +256,19 @@ function renderLLMContent() {
                                 ${medal ? `<div class="text-3xl">${medal}</div>` : '<div class="w-8"></div>'}
                                 <div class="flex-1">
                                     <div class="font-semibold text-lg">
-                                        ${item.model_name || item.name || 'Unknown'}
+                                        ${item.name || item.model_name || 'Unknown'}
                                         ${isKorean ? '<span class="ml-2 text-xl">🇰🇷</span>' : ''}
                                     </div>
                                     <div class="text-sm text-gray-600 dark:text-gray-400">
-                                        ${item.provider || item.company || '-'}
+                                        ${provider}
                                     </div>
                                 </div>
                             </div>
                             <div class="text-right">
                                 <div class="text-2xl font-bold text-blue-600 dark:text-blue-400">
-                                    ${score ? score.toFixed(1) : '-'}
+                                    ${score ? score.toFixed(currentFilter === 'value' ? 3 : 1) : '-'}
                                 </div>
-                                <div class="text-xs text-gray-500 dark:text-gray-400">점</div>
+                                <div class="text-xs text-gray-500 dark:text-gray-400">${currentFilter === 'value' ? '$' : currentFilter === 'speed' ? 'tok/s' : '점'}</div>
                             </div>
                         </div>
                     `;
