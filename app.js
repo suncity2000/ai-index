@@ -178,7 +178,7 @@ function renderLLMContent() {
     }
 
     // Determine which field to sort by
-    let sortField, sortLabel, sortOrder = 'desc';
+    let sortField, sortLabel, sortOrder = 'desc', isValueRatio = false;
     switch (currentFilter) {
         case 'coding':
             sortField = 'artificial_analysis_coding_index';
@@ -189,9 +189,9 @@ function renderLLMContent() {
             sortLabel = '수학 점수';
             break;
         case 'value':
-            sortField = 'price_1m_blended_3_to_1';
+            sortField = 'value_ratio'; // Special calculated field
             sortLabel = '가성비 점수';
-            sortOrder = 'asc'; // Lower is better for price
+            isValueRatio = true;
             break;
         case 'speed':
             sortField = 'median_output_tokens_per_second';
@@ -204,6 +204,16 @@ function renderLLMContent() {
 
     // Helper function to get value from item
     const getValue = (item, field) => {
+        // Special handling for value ratio (performance / price)
+        if (field === 'value_ratio') {
+            const performance = item.evaluations?.artificial_analysis_intelligence_index;
+            const price = item.pricing?.price_1m_blended_3_to_1;
+            if (performance && price && price > 0) {
+                return performance / price; // Higher is better
+            }
+            return null;
+        }
+
         // For evaluation fields, check evaluations object
         if (item.evaluations && item.evaluations[field] !== undefined) {
             return item.evaluations[field];
@@ -225,7 +235,7 @@ function renderLLMContent() {
         .sort((a, b) => {
             const aVal = getValue(a, sortField) || 0;
             const bVal = getValue(b, sortField) || 0;
-            return sortOrder === 'asc' ? aVal - bVal : bVal - aVal;
+            return bVal - aVal; // Always descending (higher is better)
         })
         .slice(0, 20);
 
@@ -266,9 +276,9 @@ function renderLLMContent() {
                             </div>
                             <div class="text-right">
                                 <div class="text-2xl font-bold text-blue-600 dark:text-blue-400">
-                                    ${score ? score.toFixed(currentFilter === 'value' ? 3 : 1) : '-'}
+                                    ${score ? score.toFixed(currentFilter === 'value' ? 1 : currentFilter === 'speed' ? 0 : 1) : '-'}
                                 </div>
-                                <div class="text-xs text-gray-500 dark:text-gray-400">${currentFilter === 'value' ? '$' : currentFilter === 'speed' ? 'tok/s' : '점'}</div>
+                                <div class="text-xs text-gray-500 dark:text-gray-400">${currentFilter === 'value' ? '점/$' : currentFilter === 'speed' ? 'tok/s' : '점'}</div>
                             </div>
                         </div>
                     `;
