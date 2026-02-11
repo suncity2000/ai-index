@@ -78,6 +78,34 @@
         </div>
     </header>
 
+    <!-- AI News Section -->
+    <div class="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 overflow-hidden">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex items-center gap-3 mb-3">
+                <h2 class="text-lg font-bold text-gray-900 dark:text-gray-100 flex items-center gap-2">
+                    📰 AI 최신 뉴스
+                </h2>
+                <span class="text-xs text-gray-500 dark:text-gray-400" id="news-last-updated">-</span>
+            </div>
+            <div class="relative">
+                <!-- Loading State -->
+                <div id="news-loading" class="flex items-center justify-center py-4">
+                    <div class="animate-spin rounded-full h-6 w-6 border-2 border-gray-300 border-t-blue-500"></div>
+                </div>
+                <!-- News Container -->
+                <div id="news-container" class="hidden">
+                    <div class="flex gap-3 overflow-x-auto pb-2 scroll-smooth snap-x snap-mandatory" id="news-scroll">
+                        <!-- News items will be inserted here -->
+                    </div>
+                </div>
+                <!-- Error State -->
+                <div id="news-error" class="hidden text-center py-4 text-gray-500 dark:text-gray-400 text-sm">
+                    뉴스를 불러올 수 없습니다
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Stats Bar -->
     <div class="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-6">
         <div class="container mx-auto px-4">
