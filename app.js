@@ -261,6 +261,7 @@ function renderLLMContent() {
                     const score = getValue(item, sortField);
                     const medal = getMedalEmoji(rank);
                     const provider = item.model_creator?.name || item.provider || item.company || '-';
+                    const modelUrl = item.slug ? `https://artificialanalysis.ai/models/${item.slug}` : null;
 
                     return `
                         <div class="flex items-center justify-between p-4 bg-gray-50 dark:bg-gray-700/50 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
@@ -271,7 +272,7 @@ function renderLLMContent() {
                                 ${medal ? `<div class="text-3xl">${medal}</div>` : '<div class="w-8"></div>'}
                                 <div class="flex-1">
                                     <div class="font-semibold text-lg">
-                                        ${item.name || item.model_name || 'Unknown'}
+                                        ${modelUrl ? `<a href="${modelUrl}" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline">${item.name || item.model_name || 'Unknown'}</a>` : (item.name || item.model_name || 'Unknown')}
                                         ${isKorean ? '<span class="ml-2 text-xl">🇰🇷</span>' : ''}
                                     </div>
                                     <div class="text-sm text-gray-600 dark:text-gray-400">
@@ -320,9 +321,21 @@ function renderMediaContent() {
         'image-to-video': 'Image-to-Video'
     };
 
+    const categoryEmojis = {
+        'text-to-image': '🎨',
+        'text-to-speech': '🎙️',
+        'text-to-video': '🎬',
+        'image-to-video': '🎞️'
+    };
+
     return `
         <div class="p-6">
-            <h2 class="text-2xl font-bold mb-6">🏆 ${categoryNames[currentCategory]} 순위</h2>
+            <div class="flex items-center gap-2 mb-6">
+                <h2 class="text-2xl font-bold">${categoryEmojis[currentCategory]} ${categoryNames[currentCategory]} 순위</h2>
+                <button onclick="showScoreInfoModal('${currentCategory}')" class="flex items-center justify-center w-6 h-6 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors text-gray-600 dark:text-gray-400 text-sm font-bold" title="ELO 점수 설명">
+                    ?
+                </button>
+            </div>
             <div class="overflow-x-auto">
                 <table class="w-full">
                     <thead>
@@ -340,6 +353,8 @@ function renderMediaContent() {
                             const rank = index + 1;
                             const isKorean = isKoreanCompany(item);
                             const medal = getMedalEmoji(rank);
+                            const modelUrl = item.slug ? `https://artificialanalysis.ai/models/${item.slug}` : null;
+                            const company = item.model_creator?.name || item.company || item.provider || '-';
 
                             return `
                                 <tr class="border-b border-gray-100 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors">
@@ -351,12 +366,12 @@ function renderMediaContent() {
                                     </td>
                                     <td class="py-4 px-4">
                                         <div class="font-semibold">
-                                            ${item.name || item.model_name || 'Unknown'}
+                                            ${modelUrl ? `<a href="${modelUrl}" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline">${item.name || item.model_name || 'Unknown'}</a>` : (item.name || item.model_name || 'Unknown')}
                                             ${isKorean ? '<span class="ml-2">🇰🇷</span>' : ''}
                                         </div>
                                     </td>
                                     <td class="py-4 px-4 text-gray-600 dark:text-gray-400">
-                                        ${item.company || item.provider || '-'}
+                                        ${company}
                                     </td>
                                     <td class="py-4 px-4 text-right">
                                         <span class="font-bold text-blue-600 dark:text-blue-400 text-lg">
@@ -364,12 +379,20 @@ function renderMediaContent() {
                                         </span>
                                     </td>
                                     <td class="py-4 px-4 text-right text-gray-600 dark:text-gray-400">
-                                        ${item.num_ratings || item.evaluations || '-'}
+                                        ${item.appearances ? item.appearances.toLocaleString() : '-'}
                                     </td>
                                     <td class="py-4 px-4 text-right text-gray-600 dark:text-gray-400">
                                         ${item.release_date ? new Date(item.release_date).toLocaleDateString('ko-KR') : '-'}
                                     </td>
                                 </tr>
+                            `;
+                        }).join('')}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    `;
+}
                             `;
                         }).join('')}
                     </tbody>
@@ -542,6 +565,147 @@ function showScoreInfoModal(filterType) {
                     <p class="text-sm">
                         중앙값 출력 토큰 속도(median output tokens per second)를 기준으로 측정됩니다.
                     </p>
+                </div>
+            `
+        },
+        'text-to-image': {
+            title: '🎨 Text-to-Image ELO 점수란?',
+            content: `
+                <p class="leading-relaxed">
+                    <strong class="text-blue-600 dark:text-blue-400">ELO 점수</strong>는
+                    텍스트를 이미지로 변환하는 AI 모델의 성능을 측정하는 지표입니다.
+                </p>
+                <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 ELO 시스템이란?</h4>
+                    <p class="text-sm mb-2">
+                        체스 등급 시스템에서 유래한 <strong>상대 평가 시스템</strong>입니다.
+                    </p>
+                    <ul class="text-sm space-y-1 list-disc list-inside">
+                        <li>1200+ : 우수한 성능</li>
+                        <li>1000-1200 : 평균 이상</li>
+                        <li>1000 미만 : 평균 이하</li>
+                    </ul>
+                </div>
+                <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">🎯 평가 방법</h4>
+                    <p class="text-sm">
+                        사용자들이 같은 프롬프트로 생성된 두 이미지를 비교하여 더 나은 결과를 선택합니다.
+                        승리/패배에 따라 점수가 조정됩니다.
+                    </p>
+                </div>
+                <div class="bg-green-50 dark:bg-green-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-green-900 dark:text-green-300">💡 평가 기준</h4>
+                    <ul class="text-sm space-y-1 list-disc list-inside">
+                        <li>이미지 품질 및 사실성</li>
+                        <li>프롬프트 이해도</li>
+                        <li>세부 묘사력</li>
+                        <li>창의성 및 예술성</li>
+                    </ul>
+                </div>
+            `
+        },
+        'text-to-speech': {
+            title: '🎙️ Text-to-Speech ELO 점수란?',
+            content: `
+                <p class="leading-relaxed">
+                    <strong class="text-blue-600 dark:text-blue-400">ELO 점수</strong>는
+                    텍스트를 음성으로 변환하는 AI 모델의 성능을 측정하는 지표입니다.
+                </p>
+                <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 ELO 시스템이란?</h4>
+                    <p class="text-sm mb-2">
+                        상대 평가 방식으로, 모델 간 직접 비교를 통해 점수가 결정됩니다.
+                    </p>
+                    <ul class="text-sm space-y-1 list-disc list-inside">
+                        <li>1100+ : 우수한 음성 품질</li>
+                        <li>1000-1100 : 평균 이상</li>
+                        <li>1000 미만 : 평균 이하</li>
+                    </ul>
+                </div>
+                <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">🎯 평가 방법</h4>
+                    <p class="text-sm">
+                        사용자들이 같은 텍스트로 생성된 두 음성을 듣고 더 자연스러운 음성을 선택합니다.
+                    </p>
+                </div>
+                <div class="bg-green-50 dark:bg-green-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-green-900 dark:text-green-300">💡 평가 기준</h4>
+                    <ul class="text-sm space-y-1 list-disc list-inside">
+                        <li>음성의 자연스러움</li>
+                        <li>발음 정확도</li>
+                        <li>감정 표현력</li>
+                        <li>억양 및 리듬</li>
+                    </ul>
+                </div>
+            `
+        },
+        'text-to-video': {
+            title: '🎬 Text-to-Video ELO 점수란?',
+            content: `
+                <p class="leading-relaxed">
+                    <strong class="text-blue-600 dark:text-blue-400">ELO 점수</strong>는
+                    텍스트 설명으로 비디오를 생성하는 AI 모델의 성능을 측정하는 지표입니다.
+                </p>
+                <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 ELO 시스템이란?</h4>
+                    <p class="text-sm mb-2">
+                        모델 간 직접 비교를 통한 상대 평가 시스템입니다.
+                    </p>
+                    <ul class="text-sm space-y-1 list-disc list-inside">
+                        <li>1200+ : 최고 수준의 비디오 품질</li>
+                        <li>1000-1200 : 평균 이상</li>
+                        <li>1000 미만 : 평균 이하</li>
+                    </ul>
+                </div>
+                <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">🎯 평가 방법</h4>
+                    <p class="text-sm">
+                        동일한 프롬프트로 생성된 비디오들을 비교하여 더 우수한 결과를 선택합니다.
+                    </p>
+                </div>
+                <div class="bg-green-50 dark:bg-green-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-green-900 dark:text-green-300">💡 평가 기준</h4>
+                    <ul class="text-sm space-y-1 list-disc list-inside">
+                        <li>영상 품질 및 해상도</li>
+                        <li>움직임의 자연스러움</li>
+                        <li>프롬프트 충실도</li>
+                        <li>일관성 및 연속성</li>
+                    </ul>
+                </div>
+            `
+        },
+        'image-to-video': {
+            title: '🎞️ Image-to-Video ELO 점수란?',
+            content: `
+                <p class="leading-relaxed">
+                    <strong class="text-blue-600 dark:text-blue-400">ELO 점수</strong>는
+                    정지 이미지를 동영상으로 변환하는 AI 모델의 성능을 측정하는 지표입니다.
+                </p>
+                <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 ELO 시스템이란?</h4>
+                    <p class="text-sm mb-2">
+                        실제 대결 결과를 기반으로 한 상대 평가 시스템입니다.
+                    </p>
+                    <ul class="text-sm space-y-1 list-disc list-inside">
+                        <li>1300+ : 탁월한 애니메이션 품질</li>
+                        <li>1000-1300 : 평균 이상</li>
+                        <li>1000 미만 : 평균 이하</li>
+                    </ul>
+                </div>
+                <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">🎯 평가 방법</h4>
+                    <p class="text-sm">
+                        같은 이미지로 생성된 영상들을 비교하여 더 자연스럽고 품질 좋은 결과를 선택합니다.
+                    </p>
+                </div>
+                <div class="bg-green-50 dark:bg-green-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-green-900 dark:text-green-300">💡 평가 기준</h4>
+                    <ul class="text-sm space-y-1 list-disc list-inside">
+                        <li>움직임의 자연스러움</li>
+                        <li>원본 이미지 충실도</li>
+                        <li>시간적 일관성</li>
+                        <li>물리 법칙 준수</li>
+                    </ul>
                 </div>
             `
         }
