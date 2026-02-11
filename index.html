@@ -66,12 +66,12 @@
                 </div>
 
                 <!-- Theme Toggle -->
-                <button id="theme-toggle" class="p-3 rounded-xl bg-white dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 transition-all shadow-md hover:shadow-lg">
-                    <svg id="theme-icon-light" class="w-6 h-6 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                <button id="theme-toggle" class="relative p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-300 group">
+                    <svg id="theme-icon-light" class="w-5 h-5 hidden dark:block text-yellow-400 group-hover:rotate-180 transition-transform duration-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"/>
                     </svg>
-                    <svg id="theme-icon-dark" class="w-6 h-6 block dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                    <svg id="theme-icon-dark" class="w-5 h-5 block dark:hidden text-indigo-600 group-hover:rotate-[-15deg] transition-transform duration-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/>
                     </svg>
                 </button>
             </div>
@@ -80,28 +80,42 @@
 
     <!-- AI News Section -->
     <div class="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 overflow-hidden">
-        <div class="container mx-auto px-4 py-4">
-            <div class="flex items-center gap-3 mb-3">
-                <h2 class="text-lg font-bold text-gray-900 dark:text-gray-100 flex items-center gap-2">
-                    📰 AI 최신 뉴스
-                </h2>
-                <span class="text-xs text-gray-500 dark:text-gray-400" id="news-last-updated">-</span>
-            </div>
-            <div class="relative">
-                <!-- Loading State -->
-                <div id="news-loading" class="flex items-center justify-center py-4">
-                    <div class="animate-spin rounded-full h-6 w-6 border-2 border-gray-300 border-t-blue-500"></div>
-                </div>
-                <!-- News Container -->
-                <div id="news-container" class="hidden">
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4" id="news-scroll">
-                        <!-- News items will be inserted here -->
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex items-center justify-between gap-3">
+                <div class="flex items-center gap-3 flex-1 min-w-0">
+                    <h2 class="text-lg font-bold text-gray-900 dark:text-gray-100 flex items-center gap-2 flex-shrink-0">
+                        📰 AI 최신 뉴스
+                    </h2>
+                    <!-- News Ticker -->
+                    <div id="news-ticker" class="hidden flex-1 min-w-0 relative h-8 overflow-hidden cursor-pointer group" onclick="toggleNewsExpand()">
+                        <div id="news-ticker-content" class="absolute transition-transform duration-500 ease-in-out">
+                            <!-- Ticker items will be inserted here -->
+                        </div>
+                        <div class="absolute right-0 top-0 h-full w-20 bg-gradient-to-l from-white dark:from-gray-800 to-transparent pointer-events-none"></div>
                     </div>
+                    <span class="text-xs text-gray-500 dark:text-gray-400 flex-shrink-0" id="news-last-updated">-</span>
                 </div>
-                <!-- Error State -->
-                <div id="news-error" class="hidden text-center py-4 text-gray-500 dark:text-gray-400 text-sm">
-                    뉴스를 불러올 수 없습니다
-                </div>
+                <button id="news-expand-btn" class="hidden text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors text-sm font-medium flex items-center gap-1" onclick="toggleNewsExpand()">
+                    <span id="expand-text">전체보기</span>
+                    <svg id="expand-icon" class="w-4 h-4 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Loading State -->
+            <div id="news-loading" class="flex items-center justify-center py-4">
+                <div class="animate-spin rounded-full h-6 w-6 border-2 border-gray-300 border-t-blue-500"></div>
+            </div>
+
+            <!-- Expanded News Grid -->
+            <div id="news-expanded" class="hidden mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 max-h-0 overflow-hidden transition-all duration-500">
+                <!-- News cards will be inserted here -->
+            </div>
+
+            <!-- Error State -->
+            <div id="news-error" class="hidden text-center py-4 text-gray-500 dark:text-gray-400 text-sm">
+                뉴스를 불러올 수 없습니다
             </div>
         </div>
     </div>
