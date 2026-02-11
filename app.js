@@ -263,7 +263,7 @@ function renderLLMContent() {
                     const score = getValue(item, sortField);
                     const medal = getMedalEmoji(rank);
                     const provider = item.model_creator?.name || item.provider || item.company || '-';
-                    const modelUrl = item.slug ? `https://artificialanalysis.ai/models/${item.slug}` : null;
+                    const modelUrl = getModelUrl('llm', item.slug);
 
                     return `
                         <div class="flex items-center justify-between p-4 bg-gray-50 dark:bg-gray-700/50 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
@@ -294,6 +294,18 @@ function renderLLMContent() {
             </div>
         </div>
     `;
+}
+
+// Helper function to generate model URL based on category
+function getModelUrl(category, slug) {
+    if (!slug) return null;
+
+    if (category === 'llm') {
+        return `https://artificialanalysis.ai/models/${slug}`;
+    } else {
+        // For media categories: text-to-image, text-to-speech, etc.
+        return `https://artificialanalysis.ai/${category}/providers/${slug}`;
+    }
 }
 
 // Render media content (Text-to-Image, etc.)
@@ -355,7 +367,7 @@ function renderMediaContent() {
                             const rank = index + 1;
                             const isKorean = isKoreanCompany(item);
                             const medal = getMedalEmoji(rank);
-                            const modelUrl = item.slug ? `https://artificialanalysis.ai/models/${item.slug}` : null;
+                            const modelUrl = getModelUrl(currentCategory, item.slug);
                             const company = item.model_creator?.name || item.company || item.provider || '-';
 
                             return `
@@ -489,7 +501,7 @@ function renderKoreanServicesContent() {
                     </thead>
                     <tbody>
                         ${koreanServices.map((service) => {
-                            const modelUrl = service.slug ? `https://artificialanalysis.ai/models/${service.slug}` : null;
+                            const modelUrl = getModelUrl(service.category, service.slug);
                             const rankDisplay = `${service.rank}/${service.totalInCategory}`;
 
                             return `
