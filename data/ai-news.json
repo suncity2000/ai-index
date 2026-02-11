@@ -1,11 +1,17 @@
 {
-  "last_updated": "2026-02-11T08:27:16.025Z",
+  "last_updated": "2026-02-11T08:47:56.448Z",
   "news": [
     {
-      "title": "LG 인공지능, 하버드·MS 꺾고 암 진단 성능 '1위'",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8taG1Gb2RSVnRCUWlwSGRIclhCTTAtQXI4ek9WVEZZNkNKUW1HYk11Q29jRl9wbEh0TFZ5VmFJeE03LXo2QWtneWlSY0hraXQtZ1h0VWVIRGFWcE5Kb3pPbGQxVXhldmZDSzc1dllLTVRHSVJT?oc=5",
-      "source": "데일리메디",
-      "date": "Tue, 10 Feb 2026 20:01:00 GMT"
+      "title": "생성형 AI, 업무 효율 높이지만 직원 부담도 증가",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1iQUV1YmF4NTZXZC1TYlB6TlQtd1plQkxVQkVtOWEwR05lR3liMkZBbkI5cjMwYjBienFOb05yOGVvamtKc3JNVTh0QnJRdl9GeU1ZQnA3TV9rOU95eFBKd0FoSVdWeHZ2MHVYWkhQV0dneEk?oc=5",
+      "source": "디지털투데이",
+      "date": "Tue, 10 Feb 2026 23:52:31 GMT"
+    },
+    {
+      "title": "오픈AI, 월 8달러 저가 구독 ‘챗GPT 고’ 전 세계 출시…광고 도입도 예고",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9tNTU0ZVZmbXVrMnZ1RzBzeXNKRmVVeHo4SnYtaHdUazFuSUJUNVhNTk5yOEcyQVpaRVhpUXBRUW5OSjk2RnNObHBFa1lSM0U?oc=5",
+      "source": "와우테일",
+      "date": "Tue, 10 Feb 2026 14:17:12 GMT"
     },
     {
       "title": "AI 3강 로드맵 윤곽…'인공지능행동계획' 국무회의 보고",
@@ -14,16 +20,10 @@
       "date": "Tue, 10 Feb 2026 08:45:15 GMT"
     },
     {
-      "title": "기상청, 인공지능(AI) 이용한 바람·햇빛 분석 정보 공개",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA4czBJS2gzTnpzN3l1Slh3QWJ1cWhJYVc1OXpPblhaZXhtNmZlQmJWSzZsV05TYVlBZHdEeFRBUUk1UlNCd010NGEwNWtmSUU?oc=5",
-      "source": "v.daum.net",
-      "date": "Tue, 10 Feb 2026 06:50:44 GMT"
-    },
-    {
-      "title": "[AI와 보안] 정부 ‘AI 통합 보안 플랫폼’ 개발에 70억원 배정... ‘AX 스프린트’ 띄운다",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoUFZaVnpqcEZOR3FsRkRSWGl4V1BBWHA3QlRQcW5ldnZFMXh6QzY2Z0FnTkNzcGVkdTh5RVRhMmFYUDZiOVpvUjFPeFNhRFBrWnVtOXhGU3ctYmtaRWVRYQ?oc=5",
-      "source": "보안뉴스",
-      "date": "Tue, 10 Feb 2026 03:59:00 GMT"
+      "title": "OpenAI가 ChatGPT에서 광고 테스트를 시작했습니다.",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5VRGQwb1lDampnQ1JhNG9hbXc0dDRPT012eVZfRXBlUlhRQUF2SzV6QVNtVDFtYjRLVE1YdmZUQkRlRVd2dERucTFqZmROZGtfbWdodG5FOGdKNFJieUhPQ2pRNFdFOWlaRG1JYUtOdlY5S1dWUWlIOWVMWHhtX1E?oc=5",
+      "source": "Vietnam.vn",
+      "date": "Tue, 10 Feb 2026 05:39:00 GMT"
     },
     {
       "title": "행안부, 공공부문 인공지능 도입·확산 지원... ‘AI 민주정부 실현’ 속도 높인다",
@@ -32,10 +32,10 @@
       "date": "Tue, 10 Feb 2026 03:40:47 GMT"
     },
     {
-      "title": "인공지능(AI)과 우주의 법칙",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yTlhCNy0xc2h3Mll3ZnFqd1RfMUdoRzJ5VUhDaGxjbjFOM0E5RXNSWDlhU2VoM3pzR1ZPVlVNVVpWZ2FGTjFoM0pmS2NMTVRER2UyVWxPTHdMSXJTQ1ZaenllM1BRUzBVN0R5YXpjaDTSAXNBVV95cUxOZzlfLURoSlZMblNkdmxsRnNhbmMtcGdZb3phcm0wWVhVSjVyR1U0WEFtaDJYcWp4UXk2SUVXSk9Yb3pCbWpnZ0VVUFdjOFh3U21Ed3JnRkNmMUpENk03bGM5eDU5TFo0WkNURUpKb2p4VG4w?oc=5",
-      "source": "K스피릿",
-      "date": "Mon, 09 Feb 2026 19:29:27 GMT"
+      "title": "[오픈AI, ChatGPT에 광고 전격 도입... \"수익성 강화 vs 사용자 반발\" 분수령] 오픈AI, 미국서 ChatGPT 광고 테스트 개시…무료 및 Go 플랜 대상",
+      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9QR1VPTW0xMkZsXzZyaVFEYkx3ZjlGVXFYWWRrdWdDTlJfa3kwYUN3dXVPbHdOVmVJcFF3b1d2N1Y?oc=5",
+      "source": "AI넷",
+      "date": "Mon, 09 Feb 2026 23:59:00 GMT"
     },
     {
       "title": "[AI의 심장, 데이터센터(上)] 전국 70여곳 ‘AI 인프라’ 건설 열기",
@@ -44,16 +44,16 @@
       "date": "Mon, 09 Feb 2026 11:07:54 GMT"
     },
     {
-      "title": "[SNS로 보는 세상] 인공지능끼리 대화에 인간은 ‘쉿!’",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE13dXBZT2l5X2tSZTlWaFF3aFZjQXJ0cVdIM0pfcWxMZFJWTURtMmcyNmc2VHpMTjdnNEd3S0VvNUp3NHMxN1NTTDZyUDBRamlWUDBLYV9xV3gyQQ?oc=5",
-      "source": "농민신문",
-      "date": "Mon, 09 Feb 2026 08:00:00 GMT"
+      "title": "생성형 AI 유료구독, 2년만에 5배 증가…20대가 가장 많아",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5heEsyd0dmczZSTlZTNjBWelo4NUtnNlBpMEZUWDZVZGQtbFJ6QThVTjhfVEcxeXlBSUdsZ29SRUR4WGNzNGRZdnNlQW9oUG1vMVFNY0hRWEdXUdIBX0FVX3lxTFB5NWUtNFg0U2ZQSklNQTA2c216bnhtb1MtaVdhM3IzRkYxNU96Tnh5b0hDVEMwWHJPclRKTDczcHNWb2hOOFQ3aXB5X2dIOGVTamZxeEJqQzZ5emo1bWxz?oc=5",
+      "source": "경향신문",
+      "date": "Sun, 08 Feb 2026 07:58:00 GMT"
     },
     {
-      "title": "코티, 인공지능 연구기관 ‘오픈AI’와 전략 제휴",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZm9KOEY2R2N1Qlhsdnd0TXpFc25xRFpVMTdEeXp6YlU2STQya2pURWttNURvWVBWcUMxTWpHME5XRnE2dG5UZWRmRk9oNTB4SDMwU3NYMVd0MXNNNTc5VndKSkl6M0JkblEzSHN1QkQyZ2Uzbkl1UXJTTm15MjEzQmxUdmx1cUpub09OZUFxQjRXMkU?oc=5",
-      "source": "약업신문",
-      "date": "Sun, 08 Feb 2026 21:05:00 GMT"
+      "title": "“AI 구독 시대 성큼”… 생성형 AI 유료 이용 2년 새 5배 급증",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5hbHhiQkgyRFExTzNmMDk4NmFkM0JkbXIxejBqUHF6Y2hvaTRKYnd5MFcwOER5cVR4b1Rrem5qbGdBV1UzMFE?oc=5",
+      "source": "v.daum.net",
+      "date": "Sun, 08 Feb 2026 06:15:06 GMT"
     },
     {
       "title": "동대문구, ‘AI 공존도시’ 선언…생활 현장에 인공지능 접목 본격화",
@@ -68,10 +68,10 @@
       "date": "Sun, 08 Feb 2026 01:27:00 GMT"
     },
     {
-      "title": "[기고] AI 시대, 축산 명인이 필요한 이유",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1WWcxdjBPaF9fQ3NoblVnR1drdjBfRkRzX3FYM196alE2X0d0MkVoZ2dWUGlDVEVRNUZITERlWlVpVmk0WGZHdGdDUjAwZkE3UU5oWjNHdk5KVVFnMF9YTXZpZi11ZDF2SndIZjQ3MzZLZ9IBckFVX3lxTFB1WWcxdjBPaF9fQ3NoblVnR1drdjBfRkRzX3FYM196alE2X0d0MkVoZ2dWUGlDVEVRNUZITERlWlVpVmk0WGZHdGdDUjAwZkE3UU5oWjNHdk5KVVFnMF9YTXZpZi11ZDF2SndIZjQ3MzZLZw?oc=5",
-      "source": "축산경제신문",
-      "date": "Fri, 06 Feb 2026 08:00:00 GMT"
+      "title": "오픈AI, GPT-5.3-코덱스 출시···코딩·업무 지원 기능 강화",
+      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxNS1ctMDVOenBNVXg4eVFkTGlKakE2WGJaN3hiYTI5N3B0VVJWZzY4OWtUOWNnbldxT1VKREFGSnAzZGhEOElrZmNEeGdIcURXaW05UXBWRkthaUdNaG1LcjMzME5CSGFUbzBRQXFwdE1SRWpGMnRSemhYalBjNGQ1WFoxWExQeVMwX0djX2NXeVY5Q0s1MldyOUNZdkxrYWlPNXJCaVRSWUJVdmt4dXEyNUdTd1llVHJrMHhaMVBUTzNSZHBXS0dzSmVrNFRFM3MwV0tERXdsR3Zqc19xRGMtRERYdVNYXzJKUWNSU05TUE9wVGZkSDAtLTRBamJxMmZyeUlLYjN4LWhHa3I0RkxtdVhibVN3NHVJdmJWUW55NFRvR0NlbnJuR3d5Ym9pazh0Wm5CQTVMUkxadVcxVm1fWFNlX1cxZ01Qd0RCa1hZVDJqRnc?oc=5",
+      "source": "cio.com",
+      "date": "Fri, 06 Feb 2026 08:14:45 GMT"
     }
   ]
 }
