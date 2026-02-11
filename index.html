@@ -158,7 +158,7 @@
         <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl max-w-2xl w-full mx-4 overflow-hidden">
             <div class="bg-gradient-to-r from-blue-500 to-purple-600 p-6">
                 <div class="flex items-center justify-between">
-                    <h3 class="text-2xl font-bold text-white flex items-center gap-2">
+                    <h3 id="modal-title" class="text-2xl font-bold text-white flex items-center gap-2">
                         🧠 인공 분석 지능 지수란?
                     </h3>
                     <button onclick="closeInfoModal()" class="text-white/80 hover:text-white transition-colors">
@@ -168,32 +168,8 @@
                     </button>
                 </div>
             </div>
-            <div class="p-6 space-y-4 text-gray-700 dark:text-gray-300">
-                <p class="leading-relaxed">
-                    <strong class="text-blue-600 dark:text-blue-400">인공 분석 지능 지수(Artificial Analysis Intelligence Index)</strong>는
-                    추론, 지식, 수학, 프로그래밍 전반에 걸쳐 언어 모델의 능력을 종합적으로 평가하는 지표입니다.
-                </p>
-                <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
-                    <h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 평가 방법</h4>
-                    <p class="text-sm">
-                        10가지 평가 도구를 통합하여 언어 모델을 비교합니다:
-                        GDPval-AA, τ²-Bench Telecom, Terminal-Bench Hard, SciCode, AA-LCR,
-                        AA-Omniscience, IFBench, Humanity's Last Exam, GPQA Diamond, CritPt 등
-                    </p>
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                    <div class="bg-gray-100 dark:bg-gray-700 rounded-lg p-3">
-                        <div class="text-sm font-semibold mb-1">✅ 신뢰도</div>
-                        <div class="text-xs">95% 신뢰 구간 ±1% 미만</div>
-                    </div>
-                    <div class="bg-gray-100 dark:bg-gray-700 rounded-lg p-3">
-                        <div class="text-sm font-semibold mb-1">🌐 평가 범위</div>
-                        <div class="text-xs">텍스트 전용 영어 평가</div>
-                    </div>
-                </div>
-                <p class="text-sm text-gray-600 dark:text-gray-400 italic">
-                    ※ 모든 평가 지표와 마찬가지로 한계가 있으며, 모든 사용 사례에 직접 적용할 수는 없습니다.
-                </p>
+            <div id="modal-content" class="p-6 space-y-4 text-gray-700 dark:text-gray-300">
+                <!-- Content will be dynamically inserted here -->
             </div>
         </div>
     </div>

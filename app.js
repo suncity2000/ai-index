@@ -250,11 +250,9 @@ function renderLLMContent() {
         <div class="p-6">
             <div class="flex items-center gap-2 mb-6">
                 <h2 class="text-2xl font-bold">🏆 ${sortLabel} 순위</h2>
-                ${currentFilter === 'overall' ? `
-                    <button onclick="showInfoModal()" class="flex items-center justify-center w-6 h-6 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors text-gray-600 dark:text-gray-400 text-sm font-bold" title="지능 지수란?">
-                        ?
-                    </button>
-                ` : ''}
+                <button onclick="showScoreInfoModal('${currentFilter}')" class="flex items-center justify-center w-6 h-6 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors text-gray-600 dark:text-gray-400 text-sm font-bold" title="${sortLabel} 설명">
+                    ?
+                </button>
             </div>
             <div class="space-y-3">
                 ${sortedData.map((item, index) => {
@@ -382,8 +380,177 @@ function renderMediaContent() {
 }
 
 // Modal functions
-function showInfoModal() {
+function showScoreInfoModal(filterType) {
     const modal = document.getElementById('info-modal');
+    const titleEl = document.getElementById('modal-title');
+    const contentEl = document.getElementById('modal-content');
+
+    const scoreInfo = {
+        overall: {
+            title: '🧠 인공 분석 지능 지수란?',
+            content: `
+                <p class="leading-relaxed">
+                    <strong class="text-blue-600 dark:text-blue-400">인공 분석 지능 지수(Artificial Analysis Intelligence Index)</strong>는
+                    추론, 지식, 수학, 프로그래밍 전반에 걸쳐 언어 모델의 능력을 종합적으로 평가하는 지표입니다.
+                </p>
+                <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 점수 체계</h4>
+                    <p class="text-sm">
+                        <strong>0-100점 척도</strong>로 평가되며, 10가지 벤치마크 테스트의 종합 점수입니다.
+                    </p>
+                </div>
+                <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📋 평가 방법</h4>
+                    <p class="text-sm">
+                        GDPval-AA, τ²-Bench Telecom, Terminal-Bench Hard, SciCode, AA-LCR,
+                        AA-Omniscience, IFBench, Humanity's Last Exam, GPQA Diamond, CritPt 등 10가지 평가 도구 통합
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <div class="bg-gray-100 dark:bg-gray-700 rounded-lg p-3">
+                        <div class="text-sm font-semibold mb-1">✅ 신뢰도</div>
+                        <div class="text-xs">95% 신뢰 구간 ±1% 미만</div>
+                    </div>
+                    <div class="bg-gray-100 dark:bg-gray-700 rounded-lg p-3">
+                        <div class="text-sm font-semibold mb-1">🌐 평가 범위</div>
+                        <div class="text-xs">텍스트 전용 영어 평가</div>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-600 dark:text-gray-400 italic">
+                    ※ 모든 평가 지표와 마찬가지로 한계가 있으며, 모든 사용 사례에 직접 적용할 수는 없습니다.
+                </p>
+            `
+        },
+        coding: {
+            title: '💻 코딩 점수란?',
+            content: `
+                <p class="leading-relaxed">
+                    <strong class="text-blue-600 dark:text-blue-400">코딩 지수(Coding Index)</strong>는
+                    프로그래밍 작업을 수행하는 언어 모델의 능력을 평가하는 지표입니다.
+                </p>
+                <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 점수 체계</h4>
+                    <p class="text-sm mb-2">
+                        <strong>0-100점 척도</strong>로 평가됩니다.
+                    </p>
+                    <ul class="text-sm space-y-1 list-disc list-inside">
+                        <li>70점 이상: 고급 프로그래밍 능력</li>
+                        <li>50-70점: 중급 프로그래밍 능력</li>
+                        <li>50점 미만: 기본 프로그래밍 능력</li>
+                    </ul>
+                </div>
+                <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">🎯 평가 항목</h4>
+                    <ul class="text-sm space-y-1 list-disc list-inside">
+                        <li>코드 생성 및 완성</li>
+                        <li>버그 수정 및 디버깅</li>
+                        <li>알고리즘 구현</li>
+                        <li>코드 리팩토링</li>
+                    </ul>
+                </div>
+            `
+        },
+        math: {
+            title: '🔢 수학 점수란?',
+            content: `
+                <p class="leading-relaxed">
+                    <strong class="text-blue-600 dark:text-blue-400">수학 지수(Math Index)</strong>는
+                    수학적 문제 해결 능력을 평가하는 지표입니다.
+                </p>
+                <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 점수 체계</h4>
+                    <p class="text-sm mb-2">
+                        <strong>0-100점 척도</strong>로 평가됩니다.
+                    </p>
+                    <ul class="text-sm space-y-1 list-disc list-inside">
+                        <li>70점 이상: 고급 수학 문제 해결</li>
+                        <li>50-70점: 중급 수학 문제 해결</li>
+                        <li>50점 미만: 기본 수학 문제 해결</li>
+                    </ul>
+                </div>
+                <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">🎯 평가 항목</h4>
+                    <ul class="text-sm space-y-1 list-disc list-inside">
+                        <li>대수학 및 기하학</li>
+                        <li>미적분학 및 확률론</li>
+                        <li>논리적 추론</li>
+                        <li>복잡한 수식 계산</li>
+                    </ul>
+                </div>
+            `
+        },
+        value: {
+            title: '💰 가성비란?',
+            content: `
+                <p class="leading-relaxed">
+                    <strong class="text-blue-600 dark:text-blue-400">가성비(Value for Money)</strong>는
+                    성능 대비 가격 효율성을 나타내는 지표입니다.
+                </p>
+                <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 계산 방식</h4>
+                    <p class="text-sm mb-2">
+                        <strong>가성비 = 지능 지수 / 가격</strong>
+                    </p>
+                    <p class="text-sm">
+                        단위: <strong>점/$</strong> (1달러당 얻는 성능 점수)
+                    </p>
+                </div>
+                <div class="bg-green-50 dark:bg-green-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-green-900 dark:text-green-300">💡 해석 방법</h4>
+                    <ul class="text-sm space-y-1 list-disc list-inside">
+                        <li>높을수록 가성비가 좋음</li>
+                        <li>같은 가격이면 성능이 높은 모델이 유리</li>
+                        <li>같은 성능이면 가격이 낮은 모델이 유리</li>
+                    </ul>
+                </div>
+                <div class="bg-yellow-50 dark:bg-yellow-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-yellow-900 dark:text-yellow-300">⚠️ 참고사항</h4>
+                    <p class="text-sm">
+                        가격은 100만 토큰 기준 혼합 가격(입력:출력 = 3:1)을 사용합니다.
+                    </p>
+                </div>
+            `
+        },
+        speed: {
+            title: '⚡ 속도란?',
+            content: `
+                <p class="leading-relaxed">
+                    <strong class="text-blue-600 dark:text-blue-400">속도(Speed)</strong>는
+                    모델이 초당 생성하는 토큰(단어 조각) 수를 나타냅니다.
+                </p>
+                <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 측정 단위</h4>
+                    <p class="text-sm mb-2">
+                        <strong>tok/s</strong> (tokens per second)
+                    </p>
+                    <ul class="text-sm space-y-1 list-disc list-inside">
+                        <li>100 tok/s 이상: 매우 빠름</li>
+                        <li>50-100 tok/s: 빠름</li>
+                        <li>50 tok/s 미만: 보통</li>
+                    </ul>
+                </div>
+                <div class="bg-green-50 dark:bg-green-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-green-900 dark:text-green-300">💡 중요성</h4>
+                    <ul class="text-sm space-y-1 list-disc list-inside">
+                        <li>실시간 대화에서 중요</li>
+                        <li>긴 문서 생성 시 체감 속도 차이</li>
+                        <li>대량 처리 작업의 효율성</li>
+                    </ul>
+                </div>
+                <div class="bg-yellow-50 dark:bg-yellow-900/20 rounded-lg p-4">
+                    <h4 class="font-semibold mb-2 text-yellow-900 dark:text-yellow-300">⚠️ 참고사항</h4>
+                    <p class="text-sm">
+                        중앙값 출력 토큰 속도(median output tokens per second)를 기준으로 측정됩니다.
+                    </p>
+                </div>
+            `
+        }
+    };
+
+    const info = scoreInfo[filterType] || scoreInfo.overall;
+    titleEl.textContent = info.title;
+    contentEl.innerHTML = info.content;
+
     modal.classList.remove('hidden');
     modal.classList.add('flex');
     document.body.style.overflow = 'hidden';
