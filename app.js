@@ -300,11 +300,18 @@ function renderLLMContent() {
 function getModelUrl(category, slug) {
     if (!slug) return null;
 
-    if (category === 'llm') {
-        return `https://artificialanalysis.ai/models/${slug}`;
-    } else {
-        // For media categories: text-to-image, text-to-speech, etc.
-        return `https://artificialanalysis.ai/${category}/providers/${slug}`;
+    switch (category) {
+        case 'llm':
+            return `https://artificialanalysis.ai/models/${slug}`;
+        case 'text-to-image':
+            return `https://artificialanalysis.ai/image/model-families/${slug}`;
+        case 'text-to-speech':
+            return `https://artificialanalysis.ai/text-to-speech/model-families/${slug}`;
+        case 'text-to-video':
+        case 'image-to-video':
+            return `https://artificialanalysis.ai/video/model-families/${slug}`;
+        default:
+            return null;
     }
 }
 
