@@ -1,0 +1,35 @@
+{
+  "news": [
+    {
+      "title": "OpenAI releases GPT-4.5 with improved reasoning capabilities",
+      "url": "https://openai.com/blog",
+      "source": "OpenAI Blog",
+      "date": "2025-02-10"
+    },
+    {
+      "title": "Google DeepMind announces AlphaCode 3 for advanced programming",
+      "url": "https://deepmind.google/discover/blog",
+      "source": "DeepMind",
+      "date": "2025-02-09"
+    },
+    {
+      "title": "Anthropic's Claude 4 shows breakthrough in scientific reasoning",
+      "url": "https://www.anthropic.com/news",
+      "source": "Anthropic",
+      "date": "2025-02-08"
+    },
+    {
+      "title": "Meta releases Llama 4 with multimodal capabilities",
+      "url": "https://ai.meta.com/blog",
+      "source": "Meta AI",
+      "date": "2025-02-07"
+    },
+    {
+      "title": "Stability AI unveils SDXL 3.0 for photorealistic image generation",
+      "url": "https://stability.ai/news",
+      "source": "Stability AI",
+      "date": "2025-02-06"
+    }
+  ],
+  "last_updated": "2025-02-11T09:00:00Z"
+}

@@ -44,6 +44,65 @@ function initEventListeners() {
     });
 }
 
+// Load and render AI news
+async function loadNews() {
+    try {
+        const response = await fetch('data/ai-news.json');
+        const data = await response.json();
+
+        // Hide loading, show container
+        document.getElementById('news-loading').classList.add('hidden');
+        document.getElementById('news-container').classList.remove('hidden');
+
+        // Update last updated time
+        if (data.last_updated) {
+            const date = new Date(data.last_updated);
+            const formattedDate = date.toLocaleDateString('ko-KR', {
+                month: 'numeric',
+                day: 'numeric'
+            });
+            document.getElementById('news-last-updated').textContent = `업데이트: ${formattedDate}`;
+        }
+
+        // Render news items
+        renderNews(data.news || []);
+    } catch (error) {
+        console.error('Error loading news:', error);
+        document.getElementById('news-loading').classList.add('hidden');
+        document.getElementById('news-error').classList.remove('hidden');
+    }
+}
+
+function renderNews(newsItems) {
+    const container = document.getElementById('news-scroll');
+
+    if (newsItems.length === 0) {
+        container.innerHTML = '<div class="text-gray-500 dark:text-gray-400 text-sm">뉴스가 없습니다</div>';
+        return;
+    }
+
+    container.innerHTML = newsItems.map(news => {
+        const date = new Date(news.date);
+        const formattedDate = date.toLocaleDateString('ko-KR', {
+            month: 'numeric',
+            day: 'numeric'
+        });
+
+        return `
+            <a href="${news.url}" target="_blank" rel="noopener noreferrer"
+               class="flex-shrink-0 w-80 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-700 dark:to-gray-800 rounded-lg p-4 hover:shadow-md transition-all snap-start border border-blue-100 dark:border-gray-600 group">
+                <div class="flex items-start gap-2 mb-2">
+                    <span class="text-xs px-2 py-1 rounded-full bg-blue-500 text-white font-medium">${news.source}</span>
+                    <span class="text-xs text-gray-500 dark:text-gray-400">${formattedDate}</span>
+                </div>
+                <h3 class="text-sm font-semibold text-gray-900 dark:text-gray-100 line-clamp-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    ${news.title}
+                </h3>
+            </a>
+        `;
+    }).join('');
+}
+
 // Load all data
 async function loadData() {
     try {
@@ -51,6 +110,9 @@ async function loadData() {
         const koreanResponse = await fetch('data/korean-companies.json');
         const koreanData = await koreanResponse.json();
         koreanCompanies = koreanData.companies;
+
+        // Load AI news
+        loadNews();
 
         // Load all API data
         const [llm, t2i, t2s, t2v, i2v, lastUpdated] = await Promise.all([
