@@ -24,14 +24,8 @@ const newsSources = [
   {
     name: 'Google News - AI',
     type: 'rss',
-    url: 'https://news.google.com/rss/search?q=인공지능+AI+when:7d&hl=ko&gl=KR&ceid=KR:ko',
-    maxItems: 8
-  },
-  {
-    name: 'Google News - ChatGPT',
-    type: 'rss',
-    url: 'https://news.google.com/rss/search?q=ChatGPT+딥러닝+머신러닝+when:7d&hl=ko&gl=KR&ceid=KR:ko',
-    maxItems: 5
+    url: 'https://news.google.com/rss/search?q=%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5+AI+when:7d&hl=ko&gl=KR&ceid=KR:ko',
+    maxItems: 12
   }
 ];
 
