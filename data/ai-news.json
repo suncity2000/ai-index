@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-11T08:53:50.161Z",
+  "last_updated": "2026-02-11T09:53:11.663Z",
   "news": [
     {
       "title": "생성형 AI, 업무 효율 높이지만 직원 부담도 증가",
@@ -38,6 +38,12 @@
       "date": "Mon, 09 Feb 2026 23:59:00 GMT"
     },
     {
+      "title": "[해외 크리에이티브] 오픈AI, 슈퍼볼에서 ‘AI로 만드는 일상’을 보여주다",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wVkxmT0V3LWpDWkZwQ0ZkUFJGc3BjY2Y2N3ZySWJMUENsSE9JRjJjSU5VcFVFV1pIVjdreFo3aWFkVnN2SzJCR1pHdnRhS2w5UWE2bVVuUFQ1NDN2cjdiX3g5ajU1QUtrV0tueg?oc=5",
+      "source": "매드타임스",
+      "date": "Mon, 09 Feb 2026 15:00:00 GMT"
+    },
+    {
       "title": "[AI의 심장, 데이터센터(上)] 전국 70여곳 ‘AI 인프라’ 건설 열기",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QakVUT0pXMHF0TUlVeEdydFpDTzg2ZEVMSjkyZll2N3hENVBkOTFWd3JDYjBDWVp3cTktbElwbml1VXZZZVpNWGFHeXBNclRGOGdZbk0tUzBFakYtMldmRmtYbW9jVDBkWTBlRWlVODk1U185R2fSAXZBVV95cUxOUGpFVE9KVzBxdE1JVXhHcnRaQ084NmRFTEo5MmZZdjd4RDVQZDkxVndyQ2IwQ1lad3E5LWxJcG5pdVV2WWVaTVhhR3lwTXJURjhnWW5NLVMwRWpGLTJXZkZrWG1vY1QwZFkwZUVpVTg5NVNfOUdn?oc=5",
       "source": "시사저널e",
@@ -66,12 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE15ZmlDZGM5Zko5bFowTkxLeG1vMFgtUGlEalhTT1VZWHMwbElsT3plSjV4cmplaGNIYXJ1MjdrU1NJdkhtVWpHY05hVktxOGR1?oc=5",
       "source": "동아사이언스",
       "date": "Sun, 08 Feb 2026 01:27:00 GMT"
-    },
-    {
-      "title": "오픈AI, GPT-5.3-코덱스 출시···코딩·업무 지원 기능 강화",
-      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxNS1ctMDVOenBNVXg4eVFkTGlKakE2WGJaN3hiYTI5N3B0VVJWZzY4OWtUOWNnbldxT1VKREFGSnAzZGhEOElrZmNEeGdIcURXaW05UXBWRkthaUdNaG1LcjMzME5CSGFUbzBRQXFwdE1SRWpGMnRSemhYalBjNGQ1WFoxWExQeVMwX0djX2NXeVY5Q0s1MldyOUNZdkxrYWlPNXJCaVRSWUJVdmt4dXEyNUdTd1llVHJrMHhaMVBUTzNSZHBXS0dzSmVrNFRFM3MwV0tERXdsR3Zqc19xRGMtRERYdVNYXzJKUWNSU05TUE9wVGZkSDAtLTRBamJxMmZyeUlLYjN4LWhHa3I0RkxtdVhibVN3NHVJdmJWUW55NFRvR0NlbnJuR3d5Ym9pazh0Wm5CQTVMUkxadVcxVm1fWFNlX1cxZ01Qd0RCa1hZVDJqRnc?oc=5",
-      "source": "cio.com",
-      "date": "Fri, 06 Feb 2026 08:14:45 GMT"
     }
   ]
 }
