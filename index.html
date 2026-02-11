@@ -49,8 +49,32 @@
         <div class="container mx-auto px-4 py-6">
             <div class="flex items-center justify-between">
                 <div class="flex flex-col gap-2">
-                    <h1 class="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 bg-clip-text text-transparent animate-gradient">
-                        🤖 AI Analysis Index
+                    <h1 class="text-4xl md:text-5xl font-extrabold flex items-center gap-3">
+                        <svg class="w-10 h-10 md:w-12 md:h-12" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="ai-icon-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+                                    <stop offset="50%" style="stop-color:#9333ea;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <!-- Head -->
+                            <rect x="12" y="8" width="24" height="24" rx="4" fill="url(#ai-icon-gradient)" opacity="0.9"/>
+                            <!-- Eyes -->
+                            <circle cx="20" cy="20" r="2.5" fill="white"/>
+                            <circle cx="28" cy="20" r="2.5" fill="white"/>
+                            <!-- Antenna -->
+                            <line x1="24" y1="8" x2="24" y2="4" stroke="url(#ai-icon-gradient)" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="24" cy="3" r="2" fill="url(#ai-icon-gradient)"/>
+                            <!-- Body -->
+                            <rect x="16" y="32" width="16" height="10" rx="2" fill="url(#ai-icon-gradient)" opacity="0.8"/>
+                            <!-- Arms -->
+                            <rect x="8" y="34" width="8" height="3" rx="1.5" fill="url(#ai-icon-gradient)" opacity="0.7"/>
+                            <rect x="32" y="34" width="8" height="3" rx="1.5" fill="url(#ai-icon-gradient)" opacity="0.7"/>
+                        </svg>
+                        <span class="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 bg-clip-text text-transparent animate-gradient">
+                            AI Analysis Index
+                        </span>
                     </h1>
                     <div class="flex items-center gap-2 text-sm">
                         <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 font-medium">
@@ -121,21 +145,21 @@
     </div>
 
     <!-- Stats Bar -->
-    <div class="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-6">
+    <div class="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-8">
         <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4">
-                    <div class="text-sm opacity-90">전체 추적 모델</div>
-                    <div class="text-3xl font-bold mt-1">
-                        <span id="total-models">-</span>
-                        <span class="text-lg font-normal ml-1">개</span>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6 border border-white/30 shadow-lg hover:bg-white/25 transition-all">
+                    <div class="text-sm font-semibold opacity-90 uppercase tracking-wide mb-2">전체 추적 모델</div>
+                    <div class="flex items-baseline gap-2">
+                        <span id="total-models" class="text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-white to-blue-100">-</span>
+                        <span class="text-2xl font-semibold opacity-90">개</span>
                     </div>
                 </div>
-                <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4">
-                    <div class="text-sm opacity-90">🇰🇷 한국 서비스</div>
-                    <div class="text-3xl font-bold mt-1">
-                        <span id="korean-models">-</span>
-                        <span class="text-lg font-normal ml-1">개</span>
+                <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6 border border-white/30 shadow-lg hover:bg-white/25 transition-all">
+                    <div class="text-sm font-semibold opacity-90 uppercase tracking-wide mb-2">🇰🇷 한국 서비스</div>
+                    <div class="flex items-baseline gap-2">
+                        <span id="korean-models" class="text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-white to-blue-100">-</span>
+                        <span class="text-2xl font-semibold opacity-90">개</span>
                     </div>
                 </div>
             </div>
