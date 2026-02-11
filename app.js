@@ -199,7 +199,7 @@ function renderLLMContent() {
             break;
         default:
             sortField = 'artificial_analysis_intelligence_index';
-            sortLabel = '종합 점수';
+            sortLabel = '지능 지수';
     }
 
     // Helper function to get value from item
@@ -248,7 +248,14 @@ function renderLLMContent() {
 
     return `
         <div class="p-6">
-            <h2 class="text-2xl font-bold mb-6">🏆 ${sortLabel} 순위</h2>
+            <div class="flex items-center gap-2 mb-6">
+                <h2 class="text-2xl font-bold">🏆 ${sortLabel} 순위</h2>
+                ${currentFilter === 'overall' ? `
+                    <button onclick="showInfoModal()" class="flex items-center justify-center w-6 h-6 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors text-gray-600 dark:text-gray-400 text-sm font-bold" title="지능 지수란?">
+                        ?
+                    </button>
+                ` : ''}
+            </div>
             <div class="space-y-3">
                 ${sortedData.map((item, index) => {
                     const rank = index + 1;
@@ -373,3 +380,33 @@ function renderMediaContent() {
         </div>
     `;
 }
+
+// Modal functions
+function showInfoModal() {
+    const modal = document.getElementById('info-modal');
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeInfoModal() {
+    const modal = document.getElementById('info-modal');
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+    document.body.style.overflow = 'auto';
+}
+
+// Close modal when clicking outside
+document.addEventListener('click', (e) => {
+    const modal = document.getElementById('info-modal');
+    if (e.target === modal) {
+        closeInfoModal();
+    }
+});
+
+// Close modal with Escape key
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        closeInfoModal();
+    }
+});
