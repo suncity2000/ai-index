@@ -434,11 +434,9 @@ function renderKoreanServicesContent() {
         }
 
         // Find Korean services and their ranks
-        data.forEach(item => {
+        sortedData.forEach((item, index) => {
             if (isKoreanCompany(item)) {
-                const rank = sortedData.findIndex(sortedItem =>
-                    sortedItem.name === item.name || sortedItem.model_name === item.model_name
-                ) + 1;
+                const rank = index + 1; // rank is just the index + 1 in sorted array
 
                 let score;
                 if (category === 'llm') {
@@ -447,7 +445,7 @@ function renderKoreanServicesContent() {
                     score = item[info.sortField];
                 }
 
-                if (score !== null && score !== undefined && rank > 0) {
+                if (score !== null && score !== undefined) {
                     koreanServices.push({
                         name: item.name || item.model_name || 'Unknown',
                         company: item.model_creator?.name || item.provider || item.company || '-',
