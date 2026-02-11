@@ -44,15 +44,20 @@ function initEventListeners() {
     });
 }
 
+// News ticker variables
+let newsTickerInterval = null;
+let currentTickerIndex = 0;
+let allNewsItems = [];
+let isNewsExpanded = false;
+
 // Load and render AI news
 async function loadNews() {
     try {
         const response = await fetch('data/ai-news.json');
         const data = await response.json();
 
-        // Hide loading, show container
+        // Hide loading
         document.getElementById('news-loading').classList.add('hidden');
-        document.getElementById('news-container').classList.remove('hidden');
 
         // Update last updated time
         if (data.last_updated) {
@@ -64,8 +69,15 @@ async function loadNews() {
             document.getElementById('news-last-updated').textContent = `업데이트: ${formattedDate}`;
         }
 
-        // Render news items
-        renderNews(data.news || []);
+        // Store news items and render
+        allNewsItems = data.news || [];
+        if (allNewsItems.length > 0) {
+            renderNewsTicker(allNewsItems);
+            renderNewsCards(allNewsItems);
+            startNewsTicker();
+        } else {
+            document.getElementById('news-error').classList.remove('hidden');
+        }
     } catch (error) {
         console.error('Error loading news:', error);
         document.getElementById('news-loading').classList.add('hidden');
@@ -73,13 +85,52 @@ async function loadNews() {
     }
 }
 
-function renderNews(newsItems) {
-    const container = document.getElementById('news-scroll');
+// Render news ticker
+function renderNewsTicker(newsItems) {
+    const tickerContent = document.getElementById('news-ticker-content');
+    const ticker = document.getElementById('news-ticker');
+    const expandBtn = document.getElementById('news-expand-btn');
 
-    if (newsItems.length === 0) {
-        container.innerHTML = '<div class="text-gray-500 dark:text-gray-400 text-sm">뉴스가 없습니다</div>';
-        return;
-    }
+    if (!tickerContent || !ticker || !expandBtn) return;
+
+    // Create ticker items (duplicate for seamless loop)
+    const tickerHTML = newsItems.map((news, index) => `
+        <div class="ticker-item py-1 text-sm text-gray-700 dark:text-gray-300 font-medium truncate" data-index="${index}">
+            <span class="inline-flex items-center gap-2">
+                <span class="text-xs px-2 py-0.5 rounded-full bg-blue-500 text-white">${news.source}</span>
+                <span>${news.title}</span>
+            </span>
+        </div>
+    `).join('');
+
+    tickerContent.innerHTML = tickerHTML;
+    ticker.classList.remove('hidden');
+    expandBtn.classList.remove('hidden');
+}
+
+// Start automatic ticker animation
+function startNewsTicker() {
+    if (newsTickerInterval) clearInterval(newsTickerInterval);
+
+    const tickerContent = document.getElementById('news-ticker-content');
+    if (!tickerContent) return;
+
+    const items = tickerContent.querySelectorAll('.ticker-item');
+    if (items.length === 0) return;
+
+    newsTickerInterval = setInterval(() => {
+        if (isNewsExpanded) return; // Pause when expanded
+
+        currentTickerIndex = (currentTickerIndex + 1) % items.length;
+        const offset = -currentTickerIndex * 32; // 32px = h-8 height
+        tickerContent.style.transform = `translateY(${offset}px)`;
+    }, 3000); // Change every 3 seconds
+}
+
+// Render news cards for expanded view
+function renderNewsCards(newsItems) {
+    const container = document.getElementById('news-expanded');
+    if (!container) return;
 
     container.innerHTML = newsItems.map(news => {
         const date = new Date(news.date);
@@ -101,6 +152,33 @@ function renderNews(newsItems) {
             </a>
         `;
     }).join('');
+}
+
+// Toggle news expansion
+function toggleNewsExpand() {
+    const expanded = document.getElementById('news-expanded');
+    const expandIcon = document.getElementById('expand-icon');
+    const expandText = document.getElementById('expand-text');
+
+    if (!expanded || !expandIcon || !expandText) return;
+
+    isNewsExpanded = !isNewsExpanded;
+
+    if (isNewsExpanded) {
+        expanded.classList.remove('hidden');
+        expanded.style.maxHeight = '1000px';
+        expandIcon.style.transform = 'rotate(180deg)';
+        expandText.textContent = '접기';
+    } else {
+        expanded.style.maxHeight = '0';
+        expandText.textContent = '전체보기';
+        expandIcon.style.transform = 'rotate(0deg)';
+        setTimeout(() => {
+            if (!isNewsExpanded) {
+                expanded.classList.add('hidden');
+            }
+        }, 500);
+    }
 }
 
 // Load all data
@@ -171,15 +249,38 @@ async function loadData() {
     }
 }
 
-// Update statistics
+// Animate counter
+function animateCounter(element, target, duration = 1000) {
+    const start = parseInt(element.textContent) || 0;
+    const increment = (target - start) / (duration / 16); // 60fps
+    let current = start;
+
+    const timer = setInterval(() => {
+        current += increment;
+        if ((increment > 0 && current >= target) || (increment < 0 && current <= target)) {
+            element.textContent = target;
+            clearInterval(timer);
+        } else {
+            element.textContent = Math.round(current);
+        }
+    }, 16);
+}
+
+// Update statistics with animation
 function updateStats() {
     const totalCount = Object.values(allData).reduce((sum, arr) => sum + arr.length, 0);
-    document.getElementById('total-models').textContent = totalCount;
+    const totalElement = document.getElementById('total-models');
+    if (totalElement) {
+        animateCounter(totalElement, totalCount, 1200);
+    }
 
     const koreanCount = Object.values(allData).reduce((sum, arr) => {
         return sum + arr.filter(item => isKoreanCompany(item)).length;
     }, 0);
-    document.getElementById('korean-models').textContent = koreanCount;
+    const koreanElement = document.getElementById('korean-models');
+    if (koreanElement) {
+        animateCounter(koreanElement, koreanCount, 1200);
+    }
 }
 
 // Check if company is Korean
