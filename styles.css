@@ -90,6 +90,11 @@ html {
     animation: gradientShift 3s ease infinite;
 }
 
+.animate-gradient {
+    background-size: 200% auto;
+    animation: gradientShift 4s ease infinite;
+}
+
 /* Table responsive styling */
 @media (max-width: 768px) {
     table {

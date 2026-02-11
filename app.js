@@ -76,13 +76,21 @@ async function loadData() {
         // Update last updated time
         if (lastUpdated.last_updated !== 'N/A') {
             const date = new Date(lastUpdated.last_updated);
-            document.getElementById('last-updated').textContent = date.toLocaleString('ko-KR', {
+            const formattedDate = date.toLocaleString('ko-KR', {
                 year: 'numeric',
                 month: 'long',
                 day: 'numeric',
                 hour: '2-digit',
                 minute: '2-digit'
             });
+            const shortDate = date.toLocaleString('ko-KR', {
+                month: 'numeric',
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+            document.getElementById('last-updated').textContent = formattedDate;
+            document.getElementById('header-last-updated').textContent = shortDate;
         }
 
         // Show initial content
@@ -298,34 +306,11 @@ function renderLLMContent() {
 
 // Helper function to generate model URL based on category
 function getModelUrl(category, item) {
-    if (!item) return null;
-
-    let identifier;
-
-    if (category === 'llm') {
-        identifier = item.slug;
-        if (!identifier) return null;
-        return `https://artificialanalysis.ai/models/${identifier}`;
-    } else {
-        // For media categories, use name field
-        identifier = item.name || item.model_name;
-        if (!identifier) return null;
-
-        // Convert name to URL-friendly format (lowercase, spaces to hyphens)
-        identifier = identifier.toLowerCase().replace(/\s+/g, '-');
-
-        switch (category) {
-            case 'text-to-image':
-                return `https://artificialanalysis.ai/image/model-families/${identifier}`;
-            case 'text-to-speech':
-                return `https://artificialanalysis.ai/text-to-speech/model-families/${identifier}`;
-            case 'text-to-video':
-            case 'image-to-video':
-                return `https://artificialanalysis.ai/video/model-families/${identifier}`;
-            default:
-                return null;
-        }
+    // Only generate URLs for LLM category
+    if (category === 'llm' && item && item.slug) {
+        return `https://artificialanalysis.ai/models/${item.slug}`;
     }
+    return null;
 }
 
 // Render media content (Text-to-Image, etc.)
