@@ -93,12 +93,12 @@ function renderNewsTicker(newsItems) {
 
     if (!tickerContent || !ticker || !expandBtn) return;
 
-    // Create ticker items (duplicate for seamless loop)
+    // Create ticker items with fixed height
     const tickerHTML = newsItems.map((news, index) => `
-        <div class="ticker-item py-1 text-sm text-gray-700 dark:text-gray-300 font-medium truncate" data-index="${index}">
-            <span class="inline-flex items-center gap-2">
-                <span class="text-xs px-2 py-0.5 rounded-full bg-blue-500 text-white">${news.source}</span>
-                <span>${news.title}</span>
+        <div class="ticker-item h-8 flex items-center text-sm text-gray-700 dark:text-gray-300 font-medium truncate" data-index="${index}">
+            <span class="inline-flex items-center gap-2 truncate">
+                <span class="text-xs px-2 py-0.5 rounded-full bg-blue-500 text-white flex-shrink-0">${news.source}</span>
+                <span class="truncate">${news.title}</span>
             </span>
         </div>
     `).join('');
