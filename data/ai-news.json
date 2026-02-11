@@ -1,77 +1,77 @@
 {
-  "last_updated": "2025-02-11T09:00:00Z",
+  "last_updated": "2026-02-11T08:27:16.025Z",
   "news": [
     {
-      "title": "네이버, 하이퍼클로바X 3.0 공개... 한국어 성능 대폭 향상",
-      "url": "https://www.etnews.com/news/article.html",
-      "source": "전자신문",
-      "date": "2025-02-11T08:00:00Z"
+      "title": "LG 인공지능, 하버드·MS 꺾고 암 진단 성능 '1위'",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8taG1Gb2RSVnRCUWlwSGRIclhCTTAtQXI4ek9WVEZZNkNKUW1HYk11Q29jRl9wbEh0TFZ5VmFJeE03LXo2QWtneWlSY0hraXQtZ1h0VWVIRGFWcE5Kb3pPbGQxVXhldmZDSzc1dllLTVRHSVJT?oc=5",
+      "source": "데일리메디",
+      "date": "Tue, 10 Feb 2026 20:01:00 GMT"
     },
     {
-      "title": "삼성전자, 갤럭시 S24에 AI 통역 기능 탑재... 실시간 번역 지원",
-      "url": "https://www.dt.co.kr/contents.html",
-      "source": "디지털타임스",
-      "date": "2025-02-10T15:30:00Z"
+      "title": "AI 3강 로드맵 윤곽…'인공지능행동계획' 국무회의 보고",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wemhvQ2RGdmlZV3JxSnBYdFozTVN2QVhLVF9BRm1VTjFvOUxvakJ5ek5zbnhkR2xBZDZWZWhIOGFJNFBrb1N0R2E4X2pzYUN1TTFhYW53?oc=5",
+      "source": "지디넷코리아",
+      "date": "Tue, 10 Feb 2026 08:45:15 GMT"
     },
     {
-      "title": "카카오, AI 기반 챗봇 서비스 '카카오싱크 AI' 베타 오픈",
-      "url": "https://www.bloter.net/news/articleView.html",
-      "source": "블로터",
-      "date": "2025-02-10T10:20:00Z"
+      "title": "기상청, 인공지능(AI) 이용한 바람·햇빛 분석 정보 공개",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA4czBJS2gzTnpzN3l1Slh3QWJ1cWhJYVc1OXpPblhaZXhtNmZlQmJWSzZsV05TYVlBZHdEeFRBUUk1UlNCd010NGEwNWtmSUU?oc=5",
+      "source": "v.daum.net",
+      "date": "Tue, 10 Feb 2026 06:50:44 GMT"
     },
     {
-      "title": "OpenAI, GPT-4.5 출시... 추론 능력 50% 향상",
-      "url": "https://zdnet.co.kr/view/",
-      "source": "ZDNet Korea",
-      "date": "2025-02-09T14:00:00Z"
+      "title": "[AI와 보안] 정부 ‘AI 통합 보안 플랫폼’ 개발에 70억원 배정... ‘AX 스프린트’ 띄운다",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoUFZaVnpqcEZOR3FsRkRSWGl4V1BBWHA3QlRQcW5ldnZFMXh6QzY2Z0FnTkNzcGVkdTh5RVRhMmFYUDZiOVpvUjFPeFNhRFBrWnVtOXhGU3ctYmtaRWVRYQ?oc=5",
+      "source": "보안뉴스",
+      "date": "Tue, 10 Feb 2026 03:59:00 GMT"
     },
     {
-      "title": "AI 반도체 시장, 2025년 1000억 달러 돌파 전망",
-      "url": "https://www.hankyung.com/article/",
-      "source": "한국경제",
-      "date": "2025-02-09T09:15:00Z"
+      "title": "행안부, 공공부문 인공지능 도입·확산 지원... ‘AI 민주정부 실현’ 속도 높인다",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlMWtzOENuNlMxbFlJcWlDMnZ3eFZzZERqN1ZMOHVENkFtdUNZc3B2dGtPQ3ZYMzl5Zk5ZVnZYWTNTYXlYTDRNSElvTXZWYzVTcXhWam04UmpuTURVTmdIZEIxclJ4V0U?oc=5",
+      "source": "인공지능신문",
+      "date": "Tue, 10 Feb 2026 03:40:47 GMT"
     },
     {
-      "title": "구글 딥마인드, 의료 AI 'Med-PaLM 3' 공개... 진단 정확도 95%",
-      "url": "https://www.techm.kr/news/articleView.html",
-      "source": "테크M",
-      "date": "2025-02-08T16:45:00Z"
+      "title": "인공지능(AI)과 우주의 법칙",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yTlhCNy0xc2h3Mll3ZnFqd1RfMUdoRzJ5VUhDaGxjbjFOM0E5RXNSWDlhU2VoM3pzR1ZPVlVNVVpWZ2FGTjFoM0pmS2NMTVRER2UyVWxPTHdMSXJTQ1ZaenllM1BRUzBVN0R5YXpjaDTSAXNBVV95cUxOZzlfLURoSlZMblNkdmxsRnNhbmMtcGdZb3phcm0wWVhVSjVyR1U0WEFtaDJYcWp4UXk2SUVXSk9Yb3pCbWpnZ0VVUFdjOFh3U21Ed3JnRkNmMUpENk03bGM5eDU5TFo0WkNURUpKb2p4VG4w?oc=5",
+      "source": "K스피릿",
+      "date": "Mon, 09 Feb 2026 19:29:27 GMT"
     },
     {
-      "title": "LG AI연구원, 멀티모달 AI '엑사원 3.0' 개발 완료",
-      "url": "https://www.etnews.com/news/ai_article.html",
-      "source": "전자신문",
-      "date": "2025-02-08T11:30:00Z"
+      "title": "[AI의 심장, 데이터센터(上)] 전국 70여곳 ‘AI 인프라’ 건설 열기",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QakVUT0pXMHF0TUlVeEdydFpDTzg2ZEVMSjkyZll2N3hENVBkOTFWd3JDYjBDWVp3cTktbElwbml1VXZZZVpNWGFHeXBNclRGOGdZbk0tUzBFakYtMldmRmtYbW9jVDBkWTBlRWlVODk1U185R2fSAXZBVV95cUxOUGpFVE9KVzBxdE1JVXhHcnRaQ084NmRFTEo5MmZZdjd4RDVQZDkxVndyQ2IwQ1lad3E5LWxJcG5pdVV2WWVaTVhhR3lwTXJURjhnWW5NLVMwRWpGLTJXZkZrWG1vY1QwZFkwZUVpVTg5NVNfOUdn?oc=5",
+      "source": "시사저널e",
+      "date": "Mon, 09 Feb 2026 11:07:54 GMT"
     },
     {
-      "title": "메타, 라마 4 오픈소스 공개... 상업적 이용 가능",
-      "url": "https://www.aitimes.com/news/articleView.html",
-      "source": "AI타임즈",
-      "date": "2025-02-07T13:20:00Z"
+      "title": "[SNS로 보는 세상] 인공지능끼리 대화에 인간은 ‘쉿!’",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE13dXBZT2l5X2tSZTlWaFF3aFZjQXJ0cVdIM0pfcWxMZFJWTURtMmcyNmc2VHpMTjdnNEd3S0VvNUp3NHMxN1NTTDZyUDBRamlWUDBLYV9xV3gyQQ?oc=5",
+      "source": "농민신문",
+      "date": "Mon, 09 Feb 2026 08:00:00 GMT"
     },
     {
-      "title": "SK텔레콤, AI 데이터센터 춘천에 신규 구축... 5000억 투자",
-      "url": "https://biz.chosun.com/tech/",
-      "source": "조선비즈",
-      "date": "2025-02-07T09:00:00Z"
+      "title": "코티, 인공지능 연구기관 ‘오픈AI’와 전략 제휴",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZm9KOEY2R2N1Qlhsdnd0TXpFc25xRFpVMTdEeXp6YlU2STQya2pURWttNURvWVBWcUMxTWpHME5XRnE2dG5UZWRmRk9oNTB4SDMwU3NYMVd0MXNNNTc5VndKSkl6M0JkblEzSHN1QkQyZ2Uzbkl1UXJTTm15MjEzQmxUdmx1cUpub09OZUFxQjRXMkU?oc=5",
+      "source": "약업신문",
+      "date": "Sun, 08 Feb 2026 21:05:00 GMT"
     },
     {
-      "title": "앤스로픽, 클로드 4 출시... 과학적 추론 능력 획기적 향상",
-      "url": "https://www.bloter.net/ai/claude-news.html",
-      "source": "블로터",
-      "date": "2025-02-06T17:30:00Z"
+      "title": "동대문구, ‘AI 공존도시’ 선언…생활 현장에 인공지능 접목 본격화",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5SdHpnazViZko1cDlWNTlsRFlaVHNrcTU1YkRXV2pRN0pXRG80bTFVMTlZSzdkWG5rQmRxTEZPTGdiTEFoV2lfNE5tckhDSWNY?oc=5",
+      "source": "문화일보",
+      "date": "Sun, 08 Feb 2026 01:49:33 GMT"
     },
     {
-      "title": "중국 바이두, 어니봇 4.5 공개... ChatGPT와 대등한 성능",
-      "url": "https://www.dt.co.kr/ai-news.html",
-      "source": "디지털타임스",
-      "date": "2025-02-06T12:00:00Z"
+      "title": "韓 수학자 개발 참여한 AI, 미해결 수학난제 13개 해답 제시",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE15ZmlDZGM5Zko5bFowTkxLeG1vMFgtUGlEalhTT1VZWHMwbElsT3plSjV4cmplaGNIYXJ1MjdrU1NJdkhtVWpHY05hVktxOGR1?oc=5",
+      "source": "동아사이언스",
+      "date": "Sun, 08 Feb 2026 01:27:00 GMT"
     },
     {
-      "title": "AI 교육 시장 급성장... 에듀테크 스타트업 투자 활발",
-      "url": "https://it.chosun.com/news/",
-      "source": "IT조선",
-      "date": "2025-02-05T14:45:00Z"
+      "title": "[기고] AI 시대, 축산 명인이 필요한 이유",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1WWcxdjBPaF9fQ3NoblVnR1drdjBfRkRzX3FYM196alE2X0d0MkVoZ2dWUGlDVEVRNUZITERlWlVpVmk0WGZHdGdDUjAwZkE3UU5oWjNHdk5KVVFnMF9YTXZpZi11ZDF2SndIZjQ3MzZLZ9IBckFVX3lxTFB1WWcxdjBPaF9fQ3NoblVnR1drdjBfRkRzX3FYM196alE2X0d0MkVoZ2dWUGlDVEVRNUZITERlWlVpVmk0WGZHdGdDUjAwZkE3UU5oWjNHdk5KVVFnMF9YTXZpZi11ZDF2SndIZjQ3MzZLZw?oc=5",
+      "source": "축산경제신문",
+      "date": "Fri, 06 Feb 2026 08:00:00 GMT"
     }
   ]
 }
