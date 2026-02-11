@@ -25,36 +25,58 @@ const newsSources = [
     name: 'Google News - AI',
     type: 'rss',
     url: 'https://news.google.com/rss/search?q=%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5+AI+when:7d&hl=ko&gl=KR&ceid=KR:ko',
-    maxItems: 12
+    maxItems: 10
+  },
+  {
+    name: 'Google News - ChatGPT',
+    type: 'rss',
+    url: 'https://news.google.com/rss/search?q=ChatGPT+%EC%98%A4%ED%94%88AI+when:7d&hl=ko&gl=KR&ceid=KR:ko',
+    maxItems: 5
+  },
+  {
+    name: 'Google News - 생성AI',
+    type: 'rss',
+    url: 'https://news.google.com/rss/search?q=%EC%83%9D%EC%84%B1AI+%EC%83%9D%EC%84%B1%ED%98%95AI+when:7d&hl=ko&gl=KR&ceid=KR:ko',
+    maxItems: 5
   }
 ];
 
-// Fetch from RSS feed
-async function fetchFromRSS(source) {
-  try {
-    console.log(`Fetching from ${source.name}...`);
-    const feed = await parser.parseURL(source.url);
+// Fetch from RSS feed with retry logic
+async function fetchFromRSS(source, retries = 3) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      console.log(`Fetching from ${source.name}... (attempt ${attempt}/${retries})`);
+      const feed = await parser.parseURL(source.url);
 
-    const items = feed.items.slice(0, source.maxItems).map(item => {
-      // Extract source from title (Google News format: "Title - Source")
-      const titleMatch = item.title.match(/^(.*?)\s*-\s*([^-]+)$/);
-      const title = titleMatch ? titleMatch[1].trim() : item.title;
-      const sourceName = titleMatch ? titleMatch[2].trim() : source.name;
+      const items = feed.items.slice(0, source.maxItems).map(item => {
+        // Extract source from title (Google News format: "Title - Source")
+        const titleMatch = item.title.match(/^(.*?)\s*-\s*([^-]+)$/);
+        const title = titleMatch ? titleMatch[1].trim() : item.title;
+        const sourceName = titleMatch ? titleMatch[2].trim() : source.name;
 
-      return {
-        title: title,
-        url: item.link,
-        source: sourceName,
-        date: item.pubDate || item.isoDate || new Date().toISOString()
-      };
-    });
+        return {
+          title: title,
+          url: item.link,
+          source: sourceName,
+          date: item.pubDate || item.isoDate || new Date().toISOString()
+        };
+      });
 
-    console.log(`✓ Fetched ${items.length} items from ${source.name}`);
-    return items;
-  } catch (error) {
-    console.error(`✗ Error fetching from ${source.name}:`, error.message);
-    return [];
+      console.log(`✓ Fetched ${items.length} items from ${source.name}`);
+      return items;
+    } catch (error) {
+      console.error(`✗ Error fetching from ${source.name} (attempt ${attempt}/${retries}):`, error.message);
+
+      if (attempt < retries) {
+        const delay = attempt * 2000; // 2s, 4s exponential backoff
+        console.log(`  Retrying in ${delay}ms...`);
+        await new Promise(resolve => setTimeout(resolve, delay));
+      }
+    }
   }
+
+  console.error(`✗ Failed to fetch from ${source.name} after ${retries} attempts`);
+  return [];
 }
 
 // Fetch from web scraping (for sites without RSS)
@@ -131,6 +153,12 @@ async function fetchAllNews() {
     .slice(0, 12);
 
   console.log(`\n📰 Total unique news items: ${sortedNews.length}`);
+
+  // Only update file if we have news items
+  if (sortedNews.length === 0) {
+    console.log('\n⚠️  No news items fetched. Keeping existing file.');
+    return;
+  }
 
   // Prepare output
   const output = {
