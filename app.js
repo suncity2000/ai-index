@@ -90,12 +90,12 @@ function renderNews(newsItems) {
 
         return `
             <a href="${news.url}" target="_blank" rel="noopener noreferrer"
-               class="flex-shrink-0 w-80 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-700 dark:to-gray-800 rounded-lg p-4 hover:shadow-md transition-all snap-start border border-blue-100 dark:border-gray-600 group">
+               class="block bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-700 dark:to-gray-800 rounded-lg p-4 hover:shadow-lg transition-all border border-blue-100 dark:border-gray-600 group h-full">
                 <div class="flex items-start gap-2 mb-2">
                     <span class="text-xs px-2 py-1 rounded-full bg-blue-500 text-white font-medium">${news.source}</span>
                     <span class="text-xs text-gray-500 dark:text-gray-400">${formattedDate}</span>
                 </div>
-                <h3 class="text-sm font-semibold text-gray-900 dark:text-gray-100 line-clamp-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                <h3 class="text-sm font-semibold text-gray-900 dark:text-gray-100 line-clamp-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                     ${news.title}
                 </h3>
             </a>

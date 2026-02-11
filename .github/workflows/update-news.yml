@@ -1,0 +1,37 @@
+name: Update AI News
+
+on:
+  schedule:
+    # 매일 오전 9시 (KST 18시 = UTC 9시)
+    - cron: '0 9 * * *'
+  workflow_dispatch: # 수동 실행 가능
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Install dependencies
+      run: |
+        cd scripts
+        npm install
+
+    - name: Fetch AI news
+      run: |
+        cd scripts
+        node fetch-news.js
+
+    - name: Commit and push if changed
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add data/ai-news.json
+        git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Update AI news - $(date +'%Y-%m-%d')" && git push)
