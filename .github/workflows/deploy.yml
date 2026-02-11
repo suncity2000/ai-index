@@ -6,6 +6,7 @@ on:
       - main
       - master
       - claude/rebuild-ai-analysis-site-MqGAl
+      - claude/add-ai-news-section-mbGHy
   workflow_dispatch:
 
 permissions:
