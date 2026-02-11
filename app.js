@@ -135,7 +135,7 @@ function switchCategory(category) {
         }
     });
 
-    // Show/hide LLM filters
+    // Show/hide LLM filters (only show for LLM category)
     document.getElementById('llm-filters').style.display = category === 'llm' ? 'block' : 'none';
 
     renderContent();
@@ -165,6 +165,8 @@ function renderContent() {
 
     if (currentCategory === 'llm') {
         contentDiv.innerHTML = renderLLMContent();
+    } else if (currentCategory === 'korean') {
+        contentDiv.innerHTML = renderKoreanServicesContent();
     } else {
         contentDiv.innerHTML = renderMediaContent();
     }
@@ -389,6 +391,153 @@ function renderMediaContent() {
                         }).join('')}
                     </tbody>
                 </table>
+            </div>
+        </div>
+    `;
+}
+
+// Render Korean services from all categories
+function renderKoreanServicesContent() {
+    const koreanServices = [];
+
+    // Helper to get category emoji and name
+    const categoryInfo = {
+        'llm': { emoji: '💬', name: 'LLM', sortField: 'artificial_analysis_intelligence_index', unit: '점' },
+        'text-to-image': { emoji: '🎨', name: 'Text-to-Image', sortField: 'elo', unit: 'ELO' },
+        'text-to-speech': { emoji: '🎙️', name: 'Text-to-Speech', sortField: 'elo', unit: 'ELO' },
+        'text-to-video': { emoji: '🎬', name: 'Text-to-Video', sortField: 'elo', unit: 'ELO' },
+        'image-to-video': { emoji: '🎞️', name: 'Image-to-Video', sortField: 'elo', unit: 'ELO' }
+    };
+
+    // Collect Korean services from each category
+    Object.keys(allData).forEach(category => {
+        const data = allData[category] || [];
+        const info = categoryInfo[category];
+
+        // Create sorted list to calculate ranks
+        let sortedData;
+        if (category === 'llm') {
+            sortedData = data
+                .filter(item => {
+                    const value = item.evaluations?.[info.sortField];
+                    return value !== null && value !== undefined;
+                })
+                .sort((a, b) => {
+                    const aVal = a.evaluations?.[info.sortField] || 0;
+                    const bVal = b.evaluations?.[info.sortField] || 0;
+                    return bVal - aVal;
+                });
+        } else {
+            sortedData = data
+                .filter(item => item[info.sortField] !== null && item[info.sortField] !== undefined)
+                .sort((a, b) => (b[info.sortField] || 0) - (a[info.sortField] || 0));
+        }
+
+        // Find Korean services and their ranks
+        data.forEach(item => {
+            if (isKoreanCompany(item)) {
+                const rank = sortedData.findIndex(sortedItem =>
+                    sortedItem.name === item.name || sortedItem.model_name === item.model_name
+                ) + 1;
+
+                let score;
+                if (category === 'llm') {
+                    score = item.evaluations?.[info.sortField];
+                } else {
+                    score = item[info.sortField];
+                }
+
+                if (score !== null && score !== undefined && rank > 0) {
+                    koreanServices.push({
+                        name: item.name || item.model_name || 'Unknown',
+                        company: item.model_creator?.name || item.provider || item.company || '-',
+                        category: category,
+                        categoryEmoji: info.emoji,
+                        categoryName: info.name,
+                        rank: rank,
+                        score: score,
+                        unit: info.unit,
+                        slug: item.slug,
+                        totalInCategory: sortedData.length
+                    });
+                }
+            }
+        });
+    });
+
+    if (koreanServices.length === 0) {
+        return '<div class="p-12 text-center text-gray-500">한국 서비스 데이터가 없습니다.</div>';
+    }
+
+    // Sort by rank within category
+    koreanServices.sort((a, b) => a.rank - b.rank);
+
+    return `
+        <div class="p-6">
+            <div class="flex items-center gap-2 mb-6">
+                <h2 class="text-2xl font-bold">🇰🇷 한국 AI 서비스</h2>
+                <span class="text-sm text-gray-500 dark:text-gray-400">(전체 ${koreanServices.length}개)</span>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="w-full">
+                    <thead>
+                        <tr class="border-b border-gray-200 dark:border-gray-700">
+                            <th class="text-left py-3 px-4 font-semibold">분야</th>
+                            <th class="text-left py-3 px-4 font-semibold">모델명</th>
+                            <th class="text-left py-3 px-4 font-semibold">회사</th>
+                            <th class="text-center py-3 px-4 font-semibold">순위</th>
+                            <th class="text-right py-3 px-4 font-semibold">점수</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${koreanServices.map((service) => {
+                            const modelUrl = service.slug ? `https://artificialanalysis.ai/models/${service.slug}` : null;
+                            const rankDisplay = `${service.rank}/${service.totalInCategory}`;
+
+                            return `
+                                <tr class="border-b border-gray-100 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors">
+                                    <td class="py-4 px-4">
+                                        <div class="flex items-center gap-2">
+                                            <span class="text-xl">${service.categoryEmoji}</span>
+                                            <span class="text-sm font-medium">${service.categoryName}</span>
+                                        </div>
+                                    </td>
+                                    <td class="py-4 px-4">
+                                        <div class="font-semibold">
+                                            ${modelUrl ? `<a href="${modelUrl}" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline">${service.name}</a>` : service.name}
+                                        </div>
+                                    </td>
+                                    <td class="py-4 px-4 text-gray-600 dark:text-gray-400">
+                                        ${service.company}
+                                    </td>
+                                    <td class="py-4 px-4 text-center">
+                                        <span class="inline-block px-3 py-1 rounded-full text-sm font-medium ${
+                                            service.rank <= 3 ? 'bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-300' :
+                                            service.rank <= 10 ? 'bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300' :
+                                            'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300'
+                                        }">
+                                            ${rankDisplay}
+                                        </span>
+                                    </td>
+                                    <td class="py-4 px-4 text-right">
+                                        <div class="font-bold text-blue-600 dark:text-blue-400">
+                                            ${service.score.toFixed(service.unit === 'ELO' ? 0 : 1)}
+                                        </div>
+                                        <div class="text-xs text-gray-500 dark:text-gray-400">${service.unit}</div>
+                                    </td>
+                                </tr>
+                            `;
+                        }).join('')}
+                    </tbody>
+                </table>
+            </div>
+            <div class="mt-6 p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
+                <p class="text-sm text-gray-700 dark:text-gray-300">
+                    <strong>💡 순위 표시:</strong> 각 분야에서의 순위를 표시합니다.
+                    <span class="inline-block px-2 py-0.5 rounded bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-300 text-xs">1-3위</span>
+                    <span class="inline-block px-2 py-0.5 rounded bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 text-xs">4-10위</span>
+                    <span class="inline-block px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 text-xs">11위 이하</span>
+                </p>
             </div>
         </div>
     `;
