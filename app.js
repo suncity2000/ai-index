@@ -393,14 +393,6 @@ function renderMediaContent() {
         </div>
     `;
 }
-                            `;
-                        }).join('')}
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    `;
-}
 
 // Modal functions
 function showScoreInfoModal(filterType) {
