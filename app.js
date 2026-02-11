@@ -263,7 +263,7 @@ function renderLLMContent() {
                     const score = getValue(item, sortField);
                     const medal = getMedalEmoji(rank);
                     const provider = item.model_creator?.name || item.provider || item.company || '-';
-                    const modelUrl = getModelUrl('llm', item.slug);
+                    const modelUrl = getModelUrl('llm', item);
 
                     return `
                         <div class="flex items-center justify-between p-4 bg-gray-50 dark:bg-gray-700/50 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
@@ -297,21 +297,34 @@ function renderLLMContent() {
 }
 
 // Helper function to generate model URL based on category
-function getModelUrl(category, slug) {
-    if (!slug) return null;
+function getModelUrl(category, item) {
+    if (!item) return null;
 
-    switch (category) {
-        case 'llm':
-            return `https://artificialanalysis.ai/models/${slug}`;
-        case 'text-to-image':
-            return `https://artificialanalysis.ai/image/model-families/${slug}`;
-        case 'text-to-speech':
-            return `https://artificialanalysis.ai/text-to-speech/model-families/${slug}`;
-        case 'text-to-video':
-        case 'image-to-video':
-            return `https://artificialanalysis.ai/video/model-families/${slug}`;
-        default:
-            return null;
+    let identifier;
+
+    if (category === 'llm') {
+        identifier = item.slug;
+        if (!identifier) return null;
+        return `https://artificialanalysis.ai/models/${identifier}`;
+    } else {
+        // For media categories, use name field
+        identifier = item.name || item.model_name;
+        if (!identifier) return null;
+
+        // Convert name to URL-friendly format (lowercase, spaces to hyphens)
+        identifier = identifier.toLowerCase().replace(/\s+/g, '-');
+
+        switch (category) {
+            case 'text-to-image':
+                return `https://artificialanalysis.ai/image/model-families/${identifier}`;
+            case 'text-to-speech':
+                return `https://artificialanalysis.ai/text-to-speech/model-families/${identifier}`;
+            case 'text-to-video':
+            case 'image-to-video':
+                return `https://artificialanalysis.ai/video/model-families/${identifier}`;
+            default:
+                return null;
+        }
     }
 }
 
@@ -374,7 +387,7 @@ function renderMediaContent() {
                             const rank = index + 1;
                             const isKorean = isKoreanCompany(item);
                             const medal = getMedalEmoji(rank);
-                            const modelUrl = getModelUrl(currentCategory, item.slug);
+                            const modelUrl = getModelUrl(currentCategory, item);
                             const company = item.model_creator?.name || item.company || item.provider || '-';
 
                             return `
@@ -508,7 +521,11 @@ function renderKoreanServicesContent() {
                     </thead>
                     <tbody>
                         ${koreanServices.map((service) => {
-                            const modelUrl = getModelUrl(service.category, service.slug);
+                            const modelUrl = getModelUrl(service.category, {
+                                slug: service.slug,
+                                name: service.name,
+                                model_name: service.name
+                            });
                             const rankDisplay = `${service.rank}/${service.totalInCategory}`;
 
                             return `
