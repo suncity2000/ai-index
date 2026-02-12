@@ -2,6 +2,9 @@
 let currentCategory = 'llm';
 let currentFilter = 'overall';
 let allData = {};
+let yesterdayData = {};
+let rankingChanges = {};
+let modelCountChanges = {};
 let koreanCompanies = [];
 
 // Initialize app
@@ -13,7 +16,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 // Theme handling
 function initTheme() {
-    const theme = localStorage.getItem('theme') || 'light';
+    const theme = localStorage.getItem('theme') || 'dark'; // Default to dark mode
     if (theme === 'dark') {
         document.documentElement.classList.add('dark');
     }
@@ -210,6 +213,9 @@ async function loadData() {
             'image-to-video': i2v?.data || []
         };
 
+        // Load yesterday's data and calculate changes
+        await loadYesterdayDataAndCalculateChanges();
+
         // Update stats
         updateStats();
 
@@ -249,6 +255,193 @@ async function loadData() {
     }
 }
 
+// Load yesterday's data and calculate ranking changes
+async function loadYesterdayDataAndCalculateChanges() {
+    try {
+        // Calculate yesterday's date
+        const yesterday = new Date();
+        yesterday.setDate(yesterday.getDate() - 1);
+        const yesterdayStr = yesterday.toISOString().split('T')[0];
+
+        // Try to load yesterday's data from history
+        const [llm, t2i, t2s, t2v, i2v] = await Promise.all([
+            fetch(`data/history/${yesterdayStr}-llms.json`).then(r => r.json()).catch(() => null),
+            fetch(`data/history/${yesterdayStr}-text-to-image.json`).then(r => r.json()).catch(() => null),
+            fetch(`data/history/${yesterdayStr}-text-to-speech.json`).then(r => r.json()).catch(() => null),
+            fetch(`data/history/${yesterdayStr}-text-to-video.json`).then(r => r.json()).catch(() => null),
+            fetch(`data/history/${yesterdayStr}-image-to-video.json`).then(r => r.json()).catch(() => null)
+        ]);
+
+        yesterdayData = {
+            llm: llm?.data || [],
+            'text-to-image': t2i?.data || [],
+            'text-to-speech': t2s?.data || [],
+            'text-to-video': t2v?.data || [],
+            'image-to-video': i2v?.data || []
+        };
+
+        // Calculate model count changes
+        calculateModelCountChanges();
+
+        // Calculate ranking changes for each category
+        calculateRankingChanges();
+
+    } catch (error) {
+        console.error('Error loading yesterday data:', error);
+        // If we can't load yesterday's data, just continue without ranking changes
+        yesterdayData = {};
+        rankingChanges = {};
+        modelCountChanges = {};
+    }
+}
+
+// Calculate model count changes
+function calculateModelCountChanges() {
+    modelCountChanges = {};
+
+    for (const category in allData) {
+        const todayCount = allData[category]?.length || 0;
+        const yesterdayCount = yesterdayData[category]?.length || 0;
+        const change = todayCount - yesterdayCount;
+
+        modelCountChanges[category] = {
+            today: todayCount,
+            yesterday: yesterdayCount,
+            change: change
+        };
+    }
+}
+
+// Calculate ranking changes for all categories and filters
+function calculateRankingChanges() {
+    rankingChanges = {};
+
+    // Helper function to calculate rankings for a dataset
+    const calculateRankings = (data, sortField) => {
+        const getValue = (item, field) => {
+            if (field === 'value_ratio') {
+                const performance = item.evaluations?.artificial_analysis_intelligence_index;
+                const price = item.pricing?.price_1m_blended_3_to_1;
+                if (performance && price && price > 0) {
+                    return performance / price;
+                }
+                return null;
+            }
+            if (item.evaluations && item.evaluations[field] !== undefined) {
+                return item.evaluations[field];
+            }
+            if (item.pricing && item.pricing[field] !== undefined) {
+                return item.pricing[field];
+            }
+            return item[field];
+        };
+
+        const sorted = data
+            .filter(item => {
+                const value = getValue(item, sortField);
+                return value !== null && value !== undefined;
+            })
+            .sort((a, b) => {
+                const aVal = getValue(a, sortField) || 0;
+                const bVal = getValue(b, sortField) || 0;
+                return bVal - aVal;
+            });
+
+        const rankings = {};
+        sorted.forEach((item, index) => {
+            const id = item.id || item.slug || item.name;
+            rankings[id] = index + 1;
+        });
+        return rankings;
+    };
+
+    // LLM rankings with different filters
+    const llmFilters = {
+        'overall': 'artificial_analysis_intelligence_index',
+        'coding': 'artificial_analysis_coding_index',
+        'math': 'artificial_analysis_math_index',
+        'value': 'value_ratio',
+        'speed': 'median_output_tokens_per_second'
+    };
+
+    rankingChanges.llm = {};
+    for (const [filter, sortField] of Object.entries(llmFilters)) {
+        const todayRankings = calculateRankings(allData.llm || [], sortField);
+        const yesterdayRankings = calculateRankings(yesterdayData.llm || [], sortField);
+
+        rankingChanges.llm[filter] = {};
+        for (const id in todayRankings) {
+            const todayRank = todayRankings[id];
+            const yesterdayRank = yesterdayRankings[id];
+
+            if (yesterdayRank !== undefined) {
+                rankingChanges.llm[filter][id] = {
+                    today: todayRank,
+                    yesterday: yesterdayRank,
+                    change: yesterdayRank - todayRank, // Positive = moved up
+                    isNew: false
+                };
+            } else {
+                rankingChanges.llm[filter][id] = {
+                    today: todayRank,
+                    yesterday: null,
+                    change: null,
+                    isNew: true
+                };
+            }
+        }
+    }
+
+    // Media rankings (by ELO)
+    const mediaCategories = ['text-to-image', 'text-to-speech', 'text-to-video', 'image-to-video'];
+    for (const category of mediaCategories) {
+        const todayData = allData[category] || [];
+        const yesterdayDataCat = yesterdayData[category] || [];
+
+        // Sort by ELO
+        const todayRankings = {};
+        const yesterdayRankings = {};
+
+        todayData
+            .filter(item => item.elo !== null && item.elo !== undefined)
+            .sort((a, b) => (b.elo || 0) - (a.elo || 0))
+            .forEach((item, index) => {
+                const id = item.id || item.slug || item.name;
+                todayRankings[id] = index + 1;
+            });
+
+        yesterdayDataCat
+            .filter(item => item.elo !== null && item.elo !== undefined)
+            .sort((a, b) => (b.elo || 0) - (a.elo || 0))
+            .forEach((item, index) => {
+                const id = item.id || item.slug || item.name;
+                yesterdayRankings[id] = index + 1;
+            });
+
+        rankingChanges[category] = {};
+        for (const id in todayRankings) {
+            const todayRank = todayRankings[id];
+            const yesterdayRank = yesterdayRankings[id];
+
+            if (yesterdayRank !== undefined) {
+                rankingChanges[category][id] = {
+                    today: todayRank,
+                    yesterday: yesterdayRank,
+                    change: yesterdayRank - todayRank,
+                    isNew: false
+                };
+            } else {
+                rankingChanges[category][id] = {
+                    today: todayRank,
+                    yesterday: null,
+                    change: null,
+                    isNew: true
+                };
+            }
+        }
+    }
+}
+
 // Animate counter
 function animateCounter(element, target, duration = 1000) {
     const start = parseInt(element.textContent) || 0;
@@ -274,12 +467,45 @@ function updateStats() {
         animateCounter(totalElement, totalCount, 1200);
     }
 
+    // Calculate and show total model count change
+    const totalChangeElement = document.getElementById('total-models-change');
+    if (totalChangeElement && modelCountChanges) {
+        const totalChange = Object.values(modelCountChanges).reduce((sum, cat) => sum + (cat.change || 0), 0);
+        if (totalChange > 0) {
+            totalChangeElement.textContent = `(+${totalChange})`;
+            totalChangeElement.className = 'text-green-600 dark:text-green-400 text-sm font-semibold ml-1';
+        } else if (totalChange < 0) {
+            totalChangeElement.textContent = `(${totalChange})`;
+            totalChangeElement.className = 'text-red-600 dark:text-red-400 text-sm font-semibold ml-1';
+        } else {
+            totalChangeElement.textContent = '';
+        }
+    }
+
     const koreanCount = Object.values(allData).reduce((sum, arr) => {
         return sum + arr.filter(item => isKoreanCompany(item)).length;
     }, 0);
     const koreanElement = document.getElementById('korean-models');
     if (koreanElement) {
         animateCounter(koreanElement, koreanCount, 1200);
+    }
+
+    // Calculate and show Korean model count change
+    const koreanChangeElement = document.getElementById('korean-models-change');
+    if (koreanChangeElement && yesterdayData && Object.keys(yesterdayData).length > 0) {
+        const yesterdayKoreanCount = Object.values(yesterdayData).reduce((sum, arr) => {
+            return sum + arr.filter(item => isKoreanCompany(item)).length;
+        }, 0);
+        const koreanChange = koreanCount - yesterdayKoreanCount;
+        if (koreanChange > 0) {
+            koreanChangeElement.textContent = `(+${koreanChange})`;
+            koreanChangeElement.className = 'text-green-600 dark:text-green-400 text-sm font-semibold ml-1';
+        } else if (koreanChange < 0) {
+            koreanChangeElement.textContent = `(${koreanChange})`;
+            koreanChangeElement.className = 'text-red-600 dark:text-red-400 text-sm font-semibold ml-1';
+        } else {
+            koreanChangeElement.textContent = '';
+        }
     }
 }
 
@@ -436,11 +662,31 @@ function renderLLMContent() {
                     const provider = item.model_creator?.name || item.provider || item.company || '-';
                     const modelUrl = getModelUrl('llm', item);
 
+                    // Get ranking change info
+                    const itemId = item.id || item.slug || item.name;
+                    const changeInfo = rankingChanges?.llm?.[currentFilter]?.[itemId];
+                    let rankingIndicator = '';
+
+                    if (changeInfo) {
+                        if (changeInfo.isNew) {
+                            rankingIndicator = '<span class="inline-flex items-center px-2 py-1 text-xs font-semibold rounded-full bg-green-500 text-white ml-2">NEW</span>';
+                        } else if (changeInfo.change > 0) {
+                            rankingIndicator = `<span class="inline-flex items-center text-green-600 dark:text-green-400 text-sm font-bold ml-2" title="어제보다 ${changeInfo.change}계단 상승">↑${changeInfo.change}</span>`;
+                        } else if (changeInfo.change < 0) {
+                            rankingIndicator = `<span class="inline-flex items-center text-red-600 dark:text-red-400 text-sm font-bold ml-2" title="어제보다 ${Math.abs(changeInfo.change)}계단 하락">↓${Math.abs(changeInfo.change)}</span>`;
+                        } else {
+                            rankingIndicator = '<span class="inline-flex items-center text-gray-500 dark:text-gray-400 text-sm ml-2" title="순위 변동 없음">−</span>';
+                        }
+                    }
+
                     return `
                         <div class="flex items-center justify-between p-4 bg-gray-50 dark:bg-gray-700/50 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
                             <div class="flex items-center gap-4 flex-1">
-                                <div class="text-2xl font-bold text-gray-400 dark:text-gray-500 w-8">
-                                    ${rank}
+                                <div class="flex items-center gap-1">
+                                    <div class="text-2xl font-bold text-gray-400 dark:text-gray-500 w-8">
+                                        ${rank}
+                                    </div>
+                                    ${rankingIndicator}
                                 </div>
                                 ${medal ? `<div class="text-3xl">${medal}</div>` : '<div class="w-8"></div>'}
                                 <div class="flex-1">
@@ -538,12 +784,30 @@ function renderMediaContent() {
                             const modelUrl = getModelUrl(currentCategory, item);
                             const company = item.model_creator?.name || item.company || item.provider || '-';
 
+                            // Get ranking change info
+                            const itemId = item.id || item.slug || item.name;
+                            const changeInfo = rankingChanges?.[currentCategory]?.[itemId];
+                            let rankingIndicator = '';
+
+                            if (changeInfo) {
+                                if (changeInfo.isNew) {
+                                    rankingIndicator = '<span class="inline-flex items-center px-2 py-1 text-xs font-semibold rounded-full bg-green-500 text-white ml-2">NEW</span>';
+                                } else if (changeInfo.change > 0) {
+                                    rankingIndicator = `<span class="inline-flex items-center text-green-600 dark:text-green-400 text-sm font-bold ml-2" title="어제보다 ${changeInfo.change}계단 상승">↑${changeInfo.change}</span>`;
+                                } else if (changeInfo.change < 0) {
+                                    rankingIndicator = `<span class="inline-flex items-center text-red-600 dark:text-red-400 text-sm font-bold ml-2" title="어제보다 ${Math.abs(changeInfo.change)}계단 하락">↓${Math.abs(changeInfo.change)}</span>`;
+                                } else {
+                                    rankingIndicator = '<span class="inline-flex items-center text-gray-500 dark:text-gray-400 text-sm ml-2" title="순위 변동 없음">−</span>';
+                                }
+                            }
+
                             return `
                                 <tr class="border-b border-gray-100 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors">
                                     <td class="py-4 px-4">
                                         <div class="flex items-center gap-2">
                                             <span class="font-bold text-gray-600 dark:text-gray-400">${rank}</span>
                                             ${medal ? `<span class="text-xl">${medal}</span>` : ''}
+                                            ${rankingIndicator}
                                         </div>
                                     </td>
                                     <td class="py-4 px-4">

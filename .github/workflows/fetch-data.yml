@@ -18,7 +18,26 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Create data directory if not exists
-        run: mkdir -p data
+        run: mkdir -p data data/history
+
+      - name: Backup previous day data to history
+        run: |
+          TODAY=$(date -u +"%Y-%m-%d")
+          if [ -f data/llms.json ]; then
+            cp data/llms.json data/history/${TODAY}-llms.json
+            cp data/text-to-image.json data/history/${TODAY}-text-to-image.json 2>/dev/null || true
+            cp data/text-to-speech.json data/history/${TODAY}-text-to-speech.json 2>/dev/null || true
+            cp data/text-to-video.json data/history/${TODAY}-text-to-video.json 2>/dev/null || true
+            cp data/image-to-video.json data/history/${TODAY}-image-to-video.json 2>/dev/null || true
+            echo "Backed up data for ${TODAY}"
+          else
+            echo "No previous data to backup"
+          fi
+
+      - name: Clean old history (keep last 7 days)
+        run: |
+          find data/history -name "*.json" -type f -mtime +7 -delete 2>/dev/null || true
+          echo "Cleaned old history files"
 
       - name: Fetch LLM data
         run: |
@@ -63,5 +82,5 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/*.json
+          git add data/*.json data/history/*.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update AI data $(date -u +"%Y-%m-%d %H:%M UTC")" && git push origin master)
