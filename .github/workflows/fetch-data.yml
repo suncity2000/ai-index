@@ -2,8 +2,9 @@ name: Fetch AI Data
 
 on:
   schedule:
-    # 매일 한국시간 오전 9시 (UTC 00:00)
-    - cron: '0 0 * * *'
+    # 매일 한국시간 오전 9시 15분 (UTC 00:15)
+    # 00:00 UTC는 가장 혼잡한 시간대로 지연이 심함. 15분으로 변경하여 지연 완화
+    - cron: '15 0 * * *'
   workflow_dispatch: # 수동 실행 가능
 
 jobs:
@@ -16,33 +17,41 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Create data directory if not exists
+        run: mkdir -p data
+
       - name: Fetch LLM data
         run: |
-          curl -H "X-API-Key: ${{ secrets.AI_MODELS_KEY }}" \
+          curl --retry 3 --retry-delay 5 --fail --show-error --silent \
+               -H "X-API-Key: ${{ secrets.AI_MODELS_KEY }}" \
                -o data/llms.json \
                https://artificialanalysis.ai/api/v2/data/llms/models
 
       - name: Fetch Text-to-Image data
         run: |
-          curl -H "X-API-Key: ${{ secrets.AI_MODELS_KEY }}" \
+          curl --retry 3 --retry-delay 5 --fail --show-error --silent \
+               -H "X-API-Key: ${{ secrets.AI_MODELS_KEY }}" \
                -o data/text-to-image.json \
                https://artificialanalysis.ai/api/v2/data/media/text-to-image
 
       - name: Fetch Text-to-Speech data
         run: |
-          curl -H "X-API-Key: ${{ secrets.AI_MODELS_KEY }}" \
+          curl --retry 3 --retry-delay 5 --fail --show-error --silent \
+               -H "X-API-Key: ${{ secrets.AI_MODELS_KEY }}" \
                -o data/text-to-speech.json \
                https://artificialanalysis.ai/api/v2/data/media/text-to-speech
 
       - name: Fetch Text-to-Video data
         run: |
-          curl -H "X-API-Key: ${{ secrets.AI_MODELS_KEY }}" \
+          curl --retry 3 --retry-delay 5 --fail --show-error --silent \
+               -H "X-API-Key: ${{ secrets.AI_MODELS_KEY }}" \
                -o data/text-to-video.json \
                https://artificialanalysis.ai/api/v2/data/media/text-to-video
 
       - name: Fetch Image-to-Video data
         run: |
-          curl -H "X-API-Key: ${{ secrets.AI_MODELS_KEY }}" \
+          curl --retry 3 --retry-delay 5 --fail --show-error --silent \
+               -H "X-API-Key: ${{ secrets.AI_MODELS_KEY }}" \
                -o data/image-to-video.json \
                https://artificialanalysis.ai/api/v2/data/media/image-to-video
 
