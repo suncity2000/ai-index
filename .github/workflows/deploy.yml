@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - claude/fix-fetch-data-schedule-vKc5e
+      - master
   workflow_dispatch:
 
 permissions:
