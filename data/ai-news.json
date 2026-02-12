@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-02-11T09:53:11.663Z",
+  "last_updated": "2026-02-12T01:45:25.277Z",
   "news": [
+    {
+      "title": "파주시, ‘인공지능(AI) 대학원’ 유치 나선다",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xck0wR21hbWxIaFhNWExDejRpWHp2ZUlhcjlkLWlBOW9uV0l5RVBzeWpDMVlpMFdjNVdTSzFhd3FQa1BNSHlZay1iUjVueUJm?oc=5",
+      "source": "문화일보",
+      "date": "Wed, 11 Feb 2026 23:26:12 GMT"
+    },
     {
       "title": "생성형 AI, 업무 효율 높이지만 직원 부담도 증가",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1iQUV1YmF4NTZXZC1TYlB6TlQtd1plQkxVQkVtOWEwR05lR3liMkZBbkI5cjMwYjBienFOb05yOGVvamtKc3JNVTh0QnJRdl9GeU1ZQnA3TV9rOU95eFBKd0FoSVdWeHZ2MHVYWkhQV0dneEk?oc=5",
@@ -18,6 +24,12 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wemhvQ2RGdmlZV3JxSnBYdFozTVN2QVhLVF9BRm1VTjFvOUxvakJ5ek5zbnhkR2xBZDZWZWhIOGFJNFBrb1N0R2E4X2pzYUN1TTFhYW53?oc=5",
       "source": "지디넷코리아",
       "date": "Tue, 10 Feb 2026 08:45:15 GMT"
+    },
+    {
+      "title": "기상청, 인공지능(AI) 이용한 바람·햇빛 분석 정보 공개",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA4czBJS2gzTnpzN3l1Slh3QWJ1cWhJYVc1OXpPblhaZXhtNmZlQmJWSzZsV05TYVlBZHdEeFRBUUk1UlNCd010NGEwNWtmSUU?oc=5",
+      "source": "v.daum.net",
+      "date": "Tue, 10 Feb 2026 06:50:44 GMT"
     },
     {
       "title": "OpenAI가 ChatGPT에서 광고 테스트를 시작했습니다.",
@@ -38,40 +50,28 @@
       "date": "Mon, 09 Feb 2026 23:59:00 GMT"
     },
     {
-      "title": "[해외 크리에이티브] 오픈AI, 슈퍼볼에서 ‘AI로 만드는 일상’을 보여주다",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wVkxmT0V3LWpDWkZwQ0ZkUFJGc3BjY2Y2N3ZySWJMUENsSE9JRjJjSU5VcFVFV1pIVjdreFo3aWFkVnN2SzJCR1pHdnRhS2w5UWE2bVVuUFQ1NDN2cjdiX3g5ajU1QUtrV0tueg?oc=5",
-      "source": "매드타임스",
-      "date": "Mon, 09 Feb 2026 15:00:00 GMT"
+      "title": "인공지능(AI)과 우주의 법칙",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yTlhCNy0xc2h3Mll3ZnFqd1RfMUdoRzJ5VUhDaGxjbjFOM0E5RXNSWDlhU2VoM3pzR1ZPVlVNVVpWZ2FGTjFoM0pmS2NMTVRER2UyVWxPTHdMSXJTQ1ZaenllM1BRUzBVN0R5YXpjaDTSAXNBVV95cUxOZzlfLURoSlZMblNkdmxsRnNhbmMtcGdZb3phcm0wWVhVSjVyR1U0WEFtaDJYcWp4UXk2SUVXSk9Yb3pCbWpnZ0VVUFdjOFh3U21Ed3JnRkNmMUpENk03bGM5eDU5TFo0WkNURUpKb2p4VG4w?oc=5",
+      "source": "K스피릿",
+      "date": "Mon, 09 Feb 2026 19:29:27 GMT"
     },
     {
-      "title": "[AI의 심장, 데이터센터(上)] 전국 70여곳 ‘AI 인프라’ 건설 열기",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QakVUT0pXMHF0TUlVeEdydFpDTzg2ZEVMSjkyZll2N3hENVBkOTFWd3JDYjBDWVp3cTktbElwbml1VXZZZVpNWGFHeXBNclRGOGdZbk0tUzBFakYtMldmRmtYbW9jVDBkWTBlRWlVODk1U185R2fSAXZBVV95cUxOUGpFVE9KVzBxdE1JVXhHcnRaQ084NmRFTEo5MmZZdjd4RDVQZDkxVndyQ2IwQ1lad3E5LWxJcG5pdVV2WWVaTVhhR3lwTXJURjhnWW5NLVMwRWpGLTJXZkZrWG1vY1QwZFkwZUVpVTg5NVNfOUdn?oc=5",
-      "source": "시사저널e",
-      "date": "Mon, 09 Feb 2026 11:07:54 GMT"
+      "title": "[SNS로 보는 세상] 인공지능끼리 대화에 인간은 ‘쉿!’",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE13dXBZT2l5X2tSZTlWaFF3aFZjQXJ0cVdIM0pfcWxMZFJWTURtMmcyNmc2VHpMTjdnNEd3S0VvNUp3NHMxN1NTTDZyUDBRamlWUDBLYV9xV3gyQQ?oc=5",
+      "source": "농민신문",
+      "date": "Mon, 09 Feb 2026 08:00:00 GMT"
     },
     {
-      "title": "생성형 AI 유료구독, 2년만에 5배 증가…20대가 가장 많아",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5heEsyd0dmczZSTlZTNjBWelo4NUtnNlBpMEZUWDZVZGQtbFJ6QThVTjhfVEcxeXlBSUdsZ29SRUR4WGNzNGRZdnNlQW9oUG1vMVFNY0hRWEdXUdIBX0FVX3lxTFB5NWUtNFg0U2ZQSklNQTA2c216bnhtb1MtaVdhM3IzRkYxNU96Tnh5b0hDVEMwWHJPclRKTDczcHNWb2hOOFQ3aXB5X2dIOGVTamZxeEJqQzZ5emo1bWxz?oc=5",
-      "source": "경향신문",
-      "date": "Sun, 08 Feb 2026 07:58:00 GMT"
+      "title": "[야고부-한윤조] 인공지능(AI) 에이전트",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95RW90bGlIZ0E3RUJHT1A3b2N6Ym1oaDczbUFydWRoc0U4b2VUNXVsUk9DY09MVUZJc2d6a01ZWWdqWFU2dGlWT1JMSjFVb1FXaUk3dUF1U0dZb1lvdERCcUFB?oc=5",
+      "source": "매일신문",
+      "date": "Sun, 08 Feb 2026 20:00:00 GMT"
     },
     {
-      "title": "“AI 구독 시대 성큼”… 생성형 AI 유료 이용 2년 새 5배 급증",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5hbHhiQkgyRFExTzNmMDk4NmFkM0JkbXIxejBqUHF6Y2hvaTRKYnd5MFcwOER5cVR4b1Rrem5qbGdBV1UzMFE?oc=5",
-      "source": "v.daum.net",
-      "date": "Sun, 08 Feb 2026 06:15:06 GMT"
-    },
-    {
-      "title": "동대문구, ‘AI 공존도시’ 선언…생활 현장에 인공지능 접목 본격화",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5SdHpnazViZko1cDlWNTlsRFlaVHNrcTU1YkRXV2pRN0pXRG80bTFVMTlZSzdkWG5rQmRxTEZPTGdiTEFoV2lfNE5tckhDSWNY?oc=5",
-      "source": "문화일보",
-      "date": "Sun, 08 Feb 2026 01:49:33 GMT"
-    },
-    {
-      "title": "韓 수학자 개발 참여한 AI, 미해결 수학난제 13개 해답 제시",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE15ZmlDZGM5Zko5bFowTkxLeG1vMFgtUGlEalhTT1VZWHMwbElsT3plSjV4cmplaGNIYXJ1MjdrU1NJdkhtVWpHY05hVktxOGR1?oc=5",
-      "source": "동아사이언스",
-      "date": "Sun, 08 Feb 2026 01:27:00 GMT"
+      "title": "생성형 AI 에이전트 입문과정 제3기 수강생 모집",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5JanE5M3VMTm1KenR1VXhxMlFTVUREN2N5WDlLd2tiT2xVR1c3eUJWSlRtdHdkTWtNUFdHSVJCTEc1YVlFSUxJVk1BSk1PUU9VRElSZm5YLWhNVHo1YThZT29tLUpWeHBhVXc?oc=5",
+      "source": "고양신문",
+      "date": "Sun, 08 Feb 2026 19:01:49 GMT"
     }
   ]
 }
