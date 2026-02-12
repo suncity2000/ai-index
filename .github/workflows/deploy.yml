@@ -3,11 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
       - master
-      - claude/rebuild-ai-analysis-site-MqGAl
-      - claude/add-ai-news-section-mbGHy
-      - claude/fix-fetch-data-schedule-vKc5e
   workflow_dispatch:
 
 permissions:
