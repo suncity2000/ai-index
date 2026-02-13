@@ -1,11 +1,41 @@
 {
-  "last_updated": "2026-02-12T09:47:30.285Z",
+  "last_updated": "2026-02-13T09:42:03.410Z",
   "news": [
     {
-      "title": "\"알아서 척척 인공지능\"…'AI 챌린지' 스타트업 6곳 선정(종합)",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBpNmtRUXc0RXpnTV8yOWtkcGx5S19kM3Y0MFhKV2ltNkdJU0ZDMWdRMjNseFdNb0xyelduWnJQRDdXWjMwYVlxaFJFaTdlbEg5Y0hOX3BzWHZ2dlBnY1p6anctWHZKVzhtVE5NZ0praXMyd1pfWEpHWtIBeEFVX3lxTFBpNmtRUXc0RXpnTV8yOWtkcGx5S19kM3Y0MFhKV2ltNkdJU0ZDMWdRMjNseFdNb0xyelduWnJQRDdXWjMwYVlxaFJFaTdlbEg5Y0hOX3BzWHZ2dlBnY1p6anctWHZKVzhtVE5NZ0praXMyd1pfWEpHWg?oc=5",
-      "source": "뉴시스",
-      "date": "Thu, 12 Feb 2026 08:15:49 GMT"
+      "title": "[AI와 보안] “생성형 AI 추론 능력 원리 뜯어보자”... AI 모델 겨냥 공격 증가",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9neWhOazRCOFhKcEhwSGIyYWE1cG9adG5TYjBSTHlXcWE0cWRqNHM2NzhnZlBmRnIwcWlzcFF5RDNraENDT0ZSaFFhQ0UwUk5JYUZKQjRnZXE5SHlRX3otakQxVDRVS0FR?oc=5",
+      "source": "보안뉴스",
+      "date": "Fri, 13 Feb 2026 07:28:00 GMT"
+    },
+    {
+      "title": "\"2.9만원으로 챗GPT 프로 사용\" 화제....'챗GPT 포 카카오' 유의 사항은",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13Ykk4c2paRlJlN09YdlBJRXRXZzliN2tiQ0pkZnc0WTN0TUNsUW5qaWdzTFh2TzJVWDBPVGZIUWdZR0VUQk94aVFFVFU0UzgxOGYzR1EtV04wZHdvbnliTlNsU1JFb1FuOVE?oc=5",
+      "source": "AI타임스",
+      "date": "Fri, 13 Feb 2026 06:45:23 GMT"
+    },
+    {
+      "title": "[칼럼] 인공지능(AI) 반도체의 실증과 상용화 기회를 확대해야 한다",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9WNmo0N1ZIbktrb25MaWxTYTIzdU9KaV9YX2Y0eVU0Ul9Ta1RLT3AxS2ZUdG05REVFanhILVp6SWVoaEdY?oc=5",
+      "source": "케이에스피뉴스",
+      "date": "Fri, 13 Feb 2026 02:25:00 GMT"
+    },
+    {
+      "title": "\"30만원짜리가 2만9000원\"…깜짝 할인에 '카톡' 들썩였다",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GSmVNSDhQSmFsT015OURaMERPa3BPV2ZiSXpLRVM0WVRtWk9TNk9Da2pIX2pFV3NfSHluU3duSnd1cHkwWlpicG9FeG5ubWtPTExrdTFvbFFrQdIBVEFVX3lxTE5FMVhJakpVSnkxSzVjVEJSaU1tZUN3clBsaUhKc2tqSlpWMjRsRzdKZWpUdThlSlFBcUFxS2ZIVlV1MXVWSFBiSHVCT0Y3MjVGenlnZg?oc=5",
+      "source": "한국경제",
+      "date": "Fri, 13 Feb 2026 01:44:46 GMT"
+    },
+    {
+      "title": "판사도 AI 도움받는다…'재판지원 인공지능 시스템' 시범 오픈",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1VG1BdWRlOUhIMW9CV1NvTzVZLUtmTDZwZm5PS0RXVWRkMEFjVzJmN21ZTm1FaW5aYW9iMFpNRkc2eVdfM2FYeE13SzI5RFJhVk9JUlEyTjVhT0tyYmtfLdIBYEFVX3lxTFA1VG1BdWRlOUhIMW9CV1NvTzVZLUtmTDZwZm5PS0RXVWRkMEFjVzJmN21ZTm1FaW5aYW9iMFpNRkc2eVdfM2FYeE13SzI5RFJhVk9JUlEyTjVhT0tyYmtfLQ?oc=5",
+      "source": "연합뉴스",
+      "date": "Fri, 13 Feb 2026 00:39:38 GMT"
+    },
+    {
+      "title": "전문가 초빙해 발전현장 AI 모색…남동발전 전환 착수",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5GMnR2WmR6SHBxUVJ1ZVk1Znl6RFpoRmMyS2RMZVJtcVVLd21HRFd4MUtPb3hlZXlHTUo4aDc1UDN0MUtiUmctZzc0MlQzMmJRd3dSbXdWN00wWDFSR2drY08xUldSSXNzd1dKN2otZEzSAXBBVV95cUxORjJ0dlpkekhwcVFSdWVZNWZ5ekRaaEZjMktkTGVSbXFVS3dtR0RXeDFLT294ZWV5R01KOGg3NVAzdDFLYlJnLWc3NDJUMzJiUXd3Um13VjdNMFgxUkdna2NPMVJXUklzc3dXSjdqLWRM?oc=5",
+      "source": "전기신문",
+      "date": "Thu, 12 Feb 2026 08:34:23 GMT"
     },
     {
       "title": "나라마다 다른 ‘인공지능 정서’를 아십니까",
@@ -20,58 +50,28 @@
       "date": "Thu, 12 Feb 2026 07:40:04 GMT"
     },
     {
-      "title": "인공지능(AI) 시대 문경시는 무엇을 준비해야 하는가?",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1WeDBETDdIaXdEc2dqVE5qSmFhLUtwZURqS21DckNWbWdBOU1PNGYzZ0JsRkFUQjNKYTBXenljeE5ZbWZwU2dyQ1pleFFoYUxMSHpvNVo5OTU2STBWVjZ3Y0ZjQXp1UHJ3OUhINWtndUlNeXpVUXdLenYtdw?oc=5",
-      "source": "문경시민신문",
-      "date": "Thu, 12 Feb 2026 05:31:00 GMT"
-    },
-    {
-      "title": "파주시, 인공지능(AI) 대학원 유치 시동",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sQ05OUS1OdHdWd1ZQZk4yZTJxaldfUkJlM1NtMGtEcmFVQ2NrZEM1cW5majlVSXNOWUhHRG9aX1FmT3ZXeTQxVUQ5clVuR0dHSFZkVXJta2hGM1FQQUFFQVZJNjdyTWNf?oc=5",
-      "source": "일간경기",
-      "date": "Thu, 12 Feb 2026 04:13:10 GMT"
-    },
-    {
       "title": "[단독] 금융위, 시중은행 '생성형 AI' 도입 빗장푼다...'망분리 규제' 전면 재검토",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4yZEFoV0VCNThYaVFPSW51NV9nM3NLR0tyZFhmUDRQeElNSDhKeDRVR1RpMXJ2OXFwMHBlV2U1aVBOdGxZX1NnN0xuczcydw?oc=5",
       "source": "전자신문",
       "date": "Thu, 12 Feb 2026 04:00:00 GMT"
     },
     {
-      "title": "파주시, ‘인공지능(AI) 대학원’ 유치 나선다",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vRUpTbkkxWXRBajhXdGkyYlBnSE1qeXh1QklUU25VS3M4MVdFSmpfNVd4MFpmUl96RHNlcVZybEh4Q29oYjFvaUFCWGE0eW1wMzI0U1ZFbHVJVDVmZ2Qwb3NURl8?oc=5",
-      "source": "매일일보",
-      "date": "Thu, 12 Feb 2026 02:21:42 GMT"
+      "title": "주안영상미디어센터, ‘2월 인공지능(AI) 특별 교육’ 운영",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByaE11UldWUVBMMURKWFFrbU4tNUN6TkpvSXdoUEFvX0VDOENoMnlfSVpDb3Y2bmZ4bml2Mng5ZW1jeEJXX3MtR01LTzVyRFdZLWV2c2owUk9QS3o0QVdLdnc5RHlaUWtDWk55OVcwVQ?oc=5",
+      "source": "미디어생활",
+      "date": "Thu, 12 Feb 2026 02:51:22 GMT"
     },
     {
-      "title": "오픈에이아이, 챗지피티 무료·고 요금제에 광고 시험 도입",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBEVklGVTdBc3dvWmhNOVB1eDJDOWJsbVVlZ3hWdVlhTGctZVhNUFFWUUxvZkFhT1pqUVVfSkY0alZRdzNCSnZNOVlkUXpiTkk1RFpIR0N1dXNyUE9pMVpr?oc=5",
-      "source": "헬로티",
-      "date": "Wed, 11 Feb 2026 08:48:51 GMT"
-    },
-    {
-      "title": "생성형 AI, 업무 효율 높이지만 직원 부담도 증가",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1iQUV1YmF4NTZXZC1TYlB6TlQtd1plQkxVQkVtOWEwR05lR3liMkZBbkI5cjMwYjBienFOb05yOGVvamtKc3JNVTh0QnJRdl9GeU1ZQnA3TV9rOU95eFBKd0FoSVdWeHZ2MHVYWkhQV0dneEk?oc=5",
-      "source": "디지털투데이",
-      "date": "Tue, 10 Feb 2026 23:52:31 GMT"
-    },
-    {
-      "title": "오픈AI, 월 8달러 저가 구독 ‘챗GPT 고’ 전 세계 출시…광고 도입도 예고",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9tNTU0ZVZmbXVrMnZ1RzBzeXNKRmVVeHo4SnYtaHdUazFuSUJUNVhNTk5yOEcyQVpaRVhpUXBRUW5OSjk2RnNObHBFa1lSM0U?oc=5",
-      "source": "와우테일",
-      "date": "Tue, 10 Feb 2026 14:17:12 GMT"
-    },
-    {
-      "title": "OpenAI가 ChatGPT에서 광고 테스트를 시작했습니다.",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5VRGQwb1lDampnQ1JhNG9hbXc0dDRPT012eVZfRXBlUlhRQUF2SzV6QVNtVDFtYjRLVE1YdmZUQkRlRVd2dERucTFqZmROZGtfbWdodG5FOGdKNFJieUhPQ2pRNFdFOWlaRG1JYUtOdlY5S1dWUWlIOWVMWHhtX1E?oc=5",
-      "source": "Vietnam.vn",
-      "date": "Tue, 10 Feb 2026 05:39:00 GMT"
-    },
-    {
-      "title": "행안부, 공공부문 인공지능 도입·확산 지원... ‘AI 민주정부 실현’ 속도 높인다",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlMWtzOENuNlMxbFlJcWlDMnZ3eFZzZERqN1ZMOHVENkFtdUNZc3B2dGtPQ3ZYMzl5Zk5ZVnZYWTNTYXlYTDRNSElvTXZWYzVTcXhWam04UmpuTURVTmdIZEIxclJ4V0U?oc=5",
+      "title": "한국인공지능협회, 발대식 갖고 ‘AI 전환 전국 산·학 생태계 확산’ 본격 시동",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZUU9JY05WZGVrVWd6bXc2QlBhNnhGaGtDVGdWWTJPUkdQNWVlX19yc2xnSEk2MHBnSFl4dExmWG50TFE4X096Q2xRZFdRdWdNdlNHX0g1NFpVVklEZ0JlREg2Um9FNlE?oc=5",
       "source": "인공지능신문",
-      "date": "Tue, 10 Feb 2026 03:40:47 GMT"
+      "date": "Thu, 12 Feb 2026 01:13:07 GMT"
+    },
+    {
+      "title": "파주시, ‘인공지능(AI) 대학원’ 유치 나선다",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xck0wR21hbWxIaFhNWExDejRpWHp2ZUlhcjlkLWlBOW9uV0l5RVBzeWpDMVlpMFdjNVdTSzFhd3FQa1BNSHlZay1iUjVueUJm?oc=5",
+      "source": "문화일보",
+      "date": "Wed, 11 Feb 2026 23:26:12 GMT"
     }
   ]
 }
