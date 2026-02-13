@@ -22,14 +22,15 @@ jobs:
 
       - name: Backup previous day data to history
         run: |
-          TODAY=$(date -u +"%Y-%m-%d")
+          # Calculate yesterday's date (the date of the data we're backing up)
+          YESTERDAY=$(date -u -d "yesterday" +"%Y-%m-%d")
           if [ -f data/llms.json ]; then
-            cp data/llms.json data/history/${TODAY}-llms.json
-            cp data/text-to-image.json data/history/${TODAY}-text-to-image.json 2>/dev/null || true
-            cp data/text-to-speech.json data/history/${TODAY}-text-to-speech.json 2>/dev/null || true
-            cp data/text-to-video.json data/history/${TODAY}-text-to-video.json 2>/dev/null || true
-            cp data/image-to-video.json data/history/${TODAY}-image-to-video.json 2>/dev/null || true
-            echo "Backed up data for ${TODAY}"
+            cp data/llms.json data/history/${YESTERDAY}-llms.json
+            cp data/text-to-image.json data/history/${YESTERDAY}-text-to-image.json 2>/dev/null || true
+            cp data/text-to-speech.json data/history/${YESTERDAY}-text-to-speech.json 2>/dev/null || true
+            cp data/text-to-video.json data/history/${YESTERDAY}-text-to-video.json 2>/dev/null || true
+            cp data/image-to-video.json data/history/${YESTERDAY}-image-to-video.json 2>/dev/null || true
+            echo "Backed up data for ${YESTERDAY}"
           else
             echo "No previous data to backup"
           fi
