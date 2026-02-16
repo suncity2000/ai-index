@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-02-15T09:29:52.682Z",
+  "last_updated": "2026-02-16T09:52:40.036Z",
   "news": [
+    {
+      "title": "\"인공지능이 대세\"…생활가전도 AI 시대 '활짝' [강추아이템]",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xWXF1NUNQZjBRVm90ZWZsRUxzWVJXWWRTb3BGS0xKOGFkUEQ4UUFiaURPZExlQlNiNFZvYW9LOXFMZjdQT0pONHlGOTNoY0FkZFdYeHZ0Q0t6QTl4U1BId2ZrSm4?oc=5",
+      "source": "뉴스1",
+      "date": "Fri, 13 Feb 2026 21:45:00 GMT"
+    },
+    {
+      "title": "[AI와 보안] “생성형 AI 추론 능력 원리 뜯어보자”... AI 모델 겨냥 공격 증가",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE14cE1rdl93SG53WmFfSnMzVlc3Z0gxcHZaOGI0ajhuekpKaUZKRmNPVUFNckFrVE5RSTBmY1poZHZ1QXVuYzg1Nk5GcWJfaUJzdWhKQWxSaXZVdGdwbzB1Nks2YllrYWtWaWdxeVJ3?oc=5",
+      "source": "보안뉴스",
+      "date": "Fri, 13 Feb 2026 07:28:00 GMT"
+    },
     {
       "title": "법원, 생성형 AI 기반 '재판지원 AI 시스템' 시범 오픈",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HQkZvdHhjekNHd1VEcXpveERMeVZZSm1IbkNrdzJycHl0eEQ4bEFDNmdHaTlzNVlpQVJCblZYVl9pVS1BWml1dUhNVEdHcjM1T082bkZNT05kQlJsTGVseFlNMWpOVHo3ZDlTSU530gFyQVVfeXFMTW43WHplOFFQZzhJekhyMkJ6ZXgwVVJtY0otRXJCcTVzdzBxWW8taTVNd3NIUEhLSW0yM0VySHIxX1RWZVBUdWhmRWU3X25HaEhrLVg1NFdXazF1WUc0ZW4yOTBhV1Iwamp0OXQ0NUdPbU9R?oc=5",
@@ -32,28 +44,10 @@
       "date": "Thu, 12 Feb 2026 09:25:08 GMT"
     },
     {
-      "title": "국가인공지능전략위원회, 인공지능(AI) 기본 사회 세미나 개최",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB1VWxNcTFzaC14bkFSZEdLLVRyYzJvZzk0M2xTMzRzSUk1eElPVUFlZzFNcHEyWUNlc0JNaGhralJ1anNMZl9hRnVHMnM2UVNIYWwxa1VUUEN2NG8xcGZSWEtsbWJ1bUpiSXfSAW5BVV95cUxQMGtYNGx4T0x0TWhiM3pXdnVjVkxsVU8zWTEyTmxNYnBNWHhsS0YyZEM0TVFZc0VPbGpSYXhTTnotUTVfMWZmMWQtM3J2aFhsZDZPSjNTeHdTYXI5Z2otU3pLRTB3dVMyUVB1bDR1dw?oc=5",
-      "source": "NK경제",
-      "date": "Thu, 12 Feb 2026 08:45:52 GMT"
-    },
-    {
-      "title": "나라마다 다른 ‘인공지능 정서’를 아십니까",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWUNkZ0VZM0ZNeXN4ZTVOWWV4M0RHRGpleDh2TEt0c0ZtX2pQdkRoUmRuRG9uSUVtRDZyU2xMUS14N25zUWpDblZjVk9qdG9lWGI3NTkxTVFPZF9xSjRxd3ktM0pxQTNUbTVCWmVUQmJhMzlMTTAwUXlDMEpNQWJzQWpNZzR6UdIBmgFBVV95cUxOeXlhc19uRG11UVRDZ2RlbDhxOUZhZVVhYTRmT3NmNXZKQnFhSEVsWlJMQm9UQ0lPRmEtSEF4N1NkTnhxRUNqN1lkdGpDTVNMNjF1TUpJYlByWFlGaG53NzVQVUpjLTNURzk1bmpLWUxjbWIwMVluT1YzYU84OW1aSGtQYlR1VUlWTV92NE9OdzljcU1ZR1NMUVFR?oc=5",
-      "source": "조선일보",
-      "date": "Thu, 12 Feb 2026 07:47:25 GMT"
-    },
-    {
       "title": "[사이언스칼럼] 인공지능과 과학의 결합 'AI for Science'가 여는 새로운 미래",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1kMUxpOEpvc29OcEVwRDhTQkRieU04azFzM3ZzcjdtTGUwdk1CcHB3MkRHOHEweTdLdnpGU3hiZE1MQUhwVkJjT1oyREF5NGs?oc=5",
       "source": "v.daum.net",
       "date": "Thu, 12 Feb 2026 07:40:04 GMT"
-    },
-    {
-      "title": "시흥시, 인공지능(AI) 인재 육성·기업 혁신 지역 협력체계 구축",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0xcU1mcFRnR3FfNm9jUGxpVUl0Mk52NEgtUGpJOXZyMmUwa0hkWWViUlA1UVJNQ1l2bm5UT0RMcjZERV9JdDlXaFVycFVJUVplTHhKLXZrdnNVQktBbHRQOHQ5U3Y1UFhLRUgzR0lHbw?oc=5",
-      "source": "기호일보",
-      "date": "Thu, 12 Feb 2026 06:44:00 GMT"
     },
     {
       "title": "EBS, 생성형 AI 애니메이션 시리즈 공동제작 프로젝트 공모...총 5억원 규모, 최대 5개 프로젝트 선정 및 EBS 방영 기회 제공",
@@ -72,6 +66,12 @@
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4yZEFoV0VCNThYaVFPSW51NV9nM3NLR0tyZFhmUDRQeElNSDhKeDRVR1RpMXJ2OXFwMHBlV2U1aVBOdGxZX1NnN0xuczcydw?oc=5",
       "source": "전자신문",
       "date": "Thu, 12 Feb 2026 04:00:00 GMT"
+    },
+    {
+      "title": "파주시, ‘인공지능(AI) 대학원’ 유치 나선다",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vRUpTbkkxWXRBajhXdGkyYlBnSE1qeXh1QklUU25VS3M4MVdFSmpfNVd4MFpmUl96RHNlcVZybEh4Q29oYjFvaUFCWGE0eW1wMzI0U1ZFbHVJVDVmZ2Qwb3NURl8?oc=5",
+      "source": "매일일보",
+      "date": "Thu, 12 Feb 2026 02:21:42 GMT"
     }
   ]
 }
