@@ -1,17 +1,47 @@
 {
-  "last_updated": "2026-02-17T09:45:46.965Z",
+  "last_updated": "2026-02-18T09:44:55.006Z",
   "news": [
     {
+      "title": "[성남시 일상 속 인공지능] AI 사람을 담아 삶 전면에 서다",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15ZjhRMl9RUHh3ZnlSXzVRMDJja2IyaDlLVzVHSFFuRF9la2VpUjR1MVVFTTdLeVlXNHBrTDRsRXZTREtkNWpqX3QzMEhTVTg?oc=5",
+      "source": "v.daum.net",
+      "date": "Wed, 18 Feb 2026 09:19:07 GMT"
+    },
+    {
+      "title": "LG CNS, 오픈AI 리셀러 파트너 활동 시작... ‘기업용 챗GPT’ 국내 확산 시동",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GZVhGN0lpTE15ejJBakplN05tQnVfNDVYT0lFVnBVVnlMbGV3cDl2blJicm9fRE5GbXdsV2YzYWs4d3BCUnBTRVZWNno0UlZCZ09HM2RNdGg4Mnh2WmFXNTQtb2t0YnM?oc=5",
+      "source": "인공지능신문",
+      "date": "Wed, 18 Feb 2026 08:41:41 GMT"
+    },
+    {
+      "title": "LG CNS, ‘기업용 ChatGPT’ 국내 확산 시동…오픈AI와 맞손",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBCNzJEeUd5QnFFYmlWS05mbHljV05XSG8xbk5WNkpkNTdCQ01yWkNDQ2M2eWxBbVl3Ukl4dEtLRHJKUmFybnM4U1NueTlZM3k0bmRlY0NjVzRqa1RySnE4cThCOVpFWExVWVZtQkY4OA?oc=5",
+      "source": "시사포커스",
+      "date": "Wed, 18 Feb 2026 06:52:55 GMT"
+    },
+    {
+      "title": "인도, 인공지능(AI) 정상회의 개최…. 글로벌 핵심 인사들 뉴델리 집결",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1Ib0M4dDN0cTEtY3Z0WFRkVmp5c0ZvaVNLWVIzWU5DMEVicHltTjhvVGpnMm9Ob1NFbHlKTHhIS2ctYjlhMnd6Tk1NSU1lWjUxaV9tY0FCaWZsV1o1REZwX2RoRXo5ZFdnbjlVdlFWLTB5VHZBR0RXZkp30gF8QVVfeXFMTnY2S1JhbzhxLU5MN1RZREVqZjJ3QjZwQ19fc1RLNU1wRnQtbmMxeGF6al8tZnJmRVhUUlVndWRYVXp3YW9nbkdkT08xbUM4ay1KRVVWbTIzb2lBZWZ2UXlBUWstWVVheVZ5d0tkdWpoNTZVUkllME56OHRrMg?oc=5",
+      "source": "VOA 한국어 홈페이지",
+      "date": "Tue, 17 Feb 2026 15:18:02 GMT"
+    },
+    {
       "title": "생성형 AI 누가 쓰나 봤더니···역시 2030이었네",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAwY2RJa3hPdGNHUVhvTWZJd0s4eENjSFl3ZTBvYXJzX1lPNVJYLUJwcmtoUkJvRUxmWURwWlpSU3B6bHg4N2VBMDQ1QzN1SHM?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE91RjhmcDVkRFZQWjJiZDJuQV9qZHk3TkFsSUlPdmxRWFN0cHlIcjRxdDkybnNtblF6REtVQ3JIak9Od01mZXc?oc=5",
       "source": "v.daum.net",
       "date": "Tue, 17 Feb 2026 04:03:03 GMT"
     },
     {
-      "title": "'AI를 쓰지 않는다'는 사람들이 모르고 있는 사실",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5nZTA3dTh5Sk5WclMtcUZtai1PTmdkSDN4akJsUnZLdVF3MWhOOFZmUUdsQVdWdHFvS3llYTYzWjlHQXVHek11aGJWRlFUS1Rhcy11cXFHUERiSW0zd2xrb3BNc05pX3YzY21uRGF4OHBxTXowb3ln?oc=5",
-      "source": "OhmyNews",
-      "date": "Mon, 16 Feb 2026 09:01:00 GMT"
+      "title": "“‘옷 벗기는 AI’ 언제까지 그냥 둘 건가”···성착취 이미지 생성에 전 세계가 ‘우려’ 성명",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0xVkVwUnB0R0hudmhTb2d2SGVuNVg3RHlxV2xsTWZiN21tYTJ3TzZyekpoZk9wZGFUOXJqclEzOWdmZk9zaVU2aEVGczNpbWQ5b2VQc3FwTU5kUdIBX0FVX3lxTE1rSjNTMm42dzc0Z1VHWmtTR1hhOTJfWGdQX09pQWRabl9OenEtdmdMNkhSeVJxbENHa3hXaWdNODB5QzFwb0p0dzYxenlKVGVQTTVfZ3loeDhVcy1XRWlV?oc=5",
+      "source": "경향신문",
+      "date": "Tue, 17 Feb 2026 02:14:00 GMT"
+    },
+    {
+      "title": "생성형 AI, 게임 개발 혁신할까? 전문가들 \"아직 멀었다\"",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB6VUFEV08xT2V3dXdWOGEzWjRRMFhBb21BRG9LTzMzOU9QUTFnTDRpTVNpUmhWVmxYMEZDWXFMR2xpbGxmR0ZybFZXVExkQ0NwOEFWVFhSUEphTXBmeFJiam8tM2lsZUk5WDJYdG41VDVYbVE?oc=5",
+      "source": "디지털투데이",
+      "date": "Mon, 16 Feb 2026 01:54:00 GMT"
     },
     {
       "title": "AI 보험 비교 기능 등장… 기존 보험 비교 플랫폼 흔들",
@@ -26,10 +56,10 @@
       "date": "Fri, 13 Feb 2026 21:45:00 GMT"
     },
     {
-      "title": "[AI와 보안] “생성형 AI 추론 능력 원리 뜯어보자”... AI 모델 겨냥 공격 증가",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE14cE1rdl93SG53WmFfSnMzVlc3Z0gxcHZaOGI0ajhuekpKaUZKRmNPVUFNckFrVE5RSTBmY1poZHZ1QXVuYzg1Nk5GcWJfaUJzdWhKQWxSaXZVdGdwbzB1Nks2YllrYWtWaWdxeVJ3?oc=5",
-      "source": "보안뉴스",
-      "date": "Fri, 13 Feb 2026 07:28:00 GMT"
+      "title": "인공지능 시대, 생성형AI 이용 세대별 격차와 포용의 길",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBUQjNPQ2VfcUc3c2FreDk3aUJUNmpZejdjQ24tdmJuelRrZXdnY09tSFhtWTlrQmNJOEc0SnNDOUNCUkNCMG9MRUk0WEh3dzRuaFJkNEJwRlZLbkpfd21xcVRDM3N2UQ?oc=5",
+      "source": "디지털포스트(PC사랑)",
+      "date": "Fri, 13 Feb 2026 08:00:00 GMT"
     },
     {
       "title": "법원, 생성형 AI 기반 '재판지원 AI 시스템' 시범 오픈",
@@ -42,36 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GSmVNSDhQSmFsT015OURaMERPa3BPV2ZiSXpLRVM0WVRtWk9TNk9Da2pIX2pFV3NfSHluU3duSnd1cHkwWlpicG9FeG5ubWtPTExrdTFvbFFrQdIBVEFVX3lxTE5FMVhJakpVSnkxSzVjVEJSaU1tZUN3clBsaUhKc2tqSlpWMjRsRzdKZWpUdThlSlFBcUFxS2ZIVlV1MXVWSFBiSHVCT0Y3MjVGenlnZg?oc=5",
       "source": "한국경제",
       "date": "Fri, 13 Feb 2026 01:44:46 GMT"
-    },
-    {
-      "title": "판사도 AI 도움받는다…'재판지원 인공지능 시스템' 시범 오픈",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0b3VwYzNwTUUxLV9kOE1meEFmcXN5bjBFVkNsaVdCRFZPdkIzQjVkRzlQSjVtRm5wdUt0RWxTUi1sZkdTX1ZMdWdLeTBfQW5XS0N6dDJLWkNhdU3SAWBBVV95cUxQNVRtQXVkZTlISDFvQldTb081WS1LZkw2cGZuT0tEV1VkZDBBY1cyZjdtWU5tRWluWmFvYjBaTUZHNnlXXzNhWHhNd0syOURSYVZPSVJRMk41YU9LcmJrXy0?oc=5",
-      "source": "연합뉴스",
-      "date": "Fri, 13 Feb 2026 00:39:38 GMT"
-    },
-    {
-      "title": "오픈AI, 챗GPT서 GPT-4o 완전 제거...GPT-5.2는 더 '차갑게'",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85OENfNVNDSEZmOTJVR1FtTEZoaHJUTkw2Rk9JYXZwZzBrUUxlT1RTdG8xUmVWSDgyRnpIWUdRYUFjeUNXbmVQZG12UURlT0JoWnJpR21tZFJlbTVqUjdsYWVRck91YmlOY3c?oc=5",
-      "source": "AI타임스",
-      "date": "Thu, 12 Feb 2026 11:10:30 GMT"
-    },
-    {
-      "title": "부산항, 로봇과 AI로 움직이는 초연결 인공지능 항만으로",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5kcUI5cVJ2NGMyckFWSTUwd0hUaHVmUjBsOGRtNXozY2V1VEF5Wl9mNkNDcHNFUzRUZy0wU1dCc3RnaXhCaEl4ZFhYa2pXSDZnRTQ3SzBzNlc0SU1qSnd4VXRhUDhUaFd4ZTAwenBFN0lsVi11ZXREUg?oc=5",
-      "source": "부산일보사",
-      "date": "Thu, 12 Feb 2026 09:25:08 GMT"
-    },
-    {
-      "title": "\"알아서 척척 인공지능\"…'AI 챌린지' 스타트업 6곳 선정(종합)",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE51cC1mZWhyNkZoN0FpV294N2o0dWJVWHVYbU55Q1VrT1N3THFFWW10VndTcGFtdVR3NURrUVRuUnIwWm8zOTlOZElWUVNnbXpmUmZkRTV2d3o5S2MxNlg5V9IBeEFVX3lxTFBpNmtRUXc0RXpnTV8yOWtkcGx5S19kM3Y0MFhKV2ltNkdJU0ZDMWdRMjNseFdNb0xyelduWnJQRDdXWjMwYVlxaFJFaTdlbEg5Y0hOX3BzWHZ2dlBnY1p6anctWHZKVzhtVE5NZ0praXMyd1pfWEpHWg?oc=5",
-      "source": "뉴시스",
-      "date": "Thu, 12 Feb 2026 08:15:49 GMT"
-    },
-    {
-      "title": "나라마다 다른 ‘인공지능 정서’를 아십니까",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWUNkZ0VZM0ZNeXN4ZTVOWWV4M0RHRGpleDh2TEt0c0ZtX2pQdkRoUmRuRG9uSUVtRDZyU2xMUS14N25zUWpDblZjVk9qdG9lWGI3NTkxTVFPZF9xSjRxd3ktM0pxQTNUbTVCWmVUQmJhMzlMTTAwUXlDMEpNQWJzQWpNZzR6UdIBmgFBVV95cUxOeXlhc19uRG11UVRDZ2RlbDhxOUZhZVVhYTRmT3NmNXZKQnFhSEVsWlJMQm9UQ0lPRmEtSEF4N1NkTnhxRUNqN1lkdGpDTVNMNjF1TUpJYlByWFlGaG53NzVQVUpjLTNURzk1bmpLWUxjbWIwMVluT1YzYU84OW1aSGtQYlR1VUlWTV92NE9OdzljcU1ZR1NMUVFR?oc=5",
-      "source": "조선일보",
-      "date": "Thu, 12 Feb 2026 07:47:25 GMT"
     }
   ]
 }
