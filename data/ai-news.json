@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-02-18T09:44:55.006Z",
+  "last_updated": "2026-02-19T09:43:18.040Z",
   "news": [
+    {
+      "title": "[중꺾정63화] 민주주의와 인공지능(AI) : 어떻게 주인으로 남을 것인가?",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5WdkNDSWlZTXpXSUg0a2dUZ0U5WGpqYmRxSzZrSnMxLUNBcVlob1ZQZWFJbUR0NVZwVXlBbldTaDZOdEM2cG1VTTg3eVlPaHJRUV9sYnlkUjBsQQ?oc=5",
+      "source": "참여연대",
+      "date": "Thu, 19 Feb 2026 09:03:19 GMT"
+    },
+    {
+      "title": "서울시, ‘상황 읽는 생성형 AI’로 CCTV 관제 패러다임 전환",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBM2lpU193V1JILXdGNWpCSWU2MDltbEFFVGw1V1FBX2JjajQ2VGlBRm14ek5CaVRJTnpfd2RrQlRzdDJJRVIzRXhSWHlYQ0tLcjZ3ZDhzcWhRaUFZX1h3a1ZySHVwQ1JC?oc=5",
+      "source": "보안뉴스",
+      "date": "Thu, 19 Feb 2026 07:21:00 GMT"
+    },
+    {
+      "title": "구글·애플, 음악 생성 AI 시장 놓고 맞대결",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9YNi1xZTN1a1ZDU19NZFQ5WWFMM1FCRktIRzdnblRFaUtNaVlTUFRMbGRkUDhhdms2OUg3V2hpMXEwRkV2amR5WEhMNFk2N3dDXzBQdWxR?oc=5",
+      "source": "지디넷코리아",
+      "date": "Thu, 19 Feb 2026 02:15:54 GMT"
+    },
+    {
+      "title": "시스템 엔지니어링 관점에서 본 인공지능(AI)",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MUkNYM1pKTXFnU2VlU0lkLWVmbmxNTWEzNXR3YjhlUzVUOUdkdUx6UlVUT2tOdUd1RnF2c0toc2ZzRzIydDhESzJwcUJWWW9UNlVabnRCYzFFb1ZxOUR0YWxudDlLR0RPVVFhMQ?oc=5",
+      "source": "브랜드뉴스",
+      "date": "Thu, 19 Feb 2026 01:45:46 GMT"
+    },
     {
       "title": "[성남시 일상 속 인공지능] AI 사람을 담아 삶 전면에 서다",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15ZjhRMl9RUHh3ZnlSXzVRMDJja2IyaDlLVzVHSFFuRF9la2VpUjR1MVVFTTdLeVlXNHBrTDRsRXZTREtkNWpqX3QzMEhTVTg?oc=5",
@@ -14,22 +38,22 @@
       "date": "Wed, 18 Feb 2026 08:41:41 GMT"
     },
     {
-      "title": "LG CNS, ‘기업용 ChatGPT’ 국내 확산 시동…오픈AI와 맞손",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBCNzJEeUd5QnFFYmlWS05mbHljV05XSG8xbk5WNkpkNTdCQ01yWkNDQ2M2eWxBbVl3Ukl4dEtLRHJKUmFybnM4U1NueTlZM3k0bmRlY0NjVzRqa1RySnE4cThCOVpFWExVWVZtQkY4OA?oc=5",
-      "source": "시사포커스",
-      "date": "Wed, 18 Feb 2026 06:52:55 GMT"
+      "title": "차세대 산업용 AI를 사용할 준비가 되셨나요?",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVC0yUl9RWXdWa3pXUU5aY0VqMmpFZjNBUk83YUdBblhrSV9XdURkN0FpR3BWZ1JBbWxEakYzbHNWQkI1cFB1RDVpVTJvRWdCU1FRcVVLTUZibkc0SG90Y0xnclZGWTdFaG1JX2Njd0NzQ0VRRUpLbEZlVmN2dEd6eUp1Um51Q1hqTVl2c0lTaEpQQ1BjbVl2ZQ?oc=5",
+      "source": "Siemens",
+      "date": "Wed, 18 Feb 2026 04:48:01 GMT"
     },
     {
-      "title": "인도, 인공지능(AI) 정상회의 개최…. 글로벌 핵심 인사들 뉴델리 집결",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1Ib0M4dDN0cTEtY3Z0WFRkVmp5c0ZvaVNLWVIzWU5DMEVicHltTjhvVGpnMm9Ob1NFbHlKTHhIS2ctYjlhMnd6Tk1NSU1lWjUxaV9tY0FCaWZsV1o1REZwX2RoRXo5ZFdnbjlVdlFWLTB5VHZBR0RXZkp30gF8QVVfeXFMTnY2S1JhbzhxLU5MN1RZREVqZjJ3QjZwQ19fc1RLNU1wRnQtbmMxeGF6al8tZnJmRVhUUlVndWRYVXp3YW9nbkdkT08xbUM4ay1KRVVWbTIzb2lBZWZ2UXlBUWstWVVheVZ5d0tkdWpoNTZVUkllME56OHRrMg?oc=5",
-      "source": "VOA 한국어 홈페이지",
-      "date": "Tue, 17 Feb 2026 15:18:02 GMT"
+      "title": "LG CNS, 오픈AI 리셀러 계약 체결…‘ChatGPT 엔터프라이즈’ 국내 공급",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rZVFWLWxnYzlteXZyNkM1T0pkUlI0MmNxX3pwbzQ4a05SRU53dGEwWmExTkQxRTJjcjY4OVoyZWJTWEJQaTB3bkJmV2lnQWJGcWkya0VJSTdfeS1fXzVJ?oc=5",
+      "source": "fetv.co.kr",
+      "date": "Wed, 18 Feb 2026 01:00:00 GMT"
     },
     {
       "title": "생성형 AI 누가 쓰나 봤더니···역시 2030이었네",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE91RjhmcDVkRFZQWjJiZDJuQV9qZHk3TkFsSUlPdmxRWFN0cHlIcjRxdDkybnNtblF6REtVQ3JIak9Od01mZXc?oc=5",
-      "source": "v.daum.net",
-      "date": "Tue, 17 Feb 2026 04:03:03 GMT"
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE14QW1XdnhvOXhlR2htRnlPQl81Z3F5UzJoaWx4b1N4X3l2dXBoV2pHck0yajlkc04tNml4bzJIX3lfOXgySGxLd0JGZmNKZlFyZlA4MThLd2JhdDdlRF9pTnZPVFQ1UDA1?oc=5",
+      "source": "매일경제TV",
+      "date": "Tue, 17 Feb 2026 04:02:00 GMT"
     },
     {
       "title": "“‘옷 벗기는 AI’ 언제까지 그냥 둘 건가”···성착취 이미지 생성에 전 세계가 ‘우려’ 성명",
@@ -38,40 +62,16 @@
       "date": "Tue, 17 Feb 2026 02:14:00 GMT"
     },
     {
+      "title": "\"AI가 일자리 뺏는다며?\"…명절 밥상머리에 오른 인공지능",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1WTlA3WjdPcFoxWDJUSklTOTZ3WEhYYUhTdWtyZ3c0ZHMxQlh1WVNEY29Dcm00NmNLLUduQ3EzUDVleko5c0R6YzkzN3ZvdjVVN1pYOGVpNFg4YjFqZ1VpZGxsa3o?oc=5",
+      "source": "MTN 머니투데이방송",
+      "date": "Mon, 16 Feb 2026 09:00:00 GMT"
+    },
+    {
       "title": "생성형 AI, 게임 개발 혁신할까? 전문가들 \"아직 멀었다\"",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB6VUFEV08xT2V3dXdWOGEzWjRRMFhBb21BRG9LTzMzOU9QUTFnTDRpTVNpUmhWVmxYMEZDWXFMR2xpbGxmR0ZybFZXVExkQ0NwOEFWVFhSUEphTXBmeFJiam8tM2lsZUk5WDJYdG41VDVYbVE?oc=5",
       "source": "디지털투데이",
       "date": "Mon, 16 Feb 2026 01:54:00 GMT"
-    },
-    {
-      "title": "AI 보험 비교 기능 등장… 기존 보험 비교 플랫폼 흔들",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA2dS0ydGpkRGNXMS1MZlRFSUhYTHpRa3VHRmtQcFdqbFRUbDd6M2hQcDZfUjJUa0p0V3BsQ1dYamFtTHhLcWYwNHBhR0czTG1qUGhOWWxUZ1hyZV9nVVNwV19YVWI0QzdrMWs0Qzc2WdIBb0FVX3lxTFA2dS0ydGpkRGNXMS1MZlRFSUhYTHpRa3VHRmtQcFdqbFRUbDd6M2hQcDZfUjJUa0p0V3BsQ1dYamFtTHhLcWYwNHBhR0czTG1qUGhOWWxUZ1hyZV9nVVNwV19YVWI0QzdrMWs0Qzc2WQ?oc=5",
-      "source": "한국보험신문",
-      "date": "Sun, 15 Feb 2026 15:00:00 GMT"
-    },
-    {
-      "title": "\"인공지능이 대세\"…생활가전도 AI 시대 '활짝' [강추아이템]",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xWXF1NUNQZjBRVm90ZWZsRUxzWVJXWWRTb3BGS0xKOGFkUEQ4UUFiaURPZExlQlNiNFZvYW9LOXFMZjdQT0pONHlGOTNoY0FkZFdYeHZ0Q0t6QTl4U1BId2ZrSm4?oc=5",
-      "source": "뉴스1",
-      "date": "Fri, 13 Feb 2026 21:45:00 GMT"
-    },
-    {
-      "title": "인공지능 시대, 생성형AI 이용 세대별 격차와 포용의 길",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBUQjNPQ2VfcUc3c2FreDk3aUJUNmpZejdjQ24tdmJuelRrZXdnY09tSFhtWTlrQmNJOEc0SnNDOUNCUkNCMG9MRUk0WEh3dzRuaFJkNEJwRlZLbkpfd21xcVRDM3N2UQ?oc=5",
-      "source": "디지털포스트(PC사랑)",
-      "date": "Fri, 13 Feb 2026 08:00:00 GMT"
-    },
-    {
-      "title": "법원, 생성형 AI 기반 '재판지원 AI 시스템' 시범 오픈",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HQkZvdHhjekNHd1VEcXpveERMeVZZSm1IbkNrdzJycHl0eEQ4bEFDNmdHaTlzNVlpQVJCblZYVl9pVS1BWml1dUhNVEdHcjM1T082bkZNT05kQlJsTGVseFlNMWpOVHo3ZDlTSU530gFyQVVfeXFMTW43WHplOFFQZzhJekhyMkJ6ZXgwVVJtY0otRXJCcTVzdzBxWW8taTVNd3NIUEhLSW0yM0VySHIxX1RWZVBUdWhmRWU3X25HaEhrLVg1NFdXazF1WUc0ZW4yOTBhV1Iwamp0OXQ0NUdPbU9R?oc=5",
-      "source": "법률신문",
-      "date": "Fri, 13 Feb 2026 05:52:29 GMT"
-    },
-    {
-      "title": "\"30만원짜리가 2만9000원\"…깜짝 할인에 '카톡' 들썩였다",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GSmVNSDhQSmFsT015OURaMERPa3BPV2ZiSXpLRVM0WVRtWk9TNk9Da2pIX2pFV3NfSHluU3duSnd1cHkwWlpicG9FeG5ubWtPTExrdTFvbFFrQdIBVEFVX3lxTE5FMVhJakpVSnkxSzVjVEJSaU1tZUN3clBsaUhKc2tqSlpWMjRsRzdKZWpUdThlSlFBcUFxS2ZIVlV1MXVWSFBiSHVCT0Y3MjVGenlnZg?oc=5",
-      "source": "한국경제",
-      "date": "Fri, 13 Feb 2026 01:44:46 GMT"
     }
   ]
 }
