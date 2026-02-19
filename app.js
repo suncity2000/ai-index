@@ -56,7 +56,8 @@ let isNewsExpanded = false;
 // Load and render AI news
 async function loadNews() {
     try {
-        const response = await fetch('data/ai-news.json');
+        const cacheBust = Math.floor(Date.now() / 3600000); // hourly cache bust
+        const response = await fetch(`data/ai-news.json?v=${cacheBust}`);
         const data = await response.json();
 
         // Hide loading
@@ -187,8 +188,10 @@ function toggleNewsExpand() {
 // Load all data
 async function loadData() {
     try {
+        const cacheBust = Math.floor(Date.now() / 3600000); // hourly cache bust
+
         // Load Korean companies list
-        const koreanResponse = await fetch('data/korean-companies.json');
+        const koreanResponse = await fetch(`data/korean-companies.json?v=${cacheBust}`);
         const koreanData = await koreanResponse.json();
         koreanCompanies = koreanData.companies;
 
@@ -197,12 +200,12 @@ async function loadData() {
 
         // Load all API data
         const [llm, t2i, t2s, t2v, i2v, lastUpdated] = await Promise.all([
-            fetch('data/llms.json').then(r => r.json()).catch(() => null),
-            fetch('data/text-to-image.json').then(r => r.json()).catch(() => null),
-            fetch('data/text-to-speech.json').then(r => r.json()).catch(() => null),
-            fetch('data/text-to-video.json').then(r => r.json()).catch(() => null),
-            fetch('data/image-to-video.json').then(r => r.json()).catch(() => null),
-            fetch('data/last-updated.json').then(r => r.json()).catch(() => ({ last_updated: 'N/A' }))
+            fetch(`data/llms.json?v=${cacheBust}`).then(r => r.json()).catch(() => null),
+            fetch(`data/text-to-image.json?v=${cacheBust}`).then(r => r.json()).catch(() => null),
+            fetch(`data/text-to-speech.json?v=${cacheBust}`).then(r => r.json()).catch(() => null),
+            fetch(`data/text-to-video.json?v=${cacheBust}`).then(r => r.json()).catch(() => null),
+            fetch(`data/image-to-video.json?v=${cacheBust}`).then(r => r.json()).catch(() => null),
+            fetch(`data/last-updated.json?v=${cacheBust}`).then(r => r.json()).catch(() => ({ last_updated: 'N/A' }))
         ]);
 
         allData = {
@@ -264,12 +267,13 @@ async function loadYesterdayDataAndCalculateChanges() {
         const yesterdayStr = yesterday.toISOString().split('T')[0];
 
         // Try to load yesterday's data from history
+        // History files are date-keyed and immutable, so the date itself serves as cache key
         const [llm, t2i, t2s, t2v, i2v] = await Promise.all([
-            fetch(`data/history/${yesterdayStr}-llms.json`).then(r => r.json()).catch(() => null),
-            fetch(`data/history/${yesterdayStr}-text-to-image.json`).then(r => r.json()).catch(() => null),
-            fetch(`data/history/${yesterdayStr}-text-to-speech.json`).then(r => r.json()).catch(() => null),
-            fetch(`data/history/${yesterdayStr}-text-to-video.json`).then(r => r.json()).catch(() => null),
-            fetch(`data/history/${yesterdayStr}-image-to-video.json`).then(r => r.json()).catch(() => null)
+            fetch(`data/history/${yesterdayStr}-llms.json?v=${yesterdayStr}`).then(r => r.json()).catch(() => null),
+            fetch(`data/history/${yesterdayStr}-text-to-image.json?v=${yesterdayStr}`).then(r => r.json()).catch(() => null),
+            fetch(`data/history/${yesterdayStr}-text-to-speech.json?v=${yesterdayStr}`).then(r => r.json()).catch(() => null),
+            fetch(`data/history/${yesterdayStr}-text-to-video.json?v=${yesterdayStr}`).then(r => r.json()).catch(() => null),
+            fetch(`data/history/${yesterdayStr}-image-to-video.json?v=${yesterdayStr}`).then(r => r.json()).catch(() => null)
         ]);
 
         yesterdayData = {
