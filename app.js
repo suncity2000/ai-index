@@ -222,22 +222,25 @@ async function loadData() {
         // Update stats
         updateStats();
 
-        // Update last updated time
+        // Update last updated time (always display in KST)
         if (lastUpdated.last_updated !== 'N/A') {
             const date = new Date(lastUpdated.last_updated);
+            const kstOptions = { timeZone: 'Asia/Seoul' };
             const formattedDate = date.toLocaleString('ko-KR', {
+                ...kstOptions,
                 year: 'numeric',
                 month: 'long',
                 day: 'numeric',
                 hour: '2-digit',
                 minute: '2-digit'
-            });
+            }) + ' (KST)';
             const shortDate = date.toLocaleString('ko-KR', {
+                ...kstOptions,
                 month: 'numeric',
                 day: 'numeric',
                 hour: '2-digit',
                 minute: '2-digit'
-            });
+            }) + ' KST';
             document.getElementById('last-updated').textContent = formattedDate;
             document.getElementById('header-last-updated').textContent = shortDate;
         }
@@ -261,34 +264,45 @@ async function loadData() {
 // Load yesterday's data and calculate ranking changes
 async function loadYesterdayDataAndCalculateChanges() {
     try {
-        // Calculate yesterday's date
-        const yesterday = new Date();
-        yesterday.setDate(yesterday.getDate() - 1);
-        const yesterdayStr = yesterday.toISOString().split('T')[0];
+        // Try dates going back up to 3 days (handles case where today's scheduled job hasn't run yet)
+        let foundData = null;
+        for (let daysBack = 1; daysBack <= 3; daysBack++) {
+            const date = new Date();
+            date.setDate(date.getDate() - daysBack);
+            const dateStr = date.toISOString().split('T')[0];
 
-        // Try to load yesterday's data from history
-        // History files are date-keyed and immutable, so the date itself serves as cache key
-        const [llm, t2i, t2s, t2v, i2v] = await Promise.all([
-            fetch(`data/history/${yesterdayStr}-llms.json?v=${yesterdayStr}`).then(r => r.json()).catch(() => null),
-            fetch(`data/history/${yesterdayStr}-text-to-image.json?v=${yesterdayStr}`).then(r => r.json()).catch(() => null),
-            fetch(`data/history/${yesterdayStr}-text-to-speech.json?v=${yesterdayStr}`).then(r => r.json()).catch(() => null),
-            fetch(`data/history/${yesterdayStr}-text-to-video.json?v=${yesterdayStr}`).then(r => r.json()).catch(() => null),
-            fetch(`data/history/${yesterdayStr}-image-to-video.json?v=${yesterdayStr}`).then(r => r.json()).catch(() => null)
-        ]);
+            // Probe with llms.json first; check r.ok to avoid JSON parse errors on 404 HTML
+            const llm = await fetch(`data/history/${dateStr}-llms.json?v=${dateStr}`)
+                .then(r => r.ok ? r.json() : null)
+                .catch(() => null);
 
-        yesterdayData = {
-            llm: llm?.data || [],
-            'text-to-image': t2i?.data || [],
-            'text-to-speech': t2s?.data || [],
-            'text-to-video': t2v?.data || [],
-            'image-to-video': i2v?.data || []
-        };
+            if (llm) {
+                const [t2i, t2s, t2v, i2v] = await Promise.all([
+                    fetch(`data/history/${dateStr}-text-to-image.json?v=${dateStr}`).then(r => r.ok ? r.json() : null).catch(() => null),
+                    fetch(`data/history/${dateStr}-text-to-speech.json?v=${dateStr}`).then(r => r.ok ? r.json() : null).catch(() => null),
+                    fetch(`data/history/${dateStr}-text-to-video.json?v=${dateStr}`).then(r => r.ok ? r.json() : null).catch(() => null),
+                    fetch(`data/history/${dateStr}-image-to-video.json?v=${dateStr}`).then(r => r.ok ? r.json() : null).catch(() => null)
+                ]);
+                foundData = { llm, t2i, t2s, t2v, i2v };
+                break;
+            }
+        }
 
-        // Calculate model count changes
-        calculateModelCountChanges();
+        if (foundData) {
+            yesterdayData = {
+                llm: foundData.llm?.data || [],
+                'text-to-image': foundData.t2i?.data || [],
+                'text-to-speech': foundData.t2s?.data || [],
+                'text-to-video': foundData.t2v?.data || [],
+                'image-to-video': foundData.i2v?.data || []
+            };
 
-        // Calculate ranking changes for each category
-        calculateRankingChanges();
+            // Calculate model count changes
+            calculateModelCountChanges();
+
+            // Calculate ranking changes for each category
+            calculateRankingChanges();
+        }
 
     } catch (error) {
         console.error('Error loading yesterday data:', error);
