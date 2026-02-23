@@ -476,7 +476,7 @@ function updateStats() {
     }
 
     const uniqueCompanies = new Set(
-        Object.values(allData).flat().map(m => m.model_creator).filter(Boolean)
+        Object.values(allData).flat().map(m => m.model_creator?.id).filter(Boolean)
     );
     const companiesElement = document.getElementById('hero-total-companies');
     if (companiesElement) {
