@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Analysis Index - AI 모델 성능 분석</title>
-    <meta name="description" content="AI 모델들의 성능을 종합적으로 분석하고 비교하는 대시보드">
+    <title>AINET AI RANK HUB - 최고의 AI 모델 비교</title>
+    <meta name="description" content="최고의 AI 모델을 한눈에 비교하세요. 실시간으로 업데이트되는 AI 모델 순위와 최신 뉴스를 확인하세요.">
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -44,73 +44,106 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-200">
-    <!-- Header -->
-    <header class="sticky top-0 z-50 bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 backdrop-blur-lg border-b-2 border-blue-200 dark:border-blue-900 shadow-lg">
-        <div class="container mx-auto px-4 py-6">
-            <div class="relative flex items-center justify-between">
-                <div class="flex flex-col gap-2">
-                    <h1 class="text-4xl md:text-5xl font-extrabold flex items-center gap-3">
-                        <svg class="w-10 h-10 md:w-12 md:h-12" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <defs>
-                                <linearGradient id="ai-icon-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
-                                    <stop offset="50%" style="stop-color:#9333ea;stop-opacity:1" />
-                                    <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
-                                </linearGradient>
-                            </defs>
-                            <!-- Head -->
-                            <rect x="12" y="8" width="24" height="24" rx="4" fill="url(#ai-icon-gradient)" opacity="0.9"/>
-                            <!-- Eyes -->
-                            <circle cx="20" cy="20" r="2.5" fill="white"/>
-                            <circle cx="28" cy="20" r="2.5" fill="white"/>
-                            <!-- Antenna -->
-                            <line x1="24" y1="8" x2="24" y2="4" stroke="url(#ai-icon-gradient)" stroke-width="2" stroke-linecap="round"/>
-                            <circle cx="24" cy="3" r="2" fill="url(#ai-icon-gradient)"/>
-                            <!-- Body -->
-                            <rect x="16" y="32" width="16" height="10" rx="2" fill="url(#ai-icon-gradient)" opacity="0.8"/>
-                            <!-- Arms -->
-                            <rect x="8" y="34" width="8" height="3" rx="1.5" fill="url(#ai-icon-gradient)" opacity="0.7"/>
-                            <rect x="32" y="34" width="8" height="3" rx="1.5" fill="url(#ai-icon-gradient)" opacity="0.7"/>
-                        </svg>
-                        <span class="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 bg-clip-text text-transparent animate-gradient">
-                            AINET AI RANK HUB
-                        </span>
-                    </h1>
-                    <div class="flex items-center gap-2 text-sm">
-                        <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 font-medium">
-                            <svg class="w-3 h-3 animate-pulse" fill="currentColor" viewBox="0 0 20 20">
-                                <circle cx="10" cy="10" r="8"/>
-                            </svg>
-                            실시간 업데이트
-                        </span>
-                        <span class="text-gray-600 dark:text-gray-400">
-                            마지막 업데이트: <span id="header-last-updated" class="font-semibold text-blue-600 dark:text-blue-400">-</span>
-                        </span>
-                    </div>
-                </div>
+    <!-- Header / Hero -->
+    <header class="bg-gradient-to-b from-indigo-50 via-blue-50/60 to-white dark:from-gray-900 dark:via-gray-800/80 dark:to-gray-900 border-b border-indigo-100 dark:border-gray-700">
 
-                <!-- Center Tagline -->
-                <div class="absolute left-1/2 transform -translate-x-1/2 text-center hidden md:block">
-                    <p class="text-base md:text-lg font-semibold text-gray-600 dark:text-gray-300 tracking-tight">
-                        최고의 AI모델을 한눈에 비교하세요.
-                    </p>
-                </div>
-
+        <!-- Top Nav Bar -->
+        <div class="container mx-auto px-6 pt-5 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <svg class="w-6 h-6" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="ai-icon-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#9333ea;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <rect x="12" y="8" width="24" height="24" rx="4" fill="url(#ai-icon-gradient)" opacity="0.9"/>
+                    <circle cx="20" cy="20" r="2.5" fill="white"/>
+                    <circle cx="28" cy="20" r="2.5" fill="white"/>
+                    <line x1="24" y1="8" x2="24" y2="4" stroke="url(#ai-icon-gradient)" stroke-width="2" stroke-linecap="round"/>
+                    <circle cx="24" cy="3" r="2" fill="url(#ai-icon-gradient)"/>
+                    <rect x="16" y="32" width="16" height="10" rx="2" fill="url(#ai-icon-gradient)" opacity="0.8"/>
+                    <rect x="8" y="34" width="8" height="3" rx="1.5" fill="url(#ai-icon-gradient)" opacity="0.7"/>
+                    <rect x="32" y="34" width="8" height="3" rx="1.5" fill="url(#ai-icon-gradient)" opacity="0.7"/>
+                </svg>
+                <span class="text-sm font-extrabold tracking-widest bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">AINET</span>
+            </div>
+            <div class="flex items-center gap-3">
+                <span class="hidden sm:block text-xs text-gray-400 dark:text-gray-500">
+                    마지막 업데이트: <span id="header-last-updated" class="font-semibold text-blue-500 dark:text-blue-400">-</span>
+                </span>
                 <!-- Theme Toggle -->
-                <button id="theme-toggle" class="relative p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-300 group">
+                <button id="theme-toggle" class="relative p-2 rounded-full hover:bg-white/70 dark:hover:bg-gray-700 transition-all duration-300 group">
                     <svg id="theme-icon-light" class="w-5 h-5 hidden dark:block text-yellow-400 group-hover:rotate-180 transition-transform duration-500" fill="currentColor" viewBox="0 0 20 20">
                         <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"/>
                     </svg>
-                    <svg id="theme-icon-dark" class="w-5 h-5 block dark:hidden text-indigo-600 group-hover:rotate-[-15deg] transition-transform duration-500" fill="currentColor" viewBox="0 0 20 20">
+                    <svg id="theme-icon-dark" class="w-5 h-5 block dark:hidden text-indigo-500 group-hover:rotate-[-15deg] transition-transform duration-500" fill="currentColor" viewBox="0 0 20 20">
                         <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/>
                     </svg>
                 </button>
             </div>
         </div>
+
+        <!-- Hero Content -->
+        <div class="container mx-auto px-4 pt-16 pb-20 text-center">
+
+            <!-- Update Badge -->
+            <div class="inline-flex items-center gap-1.5 px-4 py-1.5 mb-8 rounded-full bg-white dark:bg-gray-800 border border-indigo-100 dark:border-gray-700 text-sm text-gray-600 dark:text-gray-300 shadow-sm">
+                <span class="text-purple-500">✦</span>
+                <span id="hero-badge-date">2026년 2월 업데이트</span>
+            </div>
+
+            <!-- Main Headline -->
+            <h1 class="text-5xl md:text-7xl font-extrabold leading-tight tracking-tight mb-6">
+                <span class="text-gray-900 dark:text-white block">최고의 AI 모델을</span>
+                <span class="bg-gradient-to-r from-blue-600 via-indigo-500 to-purple-500 bg-clip-text text-transparent animate-gradient block">한눈에 비교하세요</span>
+            </h1>
+
+            <!-- Subtitle -->
+            <p class="text-gray-500 dark:text-gray-400 text-lg max-w-xl mx-auto mb-12 leading-relaxed">
+                실시간으로 업데이트되는 AI 모델 순위와 최신 뉴스를 통해<br class="hidden md:block"> AI 기술의 발전을 확인하세요
+            </p>
+
+            <!-- CTA Buttons -->
+            <div class="flex flex-wrap items-center justify-center gap-4 mb-16">
+                <a href="#main-content"
+                   onclick="document.getElementById('main-content').scrollIntoView({behavior:'smooth'}); return false;"
+                   class="inline-flex items-center gap-2 px-8 py-3.5 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl shadow-lg shadow-blue-200 dark:shadow-none transition-all hover:-translate-y-0.5">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                    </svg>
+                    순위 보기
+                </a>
+                <a href="#news-section"
+                   onclick="document.getElementById('news-section').scrollIntoView({behavior:'smooth'}); return false;"
+                   class="inline-flex items-center px-8 py-3.5 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 font-semibold rounded-xl transition-all hover:-translate-y-0.5 shadow-sm">
+                    뉴스 읽기
+                </a>
+            </div>
+
+            <!-- Stats -->
+            <div class="flex flex-wrap items-center justify-center gap-12 md:gap-20">
+                <div class="text-center">
+                    <div class="text-4xl md:text-5xl font-extrabold text-blue-600 dark:text-blue-400"><span id="hero-total-models">50</span>+</div>
+                    <div class="text-sm text-gray-500 dark:text-gray-400 mt-1.5 font-medium">AI 모델</div>
+                </div>
+                <div class="w-px h-12 bg-gray-200 dark:bg-gray-700 hidden md:block"></div>
+                <div class="text-center">
+                    <div class="text-4xl md:text-5xl font-extrabold text-purple-600 dark:text-purple-400">1,000+</div>
+                    <div class="text-sm text-gray-500 dark:text-gray-400 mt-1.5 font-medium">벤치마크</div>
+                </div>
+                <div class="w-px h-12 bg-gray-200 dark:bg-gray-700 hidden md:block"></div>
+                <div class="text-center">
+                    <div class="text-4xl md:text-5xl font-extrabold text-pink-500 dark:text-pink-400">매일</div>
+                    <div class="text-sm text-gray-500 dark:text-gray-400 mt-1.5 font-medium">업데이트</div>
+                </div>
+            </div>
+
+        </div>
     </header>
 
     <!-- AI News Section -->
-    <div class="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 overflow-hidden">
+    <div id="news-section" class="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 overflow-hidden">
         <div class="container mx-auto px-4 py-3">
             <div class="flex items-center justify-between gap-3">
                 <div class="flex items-center gap-3 flex-1 min-w-0">
@@ -176,7 +209,7 @@
     </div>
 
     <!-- Main Content -->
-    <main class="container mx-auto px-4 py-8">
+    <main id="main-content" class="container mx-auto px-4 py-8">
         <!-- Category Tabs -->
         <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg mb-6 overflow-hidden">
             <div class="border-b border-gray-200 dark:border-gray-700">
