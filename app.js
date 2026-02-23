@@ -470,6 +470,10 @@ function updateStats() {
     if (totalElement) {
         animateCounter(totalElement, totalCount, 1200);
     }
+    const heroTotalElement = document.getElementById('hero-total-models');
+    if (heroTotalElement) {
+        animateCounter(heroTotalElement, totalCount, 1200);
+    }
 
     // Calculate and show total model count change
     const totalChangeElement = document.getElementById('total-models-change');
