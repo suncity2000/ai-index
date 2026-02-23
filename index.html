@@ -42,6 +42,9 @@
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 </head>
 <body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-200">
     <!-- Header / Hero -->
@@ -302,6 +305,40 @@
             <p>© 2024 AI Analysis Index. All rights reserved.</p>
         </div>
     </footer>
+
+    <!-- Comparison Bar -->
+    <div id="comparison-bar" class="fixed bottom-0 left-0 right-0 z-40 hidden bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 shadow-2xl">
+        <div class="container mx-auto px-4 py-3 flex items-center justify-between gap-4">
+            <div class="flex items-center gap-2 flex-wrap flex-1 min-w-0" id="comparison-chips">
+            </div>
+            <div class="flex items-center gap-2 flex-shrink-0">
+                <button onclick="clearComparison()" class="px-3 py-1.5 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 border border-gray-300 dark:border-gray-600 rounded-lg transition-colors">
+                    초기화
+                </button>
+                <button id="compare-btn" onclick="openComparisonModal()" disabled class="px-5 py-1.5 text-sm font-semibold bg-blue-500 text-white rounded-lg hover:bg-blue-600 disabled:opacity-40 disabled:cursor-not-allowed transition-colors">
+                    ⚖️ 비교하기 (<span id="compare-count">0</span>/4)
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Comparison Modal -->
+    <div id="comparison-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/50 backdrop-blur-sm">
+        <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl max-w-5xl w-full mx-4 overflow-hidden max-h-[90vh] flex flex-col">
+            <div class="bg-gradient-to-r from-blue-500 to-purple-600 p-6 flex-shrink-0">
+                <div class="flex items-center justify-between">
+                    <h3 class="text-2xl font-bold text-white">⚖️ 모델 비교</h3>
+                    <button onclick="closeComparisonModal()" class="text-white/80 hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div id="comparison-content" class="p-6 overflow-y-auto flex-1">
+            </div>
+        </div>
+    </div>
 
     <!-- Scripts -->
     <script src="app.js"></script>

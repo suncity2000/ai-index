@@ -6,6 +6,8 @@ let yesterdayData = {};
 let rankingChanges = {};
 let modelCountChanges = {};
 let koreanCompanies = [];
+let selectedForComparison = [];
+let comparisonChart = null;
 
 // Initialize app
 document.addEventListener('DOMContentLoaded', async () => {
@@ -537,6 +539,9 @@ function isKoreanCompany(item) {
 
 // Switch category
 function switchCategory(category) {
+    // Clear comparison selection when switching categories
+    clearComparison();
+
     // Update tab styles
     document.querySelectorAll('.category-tab').forEach(tab => {
         if (tab.dataset.category === category) {
@@ -695,9 +700,14 @@ function renderLLMContent() {
                         }
                     }
 
+                    const isAlreadySelected = selectedForComparison.some(m => m.id === itemId);
+                    const cmpBtnClass = isAlreadySelected
+                        ? 'bg-blue-500 text-white border-blue-500'
+                        : 'bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-400 border-gray-300 dark:border-gray-600 hover:border-blue-400 hover:text-blue-600 dark:hover:text-blue-400';
+
                     return `
                         <div class="flex items-center justify-between p-4 bg-gray-50 dark:bg-gray-700/50 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
-                            <div class="flex items-center gap-4 flex-1">
+                            <div class="flex items-center gap-4 flex-1 min-w-0">
                                 <div class="flex items-center gap-1">
                                     <div class="text-2xl font-bold text-gray-400 dark:text-gray-500 w-8">
                                         ${rank}
@@ -705,7 +715,7 @@ function renderLLMContent() {
                                     ${rankingIndicator}
                                 </div>
                                 ${medal ? `<div class="text-3xl">${medal}</div>` : '<div class="w-8"></div>'}
-                                <div class="flex-1">
+                                <div class="flex-1 min-w-0">
                                     <div class="font-semibold text-lg">
                                         ${modelUrl ? `<a href="${modelUrl}" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline">${item.name || item.model_name || 'Unknown'}</a>` : (item.name || item.model_name || 'Unknown')}
                                         ${isKorean ? '<span class="ml-2 text-xl">🇰🇷</span>' : ''}
@@ -715,11 +725,16 @@ function renderLLMContent() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="text-right">
-                                <div class="text-2xl font-bold text-blue-600 dark:text-blue-400">
-                                    ${score ? score.toFixed(currentFilter === 'value' ? 1 : currentFilter === 'speed' ? 0 : 1) : '-'}
+                            <div class="flex items-center gap-3 flex-shrink-0">
+                                <div class="text-right">
+                                    <div class="text-2xl font-bold text-blue-600 dark:text-blue-400">
+                                        ${score ? score.toFixed(currentFilter === 'value' ? 1 : currentFilter === 'speed' ? 0 : 1) : '-'}
+                                    </div>
+                                    <div class="text-xs text-gray-500 dark:text-gray-400">${currentFilter === 'value' ? '점/$' : currentFilter === 'speed' ? 'tok/s' : '점'}</div>
                                 </div>
-                                <div class="text-xs text-gray-500 dark:text-gray-400">${currentFilter === 'value' ? '점/$' : currentFilter === 'speed' ? 'tok/s' : '점'}</div>
+                                <button onclick="toggleCompareModel('${itemId}')" id="cmp-btn-${itemId}" class="${cmpBtnClass} px-3 py-1.5 text-xs font-medium rounded-lg border transition-all whitespace-nowrap">
+                                    ${isAlreadySelected ? '✓ 선택됨' : '+ 비교'}
+                                </button>
                             </div>
                         </div>
                     `;
@@ -790,6 +805,7 @@ function renderMediaContent() {
                             <th class="text-right py-3 px-4 font-semibold">ELO 점수</th>
                             <th class="text-right py-3 px-4 font-semibold">평가 횟수</th>
                             <th class="text-right py-3 px-4 font-semibold">출시일</th>
+                            <th class="text-center py-3 px-4 font-semibold">비교</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -816,6 +832,11 @@ function renderMediaContent() {
                                     rankingIndicator = '<span class="inline-flex items-center text-gray-500 dark:text-gray-400 text-sm ml-2" title="순위 변동 없음">−</span>';
                                 }
                             }
+
+                            const isAlreadySelected = selectedForComparison.some(m => m.id === itemId);
+                            const cmpBtnClass = isAlreadySelected
+                                ? 'bg-blue-500 text-white border-blue-500'
+                                : 'bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-400 border-gray-300 dark:border-gray-600 hover:border-blue-400 hover:text-blue-600 dark:hover:text-blue-400';
 
                             return `
                                 <tr class="border-b border-gray-100 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors">
@@ -845,6 +866,11 @@ function renderMediaContent() {
                                     </td>
                                     <td class="py-4 px-4 text-right text-gray-600 dark:text-gray-400">
                                         ${item.release_date ? new Date(item.release_date).toLocaleDateString('ko-KR') : '-'}
+                                    </td>
+                                    <td class="py-4 px-4 text-center">
+                                        <button onclick="toggleCompareModel('${itemId}')" id="cmp-btn-${itemId}" class="${cmpBtnClass} px-3 py-1.5 text-xs font-medium rounded-lg border transition-all whitespace-nowrap">
+                                            ${isAlreadySelected ? '✓ 선택됨' : '+ 비교'}
+                                        </button>
                                     </td>
                                 </tr>
                             `;
@@ -1332,9 +1358,13 @@ function closeInfoModal() {
 
 // Close modal when clicking outside
 document.addEventListener('click', (e) => {
-    const modal = document.getElementById('info-modal');
-    if (e.target === modal) {
+    const infoModal = document.getElementById('info-modal');
+    if (e.target === infoModal) {
         closeInfoModal();
+    }
+    const compModal = document.getElementById('comparison-modal');
+    if (e.target === compModal) {
+        closeComparisonModal();
     }
 });
 
@@ -1342,5 +1372,478 @@ document.addEventListener('click', (e) => {
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
         closeInfoModal();
+        closeComparisonModal();
     }
 });
+
+// ─────────────────────────────────────────────
+// Comparison Feature
+// ─────────────────────────────────────────────
+
+function toggleCompareModel(modelId) {
+    const existingIndex = selectedForComparison.findIndex(m => m.id === modelId);
+
+    if (existingIndex !== -1) {
+        selectedForComparison.splice(existingIndex, 1);
+    } else {
+        if (selectedForComparison.length >= 4) {
+            showToast('최대 4개까지 선택할 수 있습니다.');
+            return;
+        }
+        const data = allData[currentCategory] || [];
+        const model = data.find(item => {
+            const id = item.id || item.slug || item.name;
+            return id === modelId;
+        });
+        if (model) {
+            selectedForComparison.push({
+                id: modelId,
+                name: model.name || model.model_name || 'Unknown',
+                category: currentCategory,
+                data: model
+            });
+        }
+    }
+
+    const btn = document.getElementById(`cmp-btn-${modelId}`);
+    if (btn) {
+        const isSelected = selectedForComparison.some(m => m.id === modelId);
+        updateCompareButton(btn, isSelected);
+    }
+    updateComparisonBar();
+}
+
+function removeFromComparison(modelId) {
+    selectedForComparison = selectedForComparison.filter(m => m.id !== modelId);
+    const btn = document.getElementById(`cmp-btn-${modelId}`);
+    if (btn) updateCompareButton(btn, false);
+    updateComparisonBar();
+}
+
+function clearComparison() {
+    selectedForComparison.forEach(model => {
+        const btn = document.getElementById(`cmp-btn-${model.id}`);
+        if (btn) updateCompareButton(btn, false);
+    });
+    selectedForComparison = [];
+    updateComparisonBar();
+}
+
+function updateCompareButton(btn, isSelected) {
+    if (isSelected) {
+        btn.textContent = '✓ 선택됨';
+        btn.className = 'bg-blue-500 text-white border-blue-500 px-3 py-1.5 text-xs font-medium rounded-lg border transition-all whitespace-nowrap';
+    } else {
+        btn.textContent = '+ 비교';
+        btn.className = 'bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-400 border-gray-300 dark:border-gray-600 hover:border-blue-400 hover:text-blue-600 dark:hover:text-blue-400 px-3 py-1.5 text-xs font-medium rounded-lg border transition-all whitespace-nowrap';
+    }
+}
+
+function updateComparisonBar() {
+    const bar = document.getElementById('comparison-bar');
+    const chips = document.getElementById('comparison-chips');
+    const countEl = document.getElementById('compare-count');
+    const compareBtn = document.getElementById('compare-btn');
+    if (!bar || !chips || !countEl || !compareBtn) return;
+
+    if (selectedForComparison.length === 0) {
+        bar.classList.add('hidden');
+        document.body.style.paddingBottom = '';
+        return;
+    }
+
+    bar.classList.remove('hidden');
+    document.body.style.paddingBottom = '68px';
+    countEl.textContent = selectedForComparison.length;
+    compareBtn.disabled = selectedForComparison.length < 2;
+
+    const modelColors = ['#3B82F6', '#10B981', '#F59E0B', '#EF4444'];
+    chips.innerHTML = selectedForComparison.map((model, i) => `
+        <div class="flex items-center gap-1.5 px-3 py-1 rounded-full text-sm font-medium border"
+             style="background-color: ${modelColors[i]}22; border-color: ${modelColors[i]}66; color: ${modelColors[i]};">
+            <span class="truncate max-w-[120px]">${model.name}</span>
+            <button onclick="removeFromComparison('${model.id}')" class="hover:opacity-70 transition-opacity flex-shrink-0" title="제거">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+    `).join('');
+}
+
+function openComparisonModal() {
+    if (selectedForComparison.length < 2) return;
+    renderComparisonContent();
+    const modal = document.getElementById('comparison-modal');
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeComparisonModal() {
+    const modal = document.getElementById('comparison-modal');
+    if (!modal) return;
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+    document.body.style.overflow = 'auto';
+    if (comparisonChart) {
+        comparisonChart.destroy();
+        comparisonChart = null;
+    }
+}
+
+function renderComparisonContent() {
+    const category = selectedForComparison[0]?.category;
+    if (category === 'llm') {
+        renderLLMComparison();
+    } else {
+        renderMediaComparison();
+    }
+}
+
+function renderLLMComparison() {
+    const models = selectedForComparison;
+    const allLLMs = allData.llm || [];
+    const colors = ['#3B82F6', '#10B981', '#F59E0B', '#EF4444'];
+
+    // Max values for normalization (relative to all LLMs in dataset)
+    const maxIntelligence = Math.max(...allLLMs.map(m => m.evaluations?.artificial_analysis_intelligence_index || 0));
+    const maxCoding = Math.max(...allLLMs.map(m => m.evaluations?.artificial_analysis_coding_index || 0));
+    const maxMath = Math.max(...allLLMs.map(m => m.evaluations?.artificial_analysis_math_index || 0));
+    const maxSpeed = Math.max(...allLLMs.map(m => m.pricing?.median_output_tokens_per_second || 0));
+    const maxValue = Math.max(...allLLMs.map(m => {
+        const perf = m.evaluations?.artificial_analysis_intelligence_index;
+        const price = m.pricing?.price_1m_blended_3_to_1;
+        return (perf && price && price > 0) ? perf / price : 0;
+    }));
+
+    const normalize = (val, max) => (max > 0 && val != null) ? Math.round((val / max) * 100) : 0;
+
+    const datasets = models.map((model, i) => {
+        const item = model.data;
+        const intelligence = item.evaluations?.artificial_analysis_intelligence_index || 0;
+        const coding = item.evaluations?.artificial_analysis_coding_index || 0;
+        const math = item.evaluations?.artificial_analysis_math_index || 0;
+        const speed = item.pricing?.median_output_tokens_per_second || 0;
+        const price = item.pricing?.price_1m_blended_3_to_1;
+        const valueRatio = (intelligence && price && price > 0) ? intelligence / price : 0;
+
+        return {
+            label: model.name,
+            data: [
+                normalize(intelligence, maxIntelligence),
+                normalize(coding, maxCoding),
+                normalize(math, maxMath),
+                normalize(speed, maxSpeed),
+                normalize(valueRatio, maxValue),
+            ],
+            borderColor: colors[i],
+            backgroundColor: colors[i] + '33',
+            borderWidth: 2,
+            pointBackgroundColor: colors[i],
+            pointRadius: 4,
+        };
+    });
+
+    // Metrics for the detail table
+    const metrics = [
+        {
+            label: '🧠 지능 지수', unit: '점',
+            getValue: item => item.evaluations?.artificial_analysis_intelligence_index,
+            format: v => v != null ? v.toFixed(1) : '-',
+            higherIsBetter: true,
+        },
+        {
+            label: '💻 코딩 지수', unit: '점',
+            getValue: item => item.evaluations?.artificial_analysis_coding_index,
+            format: v => v != null ? v.toFixed(1) : '-',
+            higherIsBetter: true,
+        },
+        {
+            label: '🔢 수학 지수', unit: '점',
+            getValue: item => item.evaluations?.artificial_analysis_math_index,
+            format: v => v != null ? v.toFixed(1) : '-',
+            higherIsBetter: true,
+        },
+        {
+            label: '⚡ 속도', unit: 'tok/s',
+            getValue: item => item.pricing?.median_output_tokens_per_second,
+            format: v => v != null ? Math.round(v).toLocaleString() : '-',
+            higherIsBetter: true,
+        },
+        {
+            label: '💵 입력 가격', unit: '/1M tok',
+            getValue: item => item.pricing?.price_1m_input_tokens,
+            format: v => v != null ? `$${v.toFixed(2)}` : '-',
+            higherIsBetter: false,
+        },
+        {
+            label: '💵 출력 가격', unit: '/1M tok',
+            getValue: item => item.pricing?.price_1m_output_tokens,
+            format: v => v != null ? `$${v.toFixed(2)}` : '-',
+            higherIsBetter: false,
+        },
+        {
+            label: '🌟 가성비', unit: '점/$',
+            getValue: item => {
+                const perf = item.evaluations?.artificial_analysis_intelligence_index;
+                const price = item.pricing?.price_1m_blended_3_to_1;
+                return (perf && price && price > 0) ? perf / price : null;
+            },
+            format: v => v != null ? v.toFixed(1) : '-',
+            higherIsBetter: true,
+        },
+    ];
+
+    const tableRows = metrics.map(metric => {
+        const values = models.map(m => metric.getValue(m.data));
+        const numericVals = values.filter(v => v != null);
+        const bestVal = numericVals.length
+            ? (metric.higherIsBetter ? Math.max(...numericVals) : Math.min(...numericVals))
+            : null;
+
+        const cells = values.map((v, i) => {
+            const isBest = bestVal != null && v === bestVal && numericVals.length > 1;
+            return `
+                <td class="py-3 px-4 text-center ${isBest ? 'bg-blue-50 dark:bg-blue-900/20' : ''}">
+                    <span class="font-bold ${isBest ? 'text-blue-600 dark:text-blue-400' : 'text-gray-700 dark:text-gray-300'}">
+                        ${metric.format(v)}
+                    </span>
+                    ${isBest ? '<span class="ml-1 text-xs">🏆</span>' : ''}
+                </td>`;
+        }).join('');
+
+        return `
+            <tr class="border-b border-gray-100 dark:border-gray-800">
+                <td class="py-3 px-4 text-sm font-medium text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-gray-700/30 whitespace-nowrap">
+                    ${metric.label}
+                    <div class="text-xs text-gray-400 dark:text-gray-500">${metric.unit}</div>
+                </td>
+                ${cells}
+            </tr>`;
+    }).join('');
+
+    const modelHeaders = models.map((m, i) =>
+        `<th class="text-center py-3 px-4 font-semibold text-sm" style="color:${colors[i]}">${m.name}</th>`
+    ).join('');
+
+    const contentEl = document.getElementById('comparison-content');
+    contentEl.innerHTML = `
+        <div>
+            <p class="text-sm text-gray-500 dark:text-gray-400 mb-5">
+                선택한 ${models.length}개 모델을 비교합니다. 레이더 차트 수치는 전체 모델 대비 상대 점수(%)입니다.
+            </p>
+            <div class="bg-gray-50 dark:bg-gray-700/50 rounded-xl p-5 mb-6">
+                <h3 class="text-base font-bold mb-4 text-gray-900 dark:text-gray-100">📡 종합 성능 비교 (상대 점수 %)</h3>
+                <div class="relative mx-auto" style="height:300px; max-width:480px;">
+                    <canvas id="comparison-chart-canvas"></canvas>
+                </div>
+            </div>
+            <h3 class="text-base font-bold mb-3 text-gray-900 dark:text-gray-100">📊 상세 지표 비교</h3>
+            <div class="overflow-x-auto rounded-xl border border-gray-200 dark:border-gray-700">
+                <table class="w-full">
+                    <thead>
+                        <tr class="border-b border-gray-200 dark:border-gray-700">
+                            <th class="text-left py-3 px-4 font-semibold text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-gray-700/50">지표</th>
+                            ${modelHeaders}
+                        </tr>
+                    </thead>
+                    <tbody>${tableRows}</tbody>
+                </table>
+            </div>
+        </div>`;
+
+    setTimeout(() => {
+        const canvas = document.getElementById('comparison-chart-canvas');
+        if (!canvas || typeof Chart === 'undefined') return;
+        if (comparisonChart) { comparisonChart.destroy(); comparisonChart = null; }
+
+        const isDark = document.documentElement.classList.contains('dark');
+        const gridColor = isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)';
+        const labelColor = isDark ? '#9CA3AF' : '#6B7280';
+
+        comparisonChart = new Chart(canvas, {
+            type: 'radar',
+            data: {
+                labels: ['지능 지수', '코딩', '수학', '속도', '가성비'],
+                datasets,
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    r: {
+                        min: 0, max: 100,
+                        ticks: { stepSize: 25, color: labelColor, backdropColor: 'transparent', font: { size: 10 } },
+                        grid: { color: gridColor },
+                        angleLines: { color: gridColor },
+                        pointLabels: { color: labelColor, font: { size: 12, weight: '600' } },
+                    },
+                },
+                plugins: {
+                    legend: { position: 'bottom', labels: { color: labelColor, padding: 16, font: { size: 12 } } },
+                    tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${ctx.raw}%` } },
+                },
+            },
+        });
+    }, 50);
+}
+
+function renderMediaComparison() {
+    const models = selectedForComparison;
+    const colors = ['#3B82F6', '#10B981', '#F59E0B', '#EF4444'];
+    const category = models[0]?.category;
+    const categoryNames = {
+        'text-to-image': 'Text-to-Image',
+        'text-to-speech': 'Text-to-Speech',
+        'text-to-video': 'Text-to-Video',
+        'image-to-video': 'Image-to-Video',
+    };
+
+    const allCategoryData = allData[category] || [];
+    const rankMap = {};
+    allCategoryData
+        .filter(item => item.elo != null)
+        .sort((a, b) => (b.elo || 0) - (a.elo || 0))
+        .forEach((item, idx) => {
+            rankMap[item.id || item.slug || item.name] = idx + 1;
+        });
+
+    const metrics = [
+        {
+            label: '🏆 전체 순위',
+            getValue: item => rankMap[item.id || item.slug || item.name],
+            format: v => v != null ? `${v}위` : '-',
+            higherIsBetter: false,
+        },
+        {
+            label: '📊 ELO 점수',
+            getValue: item => item.elo,
+            format: v => v != null ? Math.round(v).toLocaleString() : '-',
+            higherIsBetter: true,
+        },
+        {
+            label: '🔢 평가 횟수',
+            getValue: item => item.appearances,
+            format: v => v != null ? v.toLocaleString() : '-',
+            higherIsBetter: true,
+        },
+        {
+            label: '📅 출시일',
+            getValue: item => item.release_date,
+            format: v => v ? new Date(v).toLocaleDateString('ko-KR') : '-',
+            higherIsBetter: null,
+        },
+    ];
+
+    const tableRows = metrics.map(metric => {
+        const values = models.map(m => metric.getValue(m.data));
+        const numericVals = values.filter(v => v != null && typeof v === 'number');
+        const bestVal = metric.higherIsBetter == null || numericVals.length === 0
+            ? null
+            : (metric.higherIsBetter ? Math.max(...numericVals) : Math.min(...numericVals));
+
+        const cells = values.map((v, i) => {
+            const isBest = bestVal != null && v === bestVal && numericVals.length > 1;
+            return `
+                <td class="py-3 px-4 text-center ${isBest ? 'bg-blue-50 dark:bg-blue-900/20' : ''}">
+                    <span class="font-bold ${isBest ? 'text-blue-600 dark:text-blue-400' : 'text-gray-700 dark:text-gray-300'}">
+                        ${metric.format(v)}
+                    </span>
+                    ${isBest ? '<span class="ml-1 text-xs">🏆</span>' : ''}
+                </td>`;
+        }).join('');
+
+        return `
+            <tr class="border-b border-gray-100 dark:border-gray-800">
+                <td class="py-3 px-4 text-sm font-medium text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-gray-700/30 whitespace-nowrap">
+                    ${metric.label}
+                </td>
+                ${cells}
+            </tr>`;
+    }).join('');
+
+    const modelHeaders = models.map((m, i) =>
+        `<th class="text-center py-3 px-4 font-semibold text-sm" style="color:${colors[i]}">${m.name}</th>`
+    ).join('');
+
+    const chartHeight = Math.max(160, models.length * 64);
+    const contentEl = document.getElementById('comparison-content');
+    contentEl.innerHTML = `
+        <div>
+            <p class="text-sm text-gray-500 dark:text-gray-400 mb-5">
+                ${categoryNames[category] || category} 모델 ${models.length}개를 비교합니다.
+            </p>
+            <div class="bg-gray-50 dark:bg-gray-700/50 rounded-xl p-5 mb-6">
+                <h3 class="text-base font-bold mb-4 text-gray-900 dark:text-gray-100">📊 ELO 점수 비교</h3>
+                <div class="relative" style="height:${chartHeight}px;">
+                    <canvas id="comparison-chart-canvas"></canvas>
+                </div>
+            </div>
+            <h3 class="text-base font-bold mb-3 text-gray-900 dark:text-gray-100">📋 상세 지표 비교</h3>
+            <div class="overflow-x-auto rounded-xl border border-gray-200 dark:border-gray-700">
+                <table class="w-full">
+                    <thead>
+                        <tr class="border-b border-gray-200 dark:border-gray-700">
+                            <th class="text-left py-3 px-4 font-semibold text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-gray-700/50">지표</th>
+                            ${modelHeaders}
+                        </tr>
+                    </thead>
+                    <tbody>${tableRows}</tbody>
+                </table>
+            </div>
+        </div>`;
+
+    setTimeout(() => {
+        const canvas = document.getElementById('comparison-chart-canvas');
+        if (!canvas || typeof Chart === 'undefined') return;
+        if (comparisonChart) { comparisonChart.destroy(); comparisonChart = null; }
+
+        const isDark = document.documentElement.classList.contains('dark');
+        const gridColor = isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)';
+        const labelColor = isDark ? '#9CA3AF' : '#6B7280';
+
+        comparisonChart = new Chart(canvas, {
+            type: 'bar',
+            data: {
+                labels: models.map(m => m.name),
+                datasets: [{
+                    label: 'ELO 점수',
+                    data: models.map(m => m.data.elo ? Math.round(m.data.elo) : 0),
+                    backgroundColor: models.map((_, i) => colors[i] + 'CC'),
+                    borderColor: models.map((_, i) => colors[i]),
+                    borderWidth: 2,
+                    borderRadius: 6,
+                }],
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: { grid: { color: gridColor }, ticks: { color: labelColor } },
+                    y: { grid: { color: gridColor }, ticks: { color: labelColor, font: { size: 11 } } },
+                },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { callbacks: { label: ctx => `ELO: ${ctx.raw.toLocaleString()}` } },
+                },
+            },
+        });
+    }, 50);
+}
+
+function showToast(message) {
+    const existing = document.getElementById('toast-notification');
+    if (existing) existing.remove();
+    const toast = document.createElement('div');
+    toast.id = 'toast-notification';
+    toast.className = 'fixed bottom-24 left-1/2 -translate-x-1/2 bg-gray-900 dark:bg-gray-700 text-white px-4 py-2 rounded-lg text-sm shadow-lg z-[60]';
+    toast.textContent = message;
+    document.body.appendChild(toast);
+    setTimeout(() => {
+        toast.style.transition = 'opacity 0.3s';
+        toast.style.opacity = '0';
+        setTimeout(() => toast.remove(), 300);
+    }, 2000);
+}
