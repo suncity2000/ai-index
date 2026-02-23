@@ -475,6 +475,14 @@ function updateStats() {
         animateCounter(heroTotalElement, totalCount, 1200);
     }
 
+    const uniqueCompanies = new Set(
+        Object.values(allData).flat().map(m => m.model_creator).filter(Boolean)
+    );
+    const companiesElement = document.getElementById('hero-total-companies');
+    if (companiesElement) {
+        animateCounter(companiesElement, uniqueCompanies.size, 1200);
+    }
+
     // Calculate and show total model count change
     const totalChangeElement = document.getElementById('total-models-change');
     if (totalChangeElement && modelCountChanges) {
