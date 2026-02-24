@@ -657,7 +657,7 @@ function renderLLMContent() {
             const bVal = getValue(b, sortField) || 0;
             return bVal - aVal; // Always descending (higher is better)
         })
-        .slice(0, 20);
+        .slice(0, 30);
 
     const getMedalEmoji = (rank) => {
         if (rank === 1) return '🥇';
@@ -764,7 +764,7 @@ function renderMediaContent() {
     const sortedData = data
         .filter(item => item.elo !== null && item.elo !== undefined)
         .sort((a, b) => (b.elo || 0) - (a.elo || 0))
-        .slice(0, 20);
+        .slice(0, 30);
 
     const getMedalEmoji = (rank) => {
         if (rank === 1) return '🥇';
