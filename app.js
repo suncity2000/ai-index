@@ -57,6 +57,7 @@ const translations = {
         dataSource: '데이터 출처',
         // Comparison bar
         reset: '초기화',
+        compBtnText: '비교하기',
         compModalTitle: '⚖️ 모델 비교',
         // Dynamic content
         noData: '데이터가 없습니다.',
@@ -159,6 +160,7 @@ const translations = {
         dataSource: 'Data Source',
         // Comparison bar
         reset: 'Reset',
+        compBtnText: 'Compare',
         compModalTitle: '⚖️ Model Comparison',
         // Dynamic content
         noData: 'No data available.',
