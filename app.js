@@ -339,18 +339,18 @@ function initTheme() {
 
 // Event listeners
 function initEventListeners() {
-    // Category tabs
+    // Category tabs — use currentTarget so clicks on inner <span> still work
     document.querySelectorAll('.category-tab').forEach(tab => {
         tab.addEventListener('click', (e) => {
-            currentCategory = e.target.dataset.category;
+            currentCategory = e.currentTarget.dataset.category;
             switchCategory(currentCategory);
         });
     });
 
-    // LLM filter tabs
+    // LLM filter tabs — use currentTarget so clicks on inner <span> still work
     document.querySelectorAll('.llm-filter-tab').forEach(tab => {
         tab.addEventListener('click', (e) => {
-            currentFilter = e.target.dataset.filter;
+            currentFilter = e.currentTarget.dataset.filter;
             switchLLMFilter(currentFilter);
         });
     });
@@ -939,7 +939,14 @@ function renderLLMContent() {
     const sortedData = data
         .filter(item => {
             const value = getValue(item, sortField);
-            return value !== null && value !== undefined;
+            if (value === null || value === undefined) return false;
+            // For value ranking, require minimum intelligence score to exclude
+            // low-quality models that rank high only due to very low price
+            if (isValueRatio) {
+                const score = item.evaluations?.artificial_analysis_intelligence_index;
+                if (!score || score < 30) return false;
+            }
+            return true;
         })
         .sort((a, b) => {
             const aVal = getValue(a, sortField) || 0;
