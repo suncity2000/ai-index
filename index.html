@@ -120,7 +120,7 @@
                     <span data-i18n="viewRankings">순위 보기</span>
                 </a>
                 <a href="#news-section"
-                   onclick="document.getElementById('news-section').scrollIntoView({behavior:'smooth'}); return false;"
+                   onclick="document.getElementById('news-section').scrollIntoView({behavior:'smooth'}); if(!isNewsExpanded) toggleNewsExpand(); return false;"
                    class="inline-flex items-center px-8 py-3.5 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 font-semibold rounded-xl transition-all hover:-translate-y-0.5 shadow-sm">
                     <span data-i18n="readNews">뉴스 읽기</span>
                 </a>
