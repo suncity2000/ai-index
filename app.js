@@ -9,9 +9,314 @@ let koreanCompanies = [];
 let selectedForComparison = [];
 let comparisonChart = null;
 
+// Language state
+let currentLang = localStorage.getItem('lang') || 'ko';
+let lastUpdatedDateObj = null;
+let newsLastUpdatedDateObj = null;
+
+// ─────────────────────────────────────────────
+// Translations
+// ─────────────────────────────────────────────
+const translations = {
+    ko: {
+        // Header
+        lastUpdated: '마지막 업데이트',
+        // Hero
+        heroHeadline1: '최고의 AI 모델을',
+        heroHeadline2: '한눈에 비교하세요',
+        heroSubtitle: '실시간으로 업데이트되는 AI 모델 순위와 최신 뉴스를 통해<br class="hidden md:block"> AI 기술의 발전을 확인하세요',
+        viewRankings: '순위 보기',
+        readNews: '뉴스 읽기',
+        heroStatModels: 'AI 모델',
+        heroStatCompanies: 'AI 기업',
+        heroStatFreq: '매일',
+        heroStatUpdate: '업데이트',
+        heroBadge: (m, y) => `${y}년 ${m}월 업데이트`,
+        // News
+        newsTitle: '📰 AI 최신 뉴스',
+        newsViewAll: '전체보기',
+        newsError: '뉴스를 불러올 수 없습니다',
+        newsUpdated: (d) => `업데이트: ${d}`,
+        // Stats bar
+        totalModels: '전체 추적 모델',
+        koreanServices: '🇰🇷 한국 서비스',
+        countUnit: '개',
+        // Category / filter tabs
+        catKorean: '🇰🇷 한국 서비스',
+        filterOverall: '🏆 종합순위',
+        filterCoding: '💻 코딩',
+        filterMath: '🔢 수학',
+        filterValue: '💰 가성비',
+        filterSpeed: '⚡ 속도',
+        // Loading / error
+        loading: '데이터를 불러오는 중...',
+        loadError: '❌ 데이터를 불러올 수 없습니다',
+        loadErrorSub: '잠시 후 다시 시도해주세요.',
+        // Footer area
+        lastUpdatedLabel: '마지막 업데이트',
+        dataSource: '데이터 출처',
+        // Comparison bar
+        reset: '초기화',
+        compModalTitle: '⚖️ 모델 비교',
+        // Dynamic content
+        noData: '데이터가 없습니다.',
+        noKoreanData: '한국 서비스 데이터가 없습니다.',
+        // Table headers
+        thRank: '순위', thModel: '모델명', thCompany: '회사',
+        thElo: 'ELO 점수', thEval: '평가 횟수', thRelease: '출시일', thCompare: '비교',
+        thField: '분야', thScore: '점수',
+        // Ranking
+        rankingTitle: (label) => `🏆 ${label} 순위`,
+        mediaRankTitle: (emoji, name) => `${emoji} ${name} 순위`,
+        sortLabel: { overall: '지능 지수', coding: '코딩 점수', math: '수학 점수', value: '가성비 점수', speed: '속도' },
+        unitScore: '점', unitValueScore: '점/$', unitSpeed: 'tok/s',
+        // Ranking change
+        rankUp: (n) => `어제보다 ${n}계단 상승`,
+        rankDown: (n) => `어제보다 ${n}계단 하락`,
+        rankSame: '순위 변동 없음',
+        // Compare buttons
+        btnSelected: '✓ 선택됨', btnCompare: '+ 비교',
+        // Korean services
+        koreanAiServices: '🇰🇷 한국 AI 서비스',
+        koreanTotal: (n) => `(전체 ${n}개)`,
+        rankNote: '💡 순위 표시:',
+        rank1to3: '1-3위', rank4to10: '4-10위', rank11plus: '11위 이하',
+        // Toast / misc
+        maxCompare: '최대 4개까지 선택할 수 있습니다.',
+        remove: '제거',
+        // Comparison modal content
+        comparingModels: (n) => `선택한 ${n}개 모델을 비교합니다. 레이더 차트 수치는 전체 모델 대비 상대 점수(%)입니다.`,
+        compareChartTitle: '📡 종합 성능 비교 (상대 점수 %)',
+        compareDetailTitle: '📊 상세 지표 비교',
+        compareIndicator: '지표',
+        mediaComparing: (cat, n) => `${cat} 모델 ${n}개를 비교합니다.`,
+        eloCompareTitle: '📊 ELO 점수 비교',
+        detailCompareTitle: '📋 상세 지표 비교',
+        // Comparison metrics
+        metricIntelligence: '🧠 지능 지수', metricCoding: '💻 코딩 지수',
+        metricMath: '🔢 수학 지수', metricSpeed: '⚡ 속도',
+        metricInputPrice: '💵 입력 가격', metricOutputPrice: '💵 출력 가격',
+        metricValue: '🌟 가성비', metricRank: '🏆 전체 순위',
+        metricElo: '📊 ELO 점수', metricEvalCount: '🔢 평가 횟수',
+        metricReleaseDate: '📅 출시일',
+        rankSuffix: '위',
+        // Chart labels
+        chartIntelligence: '지능 지수', chartCoding: '코딩',
+        chartMath: '수학', chartSpeed: '속도', chartValue: '가성비',
+        // Score info modal titles
+        scoreInfoTitle: {
+            overall: '🧠 인공 분석 지능 지수란?',
+            coding: '💻 코딩 점수란?',
+            math: '🔢 수학 점수란?',
+            value: '💰 가성비란?',
+            speed: '⚡ 속도란?',
+            'text-to-image': '🎨 Text-to-Image ELO 점수란?',
+            'text-to-speech': '🎙️ Text-to-Speech ELO 점수란?',
+            'text-to-video': '🎬 Text-to-Video ELO 점수란?',
+            'image-to-video': '🎞️ Image-to-Video ELO 점수란?'
+        },
+        dateLocale: 'ko-KR',
+    },
+    en: {
+        // Header
+        lastUpdated: 'Last Updated',
+        // Hero
+        heroHeadline1: 'Compare the Best',
+        heroHeadline2: 'AI Models at a Glance',
+        heroSubtitle: 'Stay updated with real-time AI model rankings and latest news<br class="hidden md:block"> to track the evolution of AI technology',
+        viewRankings: 'View Rankings',
+        readNews: 'Read News',
+        heroStatModels: 'AI Models',
+        heroStatCompanies: 'AI Companies',
+        heroStatFreq: 'Daily',
+        heroStatUpdate: 'Updates',
+        heroBadge: (m, y) => {
+            const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+            return `${months[m-1]} ${y} Update`;
+        },
+        // News
+        newsTitle: '📰 Latest AI News',
+        newsViewAll: 'View All',
+        newsError: 'Failed to load news',
+        newsUpdated: (d) => `Updated: ${d}`,
+        // Stats bar
+        totalModels: 'Total Tracked Models',
+        koreanServices: '🇰🇷 Korean Services',
+        countUnit: '',
+        // Category / filter tabs
+        catKorean: '🇰🇷 Korean Services',
+        filterOverall: '🏆 Overall',
+        filterCoding: '💻 Coding',
+        filterMath: '🔢 Math',
+        filterValue: '💰 Value',
+        filterSpeed: '⚡ Speed',
+        // Loading / error
+        loading: 'Loading data...',
+        loadError: '❌ Failed to load data',
+        loadErrorSub: 'Please try again later.',
+        // Footer area
+        lastUpdatedLabel: 'Last Updated',
+        dataSource: 'Data Source',
+        // Comparison bar
+        reset: 'Reset',
+        compModalTitle: '⚖️ Model Comparison',
+        // Dynamic content
+        noData: 'No data available.',
+        noKoreanData: 'No Korean services data.',
+        // Table headers
+        thRank: 'Rank', thModel: 'Model', thCompany: 'Company',
+        thElo: 'ELO Score', thEval: 'Evaluations', thRelease: 'Release Date', thCompare: 'Compare',
+        thField: 'Field', thScore: 'Score',
+        // Ranking
+        rankingTitle: (label) => `🏆 ${label} Rankings`,
+        mediaRankTitle: (emoji, name) => `${emoji} ${name} Rankings`,
+        sortLabel: { overall: 'Intelligence', coding: 'Coding', math: 'Math', value: 'Value', speed: 'Speed' },
+        unitScore: 'pts', unitValueScore: 'pts/$', unitSpeed: 'tok/s',
+        // Ranking change
+        rankUp: (n) => `Up ${n} from yesterday`,
+        rankDown: (n) => `Down ${n} from yesterday`,
+        rankSame: 'No change',
+        // Compare buttons
+        btnSelected: '✓ Selected', btnCompare: '+ Compare',
+        // Korean services
+        koreanAiServices: '🇰🇷 Korean AI Services',
+        koreanTotal: (n) => `(Total: ${n})`,
+        rankNote: '💡 Rank Display:',
+        rank1to3: 'Top 3', rank4to10: 'Top 4-10', rank11plus: '11th or lower',
+        // Toast / misc
+        maxCompare: 'You can select up to 4 models.',
+        remove: 'Remove',
+        // Comparison modal content
+        comparingModels: (n) => `Comparing ${n} selected models. Radar chart values are relative scores (%) vs all models.`,
+        compareChartTitle: '📡 Overall Performance (Relative %)',
+        compareDetailTitle: '📊 Detailed Metrics',
+        compareIndicator: 'Metric',
+        mediaComparing: (cat, n) => `Comparing ${n} ${cat} models.`,
+        eloCompareTitle: '📊 ELO Score Comparison',
+        detailCompareTitle: '📋 Detailed Metrics',
+        // Comparison metrics
+        metricIntelligence: '🧠 Intelligence', metricCoding: '💻 Coding',
+        metricMath: '🔢 Math', metricSpeed: '⚡ Speed',
+        metricInputPrice: '💵 Input Price', metricOutputPrice: '💵 Output Price',
+        metricValue: '🌟 Value', metricRank: '🏆 Overall Rank',
+        metricElo: '📊 ELO Score', metricEvalCount: '🔢 Evaluations',
+        metricReleaseDate: '📅 Release Date',
+        rankSuffix: '',
+        // Chart labels
+        chartIntelligence: 'Intelligence', chartCoding: 'Coding',
+        chartMath: 'Math', chartSpeed: 'Speed', chartValue: 'Value',
+        // Score info modal titles
+        scoreInfoTitle: {
+            overall: '🧠 What is the AI Intelligence Index?',
+            coding: '💻 What is the Coding Score?',
+            math: '🔢 What is the Math Score?',
+            value: '💰 What is Value for Money?',
+            speed: '⚡ What is Speed?',
+            'text-to-image': '🎨 What is the Text-to-Image ELO Score?',
+            'text-to-speech': '🎙️ What is the Text-to-Speech ELO Score?',
+            'text-to-video': '🎬 What is the Text-to-Video ELO Score?',
+            'image-to-video': '🎞️ What is the Image-to-Video ELO Score?'
+        },
+        dateLocale: 'en-US',
+    }
+};
+
+// Translation helper
+function t(key, ...args) {
+    const trans = translations[currentLang] || translations.ko;
+    const val = trans[key];
+    if (typeof val === 'function') return val(...args);
+    if (typeof val === 'object' && !Array.isArray(val) && args.length > 0) return val[args[0]] || key;
+    return val !== undefined ? val : (translations.ko[key] || key);
+}
+
+// Apply translations to all [data-i18n] elements
+function applyTranslations() {
+    document.documentElement.lang = currentLang;
+
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.dataset.i18n;
+        const val = t(key);
+        if (typeof val === 'string') el.textContent = val;
+    });
+
+    document.querySelectorAll('[data-i18n-html]').forEach(el => {
+        const key = el.dataset.i18nHtml;
+        const val = t(key);
+        if (typeof val === 'string') el.innerHTML = val;
+    });
+
+    // Hero badge (dynamic date)
+    const now = new Date();
+    const badgeEl = document.getElementById('hero-badge-date');
+    if (badgeEl) badgeEl.textContent = t('heroBadge', now.getMonth() + 1, now.getFullYear());
+
+    // Re-format stored dates
+    updateLastUpdatedDisplay();
+
+    if (newsLastUpdatedDateObj) {
+        const formattedNewsDate = newsLastUpdatedDateObj.toLocaleDateString(t('dateLocale'), {
+            month: 'numeric', day: 'numeric'
+        });
+        const newsUpdatedEl = document.getElementById('news-last-updated');
+        if (newsUpdatedEl) newsUpdatedEl.textContent = t('newsUpdated', formattedNewsDate);
+    }
+
+    // Re-render dynamic content
+    if (Object.keys(allData).length > 0) {
+        renderContent();
+    }
+}
+
+function updateLastUpdatedDisplay() {
+    if (!lastUpdatedDateObj) return;
+    const locale = t('dateLocale');
+    const formattedDate = lastUpdatedDateObj.toLocaleString(locale, {
+        year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit'
+    });
+    const shortDate = lastUpdatedDateObj.toLocaleString(locale, {
+        month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit'
+    });
+    const lastUpdatedEl = document.getElementById('last-updated');
+    if (lastUpdatedEl) lastUpdatedEl.textContent = formattedDate;
+    const headerEl = document.getElementById('header-last-updated');
+    if (headerEl) headerEl.textContent = shortDate;
+}
+
+function initLang() {
+    const langBtn = document.getElementById('lang-toggle');
+    if (langBtn) langBtn.textContent = currentLang === 'ko' ? 'EN' : '한';
+    if (currentLang === 'en') {
+        // Apply English translations to static HTML (default is Korean)
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+            const key = el.dataset.i18n;
+            const val = t(key);
+            if (typeof val === 'string') el.textContent = val;
+        });
+        document.querySelectorAll('[data-i18n-html]').forEach(el => {
+            const key = el.dataset.i18nHtml;
+            const val = t(key);
+            if (typeof val === 'string') el.innerHTML = val;
+        });
+        const now = new Date();
+        const badgeEl = document.getElementById('hero-badge-date');
+        if (badgeEl) badgeEl.textContent = t('heroBadge', now.getMonth() + 1, now.getFullYear());
+        document.documentElement.lang = 'en';
+    }
+}
+
+function toggleLanguage() {
+    currentLang = currentLang === 'ko' ? 'en' : 'ko';
+    localStorage.setItem('lang', currentLang);
+    const langBtn = document.getElementById('lang-toggle');
+    if (langBtn) langBtn.textContent = currentLang === 'ko' ? 'EN' : '한';
+    applyTranslations();
+}
+
 // Initialize app
 document.addEventListener('DOMContentLoaded', async () => {
     initTheme();
+    initLang();
     initEventListeners();
     await loadData();
 });
@@ -67,12 +372,12 @@ async function loadNews() {
 
         // Update last updated time
         if (data.last_updated) {
-            const date = new Date(data.last_updated);
-            const formattedDate = date.toLocaleDateString('ko-KR', {
+            newsLastUpdatedDateObj = new Date(data.last_updated);
+            const formattedDate = newsLastUpdatedDateObj.toLocaleDateString(t('dateLocale'), {
                 month: 'numeric',
                 day: 'numeric'
             });
-            document.getElementById('news-last-updated').textContent = `업데이트: ${formattedDate}`;
+            document.getElementById('news-last-updated').textContent = t('newsUpdated', formattedDate);
         }
 
         // Store news items and render
@@ -226,22 +531,8 @@ async function loadData() {
 
         // Update last updated time
         if (lastUpdated.last_updated !== 'N/A') {
-            const date = new Date(lastUpdated.last_updated);
-            const formattedDate = date.toLocaleString('ko-KR', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric',
-                hour: '2-digit',
-                minute: '2-digit'
-            });
-            const shortDate = date.toLocaleString('ko-KR', {
-                month: 'numeric',
-                day: 'numeric',
-                hour: '2-digit',
-                minute: '2-digit'
-            });
-            document.getElementById('last-updated').textContent = formattedDate;
-            document.getElementById('header-last-updated').textContent = shortDate;
+            lastUpdatedDateObj = new Date(lastUpdated.last_updated);
+            updateLastUpdatedDisplay();
         }
 
         // Show initial content
@@ -253,8 +544,8 @@ async function loadData() {
         console.error('Error loading data:', error);
         document.getElementById('loading').innerHTML = `
             <div class="p-12 text-center">
-                <p class="text-red-500 text-lg font-medium">❌ 데이터를 불러올 수 없습니다</p>
-                <p class="mt-2 text-gray-600 dark:text-gray-400">잠시 후 다시 시도해주세요.</p>
+                <p class="text-red-500 text-lg font-medium">${t('loadError')}</p>
+                <p class="mt-2 text-gray-600 dark:text-gray-400">${t('loadErrorSub')}</p>
             </div>
         `;
     }
@@ -594,33 +885,29 @@ function renderContent() {
 function renderLLMContent() {
     const data = allData.llm || [];
     if (data.length === 0) {
-        return '<div class="p-12 text-center text-gray-500">데이터가 없습니다.</div>';
+        return `<div class="p-12 text-center text-gray-500">${t('noData')}</div>`;
     }
 
     // Determine which field to sort by
-    let sortField, sortLabel, sortOrder = 'desc', isValueRatio = false;
+    let sortField, isValueRatio = false;
     switch (currentFilter) {
         case 'coding':
             sortField = 'artificial_analysis_coding_index';
-            sortLabel = '코딩 점수';
             break;
         case 'math':
             sortField = 'artificial_analysis_math_index';
-            sortLabel = '수학 점수';
             break;
         case 'value':
-            sortField = 'value_ratio'; // Special calculated field
-            sortLabel = '가성비 점수';
+            sortField = 'value_ratio';
             isValueRatio = true;
             break;
         case 'speed':
             sortField = 'median_output_tokens_per_second';
-            sortLabel = '속도';
             break;
         default:
             sortField = 'artificial_analysis_intelligence_index';
-            sortLabel = '지능 지수';
     }
+    const sortLabel = t('sortLabel', currentFilter);
 
     // Helper function to get value from item
     const getValue = (item, field) => {
@@ -669,8 +956,8 @@ function renderLLMContent() {
     return `
         <div class="p-6">
             <div class="flex items-center gap-2 mb-6">
-                <h2 class="text-2xl font-bold">🏆 ${sortLabel} 순위</h2>
-                <button onclick="showScoreInfoModal('${currentFilter}')" class="flex items-center justify-center w-6 h-6 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors text-gray-600 dark:text-gray-400 text-sm font-bold" title="${sortLabel} 설명">
+                <h2 class="text-2xl font-bold">${t('rankingTitle', sortLabel)}</h2>
+                <button onclick="showScoreInfoModal('${currentFilter}')" class="flex items-center justify-center w-6 h-6 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors text-gray-600 dark:text-gray-400 text-sm font-bold" title="${sortLabel}">
                     ?
                 </button>
             </div>
@@ -692,11 +979,11 @@ function renderLLMContent() {
                         if (changeInfo.isNew) {
                             rankingIndicator = '<span class="inline-flex items-center px-2 py-1 text-xs font-semibold rounded-full bg-green-500 text-white ml-2">NEW</span>';
                         } else if (changeInfo.change > 0) {
-                            rankingIndicator = `<span class="inline-flex items-center text-green-600 dark:text-green-400 text-sm font-bold ml-2" title="어제보다 ${changeInfo.change}계단 상승">↑${changeInfo.change}</span>`;
+                            rankingIndicator = `<span class="inline-flex items-center text-green-600 dark:text-green-400 text-sm font-bold ml-2" title="${t('rankUp', changeInfo.change)}">↑${changeInfo.change}</span>`;
                         } else if (changeInfo.change < 0) {
-                            rankingIndicator = `<span class="inline-flex items-center text-red-600 dark:text-red-400 text-sm font-bold ml-2" title="어제보다 ${Math.abs(changeInfo.change)}계단 하락">↓${Math.abs(changeInfo.change)}</span>`;
+                            rankingIndicator = `<span class="inline-flex items-center text-red-600 dark:text-red-400 text-sm font-bold ml-2" title="${t('rankDown', Math.abs(changeInfo.change))}">↓${Math.abs(changeInfo.change)}</span>`;
                         } else {
-                            rankingIndicator = '<span class="inline-flex items-center text-gray-500 dark:text-gray-400 text-sm ml-2" title="순위 변동 없음">−</span>';
+                            rankingIndicator = `<span class="inline-flex items-center text-gray-500 dark:text-gray-400 text-sm ml-2" title="${t('rankSame')}">−</span>`;
                         }
                     }
 
@@ -704,6 +991,7 @@ function renderLLMContent() {
                     const cmpBtnClass = isAlreadySelected
                         ? 'bg-blue-500 text-white border-blue-500'
                         : 'bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-400 border-gray-300 dark:border-gray-600 hover:border-blue-400 hover:text-blue-600 dark:hover:text-blue-400';
+                    const scoreUnit = currentFilter === 'value' ? t('unitValueScore') : currentFilter === 'speed' ? t('unitSpeed') : t('unitScore');
 
                     return `
                         <div class="flex items-center justify-between p-4 bg-gray-50 dark:bg-gray-700/50 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
@@ -730,10 +1018,10 @@ function renderLLMContent() {
                                     <div class="text-2xl font-bold text-blue-600 dark:text-blue-400">
                                         ${score ? score.toFixed(currentFilter === 'value' ? 1 : currentFilter === 'speed' ? 0 : 1) : '-'}
                                     </div>
-                                    <div class="text-xs text-gray-500 dark:text-gray-400">${currentFilter === 'value' ? '점/$' : currentFilter === 'speed' ? 'tok/s' : '점'}</div>
+                                    <div class="text-xs text-gray-500 dark:text-gray-400">${scoreUnit}</div>
                                 </div>
                                 <button onclick="toggleCompareModel('${itemId}')" id="cmp-btn-${itemId}" class="${cmpBtnClass} px-3 py-1.5 text-xs font-medium rounded-lg border transition-all whitespace-nowrap">
-                                    ${isAlreadySelected ? '✓ 선택됨' : '+ 비교'}
+                                    ${isAlreadySelected ? t('btnSelected') : t('btnCompare')}
                                 </button>
                             </div>
                         </div>
@@ -757,7 +1045,7 @@ function getModelUrl(category, item) {
 function renderMediaContent() {
     const data = allData[currentCategory] || [];
     if (data.length === 0) {
-        return '<div class="p-12 text-center text-gray-500">데이터가 없습니다.</div>';
+        return `<div class="p-12 text-center text-gray-500">${t('noData')}</div>`;
     }
 
     // Sort by ELO score
@@ -790,8 +1078,8 @@ function renderMediaContent() {
     return `
         <div class="p-6">
             <div class="flex items-center gap-2 mb-6">
-                <h2 class="text-2xl font-bold">${categoryEmojis[currentCategory]} ${categoryNames[currentCategory]} 순위</h2>
-                <button onclick="showScoreInfoModal('${currentCategory}')" class="flex items-center justify-center w-6 h-6 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors text-gray-600 dark:text-gray-400 text-sm font-bold" title="ELO 점수 설명">
+                <h2 class="text-2xl font-bold">${t('mediaRankTitle', categoryEmojis[currentCategory], categoryNames[currentCategory])}</h2>
+                <button onclick="showScoreInfoModal('${currentCategory}')" class="flex items-center justify-center w-6 h-6 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors text-gray-600 dark:text-gray-400 text-sm font-bold" title="ELO">
                     ?
                 </button>
             </div>
@@ -799,13 +1087,13 @@ function renderMediaContent() {
                 <table class="w-full">
                     <thead>
                         <tr class="border-b border-gray-200 dark:border-gray-700">
-                            <th class="text-left py-3 px-4 font-semibold">순위</th>
-                            <th class="text-left py-3 px-4 font-semibold">모델명</th>
-                            <th class="text-left py-3 px-4 font-semibold">회사</th>
-                            <th class="text-right py-3 px-4 font-semibold">ELO 점수</th>
-                            <th class="text-right py-3 px-4 font-semibold">평가 횟수</th>
-                            <th class="text-right py-3 px-4 font-semibold">출시일</th>
-                            <th class="text-center py-3 px-4 font-semibold">비교</th>
+                            <th class="text-left py-3 px-4 font-semibold">${t('thRank')}</th>
+                            <th class="text-left py-3 px-4 font-semibold">${t('thModel')}</th>
+                            <th class="text-left py-3 px-4 font-semibold">${t('thCompany')}</th>
+                            <th class="text-right py-3 px-4 font-semibold">${t('thElo')}</th>
+                            <th class="text-right py-3 px-4 font-semibold">${t('thEval')}</th>
+                            <th class="text-right py-3 px-4 font-semibold">${t('thRelease')}</th>
+                            <th class="text-center py-3 px-4 font-semibold">${t('thCompare')}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -825,11 +1113,11 @@ function renderMediaContent() {
                                 if (changeInfo.isNew) {
                                     rankingIndicator = '<span class="inline-flex items-center px-2 py-1 text-xs font-semibold rounded-full bg-green-500 text-white ml-2">NEW</span>';
                                 } else if (changeInfo.change > 0) {
-                                    rankingIndicator = `<span class="inline-flex items-center text-green-600 dark:text-green-400 text-sm font-bold ml-2" title="어제보다 ${changeInfo.change}계단 상승">↑${changeInfo.change}</span>`;
+                                    rankingIndicator = `<span class="inline-flex items-center text-green-600 dark:text-green-400 text-sm font-bold ml-2" title="${t('rankUp', changeInfo.change)}">↑${changeInfo.change}</span>`;
                                 } else if (changeInfo.change < 0) {
-                                    rankingIndicator = `<span class="inline-flex items-center text-red-600 dark:text-red-400 text-sm font-bold ml-2" title="어제보다 ${Math.abs(changeInfo.change)}계단 하락">↓${Math.abs(changeInfo.change)}</span>`;
+                                    rankingIndicator = `<span class="inline-flex items-center text-red-600 dark:text-red-400 text-sm font-bold ml-2" title="${t('rankDown', Math.abs(changeInfo.change))}">↓${Math.abs(changeInfo.change)}</span>`;
                                 } else {
-                                    rankingIndicator = '<span class="inline-flex items-center text-gray-500 dark:text-gray-400 text-sm ml-2" title="순위 변동 없음">−</span>';
+                                    rankingIndicator = `<span class="inline-flex items-center text-gray-500 dark:text-gray-400 text-sm ml-2" title="${t('rankSame')}">−</span>`;
                                 }
                             }
 
@@ -865,11 +1153,11 @@ function renderMediaContent() {
                                         ${item.appearances ? item.appearances.toLocaleString() : '-'}
                                     </td>
                                     <td class="py-4 px-4 text-right text-gray-600 dark:text-gray-400">
-                                        ${item.release_date ? new Date(item.release_date).toLocaleDateString('ko-KR') : '-'}
+                                        ${item.release_date ? new Date(item.release_date).toLocaleDateString(t('dateLocale')) : '-'}
                                     </td>
                                     <td class="py-4 px-4 text-center">
                                         <button onclick="toggleCompareModel('${itemId}')" id="cmp-btn-${itemId}" class="${cmpBtnClass} px-3 py-1.5 text-xs font-medium rounded-lg border transition-all whitespace-nowrap">
-                                            ${isAlreadySelected ? '✓ 선택됨' : '+ 비교'}
+                                            ${isAlreadySelected ? t('btnSelected') : t('btnCompare')}
                                         </button>
                                     </td>
                                 </tr>
@@ -950,7 +1238,7 @@ function renderKoreanServicesContent() {
     });
 
     if (koreanServices.length === 0) {
-        return '<div class="p-12 text-center text-gray-500">한국 서비스 데이터가 없습니다.</div>';
+        return `<div class="p-12 text-center text-gray-500">${t('noKoreanData')}</div>`;
     }
 
     // Sort by rank within category
@@ -959,18 +1247,18 @@ function renderKoreanServicesContent() {
     return `
         <div class="p-6">
             <div class="flex items-center gap-2 mb-6">
-                <h2 class="text-2xl font-bold">🇰🇷 한국 AI 서비스</h2>
-                <span class="text-sm text-gray-500 dark:text-gray-400">(전체 ${koreanServices.length}개)</span>
+                <h2 class="text-2xl font-bold">${t('koreanAiServices')}</h2>
+                <span class="text-sm text-gray-500 dark:text-gray-400">${t('koreanTotal', koreanServices.length)}</span>
             </div>
             <div class="overflow-x-auto">
                 <table class="w-full">
                     <thead>
                         <tr class="border-b border-gray-200 dark:border-gray-700">
-                            <th class="text-left py-3 px-4 font-semibold">분야</th>
-                            <th class="text-left py-3 px-4 font-semibold">모델명</th>
-                            <th class="text-left py-3 px-4 font-semibold">회사</th>
-                            <th class="text-center py-3 px-4 font-semibold">순위</th>
-                            <th class="text-right py-3 px-4 font-semibold">점수</th>
+                            <th class="text-left py-3 px-4 font-semibold">${t('thField')}</th>
+                            <th class="text-left py-3 px-4 font-semibold">${t('thModel')}</th>
+                            <th class="text-left py-3 px-4 font-semibold">${t('thCompany')}</th>
+                            <th class="text-center py-3 px-4 font-semibold">${t('thRank')}</th>
+                            <th class="text-right py-3 px-4 font-semibold">${t('thScore')}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -1021,10 +1309,10 @@ function renderKoreanServicesContent() {
             </div>
             <div class="mt-6 p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
                 <p class="text-sm text-gray-700 dark:text-gray-300">
-                    <strong>💡 순위 표시:</strong> 각 분야에서의 순위를 표시합니다.
-                    <span class="inline-block px-2 py-0.5 rounded bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-300 text-xs">1-3위</span>
-                    <span class="inline-block px-2 py-0.5 rounded bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 text-xs">4-10위</span>
-                    <span class="inline-block px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 text-xs">11위 이하</span>
+                    <strong>${t('rankNote')}</strong>
+                    <span class="inline-block px-2 py-0.5 rounded bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-300 text-xs">${t('rank1to3')}</span>
+                    <span class="inline-block px-2 py-0.5 rounded bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 text-xs">${t('rank4to10')}</span>
+                    <span class="inline-block px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 text-xs">${t('rank11plus')}</span>
                 </p>
             </div>
         </div>
@@ -1340,9 +1628,55 @@ function showScoreInfoModal(filterType) {
         }
     };
 
-    const info = scoreInfo[filterType] || scoreInfo.overall;
-    titleEl.textContent = info.title;
-    contentEl.innerHTML = info.content;
+    const scoreInfoEn = {
+        overall: `
+            <p class="leading-relaxed"><strong class="text-blue-600 dark:text-blue-400">Artificial Analysis Intelligence Index</strong> measures language model capabilities across reasoning, knowledge, math, and programming.</p>
+            <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 Scoring</h4><p class="text-sm">Scored on a <strong>0–100 scale</strong>, combining 10 benchmark tests.</p></div>
+            <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📋 Benchmarks</h4><p class="text-sm">GDPval-AA, τ²-Bench Telecom, Terminal-Bench Hard, SciCode, AA-LCR, AA-Omniscience, IFBench, Humanity's Last Exam, GPQA Diamond, CritPt</p></div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3"><div class="bg-gray-100 dark:bg-gray-700 rounded-lg p-3"><div class="text-sm font-semibold mb-1">✅ Reliability</div><div class="text-xs">95% confidence interval &lt;±1%</div></div><div class="bg-gray-100 dark:bg-gray-700 rounded-lg p-3"><div class="text-sm font-semibold mb-1">🌐 Scope</div><div class="text-xs">Text-only, English evaluation</div></div></div>
+            <p class="text-sm text-gray-600 dark:text-gray-400 italic">※ Like all metrics, this has limitations and may not apply to every use case.</p>`,
+        coding: `
+            <p class="leading-relaxed"><strong class="text-blue-600 dark:text-blue-400">Coding Index</strong> evaluates the ability of language models to perform programming tasks.</p>
+            <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 Scoring</h4><p class="text-sm mb-2">Scored on a <strong>0–100 scale</strong>.</p><ul class="text-sm space-y-1 list-disc list-inside"><li>70+: Advanced programming</li><li>50–70: Intermediate</li><li>&lt;50: Basic</li></ul></div>
+            <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">🎯 Tasks</h4><ul class="text-sm space-y-1 list-disc list-inside"><li>Code generation &amp; completion</li><li>Bug fixing &amp; debugging</li><li>Algorithm implementation</li><li>Code refactoring</li></ul></div>`,
+        math: `
+            <p class="leading-relaxed"><strong class="text-blue-600 dark:text-blue-400">Math Index</strong> evaluates mathematical problem-solving capabilities.</p>
+            <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 Scoring</h4><p class="text-sm mb-2">Scored on a <strong>0–100 scale</strong>.</p><ul class="text-sm space-y-1 list-disc list-inside"><li>70+: Advanced math</li><li>50–70: Intermediate</li><li>&lt;50: Basic</li></ul></div>
+            <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">🎯 Topics</h4><ul class="text-sm space-y-1 list-disc list-inside"><li>Algebra &amp; Geometry</li><li>Calculus &amp; Probability</li><li>Logical reasoning</li><li>Complex calculations</li></ul></div>`,
+        value: `
+            <p class="leading-relaxed"><strong class="text-blue-600 dark:text-blue-400">Value for Money</strong> measures cost-efficiency relative to performance.</p>
+            <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 Formula</h4><p class="text-sm mb-2"><strong>Value = Intelligence Index / Price</strong></p><p class="text-sm">Unit: <strong>pts/$</strong> (performance per dollar)</p></div>
+            <div class="bg-green-50 dark:bg-green-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-green-900 dark:text-green-300">💡 Interpretation</h4><ul class="text-sm space-y-1 list-disc list-inside"><li>Higher = better value</li><li>Same price → prefer higher performance</li><li>Same performance → prefer lower price</li></ul></div>
+            <div class="bg-yellow-50 dark:bg-yellow-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-yellow-900 dark:text-yellow-300">⚠️ Note</h4><p class="text-sm">Price based on blended 1M token cost (input:output = 3:1).</p></div>`,
+        speed: `
+            <p class="leading-relaxed"><strong class="text-blue-600 dark:text-blue-400">Speed</strong> is the number of tokens (word fragments) the model generates per second.</p>
+            <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 Unit</h4><p class="text-sm mb-2"><strong>tok/s</strong> (tokens per second)</p><ul class="text-sm space-y-1 list-disc list-inside"><li>100+ tok/s: Very fast</li><li>50–100 tok/s: Fast</li><li>&lt;50 tok/s: Average</li></ul></div>
+            <div class="bg-yellow-50 dark:bg-yellow-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-yellow-900 dark:text-yellow-300">⚠️ Note</h4><p class="text-sm">Measured as median output tokens per second.</p></div>`,
+        'text-to-image': `
+            <p class="leading-relaxed"><strong class="text-blue-600 dark:text-blue-400">ELO Score</strong> measures the performance of text-to-image AI models via head-to-head comparisons.</p>
+            <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 ELO System</h4><p class="text-sm mb-2">A <strong>relative rating system</strong> derived from chess rankings.</p><ul class="text-sm space-y-1 list-disc list-inside"><li>1200+: Excellent</li><li>1000–1200: Above average</li><li>&lt;1000: Below average</li></ul></div>
+            <div class="bg-green-50 dark:bg-green-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-green-900 dark:text-green-300">💡 Criteria</h4><ul class="text-sm space-y-1 list-disc list-inside"><li>Image quality &amp; realism</li><li>Prompt adherence</li><li>Detail &amp; creativity</li></ul></div>`,
+        'text-to-speech': `
+            <p class="leading-relaxed"><strong class="text-blue-600 dark:text-blue-400">ELO Score</strong> measures the performance of text-to-speech AI models via head-to-head comparisons.</p>
+            <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 ELO System</h4><ul class="text-sm space-y-1 list-disc list-inside"><li>1100+: Excellent</li><li>1000–1100: Above average</li><li>&lt;1000: Below average</li></ul></div>
+            <div class="bg-green-50 dark:bg-green-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-green-900 dark:text-green-300">💡 Criteria</h4><ul class="text-sm space-y-1 list-disc list-inside"><li>Naturalness</li><li>Pronunciation accuracy</li><li>Intonation &amp; rhythm</li></ul></div>`,
+        'text-to-video': `
+            <p class="leading-relaxed"><strong class="text-blue-600 dark:text-blue-400">ELO Score</strong> measures performance of text-to-video AI models via head-to-head comparisons.</p>
+            <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 ELO System</h4><ul class="text-sm space-y-1 list-disc list-inside"><li>1200+: Excellent</li><li>1000–1200: Above average</li><li>&lt;1000: Below average</li></ul></div>
+            <div class="bg-green-50 dark:bg-green-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-green-900 dark:text-green-300">💡 Criteria</h4><ul class="text-sm space-y-1 list-disc list-inside"><li>Video quality</li><li>Motion naturalness</li><li>Prompt fidelity</li></ul></div>`,
+        'image-to-video': `
+            <p class="leading-relaxed"><strong class="text-blue-600 dark:text-blue-400">ELO Score</strong> measures performance of image-to-video AI models via head-to-head comparisons.</p>
+            <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 ELO System</h4><ul class="text-sm space-y-1 list-disc list-inside"><li>1300+: Exceptional</li><li>1000–1300: Above average</li><li>&lt;1000: Below average</li></ul></div>
+            <div class="bg-green-50 dark:bg-green-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-green-900 dark:text-green-300">💡 Criteria</h4><ul class="text-sm space-y-1 list-disc list-inside"><li>Motion naturalness</li><li>Source image fidelity</li><li>Temporal consistency</li></ul></div>`,
+    };
+
+    titleEl.textContent = t('scoreInfoTitle', filterType);
+    if (currentLang === 'en') {
+        contentEl.innerHTML = scoreInfoEn[filterType] || scoreInfoEn.overall;
+    } else {
+        const info = scoreInfo[filterType] || scoreInfo.overall;
+        contentEl.innerHTML = info.content;
+    }
 
     modal.classList.remove('hidden');
     modal.classList.add('flex');
@@ -1387,7 +1721,7 @@ function toggleCompareModel(modelId) {
         selectedForComparison.splice(existingIndex, 1);
     } else {
         if (selectedForComparison.length >= 4) {
-            showToast('최대 4개까지 선택할 수 있습니다.');
+            showToast(t('maxCompare'));
             return;
         }
         const data = allData[currentCategory] || [];
@@ -1431,10 +1765,10 @@ function clearComparison() {
 
 function updateCompareButton(btn, isSelected) {
     if (isSelected) {
-        btn.textContent = '✓ 선택됨';
+        btn.textContent = t('btnSelected');
         btn.className = 'bg-blue-500 text-white border-blue-500 px-3 py-1.5 text-xs font-medium rounded-lg border transition-all whitespace-nowrap';
     } else {
-        btn.textContent = '+ 비교';
+        btn.textContent = t('btnCompare');
         btn.className = 'bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-400 border-gray-300 dark:border-gray-600 hover:border-blue-400 hover:text-blue-600 dark:hover:text-blue-400 px-3 py-1.5 text-xs font-medium rounded-lg border transition-all whitespace-nowrap';
     }
 }
@@ -1462,7 +1796,7 @@ function updateComparisonBar() {
         <div class="flex items-center gap-1.5 px-3 py-1 rounded-full text-sm font-medium border"
              style="background-color: ${modelColors[i]}22; border-color: ${modelColors[i]}66; color: ${modelColors[i]};">
             <span class="truncate max-w-[120px]">${model.name}</span>
-            <button onclick="removeFromComparison('${model.id}')" class="hover:opacity-70 transition-opacity flex-shrink-0" title="제거">
+            <button onclick="removeFromComparison('${model.id}')" class="hover:opacity-70 transition-opacity flex-shrink-0" title="${t('remove')}">
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12" />
                 </svg>
@@ -1548,43 +1882,43 @@ function renderLLMComparison() {
     // Metrics for the detail table
     const metrics = [
         {
-            label: '🧠 지능 지수', unit: '점',
+            label: t('metricIntelligence'), unit: t('unitScore'),
             getValue: item => item.evaluations?.artificial_analysis_intelligence_index,
             format: v => v != null ? v.toFixed(1) : '-',
             higherIsBetter: true,
         },
         {
-            label: '💻 코딩 지수', unit: '점',
+            label: t('metricCoding'), unit: t('unitScore'),
             getValue: item => item.evaluations?.artificial_analysis_coding_index,
             format: v => v != null ? v.toFixed(1) : '-',
             higherIsBetter: true,
         },
         {
-            label: '🔢 수학 지수', unit: '점',
+            label: t('metricMath'), unit: t('unitScore'),
             getValue: item => item.evaluations?.artificial_analysis_math_index,
             format: v => v != null ? v.toFixed(1) : '-',
             higherIsBetter: true,
         },
         {
-            label: '⚡ 속도', unit: 'tok/s',
+            label: t('metricSpeed'), unit: 'tok/s',
             getValue: item => item.pricing?.median_output_tokens_per_second,
             format: v => v != null ? Math.round(v).toLocaleString() : '-',
             higherIsBetter: true,
         },
         {
-            label: '💵 입력 가격', unit: '/1M tok',
+            label: t('metricInputPrice'), unit: '/1M tok',
             getValue: item => item.pricing?.price_1m_input_tokens,
             format: v => v != null ? `$${v.toFixed(2)}` : '-',
             higherIsBetter: false,
         },
         {
-            label: '💵 출력 가격', unit: '/1M tok',
+            label: t('metricOutputPrice'), unit: '/1M tok',
             getValue: item => item.pricing?.price_1m_output_tokens,
             format: v => v != null ? `$${v.toFixed(2)}` : '-',
             higherIsBetter: false,
         },
         {
-            label: '🌟 가성비', unit: '점/$',
+            label: t('metricValue'), unit: t('unitValueScore'),
             getValue: item => {
                 const perf = item.evaluations?.artificial_analysis_intelligence_index;
                 const price = item.pricing?.price_1m_blended_3_to_1;
@@ -1631,20 +1965,20 @@ function renderLLMComparison() {
     contentEl.innerHTML = `
         <div>
             <p class="text-sm text-gray-500 dark:text-gray-400 mb-5">
-                선택한 ${models.length}개 모델을 비교합니다. 레이더 차트 수치는 전체 모델 대비 상대 점수(%)입니다.
+                ${t('comparingModels', models.length)}
             </p>
             <div class="bg-gray-50 dark:bg-gray-700/50 rounded-xl p-5 mb-6">
-                <h3 class="text-base font-bold mb-4 text-gray-900 dark:text-gray-100">📡 종합 성능 비교 (상대 점수 %)</h3>
+                <h3 class="text-base font-bold mb-4 text-gray-900 dark:text-gray-100">${t('compareChartTitle')}</h3>
                 <div class="relative mx-auto" style="height:300px; max-width:480px;">
                     <canvas id="comparison-chart-canvas"></canvas>
                 </div>
             </div>
-            <h3 class="text-base font-bold mb-3 text-gray-900 dark:text-gray-100">📊 상세 지표 비교</h3>
+            <h3 class="text-base font-bold mb-3 text-gray-900 dark:text-gray-100">${t('compareDetailTitle')}</h3>
             <div class="overflow-x-auto rounded-xl border border-gray-200 dark:border-gray-700">
                 <table class="w-full">
                     <thead>
                         <tr class="border-b border-gray-200 dark:border-gray-700">
-                            <th class="text-left py-3 px-4 font-semibold text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-gray-700/50">지표</th>
+                            <th class="text-left py-3 px-4 font-semibold text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-gray-700/50">${t('compareIndicator')}</th>
                             ${modelHeaders}
                         </tr>
                     </thead>
@@ -1665,7 +1999,7 @@ function renderLLMComparison() {
         comparisonChart = new Chart(canvas, {
             type: 'radar',
             data: {
-                labels: ['지능 지수', '코딩', '수학', '속도', '가성비'],
+                labels: [t('chartIntelligence'), t('chartCoding'), t('chartMath'), t('chartSpeed'), t('chartValue')],
                 datasets,
             },
             options: {
@@ -1711,27 +2045,27 @@ function renderMediaComparison() {
 
     const metrics = [
         {
-            label: '🏆 전체 순위',
+            label: t('metricRank'),
             getValue: item => rankMap[item.id || item.slug || item.name],
-            format: v => v != null ? `${v}위` : '-',
+            format: v => v != null ? `${v}${t('rankSuffix')}` : '-',
             higherIsBetter: false,
         },
         {
-            label: '📊 ELO 점수',
+            label: t('metricElo'),
             getValue: item => item.elo,
             format: v => v != null ? Math.round(v).toLocaleString() : '-',
             higherIsBetter: true,
         },
         {
-            label: '🔢 평가 횟수',
+            label: t('metricEvalCount'),
             getValue: item => item.appearances,
             format: v => v != null ? v.toLocaleString() : '-',
             higherIsBetter: true,
         },
         {
-            label: '📅 출시일',
+            label: t('metricReleaseDate'),
             getValue: item => item.release_date,
-            format: v => v ? new Date(v).toLocaleDateString('ko-KR') : '-',
+            format: v => v ? new Date(v).toLocaleDateString(t('dateLocale')) : '-',
             higherIsBetter: null,
         },
     ];
@@ -1772,20 +2106,20 @@ function renderMediaComparison() {
     contentEl.innerHTML = `
         <div>
             <p class="text-sm text-gray-500 dark:text-gray-400 mb-5">
-                ${categoryNames[category] || category} 모델 ${models.length}개를 비교합니다.
+                ${t('mediaComparing', categoryNames[category] || category, models.length)}
             </p>
             <div class="bg-gray-50 dark:bg-gray-700/50 rounded-xl p-5 mb-6">
-                <h3 class="text-base font-bold mb-4 text-gray-900 dark:text-gray-100">📊 ELO 점수 비교</h3>
+                <h3 class="text-base font-bold mb-4 text-gray-900 dark:text-gray-100">${t('eloCompareTitle')}</h3>
                 <div class="relative" style="height:${chartHeight}px;">
                     <canvas id="comparison-chart-canvas"></canvas>
                 </div>
             </div>
-            <h3 class="text-base font-bold mb-3 text-gray-900 dark:text-gray-100">📋 상세 지표 비교</h3>
+            <h3 class="text-base font-bold mb-3 text-gray-900 dark:text-gray-100">${t('detailCompareTitle')}</h3>
             <div class="overflow-x-auto rounded-xl border border-gray-200 dark:border-gray-700">
                 <table class="w-full">
                     <thead>
                         <tr class="border-b border-gray-200 dark:border-gray-700">
-                            <th class="text-left py-3 px-4 font-semibold text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-gray-700/50">지표</th>
+                            <th class="text-left py-3 px-4 font-semibold text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-gray-700/50">${t('compareIndicator')}</th>
                             ${modelHeaders}
                         </tr>
                     </thead>
@@ -1808,7 +2142,7 @@ function renderMediaComparison() {
             data: {
                 labels: models.map(m => m.name),
                 datasets: [{
-                    label: 'ELO 점수',
+                    label: t('metricElo'),
                     data: models.map(m => m.data.elo ? Math.round(m.data.elo) : 0),
                     backgroundColor: models.map((_, i) => colors[i] + 'CC'),
                     borderColor: models.map((_, i) => colors[i]),
