@@ -6,6 +6,7 @@ let yesterdayData = {};
 let rankingChanges = {};
 let modelCountChanges = {};
 let koreanCompanies = [];
+let modelLinks = [];
 let selectedForComparison = [];
 let comparisonChart = null;
 
@@ -517,6 +518,10 @@ async function loadData() {
         const koreanResponse = await fetch(`data/korean-companies.json?v=${cacheBust}`);
         const koreanData = await koreanResponse.json();
         koreanCompanies = koreanData.companies;
+
+        // Load model links mapping
+        const modelLinksData = await fetch(`data/model-links.json?v=${cacheBust}`).then(r => r.json()).catch(() => []);
+        modelLinks = modelLinksData;
 
         // Load AI news
         loadNews();
@@ -1183,8 +1188,14 @@ function renderLLMContent() {
 
 // Helper function to generate model URL based on category
 function getModelUrl(category, item) {
-    // Only generate URLs for LLM category
-    if (category === 'llm' && item && item.slug) {
+    if (!item) return null;
+
+    // Check model-links.json mapping first (exact name match)
+    const mapped = modelLinks.find(m => m.name === item.name);
+    if (mapped) return mapped.url;
+
+    // Fall back to Artificial Analysis URL using slug
+    if (item.slug) {
         return `https://artificialanalysis.ai/models/${item.slug}`;
     }
     return null;
