@@ -42,6 +42,8 @@ jobs:
           cp app.js _site/
           cp styles.css _site/
           cp -r data _site/
+          cp robots.txt _site/
+          cp sitemap.xml _site/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
