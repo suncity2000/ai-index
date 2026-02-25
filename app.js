@@ -526,7 +526,7 @@ async function loadData() {
         };
 
         // Load yesterday's data and calculate changes
-        await loadYesterdayDataAndCalculateChanges();
+        await loadYesterdayDataAndCalculateChanges(cacheBust);
 
         // Update stats
         updateStats();
@@ -554,21 +554,22 @@ async function loadData() {
 }
 
 // Load yesterday's data and calculate ranking changes
-async function loadYesterdayDataAndCalculateChanges() {
+async function loadYesterdayDataAndCalculateChanges(cacheBust) {
     try {
-        // Calculate yesterday's date
-        const yesterday = new Date();
-        yesterday.setDate(yesterday.getDate() - 1);
+        // Calculate yesterday's date using UTC to match server-side history file naming
+        // (server uses `date -u -d "yesterday"` which is pure UTC)
+        const now = new Date();
+        const yesterday = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() - 1));
         const yesterdayStr = yesterday.toISOString().split('T')[0];
 
         // Try to load yesterday's data from history
-        // History files are date-keyed and immutable, so the date itself serves as cache key
+        // Use the same hourly cacheBust as today's data to prevent stale 404 responses from persisting
         const [llm, t2i, t2s, t2v, i2v] = await Promise.all([
-            fetch(`data/history/${yesterdayStr}-llms.json?v=${yesterdayStr}`).then(r => r.json()).catch(() => null),
-            fetch(`data/history/${yesterdayStr}-text-to-image.json?v=${yesterdayStr}`).then(r => r.json()).catch(() => null),
-            fetch(`data/history/${yesterdayStr}-text-to-speech.json?v=${yesterdayStr}`).then(r => r.json()).catch(() => null),
-            fetch(`data/history/${yesterdayStr}-text-to-video.json?v=${yesterdayStr}`).then(r => r.json()).catch(() => null),
-            fetch(`data/history/${yesterdayStr}-image-to-video.json?v=${yesterdayStr}`).then(r => r.json()).catch(() => null)
+            fetch(`data/history/${yesterdayStr}-llms.json?v=${cacheBust}`).then(r => r.ok ? r.json() : null).catch(() => null),
+            fetch(`data/history/${yesterdayStr}-text-to-image.json?v=${cacheBust}`).then(r => r.ok ? r.json() : null).catch(() => null),
+            fetch(`data/history/${yesterdayStr}-text-to-speech.json?v=${cacheBust}`).then(r => r.ok ? r.json() : null).catch(() => null),
+            fetch(`data/history/${yesterdayStr}-text-to-video.json?v=${cacheBust}`).then(r => r.ok ? r.json() : null).catch(() => null),
+            fetch(`data/history/${yesterdayStr}-image-to-video.json?v=${cacheBust}`).then(r => r.ok ? r.json() : null).catch(() => null)
         ]);
 
         yesterdayData = {
