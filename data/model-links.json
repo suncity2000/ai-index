@@ -1,0 +1,13 @@
+[
+  { "name": "GPT Image 1.5 (high)", "creator": "OpenAI", "url": "https://openai.com/dall-e-3" },
+  { "name": "Riverflow 2.0", "creator": "Sourceful", "url": "https://sourceful.ai/" },
+  { "name": "Nano Banana Pro", "creator": "Google", "url": "https://gemini.google.com/" },
+  { "name": "FLUX.2 [max]", "creator": "Black Forest Labs", "url": "https://blackforestlabs.ai/" },
+  { "name": "Seedream 4.0", "creator": "ByteDance Seed", "url": "https://www.capcut.com/ai-tools/ai-image-generator" },
+  { "name": "grok-imagine-image", "creator": "xAI", "url": "https://x.ai/" },
+  { "name": "Qwen Image Max", "creator": "Alibaba", "url": "https://tongyi.aliyun.com/" },
+  { "name": "Midjourney v7 Alpha", "creator": "Midjourney", "url": "https://www.midjourney.com/" },
+  { "name": "Stable Diffusion 3.5 Large", "creator": "Stability.ai", "url": "https://stability.ai/" },
+  { "name": "Firefly Image 5 Preview", "creator": "Adobe", "url": "https://firefly.adobe.com/" },
+  { "name": "Recraft V4 Pro", "creator": "Recraft", "url": "https://www.recraft.ai/" }
+]
