@@ -101,6 +101,12 @@ const translations = {
         metricElo: '📊 ELO 점수', metricEvalCount: '🔢 평가 횟수',
         metricReleaseDate: '📅 출시일',
         rankSuffix: '위',
+        // Stats bar - new boxes
+        newModelsTitle: '🆕 신규 진입 모델',
+        risingRankTitle: '📈 순위 상승 모델',
+        noNewModels: '신규 진입 모델 없음',
+        noRankChanges: '오늘은 변동 없음',
+        andMore: (n) => `외 ${n}개`,
         // Chart labels
         chartIntelligence: '지능 지수', chartCoding: '코딩',
         chartMath: '수학', chartSpeed: '속도', chartValue: '가성비',
@@ -204,6 +210,12 @@ const translations = {
         metricElo: '📊 ELO Score', metricEvalCount: '🔢 Evaluations',
         metricReleaseDate: '📅 Release Date',
         rankSuffix: '',
+        // Stats bar - new boxes
+        newModelsTitle: '🆕 New Models',
+        risingRankTitle: '📈 Rising Ranks',
+        noNewModels: 'No new models',
+        noRankChanges: 'No changes today',
+        andMore: (n) => `+${n} more`,
         // Chart labels
         chartIntelligence: 'Intelligence', chartCoding: 'Coding',
         chartMath: 'Math', chartSpeed: 'Speed', chartValue: 'Value',
@@ -267,6 +279,8 @@ function applyTranslations() {
     // Re-render dynamic content
     if (Object.keys(allData).length > 0) {
         renderContent();
+        renderNewEntryModels();
+        renderRisingRankModels();
     }
 }
 
@@ -819,6 +833,10 @@ function updateStats() {
             koreanChangeElement.textContent = '';
         }
     }
+
+    // New entry models and rising rank models
+    renderNewEntryModels();
+    renderRisingRankModels();
 }
 
 // Check if company is Korean
@@ -829,6 +847,127 @@ function isKoreanCompany(item) {
     return koreanCompanies.some(company =>
         company.keywords.some(keyword => searchText.includes(keyword.toLowerCase()))
     );
+}
+
+// Get models whose release_date is within the last month, sorted oldest-first
+function getNewEntryModels() {
+    const now = new Date();
+    const oneMonthAgo = new Date(now.getFullYear(), now.getMonth() - 1, now.getDate());
+
+    const newModels = [];
+    for (const [category, models] of Object.entries(allData)) {
+        for (const model of models) {
+            if (model.release_date) {
+                const releaseDate = new Date(model.release_date);
+                if (releaseDate >= oneMonthAgo) {
+                    newModels.push({ name: model.name, releaseDate, category });
+                }
+            }
+        }
+    }
+
+    // Oldest first — models closest to leaving the 1-month window appear at top
+    newModels.sort((a, b) => a.releaseDate - b.releaseDate);
+    return newModels;
+}
+
+// Get models with the biggest positive rank change today (across all categories)
+function getRisingRankModels() {
+    const risingModels = [];
+
+    // LLM overall filter
+    const llmChanges = rankingChanges.llm?.overall || {};
+    for (const [id, changeInfo] of Object.entries(llmChanges)) {
+        if (changeInfo.change > 0) {
+            const model = (allData.llm || []).find(m => (m.id || m.slug || m.name) === id);
+            if (model) {
+                risingModels.push({ name: model.name, change: changeInfo.change, rank: changeInfo.today });
+            }
+        }
+    }
+
+    // Media categories
+    for (const category of ['text-to-image', 'text-to-speech', 'text-to-video', 'image-to-video']) {
+        const changes = rankingChanges[category] || {};
+        for (const [id, changeInfo] of Object.entries(changes)) {
+            if (changeInfo.change > 0) {
+                const model = (allData[category] || []).find(m => (m.id || m.slug || m.name) === id);
+                if (model) {
+                    risingModels.push({ name: model.name, change: changeInfo.change, rank: changeInfo.today });
+                }
+            }
+        }
+    }
+
+    // Sort by rank change desc; break ties by current rank asc
+    risingModels.sort((a, b) => b.change !== a.change ? b.change - a.change : a.rank - b.rank);
+    return risingModels;
+}
+
+const MAX_BOX_ITEMS = 3;
+
+// Render the new-entry-models box
+function renderNewEntryModels() {
+    const el = document.getElementById('new-entry-models');
+    if (!el) return;
+
+    const newModels = getNewEntryModels();
+    if (newModels.length === 0) {
+        el.innerHTML = `<div class="text-xs opacity-70 py-2">${t('noNewModels')}</div>`;
+        return;
+    }
+
+    const displayed = newModels.slice(0, MAX_BOX_ITEMS);
+    const hidden = newModels.length - MAX_BOX_ITEMS;
+    const locale = t('dateLocale');
+
+    let html = '<div class="space-y-1.5">';
+    for (const model of displayed) {
+        const dateStr = model.releaseDate.toLocaleDateString(locale, { month: 'numeric', day: 'numeric' });
+        html += `<div class="flex items-center justify-between text-sm leading-tight">
+            <span class="font-medium truncate mr-2">${model.name}</span>
+            <span class="text-xs opacity-75 flex-shrink-0">${dateStr}</span>
+        </div>`;
+    }
+    if (hidden > 0) {
+        html += `<div class="text-xs opacity-70 pt-0.5">${t('andMore', hidden)}</div>`;
+    }
+    html += '</div>';
+    el.innerHTML = html;
+}
+
+// Render the rising-rank-models box
+function renderRisingRankModels() {
+    const el = document.getElementById('rising-rank-models');
+    if (!el) return;
+
+    const risingModels = getRisingRankModels();
+    if (risingModels.length === 0) {
+        el.innerHTML = `
+            <div class="flex flex-col items-center justify-center py-2 opacity-70 text-center">
+                <svg class="w-5 h-5 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M3 6h18M7 18h10"/>
+                </svg>
+                <span class="text-xs">${t('noRankChanges')}</span>
+            </div>`;
+        return;
+    }
+
+    const displayed = risingModels.slice(0, MAX_BOX_ITEMS);
+    const hidden = risingModels.length - MAX_BOX_ITEMS;
+
+    let html = '<div class="space-y-1.5">';
+    for (const model of displayed) {
+        html += `<div class="flex items-center justify-between text-sm leading-tight">
+            <span class="font-medium truncate mr-2">${model.name}</span>
+            <span class="text-green-300 font-bold flex-shrink-0">↑${model.change}</span>
+        </div>`;
+    }
+    if (hidden > 0) {
+        html += `<div class="text-xs opacity-70 pt-0.5">${t('andMore', hidden)}</div>`;
+    }
+    html += '</div>';
+    el.innerHTML = html;
 }
 
 // Switch category

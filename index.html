@@ -277,23 +277,41 @@
     </div>
 
     <!-- Stats Bar -->
-    <div class="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-8">
+    <div class="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-6">
         <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6 border border-white/30 shadow-lg hover:bg-white/25 transition-all">
-                    <div data-i18n="totalModels" class="text-sm font-semibold opacity-90 uppercase tracking-wide mb-2">전체 추적 모델</div>
-                    <div class="flex items-baseline gap-2">
-                        <span id="total-models" class="text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-white to-blue-100">-</span>
-                        <span data-i18n="countUnit" class="text-2xl font-semibold opacity-90">개</span>
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="bg-white/20 backdrop-blur-sm rounded-xl p-4 border border-white/30 shadow-lg hover:bg-white/25 transition-all">
+                    <div data-i18n="totalModels" class="text-xs font-semibold opacity-90 uppercase tracking-wide mb-2">전체 추적 모델</div>
+                    <div class="flex items-baseline gap-1.5">
+                        <span id="total-models" class="text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-white to-blue-100">-</span>
+                        <span data-i18n="countUnit" class="text-xl font-semibold opacity-90">개</span>
                         <span id="total-models-change" class="text-sm font-semibold ml-1"></span>
                     </div>
                 </div>
-                <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6 border border-white/30 shadow-lg hover:bg-white/25 transition-all">
-                    <div data-i18n="koreanServices" class="text-sm font-semibold opacity-90 uppercase tracking-wide mb-2">🇰🇷 한국 서비스</div>
-                    <div class="flex items-baseline gap-2">
-                        <span id="korean-models" class="text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-white to-blue-100">-</span>
-                        <span data-i18n="countUnit" class="text-2xl font-semibold opacity-90">개</span>
+                <div class="bg-white/20 backdrop-blur-sm rounded-xl p-4 border border-white/30 shadow-lg hover:bg-white/25 transition-all">
+                    <div data-i18n="koreanServices" class="text-xs font-semibold opacity-90 uppercase tracking-wide mb-2">🇰🇷 한국 서비스</div>
+                    <div class="flex items-baseline gap-1.5">
+                        <span id="korean-models" class="text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-white to-blue-100">-</span>
+                        <span data-i18n="countUnit" class="text-xl font-semibold opacity-90">개</span>
                         <span id="korean-models-change" class="text-sm font-semibold ml-1"></span>
+                    </div>
+                </div>
+                <div class="bg-white/20 backdrop-blur-sm rounded-xl p-4 border border-white/30 shadow-lg hover:bg-white/25 transition-all">
+                    <div data-i18n="newModelsTitle" class="text-xs font-semibold opacity-90 uppercase tracking-wide mb-2">🆕 신규 진입 모델</div>
+                    <div id="new-entry-models" class="min-h-[60px]">
+                        <div class="animate-pulse space-y-1.5">
+                            <div class="h-3.5 bg-white/30 rounded w-3/4"></div>
+                            <div class="h-3.5 bg-white/30 rounded w-1/2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white/20 backdrop-blur-sm rounded-xl p-4 border border-white/30 shadow-lg hover:bg-white/25 transition-all">
+                    <div data-i18n="risingRankTitle" class="text-xs font-semibold opacity-90 uppercase tracking-wide mb-2">📈 순위 상승 모델</div>
+                    <div id="rising-rank-models" class="min-h-[60px]">
+                        <div class="animate-pulse space-y-1.5">
+                            <div class="h-3.5 bg-white/30 rounded w-3/4"></div>
+                            <div class="h-3.5 bg-white/30 rounded w-1/2"></div>
+                        </div>
                     </div>
                 </div>
             </div>
