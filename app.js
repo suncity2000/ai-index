@@ -1189,16 +1189,8 @@ function renderLLMContent() {
 // Helper function to generate model URL based on category
 function getModelUrl(category, item) {
     if (!item) return null;
-
-    // Check model-links.json mapping first (exact name match)
     const mapped = modelLinks.find(m => m.name === item.name);
-    if (mapped) return mapped.url;
-
-    // Fall back to Artificial Analysis URL using slug
-    if (item.slug) {
-        return `https://artificialanalysis.ai/models/${item.slug}`;
-    }
-    return null;
+    return mapped ? mapped.url : null;
 }
 
 // Render media content (Text-to-Image, etc.)
