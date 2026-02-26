@@ -37,8 +37,18 @@ jobs:
 
       - name: Clean old history (keep last 7 days)
         run: |
-          find data/history -name "*.json" -type f -mtime +7 -delete 2>/dev/null || true
-          echo "Cleaned old history files"
+          # Use filename-based date comparison instead of -mtime, which does not work in GitHub Actions
+          # because actions/checkout sets all file mtimes to the current checkout time.
+          CUTOFF=$(date -u -d "7 days ago" +"%Y-%m-%d")
+          for file in data/history/*.json; do
+            [ -f "$file" ] || continue
+            date_part=$(basename "$file" | cut -c1-10)
+            if [[ "$date_part" < "$CUTOFF" ]]; then
+              rm "$file"
+              echo "Deleted: $file"
+            fi
+          done
+          echo "Cleaned old history files (cutoff: ${CUTOFF})"
 
       - name: Fetch LLM data
         run: |
@@ -83,5 +93,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/*.json data/history/*.json
+          git add data/*.json
+          git add --all data/history/
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update AI data $(date -u +"%Y-%m-%d %H:%M UTC")" && git push origin master)

@@ -3,6 +3,7 @@ let currentCategory = 'llm';
 let currentFilter = 'overall';
 let allData = {};
 let yesterdayData = {};
+let historyAvailable = false;
 let rankingChanges = {};
 let modelCountChanges = {};
 let koreanCompanies = [];
@@ -575,29 +576,44 @@ async function loadData() {
 // Load yesterday's data and calculate ranking changes
 async function loadYesterdayDataAndCalculateChanges(cacheBust) {
     try {
-        // Calculate yesterday's date using UTC to match server-side history file naming
-        // (server uses `date -u -d "yesterday"` which is pure UTC)
         const now = new Date();
-        const yesterday = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() - 1));
-        const yesterdayStr = yesterday.toISOString().split('T')[0];
 
-        // Try to load yesterday's data from history
-        // Use the same hourly cacheBust as today's data to prevent stale 404 responses from persisting
-        const [llm, t2i, t2s, t2v, i2v] = await Promise.all([
-            fetch(`data/history/${yesterdayStr}-llms.json?v=${cacheBust}`).then(r => r.ok ? r.json() : null).catch(() => null),
-            fetch(`data/history/${yesterdayStr}-text-to-image.json?v=${cacheBust}`).then(r => r.ok ? r.json() : null).catch(() => null),
-            fetch(`data/history/${yesterdayStr}-text-to-speech.json?v=${cacheBust}`).then(r => r.ok ? r.json() : null).catch(() => null),
-            fetch(`data/history/${yesterdayStr}-text-to-video.json?v=${cacheBust}`).then(r => r.ok ? r.json() : null).catch(() => null),
-            fetch(`data/history/${yesterdayStr}-image-to-video.json?v=${cacheBust}`).then(r => r.ok ? r.json() : null).catch(() => null)
-        ]);
+        // Try to find the most recent available history file, up to 7 days back.
+        // This handles cases where the GitHub Action failed to run on a given day.
+        let historyFound = false;
+        for (let daysBack = 1; daysBack <= 7; daysBack++) {
+            const targetDate = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() - daysBack));
+            const dateStr = targetDate.toISOString().split('T')[0];
 
-        yesterdayData = {
-            llm: llm?.data || [],
-            'text-to-image': t2i?.data || [],
-            'text-to-speech': t2s?.data || [],
-            'text-to-video': t2v?.data || [],
-            'image-to-video': i2v?.data || []
-        };
+            const [llm, t2i, t2s, t2v, i2v] = await Promise.all([
+                fetch(`data/history/${dateStr}-llms.json?v=${cacheBust}`).then(r => r.ok ? r.json() : null).catch(() => null),
+                fetch(`data/history/${dateStr}-text-to-image.json?v=${cacheBust}`).then(r => r.ok ? r.json() : null).catch(() => null),
+                fetch(`data/history/${dateStr}-text-to-speech.json?v=${cacheBust}`).then(r => r.ok ? r.json() : null).catch(() => null),
+                fetch(`data/history/${dateStr}-text-to-video.json?v=${cacheBust}`).then(r => r.ok ? r.json() : null).catch(() => null),
+                fetch(`data/history/${dateStr}-image-to-video.json?v=${cacheBust}`).then(r => r.ok ? r.json() : null).catch(() => null)
+            ]);
+
+            // Use the first date where the main LLM data file is available
+            if (llm !== null) {
+                yesterdayData = {
+                    llm: llm?.data || [],
+                    'text-to-image': t2i?.data || [],
+                    'text-to-speech': t2s?.data || [],
+                    'text-to-video': t2v?.data || [],
+                    'image-to-video': i2v?.data || []
+                };
+                historyFound = true;
+                historyAvailable = true;
+                break;
+            }
+        }
+
+        if (!historyFound) {
+            // No history data available within the past 7 days.
+            // Mark historyAvailable = false to prevent false NEW badges for all items.
+            yesterdayData = { llm: [], 'text-to-image': [], 'text-to-speech': [], 'text-to-video': [], 'image-to-video': [] };
+            historyAvailable = false;
+        }
 
         // Calculate model count changes
         calculateModelCountChanges();
@@ -611,6 +627,7 @@ async function loadYesterdayDataAndCalculateChanges(cacheBust) {
         yesterdayData = {};
         rankingChanges = {};
         modelCountChanges = {};
+        historyAvailable = false;
     }
 }
 
@@ -705,7 +722,7 @@ function calculateRankingChanges() {
                     today: todayRank,
                     yesterday: null,
                     change: null,
-                    isNew: true
+                    isNew: historyAvailable // Only NEW if history was loaded but item wasn't in it
                 };
             }
         }
@@ -754,7 +771,7 @@ function calculateRankingChanges() {
                     today: todayRank,
                     yesterday: null,
                     change: null,
-                    isNew: true
+                    isNew: historyAvailable // Only NEW if history was loaded but item wasn't in it
                 };
             }
         }
