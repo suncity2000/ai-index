@@ -115,7 +115,7 @@ const translations = {
         // HuggingFace section
         hfTitle: '🔥 HuggingFace 인기 모델 TOP 5',
         hfViewAll: '전체 트렌드 보기 →',
-        hfDownloads: '다운로드',
+        hfDownloads: '좋아요',
         hfError: 'HuggingFace 데이터를 불러올 수 없습니다',
         hfRankSuffix: '위',
         // Score info modal titles
@@ -230,7 +230,7 @@ const translations = {
         // HuggingFace section
         hfTitle: '🔥 HuggingFace Top 5 Models',
         hfViewAll: 'View All Trends →',
-        hfDownloads: 'downloads',
+        hfDownloads: 'likes',
         hfError: 'Failed to load HuggingFace data',
         hfRankSuffix: '',
         // Score info modal titles
@@ -534,7 +534,7 @@ function toggleNewsExpand() {
 // ─────────────────────────────────────────────
 // HuggingFace Popular Models
 // ─────────────────────────────────────────────
-const HF_CACHE_KEY = 'hf_models_cache';
+const HF_CACHE_KEY = 'hf_models_cache_likes';
 const HF_CACHE_TTL = 24 * 60 * 60 * 1000; // 24 hours
 
 async function loadHuggingFaceModels() {
@@ -554,7 +554,7 @@ async function loadHuggingFaceModels() {
 
     // Fetch from HuggingFace API
     try {
-        const response = await fetch('https://huggingface.co/api/models?sort=downloads&limit=5');
+        const response = await fetch('https://huggingface.co/api/models?sort=likes&limit=5');
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const models = await response.json();
 
@@ -583,12 +583,12 @@ function renderHuggingFaceCards(models) {
     cardsContainer.innerHTML = models.map((model, index) => {
         const modelId = model.id || model.modelId || 'Unknown';
         const author = model.author || (modelId.includes('/') ? modelId.split('/')[0] : 'Unknown');
-        const downloads = model.downloads || 0;
-        const formattedDownloads = downloads >= 1000000
-            ? `${(downloads / 1000000).toFixed(1)}M`
-            : downloads >= 1000
-            ? `${(downloads / 1000).toFixed(1)}K`
-            : downloads.toLocaleString();
+        const likes = model.likes || 0;
+        const formattedLikes = likes >= 1000000
+            ? `${(likes / 1000000).toFixed(1)}M`
+            : likes >= 1000
+            ? `${(likes / 1000).toFixed(1)}K`
+            : likes.toLocaleString();
         const shortName = modelId.includes('/') ? modelId.split('/')[1] : modelId;
         const hfUrl = `https://huggingface.co/${modelId}`;
         const rankLabel = currentLang === 'ko' ? `${index + 1}위` : `#${index + 1}`;
@@ -605,8 +605,8 @@ function renderHuggingFaceCards(models) {
                 </h3>
                 <p class="text-xs text-gray-500 dark:text-gray-400 mb-2 truncate">${author}</p>
                 <div class="flex items-center gap-1 text-xs text-gray-600 dark:text-gray-300">
-                    <span>⬇️</span>
-                    <span class="font-semibold">${formattedDownloads}</span>
+                    <span>❤️</span>
+                    <span class="font-semibold">${formattedLikes}</span>
                     <span class="text-gray-400">${t('hfDownloads')}</span>
                 </div>
             </a>
