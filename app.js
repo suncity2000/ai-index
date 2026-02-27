@@ -112,6 +112,12 @@ const translations = {
         // Chart labels
         chartIntelligence: '지능 지수', chartCoding: '코딩',
         chartMath: '수학', chartSpeed: '속도', chartValue: '가성비',
+        // HuggingFace section
+        hfTitle: '🔥 HuggingFace 인기 모델 TOP 5',
+        hfViewAll: '전체 트렌드 보기 →',
+        hfDownloads: '다운로드',
+        hfError: 'HuggingFace 데이터를 불러올 수 없습니다',
+        hfRankSuffix: '위',
         // Score info modal titles
         scoreInfoTitle: {
             overall: '🧠 인공 분석 지능 지수란?',
@@ -221,6 +227,12 @@ const translations = {
         // Chart labels
         chartIntelligence: 'Intelligence', chartCoding: 'Coding',
         chartMath: 'Math', chartSpeed: 'Speed', chartValue: 'Value',
+        // HuggingFace section
+        hfTitle: '🔥 HuggingFace Top 5 Models',
+        hfViewAll: 'View All Trends →',
+        hfDownloads: 'downloads',
+        hfError: 'Failed to load HuggingFace data',
+        hfRankSuffix: '',
         // Score info modal titles
         scoreInfoTitle: {
             overall: '🧠 What is the AI Intelligence Index?',
@@ -277,6 +289,15 @@ function applyTranslations() {
         const newsUpdatedEl = document.getElementById('news-last-updated');
         if (newsUpdatedEl) newsUpdatedEl.textContent = t('newsUpdated', formattedNewsDate);
     }
+
+    // Re-render HuggingFace cards (rank label changes with language)
+    try {
+        const cached = localStorage.getItem(HF_CACHE_KEY);
+        if (cached) {
+            const { data } = JSON.parse(cached);
+            if (Array.isArray(data) && data.length > 0) renderHuggingFaceCards(data);
+        }
+    } catch (e) {}
 
     // Re-render dynamic content
     if (Object.keys(allData).length > 0) {
@@ -510,6 +531,92 @@ function toggleNewsExpand() {
     }
 }
 
+// ─────────────────────────────────────────────
+// HuggingFace Popular Models
+// ─────────────────────────────────────────────
+const HF_CACHE_KEY = 'hf_models_cache';
+const HF_CACHE_TTL = 24 * 60 * 60 * 1000; // 24 hours
+
+async function loadHuggingFaceModels() {
+    // Try loading from localStorage cache first
+    try {
+        const cached = localStorage.getItem(HF_CACHE_KEY);
+        if (cached) {
+            const { data, timestamp } = JSON.parse(cached);
+            if (Date.now() - timestamp < HF_CACHE_TTL && Array.isArray(data) && data.length > 0) {
+                renderHuggingFaceCards(data);
+                return;
+            }
+        }
+    } catch (e) {
+        // Cache read failed, proceed with fetch
+    }
+
+    // Fetch from HuggingFace API
+    try {
+        const response = await fetch('https://huggingface.co/api/models?sort=downloads&limit=5');
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const models = await response.json();
+
+        // Save to localStorage cache
+        try {
+            localStorage.setItem(HF_CACHE_KEY, JSON.stringify({ data: models, timestamp: Date.now() }));
+        } catch (e) { /* localStorage full, ignore */ }
+
+        renderHuggingFaceCards(models);
+    } catch (error) {
+        console.error('Error loading HuggingFace models:', error);
+        const skeleton = document.getElementById('hf-skeleton');
+        const errorEl = document.getElementById('hf-error');
+        if (skeleton) skeleton.classList.add('hidden');
+        if (errorEl) errorEl.classList.remove('hidden');
+    }
+}
+
+function renderHuggingFaceCards(models) {
+    const cardsContainer = document.getElementById('hf-cards');
+    const skeleton = document.getElementById('hf-skeleton');
+    if (!cardsContainer) return;
+
+    const medals = ['🥇', '🥈', '🥉', '4️⃣', '5️⃣'];
+
+    cardsContainer.innerHTML = models.map((model, index) => {
+        const modelId = model.id || model.modelId || 'Unknown';
+        const author = model.author || (modelId.includes('/') ? modelId.split('/')[0] : 'Unknown');
+        const downloads = model.downloads || 0;
+        const formattedDownloads = downloads >= 1000000
+            ? `${(downloads / 1000000).toFixed(1)}M`
+            : downloads >= 1000
+            ? `${(downloads / 1000).toFixed(1)}K`
+            : downloads.toLocaleString();
+        const shortName = modelId.includes('/') ? modelId.split('/')[1] : modelId;
+        const hfUrl = `https://huggingface.co/${modelId}`;
+        const rankLabel = currentLang === 'ko' ? `${index + 1}위` : `#${index + 1}`;
+
+        return `
+            <a href="${hfUrl}" target="_blank" rel="noopener noreferrer"
+               class="block bg-gradient-to-br from-orange-50 to-yellow-50 dark:from-gray-700 dark:to-gray-800 rounded-lg p-4 hover:shadow-lg transition-all border border-orange-100 dark:border-gray-600 group h-full hover-lift">
+                <div class="flex items-center gap-2 mb-2">
+                    <span class="text-xl">${medals[index]}</span>
+                    <span class="text-xs px-2 py-0.5 rounded-full bg-orange-500 text-white font-medium">${rankLabel}</span>
+                </div>
+                <h3 class="text-sm font-bold text-gray-900 dark:text-gray-100 line-clamp-2 group-hover:text-orange-600 dark:group-hover:text-orange-400 transition-colors mb-1" title="${modelId}">
+                    ${shortName}
+                </h3>
+                <p class="text-xs text-gray-500 dark:text-gray-400 mb-2 truncate">${author}</p>
+                <div class="flex items-center gap-1 text-xs text-gray-600 dark:text-gray-300">
+                    <span>⬇️</span>
+                    <span class="font-semibold">${formattedDownloads}</span>
+                    <span class="text-gray-400">${t('hfDownloads')}</span>
+                </div>
+            </a>
+        `;
+    }).join('');
+
+    if (skeleton) skeleton.classList.add('hidden');
+    cardsContainer.classList.remove('hidden');
+}
+
 // Load all data
 async function loadData() {
     try {
@@ -526,6 +633,9 @@ async function loadData() {
 
         // Load AI news
         loadNews();
+
+        // Load HuggingFace popular models
+        loadHuggingFaceModels();
 
         // Load all API data
         const [llm, t2i, t2s, t2v, i2v, lastUpdated] = await Promise.all([
