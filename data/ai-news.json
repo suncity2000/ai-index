@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-02-27T09:39:08.461Z",
+  "last_updated": "2026-02-28T09:24:21.585Z",
   "news": [
+    {
+      "title": "中 당국 관계자, 다카이치 수상 비방 여론 공작 ChatGPT에 조언 요구한 것으로 밝혀져",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1xS0dob29YQ3E1d2VHZHVDa3ZLVl9JZ1FZUk9hd2JhU09oazl3djMtc1djRDdMMGJqR1lEY2d6UVdVU0pfdDlja3IwTzJSSVZwQ1BlbjhhNkpmT1RTNzdrZjF3?oc=5",
+      "source": "nhk.or.jp",
+      "date": "Sat, 28 Feb 2026 03:53:25 GMT"
+    },
+    {
+      "title": "모두를 위해 AI를 대규모로 확장하기",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5TY3hxcmQzdS0tem5JdXhTeUFlNGxOQXp5UlA3dkFmVVllQnE4RjZYR1NldzdKemFMSVp4R1V4TGpjNVd6WW5kTDVGQWRBT05xR3dSYnp0S1ZCUDgtRWlwQjg2d195dw?oc=5",
+      "source": "OpenAI",
+      "date": "Fri, 27 Feb 2026 20:17:21 GMT"
+    },
     {
       "title": "시험 부정 등 대학의 인공지능 부작용 막을 지침 만든다",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5LeTJjRXRxd3MzLXZBYU1ZdGE5NTVheklOd3FYWkRYTWNzYkdJcGo2TGpTNDRZT3ZKX0VXbE9xRmFDUkhabDE2NkV1VDJ5VmppXzBRS04yb1d5UHQyN2pNSVlzay1BRXhzU2NIQWF0c9IBb0FVX3lxTE5LeTJjRXRxd3MzLXZBYU1ZdGE5NTVheklOd3FYWkRYTWNzYkdJcGo2TGpTNDRZT3ZKX0VXbE9xRmFDUkhabDE2NkV1VDJ5VmppXzBRS04yb1d5UHQyN2pNSVlzay1BRXhzU2NIQWF0cw?oc=5",
@@ -14,10 +26,28 @@
       "date": "Fri, 27 Feb 2026 04:29:40 GMT"
     },
     {
+      "title": "세계를 휩쓰는 '인공지능(AI)발 감원' 충격 - 한국무역협회",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9seGZFUUFmMkdZY1RuaHk4YmNKcnB4M0dNazlnWEsxMVg1Y2dJNzBhamhPX3Q4UUNjQ0tMUWgyZnplX01JMlpnV0x6QmlqMEhJUy1LYXpFT2JaRjRiR2F6VUlabXE2blFPY1lTVW42TkpiLWN3UTRzcDBYWkg3bUE?oc=5",
+      "source": "KITA.NET",
+      "date": "Fri, 27 Feb 2026 03:41:49 GMT"
+    },
+    {
+      "title": "생성형 AI 일상화된 日…학교 넘어 기업 인력 재배치까지",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBCM2JBZmE2TmhITXVJUWVGVzRVaFY4REFJUnZ2MGthdjNZdHJqWE5QdGlaNFFnN0tSOFh6bmMxWWhiY2NURWFSeHpIX3FDS2JY?oc=5",
+      "source": "문화일보",
+      "date": "Fri, 27 Feb 2026 03:22:14 GMT"
+    },
+    {
       "title": "생성형 AI에 속마음 털어놓는 청년들…문제는 없을까?",
       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9JQkZSZmI0TVltYzNodDgwRXc2VjlFQ3VJY2lYZ09MN0ExQWVSSEttak50TlhtaUdQcWloTHlHUC1IQWthd3c?oc=5",
       "source": "v.daum.net",
       "date": "Fri, 27 Feb 2026 02:10:10 GMT"
+    },
+    {
+      "title": "오픈AI \"中, 챗GPT 이용해 일본 총리 음해하려 공작\"",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1YZERBRzRncEwxZm0welhNWTg0OC0wTVVFTnlRcGdQZlVhajFXZXFRWkIybTNHT0xWLVFtV08xZk10TXdfVTNCX0ZXcktCeHVibmwyelQ0QTZIRVZMTS02NEc1NUg3WTFUTk5HU1U0SmVCdzl3M1RHVnNVVXJ0UdIBYEFVX3lxTE1QV29fLU80YlFkSXEzVW1IVm5PN3JUbWU4d3ZLRXRiLS1yVjhRMlVDVG4zMXE0eENtaDRkcFoyaXM2VWcycjVJNWtFTGJELTRmMGltMExOSGpqY2kxNHcwcA?oc=5",
+      "source": "연합뉴스",
+      "date": "Thu, 26 Feb 2026 21:01:04 GMT"
     },
     {
       "title": "경남교육청, 인공지능(AI)·디지털 활용 연구·선도학교 오리엔테이션",
@@ -42,36 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91LVVPNm5HLVA2c1VQWk5kSXR0VG1UNEFzeTZwUjQ3TXRoWTBoNnpESXE2M1VVWWxDeDQzNkxXUzlqUU5zVWI0REpuc0NmeE5JdnVWTGlLRV9qamM5VGJ2Z1ozS21vY2M?oc=5",
       "source": "인공지능신문",
       "date": "Thu, 26 Feb 2026 04:12:25 GMT"
-    },
-    {
-      "title": "“대한민국 의사 절반이 의료 인공지능(AI) 사용 경험 있다”",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ha1BSRVJUVmZETlBWWTFsRGxMTTRSYVBWMF91WDVuLVowdVltYWtMdHo2Y1NwMW9xeUdKdlZHeGFWZUUtSDFKbjFPVjBWQmViNm5UQndaa0p1Sk9nTHZhYnRPM2JaMllEb2I4dmZ3?oc=5",
-      "source": "메드월드뉴스",
-      "date": "Thu, 26 Feb 2026 01:03:55 GMT"
-    },
-    {
-      "title": "세종시교육청, 전 교직원 대상 인공지능(AI)·데이터 역량강화 추진",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBmTnZ4MGp4d2hFa01mMnhHUnRpYWtGazFfYnZOWG5mZktkS25RTnFqT3ozakZzdFA2Q2tFYU9fVnZWNmlKaUpsVHVaSHdUdTQ?oc=5",
-      "source": "v.daum.net",
-      "date": "Wed, 25 Feb 2026 07:15:57 GMT"
-    },
-    {
-      "title": "정부, 'AI 행동계획' 확정…2028년까지 AI 3강 도약 청사진",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfdXVMRWk2bkRfelYwR1hiYlVDZVBnd0pYcmdfMjRmNXRQQU9MVGQ0TWNObURZVllFU1p0TTBDdGNqWFlQenRVendLNUpqLXpjS182eEtn?oc=5",
-      "source": "지디넷코리아",
-      "date": "Wed, 25 Feb 2026 01:00:04 GMT"
-    },
-    {
-      "title": "울산형 AI 대전환 93개 사업에 1조 투입",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5XY2pKV3MxWTVpTk9CaEszdTgwcnowZDJBSG5rSjJOdnY4ZndMQi1mZzNnVlhjb2E2STNDdHF0UnJXZURtY1EwN3l2akFLeWYwQUh2X0FKSXdwM2tyUGNYcU5ielYtREZya2trbzA1UzRRQdIBckFVX3lxTE5XY2pKV3MxWTVpTk9CaEszdTgwcnowZDJBSG5rSjJOdnY4ZndMQi1mZzNnVlhjb2E2STNDdHF0UnJXZURtY1EwN3l2akFLeWYwQUh2X0FKSXdwM2tyUGNYcU5ielYtREZya2trbzA1UzRRQQ?oc=5",
-      "source": "울산신문",
-      "date": "Tue, 24 Feb 2026 11:32:59 GMT"
-    },
-    {
-      "title": "교직원들이 만든 ‘업무용 인공지능(AI)’, 병원 환경 바꾸다",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9iSVpCRW1PUEV1WlU3V2VmaE1kS1AteWljVUpKaVRGTm1XNTU4cU9ZR3BqbDB2dUFCVzVmQ1llLTktOWpTT0llRDc2R2hjTDZIaXlXZWozajQzcF9SV1BOb1Y3dFRnaXRfM0E?oc=5",
-      "source": "헬스경향",
-      "date": "Tue, 24 Feb 2026 11:25:00 GMT"
     }
   ]
 }
