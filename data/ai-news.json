@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-02-28T09:24:21.585Z",
+  "last_updated": "2026-03-01T09:27:58.394Z",
   "news": [
+    {
+      "title": "경북도 방산 인공지능(AI) 전문인력 집중 양성",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZdGhMcXMtX282Q3NrQTQ0UlM1SXBUbEVfclRsekh1NXlzVEFoQmVYNTktMV9NaDJFemwyS2F1NHJsZXJMTS1VdXRwRjhfTzFxUW4wbHpUZGZoZw?oc=5",
+      "source": "경북매일",
+      "date": "Sun, 01 Mar 2026 04:14:00 GMT"
+    },
+    {
+      "title": "대화형 AI에 광고가 붙기 시작했다… 챗GPT, 브랜드 노출 본격 확대",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlUkg5bE5GSXNQUS1famI2Sy1UQkZWVXdLbklOaDBjU3ZRWDdXM1BpR0pMbGxkV3FBS3BreW9RRU9yOVFyWlZCM0pyby11ZFpfX1pkUDFQWFNPVXU5NFBMTnRZNzA1c0JvZTh3Tg?oc=5",
+      "source": "매드타임스",
+      "date": "Sat, 28 Feb 2026 15:00:00 GMT"
+    },
     {
       "title": "中 당국 관계자, 다카이치 수상 비방 여론 공작 ChatGPT에 조언 요구한 것으로 밝혀져",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1xS0dob29YQ3E1d2VHZHVDa3ZLVl9JZ1FZUk9hd2JhU09oazl3djMtc1djRDdMMGJqR1lEY2d6UVdVU0pfdDlja3IwTzJSSVZwQ1BlbjhhNkpmT1RTNzdrZjF3?oc=5",
@@ -8,10 +20,22 @@
       "date": "Sat, 28 Feb 2026 03:53:25 GMT"
     },
     {
-      "title": "모두를 위해 AI를 대규모로 확장하기",
+      "title": "OpenAI와 Microsoft 공동 성명",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5YS1NVY0FVWXB6ZVdtdW5Fc2tJTjYxS3p6ZzNuVGN5QUtzZkQyVl9wbDZvY3BSYmU2Y3d3WGJJbVFWaUFhM0RRc3ozTm9ydGpqajYzV01raVp3YV8yLW9ad1NsdWtTWjZOV1Y5R0txS2VCdw?oc=5",
+      "source": "OpenAI",
+      "date": "Fri, 27 Feb 2026 21:07:31 GMT"
+    },
+    {
+      "title": "모두를 위한 AI 확장",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5TY3hxcmQzdS0tem5JdXhTeUFlNGxOQXp5UlA3dkFmVVllQnE4RjZYR1NldzdKemFMSVp4R1V4TGpjNVd6WW5kTDVGQWRBT05xR3dSYnp0S1ZCUDgtRWlwQjg2d195dw?oc=5",
       "source": "OpenAI",
       "date": "Fri, 27 Feb 2026 20:17:21 GMT"
+    },
+    {
+      "title": "교육부, 2026년 대학 인공지능(AI) 기본교육과정 개발 지원사업 선정 공고",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4tRnVQQjI0cFlvb2xhUk9FXzNFUlJDZEFFSHVmVUFkZTdGS1BqNnFUMVVmTU5VZXVvRGUtOG1UWUNOZldIdGFvVUlWelRqZ2hqZmRiMGtiaUZKVHZ0c3FmQTBWWQ?oc=5",
+      "source": "대한민국교육신문",
+      "date": "Fri, 27 Feb 2026 15:04:45 GMT"
     },
     {
       "title": "시험 부정 등 대학의 인공지능 부작용 막을 지침 만든다",
@@ -26,12 +50,6 @@
       "date": "Fri, 27 Feb 2026 04:29:40 GMT"
     },
     {
-      "title": "세계를 휩쓰는 '인공지능(AI)발 감원' 충격 - 한국무역협회",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9seGZFUUFmMkdZY1RuaHk4YmNKcnB4M0dNazlnWEsxMVg1Y2dJNzBhamhPX3Q4UUNjQ0tMUWgyZnplX01JMlpnV0x6QmlqMEhJUy1LYXpFT2JaRjRiR2F6VUlabXE2blFPY1lTVW42TkpiLWN3UTRzcDBYWkg3bUE?oc=5",
-      "source": "KITA.NET",
-      "date": "Fri, 27 Feb 2026 03:41:49 GMT"
-    },
-    {
       "title": "생성형 AI 일상화된 日…학교 넘어 기업 인력 재배치까지",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBCM2JBZmE2TmhITXVJUWVGVzRVaFY4REFJUnZ2MGthdjNZdHJqWE5QdGlaNFFnN0tSOFh6bmMxWWhiY2NURWFSeHpIX3FDS2JY?oc=5",
       "source": "문화일보",
@@ -44,34 +62,16 @@
       "date": "Fri, 27 Feb 2026 02:10:10 GMT"
     },
     {
-      "title": "오픈AI \"中, 챗GPT 이용해 일본 총리 음해하려 공작\"",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1YZERBRzRncEwxZm0welhNWTg0OC0wTVVFTnlRcGdQZlVhajFXZXFRWkIybTNHT0xWLVFtV08xZk10TXdfVTNCX0ZXcktCeHVibmwyelQ0QTZIRVZMTS02NEc1NUg3WTFUTk5HU1U0SmVCdzl3M1RHVnNVVXJ0UdIBYEFVX3lxTE1QV29fLU80YlFkSXEzVW1IVm5PN3JUbWU4d3ZLRXRiLS1yVjhRMlVDVG4zMXE0eENtaDRkcFoyaXM2VWcycjVJNWtFTGJELTRmMGltMExOSGpqY2kxNHcwcA?oc=5",
-      "source": "연합뉴스",
-      "date": "Thu, 26 Feb 2026 21:01:04 GMT"
-    },
-    {
       "title": "경남교육청, 인공지능(AI)·디지털 활용 연구·선도학교 오리엔테이션",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9SZGkxUDN5X3dDWHZPd1RDWkxfcURCeDBwYk5DQ2xveWZ5aHBiWldpUEZNQmRXdEdpLWdKazFCVGJFV1NKcWpOaTJTX3BMd2tuMzVWWDNBaXdzTk5oV2dKMmIzMk40UV81eVcxZW9QUS1MTzVwSFU40gF3QVVfeXFMT1JkaTFQM3lfd0NYdk93VENaTF9xREJ4MHBiTkNDbG95ZnlocGJaV2lQRk1CZFd0R2ktZ0prMUJUYkVXU0pxak5pMlNfcEx3a24zNVZYM0Fpd3NOTmhXZ0oyYjMyTjRRXzV5VzFlb1BRLUxPNXBIVTg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1wVkZwLUtKQ3BibUVOem5VYUQwamdsU2lKbElCRmJ3TkpmQS1BV290SDVmQ3pHMXZYQVlHbVZVbm0wWUItZHZDQmt3bkdDX2NoMDNUcjJVc0JtRVE0VThJN29jcElTMnNiT3F6VVN6NGFBZDDSAXdBVV95cUxPUmRpMVAzeV93Q1h2T3dUQ1pMX3FEQngwcGJOQ0Nsb3lmeWhwYlpXaVBGTUJkV3RHaS1nSmsxQlRiRVdTSnFqTmkyU19wTHdrbjM1VlgzQWl3c05OaFdnSjJiMzJONFFfNXlXMWVvUFEtTE81cEhVOA?oc=5",
       "source": "스트레이트뉴스",
-      "date": "Thu, 26 Feb 2026 11:21:14 GMT"
+      "date": "Thu, 26 Feb 2026 11:13:42 GMT"
     },
     {
-      "title": "문서뷰어",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9UQU1uN0pMSzZFcVNlWlVGcmZYa0VOVXFxdnZZbk5nbEZuSzA2YTNiLWgxamd2NWNUZ2h6cEpwZWluTTBsd1JHMVBMV1J5WmdvVnRoM2RFM3RsQmYxc0RZWDd1TEdPTmQzWDdzMUI4NWZ5RExQaWFn?oc=5",
-      "source": "대한민국 정책브리핑",
-      "date": "Thu, 26 Feb 2026 06:30:00 GMT"
-    },
-    {
-      "title": "의사 2명 중 1명 AI 활용 경험...\"법적 리스크는 부담\"",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBUM3dYcENiUHJ6bElscE1MRGpnLVNZM3dpYkZBNG9LY0VraVhsbTdYc3JRRjhEdl82RWd5TC12QzdrcFJqMS1LX2JzdFBEV3ZtbHpZSnppaDIzYVNxb1FKcnpFR2ROM1RKelljSFpXaXIzdw?oc=5",
-      "source": "의협신문",
-      "date": "Thu, 26 Feb 2026 05:32:30 GMT"
-    },
-    {
-      "title": "생성형 AI 학습 ‘공정이용’ 기준 첫 제시, 공정이용 안내서 발간… 정부, 저작권 불확실성 해소 나섰다",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91LVVPNm5HLVA2c1VQWk5kSXR0VG1UNEFzeTZwUjQ3TXRoWTBoNnpESXE2M1VVWWxDeDQzNkxXUzlqUU5zVWI0REpuc0NmeE5JdnVWTGlLRV9qamM5VGJ2Z1ozS21vY2M?oc=5",
-      "source": "인공지능신문",
-      "date": "Thu, 26 Feb 2026 04:12:25 GMT"
+      "title": "“총장님이 인공지능으로 등장”… 대학 졸업식에도 ‘AI’ 열풍",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9iTU9fVWg5OUFNVktvYlNtRFVUZDlzTWx2VWlRN2NmOG1fTk5jZE01djVGQUtkZUVDN2pnTHFzNTd2NFppTk1WcnQ2NXVzamNxS25sQ2FYQWJxT1Y1TmVvUlFzNVN1Zw?oc=5",
+      "source": "한국대학신문",
+      "date": "Thu, 26 Feb 2026 07:57:22 GMT"
     }
   ]
 }
