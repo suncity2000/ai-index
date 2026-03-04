@@ -14,6 +14,8 @@ let comparisonChart = null;
 // Pricing data
 let pricingData = null;
 let manualPricingData = null;
+let pricingSortField = 'input'; // default: sort by input price
+let pricingSortDir = 'asc';     // 'asc' | 'desc'
 
 // Language state
 let currentLang = localStorage.getItem('lang') || 'ko';
@@ -803,8 +805,32 @@ function renderSubscriptionPlans(plans, isKo) {
     }).join('');
 }
 
+function sortPricingTable(field) {
+    if (pricingSortField === field) {
+        pricingSortDir = pricingSortDir === 'asc' ? 'desc' : 'asc';
+    } else {
+        pricingSortField = field;
+        pricingSortDir = 'asc';
+    }
+    renderContent();
+}
+
 function renderApiPricingTable(models, isKo) {
-    const rows = models.map((m, idx) => {
+    const sorted = [...models].sort((a, b) => {
+        let aVal, bVal;
+        switch (pricingSortField) {
+            case 'name':    aVal = (a.name || a.id).toLowerCase(); bVal = (b.name || b.id).toLowerCase(); break;
+            case 'input':   aVal = a.price_1m_input  ?? Infinity;  bVal = b.price_1m_input  ?? Infinity;  break;
+            case 'output':  aVal = a.price_1m_output ?? Infinity;  bVal = b.price_1m_output ?? Infinity;  break;
+            case 'context': aVal = a.context_length  ?? 0;         bVal = b.context_length  ?? 0;         break;
+            default:        return 0;
+        }
+        if (aVal < bVal) return pricingSortDir === 'asc' ? -1 : 1;
+        if (aVal > bVal) return pricingSortDir === 'asc' ? 1 : -1;
+        return 0;
+    });
+
+    const rows = sorted.map((m, idx) => {
         const inputPrice = m.price_1m_input !== null ? `$${m.price_1m_input.toFixed(2)}` : '-';
         const outputPrice = m.price_1m_output !== null ? `$${m.price_1m_output.toFixed(2)}` : '-';
         const provider = m.id.split('/')[0] || '';
@@ -824,15 +850,22 @@ function renderApiPricingTable(models, isKo) {
         </tr>`;
     }).join('');
 
+    const thBtn = (field, label, alignRight = false) => {
+        const active = pricingSortField === field;
+        const arrow = active ? (pricingSortDir === 'asc' ? ' ↑' : ' ↓') : ' ⇅';
+        return `<th class="px-4 py-3 ${alignRight ? 'text-right' : ''} cursor-pointer select-none hover:text-gray-700 dark:hover:text-gray-200 transition-colors ${active ? 'text-blue-600 dark:text-blue-400' : ''}"
+                    onclick="sortPricingTable('${field}')">${label}${arrow}</th>`;
+    };
+
     return `
     <table class="w-full text-left">
       <thead>
         <tr class="bg-gray-50 dark:bg-gray-700/50 text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide">
           <th class="px-4 py-3 w-10">#</th>
-          <th class="px-4 py-3">${isKo ? '모델' : 'Model'}</th>
-          <th class="px-4 py-3 text-right">${isKo ? '입력 ($/1M)' : 'Input ($/1M)'}</th>
-          <th class="px-4 py-3 text-right">${isKo ? '출력 ($/1M)' : 'Output ($/1M)'}</th>
-          <th class="px-4 py-3 text-right">${isKo ? '컨텍스트' : 'Context'}</th>
+          ${thBtn('name',    isKo ? '모델' : 'Model')}
+          ${thBtn('input',   isKo ? '입력 ($/1M)' : 'Input ($/1M)',  true)}
+          ${thBtn('output',  isKo ? '출력 ($/1M)' : 'Output ($/1M)', true)}
+          ${thBtn('context', isKo ? '컨텍스트' : 'Context',          true)}
         </tr>
       </thead>
       <tbody>${rows}</tbody>
