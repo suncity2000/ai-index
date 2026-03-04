@@ -11,6 +11,10 @@ let modelLinks = [];
 let selectedForComparison = [];
 let comparisonChart = null;
 
+// Pricing data
+let pricingData = null;
+let manualPricingData = null;
+
 // Language state
 let currentLang = localStorage.getItem('lang') || 'ko';
 let lastUpdatedDateObj = null;
@@ -45,6 +49,7 @@ const translations = {
         countUnit: '개',
         // Category / filter tabs
         catKorean: '🇰🇷 한국 서비스',
+        catPricing: '💰 AI 가격',
         filterOverall: '🏆 종합순위',
         filterCoding: '💻 코딩',
         filterMath: '🔢 수학',
@@ -160,6 +165,7 @@ const translations = {
         countUnit: '',
         // Category / filter tabs
         catKorean: '🇰🇷 Korean Services',
+        catPricing: '💰 AI Pricing',
         filterOverall: '🏆 Overall',
         filterCoding: '💻 Coding',
         filterMath: '🔢 Math',
@@ -637,6 +643,9 @@ async function loadData() {
         // Load HuggingFace popular models
         loadHuggingFaceModels();
 
+        // Load pricing data (non-blocking)
+        loadPricingData(cacheBust);
+
         // Load all API data
         const [llm, t2i, t2s, t2v, i2v, lastUpdated] = await Promise.all([
             fetch(`data/llms.json?v=${cacheBust}`).then(r => r.json()).catch(() => null),
@@ -681,6 +690,153 @@ async function loadData() {
             </div>
         `;
     }
+}
+
+// Load pricing data (non-blocking: runs in background after main data loads)
+async function loadPricingData(cacheBust) {
+    const [pricesRes, manualRes] = await Promise.all([
+        fetch(`data/prices.json?v=${cacheBust}`).catch(() => null),
+        fetch(`data/prices-manual.json?v=${cacheBust}`).catch(() => null)
+    ]);
+    if (pricesRes?.ok) pricingData = await pricesRes.json();
+    if (manualRes?.ok) manualPricingData = await manualRes.json();
+
+    // If pricing tab is currently active, refresh the view
+    if (currentCategory === 'pricing') renderContent();
+}
+
+// ─────────────────────────────────────────────
+// Pricing Content Rendering
+// ─────────────────────────────────────────────
+function renderPricingContent() {
+    const isKo = currentLang === 'ko';
+
+    const plansHtml = manualPricingData?.plans?.length
+        ? renderSubscriptionPlans(manualPricingData.plans, isKo)
+        : `<div class="text-gray-500 dark:text-gray-400 text-sm py-4">${isKo ? '구독 플랜 데이터를 불러오는 중...' : 'Loading subscription plans...'}</div>`;
+
+    const apiHtml = pricingData?.models?.length
+        ? renderApiPricingTable(pricingData.models, isKo)
+        : `<div class="text-gray-500 dark:text-gray-400 text-sm py-4">${isKo ? 'API 가격 데이터를 불러오는 중... (첫 실행 후 자동 생성됩니다)' : 'Loading API pricing... (auto-generated after first run)'}</div>`;
+
+    const lastUpdated = pricingData?.last_updated
+        ? new Date(pricingData.last_updated).toLocaleDateString(isKo ? 'ko-KR' : 'en-US')
+        : '';
+
+    return `
+    <div class="p-4 md:p-6 space-y-8">
+
+      <!-- Subscription Plans Section -->
+      <div>
+        <div class="flex items-center justify-between mb-4">
+          <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100">
+            ${isKo ? '💳 AI 구독 플랜 비교' : '💳 AI Subscription Plans'}
+          </h2>
+          <span class="text-xs text-gray-400 dark:text-gray-500">
+            ${isKo ? '* 가격은 USD 기준이며 변동될 수 있습니다' : '* Prices in USD, subject to change'}
+          </span>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          ${plansHtml}
+        </div>
+      </div>
+
+      <!-- API Pricing Section -->
+      <div>
+        <div class="flex items-center justify-between mb-4">
+          <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100">
+            ${isKo ? '⚡ API 가격 비교 (1M 토큰 기준)' : '⚡ API Pricing (per 1M tokens)'}
+          </h2>
+          ${lastUpdated ? `<span class="text-xs text-gray-400 dark:text-gray-500">${isKo ? '업데이트' : 'Updated'}: ${lastUpdated}</span>` : ''}
+        </div>
+        <div class="text-xs text-gray-500 dark:text-gray-400 mb-3">
+          ${isKo
+            ? '출처: OpenRouter API · 가격은 USD 기준이며 공급자 설정에 따라 달라질 수 있습니다.'
+            : 'Source: OpenRouter API · Prices in USD and may vary by provider settings.'}
+        </div>
+        <div class="overflow-x-auto rounded-xl border border-gray-200 dark:border-gray-700">
+          ${apiHtml}
+        </div>
+      </div>
+
+    </div>`;
+}
+
+function renderSubscriptionPlans(plans, isKo) {
+    return plans.map(plan => {
+        const features = plan.features.slice(0, 4).map(f =>
+            `<li class="flex items-start gap-1.5"><span class="text-green-500 mt-0.5">✓</span><span>${f}</span></li>`
+        ).join('');
+
+        const yearlyMonthly = plan.price_yearly ? (plan.price_yearly / 12).toFixed(2) : null;
+
+        return `
+        <div class="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-5 flex flex-col hover:shadow-md transition-shadow">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="w-10 h-10 rounded-lg flex items-center justify-center text-white font-bold text-sm flex-shrink-0"
+                 style="background-color: ${plan.provider_color || '#6B7280'}">
+              ${plan.provider.charAt(0)}
+            </div>
+            <div>
+              <div class="font-semibold text-gray-900 dark:text-gray-100 text-sm">${plan.name}</div>
+              <div class="text-xs text-gray-500 dark:text-gray-400">${plan.provider}</div>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <span class="text-2xl font-bold text-gray-900 dark:text-gray-100">$${plan.price_monthly}</span>
+            <span class="text-gray-500 dark:text-gray-400 text-sm">/${isKo ? '월' : 'mo'}</span>
+            ${yearlyMonthly ? `<div class="text-xs text-gray-400 dark:text-gray-500">${isKo ? '연간 결제 시' : 'Billed yearly'} $${yearlyMonthly}/${isKo ? '월' : 'mo'}</div>` : ''}
+          </div>
+
+          <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-1.5 mb-4 flex-1">
+            ${features}
+          </ul>
+
+          ${plan.limits ? `<div class="text-xs text-gray-400 dark:text-gray-500 bg-gray-50 dark:bg-gray-700/50 rounded-lg px-3 py-2 mb-3">${plan.limits}</div>` : ''}
+
+          <a href="${plan.url}" target="_blank" rel="noopener noreferrer"
+             class="text-center text-xs font-medium text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors">
+            ${isKo ? '자세히 보기 →' : 'Learn more →'}
+          </a>
+        </div>`;
+    }).join('');
+}
+
+function renderApiPricingTable(models, isKo) {
+    const rows = models.map((m, idx) => {
+        const inputPrice = m.price_1m_input !== null ? `$${m.price_1m_input.toFixed(2)}` : '-';
+        const outputPrice = m.price_1m_output !== null ? `$${m.price_1m_output.toFixed(2)}` : '-';
+        const provider = m.id.split('/')[0] || '';
+
+        return `
+        <tr class="border-t border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/30 transition-colors">
+          <td class="px-4 py-3 text-sm text-gray-500 dark:text-gray-400">${idx + 1}</td>
+          <td class="px-4 py-3">
+            <div class="text-sm font-medium text-gray-900 dark:text-gray-100">${m.name || m.id}</div>
+            <div class="text-xs text-gray-400 dark:text-gray-500">${provider}</div>
+          </td>
+          <td class="px-4 py-3 text-sm font-mono text-right text-gray-800 dark:text-gray-200">${inputPrice}</td>
+          <td class="px-4 py-3 text-sm font-mono text-right text-gray-800 dark:text-gray-200">${outputPrice}</td>
+          <td class="px-4 py-3 text-sm text-right text-gray-500 dark:text-gray-400">
+            ${m.context_length ? (m.context_length >= 1000 ? `${(m.context_length/1000).toFixed(0)}K` : m.context_length) : '-'}
+          </td>
+        </tr>`;
+    }).join('');
+
+    return `
+    <table class="w-full text-left">
+      <thead>
+        <tr class="bg-gray-50 dark:bg-gray-700/50 text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide">
+          <th class="px-4 py-3 w-10">#</th>
+          <th class="px-4 py-3">${isKo ? '모델' : 'Model'}</th>
+          <th class="px-4 py-3 text-right">${isKo ? '입력 ($/1M)' : 'Input ($/1M)'}</th>
+          <th class="px-4 py-3 text-right">${isKo ? '출력 ($/1M)' : 'Output ($/1M)'}</th>
+          <th class="px-4 py-3 text-right">${isKo ? '컨텍스트' : 'Context'}</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>`;
 }
 
 // Load yesterday's data and calculate ranking changes
@@ -1150,6 +1306,8 @@ function renderContent() {
         contentDiv.innerHTML = renderLLMContent();
     } else if (currentCategory === 'korean') {
         contentDiv.innerHTML = renderKoreanServicesContent();
+    } else if (currentCategory === 'pricing') {
+        contentDiv.innerHTML = renderPricingContent();
     } else {
         contentDiv.innerHTML = renderMediaContent();
     }
