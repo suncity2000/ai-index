@@ -1,0 +1,121 @@
+{
+  "last_updated": "2026-03-04",
+  "note": "구독 플랜 가격은 수동으로 관리됩니다. 가격 변경 시 이 파일을 직접 수정하세요.",
+  "plans": [
+    {
+      "id": "chatgpt-plus",
+      "name": "ChatGPT Plus",
+      "provider": "OpenAI",
+      "provider_color": "#10A37F",
+      "price_monthly": 20,
+      "price_yearly": 240,
+      "currency": "USD",
+      "models_included": ["GPT-4o", "GPT-4o mini", "o1", "o3-mini", "DALL-E 3"],
+      "features": [
+        "GPT-4o 우선 접근",
+        "고급 데이터 분석",
+        "파일 및 이미지 업로드",
+        "웹 검색",
+        "커스텀 GPT 사용",
+        "DALL-E 이미지 생성"
+      ],
+      "limits": "GPT-4o 80 메시지/3시간",
+      "url": "https://openai.com/chatgpt/pricing"
+    },
+    {
+      "id": "claude-pro",
+      "name": "Claude Pro",
+      "provider": "Anthropic",
+      "provider_color": "#D97706",
+      "price_monthly": 20,
+      "price_yearly": 240,
+      "currency": "USD",
+      "models_included": ["Claude 3.7 Sonnet", "Claude 3.5 Haiku", "Claude 3 Opus"],
+      "features": [
+        "Claude 3.7 Sonnet 우선 접근",
+        "5배 더 많은 사용량",
+        "프로젝트 기능",
+        "파일 업로드 (PDF, 문서 등)",
+        "최신 모델 우선 접근"
+      ],
+      "limits": "일반 사용자 대비 5배",
+      "url": "https://www.anthropic.com/claude/pricing"
+    },
+    {
+      "id": "gemini-advanced",
+      "name": "Google One AI Premium",
+      "provider": "Google",
+      "provider_color": "#4285F4",
+      "price_monthly": 21.99,
+      "price_yearly": 263.88,
+      "currency": "USD",
+      "models_included": ["Gemini 2.0 Flash", "Gemini 1.5 Pro", "Gemini 1.5 Flash"],
+      "features": [
+        "Gemini Advanced (1.5 Pro) 접근",
+        "Google Workspace 연동",
+        "2TB Google 드라이브",
+        "Gemini in Gmail, Docs, Sheets",
+        "NotebookLM Plus"
+      ],
+      "limits": "월 1,500 이미지 생성",
+      "url": "https://one.google.com/about/plans"
+    },
+    {
+      "id": "copilot-pro",
+      "name": "Microsoft Copilot Pro",
+      "provider": "Microsoft",
+      "provider_color": "#0078D4",
+      "price_monthly": 20,
+      "price_yearly": 240,
+      "currency": "USD",
+      "models_included": ["GPT-4o", "GPT-4 Turbo", "o1"],
+      "features": [
+        "Microsoft 365 앱 AI 기능",
+        "Word, Excel, PowerPoint Copilot",
+        "Bing 고급 검색",
+        "이미지 생성 (DALL-E 3) 우선",
+        "GPT-4 Turbo 우선 접근"
+      ],
+      "limits": "Boosts 100개/일 (이미지 생성)",
+      "url": "https://www.microsoft.com/en-us/store/b/copilotpro"
+    },
+    {
+      "id": "perplexity-pro",
+      "name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "provider_color": "#20B2AA",
+      "price_monthly": 20,
+      "price_yearly": 200,
+      "currency": "USD",
+      "models_included": ["Claude 3.7 Sonnet", "GPT-4o", "Sonar Large"],
+      "features": [
+        "무제한 Pro 검색",
+        "GPT-4o, Claude 3.7 선택",
+        "파일 업로드 분석",
+        "고급 이미지 생성",
+        "API 크레딧 $5/월"
+      ],
+      "limits": "Pro 검색 무제한",
+      "url": "https://www.perplexity.ai/pro"
+    },
+    {
+      "id": "grok-premium",
+      "name": "X Premium+",
+      "provider": "xAI / X",
+      "provider_color": "#1DA1F2",
+      "price_monthly": 40,
+      "price_yearly": 480,
+      "currency": "USD",
+      "models_included": ["Grok-3", "Grok-2"],
+      "features": [
+        "Grok-3 접근",
+        "Grok Aurora 이미지 생성",
+        "X Premium 모든 기능",
+        "긴 형식 게시물",
+        "광고 수익 분배"
+      ],
+      "limits": "Grok 25 메시지/2시간",
+      "url": "https://x.com/i/premium_sign_up"
+    }
+  ]
+}

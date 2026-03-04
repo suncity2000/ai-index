@@ -1,0 +1,42 @@
+name: Update AI Prices
+
+on:
+  schedule:
+    # 매일 오전 11시 (KST) = UTC 02:00 — fetch-data.yml (00:15 UTC) 이후 실행
+    - cron: '0 2 * * *'
+  workflow_dispatch: # 수동 실행 가능
+
+permissions:
+  contents: write
+
+jobs:
+  update-prices:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Install dependencies
+      run: |
+        cd scripts
+        npm install
+
+    - name: Fetch AI prices
+      run: |
+        cd scripts
+        node fetch-prices.js
+
+    - name: Commit and push if changed
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add data/prices.json
+        git diff --quiet && git diff --staged --quiet || (git commit -m "💰 Update AI prices - $(date +'%Y-%m-%d')" && git push origin master)

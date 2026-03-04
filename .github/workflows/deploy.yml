@@ -6,7 +6,7 @@ on:
       - master
   workflow_dispatch:
   workflow_run:
-    workflows: ["Fetch AI Data", "Update AI News"]
+    workflows: ["Fetch AI Data", "Update AI News", "Update AI Prices"]
     types:
       - completed
 
