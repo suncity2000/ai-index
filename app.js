@@ -1317,7 +1317,11 @@ function renderLLMContent() {
 function getModelUrl(category, item) {
     if (!item) return null;
     const mapped = modelLinks.find(m => m.name === item.name);
-    return mapped ? mapped.url : null;
+    if (mapped) return mapped.url;
+    if (category === 'llm' && item.slug) {
+        return `https://artificialanalysis.ai/models/${item.slug}`;
+    }
+    return null;
 }
 
 // Render media content (Text-to-Image, etc.)
