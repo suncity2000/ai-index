@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-03-04T09:38:28.180Z",
+  "last_updated": "2026-03-05T09:40:16.227Z",
   "news": [
+    {
+      "title": "울산시, 청년에 생성형 AI 구독료 연 최대 10만원 지원",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1PblNhckM1NGRDRGRxb2JHdnFpanhCX2FJZEd0Z0d5RHF6c3B3b055eWNCN25Kak51dGNnRGE0bDExMlNtVXZ3OF9ab29NVm8wNDlhb1RLQVNSMmx3MU9QWNIBYEFVX3lxTE1PblNhckM1NGRDRGRxb2JHdnFpanhCX2FJZEd0Z0d5RHF6c3B3b055eWNCN25Kak51dGNnRGE0bDExMlNtVXZ3OF9ab29NVm8wNDlhb1RLQVNSMmx3MU9QWA?oc=5",
+      "source": "연합뉴스",
+      "date": "Thu, 05 Mar 2026 07:09:56 GMT"
+    },
+    {
+      "title": "생성AI, 개인정보 처리 7개 산업 중 최하위권",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SMUxaYm1LenNXeTRsNmNyNUJOa2c0bmtMWk8taElMa0luMEhYYnNreWFsd0VIT29DXzlUNDcxUVpTRmhnRVVOeERINE9yM0hCX0VGX25n?oc=5",
+      "source": "지디넷코리아",
+      "date": "Wed, 04 Mar 2026 11:29:49 GMT"
+    },
     {
       "title": "생성형 AI서비스 개인정보 처리 어떻게?...개인정보위 간담회",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9xLVZ0QzR5S3NseU56Nk9IU0hSU1hqLWg3UW1FMUV3MVM0eWNWSkRrSk42bTNSbGxTNVFGNGlQN1JLMzBwMVhqYTI2QVdlZGVwUFYySlJxaXFyQllfcXYxYXFzZWoxMXBXNENJTnh3TjJKWEk?oc=5",
@@ -8,10 +20,22 @@
       "date": "Wed, 04 Mar 2026 07:30:00 GMT"
     },
     {
-      "title": "[AI 뉴스] 챗GPT ‘Instant 5.3’으로 업데이트…AI 모델 구조가 바뀌기 시작했다",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBRcHVTLVdWVV9NUDByNVZ5dmQtcVdxZ3RlWmVxZ3hJU19tUnltSWh5SUdaRnh0d0gyb2RzRlhXUWZtdlFTWVlNU2NZVGp1WExiUnk4VmxfLThGR0tqUElHRUx2T0FDekNHcVBvQjZwRWZRUQ?oc=5",
-      "source": "아웃소싱타임스",
-      "date": "Wed, 04 Mar 2026 00:43:02 GMT"
+      "title": "충남교육청, ‘생성형 인공지능(AI) 활용 맞춤형 자료’개발 ‧보급",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE84OVdZLW5IZGlvTS1zMzBpNUdickJtSUxXSmxNSkV6ek5YbHJ5S0RUX0RENkJKYndJZ1dJQjJjV0RYUEMzTnV0eWR2V3RGNWM?oc=5",
+      "source": "v.daum.net",
+      "date": "Wed, 04 Mar 2026 02:49:09 GMT"
+    },
+    {
+      "title": "\"더 매끄럽고 일상 대화에 더 유용해진 AI 모델\"...오픈AI, 'GPT-5.3 인스턴트' 공개",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84TTA3Y0ZzaHltUGxhNU1IcFB2VTI3VXd1LUxSZmFEUUxoREpVTzFsQmVMQUhLUE02Qm9SU1ozOV9fck9ybjZTaEcydDQ2TlVmZ210UUhIdEFoXzlnUEtscjJQTUVkalE?oc=5",
+      "source": "인공지능신문",
+      "date": "Wed, 04 Mar 2026 01:31:23 GMT"
+    },
+    {
+      "title": "오픈AI, 'GPT‑5.3 인스턴트'로 챗GPT 업데이트...\"GPT-5.4 곧 출시\"",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE94QzRDTlFlZEFycG4xZHY4Zk5zbGsyQnlZUFdNTFFEUWpodWF1MnlOOVJEdGRLSEpOaVU5X2RQQjZIWHctVUdSZVhKZXRTMkg4UGNfNnJrLTlIR0ZnbjFiZ0VpZGNpc19lSEE?oc=5",
+      "source": "AI타임스",
+      "date": "Tue, 03 Mar 2026 23:51:05 GMT"
     },
     {
       "title": "ChatGPT에 대한 불매운동 물결이 거세지고 있으며, 수백만 명의 사용자가 OpenAI를 떠나고 있습니다.",
@@ -22,14 +46,14 @@
     {
       "title": "[수요논단] 인공지능(AI) 시대의 인재 양성과 평생교육 생태계 구축",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5neGZjMjlWdnkwcVhMVkpucmRIajVkbzdKZGU4RzVfNGdkaG9odkM5cmZOb1FjbUhabHJMNmFDWEVZUEM3VmR2NjlvT3AxaGxSQ3hlQUM3U3VuTkF1RWk5VC1TNHpwdw?oc=5",
-      "source": "한국대학신문",
+      "source": "411개 대학을 연결하는 '힘'",
       "date": "Tue, 03 Mar 2026 23:45:00 GMT"
     },
     {
-      "title": "[칼럼] 인공지능(AI) 행정혁신, 이제는 선택이 아닌 필수다",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9wTWRnOXU3c2dDdXYyR25nemFHOWJDNVluSXhMd3N4cHdGTWlhRmE2LTZDZTdkZVlmdEo2bWJtdVROUVZvcXc?oc=5",
-      "source": "케이에스피뉴스",
-      "date": "Tue, 03 Mar 2026 22:18:00 GMT"
+      "title": "[사설] 지방선거 처음 적용되는 인공지능(AI) 적용해 보니...",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1keWdncm9ldzFlSDFHemcwd2lzTDRKRGhjX2EtNGRHLXJScDZMalFybVVDWDVFUGtNRDdNUGNBanpOVjFFM1pnUVpuQURZWEtBXzl0WWlKaXBrTmZYTC0wOGhuMTJ5S2dWb3BfZ0hkOA?oc=5",
+      "source": "중부일보",
+      "date": "Tue, 03 Mar 2026 10:01:00 GMT"
     },
     {
       "title": "[칼럼]‘한국형 인공지능(K-AI)’, 순우리말 이름을 붙이면...",
@@ -44,34 +68,10 @@
       "date": "Tue, 03 Mar 2026 00:02:31 GMT"
     },
     {
-      "title": "OpenAI의 선택과 Cancel ChatGPT 의미",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBRRmlvckRTb0FLTWxLN19nZllrbzl2a0pwdDBnbWY5VDNDQ3p5TG94ZW5aaWRpMVV1TFZhY1JKX0VKdVl4ZXdV?oc=5",
-      "source": "브런치",
-      "date": "Mon, 02 Mar 2026 09:45:19 GMT"
-    },
-    {
       "title": "경북도, 방산 인공지능(AI) 전문인력 집중 양성 본격 착수",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1oUy1HQUJmZjYyVHRWdTU2aGw4QnZlWlpyZ2J4YUV1UXJsbWxGUmJ6clRKTm1kSXVRR1E5VkVPdzJBZ2gwc1JaaHBHaXlSNW1rcVlpU3p4X1dGaW43dkItN0FUQVFTdw?oc=5",
       "source": "이로운넷",
       "date": "Mon, 02 Mar 2026 07:29:08 GMT"
-    },
-    {
-      "title": "[기획] 생성형 AI에 속마음 털어놓는 청년들…문제는 없을까?",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBoVVZOODRjQnFtZzdvQWlWOHhrUzYwYjhrM3VES2dFX0wxekcxc0E1ZVM3dDZIeWVUZnEtaDA0UFl5dVBFT3UyZnQzT2hxSTA?oc=5",
-      "source": "v.daum.net",
-      "date": "Mon, 02 Mar 2026 04:55:03 GMT"
-    },
-    {
-      "title": "경북도 방산 인공지능(AI) 전문인력 집중 양성",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZdGhMcXMtX282Q3NrQTQ0UlM1SXBUbEVfclRsekh1NXlzVEFoQmVYNTktMV9NaDJFemwyS2F1NHJsZXJMTS1VdXRwRjhfTzFxUW4wbHpUZGZoZw?oc=5",
-      "source": "경북매일",
-      "date": "Sun, 01 Mar 2026 04:14:00 GMT"
-    },
-    {
-      "title": "교육부, 2026년 대학 인공지능(AI) 기본교육과정 개발 지원사업 선정 공고",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4tRnVQQjI0cFlvb2xhUk9FXzNFUlJDZEFFSHVmVUFkZTdGS1BqNnFUMVVmTU5VZXVvRGUtOG1UWUNOZldIdGFvVUlWelRqZ2hqZmRiMGtiaUZKVHZ0c3FmQTBWWQ?oc=5",
-      "source": "대한민국교육신문",
-      "date": "Fri, 27 Feb 2026 15:04:45 GMT"
     }
   ]
 }
