@@ -9,4 +9,10 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://ainet.io.kr/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ainet.io.kr/"/>
   </url>
+  <url>
+    <loc>https://ainet.io.kr/privacy-policy.html</loc>
+    <lastmod>2026-03-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
