@@ -44,6 +44,10 @@ jobs:
           cp -r data _site/
           cp robots.txt _site/
           cp sitemap.xml _site/
+          cp ads.txt _site/
+          cp privacy-policy.html _site/
+          cp logo.png _site/
+          cp favicon.ico _site/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
