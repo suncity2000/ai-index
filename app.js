@@ -687,6 +687,11 @@ async function loadData() {
         document.getElementById('content').classList.remove('hidden');
         renderContent();
 
+        // Show ads only after content is loaded (AdSense policy compliance)
+        document.getElementById('ad-top').style.display = 'block';
+        document.getElementById('ad-middle').style.display = 'block';
+        document.getElementById('ad-bottom').style.display = 'block';
+
     } catch (error) {
         console.error('Error loading data:', error);
         document.getElementById('loading').innerHTML = `
