@@ -44,6 +44,10 @@ jobs:
           cp -r data _site/
           cp robots.txt _site/
           cp sitemap.xml _site/
+          cp ads.txt _site/
+          cp privacy-policy.html _site/
+          [ -f favicon.ico ] && cp favicon.ico _site/ || true
+          for img in *.png; do [ -f "$img" ] && cp "$img" _site/ || true; done
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
