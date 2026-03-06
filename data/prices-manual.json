@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04",
+  "last_updated": "2026-03-06",
   "note": "구독 플랜 가격은 수동으로 관리됩니다. 가격 변경 시 이 파일을 직접 수정하세요.",
   "plans": [
     {
@@ -10,7 +10,7 @@
       "price_monthly": 20,
       "price_yearly": 240,
       "currency": "USD",
-      "models_included": ["GPT-4o", "GPT-4o mini", "o1", "o3-mini", "DALL-E 3"],
+      "models_included": ["GPT-4o", "GPT-4o mini", "o1", "o3-mini", "o3", "DALL-E 3"],
       "features": [
         "GPT-4o 우선 접근",
         "고급 데이터 분석",
@@ -30,9 +30,9 @@
       "price_monthly": 20,
       "price_yearly": 240,
       "currency": "USD",
-      "models_included": ["Claude 3.7 Sonnet", "Claude 3.5 Haiku", "Claude 3 Opus"],
+      "models_included": ["Claude Sonnet 4.6", "Claude Haiku 4.5", "Claude Opus 4.6"],
       "features": [
-        "Claude 3.7 Sonnet 우선 접근",
+        "Claude Sonnet 4.6 우선 접근",
         "5배 더 많은 사용량",
         "프로젝트 기능",
         "파일 업로드 (PDF, 문서 등)",
@@ -49,9 +49,9 @@
       "price_monthly": 21.99,
       "price_yearly": 263.88,
       "currency": "USD",
-      "models_included": ["Gemini 2.0 Flash", "Gemini 1.5 Pro", "Gemini 1.5 Flash"],
+      "models_included": ["Gemini 2.0 Flash", "Gemini 2.0 Pro", "Gemini 2.0 Ultra"],
       "features": [
-        "Gemini Advanced (1.5 Pro) 접근",
+        "Gemini Advanced (2.0) 접근",
         "Google Workspace 연동",
         "2TB Google 드라이브",
         "Gemini in Gmail, Docs, Sheets",
@@ -68,13 +68,13 @@
       "price_monthly": 20,
       "price_yearly": 240,
       "currency": "USD",
-      "models_included": ["GPT-4o", "GPT-4 Turbo", "o1"],
+      "models_included": ["GPT-4o", "o1", "o3-mini"],
       "features": [
         "Microsoft 365 앱 AI 기능",
         "Word, Excel, PowerPoint Copilot",
         "Bing 고급 검색",
         "이미지 생성 (DALL-E 3) 우선",
-        "GPT-4 Turbo 우선 접근"
+        "GPT-4o 우선 접근"
       ],
       "limits": "Boosts 100개/일 (이미지 생성)",
       "url": "https://www.microsoft.com/en-us/store/b/copilotpro"
@@ -87,10 +87,10 @@
       "price_monthly": 20,
       "price_yearly": 200,
       "currency": "USD",
-      "models_included": ["Claude 3.7 Sonnet", "GPT-4o", "Sonar Large"],
+      "models_included": ["Claude Sonnet 4.6", "GPT-4o", "Sonar Large"],
       "features": [
         "무제한 Pro 검색",
-        "GPT-4o, Claude 3.7 선택",
+        "GPT-4o, Claude 최신 선택",
         "파일 업로드 분석",
         "고급 이미지 생성",
         "API 크레딧 $5/월"

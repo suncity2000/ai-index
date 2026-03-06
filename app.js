@@ -667,7 +667,11 @@ async function loadData() {
         };
 
         // Load yesterday's data and calculate changes
-        await loadYesterdayDataAndCalculateChanges(cacheBust);
+        // Pass the last-updated date as reference to avoid 404s for files not yet created
+        const refDate = (lastUpdated.last_updated && lastUpdated.last_updated !== 'N/A')
+            ? new Date(lastUpdated.last_updated)
+            : new Date();
+        await loadYesterdayDataAndCalculateChanges(cacheBust, refDate);
 
         // Update stats
         updateStats();
@@ -873,9 +877,10 @@ function renderApiPricingTable(models, isKo) {
 }
 
 // Load yesterday's data and calculate ranking changes
-async function loadYesterdayDataAndCalculateChanges(cacheBust) {
+// refDate: reference date from last-updated.json to avoid requesting non-existent history files
+async function loadYesterdayDataAndCalculateChanges(cacheBust, refDate) {
     try {
-        const now = new Date();
+        const now = refDate || new Date();
 
         // Try to find the most recent available history file, up to 7 days back.
         // This handles cases where the GitHub Action failed to run on a given day.

@@ -2,7 +2,8 @@ name: Update AI News
 
 on:
   schedule:
-    # 매일 오전 9시 (KST 18시 = UTC 9시)
+    # 매일 한국시간 오후 6시 (KST 18:00 = UTC 09:00)
+    # 하루 동안의 뉴스를 수집하기 위해 저녁에 실행
     - cron: '0 9 * * *'
   workflow_dispatch: # 수동 실행 가능
 
