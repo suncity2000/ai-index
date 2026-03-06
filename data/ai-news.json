@@ -1,11 +1,47 @@
 {
-  "last_updated": "2026-03-05T09:40:16.227Z",
+  "last_updated": "2026-03-06T09:36:14.026Z",
   "news": [
+    {
+      "title": "인공지능(AI) 혁신의 대장정 개막 ··· 관세청, '인공지능(AI) 관세행정 추진단' 출범",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYUpDTVNXbUhvUWlGSVEwaVBRUzlBb2wwcXlCa1hOZ01TdlR5N0gxbmRZR3hrOElKcm55Wk15X2VZZTRMYUJ0cUlMbmN3SjF1MVp3NXpubGprTEtNQnpZN2JlMnYwVEJ3MUpXbGUtQVp0X1h3WXhhNmRTTGRscjg4azc3bkJYMW55ZU5ESWlIZmZ5dw?oc=5",
+      "source": "대한민국 정책브리핑",
+      "date": "Fri, 06 Mar 2026 08:08:31 GMT"
+    },
+    {
+      "title": "공직자 대상 인공지능(AI) 역량 강화 특강",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA4VmlxUDQ1eTFzOVBPMHRKSjFBM3c3TUVnbF9pUmItUXRpcjUxMHZ5ZGxkZE9oeWNwMVdvZWNmbjh0dzNhcXE1NW9yRXpnSkJBbDQzb2VSLS1BYm45SEstVkE0N0phWWx0VGxF?oc=5",
+      "source": "새거제신문",
+      "date": "Fri, 06 Mar 2026 06:45:37 GMT"
+    },
+    {
+      "title": "스프레드시트·PPT까지 자동화…오픈AI ‘GPT-5.4’ 공개",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tWHZIZER5T0Y4Nk81RThDUXJZOTZTc3pJUFEzZFI0R3Jma19IR1pjSXd1ZTlLbXhZX0tXNjNoTDl6bTFyYVBMM25aQlFmalJSWGNGYWhKeHRxYV9PbHhENg?oc=5",
+      "source": "한겨레",
+      "date": "Fri, 06 Mar 2026 06:11:00 GMT"
+    },
+    {
+      "title": "KB자산운용, ‘생성형 AI 아나운서’운용업계 최초 도입",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9laGxrRE5tWk1BazBNcFJPeG4tajlvclJrYjU5eFppTS1lMUNReEVUOXlWSWlmQXhuNnlmcEdDaURRQzNSdXh6dE1GbjRZb3F5ZVJjV1pIMUtuVHdPN1dGXzBSRmJEbHI2SjNXQUVGN2VwQQ?oc=5",
+      "source": "인더스트리뉴스",
+      "date": "Fri, 06 Mar 2026 02:34:16 GMT"
+    },
+    {
+      "title": "[김정덕의 AI 시대 보안 패러다임-12] AI 시스템의 위험분석 방법, STPA",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tNmF5WFZmNWpJeWMyNHRoWi1GaXlxbEZON3FsdUdXdjNWaF9URndIdExCQW9maUR1ZHpVbGJzNlpxN21RSFBkZks5Y2RiVmdMa1VmY09uUW94UFFQTWNyZw?oc=5",
+      "source": "보안뉴스",
+      "date": "Thu, 05 Mar 2026 11:29:00 GMT"
+    },
     {
       "title": "울산시, 청년에 생성형 AI 구독료 연 최대 10만원 지원",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1PblNhckM1NGRDRGRxb2JHdnFpanhCX2FJZEd0Z0d5RHF6c3B3b055eWNCN25Kak51dGNnRGE0bDExMlNtVXZ3OF9ab29NVm8wNDlhb1RLQVNSMmx3MU9QWNIBYEFVX3lxTE1PblNhckM1NGRDRGRxb2JHdnFpanhCX2FJZEd0Z0d5RHF6c3B3b055eWNCN25Kak51dGNnRGE0bDExMlNtVXZ3OF9ab29NVm8wNDlhb1RLQVNSMmx3MU9QWA?oc=5",
       "source": "연합뉴스",
       "date": "Thu, 05 Mar 2026 07:09:56 GMT"
+    },
+    {
+      "title": "'인공지능(AI)+' 3년 연속 ‘정부업무보고’에 포함... 올해 처음 '스마트 경제의 신형태' 제안",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ZWUV3dFBxenl3VmJqc21Yb1drcFpVazBBdlgxT2k5UnpmUXhZX2g4SmVnNGMzSlJ1TU9OQ01sZmxUNzJ2Y3JZamVZN204OXIzTTBZVXBWQ3M3X2RYOFpJbDlpYw?oc=5",
+      "source": "国际在线",
+      "date": "Wed, 04 Mar 2026 17:58:48 GMT"
     },
     {
       "title": "생성AI, 개인정보 처리 7개 산업 중 최하위권",
@@ -26,52 +62,16 @@
       "date": "Wed, 04 Mar 2026 02:49:09 GMT"
     },
     {
+      "title": "한국기술교육대, 직업훈련 교·강사 인공지능(AI) 역량 강화",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GWHJBZG5WSDVHUkZyMGFpNVdCdnpzZFVHalAxcFlNXzVXZTlCdGIwRkxYMEZKeFF1VUIwNXZDTHNzMXFXZklLaU9IamlmRkJyNG93S19R?oc=5",
+      "source": "헤럴드경제",
+      "date": "Wed, 04 Mar 2026 02:09:52 GMT"
+    },
+    {
       "title": "\"더 매끄럽고 일상 대화에 더 유용해진 AI 모델\"...오픈AI, 'GPT-5.3 인스턴트' 공개",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84TTA3Y0ZzaHltUGxhNU1IcFB2VTI3VXd1LUxSZmFEUUxoREpVTzFsQmVMQUhLUE02Qm9SU1ozOV9fck9ybjZTaEcydDQ2TlVmZ210UUhIdEFoXzlnUEtscjJQTUVkalE?oc=5",
       "source": "인공지능신문",
       "date": "Wed, 04 Mar 2026 01:31:23 GMT"
-    },
-    {
-      "title": "오픈AI, 'GPT‑5.3 인스턴트'로 챗GPT 업데이트...\"GPT-5.4 곧 출시\"",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE94QzRDTlFlZEFycG4xZHY4Zk5zbGsyQnlZUFdNTFFEUWpodWF1MnlOOVJEdGRLSEpOaVU5X2RQQjZIWHctVUdSZVhKZXRTMkg4UGNfNnJrLTlIR0ZnbjFiZ0VpZGNpc19lSEE?oc=5",
-      "source": "AI타임스",
-      "date": "Tue, 03 Mar 2026 23:51:05 GMT"
-    },
-    {
-      "title": "ChatGPT에 대한 불매운동 물결이 거세지고 있으며, 수백만 명의 사용자가 OpenAI를 떠나고 있습니다.",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ01SY1RYRHcydlpWUEpWbkFGQm5xUzNPQW5DQVpwZGFWRDRjcGJqcnhFZlBEbUtvMkJsSTcwaXNFcERuSkZRMzNjbUJQWVZ6VU9oSzdPd2ZCTWNpaU95bl9wN3FXRFpQY1NGWFNyV3BTcUpkVHBiV1VRSGpsMlc0enh1bDVNTWw0ZnB0dE0xTUJxZ1owY0hEamhSaDc?oc=5",
-      "source": "Vietnam.vn",
-      "date": "Tue, 03 Mar 2026 23:45:32 GMT"
-    },
-    {
-      "title": "[수요논단] 인공지능(AI) 시대의 인재 양성과 평생교육 생태계 구축",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5neGZjMjlWdnkwcVhMVkpucmRIajVkbzdKZGU4RzVfNGdkaG9odkM5cmZOb1FjbUhabHJMNmFDWEVZUEM3VmR2NjlvT3AxaGxSQ3hlQUM3U3VuTkF1RWk5VC1TNHpwdw?oc=5",
-      "source": "411개 대학을 연결하는 '힘'",
-      "date": "Tue, 03 Mar 2026 23:45:00 GMT"
-    },
-    {
-      "title": "[사설] 지방선거 처음 적용되는 인공지능(AI) 적용해 보니...",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1keWdncm9ldzFlSDFHemcwd2lzTDRKRGhjX2EtNGRHLXJScDZMalFybVVDWDVFUGtNRDdNUGNBanpOVjFFM1pnUVpuQURZWEtBXzl0WWlKaXBrTmZYTC0wOGhuMTJ5S2dWb3BfZ0hkOA?oc=5",
-      "source": "중부일보",
-      "date": "Tue, 03 Mar 2026 10:01:00 GMT"
-    },
-    {
-      "title": "[칼럼]‘한국형 인공지능(K-AI)’, 순우리말 이름을 붙이면...",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9FVGY3a2M0N0tOMkxPVFMwUFFKb1JzQW5LeU9mSE56TG5UTGhEYlBtQ3hDMHBBemdONHFJMU93ODBIZ1B2X0YxckNZWjNtU2NiRWU3amZSUFM0d2dPT2RTeEE1VDNYbDN5X0RQaw?oc=5",
-      "source": "재외동포신문",
-      "date": "Tue, 03 Mar 2026 05:49:55 GMT"
-    },
-    {
-      "title": "GPT-5.3 Instant: 더 자연스럽고 유용한 일상 대화",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FZklPQUM1MjF4UGdmY19URmx2OVZoaXJEWmFOVGg2MUdjUUw2Ql9hNzktc0xMNExGa1NnMEN0ZlZfRW9TNUlIR1Ytb0VLNkVqbTFJQXM5MlR6czg?oc=5",
-      "source": "OpenAI",
-      "date": "Tue, 03 Mar 2026 00:02:31 GMT"
-    },
-    {
-      "title": "경북도, 방산 인공지능(AI) 전문인력 집중 양성 본격 착수",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1oUy1HQUJmZjYyVHRWdTU2aGw4QnZlWlpyZ2J4YUV1UXJsbWxGUmJ6clRKTm1kSXVRR1E5VkVPdzJBZ2gwc1JaaHBHaXlSNW1rcVlpU3p4X1dGaW43dkItN0FUQVFTdw?oc=5",
-      "source": "이로운넷",
-      "date": "Mon, 02 Mar 2026 07:29:08 GMT"
     }
   ]
 }
