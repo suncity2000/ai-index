@@ -1,11 +1,23 @@
 {
-  "last_updated": "2026-03-06T09:36:14.026Z",
+  "last_updated": "2026-03-07T09:26:54.287Z",
   "news": [
+    {
+      "title": "수원특례시, 피지컬 인공지능(AI) 산업 활성화 협약체결",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xWVVFQXVkLVJUQmZBTEFlc0VMZy1Xc19PamVmVHhfZkdhcFRvaG1pMnNVR25sbTQyd0RsYml5WXFuNW82TkpGd2ZwZFBFSk1NeERiZGFYR3A2Y0xBYnhtNXZxYlVWYnMwWFlDVw?oc=5",
+      "source": "중도일보",
+      "date": "Fri, 06 Mar 2026 09:53:54 GMT"
+    },
     {
       "title": "인공지능(AI) 혁신의 대장정 개막 ··· 관세청, '인공지능(AI) 관세행정 추진단' 출범",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYUpDTVNXbUhvUWlGSVEwaVBRUzlBb2wwcXlCa1hOZ01TdlR5N0gxbmRZR3hrOElKcm55Wk15X2VZZTRMYUJ0cUlMbmN3SjF1MVp3NXpubGprTEtNQnpZN2JlMnYwVEJ3MUpXbGUtQVp0X1h3WXhhNmRTTGRscjg4azc3bkJYMW55ZU5ESWlIZmZ5dw?oc=5",
       "source": "대한민국 정책브리핑",
       "date": "Fri, 06 Mar 2026 08:08:31 GMT"
+    },
+    {
+      "title": "한국인공지능협회, 서강대 RISE 사업단과 AI 생태계 조성 및 핵심 인재 양성",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uV19RRzhNWGdQakVET1NnaDhFeS1TOUprYmtRQUxIUlpPbXNza000Z3NwaVZ5clljbDFMMmk1dnhIekFHdzNkZTQ5ZGUyYWxGNmtRb1hVN09WMXIyTUthUjJ3MU5rYkE?oc=5",
+      "source": "인공지능신문",
+      "date": "Fri, 06 Mar 2026 07:34:44 GMT"
     },
     {
       "title": "공직자 대상 인공지능(AI) 역량 강화 특강",
@@ -20,16 +32,22 @@
       "date": "Fri, 06 Mar 2026 06:11:00 GMT"
     },
     {
-      "title": "KB자산운용, ‘생성형 AI 아나운서’운용업계 최초 도입",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9laGxrRE5tWk1BazBNcFJPeG4tajlvclJrYjU5eFppTS1lMUNReEVUOXlWSWlmQXhuNnlmcEdDaURRQzNSdXh6dE1GbjRZb3F5ZVJjV1pIMUtuVHdPN1dGXzBSRmJEbHI2SjNXQUVGN2VwQQ?oc=5",
-      "source": "인더스트리뉴스",
-      "date": "Fri, 06 Mar 2026 02:34:16 GMT"
+      "title": "“생성형 AI 유료 이용자가 이용시간 1.7배·업무 활용 2배 많다”",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5BSUw4aENjcE5jRkh4S3dZeG9GaWsyMk85cDlPb014eTVwV1pjbXNSOWFrRl96SlRwQmtLVTY5a3FxS05ZZWR2aldWMjB2STF4QzRUM2tkbUdOUzFRRlhiaDhNNFQ4WjVDUXVaMw?oc=5",
+      "source": "로봇신문",
+      "date": "Fri, 06 Mar 2026 05:29:32 GMT"
     },
     {
-      "title": "[김정덕의 AI 시대 보안 패러다임-12] AI 시스템의 위험분석 방법, STPA",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tNmF5WFZmNWpJeWMyNHRoWi1GaXlxbEZON3FsdUdXdjNWaF9URndIdExCQW9maUR1ZHpVbGJzNlpxN21RSFBkZks5Y2RiVmdMa1VmY09uUW94UFFQTWNyZw?oc=5",
-      "source": "보안뉴스",
-      "date": "Thu, 05 Mar 2026 11:29:00 GMT"
+      "title": "“이제 AI는 도구가 아니다, ‘AI 직원’ 시대 서막”… 오픈AI, 차세대 AI 모델 ‘GPT-5.4’ 공개",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4OXp4VmxGckpWcVNYUjBXanhQamtzSjBvcFpmLVIzR2FQY0FrTEFVZFVDbVUtTzFzWjRTZUhqRjFKa0d2cUtOMXVBSWVPQ210dnRpYzlOajlUdWNnZ2EyMG5iVkhuVUE?oc=5",
+      "source": "인공지능신문",
+      "date": "Fri, 06 Mar 2026 00:16:24 GMT"
+    },
+    {
+      "title": "부평구립 부개도서관, 생성형 인공지능(AI) 활용 교육...나도 이제 AI작가 교육 수강생 모집",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5WZkxnZEQ5elo0WTRGX21yVHpYUHlmYktvaVdEN0N1NThMU3E3M1lUWENEZGNENWpJdnBFU2NQa1FVeXVqX25CbUpqZzVXUEREdnNzRVBtNW4wa3AtOHEyTnJ2NFpGZUdBZTBOazNR0gFuQVVfeXFMTlZmTGdkRDl6WjRZNEZfbXJUelhQeWZiS29pV0Q3Q3U1OExTcTczWVRYQ0RkY0Q1akl2cEVTY1BrUVV5dWpfbkJtSmpnNVdQRER2c3NFUG01bjBrcC04cTJOcnY0WkZlR0FlME5rM1E?oc=5",
+      "source": "일간투데이",
+      "date": "Thu, 05 Mar 2026 14:41:57 GMT"
     },
     {
       "title": "울산시, 청년에 생성형 AI 구독료 연 최대 10만원 지원",
@@ -38,40 +56,22 @@
       "date": "Thu, 05 Mar 2026 07:09:56 GMT"
     },
     {
+      "title": "[수요논단] 인공지능(AI) 시대의 인재 양성과 평생교육 생태계 구축",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5neGZjMjlWdnkwcVhMVkpucmRIajVkbzdKZGU4RzVfNGdkaG9odkM5cmZOb1FjbUhabHJMNmFDWEVZUEM3VmR2NjlvT3AxaGxSQ3hlQUM3U3VuTkF1RWk5VC1TNHpwdw?oc=5",
+      "source": "한국대학신문",
+      "date": "Wed, 04 Mar 2026 22:51:00 GMT"
+    },
+    {
+      "title": "GPT-5.4를 소개합니다",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5pVFJudEpXa0E2TVFHUklhTjJ5RlNZV3FIWWpqazZCM0FYeVVWWFp6aHpCRVU4a2RQVFNDUGdYQlNPTE1BWmNXWW15TXZ5cXQtbGxqdnlOVHdBaHMxMEUtMA?oc=5",
+      "source": "OpenAI",
+      "date": "Wed, 04 Mar 2026 20:26:11 GMT"
+    },
+    {
       "title": "'인공지능(AI)+' 3년 연속 ‘정부업무보고’에 포함... 올해 처음 '스마트 경제의 신형태' 제안",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ZWUV3dFBxenl3VmJqc21Yb1drcFpVazBBdlgxT2k5UnpmUXhZX2g4SmVnNGMzSlJ1TU9OQ01sZmxUNzJ2Y3JZamVZN204OXIzTTBZVXBWQ3M3X2RYOFpJbDlpYw?oc=5",
       "source": "国际在线",
       "date": "Wed, 04 Mar 2026 17:58:48 GMT"
-    },
-    {
-      "title": "생성AI, 개인정보 처리 7개 산업 중 최하위권",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SMUxaYm1LenNXeTRsNmNyNUJOa2c0bmtMWk8taElMa0luMEhYYnNreWFsd0VIT29DXzlUNDcxUVpTRmhnRVVOeERINE9yM0hCX0VGX25n?oc=5",
-      "source": "지디넷코리아",
-      "date": "Wed, 04 Mar 2026 11:29:49 GMT"
-    },
-    {
-      "title": "생성형 AI서비스 개인정보 처리 어떻게?...개인정보위 간담회",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9xLVZ0QzR5S3NseU56Nk9IU0hSU1hqLWg3UW1FMUV3MVM0eWNWSkRrSk42bTNSbGxTNVFGNGlQN1JLMzBwMVhqYTI2QVdlZGVwUFYySlJxaXFyQllfcXYxYXFzZWoxMXBXNENJTnh3TjJKWEk?oc=5",
-      "source": "디지털투데이",
-      "date": "Wed, 04 Mar 2026 07:30:00 GMT"
-    },
-    {
-      "title": "충남교육청, ‘생성형 인공지능(AI) 활용 맞춤형 자료’개발 ‧보급",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE84OVdZLW5IZGlvTS1zMzBpNUdickJtSUxXSmxNSkV6ek5YbHJ5S0RUX0RENkJKYndJZ1dJQjJjV0RYUEMzTnV0eWR2V3RGNWM?oc=5",
-      "source": "v.daum.net",
-      "date": "Wed, 04 Mar 2026 02:49:09 GMT"
-    },
-    {
-      "title": "한국기술교육대, 직업훈련 교·강사 인공지능(AI) 역량 강화",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GWHJBZG5WSDVHUkZyMGFpNVdCdnpzZFVHalAxcFlNXzVXZTlCdGIwRkxYMEZKeFF1VUIwNXZDTHNzMXFXZklLaU9IamlmRkJyNG93S19R?oc=5",
-      "source": "헤럴드경제",
-      "date": "Wed, 04 Mar 2026 02:09:52 GMT"
-    },
-    {
-      "title": "\"더 매끄럽고 일상 대화에 더 유용해진 AI 모델\"...오픈AI, 'GPT-5.3 인스턴트' 공개",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84TTA3Y0ZzaHltUGxhNU1IcFB2VTI3VXd1LUxSZmFEUUxoREpVTzFsQmVMQUhLUE02Qm9SU1ozOV9fck9ybjZTaEcydDQ2TlVmZ210UUhIdEFoXzlnUEtscjJQTUVkalE?oc=5",
-      "source": "인공지능신문",
-      "date": "Wed, 04 Mar 2026 01:31:23 GMT"
     }
   ]
 }
