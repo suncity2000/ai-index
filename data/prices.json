@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-06T04:14:27.820Z",
+  "last_updated": "2026-03-07T04:05:42.467Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -1328,6 +1328,14 @@
       "price_1m_input": 0.1,
       "price_1m_output": 0.42,
       "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+      "price_1m_input": 0.11,
+      "price_1m_output": 0.6,
+      "context_length": 262144,
       "top_provider": true
     },
     {
