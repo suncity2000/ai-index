@@ -1,29 +1,41 @@
 {
-  "last_updated": "2026-03-07T09:26:54.287Z",
+  "last_updated": "2026-03-08T09:27:42.623Z",
   "news": [
     {
-      "title": "수원특례시, 피지컬 인공지능(AI) 산업 활성화 협약체결",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xWVVFQXVkLVJUQmZBTEFlc0VMZy1Xc19PamVmVHhfZkdhcFRvaG1pMnNVR25sbTQyd0RsYml5WXFuNW82TkpGd2ZwZFBFSk1NeERiZGFYR3A2Y0xBYnhtNXZxYlVWYnMwWFlDVw?oc=5",
-      "source": "중도일보",
-      "date": "Fri, 06 Mar 2026 09:53:54 GMT"
+      "title": "[릴리즈 노트] AI가 직접 컴퓨터 조작, 오픈AI GPT-5.4 출시",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBoRWpiU01qb0FtXzNDNGZUMTNQeU9DY2E5OV9BaDNGRExtMWtlRzZfeFZJVm9FempGeXk3dnJQYTVQOXd4RmxCTFhlWmNGWm90SUVyRm1GbUZvZw?oc=5",
+      "source": "요즘IT",
+      "date": "Sun, 08 Mar 2026 09:26:19 GMT"
+    },
+    {
+      "title": "경북도, 인공지능(AI)·전략산업 중점대학 5개교 중점 육성... 600억 원 투입",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aZDRVN3Y4T1lIVFNGbUo2TFRyMllFajd6ZXpJa2laX3REZHlkNGVWUlJNUkotd05yTzRveEN5VVRILU1ST0tZdExGSUhQb3M5VndYTmdEWFJUa21tV294TnQ5OUh5QQ?oc=5",
+      "source": "이로운넷",
+      "date": "Sun, 08 Mar 2026 06:19:55 GMT"
+    },
+    {
+      "title": "[알파고 쇼크 10년] 한국 AI기업 수 4년 만에 2.7배 증가",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9OVUNoUk1ON3lDc3p5cy02aUx0ME5DSk9Xb24yNlRTY3VZNFF0eTQ4OE1aT1NwODdFSzZ4aEMzZGtrUkhQX3hiX2Eza2JQUQ?oc=5",
+      "source": "전자신문",
+      "date": "Sun, 08 Mar 2026 03:00:00 GMT"
+    },
+    {
+      "title": "\"생성형 AI, 법적 리스크 어디까지?\"... 일본 딥러닝협회 기업 대응 가이드 제시",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAwNlllUkpHVjdUVlVyY200WERhVEhWcy1sR0dva01uci1wMzlxLWZsNlNvbDNPUG5QeHR1dFdPejczOU1SNXpkbw?oc=5",
+      "source": "특허뉴스",
+      "date": "Sat, 07 Mar 2026 10:58:00 GMT"
+    },
+    {
+      "title": "\"AI 시장 질서 바로잡는다\"... 중국, 인공지능 부정경쟁 사례 공개",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wODYyaG1LbGRNektILVplLU5hQ0JtSFFrRlJ6OE9sbEtTX2c3R0xBMjF1YjVhcnpIdm5BZUlac3JuajVNMHNhcA?oc=5",
+      "source": "특허뉴스",
+      "date": "Sat, 07 Mar 2026 10:26:00 GMT"
     },
     {
       "title": "인공지능(AI) 혁신의 대장정 개막 ··· 관세청, '인공지능(AI) 관세행정 추진단' 출범",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYUpDTVNXbUhvUWlGSVEwaVBRUzlBb2wwcXlCa1hOZ01TdlR5N0gxbmRZR3hrOElKcm55Wk15X2VZZTRMYUJ0cUlMbmN3SjF1MVp3NXpubGprTEtNQnpZN2JlMnYwVEJ3MUpXbGUtQVp0X1h3WXhhNmRTTGRscjg4azc3bkJYMW55ZU5ESWlIZmZ5dw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZE1IR0M4WGVJQXU0QUhUSkZ0TVJLVU03M3gxRnRzS1FsZzRtcEFIU0doU2RuZksxZHZlTV9kRjRmWGhPYWozNGZmR2RzQXBNNk56WDRSbVE4RG56dTBuMzJVdU9XVGp4Q0JncXNUYmEtV3BaeVdzdjU1N0k3bmd5Z1dFZXRRT1daaHU5MQ?oc=5",
       "source": "대한민국 정책브리핑",
       "date": "Fri, 06 Mar 2026 08:08:31 GMT"
-    },
-    {
-      "title": "한국인공지능협회, 서강대 RISE 사업단과 AI 생태계 조성 및 핵심 인재 양성",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uV19RRzhNWGdQakVET1NnaDhFeS1TOUprYmtRQUxIUlpPbXNza000Z3NwaVZ5clljbDFMMmk1dnhIekFHdzNkZTQ5ZGUyYWxGNmtRb1hVN09WMXIyTUthUjJ3MU5rYkE?oc=5",
-      "source": "인공지능신문",
-      "date": "Fri, 06 Mar 2026 07:34:44 GMT"
-    },
-    {
-      "title": "공직자 대상 인공지능(AI) 역량 강화 특강",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA4VmlxUDQ1eTFzOVBPMHRKSjFBM3c3TUVnbF9pUmItUXRpcjUxMHZ5ZGxkZE9oeWNwMVdvZWNmbjh0dzNhcXE1NW9yRXpnSkJBbDQzb2VSLS1BYm45SEstVkE0N0phWWx0VGxF?oc=5",
-      "source": "새거제신문",
-      "date": "Fri, 06 Mar 2026 06:45:37 GMT"
     },
     {
       "title": "스프레드시트·PPT까지 자동화…오픈AI ‘GPT-5.4’ 공개",
@@ -44,16 +56,10 @@
       "date": "Fri, 06 Mar 2026 00:16:24 GMT"
     },
     {
-      "title": "부평구립 부개도서관, 생성형 인공지능(AI) 활용 교육...나도 이제 AI작가 교육 수강생 모집",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5WZkxnZEQ5elo0WTRGX21yVHpYUHlmYktvaVdEN0N1NThMU3E3M1lUWENEZGNENWpJdnBFU2NQa1FVeXVqX25CbUpqZzVXUEREdnNzRVBtNW4wa3AtOHEyTnJ2NFpGZUdBZTBOazNR0gFuQVVfeXFMTlZmTGdkRDl6WjRZNEZfbXJUelhQeWZiS29pV0Q3Q3U1OExTcTczWVRYQ0RkY0Q1akl2cEVTY1BrUVV5dWpfbkJtSmpnNVdQRER2c3NFUG01bjBrcC04cTJOcnY0WkZlR0FlME5rM1E?oc=5",
-      "source": "일간투데이",
-      "date": "Thu, 05 Mar 2026 14:41:57 GMT"
-    },
-    {
-      "title": "울산시, 청년에 생성형 AI 구독료 연 최대 10만원 지원",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1PblNhckM1NGRDRGRxb2JHdnFpanhCX2FJZEd0Z0d5RHF6c3B3b055eWNCN25Kak51dGNnRGE0bDExMlNtVXZ3OF9ab29NVm8wNDlhb1RLQVNSMmx3MU9QWNIBYEFVX3lxTE1PblNhckM1NGRDRGRxb2JHdnFpanhCX2FJZEd0Z0d5RHF6c3B3b055eWNCN25Kak51dGNnRGE0bDExMlNtVXZ3OF9ab29NVm8wNDlhb1RLQVNSMmx3MU9QWA?oc=5",
-      "source": "연합뉴스",
-      "date": "Thu, 05 Mar 2026 07:09:56 GMT"
+      "title": "ETRI, 인공지능 국제표준화 무대서 영향력 확대...국제 AI 표준 ‘의제 조정자’ 역할 본격화, 의장도 맡아",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE90QTBLcEs0Zk1QbVMzcTRNUENZc1NtZzh3alpxWXZGLW9BSUZRelNVaFp6a2ZITloyRHFxUXVkb25KR3o3ZkFOTjhjNHZ6T0VVaGtHM0tJdGFkVDB6cWlOWHhHcmxKZ2s?oc=5",
+      "source": "인공지능신문",
+      "date": "Thu, 05 Mar 2026 05:39:35 GMT"
     },
     {
       "title": "[수요논단] 인공지능(AI) 시대의 인재 양성과 평생교육 생태계 구축",
@@ -65,13 +71,7 @@
       "title": "GPT-5.4를 소개합니다",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5pVFJudEpXa0E2TVFHUklhTjJ5RlNZV3FIWWpqazZCM0FYeVVWWFp6aHpCRVU4a2RQVFNDUGdYQlNPTE1BWmNXWW15TXZ5cXQtbGxqdnlOVHdBaHMxMEUtMA?oc=5",
       "source": "OpenAI",
-      "date": "Wed, 04 Mar 2026 20:26:11 GMT"
-    },
-    {
-      "title": "'인공지능(AI)+' 3년 연속 ‘정부업무보고’에 포함... 올해 처음 '스마트 경제의 신형태' 제안",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ZWUV3dFBxenl3VmJqc21Yb1drcFpVazBBdlgxT2k5UnpmUXhZX2g4SmVnNGMzSlJ1TU9OQ01sZmxUNzJ2Y3JZamVZN204OXIzTTBZVXBWQ3M3X2RYOFpJbDlpYw?oc=5",
-      "source": "国际在线",
-      "date": "Wed, 04 Mar 2026 17:58:48 GMT"
+      "date": "Wed, 04 Mar 2026 21:02:16 GMT"
     }
   ]
 }
