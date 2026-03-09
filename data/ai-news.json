@@ -1,23 +1,41 @@
 {
-  "last_updated": "2026-03-08T09:27:42.623Z",
+  "last_updated": "2026-03-09T09:49:52.632Z",
   "news": [
     {
-      "title": "[릴리즈 노트] AI가 직접 컴퓨터 조작, 오픈AI GPT-5.4 출시",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBoRWpiU01qb0FtXzNDNGZUMTNQeU9DY2E5OV9BaDNGRExtMWtlRzZfeFZJVm9FempGeXk3dnJQYTVQOXd4RmxCTFhlWmNGWm90SUVyRm1GbUZvZw?oc=5",
-      "source": "요즘IT",
-      "date": "Sun, 08 Mar 2026 09:26:19 GMT"
+      "title": "교육부, '인공지능(AI) 중점학교' 본격 운영…초중등 교육 이끈다",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfQUgtaXpuVzFmN0VCalRXbXEzYTJlRlMyMGszLUV1T29IVWRJVjVBR3BhUmwxaGx2ZzRCSlE5dk5HZnNqM0IzcUN0cjVJVFduM01hbG5Pbk0tYWFhcmI2aVhRNHoxcDdmV2tYc0I5N0ZWQkXSAXNBVV95cUxQX0FILWl6blcxZjdFQmpUV21xM2EyZUZTMjBrMy1FdU9vSFVkSVY1QUdwYVJsMWhsdmc0QkpROXZOR2ZzajNCM3FDdHI1SVRXbjNNYWxuT25NLWFhYXJiNmlYUTR6MXA3ZldrWHNCOTdGVkJF?oc=5",
+      "source": "대전일보",
+      "date": "Mon, 09 Mar 2026 08:06:33 GMT"
     },
     {
-      "title": "경북도, 인공지능(AI)·전략산업 중점대학 5개교 중점 육성... 600억 원 투입",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aZDRVN3Y4T1lIVFNGbUo2TFRyMllFajd6ZXpJa2laX3REZHlkNGVWUlJNUkotd05yTzRveEN5VVRILU1ST0tZdExGSUhQb3M5VndYTmdEWFJUa21tV294TnQ5OUh5QQ?oc=5",
-      "source": "이로운넷",
-      "date": "Sun, 08 Mar 2026 06:19:55 GMT"
+      "title": "질병청, AI담당관 신설…“인공지능 대전환 선도”",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5VTDJfaXQ0Qk9OcTdBZmRoSnJtbTA5T0NHaW1rOC1ZOXNiR3lxY0lBbzVLYUYyT0k1QlNDcGdFOFFDTkxNUnJiQnFmVGVTdG9mc0xDeTZqX2JWUXYwdmNJbGh6NXZaNHBtWElIY05ETlVKNVh4?oc=5",
+      "source": "데일리메디",
+      "date": "Mon, 09 Mar 2026 02:41:00 GMT"
     },
     {
-      "title": "[알파고 쇼크 10년] 한국 AI기업 수 4년 만에 2.7배 증가",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9OVUNoUk1ON3lDc3p5cy02aUx0ME5DSk9Xb24yNlRTY3VZNFF0eTQ4OE1aT1NwODdFSzZ4aEMzZGtrUkhQX3hiX2Eza2JQUQ?oc=5",
-      "source": "전자신문",
-      "date": "Sun, 08 Mar 2026 03:00:00 GMT"
+      "title": "“이제 정부 서비스도 대화로 찾는다”...인공지능으로 똑똑해진 정부24+",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2bE0xcFN2VzFSRG9idWxyMlFiR1ZoTzhZb0kzUjBmOU1Zb1BYa0NwTkJMWXkwV1I0a09jeUNyb1htRlV5Vk5SYTJTRnhZcDJRby02Zkt6OWFMYllGTlJxMk9PbGtPYmM?oc=5",
+      "source": "인공지능신문",
+      "date": "Mon, 09 Mar 2026 00:46:57 GMT"
+    },
+    {
+      "title": "질병청, '질병관리인공지능담당관 신설…AI 기반 전략 본격화",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1icFdFaEZMM1cyaWppX0dPVml0Q3NVbFhEYjVieTh0Z0ozQnlpYVpmY05XYzdsTHd2ZjFVN19oZy03OXR4Y3kxTU0tbDNwd0xhTi1sX3RXUWlRak5jLXJxaTBrUTZSNWEwZDhZdA?oc=5",
+      "source": "약사공론",
+      "date": "Mon, 09 Mar 2026 00:46:13 GMT"
+    },
+    {
+      "title": "[AI 포커스] “AI가 엑셀을 대신 만든다”…오픈AI GPT-5.4 기반 ‘ChatGPT for Excel’ 베타 공개",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1OYy1QRVhkcUpIRkZ5VVNTZ3ozQkVSOExsLTRhZmJSTEVjSURVYzdOS0d3VnV1S3V6NWdTWEhjS1hnbVc5ZVU1SUdyTE9fdk91MVB0QVhXSEZ4QmNPdUx1dC1vTjFRRHV4aG1tS19BVldfZw?oc=5",
+      "source": "아웃소싱타임스",
+      "date": "Sun, 08 Mar 2026 22:04:27 GMT"
+    },
+    {
+      "title": "생성형 AI 시대, 내가 대체되지 않으려면",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE13VHJwbFI5RnltVmxPUU5zeWNWc1JOTzBfZ2xnNl9TZWxObC0zWEdEWDBwSEV4WjNuNVpodFNpdUlldnFkaUE?oc=5",
+      "source": "v.daum.net",
+      "date": "Sun, 08 Mar 2026 05:23:23 GMT"
     },
     {
       "title": "\"생성형 AI, 법적 리스크 어디까지?\"... 일본 딥러닝협회 기업 대응 가이드 제시",
@@ -26,16 +44,16 @@
       "date": "Sat, 07 Mar 2026 10:58:00 GMT"
     },
     {
-      "title": "\"AI 시장 질서 바로잡는다\"... 중국, 인공지능 부정경쟁 사례 공개",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wODYyaG1LbGRNektILVplLU5hQ0JtSFFrRlJ6OE9sbEtTX2c3R0xBMjF1YjVhcnpIdm5BZUlac3JuajVNMHNhcA?oc=5",
-      "source": "특허뉴스",
-      "date": "Sat, 07 Mar 2026 10:26:00 GMT"
-    },
-    {
       "title": "인공지능(AI) 혁신의 대장정 개막 ··· 관세청, '인공지능(AI) 관세행정 추진단' 출범",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZE1IR0M4WGVJQXU0QUhUSkZ0TVJLVU03M3gxRnRzS1FsZzRtcEFIU0doU2RuZksxZHZlTV9kRjRmWGhPYWozNGZmR2RzQXBNNk56WDRSbVE4RG56dTBuMzJVdU9XVGp4Q0JncXNUYmEtV3BaeVdzdjU1N0k3bmd5Z1dFZXRRT1daaHU5MQ?oc=5",
       "source": "대한민국 정책브리핑",
       "date": "Fri, 06 Mar 2026 08:08:31 GMT"
+    },
+    {
+      "title": "[전문가의 눈] ‘인공지능 기본법’에 거는 기대",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kVGpZcHlnVHZ6QUZuUURzVnNrMkdTQ19NeWl3SlE2cDdEelZ4bE9QZS13NFNxMlc5M2tUclRud3c1aDZnQUVUNnd2a2x0ZlQybUZPcl96Smo0dw?oc=5",
+      "source": "농민신문",
+      "date": "Fri, 06 Mar 2026 08:00:00 GMT"
     },
     {
       "title": "스프레드시트·PPT까지 자동화…오픈AI ‘GPT-5.4’ 공개",
@@ -50,28 +68,10 @@
       "date": "Fri, 06 Mar 2026 05:29:32 GMT"
     },
     {
-      "title": "“이제 AI는 도구가 아니다, ‘AI 직원’ 시대 서막”… 오픈AI, 차세대 AI 모델 ‘GPT-5.4’ 공개",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4OXp4VmxGckpWcVNYUjBXanhQamtzSjBvcFpmLVIzR2FQY0FrTEFVZFVDbVUtTzFzWjRTZUhqRjFKa0d2cUtOMXVBSWVPQ210dnRpYzlOajlUdWNnZ2EyMG5iVkhuVUE?oc=5",
-      "source": "인공지능신문",
-      "date": "Fri, 06 Mar 2026 00:16:24 GMT"
-    },
-    {
-      "title": "ETRI, 인공지능 국제표준화 무대서 영향력 확대...국제 AI 표준 ‘의제 조정자’ 역할 본격화, 의장도 맡아",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE90QTBLcEs0Zk1QbVMzcTRNUENZc1NtZzh3alpxWXZGLW9BSUZRelNVaFp6a2ZITloyRHFxUXVkb25KR3o3ZkFOTjhjNHZ6T0VVaGtHM0tJdGFkVDB6cWlOWHhHcmxKZ2s?oc=5",
-      "source": "인공지능신문",
-      "date": "Thu, 05 Mar 2026 05:39:35 GMT"
-    },
-    {
-      "title": "[수요논단] 인공지능(AI) 시대의 인재 양성과 평생교육 생태계 구축",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5neGZjMjlWdnkwcVhMVkpucmRIajVkbzdKZGU4RzVfNGdkaG9odkM5cmZOb1FjbUhabHJMNmFDWEVZUEM3VmR2NjlvT3AxaGxSQ3hlQUM3U3VuTkF1RWk5VC1TNHpwdw?oc=5",
-      "source": "한국대학신문",
-      "date": "Wed, 04 Mar 2026 22:51:00 GMT"
-    },
-    {
-      "title": "GPT-5.4를 소개합니다",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5pVFJudEpXa0E2TVFHUklhTjJ5RlNZV3FIWWpqazZCM0FYeVVWWFp6aHpCRVU4a2RQVFNDUGdYQlNPTE1BWmNXWW15TXZ5cXQtbGxqdnlOVHdBaHMxMEUtMA?oc=5",
-      "source": "OpenAI",
-      "date": "Wed, 04 Mar 2026 21:02:16 GMT"
+      "title": "사전 데이터 없이 빈곤 지역 탐지… KAIST-전남대 AI, 세계 최고 학술대회 석권",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE11VWFKWnpISkk3YW1FOWNzYVAyZklDVzE0TWhKanhoRUEybDN6UG1BckdoaGp5dkk5YjRzWVR2UnhWQTJZNnZkZ05IdThadkVUSHR1Vw?oc=5",
+      "source": "동아사이언스",
+      "date": "Fri, 06 Mar 2026 05:12:00 GMT"
     }
   ]
 }
