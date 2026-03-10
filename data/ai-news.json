@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-03-09T09:49:52.632Z",
+  "last_updated": "2026-03-10T09:41:35.238Z",
   "news": [
+    {
+      "title": "한수원, 인공지능(AI) 기반 ‘지능형 상태감시 시스템’ 적용 성공",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56ZmhKUlQ4dGRfUHVrVnZHU1dkMF9FQ2N6QnJSZ2s3Zjg4RmtHamJVb3BnTUtrWk9nLUotZDhTMUlFb2hUcF9XMHQ2cnhpZHZ3clZURTBLX0R3R3k3Vl83VzBzRUN1UDdXWTE2eUFBWmM?oc=5",
+      "source": "에너지데일리",
+      "date": "Tue, 10 Mar 2026 03:24:00 GMT"
+    },
     {
       "title": "교육부, '인공지능(AI) 중점학교' 본격 운영…초중등 교육 이끈다",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfQUgtaXpuVzFmN0VCalRXbXEzYTJlRlMyMGszLUV1T29IVWRJVjVBR3BhUmwxaGx2ZzRCSlE5dk5HZnNqM0IzcUN0cjVJVFduM01hbG5Pbk0tYWFhcmI2aVhRNHoxcDdmV2tYc0I5N0ZWQkXSAXNBVV95cUxQX0FILWl6blcxZjdFQmpUV21xM2EyZUZTMjBrMy1FdU9vSFVkSVY1QUdwYVJsMWhsdmc0QkpROXZOR2ZzajNCM3FDdHI1SVRXbjNNYWxuT25NLWFhYXJiNmlYUTR6MXA3ZldrWHNCOTdGVkJF?oc=5",
@@ -26,16 +32,22 @@
       "date": "Mon, 09 Mar 2026 00:46:13 GMT"
     },
     {
+      "title": "질병청 '질병관리인공지능담당관' 신설…\"AI 대전환 대응\" - 뉴스1",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSOVBVR2dyaXhkR2gtZ1RHOXVJVzZwbld1TXNPTlZYaHpSYlZpb19xMDJhQ3hJNmQxcVZfeWpqYjlDVnJSTWlwb08xMjRRbUF4eEE?oc=5",
+      "source": "뉴스1",
+      "date": "Mon, 09 Mar 2026 00:42:39 GMT"
+    },
+    {
       "title": "[AI 포커스] “AI가 엑셀을 대신 만든다”…오픈AI GPT-5.4 기반 ‘ChatGPT for Excel’ 베타 공개",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1OYy1QRVhkcUpIRkZ5VVNTZ3ozQkVSOExsLTRhZmJSTEVjSURVYzdOS0d3VnV1S3V6NWdTWEhjS1hnbVc5ZVU1SUdyTE9fdk91MVB0QVhXSEZ4QmNPdUx1dC1vTjFRRHV4aG1tS19BVldfZw?oc=5",
       "source": "아웃소싱타임스",
       "date": "Sun, 08 Mar 2026 22:04:27 GMT"
     },
     {
-      "title": "생성형 AI 시대, 내가 대체되지 않으려면",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE13VHJwbFI5RnltVmxPUU5zeWNWc1JOTzBfZ2xnNl9TZWxObC0zWEdEWDBwSEV4WjNuNVpodFNpdUlldnFkaUE?oc=5",
-      "source": "v.daum.net",
-      "date": "Sun, 08 Mar 2026 05:23:23 GMT"
+      "title": "경북도, 인공지능(AI)‧전략산업 중점대학 5개교…600억 원 투입",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1pWlpJOFRsTk9wSy14blBxaGZUSlF3dGZUQ3VfYXhEVEFDZEtGMDNGX2lrbVoxUU41Wk04YWNIaDBXaGQ3NlRGU01ZQ3czVXhfeTZ5STFXZUJCLW5OLXFBM2JvaWk2LWpla3lYOGo4VdIBb0FVX3lxTE1pWlpJOFRsTk9wSy14blBxaGZUSlF3dGZUQ3VfYXhEVEFDZEtGMDNGX2lrbVoxUU41Wk04YWNIaDBXaGQ3NlRGU01ZQ3czVXhfeTZ5STFXZUJCLW5OLXFBM2JvaWk2LWpla3lYOGo4VQ?oc=5",
+      "source": "서울일보",
+      "date": "Sun, 08 Mar 2026 10:16:43 GMT"
     },
     {
       "title": "\"생성형 AI, 법적 리스크 어디까지?\"... 일본 딥러닝협회 기업 대응 가이드 제시",
@@ -60,18 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tWHZIZER5T0Y4Nk81RThDUXJZOTZTc3pJUFEzZFI0R3Jma19IR1pjSXd1ZTlLbXhZX0tXNjNoTDl6bTFyYVBMM25aQlFmalJSWGNGYWhKeHRxYV9PbHhENg?oc=5",
       "source": "한겨레",
       "date": "Fri, 06 Mar 2026 06:11:00 GMT"
-    },
-    {
-      "title": "“생성형 AI 유료 이용자가 이용시간 1.7배·업무 활용 2배 많다”",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5BSUw4aENjcE5jRkh4S3dZeG9GaWsyMk85cDlPb014eTVwV1pjbXNSOWFrRl96SlRwQmtLVTY5a3FxS05ZZWR2aldWMjB2STF4QzRUM2tkbUdOUzFRRlhiaDhNNFQ4WjVDUXVaMw?oc=5",
-      "source": "로봇신문",
-      "date": "Fri, 06 Mar 2026 05:29:32 GMT"
-    },
-    {
-      "title": "사전 데이터 없이 빈곤 지역 탐지… KAIST-전남대 AI, 세계 최고 학술대회 석권",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE11VWFKWnpISkk3YW1FOWNzYVAyZklDVzE0TWhKanhoRUEybDN6UG1BckdoaGp5dkk5YjRzWVR2UnhWQTJZNnZkZ05IdThadkVUSHR1Vw?oc=5",
-      "source": "동아사이언스",
-      "date": "Fri, 06 Mar 2026 05:12:00 GMT"
     }
   ]
 }
