@@ -1,11 +1,41 @@
 {
-  "last_updated": "2026-03-10T09:41:35.238Z",
+  "last_updated": "2026-03-11T09:40:13.674Z",
   "news": [
+    {
+      "title": "[밀양 24시] 밀양시, 인공지능(AI) 아바타 민원도우미 시범운영",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB1VVl6TVBwcW5lbjJ4SVNNaUx1Wm9qalFHZTBYSUQtMjFGLTByVk5YY3ItT1cxdHpNeTVOdjJJSFBwUTJxa2JtUzBtMlR4eTZDbEszR3pnVnR6bG16S1hiMkMwVHBlTkc1YUNqekdlbXNzMG_SAXNBVV95cUxQdVVZek1QcHFuZW4yeElTTWlMdVpvampRR2UwWElELTIxRi0wclZOWGNyLU9XMXR6TXk1TnYySUhQcFEycWtibVMwbTJUeHk2Q2xLM0d6Z1Z0emxtektYYjJDMFRwZU5HNWFDanpHZW1zczBv?oc=5",
+      "source": "시사저널",
+      "date": "Wed, 11 Mar 2026 04:18:17 GMT"
+    },
+    {
+      "title": "경북도, 지능공간정보플랫폼 본격 운영...'인공지능(AI)이 행정 돕는다'",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9sTTUtWVFnQkRmWjQxSlAxS2hnSVpybjJFQWtSak1YZjdDbzVNbHM2c0NBY3hhZVNFdzYzbVgzcW1vcEpMblNnU1NDMFFFb0dtTkVJOFBnSndweXZ0bF9TQkw2eHB2Zw?oc=5",
+      "source": "이로운넷",
+      "date": "Tue, 10 Mar 2026 13:50:03 GMT"
+    },
+    {
+      "title": "초·중등 인공지능(AI) 중점학교 운영!",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNY3NJLWY0Ym01NEtxVXkxQl9RQm54eGh0Qy1JN2JacTJCWldScEVXTEtDQzRmbTRhNUNTYmFEeWt3TER6MjlTYTJHNEw2UGN3cnN2NkpveC1uSlFNVE9FdklNb3RFaFBvYlF1OW1hN0hZa1RJZGNORERYSWU3YkZ0VHdqYjA?oc=5",
+      "source": "대한민국 정책브리핑",
+      "date": "Tue, 10 Mar 2026 04:18:20 GMT"
+    },
     {
       "title": "한수원, 인공지능(AI) 기반 ‘지능형 상태감시 시스템’ 적용 성공",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56ZmhKUlQ4dGRfUHVrVnZHU1dkMF9FQ2N6QnJSZ2s3Zjg4RmtHamJVb3BnTUtrWk9nLUotZDhTMUlFb2hUcF9XMHQ2cnhpZHZ3clZURTBLX0R3R3k3Vl83VzBzRUN1UDdXWTE2eUFBWmM?oc=5",
       "source": "에너지데일리",
       "date": "Tue, 10 Mar 2026 03:24:00 GMT"
+    },
+    {
+      "title": "AI, 광고 도구 넘어 크리에이티브 파트너로…뜨거운바다, 생성형 AI 필름 '아우라' 공개",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wdEtPZ0FtXy1iakFBZGtKS3JsMlpXa09hLU8zUkRfaThlZTFMbThHV2RTTjVMVS03N0pqOHRka1dlYlF3NFByOTV5VzFfdzNpV0RNOW9mc0JxSnozOHJiVjh3NU0wYUE?oc=5",
+      "source": "인공지능신문",
+      "date": "Tue, 10 Mar 2026 01:39:51 GMT"
+    },
+    {
+      "title": "주택금융공사, 인공지능(AI) 기반 맞춤형 모기지 추천 서비스 도입",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9BbS1zR1pFVExndVp3VWlMT0c3SXVWY2RFbnpqQ1NfblNnbXM5OUZySXhRVjdoekhWNVNsNC1OREczZVhHa0FoU2VYT3VCRVRfbmJkaENtRVVtdkh0c3RuanhoY2s?oc=5",
+      "source": "서울경제TV",
+      "date": "Tue, 10 Mar 2026 00:23:26 GMT"
     },
     {
       "title": "교육부, '인공지능(AI) 중점학교' 본격 운영…초중등 교육 이끈다",
@@ -26,18 +56,6 @@
       "date": "Mon, 09 Mar 2026 00:46:57 GMT"
     },
     {
-      "title": "질병청, '질병관리인공지능담당관 신설…AI 기반 전략 본격화",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1icFdFaEZMM1cyaWppX0dPVml0Q3NVbFhEYjVieTh0Z0ozQnlpYVpmY05XYzdsTHd2ZjFVN19oZy03OXR4Y3kxTU0tbDNwd0xhTi1sX3RXUWlRak5jLXJxaTBrUTZSNWEwZDhZdA?oc=5",
-      "source": "약사공론",
-      "date": "Mon, 09 Mar 2026 00:46:13 GMT"
-    },
-    {
-      "title": "질병청 '질병관리인공지능담당관' 신설…\"AI 대전환 대응\" - 뉴스1",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSOVBVR2dyaXhkR2gtZ1RHOXVJVzZwbld1TXNPTlZYaHpSYlZpb19xMDJhQ3hJNmQxcVZfeWpqYjlDVnJSTWlwb08xMjRRbUF4eEE?oc=5",
-      "source": "뉴스1",
-      "date": "Mon, 09 Mar 2026 00:42:39 GMT"
-    },
-    {
       "title": "[AI 포커스] “AI가 엑셀을 대신 만든다”…오픈AI GPT-5.4 기반 ‘ChatGPT for Excel’ 베타 공개",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1OYy1QRVhkcUpIRkZ5VVNTZ3ozQkVSOExsLTRhZmJSTEVjSURVYzdOS0d3VnV1S3V6NWdTWEhjS1hnbVc5ZVU1SUdyTE9fdk91MVB0QVhXSEZ4QmNPdUx1dC1vTjFRRHV4aG1tS19BVldfZw?oc=5",
       "source": "아웃소싱타임스",
@@ -50,28 +68,10 @@
       "date": "Sun, 08 Mar 2026 10:16:43 GMT"
     },
     {
-      "title": "\"생성형 AI, 법적 리스크 어디까지?\"... 일본 딥러닝협회 기업 대응 가이드 제시",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAwNlllUkpHVjdUVlVyY200WERhVEhWcy1sR0dva01uci1wMzlxLWZsNlNvbDNPUG5QeHR1dFdPejczOU1SNXpkbw?oc=5",
-      "source": "특허뉴스",
-      "date": "Sat, 07 Mar 2026 10:58:00 GMT"
-    },
-    {
-      "title": "인공지능(AI) 혁신의 대장정 개막 ··· 관세청, '인공지능(AI) 관세행정 추진단' 출범",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZE1IR0M4WGVJQXU0QUhUSkZ0TVJLVU03M3gxRnRzS1FsZzRtcEFIU0doU2RuZksxZHZlTV9kRjRmWGhPYWozNGZmR2RzQXBNNk56WDRSbVE4RG56dTBuMzJVdU9XVGp4Q0JncXNUYmEtV3BaeVdzdjU1N0k3bmd5Z1dFZXRRT1daaHU5MQ?oc=5",
-      "source": "대한민국 정책브리핑",
-      "date": "Fri, 06 Mar 2026 08:08:31 GMT"
-    },
-    {
-      "title": "[전문가의 눈] ‘인공지능 기본법’에 거는 기대",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kVGpZcHlnVHZ6QUZuUURzVnNrMkdTQ19NeWl3SlE2cDdEelZ4bE9QZS13NFNxMlc5M2tUclRud3c1aDZnQUVUNnd2a2x0ZlQybUZPcl96Smo0dw?oc=5",
-      "source": "농민신문",
-      "date": "Fri, 06 Mar 2026 08:00:00 GMT"
-    },
-    {
-      "title": "스프레드시트·PPT까지 자동화…오픈AI ‘GPT-5.4’ 공개",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tWHZIZER5T0Y4Nk81RThDUXJZOTZTc3pJUFEzZFI0R3Jma19IR1pjSXd1ZTlLbXhZX0tXNjNoTDl6bTFyYVBMM25aQlFmalJSWGNGYWhKeHRxYV9PbHhENg?oc=5",
-      "source": "한겨레",
-      "date": "Fri, 06 Mar 2026 06:11:00 GMT"
+      "title": "생성형 AI 시대, 내가 대체되지 않으려면",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5fUnltRnJSOXhSbllRZXpHWmp1TTRaU0pOV0hpUVliMjB6ZmNqSDNCU0toUVdHSWlYd0RObDdXa0o0eTlGbW5QdFRjZw?oc=5",
+      "source": "v.daum.net",
+      "date": "Sun, 08 Mar 2026 05:23:23 GMT"
     }
   ]
 }
