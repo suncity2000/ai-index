@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T04:14:38.463Z",
+  "last_updated": "2026-03-11T04:15:15.730Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -151,14 +151,6 @@
       "name": "DeepSeek: DeepSeek V3 0324",
       "price_1m_input": 0.2,
       "price_1m_output": 0.77,
-      "context_length": 163840,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-v3.1-terminus:exacto",
-      "name": "DeepSeek: DeepSeek V3.1 Terminus (exacto)",
-      "price_1m_input": 0.21,
-      "price_1m_output": 0.79,
       "context_length": 163840,
       "top_provider": true
     },
@@ -491,14 +483,6 @@
       "top_provider": true
     },
     {
-      "id": "meta-llama/llama-guard-2-8b",
-      "name": "Meta: LlamaGuard 2 8B",
-      "price_1m_input": 0.2,
-      "price_1m_output": 0.2,
-      "context_length": 8192,
-      "top_provider": true
-    },
-    {
       "id": "meta-llama/llama-3.1-70b-instruct",
       "name": "Meta: Llama 3.1 70B Instruct",
       "price_1m_input": 0.4,
@@ -749,14 +733,6 @@
     {
       "id": "openai/gpt-oss-120b",
       "name": "OpenAI: gpt-oss-120b",
-      "price_1m_input": 0.04,
-      "price_1m_output": 0.19,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
-      "id": "openai/gpt-oss-120b:exacto",
-      "name": "OpenAI: gpt-oss-120b (exacto)",
       "price_1m_input": 0.04,
       "price_1m_output": 0.19,
       "context_length": 131072,
@@ -1315,6 +1291,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3.5-9b",
+      "name": "Qwen: Qwen3.5-9B",
+      "price_1m_input": 0.1,
+      "price_1m_output": 0.15,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3.5-flash-02-23",
       "name": "Qwen: Qwen3.5-Flash",
       "price_1m_input": 0.1,
@@ -1455,14 +1439,6 @@
       "name": "Qwen: Qwen3 Coder 480B A35B",
       "price_1m_input": 0.22,
       "price_1m_output": 1,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-coder:exacto",
-      "name": "Qwen: Qwen3 Coder 480B A35B (exacto)",
-      "price_1m_input": 0.22,
-      "price_1m_output": 1.8,
       "context_length": 262144,
       "top_provider": true
     },
