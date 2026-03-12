@@ -1,11 +1,29 @@
 {
-  "last_updated": "2026-03-11T09:40:13.674Z",
+  "last_updated": "2026-03-12T09:40:32.363Z",
   "news": [
+    {
+      "title": "발달장애 학생을 위한 맞춤형 인공지능(AI) 디지털 교육자료 보급! - 전체 | 카드/한컷 | 멀티미디어",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XOEFMUU5FdmY3YmhOTEpDUWxPWGxmYjVXQ0txOWY0cl9fYmhreDNJb1F2S3FCdFVLZUdjdE5jYllsXzZLT2tXcl9UbWJOVk1mODU1bTYwOFBkTEdTYTU2V09ZVTJtWHpkLU5JLW5n?oc=5",
+      "source": "대한민국 정책브리핑",
+      "date": "Thu, 12 Mar 2026 01:31:09 GMT"
+    },
+    {
+      "title": "교육 공공데이터 인공지능 활용대회 개최...교육부, AI 미래교육을 위한 혁신 아이디어 발굴",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5kWTdZd1hkWUQ3bDFVS3NxOVFueWhDR1c1bkY2eFdHQkpfTEt4eEU5RHMtWnVaeXNEXzYyUWgxd2RqZXR2d0J4aUluM09Mc1g1a0ZsYWpVWjZKS0pEYjByVnhTWFFSVFk?oc=5",
+      "source": "인공지능신문",
+      "date": "Wed, 11 Mar 2026 04:18:28 GMT"
+    },
     {
       "title": "[밀양 24시] 밀양시, 인공지능(AI) 아바타 민원도우미 시범운영",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB1VVl6TVBwcW5lbjJ4SVNNaUx1Wm9qalFHZTBYSUQtMjFGLTByVk5YY3ItT1cxdHpNeTVOdjJJSFBwUTJxa2JtUzBtMlR4eTZDbEszR3pnVnR6bG16S1hiMkMwVHBlTkc1YUNqekdlbXNzMG_SAXNBVV95cUxQdVVZek1QcHFuZW4yeElTTWlMdVpvampRR2UwWElELTIxRi0wclZOWGNyLU9XMXR6TXk1TnYySUhQcFEycWtibVMwbTJUeHk2Q2xLM0d6Z1Z0emxtektYYjJDMFRwZU5HNWFDanpHZW1zczBv?oc=5",
       "source": "시사저널",
       "date": "Wed, 11 Mar 2026 04:18:17 GMT"
+    },
+    {
+      "title": "스노우플레이크, ‘생성형 AI와 AI 에이전트의 ROI’ 글로벌 보고서 발표",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBydlRtVi1zbkc4LXN6LWNtRWYzOHh2V2lDckowQVNfdEhnWTJXblN4Ym9HQmwzalNaa3NjTEdTMWhxYmdYTXdYNTJUWFJsekVuWHdqbGZrN2pORndORUJRUG9zdlhWTzVLelB0bg?oc=5",
+      "source": "데일리시큐",
+      "date": "Wed, 11 Mar 2026 04:04:40 GMT"
     },
     {
       "title": "경북도, 지능공간정보플랫폼 본격 운영...'인공지능(AI)이 행정 돕는다'",
@@ -14,10 +32,16 @@
       "date": "Tue, 10 Mar 2026 13:50:03 GMT"
     },
     {
-      "title": "초·중등 인공지능(AI) 중점학교 운영!",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNY3NJLWY0Ym01NEtxVXkxQl9RQm54eGh0Qy1JN2JacTJCWldScEVXTEtDQzRmbTRhNUNTYmFEeWt3TER6MjlTYTJHNEw2UGN3cnN2NkpveC1uSlFNVE9FdklNb3RFaFBvYlF1OW1hN0hZa1RJZGNORERYSWU3YkZ0VHdqYjA?oc=5",
-      "source": "대한민국 정책브리핑",
-      "date": "Tue, 10 Mar 2026 04:18:20 GMT"
+      "title": "“챗GPT 아니었다”…인공지능 이용시간 1위는 ‘이것’",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15dTFfeUJpY2ZCTWo0YmhaM0NnYnhpbmR5bkhYeFBMLTYyTTJqZzNGR2h3OVBFUkhOMm1GQVdlbUZib1QxWmtTMXBWd1A2SEh3cDFLU3VQTkVkZw?oc=5",
+      "source": "농민신문",
+      "date": "Tue, 10 Mar 2026 11:00:00 GMT"
+    },
+    {
+      "title": "韓, UN AI 허브 유치 TF 가동…범정부 유치전 돌입",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84WUd0eHd3SFFCS3ZTTGJyYUJseFlMbU1ZZ1c5SkRlR2RabnJVVjJxMzhNN1RSN01rUVdHWFRUSWEwRTJOVm1fSDF1US1oUQ?oc=5",
+      "source": "전자신문",
+      "date": "Tue, 10 Mar 2026 05:10:51 GMT"
     },
     {
       "title": "한수원, 인공지능(AI) 기반 ‘지능형 상태감시 시스템’ 적용 성공",
@@ -39,39 +63,15 @@
     },
     {
       "title": "교육부, '인공지능(AI) 중점학교' 본격 운영…초중등 교육 이끈다",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfQUgtaXpuVzFmN0VCalRXbXEzYTJlRlMyMGszLUV1T29IVWRJVjVBR3BhUmwxaGx2ZzRCSlE5dk5HZnNqM0IzcUN0cjVJVFduM01hbG5Pbk0tYWFhcmI2aVhRNHoxcDdmV2tYc0I5N0ZWQkXSAXNBVV95cUxQX0FILWl6blcxZjdFQmpUV21xM2EyZUZTMjBrMy1FdU9vSFVkSVY1QUdwYVJsMWhsdmc0QkpROXZOR2ZzajNCM3FDdHI1SVRXbjNNYWxuT25NLWFhYXJiNmlYUTR6MXA3ZldrWHNCOTdGVkJF?oc=5",
-      "source": "대전일보",
-      "date": "Mon, 09 Mar 2026 08:06:33 GMT"
-    },
-    {
-      "title": "질병청, AI담당관 신설…“인공지능 대전환 선도”",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5VTDJfaXQ0Qk9OcTdBZmRoSnJtbTA5T0NHaW1rOC1ZOXNiR3lxY0lBbzVLYUYyT0k1QlNDcGdFOFFDTkxNUnJiQnFmVGVTdG9mc0xDeTZqX2JWUXYwdmNJbGh6NXZaNHBtWElIY05ETlVKNVh4?oc=5",
-      "source": "데일리메디",
-      "date": "Mon, 09 Mar 2026 02:41:00 GMT"
-    },
-    {
-      "title": "“이제 정부 서비스도 대화로 찾는다”...인공지능으로 똑똑해진 정부24+",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2bE0xcFN2VzFSRG9idWxyMlFiR1ZoTzhZb0kzUjBmOU1Zb1BYa0NwTkJMWXkwV1I0a09jeUNyb1htRlV5Vk5SYTJTRnhZcDJRby02Zkt6OWFMYllGTlJxMk9PbGtPYmM?oc=5",
-      "source": "인공지능신문",
-      "date": "Mon, 09 Mar 2026 00:46:57 GMT"
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBXQkZybEdCZjFyTnk2R1JXV3FIS3lzeEJzZEcwdnZ2a3JhRnRxUmI2amFzRVZzS2R0dWdvU1RkSi1fQS10ckdfTUM2cw?oc=5",
+      "source": "v.daum.net",
+      "date": "Mon, 09 Mar 2026 07:58:36 GMT"
     },
     {
       "title": "[AI 포커스] “AI가 엑셀을 대신 만든다”…오픈AI GPT-5.4 기반 ‘ChatGPT for Excel’ 베타 공개",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1OYy1QRVhkcUpIRkZ5VVNTZ3ozQkVSOExsLTRhZmJSTEVjSURVYzdOS0d3VnV1S3V6NWdTWEhjS1hnbVc5ZVU1SUdyTE9fdk91MVB0QVhXSEZ4QmNPdUx1dC1vTjFRRHV4aG1tS19BVldfZw?oc=5",
       "source": "아웃소싱타임스",
       "date": "Sun, 08 Mar 2026 22:04:27 GMT"
-    },
-    {
-      "title": "경북도, 인공지능(AI)‧전략산업 중점대학 5개교…600억 원 투입",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1pWlpJOFRsTk9wSy14blBxaGZUSlF3dGZUQ3VfYXhEVEFDZEtGMDNGX2lrbVoxUU41Wk04YWNIaDBXaGQ3NlRGU01ZQ3czVXhfeTZ5STFXZUJCLW5OLXFBM2JvaWk2LWpla3lYOGo4VdIBb0FVX3lxTE1pWlpJOFRsTk9wSy14blBxaGZUSlF3dGZUQ3VfYXhEVEFDZEtGMDNGX2lrbVoxUU41Wk04YWNIaDBXaGQ3NlRGU01ZQ3czVXhfeTZ5STFXZUJCLW5OLXFBM2JvaWk2LWpla3lYOGo4VQ?oc=5",
-      "source": "서울일보",
-      "date": "Sun, 08 Mar 2026 10:16:43 GMT"
-    },
-    {
-      "title": "생성형 AI 시대, 내가 대체되지 않으려면",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5fUnltRnJSOXhSbllRZXpHWmp1TTRaU0pOV0hpUVliMjB6ZmNqSDNCU0toUVdHSWlYd0RObDdXa0o0eTlGbW5QdFRjZw?oc=5",
-      "source": "v.daum.net",
-      "date": "Sun, 08 Mar 2026 05:23:23 GMT"
     }
   ]
 }
