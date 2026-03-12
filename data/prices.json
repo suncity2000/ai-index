@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T04:15:15.730Z",
+  "last_updated": "2026-03-12T04:19:30.168Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -165,8 +165,8 @@
     {
       "id": "deepseek/deepseek-v3.2",
       "name": "DeepSeek: DeepSeek V3.2",
-      "price_1m_input": 0.25,
-      "price_1m_output": 0.4,
+      "price_1m_input": 0.26,
+      "price_1m_output": 0.38,
       "context_length": 163840,
       "top_provider": true
     },
@@ -1315,6 +1315,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3-next-80b-a3b-thinking",
+      "name": "Qwen: Qwen3 Next 80B A3B Thinking",
+      "price_1m_input": 0.1,
+      "price_1m_output": 0.78,
+      "context_length": 131072,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3-235b-a22b-thinking-2507",
       "name": "Qwen: Qwen3 235B A22B Thinking 2507",
       "price_1m_input": 0.11,
@@ -1347,6 +1355,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3-vl-30b-a3b-thinking",
+      "name": "Qwen: Qwen3 VL 30B A3B Thinking",
+      "price_1m_input": 0.13,
+      "price_1m_output": 1.56,
+      "context_length": 131072,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3-vl-30b-a3b-instruct",
       "name": "Qwen: Qwen3 VL 30B A3B Instruct",
       "price_1m_input": 0.13,
@@ -1360,14 +1376,6 @@
       "price_1m_input": 0.14,
       "price_1m_output": 0.41,
       "context_length": 131072,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-next-80b-a3b-thinking",
-      "name": "Qwen: Qwen3 Next 80B A3B Thinking",
-      "price_1m_input": 0.15,
-      "price_1m_output": 1.2,
-      "context_length": 128000,
       "top_provider": true
     },
     {
@@ -1456,6 +1464,14 @@
       "price_1m_input": 0.26,
       "price_1m_output": 1.56,
       "context_length": 1000000,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "name": "Qwen: Qwen3 VL 235B A22B Thinking",
+      "price_1m_input": 0.26,
+      "price_1m_output": 2.6,
+      "context_length": 131072,
       "top_provider": true
     },
     {
