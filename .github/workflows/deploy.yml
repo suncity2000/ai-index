@@ -48,6 +48,7 @@ jobs:
           cp privacy-policy.html _site/
           cp logo.png _site/
           cp favicon.ico _site/
+          cp about.html _site/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
