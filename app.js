@@ -137,6 +137,11 @@ const translations = {
             'text-to-video': '🎬 Text-to-Video ELO 점수란?',
             'image-to-video': '🎞️ Image-to-Video ELO 점수란?'
         },
+        // Cookie consent
+        cookieText: '이 사이트는 서비스 개선 및 맞춤형 광고(Google AdSense)를 위해 쿠키를 사용합니다. 계속 이용하시면 쿠키 사용에 동의하신 것으로 간주됩니다.',
+        cookieLearnMore: '개인정보처리방침',
+        cookieAccept: '동의',
+        cookieDecline: '거부',
         dateLocale: 'ko-KR',
     },
     en: {
@@ -253,6 +258,11 @@ const translations = {
             'text-to-video': '🎬 What is the Text-to-Video ELO Score?',
             'image-to-video': '🎞️ What is the Image-to-Video ELO Score?'
         },
+        // Cookie consent
+        cookieText: 'This site uses cookies to improve our services and for personalized advertising (Google AdSense). By continuing to use this site, you agree to our use of cookies.',
+        cookieLearnMore: 'Privacy Policy',
+        cookieAccept: 'Accept',
+        cookieDecline: 'Decline',
         dateLocale: 'en-US',
     }
 };
@@ -365,6 +375,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     initTheme();
     initLang();
     initEventListeners();
+    initCookieConsent();
     await loadData();
 });
 
@@ -379,6 +390,30 @@ function initTheme() {
         document.documentElement.classList.toggle('dark');
         const newTheme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
         localStorage.setItem('theme', newTheme);
+    });
+}
+
+// Cookie consent
+function initCookieConsent() {
+    const consent = localStorage.getItem('cookieConsent');
+    if (consent) return;
+
+    const banner = document.getElementById('cookie-consent');
+    if (!banner) return;
+
+    // Slide up after a short delay
+    setTimeout(() => {
+        banner.classList.remove('translate-y-full');
+    }, 800);
+
+    document.getElementById('cookie-accept').addEventListener('click', () => {
+        localStorage.setItem('cookieConsent', 'accepted');
+        banner.classList.add('translate-y-full');
+    });
+
+    document.getElementById('cookie-decline').addEventListener('click', () => {
+        localStorage.setItem('cookieConsent', 'declined');
+        banner.classList.add('translate-y-full');
     });
 }
 
