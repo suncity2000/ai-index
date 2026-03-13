@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T04:19:30.168Z",
+  "last_updated": "2026-03-13T04:18:42.376Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -1600,6 +1600,22 @@
       "price_1m_input": 0.3,
       "price_1m_output": 0.5,
       "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "x-ai/grok-4.20-multi-agent-beta",
+      "name": "xAI: Grok 4.20 Multi-Agent Beta",
+      "price_1m_input": 2,
+      "price_1m_output": 6,
+      "context_length": 2000000,
+      "top_provider": true
+    },
+    {
+      "id": "x-ai/grok-4.20-beta",
+      "name": "xAI: Grok 4.20 Beta",
+      "price_1m_input": 2,
+      "price_1m_output": 6,
+      "context_length": 2000000,
       "top_provider": true
     },
     {
