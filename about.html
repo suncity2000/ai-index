@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서비스 소개 | About - AINET AI RANK HUB</title>
+    <meta name="description" content="AINET AI RANK HUB는 LLM, 이미지 생성, 음성합성, 영상 생성 등 최신 AI 모델을 실시간으로 비교하는 플랫폼입니다. 지표 설명, 데이터 출처, 자주 묻는 질문을 확인하세요.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://ainet.io.kr/about.html">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .section-title { font-size: 1.125rem; font-weight: 700; color: #1e40af; margin-bottom: 0.75rem; padding-bottom: 0.5rem; border-bottom: 2px solid #bfdbfe; }
+        .prose p, .prose li { line-height: 1.75; color: #374151; margin-bottom: 0.5rem; }
+        .prose ul { list-style: disc; padding-left: 1.5rem; margin-bottom: 1rem; }
+        .lang-section { display: none; }
+        .lang-section.active { display: block; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-200 shadow-sm">
+        <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="/" class="flex items-center gap-2 hover:opacity-80 transition-opacity">
+                <img src="logo.png" alt="AINET Logo" class="h-6 w-auto">
+                <span class="text-sm font-extrabold tracking-widest bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">AINET</span>
+            </a>
+            <div class="flex items-center gap-3">
+                <button onclick="setLang('ko')" id="btn-ko" class="px-3 py-1 text-xs font-bold rounded-lg border border-blue-500 bg-blue-500 text-white transition-all">한국어</button>
+                <button onclick="setLang('en')" id="btn-en" class="px-3 py-1 text-xs font-bold rounded-lg border border-gray-300 text-gray-600 hover:border-blue-400 hover:text-blue-600 transition-all">English</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-12 max-w-3xl">
+
+        <!-- Korean -->
+        <div id="ko" class="lang-section active">
+            <h1 class="text-3xl font-extrabold text-gray-900 mb-2">서비스 소개</h1>
+            <p class="text-gray-500 mb-10">AINET AI RANK HUB에 대해 알아보세요</p>
+
+            <!-- 소개 -->
+            <section class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 mb-6 prose">
+                <h2 class="section-title">AINET AI RANK HUB란?</h2>
+                <p>
+                    <strong>AINET AI RANK HUB</strong>는 전 세계 주요 AI 모델을 한눈에 비교할 수 있는 실시간 AI 랭킹 플랫폼입니다.
+                    LLM(대형 언어 모델)을 비롯해 이미지 생성, 음성 합성, 영상 생성 등 다양한 AI 분야의 최신 모델을 추적하고,
+                    객관적인 지표를 기반으로 순위를 제공합니다.
+                </p>
+                <p>
+                    AI 기술은 매일 빠르게 발전하고 있습니다. 수십 개의 모델이 동시에 경쟁하는 현재 상황에서
+                    "어떤 모델이 가장 좋은가?"라는 질문에 답하기 위해 이 서비스를 만들었습니다.
+                    연구자, 개발자, AI에 관심 있는 누구나 쉽게 모델을 비교하고 최적의 선택을 할 수 있도록 돕는 것이 목표입니다.
+                </p>
+                <ul>
+                    <li>매일 자동 업데이트되는 AI 모델 순위</li>
+                    <li>지능, 코딩, 수학, 속도, 가성비 등 다각도 평가 지표</li>
+                    <li>최대 4개 모델 동시 비교 기능</li>
+                    <li>한국 AI 서비스 전용 섹션</li>
+                    <li>AI 관련 최신 뉴스 제공</li>
+                </ul>
+            </section>
+
+            <!-- 카테고리 설명 -->
+            <section class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 mb-6 prose">
+                <h2 class="section-title">카테고리 안내</h2>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">💬 LLM (대형 언어 모델)</h3>
+                <p>
+                    ChatGPT, Claude, Gemini, Llama 등 텍스트를 이해하고 생성하는 대형 언어 모델의 순위입니다.
+                    종합 지능 지수, 코딩 능력, 수학 능력, 응답 속도, 가성비 등 5가지 기준으로 필터링할 수 있습니다.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">🎨 Text-to-Image (텍스트→이미지)</h3>
+                <p>
+                    텍스트 프롬프트를 입력하면 이미지를 생성하는 AI 모델의 순위입니다.
+                    Midjourney, Stable Diffusion, DALL-E, Flux 등의 모델을 ELO 점수 기반으로 비교합니다.
+                    이미지 품질과 프롬프트 이해력을 사용자 평가로 측정합니다.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">🎙️ Text-to-Speech (텍스트→음성)</h3>
+                <p>
+                    텍스트를 자연스러운 음성으로 변환하는 AI 모델의 순위입니다.
+                    ElevenLabs, OpenAI TTS, Google TTS 등 최신 음성 합성 모델을 비교합니다.
+                    자연스러움, 표현력, 발음 정확도 등을 기준으로 평가합니다.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">🎬 Text-to-Video (텍스트→영상)</h3>
+                <p>
+                    텍스트 설명으로 영상을 생성하는 AI 모델의 순위입니다.
+                    Sora, Runway, Kling, Hailuo 등 영상 생성 AI를 ELO 점수로 비교합니다.
+                    영상 품질, 동작의 자연스러움, 프롬프트 일치도를 평가합니다.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">🎞️ Image-to-Video (이미지→영상)</h3>
+                <p>
+                    정지 이미지를 동영상으로 변환하는 AI 모델의 순위입니다.
+                    이미지의 내용을 유지하면서 자연스러운 움직임을 추가하는 능력을 평가합니다.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">🇰🇷 한국 AI 서비스</h3>
+                <p>
+                    국내 기업이 개발하거나 한국어 최적화된 AI 서비스를 별도로 모아 순위를 제공합니다.
+                    HyperCLOVA X, EXAONE, SOLAR 등 국산 AI와 한국어 특화 서비스를 비교할 수 있습니다.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">💰 AI 가격 비교</h3>
+                <p>
+                    주요 LLM API의 입력/출력 토큰 가격을 한눈에 비교합니다.
+                    OpenAI, Anthropic, Google, Meta 등 주요 제공사의 최신 가격 정보를 제공하며,
+                    비용 대비 성능(가성비)을 고려한 모델 선택을 돕습니다.
+                </p>
+            </section>
+
+            <!-- 지표 설명 -->
+            <section class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 mb-6 prose">
+                <h2 class="section-title">평가 지표 설명</h2>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">🧠 지능 지수 (AI Intelligence Index)</h3>
+                <p>
+                    <a href="https://artificialanalysis.ai" target="_blank" class="text-blue-600 hover:underline">Artificial Analysis</a>가
+                    측정하는 종합 AI 능력 지수입니다. 추론 능력, 지식, 수학, 프로그래밍 등 다양한 벤치마크를
+                    종합하여 산출됩니다. 점수가 높을수록 전반적인 AI 성능이 우수합니다.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">💻 코딩 지수</h3>
+                <p>
+                    HumanEval, SWE-bench 등 프로그래밍 관련 벤치마크를 기반으로 코드 생성,
+                    디버깅, 알고리즘 구현 능력을 평가한 점수입니다.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">🔢 수학 지수</h3>
+                <p>
+                    MATH, GSM8K 등 수학 벤치마크를 통해 수식 계산, 논리적 추론,
+                    고급 수학 문제 해결 능력을 평가한 점수입니다.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">⚡ 속도 (토큰/초)</h3>
+                <p>
+                    1초에 생성할 수 있는 토큰(단어 단위) 수입니다. 수치가 높을수록 응답이 빠릅니다.
+                    실시간 대화나 대량 처리가 필요한 경우 중요한 지표입니다.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">💰 가성비 (Value)</h3>
+                <p>
+                    비용($) 대비 지능 지수를 나타내는 지표입니다.
+                    제한된 예산에서 최대 성능을 얻고자 할 때 참고하기 좋은 지표입니다.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">📊 ELO 점수</h3>
+                <p>
+                    체스에서 유래한 상대적 실력 평가 방식으로, 이미지·음성·영상 생성 AI 모델 순위에 사용됩니다.
+                    사용자 평가 데이터를 기반으로 모델 간 비교 결과를 통해 점수가 산출됩니다.
+                    점수가 높을수록 다른 모델과의 비교에서 더 자주 선택된 모델입니다.
+                </p>
+            </section>
+
+            <!-- 데이터 출처 -->
+            <section class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 mb-6 prose">
+                <h2 class="section-title">데이터 출처</h2>
+                <ul>
+                    <li>
+                        <strong><a href="https://artificialanalysis.ai" target="_blank" class="text-blue-600 hover:underline">Artificial Analysis</a></strong>
+                        — LLM 지능 지수, 코딩, 수학, 속도, 가성비 순위. 이미지·음성·영상 생성 모델 ELO 순위.
+                    </li>
+                    <li>
+                        <strong><a href="https://huggingface.co" target="_blank" class="text-blue-600 hover:underline">HuggingFace</a></strong>
+                        — 오픈소스 AI 커뮤니티의 인기 모델 트렌드 데이터.
+                    </li>
+                    <li>
+                        <strong><a href="https://openrouter.ai" target="_blank" class="text-blue-600 hover:underline">OpenRouter</a></strong>
+                        — LLM API 가격 정보.
+                    </li>
+                </ul>
+                <p>모든 데이터는 자동으로 수집되며 매일 업데이트됩니다.</p>
+            </section>
+
+            <!-- FAQ -->
+            <section class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 mb-6 prose">
+                <h2 class="section-title">자주 묻는 질문 (FAQ)</h2>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-1">얼마나 자주 업데이트되나요?</h3>
+                <p>순위 데이터는 매일 자동으로 업데이트됩니다. 뉴스는 별도로 정기적으로 갱신됩니다.</p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-1">어떤 AI 모델이 포함되어 있나요?</h3>
+                <p>
+                    GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro, Llama 3.1, Mistral, Qwen 등 전 세계 주요
+                    AI 기업의 모델이 포함됩니다. 새로운 모델이 출시되면 자동으로 추가됩니다.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-1">모델 비교 기능은 어떻게 사용하나요?</h3>
+                <p>
+                    순위 테이블에서 비교하고 싶은 모델의 "비교" 버튼을 클릭하면 됩니다.
+                    최대 4개 모델을 선택하면 하단에 비교 바가 나타나고,
+                    "비교하기"를 클릭하면 레이더 차트와 상세 지표를 한눈에 볼 수 있습니다.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-1">이 서비스는 무료인가요?</h3>
+                <p>네, 완전히 무료로 제공됩니다. 회원가입도 필요 없습니다.</p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-1">데이터가 부정확하거나 오류를 발견했다면?</h3>
+                <p>
+                    <a href="https://github.com/suncity2000/ai-index/issues" target="_blank" class="text-blue-600 hover:underline">GitHub Issues</a>를
+                    통해 제보해주시면 검토 후 수정하겠습니다.
+                </p>
+            </section>
+        </div>
+
+        <!-- English -->
+        <div id="en" class="lang-section">
+            <h1 class="text-3xl font-extrabold text-gray-900 mb-2">About</h1>
+            <p class="text-gray-500 mb-10">Learn more about AINET AI RANK HUB</p>
+
+            <!-- About -->
+            <section class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 mb-6 prose">
+                <h2 class="section-title">What is AINET AI RANK HUB?</h2>
+                <p>
+                    <strong>AINET AI RANK HUB</strong> is a real-time AI ranking platform that lets you compare the world's leading AI models at a glance.
+                    We track models across LLMs, image generation, text-to-speech, and video generation, providing objective rankings based on measurable benchmarks.
+                </p>
+                <p>
+                    AI technology evolves every day. With dozens of models competing simultaneously, we built this platform to answer the question:
+                    "Which AI model is actually best?" Our goal is to help researchers, developers, and anyone interested in AI make informed decisions.
+                </p>
+                <ul>
+                    <li>Daily auto-updated AI model rankings</li>
+                    <li>Multi-dimensional metrics: intelligence, coding, math, speed, and value</li>
+                    <li>Side-by-side comparison of up to 4 models</li>
+                    <li>Dedicated section for Korean AI services</li>
+                    <li>Latest AI news feed</li>
+                </ul>
+            </section>
+
+            <!-- Categories -->
+            <section class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 mb-6 prose">
+                <h2 class="section-title">Category Guide</h2>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">💬 LLM (Large Language Models)</h3>
+                <p>
+                    Rankings for large language models like ChatGPT, Claude, Gemini, and Llama that understand and generate text.
+                    Filter by overall intelligence, coding ability, math, response speed, or value for money.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">🎨 Text-to-Image</h3>
+                <p>
+                    Rankings for AI models that generate images from text prompts.
+                    Compare Midjourney, Stable Diffusion, DALL-E, Flux and more, ranked by ELO score based on user preference votes.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">🎙️ Text-to-Speech</h3>
+                <p>
+                    Rankings for AI models that convert text into natural-sounding speech.
+                    Compare ElevenLabs, OpenAI TTS, Google TTS and others based on naturalness, expressiveness, and accuracy.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">🎬 Text-to-Video</h3>
+                <p>
+                    Rankings for AI models that generate video from text descriptions.
+                    Compare Sora, Runway, Kling, Hailuo and others using ELO scores based on video quality and prompt adherence.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">🎞️ Image-to-Video</h3>
+                <p>
+                    Rankings for AI models that animate still images into video clips,
+                    evaluated on motion naturalness and image consistency.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">🇰🇷 Korean AI Services</h3>
+                <p>
+                    A dedicated section for AI models developed by Korean companies or optimized for the Korean language,
+                    including HyperCLOVA X, EXAONE, SOLAR, and more.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">💰 AI Pricing</h3>
+                <p>
+                    Compare API token prices (input/output) for major LLMs from OpenAI, Anthropic, Google, Meta, and others.
+                    Helps you choose the most cost-effective model for your use case.
+                </p>
+            </section>
+
+            <!-- Metrics -->
+            <section class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 mb-6 prose">
+                <h2 class="section-title">Metrics Explained</h2>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">🧠 Intelligence Index</h3>
+                <p>
+                    A composite score by <a href="https://artificialanalysis.ai" target="_blank" class="text-blue-600 hover:underline">Artificial Analysis</a>
+                    measuring overall AI capability across reasoning, knowledge, math, and programming benchmarks.
+                    Higher scores indicate stronger all-around performance.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">💻 Coding Index</h3>
+                <p>Measures code generation, debugging, and algorithm implementation ability based on HumanEval, SWE-bench, and similar benchmarks.</p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">🔢 Math Index</h3>
+                <p>Evaluates mathematical reasoning and problem-solving using benchmarks like MATH and GSM8K.</p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">⚡ Speed (tokens/sec)</h3>
+                <p>The number of tokens generated per second. Higher is faster. Important for real-time applications and high-volume processing.</p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">💰 Value</h3>
+                <p>Intelligence index per dollar of API cost. A useful metric when optimizing for performance within a budget.</p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-2">📊 ELO Score</h3>
+                <p>
+                    Borrowed from chess, ELO scores rank image, audio, and video generation models based on head-to-head user preference votes.
+                    A higher score means users consistently preferred this model over its competitors.
+                </p>
+            </section>
+
+            <!-- Data Sources -->
+            <section class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 mb-6 prose">
+                <h2 class="section-title">Data Sources</h2>
+                <ul>
+                    <li>
+                        <strong><a href="https://artificialanalysis.ai" target="_blank" class="text-blue-600 hover:underline">Artificial Analysis</a></strong>
+                        — LLM intelligence, coding, math, speed, value rankings. ELO rankings for image, speech, and video models.
+                    </li>
+                    <li>
+                        <strong><a href="https://huggingface.co" target="_blank" class="text-blue-600 hover:underline">HuggingFace</a></strong>
+                        — Open-source AI community trending model data.
+                    </li>
+                    <li>
+                        <strong><a href="https://openrouter.ai" target="_blank" class="text-blue-600 hover:underline">OpenRouter</a></strong>
+                        — LLM API pricing data.
+                    </li>
+                </ul>
+                <p>All data is collected automatically and updated daily.</p>
+            </section>
+
+            <!-- FAQ -->
+            <section class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 mb-6 prose">
+                <h2 class="section-title">FAQ</h2>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-1">How often is the data updated?</h3>
+                <p>Ranking data is updated automatically every day. News is refreshed separately on a regular basis.</p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-1">Which AI models are included?</h3>
+                <p>
+                    Models from major AI companies including GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro, Llama 3.1, Mistral, Qwen, and many more.
+                    New models are added automatically as they are released.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-1">How do I use the comparison feature?</h3>
+                <p>
+                    Click the "+ Compare" button next to any model in the rankings table.
+                    Select up to 4 models and click "Compare" in the bottom bar to see a radar chart and detailed side-by-side metrics.
+                </p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-1">Is this service free?</h3>
+                <p>Yes, completely free. No sign-up required.</p>
+
+                <h3 class="font-bold text-gray-800 mt-4 mb-1">Found incorrect data or a bug?</h3>
+                <p>
+                    Please report it via <a href="https://github.com/suncity2000/ai-index/issues" target="_blank" class="text-blue-600 hover:underline">GitHub Issues</a>
+                    and we'll review and fix it.
+                </p>
+            </section>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200 mt-12">
+        <div class="container mx-auto px-4 py-6 text-center text-sm text-gray-600">
+            <p>© 2026 ainet. All rights reserved.</p>
+            <p class="mt-2 flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
+                <a href="/" class="hover:text-blue-500 transition-colors">홈 / Home</a>
+                <span class="hidden sm:inline text-gray-300">|</span>
+                <a href="/privacy-policy.html" class="hover:text-blue-500 transition-colors">개인정보처리방침 / Privacy Policy</a>
+                <span class="hidden sm:inline text-gray-300">|</span>
+                <a href="https://github.com/suncity2000/ai-index/issues" target="_blank" rel="noopener noreferrer" class="hover:text-blue-500 transition-colors">문의 / Contact</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        function setLang(lang) {
+            document.getElementById('ko').classList.toggle('active', lang === 'ko');
+            document.getElementById('en').classList.toggle('active', lang === 'en');
+            document.getElementById('btn-ko').className = lang === 'ko'
+                ? 'px-3 py-1 text-xs font-bold rounded-lg border border-blue-500 bg-blue-500 text-white transition-all'
+                : 'px-3 py-1 text-xs font-bold rounded-lg border border-gray-300 text-gray-600 hover:border-blue-400 hover:text-blue-600 transition-all';
+            document.getElementById('btn-en').className = lang === 'en'
+                ? 'px-3 py-1 text-xs font-bold rounded-lg border border-blue-500 bg-blue-500 text-white transition-all'
+                : 'px-3 py-1 text-xs font-bold rounded-lg border border-gray-300 text-gray-600 hover:border-blue-400 hover:text-blue-600 transition-all';
+            document.documentElement.lang = lang;
+        }
+    </script>
+</body>
+</html>
