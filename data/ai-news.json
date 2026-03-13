@@ -1,11 +1,47 @@
 {
-  "last_updated": "2026-03-12T09:40:32.363Z",
+  "last_updated": "2026-03-13T09:37:16.448Z",
   "news": [
     {
-      "title": "발달장애 학생을 위한 맞춤형 인공지능(AI) 디지털 교육자료 보급! - 전체 | 카드/한컷 | 멀티미디어",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XOEFMUU5FdmY3YmhOTEpDUWxPWGxmYjVXQ0txOWY0cl9fYmhreDNJb1F2S3FCdFVLZUdjdE5jYllsXzZLT2tXcl9UbWJOVk1mODU1bTYwOFBkTEdTYTU2V09ZVTJtWHpkLU5JLW5n?oc=5",
-      "source": "대한민국 정책브리핑",
-      "date": "Thu, 12 Mar 2026 01:31:09 GMT"
+      "title": "[한국방송뉴스(주)] 공무원과 인공지능(AI)이 힘을 합쳐노동자의 생명을 지킨다",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB5ZUw1eFU5cmlHRHN6UXUyT0dyTVdrVUlrOGRlbUcyUDd5UWN6bDVUeXBNSlVBeG4ySFIwLUJwdjVQcTYxMWlSRVNJREYwX2o4Yk9GMzNHRS1KNWtBakE?oc=5",
+      "source": "한국방송뉴스",
+      "date": "Fri, 13 Mar 2026 06:24:44 GMT"
+    },
+    {
+      "title": "아모레퍼시픽, 챗GPT에 ‘아모레몰’ 앱 탑재... AI 뷰티 커머스 서비스 확대",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOR3F2R1ZiVEtVNUtqWEkyQ0gwODA1OXptdXVvSEhtalJpaEd1MHB6WDdGVlFYRVg0aUFEUmpYRDlJUjlPOUJXTEdQLU5TNTFpYUhZZGNMeGRIQ2x6Z19iYUhR?oc=5",
+      "source": "코스인코리아닷컴",
+      "date": "Fri, 13 Mar 2026 03:59:45 GMT"
+    },
+    {
+      "title": "아모레퍼시픽, 챗GPT에 '아모레몰' 앱 출시",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9rMzNUNVZXaFZ3MkJkMW9UQVh1NnZvV0d1Sjdfa3dSUzZiZHJrWWhEcW1SSmlSWTViZTBzSFJPTjBpTzBBVTJURXhURlRGcTMxMjU2WtIBhgJBVV95cUxQVm5FXzNOOUxOaGZBc2NaUEVteEdwOXVwWXNKZFRtemxWZDZvYjZIM2FOYl8yWjlEaWFQZ3o4WDVjSVFfNHNBVUlPQ2NnU1NwTVpxaG93MUxoTEdKZTBGaVphcE95RWVRTkh5cnNFZzQ5eEtGWlRnNlhOUW9IY0lSNE14alpSZ2I4ZnlPMFpyaUNhMFB5VXFBLXVhZmZkQWdSQm5ISW1iWUFJQlhKS1lnaU1WOUNROG85SElMc205YUVLU3labTh0eDliYVpJR20zVWpLc1NQQjFCbDhQNXU5SzF5SWxOMlhGVERqdTlpT1dvNFFZNy1HREY4dXB1WHh6VnlCMy13?oc=5",
+      "source": "데일리안",
+      "date": "Fri, 13 Mar 2026 02:10:00 GMT"
+    },
+    {
+      "title": "[BLT칼럼] 입력(Prompt)에서 후처리(Post-processing)까지: 생성형 AI 특허의 특허요소",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1mczBWYm0wOEU3a2NSanExQ0V5ZjNDWmZhNURubTVxcmJDRUNjLXZzT1JmT2JlbVYwUjlWY0dxNXgxRW5ueHdveA?oc=5",
+      "source": "플래텀(Platum)",
+      "date": "Thu, 12 Mar 2026 12:01:39 GMT"
+    },
+    {
+      "title": "교육부, 제8회 교육 공공데이터 인공지능(AI) 활용대회 3월 16일부터 접수 시작",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBNUGdvcXZieFlsc2R5RmZ3WXRtMno4YjRYMWlDU1pEbkl2dGRmRHVFdjVldW5PUmNSVjFLOGEtc2x1SVN4bmJYbURBSUZkM0VwY2huVXpiOWRWQmVYNGs0Vk9Yd3ZBRkNxTmhaY0wxRm1mZw?oc=5",
+      "source": "프레스뉴스",
+      "date": "Wed, 11 Mar 2026 11:30:12 GMT"
+    },
+    {
+      "title": "‘페이스북’의 메타, 인공지능 소셜미디어 몰트북 인수",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1maTM3YU92YnhkeElyVHpxc2VUVnF5eHUyX1oyQ3VwU3Y1TXhCZ19oNjVDR0swUFBQdXdFdDZIaHp0VkxyVVVNblplM2lMN2lLcjVCbEMzM2pMcGZCOUZtUw?oc=5",
+      "source": "한겨레",
+      "date": "Wed, 11 Mar 2026 05:16:00 GMT"
+    },
+    {
+      "title": "경희대, 생성형 AI 플랫폼 ‘ChatKHU’ 도입",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BLUJydWJGOUZHV3dQbmNteUhPYmdKdzlWNS1KMkptdDk0bzNYbGVEZHpXbERfem1senNFUlNENUZESktzZlJ2eTB4UjJGOW4xXzB5dkU2UnYwSFlUTlMxV3c3VmhFVEk?oc=5",
+      "source": "교수신문",
+      "date": "Wed, 11 Mar 2026 05:08:41 GMT"
     },
     {
       "title": "교육 공공데이터 인공지능 활용대회 개최...교육부, AI 미래교육을 위한 혁신 아이디어 발굴",
@@ -26,52 +62,16 @@
       "date": "Wed, 11 Mar 2026 04:04:40 GMT"
     },
     {
-      "title": "경북도, 지능공간정보플랫폼 본격 운영...'인공지능(AI)이 행정 돕는다'",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9sTTUtWVFnQkRmWjQxSlAxS2hnSVpybjJFQWtSak1YZjdDbzVNbHM2c0NBY3hhZVNFdzYzbVgzcW1vcEpMblNnU1NDMFFFb0dtTkVJOFBnSndweXZ0bF9TQkw2eHB2Zw?oc=5",
-      "source": "이로운넷",
-      "date": "Tue, 10 Mar 2026 13:50:03 GMT"
-    },
-    {
-      "title": "“챗GPT 아니었다”…인공지능 이용시간 1위는 ‘이것’",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15dTFfeUJpY2ZCTWo0YmhaM0NnYnhpbmR5bkhYeFBMLTYyTTJqZzNGR2h3OVBFUkhOMm1GQVdlbUZib1QxWmtTMXBWd1A2SEh3cDFLU3VQTkVkZw?oc=5",
-      "source": "농민신문",
-      "date": "Tue, 10 Mar 2026 11:00:00 GMT"
-    },
-    {
-      "title": "韓, UN AI 허브 유치 TF 가동…범정부 유치전 돌입",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84WUd0eHd3SFFCS3ZTTGJyYUJseFlMbU1ZZ1c5SkRlR2RabnJVVjJxMzhNN1RSN01rUVdHWFRUSWEwRTJOVm1fSDF1US1oUQ?oc=5",
-      "source": "전자신문",
-      "date": "Tue, 10 Mar 2026 05:10:51 GMT"
-    },
-    {
-      "title": "한수원, 인공지능(AI) 기반 ‘지능형 상태감시 시스템’ 적용 성공",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56ZmhKUlQ4dGRfUHVrVnZHU1dkMF9FQ2N6QnJSZ2s3Zjg4RmtHamJVb3BnTUtrWk9nLUotZDhTMUlFb2hUcF9XMHQ2cnhpZHZ3clZURTBLX0R3R3k3Vl83VzBzRUN1UDdXWTE2eUFBWmM?oc=5",
-      "source": "에너지데일리",
-      "date": "Tue, 10 Mar 2026 03:24:00 GMT"
-    },
-    {
-      "title": "AI, 광고 도구 넘어 크리에이티브 파트너로…뜨거운바다, 생성형 AI 필름 '아우라' 공개",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wdEtPZ0FtXy1iakFBZGtKS3JsMlpXa09hLU8zUkRfaThlZTFMbThHV2RTTjVMVS03N0pqOHRka1dlYlF3NFByOTV5VzFfdzNpV0RNOW9mc0JxSnozOHJiVjh3NU0wYUE?oc=5",
-      "source": "인공지능신문",
-      "date": "Tue, 10 Mar 2026 01:39:51 GMT"
-    },
-    {
-      "title": "주택금융공사, 인공지능(AI) 기반 맞춤형 모기지 추천 서비스 도입",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9BbS1zR1pFVExndVp3VWlMT0c3SXVWY2RFbnpqQ1NfblNnbXM5OUZySXhRVjdoekhWNVNsNC1OREczZVhHa0FoU2VYT3VCRVRfbmJkaENtRVVtdkh0c3RuanhoY2s?oc=5",
-      "source": "서울경제TV",
-      "date": "Tue, 10 Mar 2026 00:23:26 GMT"
-    },
-    {
-      "title": "교육부, '인공지능(AI) 중점학교' 본격 운영…초중등 교육 이끈다",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBXQkZybEdCZjFyTnk2R1JXV3FIS3lzeEJzZEcwdnZ2a3JhRnRxUmI2amFzRVZzS2R0dWdvU1RkSi1fQS10ckdfTUM2cw?oc=5",
+      "title": "시흥시, 경기도와 '경기 인공지능(AI) 혁신클러스터' 본격 가동",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAwTWM0NlVoeUVzeVlveklCTE0yUkhlQnhMQzBRcVl0OFg2QzBIZ29CeEVLMTFvZXhNRll3RkVDNF9wSjZfdTAtSXhkeHNNM3dZbjdNbw?oc=5",
       "source": "v.daum.net",
-      "date": "Mon, 09 Mar 2026 07:58:36 GMT"
+      "date": "Wed, 11 Mar 2026 00:32:57 GMT"
     },
     {
-      "title": "[AI 포커스] “AI가 엑셀을 대신 만든다”…오픈AI GPT-5.4 기반 ‘ChatGPT for Excel’ 베타 공개",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1OYy1QRVhkcUpIRkZ5VVNTZ3ozQkVSOExsLTRhZmJSTEVjSURVYzdOS0d3VnV1S3V6NWdTWEhjS1hnbVc5ZVU1SUdyTE9fdk91MVB0QVhXSEZ4QmNPdUx1dC1vTjFRRHV4aG1tS19BVldfZw?oc=5",
-      "source": "아웃소싱타임스",
-      "date": "Sun, 08 Mar 2026 22:04:27 GMT"
+      "title": "인공지능(AI)으로 더 똑똑해진 정부24+",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Gd3FiNkotNENJTG1OWXFVRTAtQlM2R3Rmblh5MGpvMUR0ZVBZN0V2eUFhY1lBQTJHOXo1RHZmdWhhZ3oyS2NxN3JzeDJUNUlhNllEMWxKRE9NeDVySlFIdVYwNGNkUVNyRFJ3?oc=5",
+      "source": "시정일보",
+      "date": "Wed, 11 Mar 2026 00:00:00 GMT"
     }
   ]
 }
