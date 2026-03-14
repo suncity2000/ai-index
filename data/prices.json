@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T04:18:42.376Z",
+  "last_updated": "2026-03-14T04:15:52.267Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -1211,6 +1211,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3.5-9b",
+      "name": "Qwen: Qwen3.5-9B",
+      "price_1m_input": 0.05,
+      "price_1m_output": 0.15,
+      "context_length": 256000,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3-30b-a3b-thinking-2507",
       "name": "Qwen: Qwen3 30B A3B Thinking 2507",
       "price_1m_input": 0.05,
@@ -1287,14 +1295,6 @@
       "name": "Qwen: Qwen3 30B A3B Instruct 2507",
       "price_1m_input": 0.09,
       "price_1m_output": 0.3,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3.5-9b",
-      "name": "Qwen: Qwen3.5-9B",
-      "price_1m_input": 0.1,
-      "price_1m_output": 0.15,
       "context_length": 262144,
       "top_provider": true
     },
