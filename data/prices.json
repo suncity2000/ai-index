@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T04:45:02.227Z",
+  "last_updated": "2026-03-17T04:24:01.291Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -504,14 +504,6 @@
       "price_1m_input": 4,
       "price_1m_output": 4,
       "context_length": 32768,
-      "top_provider": true
-    },
-    {
-      "id": "meta-llama/llama-3.1-405b-instruct",
-      "name": "Meta: Llama 3.1 405B Instruct",
-      "price_1m_input": 4,
-      "price_1m_output": 4,
-      "context_length": 131000,
       "top_provider": true
     },
     {
@@ -1243,6 +1235,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3.5-flash-02-23",
+      "name": "Qwen: Qwen3.5-Flash",
+      "price_1m_input": 0.07,
+      "price_1m_output": 0.26,
+      "context_length": 1000000,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3-coder-30b-a3b-instruct",
       "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
       "price_1m_input": 0.07,
@@ -1296,14 +1296,6 @@
       "price_1m_input": 0.09,
       "price_1m_output": 0.3,
       "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3.5-flash-02-23",
-      "name": "Qwen: Qwen3.5-Flash",
-      "price_1m_input": 0.1,
-      "price_1m_output": 0.4,
-      "context_length": 1000000,
       "top_provider": true
     },
     {
@@ -1427,14 +1419,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen-2.5-coder-32b-instruct",
-      "name": "Qwen2.5 Coder 32B Instruct",
-      "price_1m_input": 0.2,
-      "price_1m_output": 0.2,
-      "context_length": 32768,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen-2.5-vl-7b-instruct",
       "name": "Qwen: Qwen2.5-VL 7B Instruct",
       "price_1m_input": 0.2,
@@ -1491,6 +1475,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen-plus",
+      "name": "Qwen: Qwen-Plus",
+      "price_1m_input": 0.26,
+      "price_1m_output": 0.78,
+      "context_length": 1000000,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3.5-397b-a17b",
       "name": "Qwen: Qwen3.5 397B A17B",
       "price_1m_input": 0.39,
@@ -1499,18 +1491,18 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen-plus",
-      "name": "Qwen: Qwen-Plus",
-      "price_1m_input": 0.4,
-      "price_1m_output": 1.2,
-      "context_length": 1000000,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3-235b-a22b",
       "name": "Qwen: Qwen3 235B A22B",
       "price_1m_input": 0.45,
       "price_1m_output": 1.82,
+      "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen-vl-max",
+      "name": "Qwen: Qwen VL Max",
+      "price_1m_input": 0.52,
+      "price_1m_output": 2.08,
       "context_length": 131072,
       "top_provider": true
     },
@@ -1523,6 +1515,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen-2.5-coder-32b-instruct",
+      "name": "Qwen2.5 Coder 32B Instruct",
+      "price_1m_input": 0.66,
+      "price_1m_output": 1,
+      "context_length": 32768,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3-max-thinking",
       "name": "Qwen: Qwen3 Max Thinking",
       "price_1m_input": 0.78,
@@ -1531,11 +1531,11 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen-vl-max",
-      "name": "Qwen: Qwen VL Max",
-      "price_1m_input": 0.8,
-      "price_1m_output": 3.2,
-      "context_length": 131072,
+      "id": "qwen/qwen3-max",
+      "name": "Qwen: Qwen3 Max",
+      "price_1m_input": 0.78,
+      "price_1m_output": 3.9,
+      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1552,14 +1552,6 @@
       "price_1m_input": 1.04,
       "price_1m_output": 4.16,
       "context_length": 32768,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-max",
-      "name": "Qwen: Qwen3 Max",
-      "price_1m_input": 1.2,
-      "price_1m_output": 6,
-      "context_length": 262144,
       "top_provider": true
     },
     {
