@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>전 세계 AI 확산 현황 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg: #060e1d;
+      --surface: #0b1829;
+      --border: rgba(0, 220, 255, 0.12);
+      --text: #cce8f5;
+      --muted: #4d7d99;
+      --accent: #00dcff;
+      --accent-glow: rgba(0, 220, 255, 0.15);
+      --yellow: #f9c74f;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Outfit', system-ui, sans-serif;
+      padding: 36px 24px 56px;
+      min-height: 100vh;
+    }
+
+    .wrap { max-width: 1100px; margin: 0 auto; }
+
+    /* ── Header ── */
+    .live-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+    .live-badge::before {
+      content: '';
+      width: 7px; height: 7px;
+      background: var(--accent);
+      border-radius: 50%;
+      animation: blink 2.2s ease-in-out infinite;
+    }
+    @keyframes blink { 0%,100%{opacity:1;} 50%{opacity:0.2;} }
+
+    h1 {
+      font-size: clamp(24px, 4vw, 44px);
+      font-weight: 700;
+      letter-spacing: -0.025em;
+      line-height: 1.1;
+      margin-bottom: 8px;
+    }
+    h1 span { color: var(--accent); }
+
+    .subtitle {
+      font-size: 15px;
+      font-weight: 300;
+      color: var(--muted);
+      margin-bottom: 28px;
+      max-width: 640px;
+      line-height: 1.6;
+    }
+
+    /* ── Stats ── */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .stat {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 20px;
+      transition: border-color 0.2s;
+    }
+    .stat:hover { border-color: rgba(0,220,255,0.3); }
+
+    .stat-num {
+      font-family: 'DM Mono', monospace;
+      font-size: 30px;
+      font-weight: 500;
+      color: var(--accent);
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+
+    .stat-label {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.4;
+    }
+
+    /* ── Map container ── */
+    .map-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    #world-map { width: 100%; display: block; }
+
+    .sphere-ocean { fill: #040c19; }
+
+    .graticule {
+      fill: none;
+      stroke: rgba(255,255,255,0.03);
+      stroke-width: 0.5px;
+    }
+
+    .country {
+      stroke: rgba(0,220,255,0.08);
+      stroke-width: 0.4px;
+      cursor: pointer;
+      transition: opacity 0.15s, stroke 0.15s, stroke-width 0.15s;
+    }
+    .country:hover {
+      opacity: 0.75;
+      stroke: rgba(0,220,255,0.5);
+      stroke-width: 1.2px;
+    }
+
+    .borders {
+      fill: none;
+      stroke: rgba(0,220,255,0.07);
+      stroke-width: 0.5px;
+    }
+
+    /* ── Tooltip ── */
+    #tooltip {
+      position: absolute;
+      pointer-events: none;
+      background: rgba(4, 10, 22, 0.96);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px 16px;
+      min-width: 150px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.7), 0 0 0 1px rgba(0,220,255,0.05);
+      backdrop-filter: blur(12px);
+      opacity: 0;
+      transition: opacity 0.12s ease;
+      z-index: 30;
+    }
+    #tooltip.show { opacity: 1; }
+    #tooltip.confirmed { border-color: rgba(0,220,255,0.45); }
+    #tooltip.estimated { border-color: rgba(249,199,79,0.4); }
+
+    .tt-country { font-weight: 600; font-size: 14px; margin-bottom: 4px; }
+    .tt-rate {
+      font-family: 'DM Mono', monospace;
+      font-size: 26px;
+      font-weight: 500;
+      color: var(--accent);
+      line-height: 1.1;
+    }
+    .tt-tag {
+      display: inline-block;
+      font-size: 10px;
+      border-radius: 4px;
+      padding: 2px 7px;
+      margin-top: 5px;
+      letter-spacing: 0.03em;
+    }
+    .tt-tag.c { background: rgba(0,220,255,0.12); color: var(--accent); }
+    .tt-tag.e { background: rgba(249,199,79,0.12); color: var(--yellow); }
+    .tt-tag.n { background: rgba(255,255,255,0.05); color: var(--muted); }
+
+    /* ── Legend ── */
+    .legend {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      padding: 14px 20px;
+      border-top: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+
+    .no-data-item {
+      display: flex; align-items: center; gap: 7px;
+      font-size: 11px; color: var(--muted);
+    }
+    .nd-swatch {
+      width: 20px; height: 9px;
+      background: #111f2f;
+      border-radius: 3px;
+      border: 1px solid rgba(255,255,255,0.07);
+    }
+
+    .legend-scale { flex: 1; min-width: 220px; }
+    .legend-bar {
+      height: 9px;
+      border-radius: 5px;
+      background: linear-gradient(to right,
+        #0d2137 0%,
+        #0b3d5f 20%,
+        #0c6b96 40%,
+        #08a8cc 65%,
+        #00dcff 100%);
+    }
+    .legend-ticks {
+      display: flex; justify-content: space-between;
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    .legend-note {
+      font-size: 11px; color: var(--muted); text-align: right; line-height: 1.5;
+    }
+    .legend-note b { color: var(--yellow); }
+
+    /* ── Footer ── */
+    footer {
+      margin-top: 16px;
+      display: flex; justify-content: space-between;
+      align-items: flex-start;
+      gap: 14px; flex-wrap: wrap;
+    }
+
+    .src-info { font-size: 11.5px; color: var(--muted); line-height: 1.75; }
+    .src-info b { color: var(--text); }
+
+    .period-pill {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      color: var(--accent);
+      background: var(--accent-glow);
+      border: 1px solid rgba(0,220,255,0.2);
+      border-radius: 20px;
+      padding: 5px 14px;
+      white-space: nowrap;
+      align-self: flex-start;
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="live-badge">반기 업데이트 · 147개국 분석</div>
+  <h1>전 세계 <span>AI 확산</span> 현황 2025</h1>
+  <p class="subtitle">
+    국가별 생산가능인구 중 생성형 AI 도구 사용 비율 —
+    Microsoft AI Economy Institute 공식 보고서 기반
+  </p>
+
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-num">16.3%</div>
+      <div class="stat-label">전 세계 평균<br>AI 사용률</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">64.0%</div>
+      <div class="stat-label">최고: UAE<br>세계 1위</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">147</div>
+      <div class="stat-label">측정 대상<br>국가 수</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">+1.2pp</div>
+      <div class="stat-label">전반기 대비<br>증가폭</div>
+    </div>
+  </div>
+
+  <div class="map-card">
+    <svg id="world-map" viewBox="0 0 960 500" preserveAspectRatio="xMidYMid meet"></svg>
+
+    <div id="tooltip">
+      <div class="tt-country" id="tt-name"></div>
+      <div class="tt-rate" id="tt-rate"></div>
+      <span class="tt-tag" id="tt-tag"></span>
+    </div>
+
+    <div class="legend">
+      <div class="no-data-item">
+        <div class="nd-swatch"></div>
+        <span>데이터 없음</span>
+      </div>
+      <div class="legend-scale">
+        <div class="legend-bar"></div>
+        <div class="legend-ticks">
+          <span>0%</span><span>16%</span><span>32%</span><span>48%</span><span>64%+</span>
+        </div>
+      </div>
+      <div class="legend-note">
+        AI 사용률 (생산가능인구 기준)<br>
+        <b>~ 추정치</b> 포함 (지역 평균 기반)
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="src-info">
+      <b>출처:</b> Microsoft AI Economy Institute, Global AI Adoption Report 2025 H2 &nbsp;|&nbsp;
+      <b>업데이트 주기:</b> 반기 (6개월)<br>
+      공식 확인 데이터 + 지역 평균 기반 추정치 포함 · 호버 시 구분 표시됨
+    </div>
+    <div class="period-pill">2025 H2 기준</div>
+  </footer>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script>
+/* ── Data: confirmed (c:true) from Microsoft report; estimated (c:false) from regional averages ── */
+const AI = {
+  784:{n:"아랍에미리트",r:64.0,c:true},
+  702:{n:"싱가포르",r:60.9,c:true},
+  578:{n:"노르웨이",r:46.4,c:true},
+  372:{n:"아일랜드",r:44.6,c:true},
+  250:{n:"프랑스",r:44.0,c:true},
+  840:{n:"미국",r:28.3,c:true},
+  724:{n:"스페인",r:40.0,c:false},
+  752:{n:"스웨덴",r:39.0,c:false},
+  208:{n:"덴마크",r:38.0,c:false},
+  246:{n:"핀란드",r:37.0,c:false},
+  528:{n:"네덜란드",r:36.0,c:false},
+  756:{n:"스위스",r:34.0,c:false},
+  56: {n:"벨기에",r:33.0,c:false},
+  826:{n:"영국",r:33.0,c:false},
+  36: {n:"호주",r:32.0,c:false},
+  682:{n:"사우디아라비아",r:32.0,c:false},
+  376:{n:"이스라엘",r:35.0,c:false},
+  634:{n:"카타르",r:34.0,c:false},
+  48: {n:"바레인",r:36.0,c:false},
+  276:{n:"독일",r:30.0,c:false},
+  620:{n:"포르투갈",r:30.0,c:false},
+  40: {n:"오스트리아",r:29.0,c:false},
+  124:{n:"캐나다",r:29.0,c:false},
+  410:{n:"대한민국",r:27.0,c:false},
+  380:{n:"이탈리아",r:27.0,c:false},
+  554:{n:"뉴질랜드",r:28.0,c:false},
+  392:{n:"일본",r:24.0,c:false},
+  616:{n:"폴란드",r:22.0,c:false},
+  300:{n:"그리스",r:22.0,c:false},
+  458:{n:"말레이시아",r:22.0,c:false},
+  203:{n:"체코",r:21.0,c:false},
+  348:{n:"헝가리",r:20.0,c:false},
+  792:{n:"튀르키예",r:18.0,c:false},
+  76: {n:"브라질",r:17.0,c:false},
+  608:{n:"필리핀",r:16.0,c:false},
+  858:{n:"우루과이",r:16.0,c:false},
+  356:{n:"인도",r:15.0,c:false},
+  642:{n:"루마니아",r:15.0,c:false},
+  484:{n:"멕시코",r:15.0,c:false},
+  764:{n:"태국",r:15.0,c:false},
+  643:{n:"러시아",r:14.0,c:false},
+  170:{n:"콜롬비아",r:14.0,c:false},
+  704:{n:"베트남",r:14.0,c:false},
+  360:{n:"인도네시아",r:13.0,c:false},
+  710:{n:"남아프리카",r:13.0,c:false},
+  804:{n:"우크라이나",r:12.0,c:false},
+  604:{n:"페루",r:12.0,c:false},
+  818:{n:"이집트",r:12.0,c:false},
+  504:{n:"모로코",r:11.0,c:false},
+  504:{n:"모로코",r:11.0,c:false},
+  156:{n:"중국",r:18.0,c:false},
+  32: {n:"아르헨티나",r:15.0,c:false},
+  152:{n:"칠레",r:18.0,c:false},
+  566:{n:"나이지리아",r:9.0,c:false},
+  404:{n:"케냐",r:9.0,c:false},
+  288:{n:"가나",r:8.0,c:false},
+  586:{n:"파키스탄",r:8.0,c:false},
+  50: {n:"방글라데시",r:7.0,c:false},
+  834:{n:"탄자니아",r:6.0,c:false},
+  800:{n:"우간다",r:6.0,c:false},
+  716:{n:"짐바브웨",r:6.0,c:false},
+  24: {n:"앙골라",r:5.0,c:false},
+  231:{n:"에티오피아",r:5.0,c:false},
+};
+
+const W = 960, H = 500;
+const svg = d3.select("#world-map");
+
+const proj = d3.geoNaturalEarth1().scale(153).translate([W/2, H/2 + 10]);
+const path = d3.geoPath().projection(proj);
+
+const colorScale = d3.scaleSequential()
+  .domain([0, 65])
+  .interpolator(d3.interpolate("#0d2137", "#00dcff"));
+
+// Ocean
+svg.append("path").datum({type:"Sphere"}).attr("class","sphere-ocean").attr("d", path);
+
+// Graticule
+svg.append("path").datum(d3.geoGraticule()()).attr("class","graticule").attr("d", path);
+
+const tip     = document.getElementById("tooltip");
+const ttName  = document.getElementById("tt-name");
+const ttRate  = document.getElementById("tt-rate");
+const ttTag   = document.getElementById("tt-tag");
+const mapCard = document.querySelector(".map-card");
+
+fetch("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json")
+  .then(r => r.json())
+  .then(world => {
+    const features = topojson.feature(world, world.objects.countries).features;
+
+    svg.selectAll(".country")
+      .data(features)
+      .join("path")
+      .attr("class","country")
+      .attr("d", path)
+      .attr("fill", d => {
+        const info = AI[+d.id];
+        return info ? colorScale(info.r) : "#111f2f";
+      })
+      .on("mousemove", (evt, d) => {
+        const info = AI[+d.id];
+        const rect = mapCard.getBoundingClientRect();
+        let x = evt.clientX - rect.left + 14;
+        let y = evt.clientY - rect.top - 16;
+
+        // Prevent tooltip overflow
+        if (x + 170 > mapCard.offsetWidth) x -= 190;
+        if (y < 0) y = 8;
+
+        tip.style.left = x + "px";
+        tip.style.top  = y + "px";
+
+        if (info) {
+          ttName.textContent = info.n;
+          ttRate.textContent = info.r.toFixed(1) + "%";
+          if (info.c) {
+            ttTag.textContent  = "✓ 공식 데이터";
+            ttTag.className    = "tt-tag c";
+            tip.className      = "show confirmed";
+          } else {
+            ttTag.textContent  = "~ 추정치";
+            ttTag.className    = "tt-tag e";
+            tip.className      = "show estimated";
+          }
+        } else {
+          ttName.textContent = "데이터 없음";
+          ttRate.textContent = "—";
+          ttTag.textContent  = "";
+          ttTag.className    = "tt-tag n";
+          tip.className      = "show";
+        }
+      })
+      .on("mouseleave", () => { tip.className = ""; });
+
+    // Country borders
+    svg.append("path")
+      .datum(topojson.mesh(world, world.objects.countries, (a,b) => a !== b))
+      .attr("class","borders")
+      .attr("d", path);
+  })
+  .catch(err => console.warn("지도 데이터 로딩 실패:", err));
+</script>
+</body>
+</html>
