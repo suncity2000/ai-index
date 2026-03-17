@@ -23,11 +23,11 @@
       background: var(--bg);
       color: var(--text);
       font-family: 'Outfit', system-ui, sans-serif;
-      padding: 36px 24px 56px;
+      padding: 28px 20px 40px;
       min-height: 100vh;
     }
 
-    .wrap { max-width: 1100px; margin: 0 auto; }
+    .wrap { max-width: 1380px; margin: 0 auto; }
 
     /* ── Header ── */
     .live-badge {
@@ -51,7 +51,7 @@
     @keyframes blink { 0%,100%{opacity:1;} 50%{opacity:0.2;} }
 
     h1 {
-      font-size: clamp(24px, 4vw, 44px);
+      font-size: clamp(22px, 3.5vw, 40px);
       font-weight: 700;
       letter-spacing: -0.025em;
       line-height: 1.1;
@@ -60,10 +60,10 @@
     h1 span { color: var(--accent); }
 
     .subtitle {
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 300;
       color: var(--muted);
-      margin-bottom: 28px;
+      margin-bottom: 20px;
       max-width: 640px;
       line-height: 1.6;
     }
@@ -71,33 +71,47 @@
     /* ── Stats ── */
     .stats {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-      gap: 10px;
-      margin-bottom: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 8px;
+      margin-bottom: 16px;
     }
 
     .stat {
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 12px;
-      padding: 18px 20px;
+      padding: 14px 16px;
       transition: border-color 0.2s;
     }
     .stat:hover { border-color: rgba(96,165,250,0.35); }
 
     .stat-num {
       font-family: 'DM Mono', monospace;
-      font-size: 30px;
+      font-size: 26px;
       font-weight: 500;
       color: var(--accent);
       line-height: 1;
-      margin-bottom: 6px;
+      margin-bottom: 5px;
     }
 
     .stat-label {
-      font-size: 12px;
+      font-size: 11px;
       color: var(--muted);
       line-height: 1.4;
+    }
+
+    /* ── Split layout ── */
+    .content-split {
+      display: flex;
+      gap: 12px;
+      align-items: stretch;
+    }
+
+    .map-side {
+      flex: 1;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
     }
 
     /* ── Map container ── */
@@ -107,6 +121,7 @@
       border-radius: 16px;
       overflow: hidden;
       position: relative;
+      flex: 1;
     }
 
     #world-map { width: 100%; display: block; }
@@ -129,6 +144,11 @@
       opacity: 0.75;
       stroke: rgba(96,165,250,0.55);
       stroke-width: 1.2px;
+    }
+    .country.map-active {
+      opacity: 0.8;
+      stroke: #60a5fa;
+      stroke-width: 1.8px;
     }
 
     .borders {
@@ -181,7 +201,7 @@
       display: flex;
       align-items: center;
       gap: 18px;
-      padding: 14px 20px;
+      padding: 12px 16px;
       border-top: 1px solid var(--border);
       flex-wrap: wrap;
     }
@@ -197,7 +217,7 @@
       border: 1px solid rgba(255,255,255,0.07);
     }
 
-    .legend-scale { flex: 1; min-width: 220px; }
+    .legend-scale { flex: 1; min-width: 180px; }
     .legend-bar {
       height: 9px;
       border-radius: 5px;
@@ -221,15 +241,149 @@
     }
     .legend-note b { color: var(--yellow); }
 
+    /* ── Ranking Panel ── */
+    .rank-panel {
+      width: 272px;
+      flex-shrink: 0;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .rank-header {
+      padding: 14px 16px 10px;
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+
+    .rank-header-title {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .rank-header-title::before {
+      content: '';
+      width: 6px; height: 6px;
+      background: var(--accent);
+      border-radius: 50%;
+    }
+
+    .rank-header-sub {
+      font-size: 10px;
+      color: var(--muted);
+      margin-top: 3px;
+      font-family: 'DM Mono', monospace;
+    }
+
+    .rank-list {
+      overflow-y: auto;
+      flex: 1;
+      padding: 6px 0;
+    }
+
+    .rank-list::-webkit-scrollbar { width: 4px; }
+    .rank-list::-webkit-scrollbar-track { background: transparent; }
+    .rank-list::-webkit-scrollbar-thumb { background: rgba(96,165,250,0.2); border-radius: 2px; }
+
+    .rank-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 14px;
+      cursor: pointer;
+      transition: background 0.15s;
+      border-radius: 0;
+    }
+    .rank-row:hover,
+    .rank-row.active {
+      background: rgba(96,165,250,0.08);
+    }
+    .rank-row.active .rank-name { color: var(--accent); }
+
+    .rank-num {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      color: var(--muted);
+      width: 20px;
+      text-align: right;
+      flex-shrink: 0;
+    }
+    .rank-row:nth-child(1) .rank-num { color: #fbbf24; font-weight: 700; }
+    .rank-row:nth-child(2) .rank-num { color: #94a3b8; font-weight: 700; }
+    .rank-row:nth-child(3) .rank-num { color: #c47b2b; font-weight: 700; }
+
+    .rank-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .rank-name {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-bottom: 3px;
+      transition: color 0.15s;
+    }
+
+    .rank-bar-wrap {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .rank-bar-bg {
+      flex: 1;
+      height: 4px;
+      background: rgba(255,255,255,0.06);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .rank-bar-fill {
+      height: 100%;
+      border-radius: 2px;
+      background: var(--accent);
+      transition: width 0.4s ease;
+    }
+
+    .rank-pct {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      color: var(--accent);
+      width: 36px;
+      text-align: right;
+      flex-shrink: 0;
+    }
+
+    .rank-confirmed {
+      width: 5px; height: 5px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .rank-confirmed.c { background: var(--accent); opacity: 0.7; }
+    .rank-confirmed.e { background: var(--yellow); opacity: 0.5; }
+
     /* ── Footer ── */
     footer {
-      margin-top: 16px;
+      margin-top: 12px;
       display: flex; justify-content: space-between;
       align-items: flex-start;
       gap: 14px; flex-wrap: wrap;
     }
 
-    .src-info { font-size: 11.5px; color: var(--muted); line-height: 1.75; }
+    .src-info { font-size: 11px; color: var(--muted); line-height: 1.75; }
     .src-info b { color: var(--text); }
 
     .period-pill {
@@ -239,7 +393,7 @@
       background: var(--accent-glow);
       border: 1px solid rgba(96,165,250,0.25);
       border-radius: 20px;
-      padding: 5px 14px;
+      padding: 4px 12px;
       white-space: nowrap;
       align-self: flex-start;
     }
@@ -274,30 +428,44 @@
     </div>
   </div>
 
-  <div class="map-card">
-    <svg id="world-map" viewBox="0 0 960 500" preserveAspectRatio="xMidYMid meet"></svg>
+  <div class="content-split">
+    <!-- Map -->
+    <div class="map-side">
+      <div class="map-card">
+        <svg id="world-map" viewBox="0 0 960 500" preserveAspectRatio="xMidYMid meet"></svg>
 
-    <div id="tooltip">
-      <div class="tt-country" id="tt-name"></div>
-      <div class="tt-rate" id="tt-rate"></div>
-      <span class="tt-tag" id="tt-tag"></span>
-    </div>
+        <div id="tooltip">
+          <div class="tt-country" id="tt-name"></div>
+          <div class="tt-rate" id="tt-rate"></div>
+          <span class="tt-tag" id="tt-tag"></span>
+        </div>
 
-    <div class="legend">
-      <div class="no-data-item">
-        <div class="nd-swatch"></div>
-        <span>데이터 없음</span>
-      </div>
-      <div class="legend-scale">
-        <div class="legend-bar"></div>
-        <div class="legend-ticks">
-          <span>0%</span><span>16%</span><span>32%</span><span>48%</span><span>64%+</span>
+        <div class="legend">
+          <div class="no-data-item">
+            <div class="nd-swatch"></div>
+            <span>데이터 없음</span>
+          </div>
+          <div class="legend-scale">
+            <div class="legend-bar"></div>
+            <div class="legend-ticks">
+              <span>0%</span><span>16%</span><span>32%</span><span>48%</span><span>64%+</span>
+            </div>
+          </div>
+          <div class="legend-note">
+            AI 사용률 (생산가능인구 기준)<br>
+            <b>~ 추정치</b> 포함 (지역 평균 기반)
+          </div>
         </div>
       </div>
-      <div class="legend-note">
-        AI 사용률 (생산가능인구 기준)<br>
-        <b>~ 추정치</b> 포함 (지역 평균 기반)
+    </div>
+
+    <!-- Ranking Panel -->
+    <div class="rank-panel">
+      <div class="rank-header">
+        <div class="rank-header-title">국가 순위</div>
+        <div class="rank-header-sub">AI 사용률 기준 · 높은 순</div>
       </div>
+      <div class="rank-list" id="rank-list"></div>
     </div>
   </div>
 
@@ -366,7 +534,6 @@ const AI = {
   604:{n:"페루",r:12.0,c:false},
   818:{n:"이집트",r:12.0,c:false},
   504:{n:"모로코",r:11.0,c:false},
-  504:{n:"모로코",r:11.0,c:false},
   156:{n:"중국",r:18.0,c:false},
   32: {n:"아르헨티나",r:15.0,c:false},
   152:{n:"칠레",r:18.0,c:false},
@@ -404,6 +571,78 @@ const ttRate  = document.getElementById("tt-rate");
 const ttTag   = document.getElementById("tt-tag");
 const mapCard = document.querySelector(".map-card");
 
+// Map from country id → SVG path element (for highlighting)
+const countryPathMap = new Map();
+
+// ── Build ranking list ──
+const rankSorted = Object.entries(AI)
+  .map(([id, d]) => ({ id: +id, ...d }))
+  .sort((a, b) => b.r - a.r);
+
+const rankList = document.getElementById('rank-list');
+const rankRowMap = new Map(); // id → row element
+
+rankSorted.forEach((d, i) => {
+  const row = document.createElement('div');
+  row.className = 'rank-row';
+  row.dataset.id = d.id;
+
+  const barPct = Math.min((d.r / 65) * 100, 100).toFixed(1);
+
+  row.innerHTML = `
+    <div class="rank-num">${i + 1}</div>
+    <div class="rank-info">
+      <div class="rank-name">${d.n}</div>
+      <div class="rank-bar-wrap">
+        <div class="rank-bar-bg"><div class="rank-bar-fill" style="width:${barPct}%"></div></div>
+        <div class="rank-pct">${d.r.toFixed(1)}%</div>
+      </div>
+    </div>
+    <div class="rank-confirmed ${d.c ? 'c' : 'e'}" title="${d.c ? '공식 데이터' : '추정치'}"></div>
+  `;
+
+  row.addEventListener('mouseenter', () => highlightFromList(d.id));
+  row.addEventListener('mouseleave', () => clearHighlight());
+
+  rankList.appendChild(row);
+  rankRowMap.set(d.id, row);
+});
+
+// ── Highlight helpers ──
+let activeId = null;
+
+function highlightFromList(id) {
+  clearHighlight(false);
+  activeId = id;
+  const row = rankRowMap.get(id);
+  if (row) row.classList.add('active');
+  const pathEl = countryPathMap.get(id);
+  if (pathEl) pathEl.classList.add('map-active');
+}
+
+function highlightFromMap(id) {
+  clearHighlight(false);
+  activeId = id;
+  const row = rankRowMap.get(id);
+  if (row) {
+    row.classList.add('active');
+    row.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  }
+  const pathEl = countryPathMap.get(id);
+  if (pathEl) pathEl.classList.add('map-active');
+}
+
+function clearHighlight(resetActive = true) {
+  if (activeId !== null) {
+    const row = rankRowMap.get(activeId);
+    if (row) row.classList.remove('active');
+    const pathEl = countryPathMap.get(activeId);
+    if (pathEl) pathEl.classList.remove('map-active');
+  }
+  if (resetActive) activeId = null;
+}
+
+// ── Load map ──
 fetch("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json")
   .then(r => r.json())
   .then(world => {
@@ -418,13 +657,15 @@ fetch("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json")
         const info = AI[+d.id];
         return info ? colorScale(info.r) : "#111f2f";
       })
+      .each(function(d) {
+        if (AI[+d.id]) countryPathMap.set(+d.id, this);
+      })
       .on("mousemove", (evt, d) => {
         const info = AI[+d.id];
         const rect = mapCard.getBoundingClientRect();
         let x = evt.clientX - rect.left + 14;
         let y = evt.clientY - rect.top - 16;
 
-        // Prevent tooltip overflow
         if (x + 170 > mapCard.offsetWidth) x -= 190;
         if (y < 0) y = 8;
 
@@ -443,15 +684,20 @@ fetch("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json")
             ttTag.className    = "tt-tag e";
             tip.className      = "show estimated";
           }
+          highlightFromMap(+d.id);
         } else {
           ttName.textContent = "데이터 없음";
           ttRate.textContent = "—";
           ttTag.textContent  = "";
           ttTag.className    = "tt-tag n";
           tip.className      = "show";
+          clearHighlight();
         }
       })
-      .on("mouseleave", () => { tip.className = ""; });
+      .on("mouseleave", () => {
+        tip.className = "";
+        clearHighlight();
+      });
 
     // Country borders
     svg.append("path")
