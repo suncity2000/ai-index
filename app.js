@@ -2707,7 +2707,7 @@ function openAdoptionModal() {
     const modal = document.getElementById('adoption-modal');
     const iframe = document.getElementById('adoption-iframe');
     if (!modal || !iframe) return;
-    if (!iframe.src) {
+    if (!iframe.getAttribute('src')) {
         iframe.src = 'ai-adoption-world-map.html';
     }
     modal.classList.remove('hidden');
