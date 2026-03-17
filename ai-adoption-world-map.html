@@ -11,11 +11,11 @@
     :root {
       --bg: #060e1d;
       --surface: #0b1829;
-      --border: rgba(0, 220, 255, 0.12);
+      --border: rgba(99, 155, 255, 0.15);
       --text: #cce8f5;
       --muted: #4d7d99;
-      --accent: #00dcff;
-      --accent-glow: rgba(0, 220, 255, 0.15);
+      --accent: #60a5fa;
+      --accent-glow: rgba(96, 165, 250, 0.15);
       --yellow: #f9c74f;
     }
 
@@ -83,7 +83,7 @@
       padding: 18px 20px;
       transition: border-color 0.2s;
     }
-    .stat:hover { border-color: rgba(0,220,255,0.3); }
+    .stat:hover { border-color: rgba(96,165,250,0.35); }
 
     .stat-num {
       font-family: 'DM Mono', monospace;
@@ -120,20 +120,20 @@
     }
 
     .country {
-      stroke: rgba(0,220,255,0.08);
+      stroke: rgba(96,165,250,0.10);
       stroke-width: 0.4px;
       cursor: pointer;
       transition: opacity 0.15s, stroke 0.15s, stroke-width 0.15s;
     }
     .country:hover {
       opacity: 0.75;
-      stroke: rgba(0,220,255,0.5);
+      stroke: rgba(96,165,250,0.55);
       stroke-width: 1.2px;
     }
 
     .borders {
       fill: none;
-      stroke: rgba(0,220,255,0.07);
+      stroke: rgba(96,165,250,0.08);
       stroke-width: 0.5px;
     }
 
@@ -146,14 +146,14 @@
       border-radius: 10px;
       padding: 12px 16px;
       min-width: 150px;
-      box-shadow: 0 10px 40px rgba(0,0,0,0.7), 0 0 0 1px rgba(0,220,255,0.05);
+      box-shadow: 0 10px 40px rgba(0,0,0,0.7), 0 0 0 1px rgba(96,165,250,0.06);
       backdrop-filter: blur(12px);
       opacity: 0;
       transition: opacity 0.12s ease;
       z-index: 30;
     }
     #tooltip.show { opacity: 1; }
-    #tooltip.confirmed { border-color: rgba(0,220,255,0.45); }
+    #tooltip.confirmed { border-color: rgba(96,165,250,0.5); }
     #tooltip.estimated { border-color: rgba(249,199,79,0.4); }
 
     .tt-country { font-weight: 600; font-size: 14px; margin-bottom: 4px; }
@@ -172,7 +172,7 @@
       margin-top: 5px;
       letter-spacing: 0.03em;
     }
-    .tt-tag.c { background: rgba(0,220,255,0.12); color: var(--accent); }
+    .tt-tag.c { background: rgba(96,165,250,0.14); color: var(--accent); }
     .tt-tag.e { background: rgba(249,199,79,0.12); color: var(--yellow); }
     .tt-tag.n { background: rgba(255,255,255,0.05); color: var(--muted); }
 
@@ -202,11 +202,11 @@
       height: 9px;
       border-radius: 5px;
       background: linear-gradient(to right,
-        #0d2137 0%,
-        #0b3d5f 20%,
-        #0c6b96 40%,
-        #08a8cc 65%,
-        #00dcff 100%);
+        #0d1e37 0%,
+        #0f2f6a 20%,
+        #1a4db0 40%,
+        #3b82f6 65%,
+        #93c5fd 100%);
     }
     .legend-ticks {
       display: flex; justify-content: space-between;
@@ -237,7 +237,7 @@
       font-size: 11px;
       color: var(--accent);
       background: var(--accent-glow);
-      border: 1px solid rgba(0,220,255,0.2);
+      border: 1px solid rgba(96,165,250,0.25);
       border-radius: 20px;
       padding: 5px 14px;
       white-space: nowrap;
@@ -390,7 +390,7 @@ const path = d3.geoPath().projection(proj);
 
 const colorScale = d3.scaleSequential()
   .domain([0, 65])
-  .interpolator(d3.interpolate("#0d2137", "#00dcff"));
+  .interpolator(d3.interpolate("#0d1e37", "#3b82f6"));
 
 // Ocean
 svg.append("path").datum({type:"Sphere"}).attr("class","sphere-ocean").attr("d", path);
