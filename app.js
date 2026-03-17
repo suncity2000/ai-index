@@ -2700,3 +2700,34 @@ function showToast(message) {
         setTimeout(() => toast.remove(), 300);
     }, 2000);
 }
+
+
+// ── AI World Adoption Modal ──
+function openAdoptionModal() {
+    const modal = document.getElementById('adoption-modal');
+    const iframe = document.getElementById('adoption-iframe');
+    if (!modal || !iframe) return;
+    if (!iframe.src) {
+        iframe.src = 'ai-adoption-world-map.html';
+    }
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeAdoptionModal() {
+    const modal = document.getElementById('adoption-modal');
+    if (!modal) return;
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+    document.body.style.overflow = 'auto';
+}
+
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        const adoptionModal = document.getElementById('adoption-modal');
+        if (adoptionModal && !adoptionModal.classList.contains('hidden')) {
+            closeAdoptionModal();
+        }
+    }
+});
