@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T04:29:24.595Z",
+  "last_updated": "2026-03-19T04:27:48.052Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -166,7 +166,7 @@
       "id": "deepseek/deepseek-v3.2",
       "name": "DeepSeek: DeepSeek V3.2",
       "price_1m_input": 0.26,
-      "price_1m_output": 0.4,
+      "price_1m_output": 0.38,
       "context_length": 163840,
       "top_provider": true
     },
@@ -235,14 +235,6 @@
       "top_provider": true
     },
     {
-      "id": "google/gemma-3-27b-it",
-      "name": "Google: Gemma 3 27B",
-      "price_1m_input": 0.03,
-      "price_1m_output": 0.11,
-      "context_length": 128000,
-      "top_provider": true
-    },
-    {
       "id": "google/gemma-2-9b-it",
       "name": "Google: Gemma 2 9B",
       "price_1m_input": 0.03,
@@ -263,6 +255,14 @@
       "name": "Google: Gemma 3 12B",
       "price_1m_input": 0.04,
       "price_1m_output": 0.13,
+      "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "google/gemma-3-27b-it",
+      "name": "Google: Gemma 3 27B",
+      "price_1m_input": 0.08,
+      "price_1m_output": 0.16,
       "context_length": 131072,
       "top_provider": true
     },
@@ -541,9 +541,9 @@
     {
       "id": "mistralai/mistral-small-3.2-24b-instruct",
       "name": "Mistral: Mistral Small 3.2 24B",
-      "price_1m_input": 0.06,
-      "price_1m_output": 0.18,
-      "context_length": 131072,
+      "price_1m_input": 0.08,
+      "price_1m_output": 0.2,
+      "context_length": 128000,
       "top_provider": true
     },
     {
@@ -1235,14 +1235,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3-30b-a3b-thinking-2507",
-      "name": "Qwen: Qwen3 30B A3B Thinking 2507",
-      "price_1m_input": 0.05,
-      "price_1m_output": 0.34,
-      "context_length": 32768,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3-8b",
       "name": "Qwen: Qwen3 8B",
       "price_1m_input": 0.05,
@@ -1291,6 +1283,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3-30b-a3b-thinking-2507",
+      "name": "Qwen: Qwen3 30B A3B Thinking 2507",
+      "price_1m_input": 0.08,
+      "price_1m_output": 0.4,
+      "context_length": 131072,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3-30b-a3b",
       "name": "Qwen: Qwen3 30B A3B",
       "price_1m_input": 0.08,
@@ -1311,7 +1311,7 @@
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
       "price_1m_input": 0.09,
       "price_1m_output": 1.1,
-      "context_length": 131072,
+      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1336,14 +1336,6 @@
       "price_1m_input": 0.1,
       "price_1m_output": 0.78,
       "context_length": 131072,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-235b-a22b-thinking-2507",
-      "name": "Qwen: Qwen3 235B A22B Thinking 2507",
-      "price_1m_input": 0.11,
-      "price_1m_output": 0.6,
-      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1395,11 +1387,19 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+      "price_1m_input": 0.15,
+      "price_1m_output": 1.5,
+      "context_length": 131072,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwq-32b",
       "name": "Qwen: QwQ 32B",
       "price_1m_input": 0.15,
-      "price_1m_output": 0.4,
-      "context_length": 32768,
+      "price_1m_output": 0.58,
+      "context_length": 131072,
       "top_provider": true
     },
     {
