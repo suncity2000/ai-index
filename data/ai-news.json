@@ -1,11 +1,53 @@
 {
-  "last_updated": "2026-03-18T09:53:47.644Z",
+  "last_updated": "2026-03-19T09:40:59.834Z",
   "news": [
+    {
+      "title": "미디어젠, ETRI와 생성형 AI 기술 개발 협력 강화…LLM '미라지' 고도화",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE12RXY1N1VnVUYtSTdmT3Nja0lmSGxjT1FpdTJvU1ZkUFl0WmRNLXBWT1hQMGU2OUpvSFphY202UFhIdmdRUHVMOGFpNGExbmRZcjVEdnB6RnhGV3lWb2NXZnJBMHFOVTFQS3dkWVBtMDYtZw?oc=5",
+      "source": "프라임경제",
+      "date": "Thu, 19 Mar 2026 01:40:54 GMT"
+    },
+    {
+      "title": "[기후부] 인공지능(AI) 응용제품 상용화로 환경산업 키운다",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0yWmotYk9iaG11LWtiWm1KXzNLMWJYQjdxZFBOcUEtYzNuaGYyOS1vOVl3WV9mZXFYSHlCYjUzMFAyN082ZS0yRWpuVmdBUW9NVkF2UlJ0eTJRaFlFOTRpWS1uQXJJaENFRXltR3c4QkRLZ9IBdkFVX3lxTE10WmRHWG5xS3phQjNVMW9jS3NhajFvZVYwLXhYbzk2TGxiX1pQSlEyZGFGRDRncVZIWlM1c1JVakdTLTZ1VmxfcXlkVUtaRkptakhSMmUyRXV1cG1VOXo5cm9wZUxodmpWaWtjS0k2WGs5MWdNRWc?oc=5",
+      "source": "워터저널",
+      "date": "Wed, 18 Mar 2026 23:54:00 GMT"
+    },
+    {
+      "title": "유럽의회, 딥페이크 음란 이미지 생성 AI 규제 착수",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB0Zi05QWdNLVNWY2hnQkpMYk9fUmpqbF8zVDVuZ0xkdWQ1TEo4blFDRnhxendoUXYyZzc0VjlFbVBicWhKYUt0TWN0SE1RUQ?oc=5",
+      "source": "전자신문",
+      "date": "Wed, 18 Mar 2026 22:11:33 GMT"
+    },
+    {
+      "title": "영상 생성 AI, 창작인가 복제인가… 산업 불확실성 커진다",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9kekw5RlA4SEEzR2ZFbmdYOGNFczlqSERnM0x5dk92YTFFNTI3VmoxYlRmNXh2YWxwWlliN2U1SF9wUG5BVng0NnN1NVRyVTB6SEJaYjk4VnJzd0MzNmVha2pTMGtNWWJocl9aMzR2ZTNyT0RQ0gF0QVVfeXFMT2R6TDlGUDhIQTNHZkVuZ1g4Y0VzOWpIRGczTHl2T3ZhMUU1MjdWajFiVGY1eHZhbHBaWWI3ZTVIX3BQbkFWeDQ2c3U1VHJVMHpIQlpiOThWcnN3QzM2ZWFralMwa01ZYmhyX1ozNHZlM3JPRFA?oc=5",
+      "source": "IT조선",
+      "date": "Wed, 18 Mar 2026 21:09:46 GMT"
+    },
+    {
+      "title": "[기고] 인공지능(AI) 시대 '쓸모없는 인간'",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1xc2M3THVGQmlQelFQN1RlUUc4bkZjS1pfZXZIb1pzRGM4WVdraF9hZWFiQzBubVMtb1FZX1p2Zm1QWkctNlFSUkViMDE2RGlNZlpVczV5TmtlVEpVYmxRNnh1YVdwRnh1OHRiZVZ1Wl8?oc=5",
+      "source": "인천일보",
+      "date": "Wed, 18 Mar 2026 10:41:00 GMT"
+    },
     {
       "title": "인공지능 중점학교 1141곳 선정 AI 수업 확대 등 385억 지원",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE11Y2RYR1BDQVFSbktUUUlRMl94V05XMF9ISDVMd3hfWkRZMFlfMWNYVFpOMUhnSzV5ajNJNG93bkVQNXg1eUhvNDFzUXBuaGZiMUJSX0R2LThWcW81WVNCM19VemplZmNPOVhHTA?oc=5",
       "source": "대한민국 정책브리핑",
-      "date": "Wed, 18 Mar 2026 04:47:48 GMT"
+      "date": "Wed, 18 Mar 2026 08:23:47 GMT"
+    },
+    {
+      "title": "“인공지능이 지켜주는 일상 속 안전”...국토부, 2년간 750억 투입해 AI 기술 상용화 지원",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51NWNJa2pIa2xmVmNfXzAwWElxRmptWVowT3hocVgxU2tlRUlyc3g0YlpObDNHRnBlVlF6UXhUeDBwX29Ra0Nkd0RaWjE5WEE3OFNFTFBFa1NMNzlJT3ZZeTFQVnhndFk?oc=5",
+      "source": "인공지능신문",
+      "date": "Wed, 18 Mar 2026 04:34:33 GMT"
+    },
+    {
+      "title": "[릴리즈 노트] 역대 최강 소형 모델, 오픈AI GPT-5.4 mini·nano 출시",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4yZThROHVueHhFRE41d2gzSkJmcXd4RnFmNW1pS0NadGF6RDd5SVB1OUhBS3F5R09OTVZtZktWaHhQWHhmY3JGRUh0T3ZWOEpscXIwSUV2YlRpUQ?oc=5",
+      "source": "요즘IT",
+      "date": "Wed, 18 Mar 2026 01:33:30 GMT"
     },
     {
       "title": "ChatGPT 무료 프로그램이 곧 종료됩니다.",
@@ -20,12 +62,6 @@
       "date": "Tue, 17 Mar 2026 17:25:45 GMT"
     },
     {
-      "title": "[김경환 변호사의 IT법] 〈5〉인공지능(AI) 정렬 실패: 법치주의의 새로운 과제",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9QcU1FSWRhZ2Z5Vk03RGVoWmtnbDkteWJyXzVxNEh3QXlQUUN3TDRSSXVfRHI2MFVxTUlKTER1bXhiX0hpWDIwUDh2Sjl2QQ?oc=5",
-      "source": "전자신문",
-      "date": "Tue, 17 Mar 2026 07:00:00 GMT"
-    },
-    {
       "title": "경북교육청, AI·디지털 교육 교재 3종 개발⋯인공지능(AI)·디지털 교육 강화",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wTk52cDlTb21ZSWpXR1hkS0dEbEVHMDUxOEdJWWhnV1o0SzhNTEtkREktSHNwRVpqbjhpS01jM0prQUkwdmtNS0NjWnNwNW8?oc=5",
       "source": "v.daum.net",
@@ -36,42 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBVN3lPcnp6b0ZwOXk5QzdHUmdyWUZPZVdUSEVoTFlJQVhQa2lZa245MVNTTTZ6eUNWcUltVUZPeDltRldfVmZlMmpIS2V6dzJBQnA5R284STM?oc=5",
       "source": "서울특별시",
       "date": "Tue, 17 Mar 2026 00:43:00 GMT"
-    },
-    {
-      "title": "“AI가 ‘섹시한 자살 코치’ 될 수도”…챗GPT 성인모드 논란",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ITWNEMkN1aTlwX2tUVkF5RUpsVU5iZVRWUmswX0JXWEZfTjFidFVTSExORlF1WkUwQkllRUMzaTkxU1dqOFBDeE15dW1fUmtERFZjN04xbW9JUEgyellJcml2ZW94b0o1dzBwcTVGTkxWVHPSAWZBVV95cUxOWldKQjBzOUlsYzQ3NWpuZllpQmJ0c2JxYk4zX24zTjJVUHduMDc2aHN2ZjhsYjJmNTBpSldyLUxYRzFDT0RNeF9QakNXbDVnZDFpN1EzQkE0NlhiNk02a2VHOWl6d3c?oc=5",
-      "source": "동아일보",
-      "date": "Mon, 16 Mar 2026 04:52:39 GMT"
-    },
-    {
-      "title": "국립광주과학관, '전 국민 인공지능(AI) 창작 경진대회' 개최",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56aTltczZadGRwNTMwOEpyVGdWWTlLLTlBdlRCUmw0ZHhEanBRVkhIMTBwbkpGN2ZJSXM5N2Jyazg0cl9sNEpvSTlQVndDMTRiY2V6SHNLd3NlLXc0eTFEVXFXZlJNNzdiMS00N21QaWxTVmI30gF0QVVfeXFMTnppOW1zNlp0ZHA1MzA4SnJUZ1ZZOUstOUF2VEJSbDRkeERqcFFWSEgxMHBuSkY3ZklJczk3YnJrODRyX2w0Sm9JOVBWd0MxNGJjZXpIc0t3c2UtdzR5MURVcVdmUk03N2IxLTQ3bVBpbFNWYjc?oc=5",
-      "source": "이뉴스투데이",
-      "date": "Mon, 16 Mar 2026 00:50:56 GMT"
-    },
-    {
-      "title": "\"AI가 쓰고, 봇이 퍼뜨리고\"... ChatGPT를 선전 공장으로 쓴 러시아 정보전 정황",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9kZzdPTWxkd0NSLWhQVVFtbk9OSUNDUF93YW9TdWhFdzQ2Tkd6aFpfV0Y1N3hEQ1k4ZWJ3Y1l3UTZnOGJOXzE3VkRud2xoSTRiZG1SVWQybmRuZGdkMG9PSjhtdkVzWl94Mks1MmUycjAzZGpHVlg0dTJ3?oc=5",
-      "source": "로이슈",
-      "date": "Sat, 14 Mar 2026 11:28:52 GMT"
-    },
-    {
-      "title": "교육부, 제8회 교육 공공데이터 인공지능(AI) 활용대회 3월 16일부터 접수 시작",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1jcjFheHEyam5KWU9WZFFVSFdYX0g5NVVuZDY3aVJ2eEFZWnlwR0dzYWpJaXhrRnd3aEluTVRYeEdRUjI1NXJTVEVjbUFLeEtyeDNIUmI4cFBocllZeVVLV1R2NA?oc=5",
-      "source": "대한민국교육신문",
-      "date": "Fri, 13 Mar 2026 11:29:21 GMT"
-    },
-    {
-      "title": "무하유, AI 생성 검사 고도화… “판단 근거 제시로 책임 있는 AI 활용 지원”",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XM3NwN3pDRFVybmlseDE2UExBNG9hOUtCRm0tQ0JRWHZLZU4yNDdsYnhVT3dFZlRSU0Q3YUR6cmpxMy1tckhpdXVHNDh5QlFkaWExcHJqZ3ZwRTJSZkthOUNrS0FhYzg?oc=5",
-      "source": "인공지능신문",
-      "date": "Fri, 13 Mar 2026 08:56:56 GMT"
-    },
-    {
-      "title": "공무원과 인공지능(AI)이 힘을 합쳐노동자의 생명을 지킨다",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB5ZUw1eFU5cmlHRHN6UXUyT0dyTVdrVUlrOGRlbUcyUDd5UWN6bDVUeXBNSlVBeG4ySFIwLUJwdjVQcTYxMWlSRVNJREYwX2o4Yk9GMzNHRS1KNWtBakE?oc=5",
-      "source": "한국방송뉴스",
-      "date": "Fri, 13 Mar 2026 06:24:44 GMT"
     }
   ]
 }
