@@ -1,6 +1,36 @@
 {
-  "last_updated": "2026-03-23T10:01:11.954Z",
+  "last_updated": "2026-03-24T09:54:37.923Z",
   "news": [
+    {
+      "title": "동산의료원, 생성형 AI 통합플랫폼 도입",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tR0VWcmhlX3pjcGNUQnVqRnhCX1VwYVlJY2E3ZnFNZzlRcG1UaFMyWTFRTUtaZXJ1OWFDRU9vX0drS21JOVhCU1JZRTBTdmRoWDNJTXpuYkdJRXlURjdGVnV1LWw1NEJrVVhadA?oc=5",
+      "source": "데일리메디",
+      "date": "Tue, 24 Mar 2026 08:00:00 GMT"
+    },
+    {
+      "title": "KOMSA, 소형선박 인공지능(AI)‧자율운항 실증 본격화",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA4UmhHd3EtZXQtc1pDN1RrclFFOXJJX1lqRTVjNnFkdlFWMDZ0Q3FTQ0RSMjhCbUVXSEMxYS1kQXU3QkM2bXFyZjlJV0U0a0V5b0dkczlHM253Z0dYOGdReHF2UHF3M3p3MXNJ?oc=5",
+      "source": "BBS불교방송",
+      "date": "Tue, 24 Mar 2026 07:42:27 GMT"
+    },
+    {
+      "title": "AI에 돈 내는 사람, 세계 인구의 1%도 안 된다",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9WNmhlakRQUkljYWVPVWhVNmVidFFpOFJXaGxfTUpVS3VsSklfTDlMbUVhaHh4WEtaU3ZBUTNZcm84dzRIMGk1cg?oc=5",
+      "source": "플래텀(Platum)",
+      "date": "Tue, 24 Mar 2026 03:08:56 GMT"
+    },
+    {
+      "title": "경남도, ‘인공지능 기반 통합돌봄’ 본격 가동...전국 광역 최초 ‘AI 통합복지플랫폼’ 6월 본격 개시",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE52MnRpLTc2dU04ejFkTW5aZUN0d0JVMThPWmxKZmptbHJLWkFLSG5HLXhWTmpVMmY2N05jaFdRSndONU1ZSFRNZjY2ZkNVQ1RrX1N5VmpmRjZYdUVsc1pweS04VExocDg?oc=5",
+      "source": "인공지능신문",
+      "date": "Mon, 23 Mar 2026 10:02:47 GMT"
+    },
+    {
+      "title": "모건 스탠리가 인공지능(AI) 관련 문제로 직원 2,500명을 해고했습니다.",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE51MFF0M0ZDZnlVSGhHc2FYMEh2V0JaZFdkc3JHRy03Xzg0a25vN01fUk1JaU95Tm9lcXF6WmtxVXVOUHVVTkl5cWdMb3VGOWpRYzhBaUk4azhGX3paVnpEenZ0aEd3el9zYVcxSVpla21uR1g1ZEdV?oc=5",
+      "source": "Vietnam.vn",
+      "date": "Mon, 23 Mar 2026 09:08:18 GMT"
+    },
     {
       "title": "고려사이버대, ‘생성형 AI 활용 지침’ 제정...교육·연구·행정 전반에 윤리적 AI 활용 기준 마련",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TYlpjeXozRGRWekE1UFN5aGE5bUxJMFBWSGVHRklVT0dIRC1ZOWU1S1UwUEhTZ2lmM1piM3Q4dTNBX1BKSFZZWEJJOGVTY01vSnZScHI1WlF3LXNaOVV2TEw1WFNZYVE?oc=5",
@@ -32,46 +62,16 @@
       "date": "Fri, 20 Mar 2026 07:00:00 GMT"
     },
     {
-      "title": "\"ChatGPT에서 화장품 산다\"…아모레퍼시픽, AI 쇼핑 실험 본격화",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBMUzJyR2FmRG1PSHB4eGoweHBpZnBXMGVIaEQyZndkbWRTWkFkb18xUGVVWTYxU0ZfWmlWVWM1WkNPdDZWTkpkY3p5ck5UOUw2VGM2Vw?oc=5",
-      "source": "v.daum.net",
-      "date": "Thu, 19 Mar 2026 23:32:40 GMT"
+      "title": "AI로 턱관절 이상 MRI 필요 여부 예측…\"환자 부담 경감 기대\"",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONnRLcklkZkMxSmdtbDBvQzl0bEtyY19KQlVWaWczcWlQaF9HVHZaWW5QVEdNMXN2Y3BybG91SFFDQlpUQTIyNGRzaFowblY1YmMweElyUFp4VTMzdnRrWnZfVGJTaWdTSzlmMEtsZFlLMnpaUXVsUnVma1ZZUnZ5SHlTUnVsanoycExrVnhyMA?oc=5",
+      "source": "사이언스타임즈",
+      "date": "Thu, 19 Mar 2026 22:05:13 GMT"
     },
     {
-      "title": "생성형 AI 소송의 쟁점, ‘암기와 재현’[김우균의 지식재산권 산책]",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1mUWEtUV9PZmpnVUp5ZVVTdmtyNzMxY3Y2SEo4SloyTFoyN0NSV1FQUDBVRElDRVJ1ZVd0N2VBeTZ1TXk2aF9mRlVfMG9YRnloNXltSGdSTW1tdkpKLUJ6UTM0TDlTeExoaHEydg?oc=5",
-      "source": "매거진한경",
-      "date": "Thu, 19 Mar 2026 07:00:00 GMT"
-    },
-    {
-      "title": "유럽의회, 딥페이크 음란 이미지 생성 AI 규제 착수",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB0Zi05QWdNLVNWY2hnQkpMYk9fUmpqbF8zVDVuZ0xkdWQ1TEo4blFDRnhxendoUXYyZzc0VjlFbVBicWhKYUt0TWN0SE1RUQ?oc=5",
-      "source": "전자신문",
-      "date": "Wed, 18 Mar 2026 22:11:33 GMT"
-    },
-    {
-      "title": "[기고] 인공지능(AI) 시대 '쓸모없는 인간'",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9SaUtvU3UwSTRCajVCSEFtU1l3MVAtUC1fME1MRDA4WVUxNExNMVhRSXYzM0lELWllMmVGMnJWOHZTMWVkX1E?oc=5",
-      "source": "v.daum.net",
-      "date": "Wed, 18 Mar 2026 10:50:04 GMT"
-    },
-    {
-      "title": "인공지능 중점학교 1141곳 선정 AI 수업 확대 등 385억 지원",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE11Y2RYR1BDQVFSbktUUUlRMl94V05XMF9ISDVMd3hfWkRZMFlfMWNYVFpOMUhnSzV5ajNJNG93bkVQNXg1eUhvNDFzUXBuaGZiMUJSX0R2LThWcW81WVNCM19VemplZmNPOVhHTA?oc=5",
-      "source": "대한민국 정책브리핑",
-      "date": "Wed, 18 Mar 2026 08:23:47 GMT"
-    },
-    {
-      "title": "“인공지능이 지켜주는 일상 속 안전”...국토부, 2년간 750억 투입해 AI 기술 상용화 지원",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51NWNJa2pIa2xmVmNfXzAwWElxRmptWVowT3hocVgxU2tlRUlyc3g0YlpObDNHRnBlVlF6UXhUeDBwX29Ra0Nkd0RaWjE5WEE3OFNFTFBFa1NMNzlJT3ZZeTFQVnhndFk?oc=5",
-      "source": "인공지능신문",
-      "date": "Wed, 18 Mar 2026 04:34:33 GMT"
-    },
-    {
-      "title": "[릴리즈 노트] 역대 최강 소형 모델, 오픈AI GPT-5.4 mini·nano 출시",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4yZThROHVueHhFRE41d2gzSkJmcXd4RnFmNW1pS0NadGF6RDd5SVB1OUhBS3F5R09OTVZtZktWaHhQWHhmY3JGRUh0T3ZWOEpscXIwSUV2YlRpUQ?oc=5",
-      "source": "요즘IT",
-      "date": "Wed, 18 Mar 2026 01:33:30 GMT"
+      "title": "논산시, 인공지능(AI)활용 역량 교육 실시",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1fZGxLNG95cHptbVdSWHQzVV9HQXE0cVFBcmcyczlueDg3Zkp2NmtMZVhYVXBRaDJmLW9RWWlMcTdmajA5SGtLSW5iTDBUUmFUS2c0ZHBUZHN5MG1sYWtQTF9xMWFveDJad2FYUHNGSHVtQnFoQjZlaEtR?oc=5",
+      "source": "로이슈",
+      "date": "Thu, 19 Mar 2026 13:01:17 GMT"
     }
   ]
 }
