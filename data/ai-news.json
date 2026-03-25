@@ -1,11 +1,23 @@
 {
-  "last_updated": "2026-03-24T09:54:37.923Z",
+  "last_updated": "2026-03-25T09:52:40.049Z",
   "news": [
     {
-      "title": "동산의료원, 생성형 AI 통합플랫폼 도입",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tR0VWcmhlX3pjcGNUQnVqRnhCX1VwYVlJY2E3ZnFNZzlRcG1UaFMyWTFRTUtaZXJ1OWFDRU9vX0drS21JOVhCU1JZRTBTdmRoWDNJTXpuYkdJRXlURjdGVnV1LWw1NEJrVVhadA?oc=5",
-      "source": "데일리메디",
-      "date": "Tue, 24 Mar 2026 08:00:00 GMT"
+      "title": "OpenAI가 예기치 않게 Sora AI 동영상 제작 앱 서비스를 종료했습니다.",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZWVqcThkU3FEMWItbzNDNGlFMy10TTdvek5EaG9oVTdtSFhRNjFENmJkMkJKTkI5Zlh1ekVGQWRLSHQ3bTJ5ZFZ2dGxuS3VUZ0xTSnJCck03SXJ1QnBnZzlNa05TRVRnWWo5RWY1RGUxU0sxbmJsZllIQ2FlYnpvMA?oc=5",
+      "source": "Vietnam.vn",
+      "date": "Wed, 25 Mar 2026 09:36:45 GMT"
+    },
+    {
+      "title": "AI 시대인데…보건의료 공공데이터 AI기업 제공 ‘17건’ 그쳐",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GeVlXWHFIdWlCNVpCS0dkTVVzRGdadmRoV25zRlNOMWRKX1NlYWZqQ3pvY3lzeGlPbXN1MU9CdE85czFEN2tCQ1dtdWZORUhuVExXckU2R0tQRC1DNEdPRlJaeUVNMUQxSlV6M1BPVnJmLVnSAXNBVV95cUxNRnlZV1hxSHVpQjVaQktHZE1Vc0RnWnZkaFduc0ZTTjFkSl9TZWFmakN6b2N5c3hpT21zdTFPQnRPOXMxRDdrQkNXbXVmTkVIblRMV3JFNkdLUEQtQzRHT0ZSWnlFTTFEMUpVejNQT1ZyZi1Z?oc=5",
+      "source": "청년의사",
+      "date": "Tue, 24 Mar 2026 21:35:31 GMT"
+    },
+    {
+      "title": "日 대표 인공지능 '사카나AI' 챗봇 경쟁 대열 합류…일본 문화와 사회규범 반영",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUnllOXdqNjFQMVA0WjJxTGtwMHV6aUlCbzhuNXBiYnVfWU53LTh6dkR6aElYVkRfQ2dVdU4zSVNiX29iR1N0MHdUUHJxNWM4emJ4MUF5cVgxTEZRWnNqc0stOXdsZ2x6SDAyQWF3WmZQYUszWnVuNmlteU9PNTJvVUVnV2loanlr?oc=5",
+      "source": "글로벌이코노믹",
+      "date": "Tue, 24 Mar 2026 12:23:49 GMT"
     },
     {
       "title": "KOMSA, 소형선박 인공지능(AI)‧자율운항 실증 본격화",
@@ -32,6 +44,18 @@
       "date": "Mon, 23 Mar 2026 09:08:18 GMT"
     },
     {
+      "title": "설계가 입는 새 옷 ‘지능’...AI·데이터 통합이 결정하는 제조 新 주권은?",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE42cU41QWotdkxJd001RXZNV3J6V1VaazRHQjlYSENxRnJvaWV1SFgwWjZGYlEwYUtpOTY1QnB1SUM3RkNFZE5RX2JycUpPdjVOeURTYXpnNmgwd2NKT2xV?oc=5",
+      "source": "헬로티",
+      "date": "Mon, 23 Mar 2026 08:47:40 GMT"
+    },
+    {
+      "title": "“인공지능 대전환 시대, 한국형 컨트롤타워 역할”",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1IMDA5ckdTc3RHWWp2NUdTdGx5a2kwc240eGQ1YW44STBpNW9YazZrME5FSXptcklZYUR5am1HNG1WT292dTFhUFFiZkJfZzdRVDVOWGl3NXFmdDdtektlNTlkaWt6bVZG?oc=5",
+      "source": "데일리메디",
+      "date": "Mon, 23 Mar 2026 08:16:00 GMT"
+    },
+    {
       "title": "고려사이버대, ‘생성형 AI 활용 지침’ 제정...교육·연구·행정 전반에 윤리적 AI 활용 기준 마련",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TYlpjeXozRGRWekE1UFN5aGE5bUxJMFBWSGVHRklVT0dIRC1ZOWU1S1UwUEhTZ2lmM1piM3Q4dTNBX1BKSFZZWEJJOGVTY01vSnZScHI1WlF3LXNaOVV2TEw1WFNZYVE?oc=5",
       "source": "인공지능신문",
@@ -44,34 +68,10 @@
       "date": "Sun, 22 Mar 2026 08:01:13 GMT"
     },
     {
-      "title": "인공지능(AI) 응용제품 상용화로 환경산업 키운다",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52OHhNLUw0T0pmY2JVSUxtT094QWN0d09XenJ5dk1LaVJCbVpSTWFtdy1PUVRNRWh4NnBQcUxzWUk4V2pQN01CbjVkZmQwclBheDhkVWl4b0prRGttY2hYbTZBNm0?oc=5",
-      "source": "기후에너지경제",
-      "date": "Fri, 20 Mar 2026 07:39:04 GMT"
-    },
-    {
-      "title": "공장·마케팅·코딩까지…생성형 AI로 성과 낸 글로벌 기업 사례 4선",
-      "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxOLWdJRjI0NG4zVk03YjR5cHVTN05MRUo1MDZHRmR0ZUF5Qnk2NmpoTm9LOGZZMXQ2X1JLNGUzbV80bWp4Tmt2YWFsQTQ5Y0Z0d3dwVkRpbGRScjJFSEZGSFVuNlQwaUo0S3BMX216cnN0MlJjRTFnRk8td0pRNmJCbGdYYXY0cVFXdzNtQXlReFRYMFJOdklqREt1N1pXNGhHazdfb09tRHZuenRacmNWTXpPbXhyUl9aamtqZkFUaG94U3JlUkUtRkhpbFB4NUZsdEk3LWlOV0lmYVBDUjBQZzdJeUdvN3FnWHBVY25McXhWaC1PNHlVbnZNbjBwbkFjWnJ6bUFkQXhDLTdIQVBycWJ5bXZDenNTWFVtcjBuN01fb20wV2tfYUFpclJaRGZuLWt3WFBTejNUZ2M4R1NLbWxpR0RQaVZ0cWdveWQzYw?oc=5",
-      "source": "cio.com",
-      "date": "Fri, 20 Mar 2026 07:20:41 GMT"
-    },
-    {
-      "title": "직원 대상 인공지능(AI) 활용 교육 나서",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1SlBSLXFIQVZPUzNBUXZWSVF5QmNiSm9ibE82NERaLTNJdXZrRENTRWZaMGVkbUpYYVc5cWtiNllmdXRrdTNYR2FwU3FvUHEwekpkQURqQ3pJQQ?oc=5",
-      "source": "농민신문",
-      "date": "Fri, 20 Mar 2026 07:00:00 GMT"
-    },
-    {
-      "title": "AI로 턱관절 이상 MRI 필요 여부 예측…\"환자 부담 경감 기대\"",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONnRLcklkZkMxSmdtbDBvQzl0bEtyY19KQlVWaWczcWlQaF9HVHZaWW5QVEdNMXN2Y3BybG91SFFDQlpUQTIyNGRzaFowblY1YmMweElyUFp4VTMzdnRrWnZfVGJTaWdTSzlmMEtsZFlLMnpaUXVsUnVma1ZZUnZ5SHlTUnVsanoycExrVnhyMA?oc=5",
-      "source": "사이언스타임즈",
-      "date": "Thu, 19 Mar 2026 22:05:13 GMT"
-    },
-    {
-      "title": "논산시, 인공지능(AI)활용 역량 교육 실시",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1fZGxLNG95cHptbVdSWHQzVV9HQXE0cVFBcmcyczlueDg3Zkp2NmtMZVhYVXBRaDJmLW9RWWlMcTdmajA5SGtLSW5iTDBUUmFUS2c0ZHBUZHN5MG1sYWtQTF9xMWFveDJad2FYUHNGSHVtQnFoQjZlaEtR?oc=5",
-      "source": "로이슈",
-      "date": "Thu, 19 Mar 2026 13:01:17 GMT"
+      "title": "서산시, 직원 대상 생성형 AI 활용교육 실시 '스마트 행정 역량 강화'",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE01NTBkdUZ5RkI5RGJqUkNMem9RYU9hMnVKVmJEQzBFaTltdWtQY2lMQ08tdTlDc1huMnBZcHBXWFNwUkxKbFZTVzB3NmVoSkU?oc=5",
+      "source": "v.daum.net",
+      "date": "Sun, 22 Mar 2026 02:36:43 GMT"
     }
   ]
 }
