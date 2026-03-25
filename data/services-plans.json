@@ -357,8 +357,14 @@
           "price_monthly": 0,
           "price_yearly_monthly": 0,
           "features": ["기본 영상 생성 모델", "1개 동시 작업"],
-          "limits": "일 10 크레딧",
-          "highlight": false
+          "limits": "일 10 크레딧 (월 ~300)",
+          "highlight": false,
+          "credits_monthly": 300,
+          "credit_unit_ko": "크레딧",
+          "credit_unit_en": "credits",
+          "generation_examples": [
+            { "action_ko": "표준 영상 (8초, 720p)", "action_en": "Standard video (8s, 720p)", "credits_per": 25, "monthly_count": 12 }
+          ]
         },
         {
           "id": "higgsfield-pro",
@@ -367,16 +373,49 @@
           "price_yearly_monthly": 17.40,
           "features": ["전체 모델 접근 (Sora 2·Veo 3.1·Kling 2.6·WAN 2.5)", "우선 처리", "상업적 이용", "워터마크 없음"],
           "limits": "월 600 크레딧",
-          "highlight": true
+          "highlight": true,
+          "credits_monthly": 600,
+          "credit_unit_ko": "크레딧",
+          "credit_unit_en": "credits",
+          "generation_examples": [
+            { "action_ko": "표준 영상 (8초, 720p)", "action_en": "Standard video (8s, 720p)", "credits_per": 25, "monthly_count": 24 },
+            { "action_ko": "Sora 2 Pro (8초, 720p)", "action_en": "Sora 2 Pro (8s, 720p)", "credits_per": 89, "monthly_count": 6 },
+            { "action_ko": "Veo 3.1 Fast (8초, 720p)", "action_en": "Veo 3.1 Fast (8s, 720p)", "credits_per": 40, "monthly_count": 15 }
+          ]
+        },
+        {
+          "id": "higgsfield-ultimate",
+          "name": "Ultimate",
+          "price_monthly": 49,
+          "price_yearly_monthly": null,
+          "features": ["Pro 모든 기능 포함", "월 1,200 크레딧", "고해상도 출력", "우선 처리"],
+          "limits": "월 1,200 크레딧",
+          "highlight": false,
+          "credits_monthly": 1200,
+          "credit_unit_ko": "크레딧",
+          "credit_unit_en": "credits",
+          "generation_examples": [
+            { "action_ko": "표준 영상 (8초, 720p)", "action_en": "Standard video (8s, 720p)", "credits_per": 25, "monthly_count": 48 },
+            { "action_ko": "Sora 2 Pro (8초, 720p)", "action_en": "Sora 2 Pro (8s, 720p)", "credits_per": 89, "monthly_count": 13 },
+            { "action_ko": "Veo 3.1 Fast (8초, 720p)", "action_en": "Veo 3.1 Fast (8s, 720p)", "credits_per": 40, "monthly_count": 30 }
+          ]
         },
         {
           "id": "higgsfield-creator",
           "name": "Creator",
-          "price_monthly": 119,
+          "price_monthly": 149,
           "price_yearly_monthly": 49.80,
-          "features": ["프로 스튜디오 기능", "최우선 처리", "Pro 모든 기능 포함", "고해상도 출력"],
+          "features": ["프로 스튜디오 기능", "최우선 처리", "Ultimate 모든 기능 포함", "고해상도 출력"],
           "limits": "월 6,000 크레딧",
-          "highlight": false
+          "highlight": false,
+          "credits_monthly": 6000,
+          "credit_unit_ko": "크레딧",
+          "credit_unit_en": "credits",
+          "generation_examples": [
+            { "action_ko": "표준 영상 (8초, 720p)", "action_en": "Standard video (8s, 720p)", "credits_per": 25, "monthly_count": 240 },
+            { "action_ko": "Sora 2 Pro (8초, 720p)", "action_en": "Sora 2 Pro (8s, 720p)", "credits_per": 89, "monthly_count": 67 },
+            { "action_ko": "Veo 3.1 Fast (8초, 720p)", "action_en": "Veo 3.1 Fast (8s, 720p)", "credits_per": 40, "monthly_count": 150 }
+          ]
         }
       ]
     },
@@ -394,18 +433,33 @@
           "name": "Free",
           "price_monthly": 0,
           "price_yearly_monthly": 0,
-          "features": ["기본 영상 생성", "일일 무료 크레딧 제공"],
-          "limits": "일 66 크레딧 (롤오버 없음)",
-          "highlight": false
+          "features": ["기본 영상 생성", "일일 무료 크레딧 제공", "워터마크 포함"],
+          "limits": "일 66 크레딧 (월 약 1,980, 롤오버 없음)",
+          "highlight": false,
+          "credits_monthly": 1980,
+          "credit_unit_ko": "크레딧",
+          "credit_unit_en": "credits",
+          "generation_examples": [
+            { "action_ko": "5초 영상 표준 (720p)", "action_en": "5s video standard (720p)", "credits_per": 10, "monthly_count": 198 },
+            { "action_ko": "5초 영상 전문가 (1080p)", "action_en": "5s video pro (1080p)", "credits_per": 35, "monthly_count": 56 }
+          ]
         },
         {
-          "id": "kling-basic",
-          "name": "Basic",
-          "price_monthly": 6.99,
+          "id": "kling-standard",
+          "name": "Standard",
+          "price_monthly": 10,
           "price_yearly_monthly": null,
-          "features": ["1080p 워터마크 없는 출력", "표준 720p 영상 생성", "상업적 이용 가능"],
-          "limits": "월 660 크레딧 (표준 5초 영상 약 33편)",
-          "highlight": false
+          "features": ["1080p 워터마크 없는 출력", "표준 영상 생성", "상업적 이용 가능"],
+          "limits": "월 660 크레딧",
+          "highlight": false,
+          "credits_monthly": 660,
+          "credit_unit_ko": "크레딧",
+          "credit_unit_en": "credits",
+          "generation_examples": [
+            { "action_ko": "5초 영상 표준 (720p)", "action_en": "5s video standard (720p)", "credits_per": 10, "monthly_count": 66 },
+            { "action_ko": "5초 영상 전문가 (1080p)", "action_en": "5s video pro (1080p)", "credits_per": 35, "monthly_count": 18 },
+            { "action_ko": "10초 영상 표준", "action_en": "10s video standard", "credits_per": 20, "monthly_count": 33 }
+          ]
         },
         {
           "id": "kling-pro",
@@ -413,8 +467,33 @@
           "price_monthly": 37,
           "price_yearly_monthly": null,
           "features": ["1080p 네이티브 출력", "Professional 모드 접근", "고품질 영상", "우선 처리"],
-          "limits": "월 3,000 크레딧 (표준 1080p 영상 약 150편)",
-          "highlight": true
+          "limits": "월 3,000 크레딧",
+          "highlight": true,
+          "credits_monthly": 3000,
+          "credit_unit_ko": "크레딧",
+          "credit_unit_en": "credits",
+          "generation_examples": [
+            { "action_ko": "5초 영상 표준 (720p)", "action_en": "5s video standard (720p)", "credits_per": 10, "monthly_count": 300 },
+            { "action_ko": "5초 영상 전문가 (1080p)", "action_en": "5s video pro (1080p)", "credits_per": 35, "monthly_count": 85 },
+            { "action_ko": "10초 영상 전문가", "action_en": "10s video pro", "credits_per": 70, "monthly_count": 42 }
+          ]
+        },
+        {
+          "id": "kling-premier",
+          "name": "Premier",
+          "price_monthly": 92,
+          "price_yearly_monthly": null,
+          "features": ["Pro 모든 기능 포함", "최우선 처리", "고해상도 고품질"],
+          "limits": "월 8,000 크레딧",
+          "highlight": false,
+          "credits_monthly": 8000,
+          "credit_unit_ko": "크레딧",
+          "credit_unit_en": "credits",
+          "generation_examples": [
+            { "action_ko": "5초 영상 표준 (720p)", "action_en": "5s video standard (720p)", "credits_per": 10, "monthly_count": 800 },
+            { "action_ko": "5초 영상 전문가 (1080p)", "action_en": "5s video pro (1080p)", "credits_per": 35, "monthly_count": 228 },
+            { "action_ko": "10초 영상 전문가", "action_en": "10s video pro", "credits_per": 70, "monthly_count": 114 }
+          ]
         }
       ]
     },
@@ -434,7 +513,13 @@
           "price_yearly_monthly": 0,
           "features": ["기본 영상 생성", "워터마크 포함", "대기 시간 있음"],
           "limits": "일일 크레딧 제한",
-          "highlight": false
+          "highlight": false,
+          "credits_monthly": null,
+          "credit_unit_ko": "크레딧",
+          "credit_unit_en": "credits",
+          "generation_examples": [
+            { "action_ko": "6초 영상 (768p)", "action_en": "6s video (768p)", "credits_per": 10, "monthly_count": null }
+          ]
         },
         {
           "id": "hailuo-standard",
@@ -442,8 +527,16 @@
           "price_monthly": 14.99,
           "price_yearly_monthly": null,
           "features": ["가속 처리", "워터마크 없음", "상업적 이용 가능", "Hailuo 01·02 모델"],
-          "limits": "월 1,000 크레딧 (6초 HD 영상 약 20~33편)",
-          "highlight": false
+          "limits": "월 1,000 크레딧",
+          "highlight": false,
+          "credits_monthly": 1000,
+          "credit_unit_ko": "크레딧",
+          "credit_unit_en": "credits",
+          "generation_examples": [
+            { "action_ko": "6초 영상 (768p)", "action_en": "6s video (768p)", "credits_per": 10, "monthly_count": 100 },
+            { "action_ko": "6초 영상 HD (1080p)", "action_en": "6s video HD (1080p)", "credits_per": 40, "monthly_count": 25 },
+            { "action_ko": "10초 영상 (768p)", "action_en": "10s video (768p)", "credits_per": 20, "monthly_count": 50 }
+          ]
         },
         {
           "id": "hailuo-pro",
@@ -451,17 +544,33 @@
           "price_monthly": 54.99,
           "price_yearly_monthly": null,
           "features": ["고급 모델 접근", "우선 처리", "Standard 모든 기능 포함"],
-          "limits": "월 크레딧 증가",
-          "highlight": true
+          "limits": "월 4,500 크레딧",
+          "highlight": true,
+          "credits_monthly": 4500,
+          "credit_unit_ko": "크레딧",
+          "credit_unit_en": "credits",
+          "generation_examples": [
+            { "action_ko": "6초 영상 (768p)", "action_en": "6s video (768p)", "credits_per": 10, "monthly_count": 450 },
+            { "action_ko": "6초 영상 HD (1080p)", "action_en": "6s video HD (1080p)", "credits_per": 40, "monthly_count": 112 },
+            { "action_ko": "10초 영상 (768p)", "action_en": "10s video (768p)", "credits_per": 20, "monthly_count": 225 }
+          ]
         },
         {
-          "id": "hailuo-max",
-          "name": "Max",
-          "price_monthly": 199.99,
+          "id": "hailuo-master",
+          "name": "Master",
+          "price_monthly": 119.99,
           "price_yearly_monthly": null,
-          "features": ["Hailuo 01·02 Relax 무제한", "최고 사용 한도", "최우선 처리", "모든 기능 포함"],
-          "limits": "월 20,000 크레딧",
-          "highlight": false
+          "features": ["최고 사용 한도", "최우선 처리", "Pro 모든 기능 포함"],
+          "limits": "월 10,000 크레딧",
+          "highlight": false,
+          "credits_monthly": 10000,
+          "credit_unit_ko": "크레딧",
+          "credit_unit_en": "credits",
+          "generation_examples": [
+            { "action_ko": "6초 영상 (768p)", "action_en": "6s video (768p)", "credits_per": 10, "monthly_count": 1000 },
+            { "action_ko": "6초 영상 HD (1080p)", "action_en": "6s video HD (1080p)", "credits_per": 40, "monthly_count": 250 },
+            { "action_ko": "10초 영상 (768p)", "action_en": "10s video (768p)", "credits_per": 20, "monthly_count": 500 }
+          ]
         }
       ]
     },
@@ -480,8 +589,15 @@
           "price_monthly": 0,
           "price_yearly_monthly": 0,
           "features": ["기본 영상 생성", "대기열 우선순위 낮음"],
-          "limits": "일 60 크레딧",
-          "highlight": false
+          "limits": "일 60 크레딧 (월 약 1,800)",
+          "highlight": false,
+          "credits_monthly": 1800,
+          "credit_unit_ko": "크레딧",
+          "credit_unit_en": "credits",
+          "generation_examples": [
+            { "action_ko": "6초 영상 (오디오 없음)", "action_en": "6s video (no audio)", "credits_per": 60, "monthly_count": 30 },
+            { "action_ko": "6초 영상 (오디오 포함)", "action_en": "6s video (with audio)", "credits_per": 120, "monthly_count": 15 }
+          ]
         },
         {
           "id": "seedance-starter",
@@ -490,7 +606,14 @@
           "price_yearly_monthly": null,
           "features": ["전문 영상 생성", "우선 처리", "워터마크 없음", "상업적 이용"],
           "limits": "월 약 250 크레딧",
-          "highlight": false
+          "highlight": false,
+          "credits_monthly": 250,
+          "credit_unit_ko": "크레딧",
+          "credit_unit_en": "credits",
+          "generation_examples": [
+            { "action_ko": "6초 영상 (오디오 없음)", "action_en": "6s video (no audio)", "credits_per": 60, "monthly_count": 4 },
+            { "action_ko": "6초 영상 (오디오 포함)", "action_en": "6s video (with audio)", "credits_per": 120, "monthly_count": 2 }
+          ]
         },
         {
           "id": "seedance-pro",
@@ -499,7 +622,15 @@
           "price_yearly_monthly": null,
           "features": ["고급 모델 접근", "고해상도 출력", "빠른 처리", "Starter 모든 기능 포함"],
           "limits": "월 800 크레딧",
-          "highlight": true
+          "highlight": true,
+          "credits_monthly": 800,
+          "credit_unit_ko": "크레딧",
+          "credit_unit_en": "credits",
+          "generation_examples": [
+            { "action_ko": "6초 영상 (오디오 없음)", "action_en": "6s video (no audio)", "credits_per": 60, "monthly_count": 13 },
+            { "action_ko": "6초 영상 (오디오 포함)", "action_en": "6s video (with audio)", "credits_per": 120, "monthly_count": 6 },
+            { "action_ko": "12초 영상 (오디오 없음)", "action_en": "12s video (no audio)", "credits_per": 120, "monthly_count": 6 }
+          ]
         }
       ]
     },
