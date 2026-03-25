@@ -1,10 +1,11 @@
 {
   "last_updated": "2026-03-25",
-  "note": "16개 AI 서비스 구독 플랜 데이터. 가격은 USD 기준, 수동 관리. Enterprise/커스텀 플랜 제외.",
+  "note": "17개 AI 서비스 구독 플랜 데이터. 가격은 USD 기준, 수동 관리. Enterprise/커스텀 플랜 제외. generation_type: image/video/audio 서비스는 플랜별 credits_monthly, credit_unit_ko, generation_examples 필드 포함.",
   "categories": [
     { "id": "ai-assistant", "name_ko": "AI 어시스턴트", "name_en": "AI Assistant" },
     { "id": "image-gen",    "name_ko": "이미지 생성",   "name_en": "Image Generation" },
     { "id": "video-gen",    "name_ko": "영상 생성",     "name_en": "Video Generation" },
+    { "id": "audio-gen",    "name_ko": "음원 생성",     "name_en": "Audio Generation" },
     { "id": "productivity", "name_ko": "생산성 도구",   "name_en": "Productivity" },
     { "id": "app-builder",  "name_ko": "앱 빌더",       "name_en": "App Builder" },
     { "id": "automation",   "name_ko": "자동화",         "name_en": "Automation" }
@@ -155,6 +156,7 @@
       "provider": "Midjourney",
       "provider_color": "#000000",
       "category": "image-gen",
+      "generation_type": "image",
       "url": "https://www.midjourney.com/pricing",
       "plans": [
         {
@@ -164,7 +166,13 @@
           "price_yearly_monthly": 8,
           "features": ["이미지 생성 기본 기능", "일반 GPU 시간", "상업적 이용 가능"],
           "limits": "Fast GPU 3.3시간/월",
-          "highlight": false
+          "highlight": false,
+          "credits_monthly": 198,
+          "credit_unit_ko": "Fast GPU분",
+          "credit_unit_en": "Fast GPU minutes",
+          "generation_examples": [
+            { "action_ko": "표준 이미지 생성 (v7)", "action_en": "Standard image (v7)", "credits_per": 1, "monthly_count": 198 }
+          ]
         },
         {
           "id": "midjourney-standard",
@@ -173,7 +181,14 @@
           "price_yearly_monthly": 24,
           "features": ["Fast GPU 15시간/월", "Relax 모드 무제한", "상업적 이용", "갤러리 접근"],
           "limits": "Fast GPU 15시간/월 + Relax 무제한",
-          "highlight": true
+          "highlight": true,
+          "credits_monthly": 900,
+          "credit_unit_ko": "Fast GPU분",
+          "credit_unit_en": "Fast GPU minutes",
+          "generation_examples": [
+            { "action_ko": "표준 이미지 생성 (Fast)", "action_en": "Standard image (Fast)", "credits_per": 1, "monthly_count": 900 },
+            { "action_ko": "이미지 생성 (Relax, 느린 큐)", "action_en": "Image (Relax, slow queue)", "credits_per": 0, "monthly_count": null }
+          ]
         },
         {
           "id": "midjourney-pro",
@@ -182,7 +197,14 @@
           "price_yearly_monthly": 48,
           "features": ["Fast GPU 30시간/월", "Stealth 모드 (비공개)", "Relax 무제한", "최대 12개 동시 생성"],
           "limits": "Fast GPU 30시간/월 + Relax 무제한",
-          "highlight": false
+          "highlight": false,
+          "credits_monthly": 1800,
+          "credit_unit_ko": "Fast GPU분",
+          "credit_unit_en": "Fast GPU minutes",
+          "generation_examples": [
+            { "action_ko": "표준 이미지 생성 (Fast)", "action_en": "Standard image (Fast)", "credits_per": 1, "monthly_count": 1800 },
+            { "action_ko": "이미지 생성 (Relax, 느린 큐)", "action_en": "Image (Relax, slow queue)", "credits_per": 0, "monthly_count": null }
+          ]
         },
         {
           "id": "midjourney-mega",
@@ -191,7 +213,14 @@
           "price_yearly_monthly": 96,
           "features": ["Fast GPU 60시간/월", "Pro 모든 기능 포함", "최대 12개 동시 생성"],
           "limits": "Fast GPU 60시간/월 + Relax 무제한",
-          "highlight": false
+          "highlight": false,
+          "credits_monthly": 3600,
+          "credit_unit_ko": "Fast GPU분",
+          "credit_unit_en": "Fast GPU minutes",
+          "generation_examples": [
+            { "action_ko": "표준 이미지 생성 (Fast)", "action_en": "Standard image (Fast)", "credits_per": 1, "monthly_count": 3600 },
+            { "action_ko": "이미지 생성 (Relax, 느린 큐)", "action_en": "Image (Relax, slow queue)", "credits_per": 0, "monthly_count": null }
+          ]
         }
       ]
     },
@@ -201,6 +230,7 @@
       "provider": "Freepik",
       "provider_color": "#1273EB",
       "category": "image-gen",
+      "generation_type": "image",
       "url": "https://www.freepik.com/pricing",
       "plans": [
         {
@@ -210,7 +240,15 @@
           "price_yearly_monthly": 5.75,
           "features": ["AI 이미지 생성", "AI 영상 생성", "AI 오디오 생성", "기본 AI 도구"],
           "limits": "월 7,000 AI 크레딧",
-          "highlight": false
+          "highlight": false,
+          "credits_monthly": 7000,
+          "credit_unit_ko": "AI 크레딧",
+          "credit_unit_en": "AI credits",
+          "generation_examples": [
+            { "action_ko": "이미지 기본 생성 (Classic Fast, 4장)", "action_en": "Image basic (Classic Fast, 4 images)", "credits_per": 1, "monthly_count": 7000 },
+            { "action_ko": "이미지 표준 생성 (1장)", "action_en": "Image standard (1 image)", "credits_per": 50, "monthly_count": 140 },
+            { "action_ko": "영상 생성 (5초)", "action_en": "Video (5 sec)", "credits_per": 200, "monthly_count": 35 }
+          ]
         },
         {
           "id": "freepik-premium",
@@ -219,7 +257,15 @@
           "price_yearly_monthly": 10,
           "features": ["전체 AI 도구 접근", "고품질 이미지·영상·오디오", "상업적 이용 라이선스", "워터마크 없음"],
           "limits": "월 18,000 AI 크레딧",
-          "highlight": true
+          "highlight": true,
+          "credits_monthly": 18000,
+          "credit_unit_ko": "AI 크레딧",
+          "credit_unit_en": "AI credits",
+          "generation_examples": [
+            { "action_ko": "이미지 기본 생성 (Classic Fast, 4장)", "action_en": "Image basic (Classic Fast, 4 images)", "credits_per": 1, "monthly_count": 18000 },
+            { "action_ko": "이미지 표준 생성 (1장)", "action_en": "Image standard (1 image)", "credits_per": 50, "monthly_count": 360 },
+            { "action_ko": "영상 생성 (5초)", "action_en": "Video (5 sec)", "credits_per": 200, "monthly_count": 90 }
+          ]
         },
         {
           "id": "freepik-premium-plus",
@@ -228,7 +274,15 @@
           "price_yearly_monthly": 19.60,
           "features": ["강화된 AI 도구", "고해상도 생성", "Premium 모든 기능 포함", "우선 처리"],
           "limits": "월 45,000 AI 크레딧",
-          "highlight": false
+          "highlight": false,
+          "credits_monthly": 45000,
+          "credit_unit_ko": "AI 크레딧",
+          "credit_unit_en": "AI credits",
+          "generation_examples": [
+            { "action_ko": "이미지 기본 생성 (Classic Fast, 4장)", "action_en": "Image basic (Classic Fast, 4 images)", "credits_per": 1, "monthly_count": 45000 },
+            { "action_ko": "이미지 표준 생성 (1장)", "action_en": "Image standard (1 image)", "credits_per": 50, "monthly_count": 900 },
+            { "action_ko": "영상 생성 (5초)", "action_en": "Video (5 sec)", "credits_per": 200, "monthly_count": 225 }
+          ]
         }
       ]
     },
@@ -238,6 +292,7 @@
       "provider": "ByteDance",
       "provider_color": "#FF6B35",
       "category": "image-gen",
+      "generation_type": "image",
       "url": "https://seed.bytedance.com/",
       "plans": [
         {
@@ -247,7 +302,13 @@
           "price_yearly_monthly": 0,
           "features": ["Seedream 5.0 Lite 접근", "로그인 불필요", "워터마크 없음", "무제한 생성"],
           "limits": "브라우저 기반, 무제한",
-          "highlight": false
+          "highlight": false,
+          "credits_monthly": null,
+          "credit_unit_ko": "이미지",
+          "credit_unit_en": "images",
+          "generation_examples": [
+            { "action_ko": "이미지 생성 (브라우저, 무제한)", "action_en": "Image generation (browser, unlimited)", "credits_per": 1, "monthly_count": null }
+          ]
         },
         {
           "id": "seedream-starter",
@@ -256,7 +317,13 @@
           "price_yearly_monthly": null,
           "features": ["월 400장 생성", "고해상도 출력", "상업적 이용 가능", "빠른 처리"],
           "limits": "월 400장",
-          "highlight": true
+          "highlight": true,
+          "credits_monthly": 400,
+          "credit_unit_ko": "이미지",
+          "credit_unit_en": "images",
+          "generation_examples": [
+            { "action_ko": "이미지 생성 (1장)", "action_en": "Image generation (1 image)", "credits_per": 1, "monthly_count": 400 }
+          ]
         },
         {
           "id": "seedream-pro",
@@ -265,7 +332,13 @@
           "price_yearly_monthly": null,
           "features": ["월 2,000장 생성", "최신 모델 우선 접근", "고해상도·고품질", "API 접근"],
           "limits": "월 2,000장",
-          "highlight": false
+          "highlight": false,
+          "credits_monthly": 2000,
+          "credit_unit_ko": "이미지",
+          "credit_unit_en": "images",
+          "generation_examples": [
+            { "action_ko": "이미지 생성 (1장)", "action_en": "Image generation (1 image)", "credits_per": 1, "monthly_count": 2000 }
+          ]
         }
       ]
     },
@@ -275,6 +348,7 @@
       "provider": "Higgsfield AI",
       "provider_color": "#6366F1",
       "category": "video-gen",
+      "generation_type": "video",
       "url": "https://higgsfield.ai/pricing",
       "plans": [
         {
@@ -312,6 +386,7 @@
       "provider": "Kuaishou",
       "provider_color": "#FF4B4B",
       "category": "video-gen",
+      "generation_type": "video",
       "url": "https://klingai.com/global/",
       "plans": [
         {
@@ -349,6 +424,7 @@
       "provider": "MiniMax",
       "provider_color": "#00B4D8",
       "category": "video-gen",
+      "generation_type": "video",
       "url": "https://hailuoai.video/",
       "plans": [
         {
@@ -395,6 +471,7 @@
       "provider": "ByteDance",
       "provider_color": "#7C3AED",
       "category": "video-gen",
+      "generation_type": "video",
       "url": "https://seedance2.ai/",
       "plans": [
         {
