@@ -635,6 +635,67 @@
       ]
     },
     {
+      "id": "suno",
+      "name": "Suno",
+      "provider": "Suno AI",
+      "provider_color": "#7C3AED",
+      "category": "audio-gen",
+      "generation_type": "audio",
+      "url": "https://suno.com/pricing",
+      "plans": [
+        {
+          "id": "suno-free",
+          "name": "Free",
+          "price_monthly": 0,
+          "price_yearly_monthly": 0,
+          "features": ["기본 음악 생성", "AI 가사 생성", "인스트루멘탈 생성", "기본 stem 추출"],
+          "limits": "일 50 크레딧 (월 약 1,500), 비상업적 이용",
+          "highlight": false,
+          "credits_monthly": 1500,
+          "credit_unit_ko": "크레딧",
+          "credit_unit_en": "credits",
+          "generation_examples": [
+            { "action_ko": "곡 생성 (2분, 2곡 동시 생성)", "action_en": "Song generation (2 min, 2 songs)", "credits_per": 10, "monthly_count": 150 },
+            { "action_ko": "곡 연장 (Extend)", "action_en": "Song extend", "credits_per": 10, "monthly_count": 150 }
+          ]
+        },
+        {
+          "id": "suno-pro",
+          "name": "Pro",
+          "price_monthly": 10,
+          "price_yearly_monthly": 8,
+          "features": ["최신 v5 모델 접근", "상업적 이용 권리", "커버 곡 생성", "곡 연장·리믹스", "우선 처리"],
+          "limits": "월 2,500 크레딧",
+          "highlight": true,
+          "credits_monthly": 2500,
+          "credit_unit_ko": "크레딧",
+          "credit_unit_en": "credits",
+          "generation_examples": [
+            { "action_ko": "곡 생성 (2분, 2곡 동시 생성)", "action_en": "Song generation (2 min, 2 songs)", "credits_per": 10, "monthly_count": 250 },
+            { "action_ko": "곡 연장 (Extend)", "action_en": "Song extend", "credits_per": 10, "monthly_count": 250 },
+            { "action_ko": "커버 곡 생성", "action_en": "Cover song", "credits_per": 10, "monthly_count": 250 }
+          ]
+        },
+        {
+          "id": "suno-premier",
+          "name": "Premier",
+          "price_monthly": 30,
+          "price_yearly_monthly": 24,
+          "features": ["Suno Studio (DAW 기능)", "멀티트랙 편집", "Stem 분리 (최대 12트랙)", "MIDI 추출", "Pro 모든 기능 포함", "얼리 액세스"],
+          "limits": "월 10,000 크레딧",
+          "highlight": false,
+          "credits_monthly": 10000,
+          "credit_unit_ko": "크레딧",
+          "credit_unit_en": "credits",
+          "generation_examples": [
+            { "action_ko": "곡 생성 (2분, 2곡 동시 생성)", "action_en": "Song generation (2 min, 2 songs)", "credits_per": 10, "monthly_count": 1000 },
+            { "action_ko": "곡 연장 (Extend)", "action_en": "Song extend", "credits_per": 10, "monthly_count": 1000 },
+            { "action_ko": "MIDI 추출 (Stem당)", "action_en": "MIDI extraction (per stem)", "credits_per": 10, "monthly_count": 1000 }
+          ]
+        }
+      ]
+    },
+    {
       "id": "genspark",
       "name": "Genspark",
       "provider": "Genspark",
