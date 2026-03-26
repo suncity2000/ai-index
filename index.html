@@ -111,6 +111,21 @@
         body {
             font-family: 'Inter', sans-serif;
         }
+        @keyframes calcGlow {
+            0%, 100% { box-shadow: 0 4px 20px rgba(99,102,241,0.40); }
+            50%       { box-shadow: 0 4px 32px rgba(139,92,246,0.75), 0 0 0 3px rgba(99,102,241,0.18); }
+        }
+        @keyframes shimmerSweep {
+            0%   { transform: translateX(-100%) skewX(-15deg); }
+            100% { transform: translateX(300%) skewX(-15deg); }
+        }
+        .calc-btn-glow { animation: calcGlow 2.2s ease-in-out infinite; }
+        .calc-btn-glow .shimmer {
+            position: absolute; inset: 0; width: 40%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.22), transparent);
+            animation: shimmerSweep 3s ease-in-out infinite;
+            pointer-events: none;
+        }
     </style>
 
     <!-- Custom Styles -->
@@ -184,12 +199,13 @@
                 </a>
                 <!-- Cost Calculator Button -->
                 <a href="cost-calculator.html"
-                   class="inline-flex items-center gap-2 px-8 py-3.5 font-semibold rounded-xl transition-all hover:-translate-y-0.5 relative overflow-hidden group"
-                   style="background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); color: #fff; box-shadow: 0 4px 20px rgba(99,102,241,0.40);">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                   class="calc-btn-glow inline-flex items-center gap-2 px-8 py-3.5 font-semibold rounded-xl transition-all hover:-translate-y-0.5 relative overflow-hidden"
+                   style="background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); color: #fff;">
+                    <span class="shimmer"></span>
+                    <svg class="w-5 h-5 relative z-10" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 11h.01M12 11h.01M15 11h.01M4 19h16a2 2 0 002-2V7a2 2 0 00-2-2H4a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                     </svg>
-                    <span>비용 계산기</span>
+                    <span class="relative z-10">AI 비용 계산기</span>
                 </a>
                 <!-- AI World Adoption Map Button -->
                 <button
