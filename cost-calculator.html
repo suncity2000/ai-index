@@ -556,6 +556,31 @@ function renderCompare(){
 
 // ── Tab 4: 내 구독 계산 ────────────────────────────────
 const myPicks={};// serviceId → planId
+let krwMode=false, cachedRate=null, rateUpdated='';
+
+function fmtPrice(usd){
+  if(usd===0)return '무료';
+  if(!krwMode||!cachedRate)return '$'+usd;
+  return '₩'+Math.round(usd*cachedRate).toLocaleString();
+}
+
+async function toggleKRW(){
+  if(!krwMode&&!cachedRate){
+    const btn=document.getElementById('krw-toggle');
+    if(btn){btn.textContent='환율 조회 중…';btn.disabled=true;}
+    try{
+      const d=await fetch('https://api.frankfurter.app/latest?from=USD&to=KRW').then(r=>r.json());
+      cachedRate=d.rates.KRW;
+      const now=new Date();
+      rateUpdated=`1 USD = ${Math.round(cachedRate).toLocaleString()}원 (${now.getHours()}:${String(now.getMinutes()).padStart(2,'0')} 기준)`;
+    }catch{
+      cachedRate=1380;
+      rateUpdated='1 USD ≈ 1,380원 (고정 환율 적용)';
+    }
+  }
+  krwMode=!krwMode;
+  updateMyPlanSummary();
+}
 const CAT_META={
   'ai-assistant':'🤖 AI 어시스턴트',
   'image-gen':'🖼️ 이미지 생성',
@@ -653,20 +678,28 @@ function updateMyPlanSummary(){
     rows+=`<div class="flex items-center gap-3 py-3 border-b border-gray-50 dark:border-gray-700/50 last:border-b-0">
       <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background:${svc.provider_color}"></span>
       <span class="text-base font-medium flex-1">${svc.name} <span class="text-gray-500 font-normal">${plan.name}</span>${extra}</span>
-      <span class="text-base font-bold text-indigo-600 dark:text-indigo-400">${plan.price_monthly===0?'무료':'$'+plan.price_monthly}/월</span>
+      <span class="text-base font-bold text-indigo-600 dark:text-indigo-400">${plan.price_monthly===0?'무료':fmtPrice(plan.price_monthly)}/월</span>
     </div>`;
   });
+  const tot=parseFloat(total.toFixed(2));
+  const ann=parseFloat((total*12).toFixed(2));
+  const toggleLabel=krwMode?'$ USD로 보기':'₩ 원화로 보기';
+  const rateNote=krwMode&&rateUpdated?`<div class="text-xs text-gray-400 mt-3 text-center">${rateUpdated}</div>`:'';
   el.innerHTML=`<div class="bg-white dark:bg-gray-800 rounded-2xl border border-gray-100 dark:border-gray-700 shadow-sm p-6">
-    <h3 class="font-bold text-base mb-4 text-gray-800 dark:text-gray-200">📋 선택한 구독 내역</h3>
+    <div class="flex items-center justify-between mb-4">
+      <h3 class="font-bold text-base text-gray-800 dark:text-gray-200">📋 선택한 구독 내역</h3>
+      <button id="krw-toggle" onclick="toggleKRW()" class="text-sm px-3 py-1.5 rounded-lg border border-indigo-200 dark:border-indigo-700 text-indigo-600 dark:text-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-950 transition-colors font-medium">${toggleLabel}</button>
+    </div>
     <div class="mb-5">${rows}</div>
     <div class="bg-indigo-50 dark:bg-indigo-950 rounded-xl p-5 flex flex-wrap items-center justify-between gap-4">
       <div><div class="text-sm text-gray-500 mb-0.5">월 합계</div>
-        <div class="text-3xl font-extrabold text-indigo-700 dark:text-indigo-300">${total===0?'무료':'$'+parseFloat(total.toFixed(2))}<span class="text-base font-normal text-gray-400">/월</span></div>
+        <div class="text-3xl font-extrabold text-indigo-700 dark:text-indigo-300">${total===0?'무료':fmtPrice(tot)}<span class="text-base font-normal text-gray-400">/월</span></div>
       </div>
       <div class="text-right"><div class="text-sm text-gray-500 mb-0.5">연간 합계 (참고)</div>
-        <div class="text-xl font-bold text-gray-600 dark:text-gray-400">${total===0?'무료':'$'+parseFloat((total*12).toFixed(2))}/년</div>
+        <div class="text-xl font-bold text-gray-600 dark:text-gray-400">${total===0?'무료':fmtPrice(ann)}/년</div>
       </div>
     </div>
+    ${rateNote}
   </div>`;
 }
 
