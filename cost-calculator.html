@@ -57,6 +57,9 @@
       <span class="bg-gradient-to-r from-indigo-600 to-purple-500 bg-clip-text text-transparent">최적 AI 플랜</span> 찾기
     </h1>
     <p class="text-gray-500 dark:text-gray-400 text-base max-w-xl mx-auto">월 생성 목표량을 설정하면 서비스별 최적 플랜과 실제 단가를 비교해 드립니다</p>
+    <p class="mt-3 text-sm text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/50 border border-amber-200 dark:border-amber-800 rounded-lg px-4 py-2 inline-block">
+      ⚠️ 가격은 USD 기준이며 변동될 수 있습니다. 정확한 가격은 각 서비스 공식 웹사이트에서 확인하세요.
+    </p>
   </div>
 
   <!-- Loading -->
@@ -196,9 +199,6 @@
 
   </div><!-- /#app -->
 
-  <p class="text-center text-xs text-gray-400 dark:text-gray-600 mt-10">
-    가격은 USD 기준이며 변동될 수 있습니다. 정확한 가격은 각 서비스 공식 웹사이트에서 확인하세요.
-  </p>
 </main>
 
 <footer class="border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 mt-4">
@@ -661,10 +661,10 @@ function updateMyPlanSummary(){
     <div class="mb-5">${rows}</div>
     <div class="bg-indigo-50 dark:bg-indigo-950 rounded-xl p-5 flex flex-wrap items-center justify-between gap-4">
       <div><div class="text-sm text-gray-500 mb-0.5">월 합계</div>
-        <div class="text-3xl font-extrabold text-indigo-700 dark:text-indigo-300">${total===0?'무료':'$'+total}<span class="text-base font-normal text-gray-400">/월</span></div>
+        <div class="text-3xl font-extrabold text-indigo-700 dark:text-indigo-300">${total===0?'무료':'$'+parseFloat(total.toFixed(2))}<span class="text-base font-normal text-gray-400">/월</span></div>
       </div>
       <div class="text-right"><div class="text-sm text-gray-500 mb-0.5">연간 합계 (참고)</div>
-        <div class="text-xl font-bold text-gray-600 dark:text-gray-400">${total===0?'무료':'$'+(total*12)}/년</div>
+        <div class="text-xl font-bold text-gray-600 dark:text-gray-400">${total===0?'무료':'$'+parseFloat((total*12).toFixed(2))}/년</div>
       </div>
     </div>
   </div>`;
