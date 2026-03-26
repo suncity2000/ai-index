@@ -567,7 +567,7 @@ function fmtPrice(usd){
 async function toggleKRW(){
   if(!krwMode&&!cachedRate){
     const btn=document.getElementById('krw-toggle');
-    if(btn){btn.textContent='환율 조회 중…';btn.disabled=true;}
+    if(btn){btn.innerHTML='<span class="inline-block w-3.5 h-3.5 border-2 border-indigo-400 border-t-transparent rounded-full animate-spin align-middle mr-1.5"></span>환율 조회 중…';btn.disabled=true;}
     try{
       const d=await fetch('https://api.frankfurter.app/latest?from=USD&to=KRW').then(r=>r.json());
       cachedRate=d.rates.KRW;
