@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T04:26:17.050Z",
+  "last_updated": "2026-03-26T04:38:22.811Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -395,14 +395,6 @@
       "top_provider": true
     },
     {
-      "id": "google/gemini-3-pro-preview",
-      "name": "Google: Gemini 3 Pro Preview",
-      "price_1m_input": 2,
-      "price_1m_output": 12,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
       "id": "meta-llama/llama-guard-3-8b",
       "name": "Llama Guard 3 8B",
       "price_1m_input": 0.02,
@@ -763,16 +755,16 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4o-mini-2024-07-18",
-      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+      "id": "openai/gpt-4o-mini",
+      "name": "OpenAI: GPT-4o-mini",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
       "context_length": 128000,
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4o-mini",
-      "name": "OpenAI: GPT-4o-mini",
+      "id": "openai/gpt-4o-mini-2024-07-18",
+      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
       "context_length": 128000,
@@ -1171,16 +1163,16 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4-0314",
-      "name": "OpenAI: GPT-4 (older v0314)",
+      "id": "openai/gpt-4",
+      "name": "OpenAI: GPT-4",
       "price_1m_input": 30,
       "price_1m_output": 60,
       "context_length": 8191,
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4",
-      "name": "OpenAI: GPT-4",
+      "id": "openai/gpt-4-0314",
+      "name": "OpenAI: GPT-4 (older v0314)",
       "price_1m_input": 30,
       "price_1m_output": 60,
       "context_length": 8191,
