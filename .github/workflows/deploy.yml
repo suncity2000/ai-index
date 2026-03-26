@@ -50,6 +50,7 @@ jobs:
           cp favicon.ico _site/
           cp about.html _site/
           cp ai-adoption-world-map.html _site/
+          cp cost-calculator.html _site/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
