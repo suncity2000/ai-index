@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 서비스 비용 계산기 | AINET</title>
+<meta name="description" content="월 사용량과 예산을 입력하면 이미지·영상·음원 AI 서비스의 최적 구독 플랜을 추천해 드립니다.">
+<link rel="canonical" href="https://ainet.io.kr/cost-calculator.html">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Inter', sans-serif; }
+  input[type=range] { accent-color: #6366f1; cursor: pointer; }
+  .tab-btn { transition: all .2s; border-bottom: 2px solid transparent; }
+  .tab-btn.active { border-color: #6366f1; color: #6366f1; font-weight: 600; }
+  .plan-card { transition: box-shadow .2s, transform .15s; }
+  .plan-card:hover { box-shadow: 0 6px 20px rgba(99,102,241,.12); transform: translateY(-1px); }
+  .rec-badge { font-size:.65rem; font-weight:700; padding:2px 7px; border-radius:9999px; }
+  @keyframes fadeUp { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+  .fade-up { animation: fadeUp .25s ease forwards; }
+  .color-bar { width:4px; border-radius:4px 0 0 4px; flex-shrink:0; }
+</style>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-200">
+
+<!-- Header -->
+<header class="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 shadow-sm sticky top-0 z-40">
+  <div class="container mx-auto px-4 py-3.5 max-w-5xl flex items-center justify-between">
+    <a href="/" class="flex items-center gap-2 hover:opacity-80 transition-opacity">
+      <img src="logo.png" alt="AINET" class="h-6 w-auto">
+      <span class="text-sm font-extrabold tracking-widest bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">AINET</span>
+    </a>
+    <div class="flex items-center gap-3">
+      <a href="/" class="text-xs text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors hidden sm:block">AI 랭킹</a>
+      <button onclick="toggleDark()" class="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors" title="다크모드 전환">
+        <svg class="w-4 h-4 block dark:hidden text-gray-500" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/></svg>
+        <svg class="w-4 h-4 hidden dark:block text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="container mx-auto px-4 pb-16 max-w-5xl">
+
+  <!-- Hero -->
+  <div class="text-center py-10">
+    <div class="inline-flex items-center gap-1.5 px-3 py-1 mb-5 rounded-full bg-indigo-50 dark:bg-indigo-950 border border-indigo-100 dark:border-indigo-900 text-xs text-indigo-600 dark:text-indigo-400 font-medium">
+      <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 11h.01M12 11h.01M15 11h.01M4 19h16a2 2 0 002-2V7a2 2 0 00-2-2H4a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+      생성형 AI 비용 계산기
+    </div>
+    <h1 class="text-3xl sm:text-4xl font-extrabold mb-3">
+      내 사용량에 딱 맞는<br>
+      <span class="bg-gradient-to-r from-indigo-600 to-purple-500 bg-clip-text text-transparent">최적 AI 플랜</span> 찾기
+    </h1>
+    <p class="text-gray-500 dark:text-gray-400 text-sm max-w-md mx-auto">월 생성 목표량을 설정하면 서비스별 최적 플랜과 실제 단가를 비교해 드립니다</p>
+  </div>
+
+  <!-- Loading -->
+  <div id="loading" class="text-center py-16">
+    <div class="inline-block w-8 h-8 border-2 border-indigo-400 border-t-transparent rounded-full animate-spin"></div>
+    <p class="mt-3 text-sm text-gray-400">데이터 불러오는 중…</p>
+  </div>
+
+  <!-- Calculator (hidden until data loads) -->
+  <div id="app" class="hidden">
+
+    <!-- Main Tabs -->
+    <div class="flex gap-0 border-b border-gray-200 dark:border-gray-700 mb-6">
+      <button class="tab-btn active px-5 py-3 text-sm" onclick="switchTab('calc')" id="tab-calc">생성량 계산기</button>
+      <button class="tab-btn px-5 py-3 text-sm text-gray-500 dark:text-gray-400" onclick="switchTab('budget')" id="tab-budget">예산 최적화</button>
+      <button class="tab-btn px-5 py-3 text-sm text-gray-500 dark:text-gray-400" onclick="switchTab('compare')" id="tab-compare">단가 비교</button>
+    </div>
+
+    <!-- TAB 1: 생성량 계산기 -->
+    <div id="pane-calc">
+      <!-- Inputs -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+        <!-- Image -->
+        <div class="bg-white dark:bg-gray-800 rounded-2xl p-5 border border-gray-100 dark:border-gray-700 shadow-sm">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">🖼️</span>
+            <span class="font-semibold text-sm">이미지 생성</span>
+          </div>
+          <div class="flex items-center gap-2 mb-2">
+            <input type="range" id="sl-img" min="0" max="500" step="10" value="50" class="flex-1" oninput="onSlide('img',this.value)">
+            <input type="number" id="in-img" min="0" max="9999" value="50" class="w-16 text-center text-sm font-bold border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 rounded-lg py-1" oninput="onNum('img',this.value)">
+            <span class="text-xs text-gray-400 w-6">장</span>
+          </div>
+          <div class="text-xs text-gray-400">Midjourney · Freepik · Seedream</div>
+        </div>
+        <!-- Video -->
+        <div class="bg-white dark:bg-gray-800 rounded-2xl p-5 border border-gray-100 dark:border-gray-700 shadow-sm">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">🎬</span>
+            <span class="font-semibold text-sm">영상 생성</span>
+            <div class="ml-auto flex gap-1">
+              <button id="vq-std" onclick="setVQ('std')" class="text-xs px-2 py-0.5 rounded-full bg-violet-600 text-white font-medium">표준</button>
+              <button id="vq-hd" onclick="setVQ('hd')" class="text-xs px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-700 text-gray-500 font-medium">HD</button>
+            </div>
+          </div>
+          <div class="flex items-center gap-2 mb-2">
+            <input type="range" id="sl-vid" min="0" max="200" step="5" value="20" class="flex-1" style="accent-color:#7c3aed" oninput="onSlide('vid',this.value)">
+            <input type="number" id="in-vid" min="0" max="9999" value="20" class="w-16 text-center text-sm font-bold border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 rounded-lg py-1" oninput="onNum('vid',this.value)">
+            <span class="text-xs text-gray-400 w-6">편</span>
+          </div>
+          <div class="text-xs text-gray-400">Kling · Hailuo · Higgsfield · Seedance</div>
+        </div>
+        <!-- Audio -->
+        <div class="bg-white dark:bg-gray-800 rounded-2xl p-5 border border-gray-100 dark:border-gray-700 shadow-sm">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">🎵</span>
+            <span class="font-semibold text-sm">음원 생성</span>
+          </div>
+          <div class="flex items-center gap-2 mb-2">
+            <input type="range" id="sl-aud" min="0" max="500" step="10" value="30" class="flex-1" style="accent-color:#9333ea" oninput="onSlide('aud',this.value)">
+            <input type="number" id="in-aud" min="0" max="9999" value="30" class="w-16 text-center text-sm font-bold border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 rounded-lg py-1" oninput="onNum('aud',this.value)">
+            <span class="text-xs text-gray-400 w-6">곡</span>
+          </div>
+          <div class="text-xs text-gray-400">Suno (1회 생성 = 2곡)</div>
+        </div>
+      </div>
+      <!-- Results -->
+      <div id="calc-results"></div>
+    </div>
+
+    <!-- TAB 2: 예산 최적화 -->
+    <div id="pane-budget" class="hidden">
+      <div class="bg-white dark:bg-gray-800 rounded-2xl p-6 border border-gray-100 dark:border-gray-700 shadow-sm mb-6">
+        <div class="flex flex-wrap items-center gap-4 mb-5">
+          <div class="flex-1 min-w-48">
+            <label class="text-sm font-semibold mb-2 block">월 예산</label>
+            <div class="flex items-center gap-2">
+              <input type="range" id="sl-budget" min="0" max="300" step="5" value="50" class="flex-1" oninput="onBudgetSlide(this.value)">
+              <div class="flex items-center gap-1">
+                <span class="text-sm text-gray-400">$</span>
+                <input type="number" id="in-budget" value="50" min="0" max="9999" class="w-20 text-center font-bold border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 rounded-lg py-1" oninput="onBudgetNum(this.value)">
+                <span class="text-sm text-gray-400">/월</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <label class="text-sm font-semibold mb-2 block">필요 서비스</label>
+            <div class="flex gap-2">
+              <label class="flex items-center gap-1.5 text-sm cursor-pointer"><input type="checkbox" id="ck-img" checked onchange="renderBudget()" class="accent-indigo-600"> 이미지</label>
+              <label class="flex items-center gap-1.5 text-sm cursor-pointer"><input type="checkbox" id="ck-vid" checked onchange="renderBudget()" class="accent-violet-600"> 영상</label>
+              <label class="flex items-center gap-1.5 text-sm cursor-pointer"><input type="checkbox" id="ck-aud" checked onchange="renderBudget()" class="accent-purple-600"> 음원</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="budget-results"></div>
+    </div>
+
+    <!-- TAB 3: 단가 비교 -->
+    <div id="pane-compare" class="hidden">
+      <div class="flex flex-wrap gap-2 mb-5">
+        <button class="comp-tab-btn active-ct px-4 py-1.5 text-sm rounded-full bg-indigo-600 text-white font-semibold" onclick="setCompTab('image')" id="ct-image">🖼️ 이미지</button>
+        <button class="comp-tab-btn px-4 py-1.5 text-sm rounded-full bg-white dark:bg-gray-700 text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-600 font-medium hover:border-indigo-400" onclick="setCompTab('video-std')" id="ct-video-std">🎬 영상 표준</button>
+        <button class="comp-tab-btn px-4 py-1.5 text-sm rounded-full bg-white dark:bg-gray-700 text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-600 font-medium hover:border-indigo-400" onclick="setCompTab('video-hd')" id="ct-video-hd">📽️ 영상 HD</button>
+        <button class="comp-tab-btn px-4 py-1.5 text-sm rounded-full bg-white dark:bg-gray-700 text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-600 font-medium hover:border-indigo-400" onclick="setCompTab('audio')" id="ct-audio">🎵 음원</button>
+      </div>
+      <div class="bg-white dark:bg-gray-800 rounded-2xl p-5 border border-gray-100 dark:border-gray-700 shadow-sm">
+        <div style="height:220px" class="mb-6"><canvas id="comp-chart"></canvas></div>
+        <div id="comp-note" class="text-xs text-amber-600 dark:text-amber-400 mb-3"></div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm">
+            <thead><tr class="text-xs text-gray-400 border-b border-gray-100 dark:border-gray-700">
+              <th class="pb-2 text-left font-medium">서비스</th>
+              <th class="pb-2 text-left font-medium">플랜</th>
+              <th class="pb-2 text-right font-medium">월 구독료</th>
+              <th class="pb-2 text-right font-medium">월 생성 수</th>
+              <th class="pb-2 text-right font-medium">1건당 단가</th>
+            </tr></thead>
+            <tbody id="comp-tbody"></tbody>
+          </table>
+        </div>
+        <div id="comp-free-note" class="mt-4 text-xs text-gray-400"></div>
+      </div>
+    </div>
+
+  </div><!-- /#app -->
+
+  <p class="text-center text-xs text-gray-400 dark:text-gray-600 mt-10">
+    가격은 USD 기준이며 변동될 수 있습니다. 정확한 가격은 각 서비스 공식 웹사이트에서 확인하세요.
+  </p>
+</main>
+
+<footer class="border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 mt-4">
+  <div class="container mx-auto px-4 py-5 max-w-5xl flex flex-wrap items-center justify-between gap-3">
+    <span class="text-xs text-gray-400">© 2026 AINET · AI 비용 계산기</span>
+    <div class="flex gap-4">
+      <a href="/" class="text-xs text-gray-400 hover:text-gray-700 dark:hover:text-gray-300">AI 랭킹</a>
+      <a href="about.html" class="text-xs text-gray-400 hover:text-gray-700 dark:hover:text-gray-300">소개</a>
+      <a href="privacy-policy.html" class="text-xs text-gray-400 hover:text-gray-700 dark:hover:text-gray-300">개인정보처리방침</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+// ── Dark mode ──────────────────────────────────────────
+function toggleDark(){
+  const d=document.documentElement;
+  d.classList.toggle('dark');
+  localStorage.setItem('theme',d.classList.contains('dark')?'dark':'light');
+}
+(function(){
+  const t=localStorage.getItem('theme');
+  if(t==='dark'||(t===null&&window.matchMedia('(prefers-color-scheme:dark)').matches))
+    document.documentElement.classList.add('dark');
+})();
+
+// ── Tab switching ──────────────────────────────────────
+let activeTab='calc';
+function switchTab(t){
+  ['calc','budget','compare'].forEach(id=>{
+    document.getElementById('pane-'+id).classList.toggle('hidden',id!==t);
+    const btn=document.getElementById('tab-'+id);
+    btn.classList.toggle('active',id===t);
+    btn.classList.toggle('text-gray-500',id!==t);
+    btn.classList.toggle('dark:text-gray-400',id!==t);
+  });
+  activeTab=t;
+  if(t==='compare'&&DATA) renderCompare();
+  if(t==='budget'&&DATA) renderBudget();
+}
+
+// ── State ──────────────────────────────────────────────
+let DATA=null, videoQuality='std', compTabId='image', compChartInst=null;
+const st={img:50,vid:20,aud:30,budget:50};
+
+function onSlide(k,v){st[k]=+v;document.getElementById('in-'+k).value=v;if(DATA)renderCalc();}
+function onNum(k,v){st[k]=Math.max(0,+v||0);document.getElementById('sl-'+k).value=Math.min(st[k],+document.getElementById('sl-'+k).max);if(DATA)renderCalc();}
+function onBudgetSlide(v){st.budget=+v;document.getElementById('in-budget').value=v;if(DATA)renderBudget();}
+function onBudgetNum(v){st.budget=Math.max(0,+v||0);document.getElementById('sl-budget').value=Math.min(st.budget,300);if(DATA)renderBudget();}
+function setVQ(q){
+  videoQuality=q;
+  ['std','hd'].forEach(id=>{
+    const b=document.getElementById('vq-'+id);
+    b.className=id===q?'text-xs px-2 py-0.5 rounded-full bg-violet-600 text-white font-medium':'text-xs px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-700 text-gray-500 font-medium';
+  });
+  if(DATA)renderCalc();
+}
+function setCompTab(id){
+  compTabId=id;
+  document.querySelectorAll('.comp-tab-btn').forEach(b=>{
+    const active=b.id==='ct-'+id;
+    b.className=active
+      ?'comp-tab-btn active-ct px-4 py-1.5 text-sm rounded-full bg-indigo-600 text-white font-semibold'
+      :'comp-tab-btn px-4 py-1.5 text-sm rounded-full bg-white dark:bg-gray-700 text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-600 font-medium hover:border-indigo-400';
+  });
+  if(DATA)renderCompare();
+}
+
+// ── Data helpers ───────────────────────────────────────
+const UNIT={image:'장',video:'편',audio:'곡'};
+const LABEL={image:'🖼️ 이미지',video:'🎬 영상',audio:'🎵 음원'};
+
+function getPrimaryEx(plan,genType,isHD){
+  const ex=plan.generation_examples||[];
+  if(!ex.length)return null;
+  if(genType==='video'&&isHD){
+    const h=ex.find(e=>(e.action_ko.includes('1080p')||e.action_ko.includes('HD'))&&!e.action_ko.includes('Sora')&&!e.action_ko.includes('Veo'));
+    if(h)return h;
+  }
+  if(genType==='image'){
+    return ex.find(e=>e.credits_per>0&&e.monthly_count!=null&&!e.action_ko.includes('Relax')&&!e.action_ko.includes('무제한')&&!e.action_ko.includes('Classic')&&!e.action_ko.includes('영상'))||null;
+  }
+  if(genType==='audio')return ex.find(e=>e.action_ko.includes('곡 생성'))||ex[0]||null;
+  return ex.find(e=>e.credits_per>0&&e.monthly_count!=null&&!e.action_ko.includes('Sora')&&!e.action_ko.includes('Veo')&&!e.action_ko.includes('오디오 포함'))||ex[0]||null;
+}
+
+function getFreepikImgEx(plan){
+  const ex=plan.generation_examples||[];
+  return ex.find(e=>e.action_ko.includes('표준'))||ex.find(e=>e.credits_per>0&&e.monthly_count!=null&&!e.action_ko.includes('영상'))||null;
+}
+
+function getUnits(plan,ex,svcId){
+  if(!ex||!ex.credits_per||ex.credits_per===0)return null;
+  if(!plan.credits_monthly)return null;
+  const u=Math.floor(plan.credits_monthly/ex.credits_per);
+  return svcId==='suno'?u*2:u;
+}
+
+function costPerUnit(price,units){
+  if(units===null||units===0)return null;
+  if(price===0)return 0;
+  return price/units;
+}
+
+function getExample(service,plan,genType,isHD){
+  if(genType==='image'&&service.id==='freepik')return getFreepikImgEx(plan);
+  return getPrimaryEx(plan,genType,isHD);
+}
+
+// Build sorted candidate list for a given genType
+function buildCandidates(genType,isHD){
+  return DATA.services
+    .filter(s=>s.generation_type===genType)
+    .flatMap(s=>s.plans.map(p=>{
+      const ex=getExample(s,p,genType,isHD);
+      const units=getUnits(p,ex,s.id);
+      return{service:s,plan:p,ex,units,cpu:costPerUnit(p.price_monthly,units)};
+    }))
+    .filter(c=>c.units!==null);
+}
+
+// Find best recommendation given needed count
+function recommend(candidates,needed){
+  const covering=candidates.filter(c=>c.units>=needed).sort((a,b)=>a.plan.price_monthly-b.plan.price_monthly);
+  return covering[0]||candidates.sort((a,b)=>b.units-a.units)[0]||null;
+}
+
+// ── Tab 1: 생성량 계산기 ────────────────────────────────
+function renderCalc(){
+  const isHD=videoQuality==='hd';
+  const types=[
+    {id:'image',need:st.img},
+    {id:'video',need:st.vid},
+    {id:'audio',need:st.aud}
+  ].filter(t=>t.need>0);
+
+  const el=document.getElementById('calc-results');
+  if(!types.length){
+    el.innerHTML='<p class="text-center text-gray-400 text-sm py-10">위 슬라이더를 0 이상으로 설정하면 추천 플랜이 표시됩니다.</p>';
+    return;
+  }
+
+  let html='';
+  const summaryRows=[];
+
+  for(const{id,need}of types){
+    const isV=id==='video';
+    const candidates=buildCandidates(id,isV&&isHD);
+    const top=candidates.filter(c=>c.units>=need).sort((a,b)=>a.plan.price_monthly-b.plan.price_monthly).slice(0,4);
+    const fallback=top.length?top:candidates.sort((a,b)=>b.units-a.units).slice(0,2);
+    const rec=fallback[0];
+    if(rec)summaryRows.push({label:LABEL[id],rec});
+
+    const unit=UNIT[id];
+    const qNote=isV?`<span class="text-xs text-gray-400 font-normal ml-1">(${isHD?'HD 1080p':'표준 720p'} 기준)</span>`:'';
+
+    html+=`<div class="mb-7 fade-up">
+      <h3 class="font-bold text-gray-700 dark:text-gray-300 mb-3 text-sm">${LABEL[id]}${qNote} <span class="text-gray-400 font-normal">— 월 ${need.toLocaleString()}${unit} 목표</span></h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">`;
+
+    for(let i=0;i<fallback.length;i++){
+      const{service:s,plan:p,ex,units,cpu}=fallback[i];
+      const isRec=i===0&&top.length>0;
+      const covers=units>=need;
+      const cpuStr=cpu===0?'무료':cpu!=null?'$'+(cpu<0.01?cpu.toFixed(4):cpu.toFixed(3))+'/'+unit:'-';
+      const coverPct=Math.min(100,Math.round(units/need*100));
+      html+=`<div class="plan-card bg-white dark:bg-gray-800 rounded-xl border ${isRec?'border-indigo-300 dark:border-indigo-600 shadow-md':'border-gray-100 dark:border-gray-700'} flex overflow-hidden relative">
+        <div class="color-bar self-stretch" style="background:${s.provider_color}"></div>
+        <div class="p-4 flex-1">
+          ${isRec?'<span class="rec-badge bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300 mb-2 inline-block">⭐ 추천</span>':''}
+          ${!covers?'<span class="rec-badge bg-red-100 dark:bg-red-900 text-red-600 dark:text-red-400 mb-2 inline-block">⚠️ 수량 부족</span>':''}
+          <div class="text-xs text-gray-400 mb-0.5">${s.name}</div>
+          <div class="font-bold text-gray-900 dark:text-white">${p.name}</div>
+          <div class="text-lg font-extrabold text-indigo-600 dark:text-indigo-400 mt-1">${p.price_monthly===0?'무료':'$'+p.price_monthly}<span class="text-xs text-gray-400 font-normal">/월</span></div>
+          <div class="mt-2 space-y-1 text-xs">
+            <div class="flex justify-between text-gray-500"><span>월 가능</span><span class="font-semibold text-gray-800 dark:text-gray-200">${units.toLocaleString()}${unit}</span></div>
+            <div class="flex justify-between text-gray-500"><span>${unit}당 단가</span><span class="font-semibold text-gray-800 dark:text-gray-200">${cpuStr}</span></div>
+          </div>
+          ${!covers?'':'<div class="mt-2 bg-gray-100 dark:bg-gray-700 rounded-full h-1"><div class="bg-indigo-400 h-1 rounded-full" style="width:'+coverPct+'%"></div></div>'}
+          ${ex?`<div class="text-xs text-gray-400 mt-1.5 truncate" title="${ex.action_ko}">${ex.action_ko}</div>`:''}
+        </div>
+      </div>`;
+    }
+    html+=`</div></div>`;
+  }
+
+  // Summary
+  if(summaryRows.length>1){
+    const total=summaryRows.reduce((s,r)=>s+r.rec.plan.price_monthly,0);
+    html+=`<div class="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl p-5 text-white mt-2">
+      <div class="font-bold mb-3 text-sm">💰 추천 플랜 합계</div>
+      <div class="space-y-1.5 mb-4 text-sm">
+        ${summaryRows.map(r=>`<div class="flex justify-between opacity-90"><span>${r.label}</span><span class="font-semibold">${r.rec.service.name} ${r.rec.plan.name} — ${r.rec.plan.price_monthly===0?'무료':'$'+r.rec.plan.price_monthly}/월</span></div>`).join('')}
+      </div>
+      <div class="border-t border-white/20 pt-3 flex justify-between items-baseline">
+        <span class="text-indigo-100 text-sm">총 월 비용 (최소)</span>
+        <span class="text-2xl font-extrabold">${total===0?'무료':'$'+total}<span class="text-sm font-normal text-indigo-200">/월</span></span>
+      </div>
+    </div>`;
+  }
+
+  el.innerHTML=html;
+}
+
+// ── Tab 2: 예산 최적화 ─────────────────────────────────
+function renderBudget(){
+  const budget=st.budget;
+  const wantImg=document.getElementById('ck-img').checked;
+  const wantVid=document.getElementById('ck-vid').checked;
+  const wantAud=document.getElementById('ck-aud').checked;
+  const isHD=videoQuality==='hd';
+
+  const cats=[];
+  if(wantImg)cats.push({id:'image',label:LABEL.image,unit:UNIT.image});
+  if(wantVid)cats.push({id:'video',label:LABEL.video,unit:UNIT.video});
+  if(wantAud)cats.push({id:'audio',label:LABEL.audio,unit:UNIT.audio});
+
+  if(!cats.length){
+    document.getElementById('budget-results').innerHTML='<p class="text-center text-gray-400 text-sm py-10">필요 서비스를 1개 이상 선택하세요.</p>';
+    return;
+  }
+
+  // Find cheapest plan per category that fits within remaining budget
+  let remaining=budget;
+  const picks=[];
+  for(const c of cats){
+    const cands=buildCandidates(c.id,c.id==='video'&&isHD)
+      .filter(x=>x.plan.price_monthly<=remaining)
+      .sort((a,b)=>b.units-a.units||a.plan.price_monthly-b.plan.price_monthly);
+    const best=cands[0]||null;
+    picks.push({...c,best,allCands:buildCandidates(c.id,c.id==='video'&&isHD)});
+    if(best)remaining-=best.plan.price_monthly;
+  }
+
+  const totalUsed=picks.reduce((s,p)=>s+(p.best?p.best.plan.price_monthly:0),0);
+  const pct=budget>0?Math.min(100,Math.round(totalUsed/budget*100)):0;
+  const over=totalUsed>budget;
+
+  let html=`<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-5">`;
+  for(const{id,label,unit,best}of picks){
+    if(!best){
+      html+=`<div class="bg-white dark:bg-gray-800 rounded-xl p-5 border border-red-200 dark:border-red-800 shadow-sm">
+        <div class="text-sm font-bold mb-1">${label}</div>
+        <div class="text-xs text-red-500 dark:text-red-400">예산 내 적합한 플랜 없음<br>예산을 늘려보세요.</div>
+      </div>`;
+    } else {
+      const{service:s,plan:p,units,cpu}=best;
+      const cpuStr=cpu===0?'무료':cpu!=null?'$'+(cpu<0.01?cpu.toFixed(4):cpu.toFixed(3))+'/'+unit:'-';
+      html+=`<div class="bg-white dark:bg-gray-800 rounded-xl border border-gray-100 dark:border-gray-700 shadow-sm flex overflow-hidden">
+        <div class="color-bar self-stretch" style="background:${s.provider_color}"></div>
+        <div class="p-4 flex-1">
+          <div class="text-xs text-gray-400 mb-0.5">${label}</div>
+          <div class="font-bold text-gray-900 dark:text-white text-sm">${s.name} <span class="text-indigo-600 dark:text-indigo-400">${p.name}</span></div>
+          <div class="text-xl font-extrabold mt-1">${p.price_monthly===0?'무료':'$'+p.price_monthly}<span class="text-xs text-gray-400 font-normal">/월</span></div>
+          <div class="text-xs text-gray-500 mt-2 space-y-0.5">
+            <div class="flex justify-between"><span>월 생성 수</span><span class="font-semibold text-gray-800 dark:text-gray-200">${units.toLocaleString()}${unit}</span></div>
+            <div class="flex justify-between"><span>${unit}당 단가</span><span class="font-semibold text-gray-800 dark:text-gray-200">${cpuStr}</span></div>
+          </div>
+        </div>
+      </div>`;
+    }
+  }
+  html+=`</div>`;
+
+  // Budget bar
+  html+=`<div class="bg-white dark:bg-gray-800 rounded-2xl p-5 border border-gray-100 dark:border-gray-700 shadow-sm">
+    <div class="flex justify-between text-sm mb-2">
+      <span class="font-semibold">예산 사용</span>
+      <span class="${over?'text-red-500':'text-green-600'} font-bold">$${totalUsed} / $${budget}</span>
+    </div>
+    <div class="bg-gray-100 dark:bg-gray-700 rounded-full h-3 overflow-hidden">
+      <div class="h-3 rounded-full transition-all duration-500 ${over?'bg-red-400':'bg-indigo-500'}" style="width:${pct}%"></div>
+    </div>
+    <div class="text-xs mt-2 ${over?'text-red-400':'text-gray-400'}">
+      ${over?`예산 $${budget} 초과 ($${totalUsed-budget} 부족)`:`$${budget-totalUsed} 여유`}
+    </div>
+    <div class="mt-4 text-xs text-gray-400">* 각 카테고리 최대 생성량 기준으로 예산 배분. 영상은 ${isHD?'HD 1080p':'표준 720p'} 기준.</div>
+  </div>`;
+
+  document.getElementById('budget-results').innerHTML=html;
+}
+
+// ── Tab 3: 단가 비교 ────────────────────────────────────
+function renderCompare(){
+  const isHD=compTabId==='video-hd';
+  const genType=compTabId.startsWith('video')?'video':compTabId;
+  const unit=UNIT[genType]||'건';
+
+  const all=buildCandidates(genType,isHD);
+  const paid=all.filter(c=>c.plan.price_monthly>0&&c.cpu!=null).sort((a,b)=>a.cpu-b.cpu);
+  const free=all.filter(c=>c.plan.price_monthly===0&&c.units!=null);
+
+  // Chart
+  if(compChartInst){compChartInst.destroy();compChartInst=null;}
+  const top=paid.slice(0,10);
+  if(top.length){
+    const isDark=document.documentElement.classList.contains('dark');
+    const tickColor=isDark?'#9ca3af':'#6b7280';
+    compChartInst=new Chart(document.getElementById('comp-chart').getContext('2d'),{
+      type:'bar',
+      data:{
+        labels:top.map(c=>`${c.service.name} ${c.plan.name}`),
+        datasets:[{
+          label:`1${unit}당 단가 (USD)`,
+          data:top.map(c=>c.cpu),
+          backgroundColor:top.map((c,i)=>i===0?'#6366f1':c.service.provider_color+'cc'),
+          borderRadius:5,borderSkipped:false
+        }]
+      },
+      options:{
+        indexAxis:'y',responsive:true,maintainAspectRatio:false,
+        plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>`$${ctx.parsed.x.toFixed(4)} / 1${unit}`}}},
+        scales:{
+          x:{grid:{color:isDark?'rgba(255,255,255,.06)':'rgba(0,0,0,.05)'},ticks:{color:tickColor,font:{size:10},callback:v=>'$'+v.toFixed(3)}},
+          y:{grid:{display:false},ticks:{color:tickColor,font:{size:10}}}
+        }
+      }
+    });
+  }
+
+  // Special notes
+  const notes={
+    'image':'Midjourney: Fast GPU분 기준 (1분 ≈ 이미지 1장) · Freepik: 이미지 표준 생성(50크레딧) 기준',
+    'video-std':'영상 길이는 서비스마다 다름 (Kling 5초 · Hailuo 6초 · Higgsfield 8초 · Seedance 6초)',
+    'video-hd':'HD(1080p) 기준. 1080p 옵션 없는 서비스는 최고 화질 플랜 적용',
+    'audio':'Suno: 1회 생성 = 2곡 동시 생성 기준'
+  };
+  document.getElementById('comp-note').textContent=notes[compTabId]||'';
+
+  // Table
+  const maxCpu=paid.length?paid[paid.length-1].cpu:1;
+  let rows='';
+  paid.forEach((c,i)=>{
+    const isTop=i===0;
+    const cpuStr='$'+(c.cpu<0.01?c.cpu.toFixed(4):c.cpu.toFixed(3));
+    const savings=isTop?0:Math.round((1-paid[0].cpu/c.cpu)*100);
+    rows+=`<tr class="border-b border-gray-50 dark:border-gray-700/50 hover:bg-gray-50 dark:hover:bg-gray-700/30">
+      <td class="py-2.5 pr-3"><span class="inline-flex items-center gap-1.5"><span class="w-2 h-2 rounded-full flex-shrink-0" style="background:${c.service.provider_color}"></span>${c.service.name}</span></td>
+      <td class="py-2.5 pr-3 text-gray-600 dark:text-gray-400">${c.plan.name}${isTop?'<span class="ml-1.5 text-xs bg-yellow-100 dark:bg-yellow-900/50 text-yellow-700 dark:text-yellow-400 px-1.5 py-0.5 rounded font-semibold">최고 효율</span>':''}</td>
+      <td class="py-2.5 pr-3 text-right">$${c.plan.price_monthly}</td>
+      <td class="py-2.5 pr-3 text-right text-gray-500">${c.units.toLocaleString()}${unit}</td>
+      <td class="py-2.5 text-right font-semibold ${isTop?'text-yellow-600 dark:text-yellow-400':'text-gray-800 dark:text-gray-200'}">${cpuStr}${!isTop?`<span class="text-xs text-red-400 ml-1">+${savings}%</span>`:''}</td>
+    </tr>`;
+  });
+  document.getElementById('comp-tbody').innerHTML=rows||'<tr><td colspan="5" class="py-4 text-center text-gray-400 text-sm">유료 플랜 데이터 없음</td></tr>';
+
+  // Free plans
+  if(free.length){
+    document.getElementById('comp-free-note').innerHTML='🆓 <strong>무료 플랜:</strong> '+free.map(c=>`${c.service.name} Free (${c.units!=null?c.units.toLocaleString()+unit+'/월':'무제한'})`).join(' · ');
+  }else{
+    document.getElementById('comp-free-note').textContent='';
+  }
+}
+
+// ── Init ───────────────────────────────────────────────
+async function init(){
+  try{
+    DATA=await fetch('data/services-plans.json').then(r=>r.json());
+    document.getElementById('loading').classList.add('hidden');
+    document.getElementById('app').classList.remove('hidden');
+    renderCalc();
+  }catch(e){
+    document.getElementById('loading').innerHTML='<p class="text-red-400 text-sm">데이터를 불러올 수 없습니다.</p>';
+  }
+}
+init();
+</script>
+</body>
+</html>
