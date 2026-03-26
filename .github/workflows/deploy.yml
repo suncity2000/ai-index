@@ -52,6 +52,7 @@ jobs:
           cp ai-adoption-world-map.html _site/
           cp cost-calculator.html _site/
           cp *.html _site/
+          cp -r articles _site/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
