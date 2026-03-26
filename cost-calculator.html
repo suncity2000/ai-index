@@ -566,16 +566,24 @@ function fmtPrice(usd){
 
 async function toggleKRW(){
   if(!krwMode&&!cachedRate){
-    const btn=document.getElementById('krw-toggle');
-    if(btn){btn.innerHTML='<span class="inline-block w-3.5 h-3.5 border-2 border-indigo-400 border-t-transparent rounded-full animate-spin align-middle mr-1.5"></span>환율 조회 중…';btn.disabled=true;}
-    try{
-      const d=await fetch('https://api.frankfurter.app/latest?from=USD&to=KRW').then(r=>r.json());
-      cachedRate=d.rates.KRW;
-      const now=new Date();
-      rateUpdated=`1 USD = ${Math.round(cachedRate).toLocaleString()}원 (${now.getHours()}:${String(now.getMinutes()).padStart(2,'0')} 기준)`;
-    }catch{
-      cachedRate=1380;
-      rateUpdated='1 USD ≈ 1,380원 (고정 환율 적용)';
+    // 당일 캐시 확인 (localStorage)
+    const today=new Date().toISOString().slice(0,10);
+    const saved=JSON.parse(localStorage.getItem('krw_rate')||'null');
+    if(saved&&saved.date===today){
+      cachedRate=saved.rate;
+      rateUpdated=`1 USD = ${Math.round(cachedRate).toLocaleString()}원 (오늘 환율)`;
+    } else {
+      const btn=document.getElementById('krw-toggle');
+      if(btn){btn.innerHTML='<span class="inline-block w-3.5 h-3.5 border-2 border-indigo-400 border-t-transparent rounded-full animate-spin align-middle mr-1.5"></span>환율 조회 중…';btn.disabled=true;}
+      try{
+        const d=await fetch('https://open.er-api.com/v6/latest/USD').then(r=>r.json());
+        cachedRate=d.rates.KRW;
+        localStorage.setItem('krw_rate',JSON.stringify({date:today,rate:cachedRate}));
+        rateUpdated=`1 USD = ${Math.round(cachedRate).toLocaleString()}원 (오늘 환율)`;
+      }catch{
+        cachedRate=1380;
+        rateUpdated='1 USD ≈ 1,380원 (고정 환율 적용)';
+      }
     }
   }
   krwMode=!krwMode;
