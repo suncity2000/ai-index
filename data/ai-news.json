@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-03-26T09:59:44.539Z",
+  "last_updated": "2026-03-27T09:53:15.099Z",
   "news": [
+    {
+      "title": "케이(K) 의료와 인공지능(AI)의 만남",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rOWZyQkRjS2FGQjdGMkdmc0Rpb0FmZzZ1TElhNjVuOG5lZm5STkRuUEwxRVNic2R0czlCZlEySFNzbEk0RUVfaUVVbEktaVZhM1RraXo5WEwxeTB0UlFsUHp1THpkOW0wVlE?oc=5",
+      "source": "병원신문",
+      "date": "Thu, 26 Mar 2026 10:54:35 GMT"
+    },
+    {
+      "title": "서울시, ‘인공지능위원회’ 출범… 시민 중심 AI 행정 본격화",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCNEE3RkFjUktVNk50aFlCQ3FMTlhtOE11dG40V2IxenVRQ25WNTZMc3N2b2NRaXdQUHozbjNuSk1oSGc4UVpxTm40bWliRmk4YUdzYUJpdElDTUNJRnMzOC1WZi0taFRmSnFBckRBOEZDeUs1a1HSAWZBVV95cUxQeHJvSWtnbm5wMFRfZWZ1R19abmdXc3FBVXB6TDlyQ0lIWU00UzY2bDFKaF8tT3lsaXZVZGtKaXJ6amM0aGNUdUpOU2hLTW43S2lleXZiUkpyRXE1WUNGb3d0Y1M4Nnc?oc=5",
+      "source": "동아일보",
+      "date": "Thu, 26 Mar 2026 06:10:00 GMT"
+    },
     {
       "title": "서울시 AI행정 본격화…정책 컨트롤타워 '인공지능위원회' 출범",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zVWhrenhtalBtcXRBVm5OSGZRbnc5N0lFUHQzYnVyaVpCS1VBUGNkZEg2RkdaMXMyemRndGJKcE12dXNLcDhuaEUwRG96a3lJdUs4Um1IbnhkRE4zS1pNWdIBYEFVX3lxTE4zVWhrenhtalBtcXRBVm5OSGZRbnc5N0lFUHQzYnVyaVpCS1VBUGNkZEg2RkdaMXMyemRndGJKcE12dXNLcDhuaEUwRG96a3lJdUs4Um1IbnhkRE4zS1pNWQ?oc=5",
@@ -8,10 +20,22 @@
       "date": "Thu, 26 Mar 2026 06:00:14 GMT"
     },
     {
+      "title": "서울시, AI 정책 컨트롤타워 '인공지능위원회' 출범",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9VTWphYm9vTUQ5Sk0tQjlmcjFCeWQxWkdZRUJoNlRDVU5kYVJLM2dpUW1nZ3NTR21fV2dNUkNaZ1JEMnNXN2FlbnBWSGpHQQ?oc=5",
+      "source": "전자신문",
+      "date": "Thu, 26 Mar 2026 06:00:00 GMT"
+    },
+    {
       "title": "국립광주과학관 '2026 전 국민 인공지능(AI) 창작 경진대회' 개최",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YNGQ1UEFVQW45MTl0R1VQRnI4Qkh6c0hTbDVIX0RaM3dNX3RJYS1ud3VIY1lJOENLUWp0eHRRcXZxUFdDQmdxOEIycXFxM1NvNlFmV1RWQi0ycHZ3QUxFU3oyTFJlazjSAWdBVV95cUxPWDRkNVBBVUFuOTE5dEdVUEZyOEJIenNIU2w1SF9EWjN3TV90SWEtbnd1SGNZSThDS1FqdHh0UXF2cVBXQ0JncThCMnFxcTNTbzZRZldUVkItMnB2d0FMRVN6MkxSZWs4?oc=5",
       "source": "abcn.kr",
       "date": "Thu, 26 Mar 2026 03:46:08 GMT"
+    },
+    {
+      "title": "오픈AI, AI 안전성 강화 위해 ‘버그바운티’ 프로그램 도입",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE81dWZadEtFSk8wXzNUc2ZWbllUT1BaS09hSXFvVTJkVGkzbUtFMHFHS2dYaHdsMENiWnd2VV9xOUI3dmt1WUJTaGxkTjBtWExBQ1JkVkd3dlRyMUlZRGx3azloTURwOWpk?oc=5",
+      "source": "레디앙",
+      "date": "Thu, 26 Mar 2026 02:35:24 GMT"
     },
     {
       "title": "영남이공대, 재학생·교직원에 '생성형 AI' 무료 제공",
@@ -38,40 +62,16 @@
       "date": "Wed, 25 Mar 2026 13:12:26 GMT"
     },
     {
+      "title": "OpenAI가 예기치 않게 Sora AI 동영상 제작 앱 서비스를 종료했습니다.",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZWVqcThkU3FEMWItbzNDNGlFMy10TTdvek5EaG9oVTdtSFhRNjFENmJkMkJKTkI5Zlh1ekVGQWRLSHQ3bTJ5ZFZ2dGxuS3VUZ0xTSnJCck03SXJ1QnBnZzlNa05TRVRnWWo5RWY1RGUxU0sxbmJsZllIQ2FlYnpvMA?oc=5",
+      "source": "Vietnam.vn",
+      "date": "Wed, 25 Mar 2026 09:36:45 GMT"
+    },
+    {
       "title": "인천시교육청, 인공지능 활용으로 미래형 교육 전환 ‘속도’",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBVNGZNb1YtUlViV3VlSWJENjhzMlYwX1NLZHczdmJhZW9Yb25XOVk2aElxOWJ5MnRid2VTS1l4ekEzQVhoNlMxMDN6RQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1kOEhUdmRjaW1KMWFLQkZaTnpPV1l6ZVJ1VURHUW9heEhJVG1LT1VYVlloWHZIMUJHd3lOajZ1c3pVYVNJaVo2a2Zic2dpdFk4VUstNw?oc=5",
       "source": "v.daum.net",
       "date": "Wed, 25 Mar 2026 06:35:44 GMT"
-    },
-    {
-      "title": "선문대, 생성형 AI 윤리강령 발표",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9rM210TG9nY1JjRFBQQU44dk9MZDlyemllV1AwNkFQSHhuY0huUDQ2MFFXS2x6OEZWbUx0eWl5SWlvYXZ4VHZqRTR1N2QtMnR4UzBQOHNvallvdGRSc3IxOFFpdXV2MFQ2V2Vz?oc=5",
-      "source": "충청뉴스",
-      "date": "Wed, 25 Mar 2026 00:40:15 GMT"
-    },
-    {
-      "title": "AI 시대인데…보건의료 공공데이터 AI기업 제공 ‘17건’ 그쳐",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GeVlXWHFIdWlCNVpCS0dkTVVzRGdadmRoV25zRlNOMWRKX1NlYWZqQ3pvY3lzeGlPbXN1MU9CdE85czFEN2tCQ1dtdWZORUhuVExXckU2R0tQRC1DNEdPRlJaeUVNMUQxSlV6M1BPVnJmLVnSAXNBVV95cUxNRnlZV1hxSHVpQjVaQktHZE1Vc0RnWnZkaFduc0ZTTjFkSl9TZWFmakN6b2N5c3hpT21zdTFPQnRPOXMxRDdrQkNXbXVmTkVIblRMV3JFNkdLUEQtQzRHT0ZSWnlFTTFEMUpVejNQT1ZyZi1Z?oc=5",
-      "source": "청년의사",
-      "date": "Tue, 24 Mar 2026 21:35:31 GMT"
-    },
-    {
-      "title": "日 대표 인공지능 '사카나AI' 챗봇 경쟁 대열 합류…일본 문화와 사회규범 반영",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUnllOXdqNjFQMVA0WjJxTGtwMHV6aUlCbzhuNXBiYnVfWU53LTh6dkR6aElYVkRfQ2dVdU4zSVNiX29iR1N0MHdUUHJxNWM4emJ4MUF5cVgxTEZRWnNqc0stOXdsZ2x6SDAyQWF3WmZQYUszWnVuNmlteU9PNTJvVUVnV2loanlr?oc=5",
-      "source": "글로벌이코노믹",
-      "date": "Tue, 24 Mar 2026 12:23:49 GMT"
-    },
-    {
-      "title": "동산의료원, 생성형 AI 통합플랫폼 도입",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBZWC1GanJmQUtYM3RGaGNtU3BuaFlPQ0toOFhQY0tWQVJ1ZzFnc3hBYVNSOHAwRFFRaUNydWRnRTNJNUFXTjY5UFJranl3d2VXVDhobFpCNG9KRzFOX3Y4c1gzdnJGZzhJQVVDOEk1U0IxRklw?oc=5",
-      "source": "데일리메디",
-      "date": "Tue, 24 Mar 2026 08:00:00 GMT"
-    },
-    {
-      "title": "KOMSA, 소형선박 인공지능(AI)‧자율운항 실증 본격화",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA4UmhHd3EtZXQtc1pDN1RrclFFOXJJX1lqRTVjNnFkdlFWMDZ0Q3FTQ0RSMjhCbUVXSEMxYS1kQXU3QkM2bXFyZjlJV0U0a0V5b0dkczlHM253Z0dYOGdReHF2UHF3M3p3MXNJ?oc=5",
-      "source": "BBS불교방송",
-      "date": "Tue, 24 Mar 2026 07:42:27 GMT"
     }
   ]
 }
