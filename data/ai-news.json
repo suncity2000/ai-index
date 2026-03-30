@@ -1,11 +1,47 @@
 {
-  "last_updated": "2026-03-29T09:35:19.155Z",
+  "last_updated": "2026-03-30T10:15:24.981Z",
   "news": [
+    {
+      "title": "생성형 AI를 이용한 시계열 예측 소개",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeEx5WkV3OVFDaHZWbFVVMUszd015SHZHTzlBbE5oZG5NM1lwZzZ1bllZNHJsVEhJeWRPNXcxR0haSTFoTk9URzJWYTVLTVphVVlUcWtRNUhCdE81YVRLakNXX3V3cEo2SGF4X0JtVG9ab2tyYzVOYTlrRndYSE9rTlo0M3RuaGRaUU1VRmFn?oc=5",
+      "source": "Databricks",
+      "date": "Mon, 30 Mar 2026 07:57:28 GMT"
+    },
+    {
+      "title": "[시니어그룹] 인공지능(AI)에도 끄떡없는 직업은?",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBCX3Iwc0ZXeFI0UkxIcFVFQkFWNjNmdDlsQmdzSU9MVXhjb1hXX0VrV1JjY3pXSzktTWtQVkM3S01zUGdQYWUwNkxiaG1NZ0E?oc=5",
+      "source": "v.daum.net",
+      "date": "Mon, 30 Mar 2026 05:48:17 GMT"
+    },
+    {
+      "title": "데이터로 설계하고 검증까지… 생성형 AI, 신약개발 전주기 확장",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5OVTVZQWI1VDRkMUpBU1k2ZDdFb3haNmM0b3owMGRFOTRtVnJuQ3U1bVcxeDFMY3Y2Rm4wbHAtLUhGOWpWblh5bWdwZjROQXItYTJFbVZXYzAzLWc3TnJ5MXl2TlVBajcwSmFV?oc=5",
+      "source": "히트뉴스",
+      "date": "Mon, 30 Mar 2026 03:02:16 GMT"
+    },
+    {
+      "title": "AI 혁명 '오픈클로', 차세대 ChatGPT로 등극",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KcDZFTzlVakVCdi03cFE3VEJFVzd4YUdkeFdreENtY2c4TDN4cEVoYWZscDJCTXctVjNrNWJjTmRtNVVScFBEUmNHYnFjajdVMV83NDFiQlduUURWYU9KMTVpblROR0NqMDZuUA?oc=5",
+      "source": "시사주간",
+      "date": "Sun, 29 Mar 2026 21:53:28 GMT"
+    },
+    {
+      "title": "인공지능(﻿AI) 시대, 의사는 어떻게 대체될까",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA2WDR1TWNnektFazNtN011NGpNeGdPVzJJNHU4djNiMXQ0cEdqaW8zaUVVd2R6SW5pTlJ3NjZyMGhrejZkeTcyenJYNzVBaFlJMHc5Zk9DcF8ta2Ywc2ZpMU1oUUFPWGpYelpQSDA4REJmOEpp?oc=5",
+      "source": "dailymedi.com",
+      "date": "Sun, 29 Mar 2026 09:47:00 GMT"
+    },
     {
       "title": "교육부, 안전하고 포용적인 인공지능(AI)·디지털 사회 실현을 위해 4개 기관이 앞장선다",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1mckRGcE10bVUyak9lRGF5enZSS2c2ZVFYTEU5Y3FYYXZaek9WUGFKMWdiWUxKdWdya0lXeER3SnY0VDBfdnhqMV9fcWJsaDlkd2hzQi1vMUxhTnkwVU1GWjdnMA?oc=5",
-      "source": "대한민국교육신문",
+      "source": "kedupress.com",
       "date": "Sat, 28 Mar 2026 13:52:02 GMT"
+    },
+    {
+      "title": "교실로 들어온 생성형 AI…경기 SW미래채움 강사 130여명 첫발",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5hYjR0SjY5MHk1eFlLOXlsTjlFR1plbVZxa1ZiTUpscVMwZFlBNGVMRnlyTlJ0ZkEtM2ZZWElPTGpadHlkaXFrUmJJc2lBQQ?oc=5",
+      "source": "전자신문",
+      "date": "Sat, 28 Mar 2026 09:08:52 GMT"
     },
     {
       "title": "아첨하는 AI…‘나 잘난’ 인간 부추긴다",
@@ -14,28 +50,10 @@
       "date": "Sat, 28 Mar 2026 00:59:00 GMT"
     },
     {
-      "title": "ChatGPT가 다운됐습니다. 이유는 무엇인가요?",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA5NngxZ3BGc1pEZXZFWkl1Q0RMMTNOWnFUNndKZjRIR2lzTWsyekRpVXJnV044RDNFa1JxRk1nbTZqb09Ua0xvR080bzJRZF96c3JPTU1uRVhxZWZvT3h6aXN3?oc=5",
-      "source": "Vietnam.vn",
-      "date": "Fri, 27 Mar 2026 03:30:06 GMT"
-    },
-    {
       "title": "케이(K) 의료와 인공지능(AI)의 만남",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rOWZyQkRjS2FGQjdGMkdmc0Rpb0FmZzZ1TElhNjVuOG5lZm5STkRuUEwxRVNic2R0czlCZlEySFNzbEk0RUVfaUVVbEktaVZhM1RraXo5WEwxeTB0UlFsUHp1THpkOW0wVlE?oc=5",
-      "source": "khanews.com",
+      "source": "병원신문",
       "date": "Thu, 26 Mar 2026 10:54:35 GMT"
-    },
-    {
-      "title": "장바구니 대신 담는 AI, 중증장애인에게 해방인가 장벽인가",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4tSTVtdlM3TERmWkhpLVhKTnFyd3JyNWc0eVM3TnhoWW1FRTJ5VThoNFJOVjZTRnZFOFZOSmFQc2hDMnY4Skg2U1RqamRscDZfbkVmY2M0ZzZ5NzhfNldUcXV4eVVva1p1R1JFdXZnejlMUdIBckFVX3lxTE4tSTVtdlM3TERmWkhpLVhKTnFyd3JyNWc0eVM3TnhoWW1FRTJ5VThoNFJOVjZTRnZFOFZOSmFQc2hDMnY4Skg2U1RqamRscDZfbkVmY2M0ZzZ5NzhfNldUcXV4eVVva1p1R1JFdXZnejlMUQ?oc=5",
-      "source": "에이블뉴스",
-      "date": "Thu, 26 Mar 2026 08:58:55 GMT"
-    },
-    {
-      "title": "서울시 AI행정 본격화…정책 컨트롤타워 '인공지능위원회' 출범",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zVWhrenhtalBtcXRBVm5OSGZRbnc5N0lFUHQzYnVyaVpCS1VBUGNkZEg2RkdaMXMyemRndGJKcE12dXNLcDhuaEUwRG96a3lJdUs4Um1IbnhkRE4zS1pNWdIBYEFVX3lxTE4zVWhrenhtalBtcXRBVm5OSGZRbnc5N0lFUHQzYnVyaVpCS1VBUGNkZEg2RkdaMXMyemRndGJKcE12dXNLcDhuaEUwRG96a3lJdUs4Um1IbnhkRE4zS1pNWQ?oc=5",
-      "source": "연합뉴스",
-      "date": "Thu, 26 Mar 2026 06:00:14 GMT"
     },
     {
       "title": "서울시, AI 정책 컨트롤타워 '인공지능위원회' 출범",
@@ -44,33 +62,15 @@
       "date": "Thu, 26 Mar 2026 06:00:00 GMT"
     },
     {
-      "title": "국립광주과학관 '2026 전 국민 인공지능(AI) 창작 경진대회' 개최",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YNGQ1UEFVQW45MTl0R1VQRnI4Qkh6c0hTbDVIX0RaM3dNX3RJYS1ud3VIY1lJOENLUWp0eHRRcXZxUFdDQmdxOEIycXFxM1NvNlFmV1RWQi0ycHZ3QUxFU3oyTFJlazjSAWdBVV95cUxPWDRkNVBBVUFuOTE5dEdVUEZyOEJIenNIU2w1SF9EWjN3TV90SWEtbnd1SGNZSThDS1FqdHh0UXF2cVBXQ0JncThCMnFxcTNTbzZRZldUVkItMnB2d0FMRVN6MkxSZWs4?oc=5",
-      "source": "abcn.kr",
-      "date": "Thu, 26 Mar 2026 03:46:08 GMT"
-    },
-    {
-      "title": "오픈AI, AI 안전성 강화 위해 ‘버그바운티’ 프로그램 도입",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE81dWZadEtFSk8wXzNUc2ZWbllUT1BaS09hSXFvVTJkVGkzbUtFMHFHS2dYaHdsMENiWnd2VV9xOUI3dmt1WUJTaGxkTjBtWExBQ1JkVkd3dlRyMUlZRGx3azloTURwOWpk?oc=5",
-      "source": "레디앙",
-      "date": "Thu, 26 Mar 2026 02:35:24 GMT"
-    },
-    {
-      "title": "영남이공대, 재학생·교직원에 '생성형 AI' 무료 제공",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUDRtWklaVTZ5WElDeHhuSXJsdDVPd0tFRVhCc1lVSGVOWDB6WHFDTnp3MDQwbjR5eVRwNGRBalZHdktEU0F3Q2tvQWlZNlFHVW9kbFp3TlBtekl4dnNvOFc2UmdJVXNSNXc2OEcybGQyMXhMMEhuQUxBMEZqd05HeA?oc=5",
-      "source": "tbc.co.kr",
-      "date": "Thu, 26 Mar 2026 01:43:01 GMT"
-    },
-    {
       "title": "인공지능(AI)시대, 학교의 역할은 더 중요하다",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rdy1JY3ZzTTFoWE05NWxOeVJ6ekhVRjlUWF9WcmFvejhvN3lERGttUVlqSG1zSVpFSUd2ZFlMaExwOVFHek94Z3gxS2NWTGhDS0pXYlRoTi1YOGtmdWdBaURDQkc4djh3M1E00gFvQVVfeXFMT2NuR1R3WDJYdk9jRWFfa01KX0d2QUpad2ljcG9EWC0yRFQyN0c0ZldDX3JNbkxZME8xUElpUGMyTXN6RDRlWGU2Zk85eVpRd0hPZ3dVZm9IeVRoNkl4bWhncjR6UDRPX2o1SEg3WlI0?oc=5",
-      "source": "교육언론[창]",
+      "source": "educhang.co.kr",
       "date": "Wed, 25 Mar 2026 22:46:22 GMT"
     },
     {
       "title": "[OpenAI가 ChatGPT를 아마존처럼 만들려는 계획은] 사용자가 챗봇과 대화하면서 제품을 추천받고, ChatGPT 안에서 바로 카트에 담고 결제까지 마치는 “AI 에이전트형 쇼핑”을 추진",
       "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBuLTNPSzk4LVlFbURieVJGbGNwbWJIMlNrbnM0d201dmxiVDg4X0s1bHY4Ql9GMkRtSkZKek10cVE?oc=5",
-      "source": "AI넷",
+      "source": "ainet.link",
       "date": "Wed, 25 Mar 2026 16:02:00 GMT"
     }
   ]
