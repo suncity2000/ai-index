@@ -1,17 +1,29 @@
 {
-  "last_updated": "2026-03-31T10:04:21.055Z",
+  "last_updated": "2026-04-01T10:04:46.295Z",
   "news": [
+    {
+      "title": "전 세계 챗GPT 사용자 미국·인도 양강 속 캐나다 ‘사용 밀도’ 1위---한국 1320만 명 사용",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fYkVJY01BTjg5WmhMaVRzQlozR0h2dndydHktYk5rSW5WTDlZRzVkVmVZcHdCZ0Nzd1FxRHFEMl93QUVEcjhnaVVqTmN0c0pkS3FEWEh5ZlBjMGI5Z3BQRkRYMFh6RlVQLUdncdIBbEFVX3lxTE1fYkVJY01BTjg5WmhMaVRzQlozR0h2dndydHktYk5rSW5WTDlZRzVkVmVZcHdCZ0Nzd1FxRHFEMl93QUVEcjhnaVVqTmN0c0pkS3FEWEh5ZlBjMGI5Z3BQRkRYMFh6RlVQLUdncQ?oc=5",
+      "source": "하이테크정보",
+      "date": "Tue, 31 Mar 2026 22:35:35 GMT"
+    },
+    {
+      "title": "인공지능(AI) 의료기기 상용화 지원 ‘450억 투입’",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93X0hNNG1fLV9EdkJVNktnVEJvTFJhY05adFdjd3hnVlBNc29Td19qWVJEcW5NbHRzbC1tLVJ2bWpqdy05MjBnU2JlNi1qdUJuZEgwTnBHVG1PSWRFaEI3REFjLU9ETWJ3?oc=5",
+      "source": "데일리메디",
+      "date": "Tue, 31 Mar 2026 20:55:00 GMT"
+    },
+    {
+      "title": "한국연구재단, 인공지능 위원회 첫 회의… AI로 여는 연구관리 혁신 본격 추진",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCMXdjMmJ5eVR6NjR2cFZ4MFZYYkRZa2tLVDNRR3JxUi1ta0MtSGw3em5odnRFcWlpUTRwd1M0SE1iWmgxb0k1M2ZXcWtKRVVwWUFPQzRiR2FjSzdDSnRReFdNNUNnMEk?oc=5",
+      "source": "인공지능신문",
+      "date": "Tue, 31 Mar 2026 06:57:54 GMT"
+    },
     {
       "title": "‘생성형 AI’ 10명 중 4명 사용···사무직 경험률 72%",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1IOG1sZ1dITTZEdWxpZGJxV3o4OWJrSU81TGN4OU1MSTVYcVQzTkpVMGpVSUdMb2g4ME4tZUdvcG55SmVSWmJ1RVlQeW55dzZRd2JwUEJCYUZPUdIBX0FVX3lxTE1qTHBXblBrR2NPUHl4a2k2UTMtX3NvQTlkbVhFc29xbHdHNVVxUDdVUWkzZzRWRlFfYy1CTHhMVHkyRVk1QW5YNFhvSEtsQUIySWFTM1JMNmpYajZuSzhn?oc=5",
       "source": "경향신문",
       "date": "Tue, 31 Mar 2026 03:43:00 GMT"
-    },
-    {
-      "title": "국민 10명 중 4명 “생성형AI 사용”",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0xOUlESC1UTTRBRnBROXh0Z0lIUGlKMi1zMmZlR2RkVEw0a3M4QmFlSWYwR2R0M2dVN1Y1dkhkZVMxUXctTERIQ1EwaUw2dw?oc=5",
-      "source": "전자신문",
-      "date": "Tue, 31 Mar 2026 03:00:00 GMT"
     },
     {
       "title": "“기업 52% 생성형 AI 활용… 보안·거버넌스 구축은 미진” 오픈텍스트 조사",
@@ -20,16 +32,22 @@
       "date": "Tue, 31 Mar 2026 01:04:23 GMT"
     },
     {
-      "title": "ChatGPT, 월 광고 수익 1억 달러 돌파…4월 셀프서브 광고 플랫폼 출시",
+      "title": "AI 뉴스·리포트·논문·툴 활용 인사이트",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kZ2J5VUkyR1lqMGVUSndoOC1fcy1vcHZXTkxGcWxYaXkwMXcxV1VLR0I1dmFEUEhMN0E1NjlwYUNMR29xalB4WHRVUXhYTVJxbGkzN1RNNm9PdUVMQ19N?oc=5",
-      "source": "AI 매터스",
+      "source": "AI매터스",
       "date": "Mon, 30 Mar 2026 23:25:12 GMT"
     },
     {
-      "title": "인공지능(AI)도 문화예술도 교실로… 강동구, 학교로 찾아가는 미래 교육 시동",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB0TXJjYWdpejhlRlhYc2FtNnN5c2dneVFadUViOUFsdE14U2Z5Z1BnZG81X1FUcm1Pc2d0UjlaaHhmU0JpRGU1bkhyZjhIcGxaei0wRlhnWTdiV3ZScUdKMnQtNmprZjZaVjFCbE80d9IBb0FVX3lxTFB0TXJjYWdpejhlRlhYc2FtNnN5c2dneVFadUViOUFsdE14U2Z5Z1BnZG81X1FUcm1Pc2d0UjlaaHhmU0JpRGU1bkhyZjhIcGxaei0wRlhnWTdiV3ZScUdKMnQtNmprZjZaVjFCbE80dw?oc=5",
-      "source": "서울일보",
-      "date": "Mon, 30 Mar 2026 22:55:25 GMT"
+      "title": "“레거시 코드 분석, 설계 문서 자동 생성”… 후지쯔, 생성형 AI로 시스템 현대화 ‘97% 시간 단축’",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YN3dSOHp1bjc2bnE0eEtvWXlNaXhrZE1uTzQ4X21QSEdEM0JSeXJSWWxQQThuaDRRckN3OExiWnA0M3NPQVdXSHNkSHhKNzA2azlDajdweUlkRGI0WWw5SXFNb2JmUVk?oc=5",
+      "source": "인공지능신문",
+      "date": "Mon, 30 Mar 2026 13:03:20 GMT"
+    },
+    {
+      "title": "“인공지능 활용하자”…경기도, AI 관련 사업 봇물",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ydjZ0c3I1QUtwLWtiVFlrV3ZzSHFfQkxqNTNVTk1helVsVm9BTGd5c09wa3FiQklVNFJNXy1ya2Z3Z282cEVSSFJKby1HaFk?oc=5",
+      "source": "v.daum.net",
+      "date": "Mon, 30 Mar 2026 08:02:04 GMT"
     },
     {
       "title": "고용24 ‘인공지능(AI) 기반 인재추천’ 서비스 개선",
@@ -38,10 +56,10 @@
       "date": "Mon, 30 Mar 2026 07:47:37 GMT"
     },
     {
-      "title": "[시니어그룹] 인공지능(AI)에도 끄떡없는 직업은?",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1pYjNQeV9DZFFjX3MwaEI1SUpwdTJnXzdaY3pMSUhEYy1paDNvakpmUThXX3FmWTJHRlZKcmxlVlhicDlTSEtPbGZ2eGJDZ3oxS29UNA?oc=5",
-      "source": "v.daum.net",
-      "date": "Mon, 30 Mar 2026 05:48:17 GMT"
+      "title": "인공지능(AI)에도 끄떡없는 직업은?",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBpMTNKM3pndG5VaUI3LVY0SHMzMGZjYWZmVDlDOTJpT2NHWkVnZFJTQTFTQlhEZGFaMkx6UHhNQUF3Z3FWLTZEbEZLU3BDaEFoVWZGSGUwYkNxVFNNYzdaT3p3TUxwN0ZZeDJ4bTRqV2o1WmVhdVVJ?oc=5",
+      "source": "오마이뉴스",
+      "date": "Mon, 30 Mar 2026 05:42:00 GMT"
     },
     {
       "title": "데이터로 설계하고 검증까지… 생성형 AI, 신약개발 전주기 확장",
@@ -50,28 +68,10 @@
       "date": "Mon, 30 Mar 2026 03:02:16 GMT"
     },
     {
-      "title": "\"전국 어디서나 AI 훈련 받는다\"... 고용부, 30개 인공지능 훈련지원센터 선정",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GUERiSWM0c3V1emdrYXNHeXVXd1haZGxVRDRSdWNxZmhSQ25LTkVfQ3FXOUVzbk9aaGdlNlh4elNyVm1nWWpOMDFoUDkwS1dmT0F1X3pSOW94OHNaWUM4NlItaVU2TEU?oc=5",
-      "source": "인공지능신문",
-      "date": "Mon, 30 Mar 2026 02:58:41 GMT"
-    },
-    {
       "title": "AI 혁명 '오픈클로', 차세대 ChatGPT로 등극",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KcDZFTzlVakVCdi03cFE3VEJFVzd4YUdkeFdreENtY2c4TDN4cEVoYWZscDJCTXctVjNrNWJjTmRtNVVScFBEUmNHYnFjajdVMV83NDFiQlduUURWYU9KMTVpblROR0NqMDZuUA?oc=5",
       "source": "시사주간",
       "date": "Sun, 29 Mar 2026 21:53:28 GMT"
-    },
-    {
-      "title": "인공지능(AI) 해커톤, 국민 투표로 뽑는다… ‘AI 핵 캠프 2026’ 개최",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1GbU51YWF1V1RJa1B0NFhiUW9CRmthZ3JVTjNOM2QwLVdadTVsU19CcE9UeTdidmRKYTI1S2U4akhZbkFvYXR3UE11dmdsenBhWnZua0tkZGZjdklmaEtzX3JWTW9pdw?oc=5",
-      "source": "한국대학신문",
-      "date": "Fri, 27 Mar 2026 05:46:42 GMT"
-    },
-    {
-      "title": "케이(K) 의료와 인공지능(AI)의 만남",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rOWZyQkRjS2FGQjdGMkdmc0Rpb0FmZzZ1TElhNjVuOG5lZm5STkRuUEwxRVNic2R0czlCZlEySFNzbEk0RUVfaUVVbEktaVZhM1RraXo5WEwxeTB0UlFsUHp1THpkOW0wVlE?oc=5",
-      "source": "병원신문",
-      "date": "Thu, 26 Mar 2026 10:54:35 GMT"
     }
   ]
 }
