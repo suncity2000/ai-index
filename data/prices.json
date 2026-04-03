@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-02T04:35:01.995Z",
+  "last_updated": "2026-04-03T04:35:43.819Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -296,6 +296,14 @@
       "price_1m_input": 0.1,
       "price_1m_output": 0.4,
       "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "google/gemma-4-31b-it",
+      "name": "Google: Gemma 4 31B",
+      "price_1m_input": 0.14,
+      "price_1m_output": 0.4,
+      "context_length": 262144,
       "top_provider": true
     },
     {
