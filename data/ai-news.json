@@ -1,23 +1,35 @@
 {
-  "last_updated": "2026-04-03T09:51:28.628Z",
+  "last_updated": "2026-04-04T09:36:13.467Z",
   "news": [
-    {
-      "title": "인공지능(AI)과의 경쟁·협력, '나'라는 중심 잃지 마라[BOOK]",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vR0huRUZ6NmtIdV9fazRtVnl6cnR6WVA5YkJucVNJaml0dDVvX29oUGdST2VvWUJwSEUyTk0zTEhjWGVVVmdTNkRPUkxvcFkxTGNSQkJB?oc=5",
-      "source": "중앙일보",
-      "date": "Fri, 03 Apr 2026 05:00:00 GMT"
-    },
     {
       "title": "오픈 AI, 기술 분야 팟캐스트 ‘TBPN’ 품었다…실리콘밸리서 큰 인기",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UYU5XSUR1X29CYUlRaVg3bERRZ1pySzBnUVBCSTFvUkhzemdzUkpYTVoxUTYxczRVSl8yM0x6RVVveGdQVFNRQlNBSWxJMW9WSzM3LThacTRGb1NVei15dQ?oc=5",
       "source": "한겨레",
-      "date": "Fri, 03 Apr 2026 04:39:00 GMT"
+      "date": "Fri, 03 Apr 2026 12:06:00 GMT"
+    },
+    {
+      "title": "오픈AI, 1,220억 달러 유치 성공…기업가치 8,520억 달러",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE14SkR5RzUtRlFkdXRTWjVXNFpOQ01fVl80c0Njb0ZWYVpCcVZQN0ZJTWZqQmRVemllZVhiWXdCVWJfSWFGM2QtVFA4WVd5S0EtU2MtMkoyb2tEWUg0ZWt1VnktRDhwcGpqcGlYc2QteW9fd9IBdEFVX3lxTFB2T1VVazQ0RFZJWkl5M19PR25XeWtRM1U0Tm9uY1N4T0ZfcGc1QklOS2xPUlgwWlB0d0hTeXlwbWVVc2RSdHVJUHEySDVzM1NJN0U1d3F5YWY1MEFuTnJrYko3dm8yQnZJeGxTb2VHYkVadVBY?oc=5",
+      "source": "디지털비즈온",
+      "date": "Fri, 03 Apr 2026 07:06:13 GMT"
+    },
+    {
+      "title": "인공지능(AI)과의 경쟁·협력, '나'라는 중심 잃지 마라[BOOK]",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vR0huRUZ6NmtIdV9fazRtVnl6cnR6WVA5YkJucVNJaml0dDVvX29oUGdST2VvWUJwSEUyTk0zTEhjWGVVVmdTNkRPUkxvcFkxTGNSQkJB?oc=5",
+      "source": "joongang.co.kr",
+      "date": "Fri, 03 Apr 2026 05:00:00 GMT"
     },
     {
       "title": "진주시, “인공지능(AI) 산업 대전환, 서부경남 AI 거점도시로”",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12YjZQU0pRVHdOcFN0QnUzdWZoSUNZMGxNYVlOUnJLVVEwTGNkSW1heU80dW9jX1pWU0xBOS1tYzQ4SEduYWpDdWsyeWsxU1JfNFlMeHlrS19PZXhnRXlhazJsZGp5d1hvaDVsTmZQSnN0bkN50gF0QVVfeXFMTXZiNlBTSlFUd05wU3RCdTN1ZmhJQ1kwbE1hWU5ScktVUTBMY2RJbWF5TzR1b2NfWlZTTEE5LW1jNDhIR25hakN1azJ5azFTUl80WUx4eWtLX09leGdFeWFrMmxkanl3WG9oNWxOZlBKc3RuQ3k?oc=5",
       "source": "이뉴스투데이",
       "date": "Thu, 02 Apr 2026 16:45:57 GMT"
+    },
+    {
+      "title": "“그럴듯한데 믿진 못하겠네”…생성형 AI를 떠나는 이유",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QRWx2WjVOS2lxYmM5R1VHZlVIZ1FXYV9tTnI2bkpSRUk2NHNWb203WGw2NGxDRHM3TktSSTI3RmYyYzlVajJWTy1OdnIwbHdrY0RfSnE3Tm1SQQ?oc=5",
+      "source": "농민신문",
+      "date": "Thu, 02 Apr 2026 07:00:00 GMT"
     },
     {
       "title": "\"검증하는 데 품 더 든다\"…생성형 AI 외면하는 이유는 '환각 현상'",
@@ -40,7 +52,7 @@
     {
       "title": "한국에너지공단, ‘인공지능(AI) 감사·윤리 헌장’수립·선포",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBTblhOWVdBaE9YTk5MREdOQXA3dXBVaFczTWNLTFBGRjBUeXhsZ3U1T0x4TjAzWTRQSHNzS3o2Q21qNjYzZmVQV2pnVC1HM2hReF9TaDlqYzdZTFJWeFVmeFZEMkc4ODJ5eTdVTHhR0gFuQVVfeXFMUFNuWE5ZV0FoT1hOTkxER05BcDd1cFVoVzNNY0tMUEZGMFR5eGxndTVPTHhOMDNZNFBIc3NLejZDbWo2NjNmZVBXamdULUczaFF4X1NoOWpjN1lMUlZ4VWZ4VkQyRzg4Mnl5N1VMeFE?oc=5",
-      "source": "gasnews.com",
+      "source": "가스신문",
       "date": "Thu, 02 Apr 2026 01:28:09 GMT"
     },
     {
@@ -60,18 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fYkVJY01BTjg5WmhMaVRzQlozR0h2dndydHktYk5rSW5WTDlZRzVkVmVZcHdCZ0Nzd1FxRHFEMl93QUVEcjhnaVVqTmN0c0pkS3FEWEh5ZlBjMGI5Z3BQRkRYMFh6RlVQLUdncdIBbEFVX3lxTE1fYkVJY01BTjg5WmhMaVRzQlozR0h2dndydHktYk5rSW5WTDlZRzVkVmVZcHdCZ0Nzd1FxRHFEMl93QUVEcjhnaVVqTmN0c0pkS3FEWEh5ZlBjMGI5Z3BQRkRYMFh6RlVQLUdncQ?oc=5",
       "source": "하이테크정보",
       "date": "Tue, 31 Mar 2026 22:35:35 GMT"
-    },
-    {
-      "title": "인공지능(AI) 의료기기 상용화 지원 ‘450억 투입’",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93X0hNNG1fLV9EdkJVNktnVEJvTFJhY05adFdjd3hnVlBNc29Td19qWVJEcW5NbHRzbC1tLVJ2bWpqdy05MjBnU2JlNi1qdUJuZEgwTnBHVG1PSWRFaEI3REFjLU9ETWJ3?oc=5",
-      "source": "데일리메디",
-      "date": "Tue, 31 Mar 2026 20:55:00 GMT"
-    },
-    {
-      "title": "국민 10명 중 4명, 생성형 AI 경험... 챗GPT 가장 많이 사용",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Faktwcl9xMjFXcFc0dUxSblNFSGpfdFg4anlSbTRaa0o0ZW5PRjFYbFpFRjV1VjM4OG9yenQwWTJWRmt2a3pOX1h2Ny1SYXRtcVRHQ3JVekM0VzFkVVZveHJQN3Y1bjZVWDFQVGhBYkZscFFKazVz?oc=5",
-      "source": "오마이뉴스",
-      "date": "Tue, 31 Mar 2026 07:18:00 GMT"
     }
   ]
 }
