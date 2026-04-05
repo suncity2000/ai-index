@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-04-04T09:36:13.467Z",
+  "last_updated": "2026-04-05T09:36:55.784Z",
   "news": [
+    {
+      "title": "인공지능(AI) 시대의 역량 강화",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBlMnhYYWpTNmNEOExuZzM1VDVrZFg1QW05OEJGQm5BN245TGdsREp6TWJ5WVBqNjhnN2dUemNHNDJrVjBHc0lnbjRWU2J2dTYtekdxZm54ZkI4VFJCUC04ZFV5MkdfZ0dYd2tN?oc=5",
+      "source": "제주일보",
+      "date": "Sun, 05 Apr 2026 06:46:29 GMT"
+    },
     {
       "title": "오픈 AI, 기술 분야 팟캐스트 ‘TBPN’ 품었다…실리콘밸리서 큰 인기",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UYU5XSUR1X29CYUlRaVg3bERRZ1pySzBnUVBCSTFvUkhzemdzUkpYTVoxUTYxczRVSl8yM0x6RVVveGdQVFNRQlNBSWxJMW9WSzM3LThacTRGb1NVei15dQ?oc=5",
@@ -14,9 +20,15 @@
       "date": "Fri, 03 Apr 2026 07:06:13 GMT"
     },
     {
+      "title": "오픈AI, 기술 팟캐스트 ‘TBPN’ 인수… AI 여론 선점 나서",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KREs5Z3BvSVMyZTNNZldYNTIwa043amRpcEFOcUhCcmhJN29sRUdyai16NGR1VnhxTVFBVEpTaDk0ZmpTd2VIR0x4dVJQYWttNG05Z0RGQ0h3X29xY3JSdUlGOU9nc2pQc2d2ZGE4eEzSAXRBVV95cUxON2tPWGg0SE54NlVHelI2Mk5mYmR4QzVqNldseF8wZFkwQ0l3Z0VWMkxzUWI3U2ZGZkwxaUk5dEZ3S1dkWEZkQzBhTm9vN2daYzZUSDQzVkpHb3F5cHJDNEk5eDBfUFNPNGlJdVlNOTltc0FQeg?oc=5",
+      "source": "IT조선",
+      "date": "Fri, 03 Apr 2026 06:18:14 GMT"
+    },
+    {
       "title": "인공지능(AI)과의 경쟁·협력, '나'라는 중심 잃지 마라[BOOK]",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vR0huRUZ6NmtIdV9fazRtVnl6cnR6WVA5YkJucVNJaml0dDVvX29oUGdST2VvWUJwSEUyTk0zTEhjWGVVVmdTNkRPUkxvcFkxTGNSQkJB?oc=5",
-      "source": "joongang.co.kr",
+      "source": "중앙일보",
       "date": "Fri, 03 Apr 2026 05:00:00 GMT"
     },
     {
@@ -36,12 +48,6 @@
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAxVm1CSm5mR3R2U0hjamJhSGNoX1R6SmZHam83NzBHU0E3ckhrMkF5ZmJqdGNjek5md2d6R1UyYVgyTzNjby1KUnlyTjlPSWN2cUJicF84d0pXX0R3dkxRTnNGTTVtSE0?oc=5",
       "source": "연합뉴스TV",
       "date": "Thu, 02 Apr 2026 06:01:47 GMT"
-    },
-    {
-      "title": "공공AI사업지원센터 개소…\"인공지능 행정서비스 구현 지원\"",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9NVFJrMTdjREVTTk9DeGI4MUNPZlZvdFhWOVJuclUwNGZtYWxvMnh5VGVDa0F0bDBRVk5yblhmUlRQNHIzRnUtOVQxelVKQ2NjTC1JZjhldm8yMTlEdFlHdNIBYEFVX3lxTE9NVFJrMTdjREVTTk9DeGI4MUNPZlZvdFhWOVJuclUwNGZtYWxvMnh5VGVDa0F0bDBRVk5yblhmUlRQNHIzRnUtOVQxelVKQ2NjTC1JZjhldm8yMTlEdFlHdA?oc=5",
-      "source": "연합뉴스",
-      "date": "Thu, 02 Apr 2026 06:00:01 GMT"
     },
     {
       "title": "진주시, 인공지능(AI)산업 대전환 선언",
@@ -66,12 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNkktU0ZDSmlLM1BFYVA5V0Y0MzZHWGhFb201WW1YbTNycEZLZDNvaGZHTDMwbVFKUUU4QkNRMVVoMjZOb2p5X2ctR1dLS0ZjOHVTZi1pSmJLNXJSdG9WRzg3VE9HOW9YSl9vakNnY0h5MDZFZkIwbW9paWhzejNvLTB2d9IBlwFBVV95cUxQS3lCWWhDYmlqVGlZUE14OHVUUGUzUk1qYmFGNEpoTHZSb1FDeGtfaGdSRmlQV1A1V0o4S2JhTzhDMHBKZENPbUZaXzY0T1M5MUVKYU1IRTJKaFpleXNzcHEwN0t4V25LSlU4RExtWkNQRktPYTZjUGJYNTk2MENMZ2FYSjl3Z0tKdXhCTDdIRkh5NEZzMEJ3?oc=5",
       "source": "조선일보",
       "date": "Wed, 01 Apr 2026 15:41:53 GMT"
-    },
-    {
-      "title": "전 세계 챗GPT 사용자 미국·인도 양강 속 캐나다 ‘사용 밀도’ 1위---한국 1320만 명 사용",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fYkVJY01BTjg5WmhMaVRzQlozR0h2dndydHktYk5rSW5WTDlZRzVkVmVZcHdCZ0Nzd1FxRHFEMl93QUVEcjhnaVVqTmN0c0pkS3FEWEh5ZlBjMGI5Z3BQRkRYMFh6RlVQLUdncdIBbEFVX3lxTE1fYkVJY01BTjg5WmhMaVRzQlozR0h2dndydHktYk5rSW5WTDlZRzVkVmVZcHdCZ0Nzd1FxRHFEMl93QUVEcjhnaVVqTmN0c0pkS3FEWEh5ZlBjMGI5Z3BQRkRYMFh6RlVQLUdncQ?oc=5",
-      "source": "하이테크정보",
-      "date": "Tue, 31 Mar 2026 22:35:35 GMT"
     }
   ]
 }
