@@ -1,11 +1,23 @@
 {
-  "last_updated": "2026-04-05T09:36:55.784Z",
+  "last_updated": "2026-04-06T10:07:35.884Z",
   "news": [
+    {
+      "title": "AI가 서서히 채용문 닫아…청년 신입이 더 절감한다",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBoWG9rQnBZX0pzN0RtT2hkVnV1dXdGLVM3NWpoZ3VhTlNoZ21COG03dHZOTEUxa3o0UV80d21ZQU13dXoxcHl6dXNfSVlDNFRNcXc3am1ZTDVrbnNlVnk2ZGQyZkRFc2U2WlAzcXdFSnlBQQ?oc=5",
+      "source": "한겨레",
+      "date": "Mon, 06 Apr 2026 07:38:00 GMT"
+    },
     {
       "title": "인공지능(AI) 시대의 역량 강화",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBlMnhYYWpTNmNEOExuZzM1VDVrZFg1QW05OEJGQm5BN245TGdsREp6TWJ5WVBqNjhnN2dUemNHNDJrVjBHc0lnbjRWU2J2dTYtekdxZm54ZkI4VFJCUC04ZFV5MkdfZ0dYd2tN?oc=5",
-      "source": "제주일보",
+      "source": "jejunews.com",
       "date": "Sun, 05 Apr 2026 06:46:29 GMT"
+    },
+    {
+      "title": "GPT-5.4, OpenAI가 꺼낸 승부수",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE80eHhxRlZ0YlpwRVBpbjhUOXFRbzUwWWxqY25iaVpaUkxqR3luSGFVdmJ3bVhWOFBBV2ZtRVM5bE15bzhEbVQ4bnhR?oc=5",
+      "source": "브런치",
+      "date": "Fri, 03 Apr 2026 15:22:31 GMT"
     },
     {
       "title": "오픈 AI, 기술 분야 팟캐스트 ‘TBPN’ 품었다…실리콘밸리서 큰 인기",
@@ -16,7 +28,7 @@
     {
       "title": "오픈AI, 1,220억 달러 유치 성공…기업가치 8,520억 달러",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE14SkR5RzUtRlFkdXRTWjVXNFpOQ01fVl80c0Njb0ZWYVpCcVZQN0ZJTWZqQmRVemllZVhiWXdCVWJfSWFGM2QtVFA4WVd5S0EtU2MtMkoyb2tEWUg0ZWt1VnktRDhwcGpqcGlYc2QteW9fd9IBdEFVX3lxTFB2T1VVazQ0RFZJWkl5M19PR25XeWtRM1U0Tm9uY1N4T0ZfcGc1QklOS2xPUlgwWlB0d0hTeXlwbWVVc2RSdHVJUHEySDVzM1NJN0U1d3F5YWY1MEFuTnJrYko3dm8yQnZJeGxTb2VHYkVadVBY?oc=5",
-      "source": "디지털비즈온",
+      "source": "digitalbizon.com",
       "date": "Fri, 03 Apr 2026 07:06:13 GMT"
     },
     {
@@ -38,16 +50,16 @@
       "date": "Thu, 02 Apr 2026 16:45:57 GMT"
     },
     {
-      "title": "“그럴듯한데 믿진 못하겠네”…생성형 AI를 떠나는 이유",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QRWx2WjVOS2lxYmM5R1VHZlVIZ1FXYV9tTnI2bkpSRUk2NHNWb203WGw2NGxDRHM3TktSSTI3RmYyYzlVajJWTy1OdnIwbHdrY0RfSnE3Tm1SQQ?oc=5",
-      "source": "농민신문",
-      "date": "Thu, 02 Apr 2026 07:00:00 GMT"
+      "title": "인종 편향성 없앤 ‘안면 익명화 인공지능(AI)’ 개발",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1LUmUwTERpTHlsZFBRaXdHelZvcG55ai1lT3FMWEdyel8xT1JILUhlQ205R2hfcmNPekU0X3RINVFaT3ZyRWlaN1BnaHdORTJNMmhLd2RhblFUMWt1ZFVDTDdteDVpaS1w?oc=5",
+      "source": "데일리메디",
+      "date": "Thu, 02 Apr 2026 07:19:00 GMT"
     },
     {
-      "title": "\"검증하는 데 품 더 든다\"…생성형 AI 외면하는 이유는 '환각 현상'",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAxVm1CSm5mR3R2U0hjamJhSGNoX1R6SmZHam83NzBHU0E3ckhrMkF5ZmJqdGNjek5md2d6R1UyYVgyTzNjby1KUnlyTjlPSWN2cUJicF84d0pXX0R3dkxRTnNGTTVtSE0?oc=5",
-      "source": "연합뉴스TV",
-      "date": "Thu, 02 Apr 2026 06:01:47 GMT"
+      "title": "“그럴듯한데 믿진 못하겠네”…생성형 AI를 떠나는 이유",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QRWx2WjVOS2lxYmM5R1VHZlVIZ1FXYV9tTnI2bkpSRUk2NHNWb203WGw2NGxDRHM3TktSSTI3RmYyYzlVajJWTy1OdnIwbHdrY0RfSnE3Tm1SQQ?oc=5",
+      "source": "nongmin.com",
+      "date": "Thu, 02 Apr 2026 07:00:00 GMT"
     },
     {
       "title": "진주시, 인공지능(AI)산업 대전환 선언",
@@ -60,18 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBTblhOWVdBaE9YTk5MREdOQXA3dXBVaFczTWNLTFBGRjBUeXhsZ3U1T0x4TjAzWTRQSHNzS3o2Q21qNjYzZmVQV2pnVC1HM2hReF9TaDlqYzdZTFJWeFVmeFZEMkc4ODJ5eTdVTHhR0gFuQVVfeXFMUFNuWE5ZV0FoT1hOTkxER05BcDd1cFVoVzNNY0tMUEZGMFR5eGxndTVPTHhOMDNZNFBIc3NLejZDbWo2NjNmZVBXamdULUczaFF4X1NoOWpjN1lMUlZ4VWZ4VkQyRzg4Mnl5N1VMeFE?oc=5",
       "source": "가스신문",
       "date": "Thu, 02 Apr 2026 01:28:09 GMT"
-    },
-    {
-      "title": "인공지능(AI) 관련 최신 동향",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAzY01aVjIyNkw3RE5WUXhpbWFxTHZieXJvZW1BQ29RQ2Y4YktrNGpEUHJDQzBqRWlPdEcwZ25YNkVndW4zbko0NThBeElYRFlxaG94RDhNVTFYNGFqaEpmYy00RFI4X19GLVRtcFhR0gFyQVVfeXFMTl9EOWJQWWl2aldGbGg0M2IyRUJWMUxJb1ZPaVhvNGVSRTVDUWlpcjhmTjc5alpfVkgxNDNia1VNSU1QS1hlWDRZX3BPYTRWNDNXNzFoMHlYRklseFE5WnAyb0VKemJzUnNIX0FOZ1A3Z0l3?oc=5",
-      "source": "법률신문",
-      "date": "Thu, 02 Apr 2026 01:02:23 GMT"
-    },
-    {
-      "title": "인공지능 혼자 논문 작성하고 심사까지 통과",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNkktU0ZDSmlLM1BFYVA5V0Y0MzZHWGhFb201WW1YbTNycEZLZDNvaGZHTDMwbVFKUUU4QkNRMVVoMjZOb2p5X2ctR1dLS0ZjOHVTZi1pSmJLNXJSdG9WRzg3VE9HOW9YSl9vakNnY0h5MDZFZkIwbW9paWhzejNvLTB2d9IBlwFBVV95cUxQS3lCWWhDYmlqVGlZUE14OHVUUGUzUk1qYmFGNEpoTHZSb1FDeGtfaGdSRmlQV1A1V0o4S2JhTzhDMHBKZENPbUZaXzY0T1M5MUVKYU1IRTJKaFpleXNzcHEwN0t4V25LSlU4RExtWkNQRktPYTZjUGJYNTk2MENMZ2FYSjl3Z0tKdXhCTDdIRkh5NEZzMEJ3?oc=5",
-      "source": "조선일보",
-      "date": "Wed, 01 Apr 2026 15:41:53 GMT"
     }
   ]
 }
