@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T04:38:42.479Z",
+  "last_updated": "2026-04-08T04:42:45.857Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -96,6 +96,14 @@
       "price_1m_input": 15,
       "price_1m_output": 75,
       "context_length": 200000,
+      "top_provider": true
+    },
+    {
+      "id": "anthropic/claude-opus-4.6-fast",
+      "name": "Anthropic: Claude Opus 4.6 (Fast)",
+      "price_1m_input": 30,
+      "price_1m_output": 150,
+      "context_length": 1000000,
       "top_provider": true
     },
     {
@@ -1487,6 +1495,14 @@
       "name": "Qwen: Qwen-Plus",
       "price_1m_input": 0.26,
       "price_1m_output": 0.78,
+      "context_length": 1000000,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3.6-plus",
+      "name": "Qwen: Qwen3.6 Plus",
+      "price_1m_input": 0.33,
+      "price_1m_output": 1.95,
       "context_length": 1000000,
       "top_provider": true
     },
