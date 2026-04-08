@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-04-07T10:05:58.339Z",
+  "last_updated": "2026-04-08T10:05:59.003Z",
   "news": [
+    {
+      "title": "안양, 인공지능(AI) 융합 혁신 클러스터 조성 업무협약",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5oaGxXVHAyemhTSkQzZVFRLWxPMVZ4YklHbkF3X3NWZWp5M1R2YldJTVN6YkItbzgyR0xhSGtIMDZqZElMdmdSYzdfXzBQLVo0blpmS0E2RTNkb0ZDY2pGYjE4QlVPaE5SeDljaXhTRdIBb0FVX3lxTE5oaGxXVHAyemhTSkQzZVFRLWxPMVZ4YklHbkF3X3NWZWp5M1R2YldJTVN6YkItbzgyR0xhSGtIMDZqZElMdmdSYzdfXzBQLVo0blpmS0E2RTNkb0ZDY2pGYjE4QlVPaE5SeDljaXhTRQ?oc=5",
+      "source": "서울일보",
+      "date": "Wed, 08 Apr 2026 08:25:17 GMT"
+    },
+    {
+      "title": "ChatGPT·Gemini·Claude는 왜 기업 안에서 ‘전용 AI’가 되는가 - Agentic Workforce의 부상",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObm1oV1pBTVN2cEZhX01jZVZrbTRRZ0wtWFlqeTREOTVXa0hLcGd3WjhGb1ZHY1dwTmkxQTkwRDVxTGVTTE9JMGRtcHFtNm9PNktldGpKMVNqeFdrZ3g0R1FpUlQyZkxKT3ZVNWpNa2haTlI3cTdoQl9sMGQ3WGpPMG5n?oc=5",
+      "source": "Samsung SDS",
+      "date": "Wed, 08 Apr 2026 07:29:15 GMT"
+    },
+    {
+      "title": "주안영상미디어센터, 2026년 인공지능(AI) 교육 프로그램 운영",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB0eDJoOF9JNkw3eWh5VkMyMDZOTWdyd2MyRUtzRFZENENSRERCdXdrXzU1NEllc1piZG5IcW1nUW5lLUNvU1lMejFCajhidkxKQU8ycVMwX1VBTC1pMHAyZUxPQmZIbnFIUE90WFB4aw?oc=5",
+      "source": "미디어생활",
+      "date": "Wed, 08 Apr 2026 02:18:54 GMT"
+    },
+    {
+      "title": "[이슈&인사이트] 인공지능(AI) 기본법의 미비점과 세부적 보완 필요성",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5qb3dVRFBxQTBzZnduTEQ5X2JIcW56TXliLW1DbXZOZVJvV2I3QWZwSU5XNUg5a3RZWUNacGd2a0gxdlIweGdaUEV1NjBpR0lFZXJfZGdQTWFkMkE?oc=5",
+      "source": "에너지경제신문",
+      "date": "Wed, 08 Apr 2026 02:00:00 GMT"
+    },
     {
       "title": "경북형 인공지능(AI) 활용 능력 갖춘 공직자 양성!",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE50UWU1VnRlOF9yNkxpN1BEblExcDJLcjRhMHNhSGNGNEYzNjAycTFsX0J5aG1hd1VNd0JHWkxQaS14cURNNGk4RXp5SHNXQXd1UUpRWG1nYUtUeGczVXhYbDNzQW92dw?oc=5",
@@ -8,10 +32,34 @@
       "date": "Tue, 07 Apr 2026 08:06:00 GMT"
     },
     {
+      "title": "부트텐트의 생성형 AI 기반 교육과정 등록 자동화 시스템 구성하기",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc3VpdlV3VUxXSmVPc0wtQlpaUU83Z0tIaUt2OEdjdmpwczNuNExUdV9MbGFLazhEWHdZTExsRGlxdW5Vemg0Q05Kc29DUDQ4NWpPNzlDaFlrdER5bElZbVc0bnR3OWpwNWUyLUVoSnRmMFRGT0tlYTRFbncwSzVoX0JRM1ZjcjBEdUVF?oc=5",
+      "source": "Amazon Web Services",
+      "date": "Tue, 07 Apr 2026 06:05:58 GMT"
+    },
+    {
+      "title": "인공지능(AI)은 전 세계 사이버 보안 환경을 재편하고 있습니다.",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZGFGcEhfNXdiM296SVZiWGxMU0ZycDVMOE1OUGhQNXlYY0U3NGhYaF9zbTVNRnA0VDN6VUtPUDdfZkNHTFlpUVV1blBsY0Rud2ZiTEFYSTRQa0p0eGV5ZGJiajZnU1prbV9sQmhtQTRINHdRWDA4NTY2WUd5dlR1SWp0YWo?oc=5",
+      "source": "Vietnam.vn",
+      "date": "Tue, 07 Apr 2026 05:21:18 GMT"
+    },
+    {
       "title": "가트너 “생성형 AI 도입, 기술보다 문제 정의·거버넌스에 달렸다”",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBsaXN6YkpuLU1CbnAyZVZrNzZ6YlMzVzZCSlF0ZUJqWnNYN3BWTXRScTlpN3lEenAyNlYxUVRVRlVyaGs2T3EwNV9pUEVZdw?oc=5",
       "source": "전자신문",
       "date": "Tue, 07 Apr 2026 02:14:46 GMT"
+    },
+    {
+      "title": "사학연금, 인공지능(AI)·디지털 기반 ‘지능형 연금·복지 서비스 기관’으로 도약",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9md2RhZlY4eGlKZk8wdWVxZVptSkV1N2ZsNnJJbm5wNmRTQzV2UlZVY0V1WkVCRUNuZTJKQmttN180Y3ZpZjMtMFRyc0hia1VyVGltcVQ1Q1JsY1U3eWRVSXY0a0NUdVE?oc=5",
+      "source": "교수신문",
+      "date": "Tue, 07 Apr 2026 01:26:59 GMT"
+    },
+    {
+      "title": "[서병수의 글로벌투자] 인공지능(AI) 도입이 실질적 성과를 내려면",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1feXBqOHJsVjZBQTN4QzBVOWYxR2I5YmdzN3dhQUdjck1HQUd1UmhvcFhNNWFSSXpucUYyOE8xeDRlRlBYYnpIV2ZwbnU2eXBLZWMyVlNTUk0?oc=5",
+      "source": "뷰어스",
+      "date": "Mon, 06 Apr 2026 22:03:25 GMT"
     },
     {
       "title": "챗GPT로 검색·결제·배송까지… 신세계그룹, 오픈AI와 손잡는다",
@@ -24,54 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBoWG9rQnBZX0pzN0RtT2hkVnV1dXdGLVM3NWpoZ3VhTlNoZ21COG03dHZOTEUxa3o0UV80d21ZQU13dXoxcHl6dXNfSVlDNFRNcXc3am1ZTDVrbnNlVnk2ZGQyZkRFc2U2WlAzcXdFSnlBQQ?oc=5",
       "source": "한겨레",
       "date": "Mon, 06 Apr 2026 07:38:00 GMT"
-    },
-    {
-      "title": "인공지능 사용자들에게는 잘 알려지지 않은 사실",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOU0lBZ3V1UWpIVUIyanJMZXVWd0dPdlhHRWZWOGc3SnRXazlfX20tZk5LUDZpUTdsWlNjb2FGVmU1UWxSdUIyWDhXY3BvcnlEekZHaDNTZ0hIVV92MW04cWVtcnV1ZlBHNnZJYkJXSWxlZnhVVnptOEtLVDYyZTRGckhDeXI5VGc4LWc?oc=5",
-      "source": "오마이뉴스",
-      "date": "Mon, 06 Apr 2026 02:02:00 GMT"
-    },
-    {
-      "title": "성남시, 인공지능(AI) 청년 인재 양성 나선다…‘피지컬 AI 아카데미’ 출범",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA1Q0J0aHJvQnJ0aEMteHg4S2Y4bUNrQnZBb29aV3d3dUh1dWoyOFZvLWNrWDU3VGlsQl9DbjlTVlZwM3FqRUtZNXVtRVBQaFU?oc=5",
-      "source": "v.daum.net",
-      "date": "Sun, 05 Apr 2026 21:56:04 GMT"
-    },
-    {
-      "title": "인공지능, 인류에게 축복인가 재앙인가…신간 'AI 휴먼 코드'",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGMTExOFBLd3d3bnFQSWNWY0xtcmNTX2xoTk40T1pYODJKck9sUXBhOGtKc3lleEN4NWxucUFIX1NZekVQUmRfWk00ZmY2amVrUW9pUWlKODJzcEt5Sm52c3JJUlVxSTg?oc=5",
-      "source": "연합뉴스TV",
-      "date": "Fri, 03 Apr 2026 21:01:34 GMT"
-    },
-    {
-      "title": "GPT-5.4, OpenAI가 꺼낸 승부수",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE80eHhxRlZ0YlpwRVBpbjhUOXFRbzUwWWxqY25iaVpaUkxqR3luSGFVdmJ3bVhWOFBBV2ZtRVM5bE15bzhEbVQ4bnhR?oc=5",
-      "source": "브런치",
-      "date": "Fri, 03 Apr 2026 15:22:31 GMT"
-    },
-    {
-      "title": "오픈 AI, 기술 분야 팟캐스트 ‘TBPN’ 품었다…실리콘밸리서 큰 인기",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UYU5XSUR1X29CYUlRaVg3bERRZ1pySzBnUVBCSTFvUkhzemdzUkpYTVoxUTYxczRVSl8yM0x6RVVveGdQVFNRQlNBSWxJMW9WSzM3LThacTRGb1NVei15dQ?oc=5",
-      "source": "한겨레",
-      "date": "Fri, 03 Apr 2026 12:06:00 GMT"
-    },
-    {
-      "title": "오픈AI, 1,220억 달러 유치 성공…기업가치 8,520억 달러",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE14SkR5RzUtRlFkdXRTWjVXNFpOQ01fVl80c0Njb0ZWYVpCcVZQN0ZJTWZqQmRVemllZVhiWXdCVWJfSWFGM2QtVFA4WVd5S0EtU2MtMkoyb2tEWUg0ZWt1VnktRDhwcGpqcGlYc2QteW9fd9IBdEFVX3lxTFB2T1VVazQ0RFZJWkl5M19PR25XeWtRM1U0Tm9uY1N4T0ZfcGc1QklOS2xPUlgwWlB0d0hTeXlwbWVVc2RSdHVJUHEySDVzM1NJN0U1d3F5YWY1MEFuTnJrYko3dm8yQnZJeGxTb2VHYkVadVBY?oc=5",
-      "source": "디지털비즈온",
-      "date": "Fri, 03 Apr 2026 07:06:13 GMT"
-    },
-    {
-      "title": "인공지능(AI)과의 경쟁·협력, '나'라는 중심 잃지 마라[BOOK]",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vR0huRUZ6NmtIdV9fazRtVnl6cnR6WVA5YkJucVNJaml0dDVvX29oUGdST2VvWUJwSEUyTk0zTEhjWGVVVmdTNkRPUkxvcFkxTGNSQkJB?oc=5",
-      "source": "중앙일보",
-      "date": "Fri, 03 Apr 2026 05:00:00 GMT"
-    },
-    {
-      "title": "인종 편향성 없앤 ‘안면 익명화 인공지능(AI)’ 개발",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1LUmUwTERpTHlsZFBRaXdHelZvcG55ai1lT3FMWEdyel8xT1JILUhlQ205R2hfcmNPekU0X3RINVFaT3ZyRWlaN1BnaHdORTJNMmhLd2RhblFUMWt1ZFVDTDdteDVpaS1w?oc=5",
-      "source": "dailymedi.com",
-      "date": "Thu, 02 Apr 2026 07:19:00 GMT"
     }
   ]
 }
