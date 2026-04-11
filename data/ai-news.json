@@ -1,11 +1,29 @@
 {
-  "last_updated": "2026-04-10T10:07:01.267Z",
+  "last_updated": "2026-04-11T09:38:00.919Z",
   "news": [
+    {
+      "title": "[ChatGPT가 마침내 월 100달러 프로 플랜을 제공] 오픈AI 대변인은 Claude Code와 비교할 때 Codex가 유료 계층 전반에서 달러당 더 많은 코딩 용량을 제공한다고 강조",
+      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFAxb2hJUTlsRlRpLXJnM1QzblhLZnNTRF80NUJuQXdTbUtxTFBPZjJldzMyRFo1R0kxbHZtTmNSamE?oc=5",
+      "source": "AI넷",
+      "date": "Fri, 10 Apr 2026 16:01:00 GMT"
+    },
+    {
+      "title": "인공지능 사회로의 혁신 전환을 위한 해법 찾는다",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HdFBVN05lanFoVzlPYjR0V29sSE1JRjI5WVhUbkotUWFMNExBcl95ajY0SXdUcGFvZHRRU19LUGIzQVdfenpwaVdCM0MweUk2ak9jUXdxbWxPMGw2YUdEdS0wREsyREhiWVFvUG5ReHV3SlBzVVhwM01Rb04tdw?oc=5",
+      "source": "보안뉴스",
+      "date": "Fri, 10 Apr 2026 06:44:00 GMT"
+    },
     {
       "title": "인공지능(AI): 동물과 대화하는 날이 올 수 있을까?",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XSUw1ZjhaVFQzeWlGVWFSQTR6SzQ0VlJ1R0lqM0FjNlIzTXVQak4xVWFiMXZKRklBM3otOWg1R3h5MHpHMnBSVUVDZzg3c0RZZ09SLW04RFVZRlM30gFiQVVfeXFMTUloVDAyRVdHZm95WnhfV2trd196ZVJwUDg0dVFyRWFGeS13aDZwdmJxNGpxRFEzYUZ2Q2JITGo1NVp1VlJiTGNBeldvZFJuZGRpM0M4OTkwUmhpNHgtRDVwdlE?oc=5",
       "source": "BBC",
       "date": "Fri, 10 Apr 2026 04:06:05 GMT"
+    },
+    {
+      "title": "플로리다 AG, 오픈AI와 ChatGPT를 조사하다",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOY09ZYkV0T0R4MmJVOVFzX004MVdEZWdtb0hwY3FGNU1rYmFNUUV3QWVpYmxqZGpzNWVYMHcxb3doa083NXVJemd2OERmbU1XZ3FyR2d3Sm5KbTJ2MUE5aWdsaXZwQnVUaVJjZ0lJb1ZlYlA2elU0Z3pzQW9WNzhMaA?oc=5",
+      "source": "TradingView",
+      "date": "Thu, 09 Apr 2026 15:20:24 GMT"
     },
     {
       "title": "[AI & 퍼스펙티브] 제1차 인공지능 전쟁의 시작: 이란 분쟁이 보여준 현대전의 새로운 패러다임",
@@ -26,28 +44,16 @@
       "date": "Wed, 08 Apr 2026 23:16:49 GMT"
     },
     {
-      "title": "안양, 인공지능(AI) 융합 혁신 클러스터 조성 업무협약",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5oaGxXVHAyemhTSkQzZVFRLWxPMVZ4YklHbkF3X3NWZWp5M1R2YldJTVN6YkItbzgyR0xhSGtIMDZqZElMdmdSYzdfXzBQLVo0blpmS0E2RTNkb0ZDY2pGYjE4QlVPaE5SeDljaXhTRdIBb0FVX3lxTE5oaGxXVHAyemhTSkQzZVFRLWxPMVZ4YklHbkF3X3NWZWp5M1R2YldJTVN6YkItbzgyR0xhSGtIMDZqZElMdmdSYzdfXzBQLVo0blpmS0E2RTNkb0ZDY2pGYjE4QlVPaE5SeDljaXhTRQ?oc=5",
-      "source": "서울일보",
-      "date": "Wed, 08 Apr 2026 08:25:17 GMT"
-    },
-    {
-      "title": "ChatGPT·Gemini·Claude는 왜 기업 안에서 ‘전용 AI’가 되는가 - Agentic Workforce의 부상",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObm1oV1pBTVN2cEZhX01jZVZrbTRRZ0wtWFlqeTREOTVXa0hLcGd3WjhGb1ZHY1dwTmkxQTkwRDVxTGVTTE9JMGRtcHFtNm9PNktldGpKMVNqeFdrZ3g0R1FpUlQyZkxKT3ZVNWpNa2haTlI3cTdoQl9sMGQ3WGpPMG5n?oc=5",
-      "source": "Samsung SDS",
-      "date": "Wed, 08 Apr 2026 07:29:15 GMT"
+      "title": "건보공단, AI 기반 대국민 서비스·업무 시스템 본격화",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCMU5DQjVheXVydzA0UlNNcGpRcjVHLTZxOUFIdnZQMFhBTXhZT1BVTEVfZ0l2MzZheG1YZWdIZmtJemJNUGpyZzFYZFMzNUhFd0ZKZ1RiUnhsTzVPaDRSVzRSUDlUNFdBT01MeQ?oc=5",
+      "source": "팜뉴스",
+      "date": "Wed, 08 Apr 2026 05:04:21 GMT"
     },
     {
       "title": "충남교육청, ‘인공지능(AI) 웹툰’으로 수업 혁신",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TU3ZUZmkxUzB1YTdOSUV3SnBldU1OMkVKMklKRThhSWVnbHZTOVNzMXgtR1VaVGNHYXZhQTBkZ1kwaFlOb3dhckQzdEE0RkVTSXdmeEphY2hFSUh4REJZUlJrMXlDN1FPdGxIcmdURVlWMExXVzRUb3Bxa1Q?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBQdHVPZHFXanYzc3pSRU5icDdkblg2eUdySWl1aEFfUWMxR1FMeGtSX08zaUdrSlVIbHI4cUdqOWNJUWViLWc?oc=5",
       "source": "v.daum.net",
       "date": "Wed, 08 Apr 2026 03:16:51 GMT"
-    },
-    {
-      "title": "‘로봇세’에 ‘주4일제’…오픈AI 제안을 뜯어봐야 하는 이유",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9aX1B5d3loWktQNUVoTkNoQ3ZqT1JCUjhmbGdWUWV4eGItZ2dSZGhVbUZ0clJwVUJGVEdpODN2cVFrSXpMeUEwTUYyUmstMFdxTGZOY0pLZmtsS3pwTmpXWG5FSVdzNkhRNnI5cHp4cTg?oc=5",
-      "source": "미디어오늘",
-      "date": "Wed, 08 Apr 2026 03:14:28 GMT"
     },
     {
       "title": "ChatGPT 월 매출 20억 달러...오픈AI, 수퍼앱 전략 본격화",
@@ -56,22 +62,16 @@
       "date": "Wed, 08 Apr 2026 02:56:42 GMT"
     },
     {
-      "title": "건강보공단, 인공지능(AI) 기반 고객상담 '나이스-콜'-업무비서 ‘나이스-메이트' 본격 도입",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xWUxBblR3SDF2cWxpT00yRWY1dkNFbHJYWWVJTmhnUWNDc1Y4N1RPR3NZRXN5U01lV09GazFKdnZpdHJOZGlzblJuRGRkTmdhQnRKNXY2WTl0V2NDbXlMcDlYN2xBaFlKa0pTR0ZsNzA?oc=5",
-      "source": "데일리메디팜",
-      "date": "Wed, 08 Apr 2026 02:02:32 GMT"
+      "title": "주안영상미디어센터, 2026년 인공지능(AI) 교육 프로그램 운영",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB0eDJoOF9JNkw3eWh5VkMyMDZOTWdyd2MyRUtzRFZENENSRERCdXdrXzU1NEllc1piZG5IcW1nUW5lLUNvU1lMejFCajhidkxKQU8ycVMwX1VBTC1pMHAyZUxPQmZIbnFIUE90WFB4aw?oc=5",
+      "source": "미디어생활",
+      "date": "Wed, 08 Apr 2026 02:18:54 GMT"
     },
     {
       "title": "[이슈&인사이트] 인공지능(AI) 기본법의 미비점과 세부적 보완 필요성",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5qb3dVRFBxQTBzZnduTEQ5X2JIcW56TXliLW1DbXZOZVJvV2I3QWZwSU5XNUg5a3RZWUNacGd2a0gxdlIweGdaUEV1NjBpR0lFZXJfZGdQTWFkMkE?oc=5",
       "source": "에너지경제신문",
       "date": "Wed, 08 Apr 2026 02:00:00 GMT"
-    },
-    {
-      "title": "부트텐트의 생성형 AI 기반 교육과정 등록 자동화 시스템 구성하기",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc3VpdlV3VUxXSmVPc0wtQlpaUU83Z0tIaUt2OEdjdmpwczNuNExUdV9MbGFLazhEWHdZTExsRGlxdW5Vemg0Q05Kc29DUDQ4NWpPNzlDaFlrdER5bElZbVc0bnR3OWpwNWUyLUVoSnRmMFRGT0tlYTRFbncwSzVoX0JRM1ZjcjBEdUVF?oc=5",
-      "source": "Amazon Web Services",
-      "date": "Tue, 07 Apr 2026 06:05:58 GMT"
     }
   ]
 }
