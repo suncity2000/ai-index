@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-11T04:26:51.915Z",
+  "last_updated": "2026-04-12T04:51:45.135Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -47,7 +47,7 @@
       "name": "Anthropic: Claude Sonnet 4",
       "price_1m_input": 3,
       "price_1m_output": 15,
-      "context_length": 200000,
+      "context_length": 1000000,
       "top_provider": true
     },
     {
@@ -531,14 +531,6 @@
       "top_provider": true
     },
     {
-      "id": "mistralai/mistral-small-3.1-24b-instruct",
-      "name": "Mistral: Mistral Small 3.1 24B",
-      "price_1m_input": 0.03,
-      "price_1m_output": 0.11,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
       "id": "mistralai/mistral-small-24b-instruct-2501",
       "name": "Mistral: Mistral Small 3",
       "price_1m_input": 0.05,
@@ -632,6 +624,14 @@
       "price_1m_input": 0.3,
       "price_1m_output": 0.9,
       "context_length": 256000,
+      "top_provider": true
+    },
+    {
+      "id": "mistralai/mistral-small-3.1-24b-instruct",
+      "name": "Mistral: Mistral Small 3.1 24B",
+      "price_1m_input": 0.35,
+      "price_1m_output": 0.56,
+      "context_length": 128000,
       "top_provider": true
     },
     {
