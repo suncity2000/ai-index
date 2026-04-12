@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-11T09:38:00.919Z",
+  "last_updated": "2026-04-12T09:43:07.838Z",
   "news": [
     {
       "title": "[ChatGPT가 마침내 월 100달러 프로 플랜을 제공] 오픈AI 대변인은 Claude Code와 비교할 때 Codex가 유료 계층 전반에서 달러당 더 많은 코딩 용량을 제공한다고 강조",
@@ -14,6 +14,12 @@
       "date": "Fri, 10 Apr 2026 06:44:00 GMT"
     },
     {
+      "title": "서울시, 인공지능 도시 청사진 그린다…'AI 기본계획' 수립 착수",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4yVjBBeU1QVjFWS3BSOFZBZm03Y2lMX0dscG42QXJNcWh5V0NpVFVtWEFvQ2MyNkU3WjluU2hueTRjS2RHM2s3T3VNM19ldw?oc=5",
+      "source": "전자신문",
+      "date": "Fri, 10 Apr 2026 05:07:00 GMT"
+    },
+    {
       "title": "인공지능(AI): 동물과 대화하는 날이 올 수 있을까?",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XSUw1ZjhaVFQzeWlGVWFSQTR6SzQ0VlJ1R0lqM0FjNlIzTXVQak4xVWFiMXZKRklBM3otOWg1R3h5MHpHMnBSVUVDZzg3c0RZZ09SLW04RFVZRlM30gFiQVVfeXFMTUloVDAyRVdHZm95WnhfV2trd196ZVJwUDg0dVFyRWFGeS13aDZwdmJxNGpxRFEzYUZ2Q2JITGo1NVp1VlJiTGNBeldvZFJuZGRpM0M4OTkwUmhpNHgtRDVwdlE?oc=5",
       "source": "BBC",
@@ -22,7 +28,7 @@
     {
       "title": "플로리다 AG, 오픈AI와 ChatGPT를 조사하다",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOY09ZYkV0T0R4MmJVOVFzX004MVdEZWdtb0hwY3FGNU1rYmFNUUV3QWVpYmxqZGpzNWVYMHcxb3doa083NXVJemd2OERmbU1XZ3FyR2d3Sm5KbTJ2MUE5aWdsaXZwQnVUaVJjZ0lJb1ZlYlA2elU0Z3pzQW9WNzhMaA?oc=5",
-      "source": "TradingView",
+      "source": "TradingView — Track All Markets",
       "date": "Thu, 09 Apr 2026 15:20:24 GMT"
     },
     {
@@ -38,12 +44,6 @@
       "date": "Wed, 08 Apr 2026 23:18:00 GMT"
     },
     {
-      "title": "경기도교육청 25개교, 인공지능(AI) 서·논술형 평가 시범운영",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAwamlNUDhrRWRJMDJmb05zaDNGQ096bDE2bEhtZzJxckNma3hXbHdkU3h2a2Z2RzlnZjNUeEpiOFFmRVpOMkR0OF9pMmZOYVJORjFibWNPOVBfSS1HeWlFSnY4ZTNFbVNTVGxyU3lCc9IBb0FVX3lxTFAwamlNUDhrRWRJMDJmb05zaDNGQ096bDE2bEhtZzJxckNma3hXbHdkU3h2a2Z2RzlnZjNUeEpiOFFmRVpOMkR0OF9pMmZOYVJORjFibWNPOVBfSS1HeWlFSnY4ZTNFbVNTVGxyU3lCcw?oc=5",
-      "source": "교육언론[창]",
-      "date": "Wed, 08 Apr 2026 23:16:49 GMT"
-    },
-    {
       "title": "건보공단, AI 기반 대국민 서비스·업무 시스템 본격화",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCMU5DQjVheXVydzA0UlNNcGpRcjVHLTZxOUFIdnZQMFhBTXhZT1BVTEVfZ0l2MzZheG1YZWdIZmtJemJNUGpyZzFYZFMzNUhFd0ZKZ1RiUnhsTzVPaDRSVzRSUDlUNFdBT01MeQ?oc=5",
       "source": "팜뉴스",
@@ -51,7 +51,7 @@
     },
     {
       "title": "충남교육청, ‘인공지능(AI) 웹툰’으로 수업 혁신",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBQdHVPZHFXanYzc3pSRU5icDdkblg2eUdySWl1aEFfUWMxR1FMeGtSX08zaUdrSlVIbHI4cUdqOWNJUWViLWc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5qNzlwSEdlSlZiSG1nMkVJX3NobE9UQy1zVVduVHhRb2QtQ0xiUmlFTDJuUHFRYkZ6S0p5bFkyeUQwTlZoX3lFUlZIOA?oc=5",
       "source": "v.daum.net",
       "date": "Wed, 08 Apr 2026 03:16:51 GMT"
     },
