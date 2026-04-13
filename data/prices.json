@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-12T04:51:45.135Z",
+  "last_updated": "2026-04-13T05:19:47.163Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -205,7 +205,7 @@
     {
       "id": "deepseek/deepseek-r1-0528",
       "name": "DeepSeek: R1 0528",
-      "price_1m_input": 0.45,
+      "price_1m_input": 0.5,
       "price_1m_output": 2.15,
       "context_length": 163840,
       "top_provider": true
@@ -1339,14 +1339,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3-coder-next",
-      "name": "Qwen: Qwen3 Coder Next",
-      "price_1m_input": 0.12,
-      "price_1m_output": 0.75,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3-vl-8b-thinking",
       "name": "Qwen: Qwen3 VL 8B Thinking",
       "price_1m_input": 0.12,
@@ -1384,6 +1376,14 @@
       "price_1m_input": 0.14,
       "price_1m_output": 0.41,
       "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3-coder-next",
+      "name": "Qwen: Qwen3 Coder Next",
+      "price_1m_input": 0.15,
+      "price_1m_output": 0.8,
+      "context_length": 262144,
       "top_provider": true
     },
     {
