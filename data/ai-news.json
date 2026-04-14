@@ -1,11 +1,65 @@
 {
-  "last_updated": "2026-04-13T10:42:58.691Z",
+  "last_updated": "2026-04-14T10:14:05.548Z",
   "news": [
+    {
+      "title": "국내 인공지능(AI) 의료기기 허가 급증 ‘549건’",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2akp2YUJDSjRHMlp1enFGRFdSWHUyYUU4MzZ1LVR1RTFOS19UNzViVHNhYWU1YmFwaThnZ1VNTTNEamk2blRlODJaZmFlVkR0U2oxdklwQmVfNGtYNm5jeW13VE9BSVpD?oc=5",
+      "source": "데일리메디",
+      "date": "Tue, 14 Apr 2026 05:17:00 GMT"
+    },
+    {
+      "title": "\"인공지능 복지시대, AI '기계적 결정' 막고 선제 대응 가능케 해야\" |",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8wN09xWmpIdUlIZXJjWV9EbWdVbllJcTVZSTlzZHNTR2xMODllbmxueGdNU1gxZXhwMXZWUHRiVURUUm9HVFpvNHlvT3kxQllnU0dFNkFscU8wM1hjOU1mcVJvR2U1WUVqUE5uY3IzcmgxSWhKY3c?oc=5",
+      "source": "시사저널e",
+      "date": "Tue, 14 Apr 2026 03:31:47 GMT"
+    },
+    {
+      "title": "경기도교육청, 인공지능(AI) 서·논술형 평가 확산",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAyc3o0WTBUS0ozRmhRTUYtelVEOTJha055bTBNYTBuWDNDZElWX0tpSFpkN0kybXBvOTM1NDFEcE5IdjF6WTZwYzFaejRJbjNpMGtDTFhZM2E4b1lDcy1Ha1M1S1A?oc=5",
+      "source": "매일일보",
+      "date": "Tue, 14 Apr 2026 02:06:54 GMT"
+    },
+    {
+      "title": "스탠퍼드 HAI, ‘AI 인덱스 2026’...\"생성형 AI, 이제 기술이 아니라 지배 인프라”, 산업·과학·국가 시스템까지 재편",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5hcXl4UTdoUXFSOVkybUdvZUpzeDlpZVVUWGVJckRaYjdwN3IwQkpGQTRLbWxkVXhpT21BZWRPc1ZYamNFU3Y1RWpqREpPdXhnNUpmV2c1S2oxYXdFZndjVXpIRGhxRkU?oc=5",
+      "source": "인공지능신문",
+      "date": "Mon, 13 Apr 2026 15:05:19 GMT"
+    },
+    {
+      "title": "금산군청소년수련관, 청소년 대상 인공지능(AI) 교육 프로그램 참가자 모집",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE44a1pwcVFoNjRZaURoRGxRNUVkd2hYNDJIZnlsdnZ1NUM2Yk15czh1S3dvOGNEWG5ab0t6SGMyTnIwcDhlNHlKSUsySlNpdDhQeHlyQ2Fyb0VNeWFsdjA3dkJXZGNSMWpXMDlGdXp3?oc=5",
+      "source": "금산중앙신문방송",
+      "date": "Mon, 13 Apr 2026 14:33:36 GMT"
+    },
+    {
+      "title": "생성형 AI 활용 역량 강화…경기대, ‘AI 프롬프트 엔지니어링 교육과정’ 운영",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBTMFVMUVZZQVhUTklQOGVMaURQNWlGekZhb3YzQThOdWFCdng1VkJDY0w3VGFHZ2czMXpMWVFRQ0JXVGNpbVVHWkdZVzkxU1p6RkhhTUR5TTlrNkJKWTJTTy1BZWpCX2hrWUZ2eWV6OA?oc=5",
+      "source": "중부일보",
+      "date": "Mon, 13 Apr 2026 08:21:00 GMT"
+    },
     {
       "title": "홍성군 공무원, 인공지능(AI) 활용 교육으로 역량 강화",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzSEpCeHBDaUhNZ0xmYWVpaGJJbHJGUlJVMmdHNWJVVnRRNl9TSndMOGJxR2VGWEw3UDl0cEFPZ25RcG1PektpRUx3VkphRlU?oc=5",
       "source": "v.daum.net",
       "date": "Mon, 13 Apr 2026 06:43:26 GMT"
+    },
+    {
+      "title": "제주교육청, '인간 중심' AI 교육 계획 마련",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TRW9HUFFZaU1FaEt4WGltU0VkS2JGcDRCU1p2M2R1NldZbGxxRElUVERkVVlOZWowQm9YUkJSVjFQQ2hWWkNKVWtfSzZqNERQNEFSWkI4SWh6dmtnTVdfUNIBYEFVX3lxTE1TRW9HUFFZaU1FaEt4WGltU0VkS2JGcDRCU1p2M2R1NldZbGxxRElUVERkVVlOZWowQm9YUkJSVjFQQ2hWWkNKVWtfSzZqNERQNEFSWkI4SWh6dmtnTVdfUA?oc=5",
+      "source": "연합뉴스",
+      "date": "Mon, 13 Apr 2026 05:40:11 GMT"
+    },
+    {
+      "title": "\"내 후임은 인공지능\"…중국서 퇴사자 데이터로 만든 'AI 직원' 논란",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE55Z29tVkd2dWFKckNtNTJlS2NMeEllNTd2TkVtRDMwRU9LbmJxNERsX1FEcUhRYW9qZUpGR0pKdDVGNW5RR3BBWHh2QWJqMjdLMVBRRnZ1MHNpUWhGcTNMSjBYSUR3WXM?oc=5",
+      "source": "연합뉴스TV",
+      "date": "Mon, 13 Apr 2026 01:02:58 GMT"
+    },
+    {
+      "title": "홍성군, ‘생성형 AI 활용 역량 강화 교육’ 실시",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zNVhUb2tFYkR0WDNJbUJkdW8yM0RXUGdlYnNFZk1sOVp5MFpmWVc1bFR3dnlLV1BkSWQ5UEZmZHhNWmFFVmg3Vm1oM0lVS1dacmpJWnZ5YUMyMktka0RWSUhkVnJPMnVZQ2NhdA?oc=5",
+      "source": "충청뉴스",
+      "date": "Mon, 13 Apr 2026 00:46:53 GMT"
     },
     {
       "title": "ChatGPT의 가치가 떨어지고 있습니다.",
@@ -14,64 +68,10 @@
       "date": "Mon, 13 Apr 2026 00:25:55 GMT"
     },
     {
-      "title": "오픈AI, 아름답고 세밀한 불완전성",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ZUXEtUkt1Sl96ejFRTFI5SldRc3pMSVFQZzV3c2VFODYwM2x5Q1JlS2NvcWdSZzIzcGZsQWphVzhXRC1INXRHWHdOd2JqWjhydm1R?oc=5",
-      "source": "디자인 나침반",
-      "date": "Sat, 11 Apr 2026 18:10:20 GMT"
-    },
-    {
-      "title": "인공지능(AI) 시대에 적응해야죠！",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xSm1vSV9JRHFmMjFpUHhSNDhrQUpweWxuTFRHbFoyMVNELU1pamZYZW5iWEZlY01uVERmcXNRT281YTRmbk9VckFtNUFTRWx5bkdWTWRQRV94dw?oc=5",
-      "source": "nongmin.com",
-      "date": "Fri, 10 Apr 2026 07:00:00 GMT"
-    },
-    {
-      "title": "서울시, 인공지능 도시 청사진 그린다…'AI 기본계획' 수립 착수",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4yVjBBeU1QVjFWS3BSOFZBZm03Y2lMX0dscG42QXJNcWh5V0NpVFVtWEFvQ2MyNkU3WjluU2hueTRjS2RHM2s3T3VNM19ldw?oc=5",
-      "source": "전자신문",
-      "date": "Fri, 10 Apr 2026 05:07:00 GMT"
-    },
-    {
-      "title": "인공지능(AI): 동물과 대화하는 날이 올 수 있을까?",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XSUw1ZjhaVFQzeWlGVWFSQTR6SzQ0VlJ1R0lqM0FjNlIzTXVQak4xVWFiMXZKRklBM3otOWg1R3h5MHpHMnBSVUVDZzg3c0RZZ09SLW04RFVZRlM30gFiQVVfeXFMTUloVDAyRVdHZm95WnhfV2trd196ZVJwUDg0dVFyRWFGeS13aDZwdmJxNGpxRFEzYUZ2Q2JITGo1NVp1VlJiTGNBeldvZFJuZGRpM0M4OTkwUmhpNHgtRDVwdlE?oc=5",
-      "source": "BBC",
-      "date": "Fri, 10 Apr 2026 04:06:05 GMT"
-    },
-    {
-      "title": "플로리다 AG, 오픈AI와 ChatGPT를 조사하다",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOY09ZYkV0T0R4MmJVOVFzX004MVdEZWdtb0hwY3FGNU1rYmFNUUV3QWVpYmxqZGpzNWVYMHcxb3doa083NXVJemd2OERmbU1XZ3FyR2d3Sm5KbTJ2MUE5aWdsaXZwQnVUaVJjZ0lJb1ZlYlA2elU0Z3pzQW9WNzhMaA?oc=5",
-      "source": "TradingView — Track All Markets",
-      "date": "Thu, 09 Apr 2026 15:20:24 GMT"
-    },
-    {
-      "title": "‘AI 안 쓰기’ 일주일…“자료 찾다 감정 흔들려” “친구에 고민 털어놔”",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9rMFhnQlBlY3FZd09fVjdFb18yNjZHeDJ1MEc1bTFJTTV5T0tVMHlXU2NKc1JFRWFkRE1SUTVqYjhZTXh0V3pVZVBEbDNVaXVTT19wUkRKc1ZBR1BEb1pMcC1aVllicmNGeW9jQjZGOUtmdw?oc=5",
-      "source": "한겨레",
-      "date": "Wed, 08 Apr 2026 23:18:00 GMT"
-    },
-    {
-      "title": "KOMSA, 인공지능(AI) 스타트업과 해양교통안전 기술 실증",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5kSnZ5NDZDcmJLcjloRV84bFhzVVZMc2NaZWdoUkNrMTA5ZlR2N083dS1KSXVPd2FRSFFsWndDVmVlajRrbGFMNm9FaFNybkZoVG1JcnhxYVlfUWJpSExhX1BXUWZoOWsxcXdBSkhYSTZrSWc?oc=5",
-      "source": "쉬핑뉴스넷",
-      "date": "Wed, 08 Apr 2026 18:05:28 GMT"
-    },
-    {
-      "title": "ChatGPT 월 매출 20억 달러...오픈AI, 수퍼앱 전략 본격화",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5sVmtoSEdYQzNmWmotVEM4SHVkM0g0clhxY1JiREJTYVgxQVlOcnU3VTN3NXhFbUJ6ZjRfYmVYUVZXcVRlczczZnFJQ2o3Znk5bGZnd3pSMjl4RVNiUXVUMW95aEpHUlBMRnFZOWF30gFyQVVfeXFMTm9aY2o2QnNOY0tyelFLVHh0MzlCamhLZFg2RDhKMUdsODQyRGJsZWtyWDI2V2Qwc0ZySmZUS29LeEl1a0Q2MndfSkU4R21MajhicmpObjk2Qk5KeF9jUDF3cklsa1ZXc09lQjBITFFMUlF3?oc=5",
-      "source": "테크데일리",
-      "date": "Wed, 08 Apr 2026 02:56:42 GMT"
-    },
-    {
-      "title": "주안영상미디어센터, 2026년 인공지능(AI) 교육 프로그램 운영",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB0eDJoOF9JNkw3eWh5VkMyMDZOTWdyd2MyRUtzRFZENENSRERCdXdrXzU1NEllc1piZG5IcW1nUW5lLUNvU1lMejFCajhidkxKQU8ycVMwX1VBTC1pMHAyZUxPQmZIbnFIUE90WFB4aw?oc=5",
-      "source": "미디어생활",
-      "date": "Wed, 08 Apr 2026 02:18:54 GMT"
-    },
-    {
-      "title": "건강보공단, 인공지능(AI) 기반 고객상담 '나이스-콜'-업무비서 ‘나이스-메이트' 본격 도입",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xWUxBblR3SDF2cWxpT00yRWY1dkNFbHJYWWVJTmhnUWNDc1Y4N1RPR3NZRXN5U01lV09GazFKdnZpdHJOZGlzblJuRGRkTmdhQnRKNXY2WTl0V2NDbXlMcDlYN2xBaFlKa0pTR0ZsNzA?oc=5",
-      "source": "데일리메디팜",
-      "date": "Wed, 08 Apr 2026 02:02:32 GMT"
+      "title": "한국가스기술공사-그리드원 ‘생성형 AI 플랫폼 구축 사업’ 계약 체결",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9haDJYVVU4SG4zUHRxcTRBWDZ2cVJNSlJyN0NaME5SWnhITGpkWlRLX2p0NEZlWmpzeGxpWUpnblVCZnJ6RUd2dnEwS2YyMDA1U2VNbkFxTWhnSmhQOVJv?oc=5",
+      "source": "뉴스와이어",
+      "date": "Sun, 12 Apr 2026 23:00:00 GMT"
     }
   ]
 }
