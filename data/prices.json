@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-14T04:50:21.311Z",
+  "last_updated": "2026-04-15T04:50:33.399Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -235,14 +235,6 @@
       "top_provider": true
     },
     {
-      "id": "google/gemma-2-9b-it",
-      "name": "Google: Gemma 2 9B",
-      "price_1m_input": 0.03,
-      "price_1m_output": 0.09,
-      "context_length": 8192,
-      "top_provider": true
-    },
-    {
       "id": "google/gemma-3-4b-it",
       "name": "Google: Gemma 3 4B",
       "price_1m_input": 0.04,
@@ -411,14 +403,6 @@
       "top_provider": true
     },
     {
-      "id": "meta-llama/llama-guard-3-8b",
-      "name": "Llama Guard 3 8B",
-      "price_1m_input": 0.02,
-      "price_1m_output": 0.06,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
       "id": "meta-llama/llama-3.1-8b-instruct",
       "name": "Meta: Llama 3.1 8B Instruct",
       "price_1m_input": 0.02,
@@ -495,6 +479,14 @@
       "name": "Meta: Llama 3.1 70B Instruct",
       "price_1m_input": 0.4,
       "price_1m_output": 0.4,
+      "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "meta-llama/llama-guard-3-8b",
+      "name": "Llama Guard 3 8B",
+      "price_1m_input": 0.48,
+      "price_1m_output": 0.03,
       "context_length": 131072,
       "top_provider": true
     },
@@ -771,16 +763,16 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4o-mini-2024-07-18",
-      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+      "id": "openai/gpt-4o-mini",
+      "name": "OpenAI: GPT-4o-mini",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
       "context_length": 128000,
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4o-mini",
-      "name": "OpenAI: GPT-4o-mini",
+      "id": "openai/gpt-4o-mini-2024-07-18",
+      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
       "context_length": 128000,
@@ -1179,16 +1171,16 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4-0314",
-      "name": "OpenAI: GPT-4 (older v0314)",
+      "id": "openai/gpt-4",
+      "name": "OpenAI: GPT-4",
       "price_1m_input": 30,
       "price_1m_output": 60,
       "context_length": 8191,
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4",
-      "name": "OpenAI: GPT-4",
+      "id": "openai/gpt-4-0314",
+      "name": "OpenAI: GPT-4 (older v0314)",
       "price_1m_input": 30,
       "price_1m_output": 60,
       "context_length": 8191,
@@ -1200,14 +1192,6 @@
       "price_1m_input": 150,
       "price_1m_output": 600,
       "context_length": 200000,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen2.5-coder-7b-instruct",
-      "name": "Qwen: Qwen2.5 Coder 7B Instruct",
-      "price_1m_input": 0.03,
-      "price_1m_output": 0.09,
-      "context_length": 32768,
       "top_provider": true
     },
     {
