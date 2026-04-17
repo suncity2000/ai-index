@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-16T04:56:06.861Z",
+  "last_updated": "2026-04-17T04:54:04.638Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -64,6 +64,14 @@
       "price_1m_input": 3,
       "price_1m_output": 15,
       "context_length": 200000,
+      "top_provider": true
+    },
+    {
+      "id": "anthropic/claude-opus-4.7",
+      "name": "Anthropic: Claude Opus 4.7",
+      "price_1m_input": 5,
+      "price_1m_output": 25,
+      "context_length": 1000000,
       "top_provider": true
     },
     {
@@ -253,8 +261,8 @@
     {
       "id": "google/gemma-4-26b-a4b-it",
       "name": "Google: Gemma 4 26B A4B ",
-      "price_1m_input": 0.08,
-      "price_1m_output": 0.35,
+      "price_1m_input": 0.07,
+      "price_1m_output": 0.4,
       "context_length": 262144,
       "top_provider": true
     },
@@ -295,7 +303,7 @@
       "name": "Google: Gemini 2.0 Flash",
       "price_1m_input": 0.1,
       "price_1m_output": 0.4,
-      "context_length": 1048576,
+      "context_length": 1000000,
       "top_provider": true
     },
     {
@@ -1355,6 +1363,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+      "price_1m_input": 0.13,
+      "price_1m_output": 0.6,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen-vl-plus",
       "name": "Qwen: Qwen VL Plus",
       "price_1m_input": 0.14,
@@ -1368,14 +1384,6 @@
       "price_1m_input": 0.15,
       "price_1m_output": 0.8,
       "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-235b-a22b-thinking-2507",
-      "name": "Qwen: Qwen3 235B A22B Thinking 2507",
-      "price_1m_input": 0.15,
-      "price_1m_output": 1.5,
-      "context_length": 131072,
       "top_provider": true
     },
     {
@@ -1432,6 +1440,14 @@
       "price_1m_input": 0.22,
       "price_1m_output": 1,
       "context_length": 262144,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen2.5-vl-72b-instruct",
+      "name": "Qwen: Qwen2.5 VL 72B Instruct",
+      "price_1m_input": 0.25,
+      "price_1m_output": 0.75,
+      "context_length": 32000,
       "top_provider": true
     },
     {
@@ -1544,14 +1560,6 @@
       "price_1m_input": 0.78,
       "price_1m_output": 3.9,
       "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen2.5-vl-72b-instruct",
-      "name": "Qwen: Qwen2.5 VL 72B Instruct",
-      "price_1m_input": 0.8,
-      "price_1m_output": 0.8,
-      "context_length": 32768,
       "top_provider": true
     },
     {
