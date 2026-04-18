@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-17T04:54:04.638Z",
+  "last_updated": "2026-04-18T04:37:47.859Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -174,7 +174,7 @@
       "id": "deepseek/deepseek-v3.2",
       "name": "DeepSeek: DeepSeek V3.2",
       "price_1m_input": 0.26,
-      "price_1m_output": 0.38,
+      "price_1m_output": 0.42,
       "context_length": 163840,
       "top_provider": true
     },
@@ -261,8 +261,8 @@
     {
       "id": "google/gemma-4-26b-a4b-it",
       "name": "Google: Gemma 4 26B A4B ",
-      "price_1m_input": 0.07,
-      "price_1m_output": 0.4,
+      "price_1m_input": 0.08,
+      "price_1m_output": 0.35,
       "context_length": 262144,
       "top_provider": true
     },
@@ -771,16 +771,16 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4o-mini-2024-07-18",
-      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+      "id": "openai/gpt-4o-mini",
+      "name": "OpenAI: GPT-4o-mini",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
       "context_length": 128000,
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4o-mini",
-      "name": "OpenAI: GPT-4o-mini",
+      "id": "openai/gpt-4o-mini-2024-07-18",
+      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
       "context_length": 128000,
@@ -1179,16 +1179,16 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4-0314",
-      "name": "OpenAI: GPT-4 (older v0314)",
+      "id": "openai/gpt-4",
+      "name": "OpenAI: GPT-4",
       "price_1m_input": 30,
       "price_1m_output": 60,
       "context_length": 8191,
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4",
-      "name": "OpenAI: GPT-4",
+      "id": "openai/gpt-4-0314",
+      "name": "OpenAI: GPT-4 (older v0314)",
       "price_1m_input": 30,
       "price_1m_output": 60,
       "context_length": 8191,
@@ -1216,14 +1216,6 @@
       "price_1m_input": 0.04,
       "price_1m_output": 0.1,
       "context_length": 32768,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3.5-9b",
-      "name": "Qwen: Qwen3.5-9B",
-      "price_1m_input": 0.05,
-      "price_1m_output": 0.15,
-      "context_length": 256000,
       "top_provider": true
     },
     {
@@ -1311,6 +1303,14 @@
       "name": "Qwen: Qwen3 30B A3B Instruct 2507",
       "price_1m_input": 0.09,
       "price_1m_output": 0.3,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3.5-9b",
+      "name": "Qwen: Qwen3.5-9B",
+      "price_1m_input": 0.1,
+      "price_1m_output": 0.15,
       "context_length": 262144,
       "top_provider": true
     },
@@ -1424,14 +1424,6 @@
       "price_1m_input": 0.2,
       "price_1m_output": 0.98,
       "context_length": 1000000,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen2.5-vl-32b-instruct",
-      "name": "Qwen: Qwen2.5 VL 32B Instruct",
-      "price_1m_input": 0.2,
-      "price_1m_output": 0.6,
-      "context_length": 128000,
       "top_provider": true
     },
     {
