@@ -1,11 +1,53 @@
 {
-  "last_updated": "2026-04-19T09:44:26.509Z",
+  "last_updated": "2026-04-20T10:46:22.385Z",
   "news": [
     {
-      "title": "생성형 AI를 이용한 시계열 예측 소개",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeEx5WkV3OVFDaHZWbFVVMUszd015SHZHTzlBbE5oZG5NM1lwZzZ1bllZNHJsVEhJeWRPNXcxR0haSTFoTk9URzJWYTVLTVphVVlUcWtRNUhCdE81YVRLakNXX3V3cEo2SGF4X0JtVG9ab2tyYzVOYTlrRndYSE9rTlo0M3RuaGRaUU1VRmFn?oc=5",
-      "source": "Databricks",
-      "date": "Fri, 17 Apr 2026 23:53:38 GMT"
+      "title": "파주시, 소상공인 ‘인공지능(AI) 마케팅 2기’ 교육생 모집",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBfMkNmMEt4UnNzQUdmUjBCSEhpQklKY2EtbGMzUlhTQ1dZODI0M2p2RG94VFd6am9GLUdGaWFOZThmaUdVdHFlRnVKcjhYTDM1dmp3RS1ucnpCc2M?oc=5",
+      "source": "경기일보",
+      "date": "Mon, 20 Apr 2026 04:02:00 GMT"
+    },
+    {
+      "title": "‘인공지능(AI) 시대, 어떻게 일해야 할까?’",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9UX1dhRjJiQXQ3LTlNLUxXbmc2aWlIdzIyQ3ZIMVVMV0w0eEM3NDhGSjdrTEctaE4xWFQ3NjhEWGNTdUt5UEE1WlRtU3lkaklTVnc1dXh5QW5FMk5pREphNXZ0OHRsdw?oc=5",
+      "source": "데일리대구경북뉴스",
+      "date": "Mon, 20 Apr 2026 01:02:30 GMT"
+    },
+    {
+      "title": "고용부, 인공지능 직업훈련 수강생 위한 'AI 활용 기초역량 가이드북’ 발간",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlV3ZRSGwzQ3ZXWXZpRmRqMnIxa1pKalduSmFOYWxPcHlSSnB6dGI5anZPY1NsSGoxdHFmN1locXRmdlJIMHNDSHFSUjZ5RVBqYlN5RDZDRGhLVVZkRTZBWEV2NGFiUDg?oc=5",
+      "source": "인공지능신문",
+      "date": "Mon, 20 Apr 2026 00:57:01 GMT"
+    },
+    {
+      "title": "[AI & 퍼스펙티브] 생성형 AI와 함께 미래의 경험을 디자인하다",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zbWI0S0tCY1oyQ2h4NlRIQXZnbU1BOE5ZTUEtd1NJVWJaRXJlaEdLTkFGZVl3ZXUxcW9nUmVEU2RtMUhpbUVXSkFweDUyX3dhOF9BMFBvVnlZeUhVckRnQS1wNDloWWRFS2tJ0gFvQVVfeXFMUEhvLV9VdU5ibDg2YWVaNGtrTHZRdmhuenhOX3U1V0p4TDY2cWNYeW83OVFYNmJtbmZfMEQwMXlaUUVuQ0NIdTUwWVJaRnFablItWEFQTEVTZ2ttNmpZRDkzZnNZZElhYkRKUmYyQjQ4?oc=5",
+      "source": "ntoday.co.kr",
+      "date": "Sun, 19 Apr 2026 23:00:00 GMT"
+    },
+    {
+      "title": "인공지능(AI)이 여는 건물 예지보전의 신시대",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5GSWNmUV9TMEh6V1hLTmtGTVpOVHMwdmxQZjlOTzZyOVNzOWxvOXhWSWdXTEc3MXd3MU5fdHVTSzY1RkREV3BYWVg0eVJnZlRELXQ1TllNRmpYREwtN3QxUUtURlI3bFBwVXdV?oc=5",
+      "source": "기계설비신문",
+      "date": "Sun, 19 Apr 2026 20:30:00 GMT"
+    },
+    {
+      "title": "관악, 인공지능(AI) 기반 스마트 행정 본격화",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4xM2tjc3dxT0lwTEpHazFxdTlkMUM5MGRNX3pXNlp4cFhwZ2N2aFBjZW5PenZGNEJ4WEZxSWNNQWhKWERQbmNCVmVOY3RWRmZYalJOUlpMNEpzTEQtcEJmZGpDVTVORG16LUhTUGk2Y9IBb0FVX3lxTE4xM2tjc3dxT0lwTEpHazFxdTlkMUM5MGRNX3pXNlp4cFhwZ2N2aFBjZW5PenZGNEJ4WEZxSWNNQWhKWERQbmNCVmVOY3RWRmZYalJOUlpMNEpzTEQtcEJmZGpDVTVORG16LUhTUGk2Yw?oc=5",
+      "source": "서울일보",
+      "date": "Sun, 19 Apr 2026 16:09:14 GMT"
+    },
+    {
+      "title": "美 FDA도 못 뚫은 '생성형 AI' 의료기기… 韓 세계 최초 승인[AI헬스케어]",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9fNDYtRmFsTTVUM2tUeEtyWmZubWlHZW9SNnE2UHpxcU53cnAtRUxQVmoxVDV4dnUxWnZWMHUzZ3lPNkZ0aW16ZGtELW44SnlBa3pEUUVmWGlvRjBqcWlqY3VvX1RlcmFsMHlhRWNR?oc=5",
+      "source": "팜이데일리",
+      "date": "Sat, 18 Apr 2026 23:59:47 GMT"
+    },
+    {
+      "title": "챗GPT, 한글(HWP·HWPX) 문서 지원…한국 업무 활용성 업그레이드",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE52UENZZ19VWS1yWVNBQTlPd3BiTVlVbUgwZjg5bnFCZTA5Q2VSNGtLRFdwOV9BZEdGVmU1SXhUSERDMktiVXZqWmhSNUhfa0xWbThWbVdZTnlmWm1pX2dzSldYNGF2XzhQWjBn?oc=5",
+      "source": "파이낸셜신문",
+      "date": "Fri, 17 Apr 2026 07:28:02 GMT"
     },
     {
       "title": "“초지능 완성되면 모두 죽는다”… AI 질주 시대, 재점화된 경고 [.txt]",
@@ -30,48 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqcjBDQXZ5SmhsVFk3dVJXdk92R0J2RkRTX3YwdTZIaWxuZ2lfRU4ybVFzX0Q1TkxaT2s3VDA4RlctaklYVWlnbHhGR0NXNi03dEpvajZJcHJDYUNmNHVNUlY1TEZBQQ?oc=5",
       "source": "한국기자협회",
       "date": "Wed, 15 Apr 2026 08:51:32 GMT"
-    },
-    {
-      "title": "금융위, 금융권 '생성형 AI 모델 변경' 심사 간소화한다",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA5bXlxYUNWdm9WZjJCcnhiTVQ0SnY3THFUM1N6QlJJcUVwWGVCYnZzQldLakRtVzRGcnB2Y1RjNFBzeUNEUW5kay11UHRYYlk?oc=5",
-      "source": "v.daum.net",
-      "date": "Wed, 15 Apr 2026 07:48:04 GMT"
-    },
-    {
-      "title": "시흥시, 인공지능(AI)으로 도시도 행정도 혁신 온(ON) ‘더 빠르게 더 스마트하게’",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5DTHpxamNUV050SHpDVHB4RDlxQWtBWUppRHJ1UzdjT2dVS2s1VmNCRXhuaVh1RjZHX2NBdkZVMEcyTHB1TTBxLXpTTjc1RGhURngzdXFULTlBY2tiY2EwbDJPZnFEMUU?oc=5",
-      "source": "핸드메이커",
-      "date": "Wed, 15 Apr 2026 06:40:54 GMT"
-    },
-    {
-      "title": "\"초지능 AI 나오면 인류는 멸종한다\"…美 전문가의 섬뜩한 경고",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKSUdqX2E0aE0xeGFlRkJ3c0prbm5naGtWVGNBdEdDc2xZWEJySVZKN1B4VmJWM0JzM2hCVnFqQWJuMmREbmJkREpvcHNKU1BwLUJ5aHp1NFNLdzDSAWBBVV95cUxPNU9oV2tzZjMyNjZ1SHNnYjVTQ0dHanZSbHJrLV9wUXZLZGFBUlc1bjZtTU1mWlVra2Y0MkJOZjljdlBNUFE0WU1zTWRnV3A4VWNpdk1LOUVxQkkyZXFubG0?oc=5",
-      "source": "연합뉴스",
-      "date": "Wed, 15 Apr 2026 06:16:52 GMT"
-    },
-    {
-      "title": "인공지능(AI), 미국의 직장을 어떻게 바꾸고 있나 ?",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAwWW1zVEJGUXFoRUd0eVVtV1hvWnVYTUxtUXFpUkVjODBGa18yUXp1YS1mUEM2LWgteHVnZlR6RWVQUlM5SjExdXZCOW40UTU2SEZwTi1oQU0tNUhqaUVaTjlrQzkyeXl3T25MVGh3?oc=5",
-      "source": "뉴스타운",
-      "date": "Wed, 15 Apr 2026 02:44:00 GMT"
-    },
-    {
-      "title": "롯데웰푸드, '앱스 인 챗GPT'에 전용 앱 출시…\"AI 커머스 선점\"",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE54Y3c3WUtheFl2N0FYTXdrY3F0M2J1c2p0Q0xkZk1ubWtLU2ZndXRHMndKZ0dFeGRwYzRadDlBanBWeVNfV0FKY1p5N1JIaWNhQ1NHb0hteGxfNWtlVkNxbtIBeEFVX3lxTE1paGt1LWhUYlJ1SE52dHlzYlMxcGZXUDF0R1cxSDE0TC1ONW90MUc3V0oyUHRSSHpQeHE1NF83cFcxb3ZqcHROanBrSUpjbW5ZRTBOWEN1RnhubXUwQllDQ2NaTF9HUEktWUozcWpkUG1IMFdCYUlKbQ?oc=5",
-      "source": "뉴시스",
-      "date": "Wed, 15 Apr 2026 01:27:22 GMT"
-    },
-    {
-      "title": "롯데웰푸드, ‘챗GPT’에 전용 앱 출시…AI 커머스 시장 선점 나서",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBhcjFUazZVN21EeTE2TncyZjRRb0J4b3Boak16MGpBOUU2N1JzemE3cWc3c3hCS2MtZTY3OU1HaXlvN294TG9WRG1ZOXZwcnljdGVtdi1RR25hTTF1VmJ3QWdhUmM4NDBwem03VUU3NA?oc=5",
-      "source": "식품음료신문",
-      "date": "Wed, 15 Apr 2026 00:45:00 GMT"
-    },
-    {
-      "title": "북한 해킹 조직, 세계 최대 AI 기업 ‘오픈AI’까지 공격…'가짜 챗GPT 앱' 유포 위험",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQk44cVF5a2RWVWhtanpwOTlzN0hTU0c2YjFRT29Ncy0zMHpkdXV0SmpRUkh0RGZ6T1ViOUNZSWVVYmNSVEFYV2EyNGp5TTA3THI5UE1zU09mU1pSQTNNejhlbkRCaDNRdTVubXZKcHE0aEhZcGVrVVJCckJ2ZUVIOHJ3R091ekhOcDd6Q0FwaERpTnBaa1pBZnhZVV9XY1NVeFQtWWRZVWhNa2M0ZU9DWklKQzFHNE9qQXVQcHU5d1NFZ1lwb2Q5dXRkOHluM0NlTEU5V9IB1wFBVV95cUxONkxobURkajkwV0tFQ2VTb1d5OTdSSWhabl9RLTM2QnhleUhuejRWMTlKOEtrZkYzaUZycWZnRE05UkJjanpaRWt0TEhNMEJWVGMtZE5mNFlTbEZiTWVCQ1I3U2N2aG5XWG9mM01BeExmTkxGRjlTS3VhUXhtUDJ3NjB2NzNtLTJSMVJVdGZCeHN3b0JFb1hEUS1DZTBiQnl1T1l1azUzcmV0TXQteW91dk5CUTVGT2drczhVM0JKQlhEcTg3UzNfZEJGX0RjTzZpQVZyekdLNA?oc=5",
-      "source": "VOA 한국어 홈페이지",
-      "date": "Tue, 14 Apr 2026 14:42:11 GMT"
     }
   ]
 }
