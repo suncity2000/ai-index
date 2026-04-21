@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-20T05:18:45.601Z",
+  "last_updated": "2026-04-21T04:52:58.754Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -173,9 +173,9 @@
     {
       "id": "deepseek/deepseek-v3.2",
       "name": "DeepSeek: DeepSeek V3.2",
-      "price_1m_input": 0.26,
-      "price_1m_output": 0.42,
-      "context_length": 163840,
+      "price_1m_input": 0.25,
+      "price_1m_output": 0.38,
+      "context_length": 131072,
       "top_provider": true
     },
     {
@@ -303,7 +303,7 @@
       "name": "Google: Gemini 2.0 Flash",
       "price_1m_input": 0.1,
       "price_1m_output": 0.4,
-      "context_length": 1048576,
+      "context_length": 1000000,
       "top_provider": true
     },
     {
@@ -771,16 +771,16 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4o-mini-2024-07-18",
-      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+      "id": "openai/gpt-4o-mini",
+      "name": "OpenAI: GPT-4o-mini",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
       "context_length": 128000,
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4o-mini",
-      "name": "OpenAI: GPT-4o-mini",
+      "id": "openai/gpt-4o-mini-2024-07-18",
+      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
       "context_length": 128000,
@@ -1171,16 +1171,16 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4-0314",
-      "name": "OpenAI: GPT-4 (older v0314)",
+      "id": "openai/gpt-4",
+      "name": "OpenAI: GPT-4",
       "price_1m_input": 30,
       "price_1m_output": 60,
       "context_length": 8191,
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4",
-      "name": "OpenAI: GPT-4",
+      "id": "openai/gpt-4-0314",
+      "name": "OpenAI: GPT-4 (older v0314)",
       "price_1m_input": 30,
       "price_1m_output": 60,
       "context_length": 8191,
