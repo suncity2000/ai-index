@@ -1,11 +1,59 @@
 {
-  "last_updated": "2026-04-21T10:17:26.153Z",
+  "last_updated": "2026-04-22T10:17:51.292Z",
   "news": [
     {
-      "title": "GPT-5.5 ‘스퍼드’ 이번 주 전격 출시 임박…오픈AI·앤트로픽 정면 충돌 시작",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uQ2I3dk1MemtNU0NweHlsUTVKZG5HTmJ6dkFBak1adzNVSzFzVmRLWW9VanItQ1RlaXBySnBVakhuUmZjZFptTXJyOUMyX0xpdFFWcU9mSUU5R2VmVUJLVmRPTl9rQ3BjN2NuM9IBb0FVX3lxTE9xSFRSUjJWYnNJZ2RQaVhLd0lrLWduS1lLbUd3cFc2Zjc0dy16ZUdMMDFzMkpVNElrYl9tUzZFZDRkS1JOUmFtTlVnNnQ4S3o5ajFrSWpiTFpGamRmNmgtRDZINGZhWldYc1BfNnIwOA?oc=5",
-      "source": "사례뉴스",
-      "date": "Tue, 21 Apr 2026 00:34:42 GMT"
+      "title": "오픈AI ‘챗GPT 이미지 2.0’ 공개…한국어 텍스트·레이아웃 표현력 개선",
+      "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPaUlMdm95VFd6Nkw5MWFEMFIxSllFQTI0S1VCMnE1NGh6bFdYanpSQVBXNkZjRlJTa01xNXVxa0dwclFtWkRza1d5OURQNUpnOWJDanlFSnF5YUtSTWMtOUtIUUpzWDR0TjdpYl9jbDdKU2VIYUlSNWdBaU1DeElkQ3Fua0g4YmFJcEF6RE56eTllcks0NHVPQmFtOFFEdm54UmpkSEdYcFJuUUpQclZaQjNIVXNvVEI2cGE5aDdkdl91OUp2YW9aQmZGLXhsWUNsblVDQWVRZnJjSlFfUDJENEMzQ3J6bk1ZQ0plN2tyRzRBVV9VTlNreWgzY3dkMEpfVk9qMWdZMXhLVDc4M2hGNXRUUUZObFV3Mkt2MklHRVJvSlJhTHBGOC1wODdLRzVsNEUtUVZXNEU?oc=5",
+      "source": "cio.com",
+      "date": "Wed, 22 Apr 2026 07:30:23 GMT"
+    },
+    {
+      "title": "오픈AI, 실무용 이미지 생성 '챗GPT 이미지 2.0' 공개",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5OSkNBYjZFSkxoakNIQkhRakJlMHFSQy1MQTVOT19vWDVVdWZOZThrZTNhbFRQU2VTVDZDSk1QTHRvdVJrbXNUc0tLQTU4Zw?oc=5",
+      "source": "전자신문",
+      "date": "Wed, 22 Apr 2026 05:31:26 GMT"
+    },
+    {
+      "title": "지식재산처, ‘인공지능(AI)·데이터와 지식재산’ 웹페이지 개설",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wQnZNVUJFRG1valRHM2h0VDdKVnY0aEpmRkplVjZ6Tm9Ja3FHOTE0SDNnMWdFRnZHS25zcXhOZTdBLTVVeGtjYWVURUtLci1mYVNkNTYyWFBBLTkxUUdEUHRCVEZyQnA4dGc?oc=5",
+      "source": "한국시사경제",
+      "date": "Wed, 22 Apr 2026 04:30:20 GMT"
+    },
+    {
+      "title": "오픈AI, 텍스트 생성 능력 강화된 'ChatGPT 이미지 2.0' 공개",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5oMHVSLVBaTjd5Tm1qa09SMGlxTEhMcXpwR1gtRzZwQ1JpQ0NyR284OU4teEhvYlY2QTRNVm5DSXpjbVQ2clp6dDQwTFpROElWQ2dXd2g5eWc4YmV1M0RvTEY0Y0E5SVIxR2FqNA?oc=5",
+      "source": "프리진경제",
+      "date": "Wed, 22 Apr 2026 03:12:24 GMT"
+    },
+    {
+      "title": "한국인공지능협회, 한·대만 AI 서밋 성료…양국, AI 에이전트 산업 협력 체계 구체화",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1WYkRQeFMySlNqbEp3QnJydUpNMmkyd0pGYWFEQzBHbERyc1U1ajlxX0hFYnZLdUprTVlVS1BoT2g0VldZX29ldEZLNHFZV19MV0QzV24wcVB0S1JKZGV1ZUk3MTB1M2c?oc=5",
+      "source": "인공지능신문",
+      "date": "Wed, 22 Apr 2026 02:51:30 GMT"
+    },
+    {
+      "title": "지식재산처 ‘인공지능(AI)·데이터와 지식재산’ 웹페이지 새로 개설",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBIclBicUdNYXZDRWVhTEtUOXJ6WWJ0RXdXRE1fOW5USXpIcGhUTXRlaHZUTWU2VGhBZmxLeVhnc0hxQ0o3QWM3OHZTdG80X0kxMk5DaXBtcF9NWlR0emt5ZHlvSWRpS1pXUXdUUTlR0gFuQVVfeXFMUEhyUGJxR01hdkNFZWFMS1Q5cnpZYnRFd1dETV85blRJekhwaFRNdGVodlRNZTZUaEFmbEt5WGdzSHFDSjdBYzc4dlN0bzRfSTEyTkNpcG1wX01aVHR6a3lkeW9JZGlLWldRd1RROVE?oc=5",
+      "source": "NK경제",
+      "date": "Wed, 22 Apr 2026 02:05:13 GMT"
+    },
+    {
+      "title": "ChatGPT Image 2.0 공개",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxOC0tOWV5bHdJSjlmTmt5bmVKT0RhdE84Ty04NkZhWkRUdDRxRTVYQk4xQW9nWVNUWWZTQ0hDZ1N6LTJidFlZT0Q0MjFWTzlndlhMMFB5S0hWWDBTOHZxM3dsNGhGOGxLU3Yzc3ROd24zaFBZQjZmOVVERERoZk0?oc=5",
+      "source": "디자인 나침반",
+      "date": "Wed, 22 Apr 2026 00:04:49 GMT"
+    },
+    {
+      "title": "베일 벗은 '덕테이프'…오픈AI, '챗GPT 이미지 2.0' 공개",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ta1VkSlRsc1BLUFpkMWdjV2tkRkx6M2htVHpLTkhuMlRUUFJUQkhnM2QwYXJ3X3NGYmdTY00yVFE4MEtnS2ROZE9iSEZXNWZXVWdjaTVQOVBZLW_SAWBBVV95cUxOeEZTblB3ODkxS3ZTTTJ5UjJzcjlrNGM3QW5Pblh6akR4RDlsOGoxNWx0Nk1QNDF2Z2wxOXdjN3pEZGhqdVczOXZnMExsWDRVMWJRZlpZWWswaExTX1Q1YnE?oc=5",
+      "source": "연합뉴스",
+      "date": "Tue, 21 Apr 2026 19:00:00 GMT"
+    },
+    {
+      "title": "라온로드 ‘생성형 AI로 실시간 교통사고 분석’ 특허 등록",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBSmx1RFZoTFVkV1VhZWJBTFVidlRvYjRnWElYZnlubUNJVTFkYlFYMHl4MEtIdHk1alc4c3gwdmpvVmNXbXo2VFlzaGZlX3VhOXZyYXNadWJZRWdlWkRPMGlLdG91ODBQ?oc=5",
+      "source": "보안뉴스",
+      "date": "Mon, 20 Apr 2026 01:07:00 GMT"
     },
     {
       "title": "‘인공지능(AI) 시대, 어떻게 일해야 할까?’",
@@ -14,64 +62,16 @@
       "date": "Mon, 20 Apr 2026 01:02:30 GMT"
     },
     {
-      "title": "[AI & 퍼스펙티브] 생성형 AI와 함께 미래의 경험을 디자인하다",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zbWI0S0tCY1oyQ2h4NlRIQXZnbU1BOE5ZTUEtd1NJVWJaRXJlaEdLTkFGZVl3ZXUxcW9nUmVEU2RtMUhpbUVXSkFweDUyX3dhOF9BMFBvVnlZeUhVckRnQS1wNDloWWRFS2tJ0gFvQVVfeXFMUEhvLV9VdU5ibDg2YWVaNGtrTHZRdmhuenhOX3U1V0p4TDY2cWNYeW83OVFYNmJtbmZfMEQwMXlaUUVuQ0NIdTUwWVJaRnFablItWEFQTEVTZ2ttNmpZRDkzZnNZZElhYkRKUmYyQjQ4?oc=5",
-      "source": "ntoday.co.kr",
-      "date": "Sun, 19 Apr 2026 23:00:00 GMT"
-    },
-    {
-      "title": "인공지능(AI)이 여는 건물 예지보전의 신시대",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5GSWNmUV9TMEh6V1hLTmtGTVpOVHMwdmxQZjlOTzZyOVNzOWxvOXhWSWdXTEc3MXd3MU5fdHVTSzY1RkREV3BYWVg0eVJnZlRELXQ1TllNRmpYREwtN3QxUUtURlI3bFBwVXdV?oc=5",
-      "source": "기계설비신문",
-      "date": "Sun, 19 Apr 2026 20:30:00 GMT"
+      "title": "‘일상 속 해결사 된 AI’... 서울 자치구, 시민 삶 바꾼다",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQXhmalNuUjdFS1J3QnZfcHVWamhmNzFZajVFaVdVdmRDWkphUjUxd2kzYVljZUtreXZsRVQxRU00VXg1YjJxYTRZdnFHRExkS1NQbDIxLXhRTjhhU2lTMERTS2U5ZGhiaU4zbWtha0E4NzhUWWo2Yk9sQWxtQ3BwZnlRamUxZ1lVazV3Vjh3?oc=5",
+      "source": "조선일보",
+      "date": "Sun, 19 Apr 2026 21:05:50 GMT"
     },
     {
       "title": "관악, 인공지능(AI) 기반 스마트 행정 본격화",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4xM2tjc3dxT0lwTEpHazFxdTlkMUM5MGRNX3pXNlp4cFhwZ2N2aFBjZW5PenZGNEJ4WEZxSWNNQWhKWERQbmNCVmVOY3RWRmZYalJOUlpMNEpzTEQtcEJmZGpDVTVORG16LUhTUGk2Y9IBb0FVX3lxTE4xM2tjc3dxT0lwTEpHazFxdTlkMUM5MGRNX3pXNlp4cFhwZ2N2aFBjZW5PenZGNEJ4WEZxSWNNQWhKWERQbmNCVmVOY3RWRmZYalJOUlpMNEpzTEQtcEJmZGpDVTVORG16LUhTUGk2Yw?oc=5",
       "source": "서울일보",
       "date": "Sun, 19 Apr 2026 16:09:14 GMT"
-    },
-    {
-      "title": "[김병필의 인공지능 개척시대] AI 시대, 일 시키는 법을 가르치자",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RQzVnWE9pSlVxZjFfcjdxYms3ZGswcldFYkFCem5KQkUxZ3RmMnFvT01VNm5nX0lvazh5eDY3U3pMSmdVc0dWY1pqV200bDktREE0ZElR?oc=5",
-      "source": "중앙일보",
-      "date": "Sun, 19 Apr 2026 15:06:00 GMT"
-    },
-    {
-      "title": "7년차 공무원이 불 붙인 'AI 자가개발' 열풍…과기정통부도 'AI 어벤저스' 출격",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5OVEp6cWRMT0NWeldUQTNiSzZfYUFia1NoRUhrdGtwamhlaGFDaXlLcjNMX2lVVzVuUGVKYU1CZWFlMU1JZ1FpWlkzbjh4dm82QjNseTBR?oc=5",
-      "source": "지디넷코리아",
-      "date": "Sun, 19 Apr 2026 07:09:59 GMT"
-    },
-    {
-      "title": "생성형 AI를 이용한 시계열 예측 소개",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeEx5WkV3OVFDaHZWbFVVMUszd015SHZHTzlBbE5oZG5NM1lwZzZ1bllZNHJsVEhJeWRPNXcxR0haSTFoTk9URzJWYTVLTVphVVlUcWtRNUhCdE81YVRLakNXX3V3cEo2SGF4X0JtVG9ab2tyYzVOYTlrRndYSE9rTlo0M3RuaGRaUU1VRmFn?oc=5",
-      "source": "Databricks",
-      "date": "Fri, 17 Apr 2026 23:53:38 GMT"
-    },
-    {
-      "title": "\"나는 학생, 너는 도구\"…AI 시대에 지켜야 할 배우는 사람의 정체성",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1IMmlnV1k2S184NWlXXzQ1U3llUVI0dnBuandQam1NX1FtdGoyVlJsbGdfZ2hZMWJra0s0QWczSjlSR1UxYTZtX1h4bUl4ZUdHTVF4Ug?oc=5",
-      "source": "동아사이언스",
-      "date": "Fri, 17 Apr 2026 23:00:00 GMT"
-    },
-    {
-      "title": "“인공지능도 팀으로 일한다”…일터 점령한 AI비서",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3TUdyNEI4VDNQVFFwdDlwTGw3Qmw5WUdNZlpLbVdkOUFKYW5fS0Y5YVg0TFJ0eFV1RDFCTU41Y1FQWHFDSzRjUGUtS1IxTXJ4LTF0U1k0WjFQeWM?oc=5",
-      "source": "KBS 뉴스",
-      "date": "Fri, 17 Apr 2026 22:55:00 GMT"
-    },
-    {
-      "title": "“초지능 완성되면 모두 죽는다”… AI 질주 시대, 재점화된 경고 [.txt]",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBsOEtsX2VzRm1kU2tVVTRzYXBsYTNGblJXbUNHVGNPeWJSNWRndExfbEo0UGk3ZXJxTDVQekhZemt4NTg5dkNyekZ4cVZmWEhBMlhkX2QtLWRYWEVORm1iRGFrMA?oc=5",
-      "source": "한겨레",
-      "date": "Thu, 16 Apr 2026 22:44:00 GMT"
-    },
-    {
-      "title": "올 하반기 생성형 AI 내장된 '피그플랜 AI' 출시 예정",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4QVF2MTl6cDk4OFY1OGg3S29zVWJ0SzFiZHhKUmRSN0xQU2Q0Mjg5MDZjbnhyWHZKdzIxTVUwSDRmUU0wQXJyTlUtTWpDUFo3Z3dFM0ZFMUEzYXJDcVNsTjUtV2JSNXZV0gFsQVVfeXFMUHVxUE1hX2V5U2ZZUmcyTXRiYzZTSXNubG1scW45ZXdsbk14Sk9GdUtqVDBWVXdKTXlPR3hpV1lsVzFjNjkzRVVwZ2RJWmFoaGxYYUNfa2RZcjdrMkk5WllzRV9fNmZReDUzMERo?oc=5",
-      "source": "한돈뉴스",
-      "date": "Thu, 16 Apr 2026 20:24:00 GMT"
     }
   ]
 }
