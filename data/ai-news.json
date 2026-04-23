@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-04-22T10:17:51.292Z",
+  "last_updated": "2026-04-23T10:20:24.046Z",
   "news": [
+    {
+      "title": "사람 중심 AI 기금: 비영리 단체에 5,000만 달러 지원",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE92bmlJY0U4dW9Qb3RJaEJINFRmenRIbWZEYmlpbmdvU29FRkRjOXJfZ1dqdHBTSWpqMDY4VktWbk1fcmZXNF9vdWZHRW1TZ080b1N2NDZKOU9rVC1GNzAwSTBR?oc=5",
+      "source": "OpenAI",
+      "date": "Thu, 23 Apr 2026 08:02:38 GMT"
+    },
+    {
+      "title": "교육부, ‘인공지능(AI) 사이버안전센터’ 개소… AI 활용 실시간 교육기관 사이버공격 대응",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xS3BYdHVxdnhQei11YmRMVkphdk8yZDgwVkgzZVM1LWtmM1JFUENvbG9rdHV4cjF2ZThUTFdIal9zQkFUVlFBR1hwZUlYci1GZU1keVVxbkRrWUZ2TEJCNDNzVjdndw?oc=5",
+      "source": "한국대학신문",
+      "date": "Thu, 23 Apr 2026 06:19:34 GMT"
+    },
+    {
+      "title": "의료 AI가 배워야 할 '진짜' 데이터 이제 인공지능이 뽑아준다",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5FVEV1OG9hLXhhaUVsY0dwNU91d2dGZUZpSkVEQnRrVUxHNmFvc3VFc3JwaTVyUWlwMlgwX3RraXpJS1dwWkZyVzBFMUpEakU2VjE3ejF6eDFkQ1NPR3RDVWVsZV9DaUg5blp3RDV5NFU?oc=5",
+      "source": "메디칼타임즈",
+      "date": "Thu, 23 Apr 2026 02:26:45 GMT"
+    },
+    {
+      "title": "교육부 ‘인공지능(AI) 사이버안전센터’ 개소, 사이버 보안관제 고도화",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA1aFFuLWlNZVhCU293eElIN05Ub3paMXVpdk80eFhkZVQwRG9sblpneGJ3bjItbE5FdllfTzVtUnhvT1ZoSU1wMHVfc0JfbjdYRWVVLVFlb0lmUWxsTmdiZlFyMHVaQndQbExHcWtyQdIBb0FVX3lxTFA1aFFuLWlNZVhCU293eElIN05Ub3paMXVpdk80eFhkZVQwRG9sblpneGJ3bjItbE5FdllfTzVtUnhvT1ZoSU1wMHVfc0JfbjdYRWVVLVFlb0lmUWxsTmdiZlFyMHVaQndQbExHcWtyQQ?oc=5",
+      "source": "교육언론[창]",
+      "date": "Thu, 23 Apr 2026 01:08:15 GMT"
+    },
     {
       "title": "오픈AI ‘챗GPT 이미지 2.0’ 공개…한국어 텍스트·레이아웃 표현력 개선",
       "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPaUlMdm95VFd6Nkw5MWFEMFIxSllFQTI0S1VCMnE1NGh6bFdYanpSQVBXNkZjRlJTa01xNXVxa0dwclFtWkRza1d5OURQNUpnOWJDanlFSnF5YUtSTWMtOUtIUUpzWDR0TjdpYl9jbDdKU2VIYUlSNWdBaU1DeElkQ3Fua0g4YmFJcEF6RE56eTllcks0NHVPQmFtOFFEdm54UmpkSEdYcFJuUUpQclZaQjNIVXNvVEI2cGE5aDdkdl91OUp2YW9aQmZGLXhsWUNsblVDQWVRZnJjSlFfUDJENEMzQ3J6bk1ZQ0plN2tyRzRBVV9VTlNreWgzY3dkMEpfVk9qMWdZMXhLVDc4M2hGNXRUUUZObFV3Mkt2MklHRVJvSlJhTHBGOC1wODdLRzVsNEUtUVZXNEU?oc=5",
@@ -12,12 +36,6 @@
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5OSkNBYjZFSkxoakNIQkhRakJlMHFSQy1MQTVOT19vWDVVdWZOZThrZTNhbFRQU2VTVDZDSk1QTHRvdVJrbXNUc0tLQTU4Zw?oc=5",
       "source": "전자신문",
       "date": "Wed, 22 Apr 2026 05:31:26 GMT"
-    },
-    {
-      "title": "지식재산처, ‘인공지능(AI)·데이터와 지식재산’ 웹페이지 개설",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wQnZNVUJFRG1valRHM2h0VDdKVnY0aEpmRkplVjZ6Tm9Ja3FHOTE0SDNnMWdFRnZHS25zcXhOZTdBLTVVeGtjYWVURUtLci1mYVNkNTYyWFBBLTkxUUdEUHRCVEZyQnA4dGc?oc=5",
-      "source": "한국시사경제",
-      "date": "Wed, 22 Apr 2026 04:30:20 GMT"
     },
     {
       "title": "오픈AI, 텍스트 생성 능력 강화된 'ChatGPT 이미지 2.0' 공개",
@@ -33,9 +51,9 @@
     },
     {
       "title": "지식재산처 ‘인공지능(AI)·데이터와 지식재산’ 웹페이지 새로 개설",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBIclBicUdNYXZDRWVhTEtUOXJ6WWJ0RXdXRE1fOW5USXpIcGhUTXRlaHZUTWU2VGhBZmxLeVhnc0hxQ0o3QWM3OHZTdG80X0kxMk5DaXBtcF9NWlR0emt5ZHlvSWRpS1pXUXdUUTlR0gFuQVVfeXFMUEhyUGJxR01hdkNFZWFMS1Q5cnpZYnRFd1dETV85blRJekhwaFRNdGVodlRNZTZUaEFmbEt5WGdzSHFDSjdBYzc4dlN0bzRfSTEyTkNpcG1wX01aVHR6a3lkeW9JZGlLWldRd1RROVE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvUjhKSWhxVDRuR0RMMm4xNThscnQxTTBLMjdPdDZMMGU5VzM5QWlHeXNoQnkyQVM0eFRFWDM4V0tmLXB1ZVUxTzg1NW43blg1S0hOSW93dVRTVzhzUGdGREhGOTFlTjNtekHSAW5BVV95cUxQSHJQYnFHTWF2Q0VlYUxLVDlyellidEV3V0RNXzluVEl6SHBoVE10ZWh2VE1lNlRoQWZsS3lYZ3NIcUNKN0FjNzh2U3RvNF9JMTJOQ2lwbXBfTVpUdHpreWR5b0lkaUtaV1F3VFE5UQ?oc=5",
       "source": "NK경제",
-      "date": "Wed, 22 Apr 2026 02:05:13 GMT"
+      "date": "Wed, 22 Apr 2026 01:43:13 GMT"
     },
     {
       "title": "ChatGPT Image 2.0 공개",
@@ -50,28 +68,10 @@
       "date": "Tue, 21 Apr 2026 19:00:00 GMT"
     },
     {
-      "title": "라온로드 ‘생성형 AI로 실시간 교통사고 분석’ 특허 등록",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBSmx1RFZoTFVkV1VhZWJBTFVidlRvYjRnWElYZnlubUNJVTFkYlFYMHl4MEtIdHk1alc4c3gwdmpvVmNXbXo2VFlzaGZlX3VhOXZyYXNadWJZRWdlWkRPMGlLdG91ODBQ?oc=5",
-      "source": "보안뉴스",
-      "date": "Mon, 20 Apr 2026 01:07:00 GMT"
-    },
-    {
-      "title": "‘인공지능(AI) 시대, 어떻게 일해야 할까?’",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9UX1dhRjJiQXQ3LTlNLUxXbmc2aWlIdzIyQ3ZIMVVMV0w0eEM3NDhGSjdrTEctaE4xWFQ3NjhEWGNTdUt5UEE1WlRtU3lkaklTVnc1dXh5QW5FMk5pREphNXZ0OHRsdw?oc=5",
-      "source": "데일리대구경북뉴스",
-      "date": "Mon, 20 Apr 2026 01:02:30 GMT"
-    },
-    {
-      "title": "‘일상 속 해결사 된 AI’... 서울 자치구, 시민 삶 바꾼다",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQXhmalNuUjdFS1J3QnZfcHVWamhmNzFZajVFaVdVdmRDWkphUjUxd2kzYVljZUtreXZsRVQxRU00VXg1YjJxYTRZdnFHRExkS1NQbDIxLXhRTjhhU2lTMERTS2U5ZGhiaU4zbWtha0E4NzhUWWo2Yk9sQWxtQ3BwZnlRamUxZ1lVazV3Vjh3?oc=5",
-      "source": "조선일보",
-      "date": "Sun, 19 Apr 2026 21:05:50 GMT"
-    },
-    {
-      "title": "관악, 인공지능(AI) 기반 스마트 행정 본격화",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4xM2tjc3dxT0lwTEpHazFxdTlkMUM5MGRNX3pXNlp4cFhwZ2N2aFBjZW5PenZGNEJ4WEZxSWNNQWhKWERQbmNCVmVOY3RWRmZYalJOUlpMNEpzTEQtcEJmZGpDVTVORG16LUhTUGk2Y9IBb0FVX3lxTE4xM2tjc3dxT0lwTEpHazFxdTlkMUM5MGRNX3pXNlp4cFhwZ2N2aFBjZW5PenZGNEJ4WEZxSWNNQWhKWERQbmNCVmVOY3RWRmZYalJOUlpMNEpzTEQtcEJmZGpDVTVORG16LUhTUGk2Yw?oc=5",
-      "source": "서울일보",
-      "date": "Sun, 19 Apr 2026 16:09:14 GMT"
+      "title": "비싼 장비 없이 뇌 깊숙한 곳 선명하게 보는 AI 기술",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBka0RQQU85REVINmIyWUZMU3k0ZndpTDdRUjJjRFNUZTBDS1F0dURSOEJOeEdLcGFiVHotd0dtWXJuN1dySXFaelA5SktkQWpwLUtUaA?oc=5",
+      "source": "동아사이언스",
+      "date": "Tue, 21 Apr 2026 01:50:00 GMT"
     }
   ]
 }
