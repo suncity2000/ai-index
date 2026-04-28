@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-27T05:30:13.030Z",
+  "last_updated": "2026-04-28T05:36:17.670Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -319,7 +319,7 @@
       "name": "Google: Gemini 2.0 Flash",
       "price_1m_input": 0.1,
       "price_1m_output": 0.4,
-      "context_length": 1048576,
+      "context_length": 1000000,
       "top_provider": true
     },
     {
@@ -541,8 +541,8 @@
     {
       "id": "mistralai/mistral-nemo",
       "name": "Mistral: Mistral Nemo",
-      "price_1m_input": 0.01,
-      "price_1m_output": 0.03,
+      "price_1m_input": 0.02,
+      "price_1m_output": 0.04,
       "context_length": 131072,
       "top_provider": true
     },
@@ -1211,16 +1211,16 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4-0314",
-      "name": "OpenAI: GPT-4 (older v0314)",
+      "id": "openai/gpt-4",
+      "name": "OpenAI: GPT-4",
       "price_1m_input": 30,
       "price_1m_output": 60,
       "context_length": 8191,
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4",
-      "name": "OpenAI: GPT-4",
+      "id": "openai/gpt-4-0314",
+      "name": "OpenAI: GPT-4 (older v0314)",
       "price_1m_input": 30,
       "price_1m_output": 60,
       "context_length": 8191,
@@ -1435,14 +1435,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3.6-27b",
-      "name": "Qwen: Qwen3.6 27B",
-      "price_1m_input": 0.2,
-      "price_1m_output": 1.56,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3.5-27b",
       "name": "Qwen: Qwen3.5-27B",
       "price_1m_input": 0.2,
@@ -1576,6 +1568,14 @@
       "price_1m_input": 0.45,
       "price_1m_output": 1.82,
       "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3.6-27b",
+      "name": "Qwen: Qwen3.6 27B",
+      "price_1m_input": 0.5,
+      "price_1m_output": 2,
+      "context_length": 262144,
       "top_provider": true
     },
     {
