@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-04-27T11:01:47.428Z",
+  "last_updated": "2026-04-28T11:03:09.084Z",
   "news": [
+    {
+      "title": "대한민국 인공지능 국가대표팀, '한국형 인공지능 동반관계(K-AI Partnership)' 출범",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZmxGZXlIMXZaX0VsSXVEVjFxanBabG5yRjBPN0xZVWxxNmtaWUMwMHRBZEQ0dUlBNTR2UnRGMFdVMHpheFdxdTdtSDBBcS1CTnFsM3BLYW1HSEttMlVCakFTeEhkaVNuNG9LaWxBMGd3ajIwMUJHdXQwV0c3QlNKQV85MzI0VUx6ZFZYWk1zUnA0QQ?oc=5",
+      "source": "대한민국 정책브리핑",
+      "date": "Tue, 28 Apr 2026 07:00:00 GMT"
+    },
     {
       "title": "생성형 AI 환각 문제 잡는다…KAIST ‘예열 학습’ 전략 개발",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwdEx6MHFXWlhXdmhCMWRUdlgwMTNsdURsUklCLTFZckpLQUZkdFZhV1IwU2VNSDMxMUNOMjZ5NkxYNGE3cXduajVwNkVfMmNpLUhMS2NVWTVpb1FmQ21iZkV2ZHg1cTVLYlRKbU5n0gFuQVVfeXFMUHB0THowcVdaWFd2aEIxZFR2WDAxM2x1RGxSSUItMVlySktBRmR0VmFXUjBTZU1IMzExQ04yNnk2TFg0YTdxd25qNXA2RV8yY2ktSExLY1VZNWlvUWZDbWJmRXZkeDVxNUtiVEptTmc?oc=5",
@@ -27,7 +33,7 @@
     },
     {
       "title": "인공지능과 구석기의 만남 ‘전곡선사 AI 시네마 로드’",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5SWmI5Z1lHWnBPaFBFS3dMV3NUck8xSTJBcFgxbXc0YTRzeER1T1gwYkg1MzZNRmJyMHZQSVhMTDBGYVczUWc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5rQ1l0NVVYc2llVUkxRXJLR09HZ2lmMmQzaVpGbm93TkVvMWpCM1dzMGdTb1dKbmZ2RV9SM24yZVV0Ny04REFMd01nRmNBUzQ?oc=5",
       "source": "v.daum.net",
       "date": "Sun, 26 Apr 2026 04:09:10 GMT"
     },
@@ -38,28 +44,16 @@
       "date": "Sun, 26 Apr 2026 00:01:00 GMT"
     },
     {
+      "title": "광양시, 생성형 인공지능(AI) 활용 업무자동화 ‘교육’",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVdzd2VmVUdlhISkVWV21rSkhaX1dLOFZIUDRBVlpyc2hTY09TYzRkMkc1ZXRhaGxsMlFBdGJuTVV2TzRaSE5IRXB2UzFFbXNXMmdnTnlQVWZhNW5FUUhFRTU1V3R1eEE?oc=5",
+      "source": "광양뉴스",
+      "date": "Fri, 24 Apr 2026 09:03:02 GMT"
+    },
+    {
       "title": "인공지능(AI)부터 대입 전략까지, 맞춤형 교육영상 제작",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IeXctMF93elZFcEd1WjRDLWs3cl9ST2UzYVk5R0p2UWY3eXQxOUdDYnVnWF84ejdZVm9KeGtLZHlBNk16aE1mTi1aakFqT2xqdV9vcFNaU0J1UQ?oc=5",
       "source": "무진장뉴스i",
       "date": "Fri, 24 Apr 2026 06:55:41 GMT"
-    },
-    {
-      "title": "종합소득세·장려금까지…국세청, 생성형 AI챗봇 확대",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5uVEo2bXpXSGZtdDJGQnQydlNvdkUzS0todnZtNGNjS0VwOVNSWkRaZWlIbmFkb29nUVF2Rk5fTHlYZWtackxOUFl0b3RIanowVDh3b2czdTNaemlwdU1XWVhoMmQ0amRmSzRaQjhR?oc=5",
-      "source": "세무사신문",
-      "date": "Fri, 24 Apr 2026 05:54:19 GMT"
-    },
-    {
-      "title": "AI와 나눈 대화가 증거로… 3700억원 소송 희비 갈랐다",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWkV2MGJ3R3BlSGtOZlFCLUZyTG5hVTcwTGllUUpkelN5ZHRSaTV1cEZISEozWEtrZVl5Yk51VnJEOGhkbzdUTFVkb3N2dE1MbmZkQ0pqamVNbnpJS01YSFRXcmh1UTREWk9xSHoya2NCRWJ5VWRuMHEwSmpqT0xwRnFZOA?oc=5",
-      "source": "조선일보",
-      "date": "Thu, 23 Apr 2026 15:52:23 GMT"
-    },
-    {
-      "title": "사람 중심 AI 기금: 비영리 단체에 5,000만 달러 지원",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE92bmlJY0U4dW9Qb3RJaEJINFRmenRIbWZEYmlpbmdvU29FRkRjOXJfZ1dqdHBTSWpqMDY4VktWbk1fcmZXNF9vdWZHRW1TZ080b1N2NDZKOU9rVC1GNzAwSTBR?oc=5",
-      "source": "OpenAI",
-      "date": "Thu, 23 Apr 2026 09:37:42 GMT"
     },
     {
       "title": "교육부, ‘인공지능(AI) 사이버안전센터’ 개소… AI 활용 실시간 교육기관 사이버공격 대응",
@@ -72,6 +66,12 @@
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0xUll3QTktNkxJeU1PZmFYdjhEQ0dHRDEzNzJsWFQ5M3FDN0RYeTJIdExFZWxzOE0tOWlkbksyNHZBakxWVFc2ek1wVDhDUQ?oc=5",
       "source": "전자신문",
       "date": "Thu, 23 Apr 2026 04:48:17 GMT"
+    },
+    {
+      "title": "오픈AI ‘챗GPT 이미지 2.0’ 공개…한국어 텍스트·레이아웃 표현력 개선",
+      "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPaUlMdm95VFd6Nkw5MWFEMFIxSllFQTI0S1VCMnE1NGh6bFdYanpSQVBXNkZjRlJTa01xNXVxa0dwclFtWkRza1d5OURQNUpnOWJDanlFSnF5YUtSTWMtOUtIUUpzWDR0TjdpYl9jbDdKU2VIYUlSNWdBaU1DeElkQ3Fua0g4YmFJcEF6RE56eTllcks0NHVPQmFtOFFEdm54UmpkSEdYcFJuUUpQclZaQjNIVXNvVEI2cGE5aDdkdl91OUp2YW9aQmZGLXhsWUNsblVDQWVRZnJjSlFfUDJENEMzQ3J6bk1ZQ0plN2tyRzRBVV9VTlNreWgzY3dkMEpfVk9qMWdZMXhLVDc4M2hGNXRUUUZObFV3Mkt2MklHRVJvSlJhTHBGOC1wODdLRzVsNEUtUVZXNEU?oc=5",
+      "source": "cio.com",
+      "date": "Wed, 22 Apr 2026 07:30:23 GMT"
     }
   ]
 }
