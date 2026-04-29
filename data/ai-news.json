@@ -1,11 +1,47 @@
 {
-  "last_updated": "2026-04-28T11:03:09.084Z",
+  "last_updated": "2026-04-29T10:54:53.760Z",
   "news": [
     {
-      "title": "대한민국 인공지능 국가대표팀, '한국형 인공지능 동반관계(K-AI Partnership)' 출범",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZmxGZXlIMXZaX0VsSXVEVjFxanBabG5yRjBPN0xZVWxxNmtaWUMwMHRBZEQ0dUlBNTR2UnRGMFdVMHpheFdxdTdtSDBBcS1CTnFsM3BLYW1HSEttMlVCakFTeEhkaVNuNG9LaWxBMGd3ajIwMUJHdXQwV0c3QlNKQV85MzI0VUx6ZFZYWk1zUnA0QQ?oc=5",
-      "source": "대한민국 정책브리핑",
-      "date": "Tue, 28 Apr 2026 07:00:00 GMT"
+      "title": "고사양 생성형 AI 운영 비용 절감 '스퀴즈비츠' 최적화 기술",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HQ0YyVmIyaFNQUHdCUVVUQUFvb0Y2YXQ5YmRoMDRlbS04cnNqZngtVlJRR1JId2ZSZ0xGQkR6RUpxNWxSWjRJMlEzYzlfbVg2Zm5IcWZmeUpzSURKRzhNNmlBNEM4dzA?oc=5",
+      "source": "인공지능신문",
+      "date": "Wed, 29 Apr 2026 04:14:24 GMT"
+    },
+    {
+      "title": "ChatGPT 이미지 2.0과 Claude Design의 등장",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZS19xNW1CQUhhYjFpTWxSNFR1ZUdzdF9ISVdlbHdadEg3VVFfbzhmR0tDNUc4bkZ5akhxOXZ4TldGMlFPTEVyVV9RakZtWVpMcWhVeXZWZ1lHdw?oc=5",
+      "source": "요즘IT",
+      "date": "Wed, 29 Apr 2026 02:10:45 GMT"
+    },
+    {
+      "title": "강동, 법률 특화 인공지능(AI) 서비스 전면 확대",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9XOEc3T0VEYW92UkVKUnJZNko1MW5CRzNRUG1zNzdmMnQ0ZjdjNktjQTRVWlpzQUZrX0RLS2p6aHZhLVc1aGhZTDBCbEJSUnRuRDVHVWlCR1otRVdHNEZtc3k0dmRnS2F6clYtMGRrc9IBb0FVX3lxTE9XOEc3T0VEYW92UkVKUnJZNko1MW5CRzNRUG1zNzdmMnQ0ZjdjNktjQTRVWlpzQUZrX0RLS2p6aHZhLVc1aGhZTDBCbEJSUnRuRDVHVWlCR1otRVdHNEZtc3k0dmRnS2F6clYtMGRrcw?oc=5",
+      "source": "서울일보",
+      "date": "Wed, 29 Apr 2026 00:23:08 GMT"
+    },
+    {
+      "title": "인공지능(AI)시대 공영방송 존속발전의 헌법적 의미와 입법적 과제",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBjT3VRRnBKY1RuUkp6Q0RwX1BUbWxaaEVVcHAyN1NOU2VhVEgxaVhBSFpmSnpRN20zMng0dXBaTk9ib3hUWjEzbkwxN1hCVDcyVTc0eWNDUEZ1R2JqNlRyTzNaVVlGa3dVLVpqckRR0gFyQVVfeXFMTmM3dU1xbkp2R2F0ay04WHVtUG1DdUV6Y0xvZUNoWlh5SjNxbzJKQS1TMm1ad1VlbTc5bXlTU2dpT2ZVRjl0bGl3RkJxMzZ0RUdSdUozNElxa3FDR2dCbW5kbmhzZGI5a2lXdGtXRUxEbUVR?oc=5",
+      "source": "법률신문",
+      "date": "Tue, 28 Apr 2026 22:35:47 GMT"
+    },
+    {
+      "title": "한글 표현에 고양이 구분까지…'어색함' 사라진 이미지 생성 AI",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5pa1lSQjI3U1JPU2xwakNRM2t1dHl0czY4ZHEtbzZjS1hjQ0hBUWhqU2d3OGU5RHpJZThsS19Ud0RjTlo1cW80YjJEZUtpREY2a2tqRF9rbHVFSkdjclkxdTE2Tmc?oc=5",
+      "source": "뉴스1",
+      "date": "Tue, 28 Apr 2026 20:50:00 GMT"
+    },
+    {
+      "title": "네이버, 생성형 AI 검색 'AI탭' 시작…에이전트형 검색 시동",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1GQmFlTl9taU9JMVBLdGtVZjdVM2pScWN6emdfZ3FOMXV2b1h1QnFnOXQxOUxCNDd5dDhzQjJFMzI0X3hIcE94c0hDTlRwUQ?oc=5",
+      "source": "전자신문",
+      "date": "Mon, 27 Apr 2026 08:58:08 GMT"
+    },
+    {
+      "title": "ChatGPT vs Claude, 같은 질문에도 비용이 다른 이유: ‘토큰 산출 격차’의 비밀 | 인사이트리포트 | 삼성SDS",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRXltMkQ5bFhZY3Q5ZWxOVC15QXBfQmEtYlV2ZGtTaHVKbmFEd0prRTMwc0xhZXdoc0h3T1l5T0FLUmdQM1REU1lzaEU3SU9oOHI1Y3c1cnc0QVFjMGJtbjVqbDBoY0J2Z1RTTjlUQUNLQkFkUlBSVWd0MS1NaVliUUEzQnhfSDBXOTAyLWNhcDF3ZlZCbFpPWDhR?oc=5",
+      "source": "Samsung SDS",
+      "date": "Mon, 27 Apr 2026 07:16:14 GMT"
     },
     {
       "title": "생성형 AI 환각 문제 잡는다…KAIST ‘예열 학습’ 전략 개발",
@@ -36,42 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5rQ1l0NVVYc2llVUkxRXJLR09HZ2lmMmQzaVpGbm93TkVvMWpCM1dzMGdTb1dKbmZ2RV9SM24yZVV0Ny04REFMd01nRmNBUzQ?oc=5",
       "source": "v.daum.net",
       "date": "Sun, 26 Apr 2026 04:09:10 GMT"
-    },
-    {
-      "title": "영화계 깊숙이 파고드는 인공지능…100% AI 영화도 등장",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VS0hnU3FmTkV3ODFkd3ZrdHhmZmIxTXM4eG8yLXFJcDhJeFlTZXVLVU1YR3ItS3dud2lIdzhIZDJQVV9Dd2RpaFgzOTdqb2hRZ3JERHF1WHRuQWRtYklTTdIBYEFVX3lxTE5VS0hnU3FmTkV3ODFkd3ZrdHhmZmIxTXM4eG8yLXFJcDhJeFlTZXVLVU1YR3ItS3dud2lIdzhIZDJQVV9Dd2RpaFgzOTdqb2hRZ3JERHF1WHRuQWRtYklTTQ?oc=5",
-      "source": "연합뉴스",
-      "date": "Sun, 26 Apr 2026 00:01:00 GMT"
-    },
-    {
-      "title": "광양시, 생성형 인공지능(AI) 활용 업무자동화 ‘교육’",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVdzd2VmVUdlhISkVWV21rSkhaX1dLOFZIUDRBVlpyc2hTY09TYzRkMkc1ZXRhaGxsMlFBdGJuTVV2TzRaSE5IRXB2UzFFbXNXMmdnTnlQVWZhNW5FUUhFRTU1V3R1eEE?oc=5",
-      "source": "광양뉴스",
-      "date": "Fri, 24 Apr 2026 09:03:02 GMT"
-    },
-    {
-      "title": "인공지능(AI)부터 대입 전략까지, 맞춤형 교육영상 제작",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IeXctMF93elZFcEd1WjRDLWs3cl9ST2UzYVk5R0p2UWY3eXQxOUdDYnVnWF84ejdZVm9KeGtLZHlBNk16aE1mTi1aakFqT2xqdV9vcFNaU0J1UQ?oc=5",
-      "source": "무진장뉴스i",
-      "date": "Fri, 24 Apr 2026 06:55:41 GMT"
-    },
-    {
-      "title": "교육부, ‘인공지능(AI) 사이버안전센터’ 개소… AI 활용 실시간 교육기관 사이버공격 대응",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xS3BYdHVxdnhQei11YmRMVkphdk8yZDgwVkgzZVM1LWtmM1JFUENvbG9rdHV4cjF2ZThUTFdIal9zQkFUVlFBR1hwZUlYci1GZU1keVVxbkRrWUZ2TEJCNDNzVjdndw?oc=5",
-      "source": "한국대학신문",
-      "date": "Thu, 23 Apr 2026 06:19:34 GMT"
-    },
-    {
-      "title": "[포토]인공지능(AI) 드론 기체 살펴보는 관람객",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0xUll3QTktNkxJeU1PZmFYdjhEQ0dHRDEzNzJsWFQ5M3FDN0RYeTJIdExFZWxzOE0tOWlkbksyNHZBakxWVFc2ek1wVDhDUQ?oc=5",
-      "source": "전자신문",
-      "date": "Thu, 23 Apr 2026 04:48:17 GMT"
-    },
-    {
-      "title": "오픈AI ‘챗GPT 이미지 2.0’ 공개…한국어 텍스트·레이아웃 표현력 개선",
-      "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPaUlMdm95VFd6Nkw5MWFEMFIxSllFQTI0S1VCMnE1NGh6bFdYanpSQVBXNkZjRlJTa01xNXVxa0dwclFtWkRza1d5OURQNUpnOWJDanlFSnF5YUtSTWMtOUtIUUpzWDR0TjdpYl9jbDdKU2VIYUlSNWdBaU1DeElkQ3Fua0g4YmFJcEF6RE56eTllcks0NHVPQmFtOFFEdm54UmpkSEdYcFJuUUpQclZaQjNIVXNvVEI2cGE5aDdkdl91OUp2YW9aQmZGLXhsWUNsblVDQWVRZnJjSlFfUDJENEMzQ3J6bk1ZQ0plN2tyRzRBVV9VTlNreWgzY3dkMEpfVk9qMWdZMXhLVDc4M2hGNXRUUUZObFV3Mkt2MklHRVJvSlJhTHBGOC1wODdLRzVsNEUtUVZXNEU?oc=5",
-      "source": "cio.com",
-      "date": "Wed, 22 Apr 2026 07:30:23 GMT"
     }
   ]
 }
