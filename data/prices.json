@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-28T05:36:17.670Z",
+  "last_updated": "2026-04-29T05:32:00.684Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -542,7 +542,7 @@
       "id": "mistralai/mistral-nemo",
       "name": "Mistral: Mistral Nemo",
       "price_1m_input": 0.02,
-      "price_1m_output": 0.04,
+      "price_1m_output": 0.03,
       "context_length": 131072,
       "top_provider": true
     },
@@ -1211,16 +1211,16 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4",
-      "name": "OpenAI: GPT-4",
+      "id": "openai/gpt-4-0314",
+      "name": "OpenAI: GPT-4 (older v0314)",
       "price_1m_input": 30,
       "price_1m_output": 60,
       "context_length": 8191,
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4-0314",
-      "name": "OpenAI: GPT-4 (older v0314)",
+      "id": "openai/gpt-4",
+      "name": "OpenAI: GPT-4",
       "price_1m_input": 30,
       "price_1m_output": 60,
       "context_length": 8191,
@@ -1411,14 +1411,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwq-32b",
-      "name": "Qwen: QwQ 32B",
-      "price_1m_input": 0.15,
-      "price_1m_output": 0.58,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3.6-35b-a3b",
       "name": "Qwen: Qwen3.6 35B A3B",
       "price_1m_input": 0.16,
@@ -1531,6 +1523,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3.6-27b",
+      "name": "Qwen: Qwen3.6 27B",
+      "price_1m_input": 0.33,
+      "price_1m_output": 3.25,
+      "context_length": 256000,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3.6-plus",
       "name": "Qwen: Qwen3.6 Plus",
       "price_1m_input": 0.33,
@@ -1568,14 +1568,6 @@
       "price_1m_input": 0.45,
       "price_1m_output": 1.82,
       "context_length": 131072,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3.6-27b",
-      "name": "Qwen: Qwen3.6 27B",
-      "price_1m_input": 0.5,
-      "price_1m_output": 2,
-      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1619,19 +1611,19 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3.6-max-preview",
+      "name": "Qwen: Qwen3.6 Max Preview",
+      "price_1m_input": 1.04,
+      "price_1m_output": 6.24,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen-max",
       "name": "Qwen: Qwen-Max ",
       "price_1m_input": 1.04,
       "price_1m_output": 4.16,
       "context_length": 32768,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3.6-max-preview",
-      "name": "Qwen: Qwen3.6 Max Preview",
-      "price_1m_input": 1.3,
-      "price_1m_output": 7.8,
-      "context_length": 262144,
       "top_provider": true
     },
     {
