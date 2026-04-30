@@ -1,17 +1,29 @@
 {
-  "last_updated": "2026-04-29T10:54:53.760Z",
+  "last_updated": "2026-04-30T10:53:33.458Z",
   "news": [
     {
-      "title": "고사양 생성형 AI 운영 비용 절감 '스퀴즈비츠' 최적화 기술",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HQ0YyVmIyaFNQUHdCUVVUQUFvb0Y2YXQ5YmRoMDRlbS04cnNqZngtVlJRR1JId2ZSZ0xGQkR6RUpxNWxSWjRJMlEzYzlfbVg2Zm5IcWZmeUpzSURKRzhNNmlBNEM4dzA?oc=5",
-      "source": "인공지능신문",
-      "date": "Wed, 29 Apr 2026 04:14:24 GMT"
+      "title": "시흥시-경기도, ‘피지컬 인공지능(AI) 확산센터’ 구축 협약",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jME4ybmxKWUdQOWdnb2N3T2RZNHZxUzlmQmhJV1l1a2MxMVVsbnZUbGRBSVZtQmcycHRYS3JXTGQ4cGg5ajlfM1kwM0hwenNCN1gxSFFGWFN6a0tXSjdFUUFYeGtRLXpJMEo0LVpOc1BXdVRK0gF0QVVfeXFMT2MwTjJubEpZR1A5Z2dvY3dPZFk0dnFTOWZCaElXWXVrYzExVWxudlRsZEFJVm1CZzJwdFhLcldMZDhwaDlqOV8zWTAzSHB6c0I3WDFIUUZYU3prS1dKN0VRQVh4a1EtekkwSjQtWk5zUFd1VEo?oc=5",
+      "source": "이뉴스투데이",
+      "date": "Thu, 30 Apr 2026 00:45:57 GMT"
+    },
+    {
+      "title": "\"AI발 '해킹 대재앙' 이미 시작됐다\"",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1PNFN2V2cwelBuRDJVUlpMOEVBcjBvTEVsM3N5Z2k1SHNRb3JZZ0lpeWFQVWFzTXg4UVpDeXB4Zkk3a3NEWHhxeDBDWjBpOHFsWVUxMHdn?oc=5",
+      "source": "지디넷코리아",
+      "date": "Wed, 29 Apr 2026 11:40:08 GMT"
     },
     {
       "title": "ChatGPT 이미지 2.0과 Claude Design의 등장",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZS19xNW1CQUhhYjFpTWxSNFR1ZUdzdF9ISVdlbHdadEg3VVFfbzhmR0tDNUc4bkZ5akhxOXZ4TldGMlFPTEVyVV9RakZtWVpMcWhVeXZWZ1lHdw?oc=5",
       "source": "요즘IT",
-      "date": "Wed, 29 Apr 2026 02:10:45 GMT"
+      "date": "Wed, 29 Apr 2026 08:19:43 GMT"
+    },
+    {
+      "title": "마크애니-정보산업연합회, 생성AI 콘텐츠 신뢰성 확보 MOU",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RTmdFbnloTXZEaTNORmE1U055Z1RtRE1ZTHZaVXkySW42ZTdrRFlsME1JTFU3T2gyRmdJWTZqazFfeXllZ0VTb2pFTWl0NE12TzF1UmhB?oc=5",
+      "source": "지디넷코리아",
+      "date": "Wed, 29 Apr 2026 06:03:08 GMT"
     },
     {
       "title": "강동, 법률 특화 인공지능(AI) 서비스 전면 확대",
@@ -21,7 +33,7 @@
     },
     {
       "title": "인공지능(AI)시대 공영방송 존속발전의 헌법적 의미와 입법적 과제",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBjT3VRRnBKY1RuUkp6Q0RwX1BUbWxaaEVVcHAyN1NOU2VhVEgxaVhBSFpmSnpRN20zMng0dXBaTk9ib3hUWjEzbkwxN1hCVDcyVTc0eWNDUEZ1R2JqNlRyTzNaVVlGa3dVLVpqckRR0gFyQVVfeXFMTmM3dU1xbkp2R2F0ay04WHVtUG1DdUV6Y0xvZUNoWlh5SjNxbzJKQS1TMm1ad1VlbTc5bXlTU2dpT2ZVRjl0bGl3RkJxMzZ0RUdSdUozNElxa3FDR2dCbW5kbmhzZGI5a2lXdGtXRUxEbUVR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5jN3VNcW5KdkdhdGstOFh1bVBtQ3VFemNMb2VDaFpYeUozcW8ySkEtUzJtWndVZW03OW15U1NnaU9mVUY5dGxpd0ZCcTM2dEVHUnVKMzRJcWtxQ0dnQm1uZG5oc2RiOWtpV3RrV0VMRG1FUdIBckFVX3lxTE5jN3VNcW5KdkdhdGstOFh1bVBtQ3VFemNMb2VDaFpYeUozcW8ySkEtUzJtWndVZW03OW15U1NnaU9mVUY5dGxpd0ZCcTM2dEVHUnVKMzRJcWtxQ0dnQm1uZG5oc2RiOWtpV3RrV0VMRG1FUQ?oc=5",
       "source": "법률신문",
       "date": "Tue, 28 Apr 2026 22:35:47 GMT"
     },
@@ -30,6 +42,18 @@
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5pa1lSQjI3U1JPU2xwakNRM2t1dHl0czY4ZHEtbzZjS1hjQ0hBUWhqU2d3OGU5RHpJZThsS19Ud0RjTlo1cW80YjJEZUtpREY2a2tqRF9rbHVFSkdjclkxdTE2Tmc?oc=5",
       "source": "뉴스1",
       "date": "Tue, 28 Apr 2026 20:50:00 GMT"
+    },
+    {
+      "title": "“오픈AI 꺾이나” 성장세 급제동에 IPO ‘적신호’···매출·사용자 지표 동반 하락 충격",
+      "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPVWVEUGFreVhjZF9UcGhwVTRFRVR2dVA5ZDBpaURBMFRydUJLUG1HSVFBYVlYYW1UdUhwT01YWUp1Zzc2U2tRaENNNHBUXzFuVXR1dnhMc1ZXNW1GcXhwUUJ5Rkx4Rk9oeGtaWk5sUS15SVRBS1dJM2lBVWNRTkRpdFMtVlVIZkdtcGY0MmpEbVJ1Z19Hek1qd2tOY1BucVRaWkZ6TENRcHB3cXNoZnBPQTY4UE5RWS1tZXJ5dVZlWUFuYnlXTWJwMWpyNTFtX3NBUFhtRGlOUjhUSnNyWGZTbzY2TjBSbURpUXdSVUUyVnNvcHVfMUpvTk55UlpZNklqSS1KQlZBM3hLUHd6MGVsR1dtXzVjenVZc3NHZlJnV005RHdBS3VWSkJ1a2R6UDg2blFFazBYTQ?oc=5",
+      "source": "Benzinga",
+      "date": "Tue, 28 Apr 2026 10:34:15 GMT"
+    },
+    {
+      "title": "너무 당당해서 진짜인 줄 알았다…모르면 당하는 생성형 AI 거짓말",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1pcWxsQjdPVjVfSTFsT3FKUm5PdUhGN1JtZVNVVlJKMTVqQW14SFZ6TFNYRjdMOXBjc0g1Y1BER0xpYkhXbEtzOXhOUHQ5SWxydHN5NlV3?oc=5",
+      "source": "르데스크",
+      "date": "Tue, 28 Apr 2026 09:38:00 GMT"
     },
     {
       "title": "네이버, 생성형 AI 검색 'AI탭' 시작…에이전트형 검색 시동",
@@ -44,34 +68,10 @@
       "date": "Mon, 27 Apr 2026 07:16:14 GMT"
     },
     {
-      "title": "생성형 AI 환각 문제 잡는다…KAIST ‘예열 학습’ 전략 개발",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwdEx6MHFXWlhXdmhCMWRUdlgwMTNsdURsUklCLTFZckpLQUZkdFZhV1IwU2VNSDMxMUNOMjZ5NkxYNGE3cXduajVwNkVfMmNpLUhMS2NVWTVpb1FmQ21iZkV2ZHg1cTVLYlRKbU5n0gFuQVVfeXFMUHB0THowcVdaWFd2aEIxZFR2WDAxM2x1RGxSSUItMVlySktBRmR0VmFXUjBTZU1IMzExQ04yNnk2TFg0YTdxd25qNXA2RV8yY2ktSExLY1VZNWlvUWZDbWJmRXZkeDVxNUtiVEptTmc?oc=5",
-      "source": "중부매일",
-      "date": "Mon, 27 Apr 2026 05:41:20 GMT"
-    },
-    {
       "title": "\"AI도 모르면 모른다\"... KAIST, ‘과신 없는 인공지능’ 학습 원리 밝혔다",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MOUliV3hMUGU0SktrLXZRNVJyU1I3dXhydUlNZ2J3Sl9lYUJJaTdxSGwwa0lLampnbW9KVzRSVzliOWYwLVJEVA?oc=5",
       "source": "특허뉴스",
       "date": "Mon, 27 Apr 2026 02:29:00 GMT"
-    },
-    {
-      "title": "동물 진료에도 인공지능 ‘성큼’..AI 기술 적용 MRI에 수의사 임상 판단 돕는 생성형 AI까지",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9WWW9Yazlsa0hLZEZSTHVVVVc1RE9haFI4eEw0M1JqY0NhN25WSUU5X0E5N3BXVnUtYUZ4bFo4dnNOQWEtSVRmQ0NnYno5NXZLOGN4ODl5aElBZw?oc=5",
-      "source": "데일리벳",
-      "date": "Mon, 27 Apr 2026 00:20:49 GMT"
-    },
-    {
-      "title": "\"유럽 의료진 85%가 쓴다…'생성형 AI' 임상 현장 이미 장악\"",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBaaEpXc1NNVGVpT1hIYzNBVVc5SWFjclpZOVBta3lsdnotUThiN0RGa0lPaW9famhKdVp5SXJ0bGJQTFhLWUFlb084VGdLUHJ4SHVEbGx1OC11NXQwRElncFF2cnVEUQ?oc=5",
-      "source": "약업신문",
-      "date": "Sun, 26 Apr 2026 21:01:00 GMT"
-    },
-    {
-      "title": "인공지능과 구석기의 만남 ‘전곡선사 AI 시네마 로드’",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5rQ1l0NVVYc2llVUkxRXJLR09HZ2lmMmQzaVpGbm93TkVvMWpCM1dzMGdTb1dKbmZ2RV9SM24yZVV0Ny04REFMd01nRmNBUzQ?oc=5",
-      "source": "v.daum.net",
-      "date": "Sun, 26 Apr 2026 04:09:10 GMT"
     }
   ]
 }
