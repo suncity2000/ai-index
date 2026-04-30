@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-29T05:32:00.684Z",
+  "last_updated": "2026-04-30T05:35:35.220Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -319,7 +319,7 @@
       "name": "Google: Gemini 2.0 Flash",
       "price_1m_input": 0.1,
       "price_1m_output": 0.4,
-      "context_length": 1000000,
+      "context_length": 1048576,
       "top_provider": true
     },
     {
@@ -560,14 +560,6 @@
       "price_1m_input": 0.08,
       "price_1m_output": 0.2,
       "context_length": 128000,
-      "top_provider": true
-    },
-    {
-      "id": "mistralai/mistral-small-creative",
-      "name": "Mistral: Mistral Small Creative",
-      "price_1m_input": 0.1,
-      "price_1m_output": 0.3,
-      "context_length": 32768,
       "top_provider": true
     },
     {
