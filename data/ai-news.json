@@ -1,17 +1,29 @@
 {
-  "last_updated": "2026-05-02T09:56:58.584Z",
+  "last_updated": "2026-05-03T10:02:26.945Z",
   "news": [
     {
-      "title": "인공지능: 스포티파이에 ‘AI 음악 걸러내기’ 버튼이 없는 이유는?",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IS0N6V19kWGdhTjFsTDhFSjByMnliTmFNRS1vMG5WVVFXTzFiTmMxYkthdm5SQ2xsWERQS3RWb2NxUHljQncxblFQY3Q1MWlpRTk2bE41SnJIZk00cFRaV2tB0gFiQVVfeXFMTkhLQ3pXX2RYZ2FOMWxMOEVKMHIyeWJOYU1FLW8wblZVUVdPMWJOYzFiS2F2blJDbGxYRFBLdFZvY3FQeWNCdzFuUVBjdDUxaWlFOTZsTjVKckhmTTRwVFpXa0E?oc=5",
-      "source": "BBC",
-      "date": "Sat, 02 May 2026 02:39:42 GMT"
+      "title": "시흥, 경기도와 ‘피지컬 인공지능(AI) 확산센터’ 구축 협약",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9lN09RLVJaV2dSSnk5R1VhaUQ2ZlljbVJlRXhMYkRMOGtLbXVNMzZ0dkh2Y0xMc1dKdTJocER6eE5lenp0dWU4TmRVNVdVaEt3MUpyb0p4Q0dDYTk4ZlF4NlJhSU9OTVBrdVd4Tlh3c9IBb0FVX3lxTE9lN09RLVJaV2dSSnk5R1VhaUQ2ZlljbVJlRXhMYkRMOGtLbXVNMzZ0dkh2Y0xMc1dKdTJocER6eE5lenp0dWU4TmRVNVdVaEt3MUpyb0p4Q0dDYTk4ZlF4NlJhSU9OTVBrdVd4Tlh3cw?oc=5",
+      "source": "서울일보",
+      "date": "Sun, 03 May 2026 07:19:59 GMT"
     },
     {
-      "title": "‘AI야 여행계획 짜줘’ 한마디, 317번 클릭 없앴다",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZHNhSEtFOUc5dWItM2hiRGtXdE8xWE1WMkRyd1FKek1UbnhYekxxSmw3WWZsTnMtUndYQ3Z5cnVXb3ZWM3Y0RFREQmFsUUx5Y0tXeTBqblplMlhUUmp5OXZRa3ZyZktDTlp5Z0M2RGZSV3RtNTJtWS1xQ2QybUVyU0M0Yw?oc=5",
-      "source": "조선일보",
-      "date": "Fri, 01 May 2026 16:05:04 GMT"
+      "title": "네이버의 AI 전략…'생성형' 집착 버리고 '소비 생태계 구축' |",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51OEdyMDVRZzNNQm1MamNvSmMyOElxXzczcFJqMThIbDExSEpmbjA4YURBVWNjcEo3U0JDZFFSQTlkOVJJUFFkLXRpdE96V2dUUTF2MkcwdmZOVjVGekxTb203dXRmMVdBbGlBMWZFRzFjMW5t?oc=5",
+      "source": "연합인포맥스",
+      "date": "Sun, 03 May 2026 04:07:32 GMT"
+    },
+    {
+      "title": "인공지능: 스포티파이에 ‘AI 음악 걸러내기’ 버튼이 없는 이유는?",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8wOVAzN2JoMl9SaFZCeFVNVExuNFF0Qzh3X0Z5SEE0akcyTkEyNllvMm5tSl9PZmt1WllPcjlQVWZFdjMwTWpKTl9GakVJSXgyenlKNG5DYkV5TDIz0gFiQVVfeXFMTkhLQ3pXX2RYZ2FOMWxMOEVKMHIyeWJOYU1FLW8wblZVUVdPMWJOYzFiS2F2blJDbGxYRFBLdFZvY3FQeWNCdzFuUVBjdDUxaWlFOTZsTjVKckhmTTRwVFpXa0E?oc=5",
+      "source": "BBC",
+      "date": "Sat, 02 May 2026 02:30:57 GMT"
+    },
+    {
+      "title": "사람 중심 AI 기금: 비영리 단체에 5,000만 달러 지원",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE92bmlJY0U4dW9Qb3RJaEJINFRmenRIbWZEYmlpbmdvU29FRkRjOXJfZ1dqdHBTSWpqMDY4VktWbk1fcmZXNF9vdWZHRW1TZ080b1N2NDZKOU9rVC1GNzAwSTBR?oc=5",
+      "source": "OpenAI",
+      "date": "Fri, 01 May 2026 15:23:22 GMT"
     },
     {
       "title": "놓치면 나만 손해인 ChatGPT 이미지 2.0 업데이트 소식! (aka",
@@ -26,22 +38,28 @@
       "date": "Thu, 30 Apr 2026 07:27:26 GMT"
     },
     {
+      "title": "동물 진료에도 인공지능 ‘성큼’..AI 기술 적용 MRI에 수의사 임상 판단 돕는 생성형 AI까지",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9WWW9Yazlsa0hLZEZSTHVVVVc1RE9haFI4eEw0M1JqY0NhN25WSUU5X0E5N3BXVnUtYUZ4bFo4dnNOQWEtSVRmQ0NnYno5NXZLOGN4ODl5aElBZw?oc=5",
+      "source": "데일리벳",
+      "date": "Thu, 30 Apr 2026 04:11:51 GMT"
+    },
+    {
+      "title": "베트남 철도공사, 인공지능(AI)을 활용한 ‘가변 가격제’ 도입",
+      "url": "https://news.google.com/rss/articles/CBMipgZBVV95cUxPem5vc2U2YTVEbmhpQlctX25sX19HdVd3OWpXX3dJLVJ6MG8zanpuSnpxTFdPTUYxSllPN3NOWTlsVGxnenowcW91c0FQdGRWMTlLMkRDUEhlMVRteTZMRUkzTXh3cDRvQ01qVmJUNFoxbkhydGRHZTRLeTFKNkZlakVVRW1RdDZhX3RBTDZUWWgwOXlselRMSExjbm5VWTl5aGlSRi1mME5wUVVTTXMydW9VYktkLXN3dm5VQngzZExlWVh1Q3hXWmZHamR5UkctODB5TjBITU5GRW83TXFPOTJlSERtMGVYWDhuaWlFcTk4MDBSeERuNkxzMS14b2hGWnJ6d3RaT2U0OFBJSV8zX0dDNTZLQ1I4dWkxSGJ5dnRBNW5Ybkd0SFJTU3NheEF6UXhFaVlIeTRwa1prSi1Mcm9zODhVc29KaFZ3YmpNdWFHU0ZkaUhjSklnQTlkRmxmemEzY0FKTXczTGhyZ0hmWnB3VU4wMExtWTRMeWptY0VrODhxWnQ2Q3dhckNwYnl3dER3ZnpFVlN3M2x1TGRlME5vRXkyZWZycFlva0loUE1qcXVpSXJiRmtGTXlfMW9ZanMtaWNWeEtWWlBIaTlrOXVsblVhd05GRHduV0IwYWEtN1otNExkNGJYdVFUWmhfVVJnYmZWUnJiWF9VS2Vta3c4QVVsY0REWEl6V242U1dHSnA0dlNDMlNPdUJCYlNCWTgyOW5vQVFPYy1wYzNnSmVIX1RwWVVoS042ZzJleDZDYVR0SVNOUENqYUNZXzFndGhLZkZfQkZ3U2IyU25wQXJHSzJHUGhGWDNscnUtTVhnZTJ5ZnhoTFZEMmdhNi1uczlNQ24zNFVadTVzQXM3ZlljZnJ0S1ZVMENHZmpwOHYyZDBoN3FJOUVSRlIwNWtpY044dGpGYVExb0psSzhNemw0am9vVHY5aElZWWpvUlFZYnhDbU0wc2Vjc1dKVFJFVGplSDJ4cGdxY3dpTWEwaVRtLVJRWGtOUHBSdXlqaTBTOE1CV0R2a2ZwOWJaRU1MU09fTVY1WHN6NHh5WFpwQi1FT3Rmdw?oc=5",
+      "source": "Thông tấn xã Việt Nam (TTXVN)",
+      "date": "Thu, 30 Apr 2026 03:20:42 GMT"
+    },
+    {
       "title": "시흥시-경기도, ‘피지컬 인공지능(AI) 확산센터’ 구축 협약… 제조 인공지능 혁신 거점 도약",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54b0VJb19vcmw2Mno5NWN6ZnZmcmpZLWk1dlpYU3dGTlpyc2NMa2VZRXY0eG1nczJNUHR4TUFNbnF0RkUxR3R5VFZSSjNyUGhodVJKZHFBZHVJamJ4aGg3ZldtZWhaRWc?oc=5",
       "source": "핸드메이커",
       "date": "Thu, 30 Apr 2026 02:15:25 GMT"
     },
     {
-      "title": "시흥시-경기도, ‘피지컬 인공지능(AI) 확산센터’ 구축 협약",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jME4ybmxKWUdQOWdnb2N3T2RZNHZxUzlmQmhJV1l1a2MxMVVsbnZUbGRBSVZtQmcycHRYS3JXTGQ4cGg5ajlfM1kwM0hwenNCN1gxSFFGWFN6a0tXSjdFUUFYeGtRLXpJMEo0LVpOc1BXdVRK0gF0QVVfeXFMT2MwTjJubEpZR1A5Z2dvY3dPZFk0dnFTOWZCaElXWXVrYzExVWxudlRsZEFJVm1CZzJwdFhLcldMZDhwaDlqOV8zWTAzSHB6c0I3WDFIUUZYU3prS1dKN0VRQVh4a1EtekkwSjQtWk5zUFd1VEo?oc=5",
-      "source": "이뉴스투데이",
-      "date": "Thu, 30 Apr 2026 00:45:57 GMT"
-    },
-    {
-      "title": "미국 FDA, 화장품 등 부작용 감시 인공지능(AI) 접목",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVXFNbUdNR3FuX2dBX3dISDZhdm9VcXRIajlVZ3kxZzY1bENtV2E0ZnRhZ2FieW1SbHpCdFN4bTV0NlgwTTFTcHNTZXpGSW9JNnQxeWgtSEtlcnNYMllxOF94WWR2b2pCdmhrN1pPQ2twVk8zdU5FUEwwUFVzNXd0SG9PR1k4Mm5OSy0yRC1GTW1zYlU?oc=5",
-      "source": "약업신문",
-      "date": "Wed, 29 Apr 2026 21:04:01 GMT"
+      "title": "[성남시 시정소식지 비전성남] 성남시, 제조기업 맞춤형 인공지능(AI) 실증 지원 나선다",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0xbVFpdjZpV0pDSDVVT2Zob0pobFladS1hLV9uekx4SlpZTFExMXkxbUozMHd5cWUycGNLZ1RyS3daVUg4VHh2X0lWcWpLZ0NCMFZMYUZKRTEtRFNmMDdBQk45cm5CWW1u?oc=5",
+      "source": "성남시 시정소식지 비전성남",
+      "date": "Wed, 29 Apr 2026 23:38:00 GMT"
     },
     {
       "title": "영남대, 생성형 AI 통합 플랫폼 ‘AI@YU’ 오픈",
@@ -54,24 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5laVhWTDg5aFdiSDZvdERLMWFhZ1JEUllSR0YwbktiSFJITEc5dUhfZXpFNHN0Vmw3ZTF4emRwcVpHdGtEQkcwaEt2LVdiOWZOODRPaVVPQm1sUjZmZXBJMUxEaUxEQldHU1HSAW5BVV95cUxNMkt5eXhqajFib1VSYkFFT2tuNWlsM2RXei1iTEc1RVJrQW51QzhWR25OQ2ZrUF95ZFlLZm9Hb2ZtVTlFakltSHl6NTVFLTAzeFBvNFRVcUloZUEwT0EwbnpKbFBubVJleDJpTlVPdw?oc=5",
       "source": "NK경제",
       "date": "Wed, 29 Apr 2026 03:37:41 GMT"
-    },
-    {
-      "title": "강동, 법률 특화 인공지능(AI) 서비스 전면 확대",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9XOEc3T0VEYW92UkVKUnJZNko1MW5CRzNRUG1zNzdmMnQ0ZjdjNktjQTRVWlpzQUZrX0RLS2p6aHZhLVc1aGhZTDBCbEJSUnRuRDVHVWlCR1otRVdHNEZtc3k0dmRnS2F6clYtMGRrc9IBb0FVX3lxTE9XOEc3T0VEYW92UkVKUnJZNko1MW5CRzNRUG1zNzdmMnQ0ZjdjNktjQTRVWlpzQUZrX0RLS2p6aHZhLVc1aGhZTDBCbEJSUnRuRDVHVWlCR1otRVdHNEZtc3k0dmRnS2F6clYtMGRrcw?oc=5",
-      "source": "서울일보",
-      "date": "Wed, 29 Apr 2026 00:23:08 GMT"
-    },
-    {
-      "title": "인공지능(AI)시대 공영방송 존속발전의 헌법적 의미와 입법적 과제",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBjT3VRRnBKY1RuUkp6Q0RwX1BUbWxaaEVVcHAyN1NOU2VhVEgxaVhBSFpmSnpRN20zMng0dXBaTk9ib3hUWjEzbkwxN1hCVDcyVTc0eWNDUEZ1R2JqNlRyTzNaVVlGa3dVLVpqckRR0gFyQVVfeXFMTmM3dU1xbkp2R2F0ay04WHVtUG1DdUV6Y0xvZUNoWlh5SjNxbzJKQS1TMm1ad1VlbTc5bXlTU2dpT2ZVRjl0bGl3RkJxMzZ0RUdSdUozNElxa3FDR2dCbW5kbmhzZGI5a2lXdGtXRUxEbUVR?oc=5",
-      "source": "법률신문",
-      "date": "Tue, 28 Apr 2026 22:35:47 GMT"
-    },
-    {
-      "title": "한글 표현에 고양이 구분까지…'어색함' 사라진 이미지 생성 AI",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE15Rkw2R3lXbGRJbWF4cWFxbjMtZWJBeDFTREozQ2pZWUNRcjJvV1ZpMmowVmxFYmtNN09lU1UxUmlhYzlOMWVOM0JZTUVxYTlzLWk4cXRSbHBhVVVVSzVr?oc=5",
-      "source": "뉴스1",
-      "date": "Tue, 28 Apr 2026 20:50:00 GMT"
     }
   ]
 }
