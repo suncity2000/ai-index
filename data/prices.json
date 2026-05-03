@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T05:16:37.200Z",
+  "last_updated": "2026-05-03T05:36:09.941Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -319,7 +319,7 @@
       "name": "Google: Gemini 2.0 Flash",
       "price_1m_input": 0.1,
       "price_1m_output": 0.4,
-      "context_length": 1000000,
+      "context_length": 1048576,
       "top_provider": true
     },
     {
