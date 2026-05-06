@@ -1,6 +1,48 @@
 {
-  "last_updated": "2026-05-05T10:44:19.279Z",
+  "last_updated": "2026-05-06T11:04:51.150Z",
   "news": [
+    {
+      "title": "\"AI시테루\"… 일본인 17% 인공지능에 반했다",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5POEthQkkwRXl5b08tSHc1WVE0Rk9XOGg1V2RNME5idGNuS0hoTk9VVnRKaWY2ZENleV9uNmtzcmNlVVFSLTNaaHp0OHpwUEhEanRYOEFXTXJ4TjdCVkRlM1N6aGJCaWpGU2RRLUo3Sko?oc=5",
+      "source": "아시아경제",
+      "date": "Wed, 06 May 2026 06:32:23 GMT"
+    },
+    {
+      "title": "충주시, 전직원 대상 생성형 AI 서비스 도입",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SMlJtaWJXT1B1Z3ZKOERqeTliMVB5bVFMQ1hWdlRjQVo4anhQb0FEUFpzN0k1Xzl6V2ZkWTRmUnY4Q0pWb0NXUnZwSWZLem80azZaajJuRV9XbVY5UXNoOdIBYEFVX3lxTE5SMlJtaWJXT1B1Z3ZKOERqeTliMVB5bVFMQ1hWdlRjQVo4anhQb0FEUFpzN0k1Xzl6V2ZkWTRmUnY4Q0pWb0NXUnZwSWZLem80azZaajJuRV9XbVY5UXNoOQ?oc=5",
+      "source": "연합뉴스",
+      "date": "Wed, 06 May 2026 06:17:03 GMT"
+    },
+    {
+      "title": "생성형 AI, 너의 이름은",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1BNWs2eEczRVBTTWpRN1JydnRnMGh4RlpCRkJuWVlWZW4zWVVzbnNxRG1BMGJaUFltY1Z5d3plaUtkX0s3WU9vSzdrY0FwQQ?oc=5",
+      "source": "전자신문",
+      "date": "Wed, 06 May 2026 02:00:00 GMT"
+    },
+    {
+      "title": "코딩 대신 말 한마디로 구동…스스로 행동하는 AI 개발",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9pYmU0ZWdBeGJvU0p1YnBxdVVfZEVJZnNMT05pMVlXMjJ4d0JkaWJFbWN1T3pJQkhYS1R4MElqMHRtN2NWcEFra2kwSkNZM1VZSHdtLQ?oc=5",
+      "source": "동아사이언스",
+      "date": "Wed, 06 May 2026 01:57:00 GMT"
+    },
+    {
+      "title": "“삽 대신 AI”…동부건설 전 직원 ‘생성형 AI’ 쓴다",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5HSU9xWUItTzl4Zy1td29jN0c1RnkyeWlpQ01qaGRRdFZ5Rk9WZ2puZkdPMUVXSEhrTmMydVJBSkhKZ1M1YXZmcWVjaEFFUTg?oc=5",
+      "source": "v.daum.net",
+      "date": "Wed, 06 May 2026 01:25:00 GMT"
+    },
+    {
+      "title": "에이전트 AI vs 생성형 AI: 자율성, 워크플로 및 사용 사례 비교",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ldDhrOTV0QkpVcFF2MXZRb2pzeTVOTDF5aldTRlQyTjFxNjhxZzEtN2Q1NzNwTG5HbjRXVE9uendaYWpoalJiMXRSU2VRNjVvVlAxVG9uYWtfODZzTnNKdVN4dnEzQW5SSFk1WHpINA?oc=5",
+      "source": "Databricks",
+      "date": "Wed, 06 May 2026 00:45:45 GMT"
+    },
+    {
+      "title": "인공지능(AI)의 선택을 받은 토마토",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aZks0RnlybDVVZ2lhaG5WV3h0UmJzY3RlN0ZHU2t2VGhZNUt2eEFicEFsZ0trd3cxLW9KRXlIY0tya1IyVjRjV3RBbkFjUVgwX0FVYlkwZTVQOW9qME9hbEc0RUJCZTDSAWdBVV95cUxPWmZLNEZ5cmw1VWdpYWhuVld4dFJic2N0ZTdGR1NrdlRoWTVLdnhBYnBBbGdLa3d3MS1vSkV5SGNLcmtSMlY0Y1d0QW5BY1FYMF9BVWJZMGU1UDlvajBPYWxHNEVCQmUw?oc=5",
+      "source": "abcn.kr",
+      "date": "Tue, 05 May 2026 21:40:28 GMT"
+    },
     {
       "title": "AI가 이제는 그만 자라고 말하고 있었다",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9mTVFaYno0amVrWXpQZ3hWTzE3LVVWWFRxa29NZEN1NkpCZnJNa2ZyVERzOTd5QUJDVHNqLXZlMWZzTlh2UGJwSUpmMmR6aWZhOWZUdlM0aFJPZHN5TzhmeTJJUGx4RzFwaTgzNW5ZdmJwUFk0X2d3?oc=5",
@@ -14,20 +56,8 @@
       "date": "Tue, 05 May 2026 00:00:00 GMT"
     },
     {
-      "title": "전 세계 AI 에이전트 2,800만 개 시대…기업 경쟁력은 ‘인프라’에 달렸다",
-      "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPSTBFZlQwV2N5Ylc1YmJkZktzcGZrbTUxaEZLd2k1U2R5REVwUzBmN0lKWlZKMGpNM3BONWtzZXBUTWFlajVrWmNIYTNkMkVyUlFhWktiMjVrczlaQThKUnZySlVSOW1pNE1lNXV5R1BiN3hLeWdDMkNVVm1tU3owa2dqcTNEblFFLW1SenBFV3M0LXhBVG9qWDNaVG5ReGdNcWNiMXVfT1hpa0Y2QWt0eGttVVcwY0tlV1FaQWVEQmpEYWd4UmhtQ3ZrN1J0SVNqVFNRak90ZnptX0xsQmctSTRYOTFsNllCV3lZbTJWNkRvcnRfT1VTRW1IZkVZQV9KR1ExN2lRWVEwaEJZeHBobVFnQ1ZFNTIyTHlEUjl3bkNOdGpYQV9Kb293OE1aNUJ1SFl6cVRuWWZXbVVKckFXX2tqNWFSUkpQa0NZ?oc=5",
-      "source": "cio.com",
-      "date": "Mon, 04 May 2026 09:17:36 GMT"
-    },
-    {
-      "title": "월간 설치 첫 50만 달성한 클로드, 생성형 AI 앱 시장 강자 1~5위는? 🤖",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBMdVQ5enpNY0FvSGNaa0RFSWktRFRIbU9YRW81QmJEeHBoYW80aEZuWlFQdzR0SkNLUTZIclNYdktsdVRxR3N5a2twR1pJZ3AxNkdv?oc=5",
-      "source": "뉴닉",
-      "date": "Mon, 04 May 2026 08:20:00 GMT"
-    },
-    {
       "title": "[신간] 인공지능이 바꿀 일의 방식…'AI 이후 일의 미래'",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBRS045ejZKZXhDRU9QOFNfQXVTOWRpbFN4bGd5WjdENWVaTGRTcFpXU0NLUzJkZWVKWUIxOUMwMjFhaTFESm51OTJtek1vdkZheTV6NkpaU0x1RFU1WW5EWdIBYEFVX3lxTFBRS045ejZKZXhDRU9QOFNfQXVTOWRpbFN4bGd5WjdENWVaTGRTcFpXU0NLUzJkZWVKWUIxOUMwMjFhaTFESm51OTJtek1vdkZheTV6NkpaU0x1RFU1WW5EWQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZcUJPOFE1c2F4Z0VhNENqMDRxVjFqZjlOUWE3NTdNSUFibG9VUzZ3bEtFeXNjVjNGX3ZNc05aaUJRdUJSVFJWZDVmX1RZcldRWTEyX2hzZDAwMk3SAWBBVV95cUxQUUtOOXo2SmV4Q0VPUDhTX0F1UzlkaWxTeGxneVo3RDVlWkxkU3BaV1NDS1MyZGVlSllCMTlDMDIxYWkxREpudTkybXpNb3ZGYXk1ejZKWlNMdURVNVluRFk?oc=5",
       "source": "연합뉴스",
       "date": "Mon, 04 May 2026 06:35:25 GMT"
     },
@@ -38,40 +68,10 @@
       "date": "Mon, 04 May 2026 06:33:17 GMT"
     },
     {
-      "title": "ChatGPT, 누가 만들었는지는 알고 쓰세요?",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5MNzAzYnFEOXRjSmhJT1pqVEd0czl3cDQzRXZRZnJmNWEzcjZpUmNHS1VDRV95OFJ1YS11V3NfV2UweXV4V1Nrbk1PVQ?oc=5",
-      "source": "브런치",
-      "date": "Mon, 04 May 2026 01:42:31 GMT"
-    },
-    {
-      "title": "오픈AI, 사전 통보 없이 챗GPT를 광고 플랫폼으로 전환",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSl8ydDdJTnFmVXU2MjJMQXhncHE4c0xmLVY4SmpqOVFDdjQyWGlzVzhKcXJYMGg2Rl9oNVZtLUFrUUJoaUwxY2tTZm94UHBvajZHMmtuX1ZXNExuQXo3VlI1VFkwSjZvZ0pYNWlLU1BfTXJadS00a1RrLXY0cl8tVW9vR0dzbG1BRzkzNkFsTWFpdVRhYjRBUjd6Nm44a3ZqZjRUUjR2QWU?oc=5",
-      "source": "Foro3D",
-      "date": "Sun, 03 May 2026 22:55:12 GMT"
-    },
-    {
-      "title": "시흥, 경기도와 ‘피지컬 인공지능(AI) 확산센터’ 구축 협약",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9lN09RLVJaV2dSSnk5R1VhaUQ2ZlljbVJlRXhMYkRMOGtLbXVNMzZ0dkh2Y0xMc1dKdTJocER6eE5lenp0dWU4TmRVNVdVaEt3MUpyb0p4Q0dDYTk4ZlF4NlJhSU9OTVBrdVd4Tlh3c9IBb0FVX3lxTE9lN09RLVJaV2dSSnk5R1VhaUQ2ZlljbVJlRXhMYkRMOGtLbXVNMzZ0dkh2Y0xMc1dKdTJocER6eE5lenp0dWU4TmRVNVdVaEt3MUpyb0p4Q0dDYTk4ZlF4NlJhSU9OTVBrdVd4Tlh3cw?oc=5",
-      "source": "서울일보",
-      "date": "Sun, 03 May 2026 07:19:59 GMT"
-    },
-    {
-      "title": "인공지능: 스포티파이에 ‘AI 음악 걸러내기’ 버튼이 없는 이유는?",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8wOVAzN2JoMl9SaFZCeFVNVExuNFF0Qzh3X0Z5SEE0akcyTkEyNllvMm5tSl9PZmt1WllPcjlQVWZFdjMwTWpKTl9GakVJSXgyenlKNG5DYkV5TDIz0gFiQVVfeXFMTkhLQ3pXX2RYZ2FOMWxMOEVKMHIyeWJOYU1FLW8wblZVUVdPMWJOYzFiS2F2blJDbGxYRFBLdFZvY3FQeWNCdzFuUVBjdDUxaWlFOTZsTjVKckhmTTRwVFpXa0E?oc=5",
-      "source": "BBC",
-      "date": "Sat, 02 May 2026 02:30:57 GMT"
-    },
-    {
-      "title": "사람 중심 AI 기금: 비영리 단체에 5,000만 달러 지원",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE92bmlJY0U4dW9Qb3RJaEJINFRmenRIbWZEYmlpbmdvU29FRkRjOXJfZ1dqdHBTSWpqMDY4VktWbk1fcmZXNF9vdWZHRW1TZ080b1N2NDZKOU9rVC1GNzAwSTBR?oc=5",
-      "source": "OpenAI",
-      "date": "Fri, 01 May 2026 15:23:22 GMT"
-    },
-    {
-      "title": "놓치면 나만 손해인 ChatGPT 이미지 2.0 업데이트 소식! (aka",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBtTkpfc2tvUHhFcE15X3V5RHB2TnIxZkhyV2lzMmhCTkc1SFVvczRwLWlkbmtGRFFjcXI3WGxMS2hLZU9ya2lCWWxFeWlHUQ?oc=5",
-      "source": "뉴닉",
-      "date": "Thu, 30 Apr 2026 07:56:27 GMT"
+      "title": "이젠 인공지능(AI) 로봇이 조리를 ... 제주도, 실증 사업 추진",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtVXhLejdaRGg0WUtfVEp5ZXlYWVlyZ3VNbmZFYnl4bmNFdjJqOVNiX2E1UmVtQmdLNHJ1MFRJV1c4Ukp6OEJJRnd4RTBuSUZkc1QwdzFjeUI3Q0RzV29iM0hWLXh4SkpvQ3JGQ9IBcEFVX3lxTE9CNWRPeVlwVnJGTmZZY09iaVZrUWMzTTdDZnd3UXN0M2ZiWUV5MjBsa2NXLTFVcXl0N1A1eTA2Q0JfX3AyRHdvckV0djlSakVOU2Q3N01SYXJLNlU0ZDJKMmt1MXNCZU95ZGQ3ZnFJWWM?oc=5",
+      "source": "미디어제주",
+      "date": "Mon, 04 May 2026 01:56:32 GMT"
     }
   ]
 }
