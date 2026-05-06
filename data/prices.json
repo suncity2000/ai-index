@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-05T05:20:42.756Z",
+  "last_updated": "2026-05-06T05:34:57.866Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -528,6 +528,14 @@
       "price_1m_input": 0.07,
       "price_1m_output": 0.14,
       "context_length": 16384,
+      "top_provider": true
+    },
+    {
+      "id": "microsoft/phi-4-mini-instruct",
+      "name": "Microsoft: Phi 4 Mini Instruct",
+      "price_1m_input": 0.08,
+      "price_1m_output": 0.35,
+      "context_length": 128000,
       "top_provider": true
     },
     {
@@ -1096,6 +1104,14 @@
       "price_1m_input": 3,
       "price_1m_output": 4,
       "context_length": 16385,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-chat-latest",
+      "name": "OpenAI: GPT Chat Latest",
+      "price_1m_input": 5,
+      "price_1m_output": 30,
+      "context_length": 400000,
       "top_provider": true
     },
     {
