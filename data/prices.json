@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-06T05:34:57.866Z",
+  "last_updated": "2026-05-07T05:37:28.429Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -195,6 +195,14 @@
       "top_provider": true
     },
     {
+      "id": "deepseek/deepseek-v3.2-speciale",
+      "name": "DeepSeek: DeepSeek V3.2 Speciale",
+      "price_1m_input": 0.29,
+      "price_1m_output": 0.43,
+      "context_length": 163840,
+      "top_provider": true
+    },
+    {
       "id": "deepseek/deepseek-r1-distill-qwen-32b",
       "name": "DeepSeek: R1 Distill Qwen 32B",
       "price_1m_input": 0.29,
@@ -207,14 +215,6 @@
       "name": "DeepSeek: DeepSeek V3",
       "price_1m_input": 0.32,
       "price_1m_output": 0.89,
-      "context_length": 163840,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-v3.2-speciale",
-      "name": "DeepSeek: DeepSeek V3.2 Speciale",
-      "price_1m_input": 0.4,
-      "price_1m_output": 1.2,
       "context_length": 163840,
       "top_provider": true
     },
@@ -319,7 +319,7 @@
       "name": "Google: Gemini 2.0 Flash",
       "price_1m_input": 0.1,
       "price_1m_output": 0.4,
-      "context_length": 1048576,
+      "context_length": 1000000,
       "top_provider": true
     },
     {
@@ -445,7 +445,7 @@
     {
       "id": "meta-llama/llama-3-8b-instruct",
       "name": "Meta: Llama 3 8B Instruct",
-      "price_1m_input": 0.03,
+      "price_1m_input": 0.04,
       "price_1m_output": 0.04,
       "context_length": 8192,
       "top_provider": true
@@ -1381,7 +1381,7 @@
     {
       "id": "qwen/qwen3-coder-next",
       "name": "Qwen: Qwen3 Coder Next",
-      "price_1m_input": 0.12,
+      "price_1m_input": 0.11,
       "price_1m_output": 0.8,
       "context_length": 262144,
       "top_provider": true
