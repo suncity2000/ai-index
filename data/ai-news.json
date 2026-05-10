@@ -1,11 +1,17 @@
 {
-  "last_updated": "2026-05-09T10:03:56.499Z",
+  "last_updated": "2026-05-10T10:12:27.222Z",
   "news": [
     {
-      "title": "5극3특 디지털·인공지능(AI) 소비생활 첫 진단, 권역별 특성 차이 확인",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNRHdXYzFYN3FvQ0VEbmpJWHZnaFQ2Umx3LTZnSzFIV3RhMlF5WVROdDhGS1ZIeW5DWUlQUWhFTDkwWnl3LWdmZHh4cGRXVFpEOUluRHZrSDd1Y1dGVFUtTVlSU256N1RNSWc?oc=5",
-      "source": "intn.co.kr",
-      "date": "Fri, 08 May 2026 05:16:00 GMT"
+      "title": "공공 AI 계약규모 10년새 11배…생성형AI 전환은 숙제",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUQng3RFAxVDljWUV3cmM5eHRnLWxOemRpYUxxMm1WRldRWmJGSEF0R25ER2JhVXpHbFhTdjhwUVRtNk9OdC0wUmN1T292c00?oc=5",
+      "source": "v.daum.net",
+      "date": "Sun, 10 May 2026 01:01:37 GMT"
+    },
+    {
+      "title": "롯데이노베이트, 피지컬 AI 인재 양성 위한 '생성AI 선도 인재 양성' 주관기관 선정",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51Q2JYTHZRUkZLaF9mRVRIZHgxVHFGTTlSY3pLbFV3NUFRaEpiREotS245Y0NuMTdtTmFYQ2ZiVW1iTGxvMnN5QVNlbnEzeklid0ZUOWZwMEdab0lYVUxHaGV4ZUEzRjg?oc=5",
+      "source": "인공지능신문",
+      "date": "Sat, 09 May 2026 11:08:27 GMT"
     },
     {
       "title": "[전사라의 IP 임팩트] 인공지능(AI) 도입, 문제는 ‘IP 워크플로우’ 개선이다!",
@@ -14,10 +20,10 @@
       "date": "Thu, 07 May 2026 20:31:02 GMT"
     },
     {
-      "title": "“AI 시대의 주인은 체인저”…한국인공지능협회, 창립 10주년 비전 선언",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzQU9Ua2JVcGktNGdfZUJkR1dTTzZJaFZud3N3Z1RoNGdlaEJxUkZfRnBENXc0MFFNRVhGc0haMkZ0QTdFNGlzUTFTUjllS0ozdk15WFJfVmp3VUEzOUplaV9vZHVWVFE?oc=5",
-      "source": "인공지능신문",
-      "date": "Thu, 07 May 2026 12:42:16 GMT"
+      "title": "성남시, 전국 최초 전통시장 인공지능(AI) 짐꾼 로봇 실증 추진",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBIZXhtOE1aUUJzQlRQX1cyeFpabGZNQWlUMzZ2bTdweWtvamVUMEFNdWtpallYNVBGcnhmbGxmeU1WUWt6STVXTjAzQnZXaWtKUlBLblpsRXg4Q1ZtZ0E?oc=5",
+      "source": "한국방송뉴스",
+      "date": "Thu, 07 May 2026 15:16:05 GMT"
     },
     {
       "title": "숙명여대, 생성형 AI 플랫폼 ‘스노우챗’ 오픈",
@@ -26,16 +32,10 @@
       "date": "Thu, 07 May 2026 10:30:00 GMT"
     },
     {
-      "title": "[기획] AI시대…달라지는 가스안전관리 - 가스안전분야 생성형 AI부터 사고예측·자동검사까지…가스안전 ‘지능화 혁신’",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsNGszdkhCVUs4WnVEc0I2OGg4UG5QenB5cHlOcm5HOVZDQnNkOHdQTWhiUWZiMkZEdmJmb1pNOEQ2dWg4aFlrMWRsQmRWT3FYOWRQRXVwN2NyRnk0NWc5UkVfYU11aVNKZnFXRF93?oc=5",
+      "title": "[기획] AI시대…달라지는 가스안전관리 - 가스안전분야생성형 AI부터 사고예측·자동검사까지…가스안전 ‘지능화 혁신’",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4ybFRtX2dGMUhSZEZFN0s0T0Y0V0l2WVh5T3FDb2dRYkNRdlppdEdsTU4wMGFsdjl3MnBTdWFRdVlYTzNQenpuaHY3YXdFNXlUcll2Vi1SUGZDaUVUcUVab2N2Y1dHcnRFdEE?oc=5",
       "source": "가스신문",
-      "date": "Thu, 07 May 2026 08:02:01 GMT"
-    },
-    {
-      "title": "공공 정책 결정도 AI로…전자통신연, 정책지능 국제표준 확정",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOUQtdVNEUzdfT3EycUJEUEVJM28wLWlQLWN5ZkU5Rm5DVWFPNlZFVkx3X0NfRlNDVV9QVFdEaGJZYVFKYkF0WklxejNWWVB6d211UW5ncmxsTmFGcExDTF9KeEl6MDg5TTNqdWZnUkJtTTZoY0tpem5ETFRrM3Zva1dJRTM4Sm9NUkZkaG9oSQ?oc=5",
-      "source": "사이언스타임즈",
-      "date": "Wed, 06 May 2026 22:00:53 GMT"
+      "date": "Thu, 07 May 2026 06:45:00 GMT"
     },
     {
       "title": "B2B Signals",
@@ -68,10 +68,10 @@
       "date": "Wed, 06 May 2026 04:26:02 GMT"
     },
     {
-      "title": "생성형 AI, 너의 이름은",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1BNWs2eEczRVBTTWpRN1JydnRnMGh4RlpCRkJuWVlWZW4zWVVzbnNxRG1BMGJaUFltY1Z5d3plaUtkX0s3WU9vSzdrY0FwQQ?oc=5",
-      "source": "전자신문",
-      "date": "Wed, 06 May 2026 02:00:00 GMT"
+      "title": "코딩 대신 말 한마디로 구동…스스로 행동하는 AI 개발",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9pYmU0ZWdBeGJvU0p1YnBxdVVfZEVJZnNMT05pMVlXMjJ4d0JkaWJFbWN1T3pJQkhYS1R4MElqMHRtN2NWcEFra2kwSkNZM1VZSHdtLQ?oc=5",
+      "source": "동아사이언스",
+      "date": "Wed, 06 May 2026 01:57:00 GMT"
     }
   ]
 }
