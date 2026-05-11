@@ -1,17 +1,47 @@
 {
-  "last_updated": "2026-05-10T10:12:27.222Z",
+  "last_updated": "2026-05-11T12:09:26.276Z",
   "news": [
     {
-      "title": "공공 AI 계약규모 10년새 11배…생성형AI 전환은 숙제",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUQng3RFAxVDljWUV3cmM5eHRnLWxOemRpYUxxMm1WRldRWmJGSEF0R25ER2JhVXpHbFhTdjhwUVRtNk9OdC0wUmN1T292c00?oc=5",
-      "source": "v.daum.net",
-      "date": "Sun, 10 May 2026 01:01:37 GMT"
+      "title": "‘인공지능 대전환’ 시대 맞아 충청남도 AI디지털배움터 사업 확대 운영",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QWU9yMHBCQ2hCYXlaZk1EMi1HVTctOEd2aThZX0VvS0IyQWs5TVBoYmFZUlU0bUVKdEpYSENVU3RVNVUwdmFWUTBuSWYtLU5FRXFGb0U1dmF3OFBBQnJyZWJHZkQ?oc=5",
+      "source": "매일일보",
+      "date": "Mon, 11 May 2026 04:50:22 GMT"
     },
     {
-      "title": "롯데이노베이트, 피지컬 AI 인재 양성 위한 '생성AI 선도 인재 양성' 주관기관 선정",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51Q2JYTHZRUkZLaF9mRVRIZHgxVHFGTTlSY3pLbFV3NUFRaEpiREotS245Y0NuMTdtTmFYQ2ZiVW1iTGxvMnN5QVNlbnEzeklid0ZUOWZwMEdab0lYVUxHaGV4ZUEzRjg?oc=5",
+      "title": "[5.12.화.조간]질병관리청, 지자체와 함께 인공지능(AI) 기반 실시간 매개체 감시 개시",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTTJnalhOTTJsNGZRMDNuU2d5NTkzakVqTHNJZ2ZMd3Q5bTE2dnBfaFNLenlHVTM5YzlfZGRDZEMwYjdJY0paeVNJeUdmMnRvM2JscmFkd3Zoc005SG5FdTZxUFRERHdtbzRFN2VLX1hYU0FidGlQMzBTbVBrdWs1QWZSV2FwS3ozTzl4bHRwUFpadw?oc=5",
+      "source": "대한민국 정책브리핑",
+      "date": "Mon, 11 May 2026 03:00:00 GMT"
+    },
+    {
+      "title": "서울시, 생성형 AI 행정 챗봇 2.0 가동…업무·시민상담 지원",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8zdkYtQ0hVZ0QwUWZXc0RNeHgxRmZWTnZnLVg1QjZnaGtHelF5R3lhMnc2ZlViOURoQ1ZUSGk2Wno3S1hqNEdZQVVVdk1BSzJXaU5pb0NkVkN3emPSAWBBVV95cUxOMDBIZUhXeHo3WEZJVDljWTZZdUZLR0hra1ZJNmtVUmtGOUZTRl9yTUpBYzg2Q0gtZUtwWHBkUW1kLWVTOEhKQnBjUzVYSFp3WnNZNnRkQ21SR3k5WC1MSHI?oc=5",
+      "source": "연합뉴스",
+      "date": "Mon, 11 May 2026 02:15:01 GMT"
+    },
+    {
+      "title": "서울시, 생성형 AI 기반 ‘챗봇 2.0’ 본격 운영",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE82ai0zRzNoNU55WWtBT2tLMUpWUHNxQ2QyX3VYV1BRd3F4SXQybkRVSDV2bHh0bHNmc0t5ZjJMRWhRVEhvWmFjT1hnVXB5X0wt?oc=5",
+      "source": "문화일보",
+      "date": "Mon, 11 May 2026 02:15:00 GMT"
+    },
+    {
+      "title": "인공지능(AI) 기술패권 시대 ‘데이터 관리체계’ 구축",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5kOW95LVVIbTdvWERPa3hIb1FiSGE4N25tSnJhX2otSVl0ZF9CQ09CVllacHY5a1RpZVNvVVBRRDNGejRTSmJybDVNdDlJN1FhN2ppcGhja0dNN1lielgzQlY2UUpzX1NoakgzOUhUZWxhYmvSAXdBVV95cUxNMU1yTXluUDRZd0V2bzJrY1VkeTY0WTdocnNpelJxTW1xUk9lM3dRZkVwczZqMHNHQU53WXBCVm40VTNkMzNaYmpwTVhlaVNXemo1bm5yRnN2SWRDVDdDRVhJR0dIZERiTEo4WlhTOHU5cjJRelA2MA?oc=5",
+      "source": "핀포인트뉴스",
+      "date": "Sun, 10 May 2026 23:41:31 GMT"
+    },
+    {
+      "title": "인공지능 \"이제 걷고, 움직이고, 행동한다\"…AI 혁신의 정점 찍어, 제9회 국제인공지능산업대전(AI EXPO KOREA 2026) 성료",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1QRUhMeVdEZUNSVzhSLUFLeUkxR1F6NWJXV0w3U0VHVFNmMGVNY3RmZ21nV1dPX3h1bG8zQ0NHeXhId2JBdzl6ZzBOX0FMVm5Dc0xoQVZhZVEzTjQwOFlDYTNmcngxUUk?oc=5",
       "source": "인공지능신문",
-      "date": "Sat, 09 May 2026 11:08:27 GMT"
+      "date": "Sun, 10 May 2026 15:02:11 GMT"
+    },
+    {
+      "title": "5극3특 디지털·인공지능(AI) 소비생활 첫 진단, 권역별 특성 차이 확인",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNRHdXYzFYN3FvQ0VEbmpJWHZnaFQ2Umx3LTZnSzFIV3RhMlF5WVROdDhGS1ZIeW5DWUlQUWhFTDkwWnl3LWdmZHh4cGRXVFpEOUluRHZrSDd1Y1dGVFUtTVlSU256N1RNSWc?oc=5",
+      "source": "intn.co.kr",
+      "date": "Fri, 08 May 2026 05:16:00 GMT"
     },
     {
       "title": "[전사라의 IP 임팩트] 인공지능(AI) 도입, 문제는 ‘IP 워크플로우’ 개선이다!",
@@ -20,58 +50,28 @@
       "date": "Thu, 07 May 2026 20:31:02 GMT"
     },
     {
-      "title": "성남시, 전국 최초 전통시장 인공지능(AI) 짐꾼 로봇 실증 추진",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBIZXhtOE1aUUJzQlRQX1cyeFpabGZNQWlUMzZ2bTdweWtvamVUMEFNdWtpallYNVBGcnhmbGxmeU1WUWt6STVXTjAzQnZXaWtKUlBLblpsRXg4Q1ZtZ0E?oc=5",
-      "source": "한국방송뉴스",
-      "date": "Thu, 07 May 2026 15:16:05 GMT"
+      "title": "NIA, AI윤리 기반 공공 인공지능 전환(AX) 선도",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE10SGtGN3Jpd0VxSjVkS2MzcHM5ZTh0akFBdjNNRTk4bnliM0ViX1NuVjRlZDNkVEx4MWljNmZhcWN1RWFnTGFDRGlkNkxyRGM?oc=5",
+      "source": "v.daum.net",
+      "date": "Thu, 07 May 2026 09:52:17 GMT"
     },
     {
-      "title": "숙명여대, 생성형 AI 플랫폼 ‘스노우챗’ 오픈",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95UFlkUmtMdlhld3YzeE5DZWEteldtX2xSWmVuUzBLQ3ZBRlBVYWlrRzlZVkFsX2NHVjJFZ0tKVWJLbk02YlE1M3dmb2tCV1VCRkRJNVhR?oc=5",
-      "source": "중앙일보",
-      "date": "Thu, 07 May 2026 10:30:00 GMT"
+      "title": "[인터뷰] 박경서 인피닉 인공지능사업본부장 “AI 영상분석의 ‘정확도’는 ‘현장 데이터’에 있다”",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9iLWFYMlE5V2V1N3dvRmw0R1hPRmRSVzc4djBLSkJZMmg5LTNpTFR1TzdRVEVTZTB5bUFrYnZ1MnBSMU0xT1ladTlhLWxJd3VvQ216b2EyZjBsMmRRSkNFYlA1bUxMQTF0ZWswS3p3?oc=5",
+      "source": "보안뉴스",
+      "date": "Thu, 07 May 2026 06:29:00 GMT"
     },
     {
-      "title": "[기획] AI시대…달라지는 가스안전관리 - 가스안전분야생성형 AI부터 사고예측·자동검사까지…가스안전 ‘지능화 혁신’",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4ybFRtX2dGMUhSZEZFN0s0T0Y0V0l2WVh5T3FDb2dRYkNRdlppdEdsTU4wMGFsdjl3MnBTdWFRdVlYTzNQenpuaHY3YXdFNXlUcll2Vi1SUGZDaUVUcUVab2N2Y1dHcnRFdEE?oc=5",
-      "source": "가스신문",
-      "date": "Thu, 07 May 2026 06:45:00 GMT"
-    },
-    {
-      "title": "B2B Signals",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1SSHFpQ3diTHBkTzB5VmxEN1g3cmNKS2MyWTJfeDFhRFB6M21VZzhCSkNnVVZyV0FsTTloMlB0V3h3TmNVNWJWU0RtVWc3dw?oc=5",
-      "source": "OpenAI",
-      "date": "Wed, 06 May 2026 17:58:07 GMT"
+      "title": "[OpenAI가 ChatGPT의 새로운 기본 모델인 GPT-5.5 인스턴트를 출시] GPT-5.5 Instant는 과거 대화·파일·Gmail을 검색해 개인화된 답변을 제공한다. Plus·Pro 웹 사용자에게 우선 적용되며, 모바일 확대와 무료·비즈니스·기업 사용자 지원이 몇 주 내",
+      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFAzejY3MzE3Ny1LVVh2d3hRSGt4M2NpSUlvQURtV2dDWE92NjVhQjNfbnBfQ2l5WlFYMVRjZ2I4bWU?oc=5",
+      "source": "AI넷",
+      "date": "Wed, 06 May 2026 15:52:00 GMT"
     },
     {
       "title": "생성형 AI, 교육혁신에서 취업지원·사회문제 해결까지… 대학의 미래를 다시 설계하다",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBrbVlFMUpMbFJYWk52cEFSTF9sNmZHaWdYcEF3MjhqZk0tZUk2akYxZTg0RVYydFFRSG5DLTlRWUJRM3pBOGNocmxKMENpYnZQMVE3SFVaa0NnaXp3TjFvOWVJSTRKUQ?oc=5",
       "source": "한국대학신문",
       "date": "Wed, 06 May 2026 12:55:06 GMT"
-    },
-    {
-      "title": "일반인도 AI 전문 인재로…정부 인공지능 인재 육성책 지역에도 확산",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE44d1ZkZ1ctdmxtUXVNcDhnbVFzMXZZN2RFREpKRjBoYVZoSEZWWktQOXlGZG84RjZ3ZVl0a204c1Rtc24xRW9tdWQxRTlnY2c?oc=5",
-      "source": "v.daum.net",
-      "date": "Wed, 06 May 2026 08:43:17 GMT"
-    },
-    {
-      "title": "\"AI시테루\"… 일본인 17% 인공지능에 반했다",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5POEthQkkwRXl5b08tSHc1WVE0Rk9XOGg1V2RNME5idGNuS0hoTk9VVnRKaWY2ZENleV9uNmtzcmNlVVFSLTNaaHp0OHpwUEhEanRYOEFXTXJ4TjdCVkRlM1N6aGJCaWpGU2RRLUo3Sko?oc=5",
-      "source": "아시아경제",
-      "date": "Wed, 06 May 2026 06:32:23 GMT"
-    },
-    {
-      "title": "가천대·고려대 등 SW중심대학 7개교, ‘AI중심대학’으로 전환 240억 지원",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0yRXowbHNISFU3ajczU1R6WlU1ZXFLNG5Xd3AzZzFXTnhMUVFDOGFWS1VfN01Sb3J5WXZqWWVRSmU4cFJnWVl3ZUo0Q2szaFFtbzZyY3BXYXNDcDVreUZoaWpTZGFEdw?oc=5",
-      "source": "한국대학신문",
-      "date": "Wed, 06 May 2026 04:26:02 GMT"
-    },
-    {
-      "title": "코딩 대신 말 한마디로 구동…스스로 행동하는 AI 개발",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9pYmU0ZWdBeGJvU0p1YnBxdVVfZEVJZnNMT05pMVlXMjJ4d0JkaWJFbWN1T3pJQkhYS1R4MElqMHRtN2NWcEFra2kwSkNZM1VZSHdtLQ?oc=5",
-      "source": "동아사이언스",
-      "date": "Wed, 06 May 2026 01:57:00 GMT"
     }
   ]
 }
