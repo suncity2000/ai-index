@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-11T06:04:50.865Z",
+  "last_updated": "2026-05-12T05:43:46.632Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -139,18 +139,18 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-chat-v3.1",
-      "name": "DeepSeek: DeepSeek V3.1",
-      "price_1m_input": 0.15,
-      "price_1m_output": 0.75,
-      "context_length": 32768,
-      "top_provider": true
-    },
-    {
       "id": "deepseek/deepseek-chat-v3-0324",
       "name": "DeepSeek: DeepSeek V3 0324",
       "price_1m_input": 0.2,
       "price_1m_output": 0.77,
+      "context_length": 163840,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-chat-v3.1",
+      "name": "DeepSeek: DeepSeek V3.1",
+      "price_1m_input": 0.21,
+      "price_1m_output": 0.79,
       "context_length": 163840,
       "top_provider": true
     },
@@ -303,14 +303,14 @@
       "name": "Google: Gemini 2.0 Flash",
       "price_1m_input": 0.1,
       "price_1m_output": 0.4,
-      "context_length": 1000000,
+      "context_length": 1048576,
       "top_provider": true
     },
     {
       "id": "google/gemma-4-31b-it",
       "name": "Google: Gemma 4 31B",
-      "price_1m_input": 0.13,
-      "price_1m_output": 0.38,
+      "price_1m_input": 0.12,
+      "price_1m_output": 0.37,
       "context_length": 262144,
       "top_provider": true
     },
@@ -1211,16 +1211,16 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4-0314",
-      "name": "OpenAI: GPT-4 (older v0314)",
+      "id": "openai/gpt-4",
+      "name": "OpenAI: GPT-4",
       "price_1m_input": 30,
       "price_1m_output": 60,
       "context_length": 8191,
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4",
-      "name": "OpenAI: GPT-4",
+      "id": "openai/gpt-4-0314",
+      "name": "OpenAI: GPT-4 (older v0314)",
       "price_1m_input": 30,
       "price_1m_output": 60,
       "context_length": 8191,
