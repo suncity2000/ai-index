@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-12T05:43:46.632Z",
+  "last_updated": "2026-05-13T05:54:20.623Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -88,6 +88,14 @@
       "price_1m_input": 15,
       "price_1m_output": 75,
       "context_length": 200000,
+      "top_provider": true
+    },
+    {
+      "id": "anthropic/claude-opus-4.7-fast",
+      "name": "Anthropic: Claude Opus 4.7 (Fast)",
+      "price_1m_input": 30,
+      "price_1m_output": 150,
+      "context_length": 1000000,
       "top_provider": true
     },
     {
@@ -779,16 +787,16 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4o-mini-2024-07-18",
-      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+      "id": "openai/gpt-4o-mini",
+      "name": "OpenAI: GPT-4o-mini",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
       "context_length": 128000,
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4o-mini",
-      "name": "OpenAI: GPT-4o-mini",
+      "id": "openai/gpt-4o-mini-2024-07-18",
+      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
       "context_length": 128000,
@@ -1235,14 +1243,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen-turbo",
-      "name": "Qwen: Qwen-Turbo",
-      "price_1m_input": 0.03,
-      "price_1m_output": 0.13,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3.5-9b",
       "name": "Qwen: Qwen3.5-9B",
       "price_1m_input": 0.04,
@@ -1400,14 +1400,6 @@
       "price_1m_input": 0.14,
       "price_1m_output": 1,
       "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen-vl-plus",
-      "name": "Qwen: Qwen VL Plus",
-      "price_1m_input": 0.14,
-      "price_1m_output": 0.41,
-      "context_length": 131072,
       "top_provider": true
     },
     {
@@ -1571,14 +1563,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen-vl-max",
-      "name": "Qwen: Qwen VL Max",
-      "price_1m_input": 0.52,
-      "price_1m_output": 2.08,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3-coder-plus",
       "name": "Qwen: Qwen3 Coder Plus",
       "price_1m_input": 0.65,
@@ -1616,14 +1600,6 @@
       "price_1m_input": 1.04,
       "price_1m_output": 6.24,
       "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen-max",
-      "name": "Qwen: Qwen-Max ",
-      "price_1m_input": 1.04,
-      "price_1m_output": 4.16,
-      "context_length": 32768,
       "top_provider": true
     },
     {
