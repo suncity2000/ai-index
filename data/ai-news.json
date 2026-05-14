@@ -1,23 +1,41 @@
 {
-  "last_updated": "2026-05-13T11:29:02.680Z",
+  "last_updated": "2026-05-14T11:11:50.340Z",
   "news": [
+    {
+      "title": "여수, 2027~2029 인공지능(AI) 종합계획 수립 추진",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1WSVFDYWRHdC1US1hmaDZFcGhDLTNBVTkwUV9vUFBwWXFtNzZkTDhyMmdZeFc4VGNaTFpOQlZEbVM1TGQ2TEJpX0Y3TWVGVzNHeW5PdHNkOTF3WU9uSDJ2LTFyalF1VVJWNFlyZHg3NNIBb0FVX3lxTE1WSVFDYWRHdC1US1hmaDZFcGhDLTNBVTkwUV9vUFBwWXFtNzZkTDhyMmdZeFc4VGNaTFpOQlZEbVM1TGQ2TEJpX0Y3TWVGVzNHeW5PdHNkOTF3WU9uSDJ2LTFyalF1VVJWNFlyZHg3NA?oc=5",
+      "source": "서울일보",
+      "date": "Thu, 14 May 2026 01:33:46 GMT"
+    },
+    {
+      "title": "SK AX, '챗GPT 엔터프라이즈' 서비스 파트너 계약",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5QT0s1czFhRVZ4UVYyc0tMT3U4TEhZcEFYM0lDWnFGTXlfcnNsYk9kZXVvd0dCeXlYbkZFdTRkbmZJYlktR2hhRjNlRVhBM2h3Zk5YTzZCVTZWU0RPTWVvTWtTNmR3QQ?oc=5",
+      "source": "디일렉",
+      "date": "Thu, 14 May 2026 00:50:02 GMT"
+    },
+    {
+      "title": "OpenAI가 Codex를 사용하는 방법",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQjVPT3FZRk92Nk9NLWdELXUweER3aXRyc3NKVEVxRUJpX1VQOG82SzhiWFNyX21Ea3RuaHdBbkRkRlBXRHhWbEhQcTl0ZHF3WEh4ODM3cVBPTzVPNXU1dXZkdTB1TFNUQ1NCQkpnQlVYU3N0bFhxZ0d3bFZlclMxSzIyWQ?oc=5",
+      "source": "OpenAI",
+      "date": "Wed, 13 May 2026 15:14:03 GMT"
+    },
+    {
+      "title": "광주시, AI기업 5곳 유치… '인공지능(AI) 산업생태계' 조성",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE94SjB2VUcyR1BRckhvNGZsVDI0bFh3TXI0WUZRdjlsc1dlaFZwV1oyUE1xVHU3cTBfU3FwZE1FMTFoRl9JUW8tT0JQa2s?oc=5",
+      "source": "아이뉴스24",
+      "date": "Wed, 13 May 2026 09:57:07 GMT"
+    },
+    {
+      "title": "의왕도시공사, ‘인공지능(AI) 안전 인증’ 획득",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5OVUpaakk1Skp5LU5qYVlEN3lhWjZpWXdRczU0alZHQnkybGJ4ZjBrTTd5aVFVZWN3YURXNWVSYmlSNHV3Q0VqYjNqRTFQMElJdnJEWUUydFczN0h4ZE9mQjBuQm4?oc=5",
+      "source": "매일일보",
+      "date": "Wed, 13 May 2026 07:47:33 GMT"
+    },
     {
       "title": "“최선의 선택”이라던 챗GPT…19세 사망에 오픈AI 피소",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9fb0tXdFJYNHBOZXRILUZXSjNId1E0Y0RBVjRicmNEVGdBd3AtUjgwZjBJLUp5X283RkxlOHlsYjcybXI1bjZOZVo4LVJ4d0RMTUFTMTBtQmNVZ1pSNmhJNEx1blVrNHZB0gFsQVVfeXFMTUtCVDJXNTk3UW91TWtITkIwbnlQQ2FuRXhWOHBpTFBGX1oydVZuNGZqSnladjZCdzBqQmxWSFkwb3VzLVdlNk81ckZaZVR4VFcyMnF1bWlrclFzUFVQal8xLW9JSWNsM1paVl9Y?oc=5",
       "source": "임팩트온",
       "date": "Wed, 13 May 2026 03:15:54 GMT"
-    },
-    {
-      "title": "cpbc News : 서강대, ‘인공지능(AI) 중심대학’ 선정… 240억 원 지원받는다",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB6V2xyQkM3cS1BZTNYcDcxWG56UTVkY0I1Sk4zUS1LNXJHX3luRlUxcGNuSzNEcUlwcThLUVJHLTdhU3lWRzJBRDFzSDlqOXVE?oc=5",
-      "source": "cpbc News",
-      "date": "Wed, 13 May 2026 02:53:00 GMT"
-    },
-    {
-      "title": "한국농어촌공사, 지역 대학들과 인공지능 AI협력 강화 나서",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBhUkN4enEzMDh0Umo0endHRVkxWTNhR1FpbEVwWnBRV3pVRy1teVNQMGQzRmpRaGt6ODh6dlFpVmhfZ1M2d2ZDZVdnd0pXUUpMOU8zLUR1WEY1ZVZQcFQ5Zw?oc=5",
-      "source": "한국농촌경제신문",
-      "date": "Wed, 13 May 2026 00:15:44 GMT"
     },
     {
       "title": "남대 디자인팩토리-Open AI 'ChatGPT Lab 공동 운영' 눈길",
@@ -34,14 +52,14 @@
     {
       "title": "[교육소식]한남대 디자인팩토리·OpenAI, 챗ChatGPT랩 공동운영 등",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4zQWNWUUdtZDVfM3NOOGM1TFo1a3R6empTSTRfUjQwYUZhMmZwcXl0OXI5a3dPbW5Rb2RCVnZ1RDJHTXpLRWtJcE9mb19UeTFmQXB0a1M0Q1ZsY2twZlY1cDBjSmFfZlduY3pVM1docndzLXlhSDJMadIBeEFVX3lxTE4zQWNWUUdtZDVfM3NOOGM1TFo1a3R6empTSTRfUjQwYUZhMmZwcXl0OXI5a3dPbW5Rb2RCVnZ1RDJHTXpLRWtJcE9mb19UeTFmQXB0a1M0Q1ZsY2twZlY1cDBjSmFfZlduY3pVM1docndzLXlhSDJMaQ?oc=5",
-      "source": "newsis.com",
+      "source": "뉴시스",
       "date": "Tue, 12 May 2026 05:55:34 GMT"
     },
     {
-      "title": "[칼럼] AI 시대의 경고…병원이 놓치기 쉬운 법적 책임",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9CZGgzR21TYTJ1V1NVSkNzTUJ5RmNnWVhhQnFlc29GRGhFWTRkX19VZ1ZqSkFsZGd0d1RxUlVSTWJHQ3Z3RTBISlhzZ0tJUFA5RlFmX2J1MWtBX2U4SnBXU0h1cnA3Sm80Nl91ZlhZSnVSLWvSAXNBVV95cUxPQmRoM0dtU2EydVdTVUpDc01CeUZjZ1lYYUJxZXNvRkRoRVk0ZF9fVWdWakpBbGRndHdUcVJVUk1iR0N2d0UwSEpYc2dLSVBQOUZRZl9idTFrQV9lOEpwV1NIdXJwN0pvNDZfdWZYWUp1Ui1r?oc=5",
-      "source": "청년의사",
-      "date": "Tue, 12 May 2026 05:20:31 GMT"
+      "title": "중소기업 '인공지능(AI) 전환' 이제는 현장에서 배운다!",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObEhZTVBQakszSE5SbmFlQk9VUUdvX05SMFdUQkQxRnZyS1M4SE1RY0VkbW5PYXdvNE84QlBtZ2dpcFNOdmRLcFNPbEZNQjRGYWhmMjdIUHd5aFM4VmJYS3JYdTJBS3BUVjg2Vk9Mb0RBMGU0V2NuaThiamRwLVYybURCcnh6MkdaWFVv?oc=5",
+      "source": "대한민국 정책브리핑",
+      "date": "Tue, 12 May 2026 03:32:00 GMT"
     },
     {
       "title": "사이냅소프트, 과기정통부 ‘생성AI선도인재양성 사업’ 선정… 에이젠틱 AI 기반 고신뢰 기업 공시 데이터 분석 기술 개발",
@@ -50,28 +68,10 @@
       "date": "Tue, 12 May 2026 02:33:57 GMT"
     },
     {
-      "title": "전북대 '거대언어모델 기반 생성형 AI 서비스' 학생들에 인기",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhZ1RldmMyZnZseWNmUEtqRkl6RG1nUV9rOVU2TmdScmR4YXFOZUpKOWRiX1pOMlpvSFNEVkNOVmRMcUdLMTJSSnMtaEEzVERyX1ZFcE1TSnhKcmPSAWBBVV95cUxNUjQ3cXotUFo2N1ZoU2tQaXBuVk93WWdDTlB4TVJmWmdjREk5YmVGb3ZWRXU0bmNORDFXRVNtaVhNRDlkRlRUNUFBS1lQaVlUYnlmdDhlemoxT25WcHp1REM?oc=5",
-      "source": "연합뉴스",
-      "date": "Tue, 12 May 2026 02:23:19 GMT"
-    },
-    {
-      "title": "[AI픽] AI 에이전트 똑똑해질수록 중요해진 '맥락 데이터'",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9WT3Z6UXZ5ZmVWQlU2STFuMmRzTDd2RTFwSzJMUk95MHRaTklsc3I5N1ZiSEF0b2hLZnA5aUg5bklXZHozbW5JNzRYS0Vvclp6TEtfbXhBWHNrOWlhaWFNT9IBYEFVX3lxTE9WT3Z6UXZ5ZmVWQlU2STFuMmRzTDd2RTFwSzJMUk95MHRaTklsc3I5N1ZiSEF0b2hLZnA5aUg5bklXZHozbW5JNzRYS0Vvclp6TEtfbXhBWHNrOWlhaWFNTw?oc=5",
-      "source": "연합뉴스",
-      "date": "Tue, 12 May 2026 00:10:54 GMT"
-    },
-    {
-      "title": "사람 중심 AI 기금: 비영리 단체에 5,000만 달러 지원",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE92bmlJY0U4dW9Qb3RJaEJINFRmenRIbWZEYmlpbmdvU29FRkRjOXJfZ1dqdHBTSWpqMDY4VktWbk1fcmZXNF9vdWZHRW1TZ080b1N2NDZKOU9rVC1GNzAwSTBR?oc=5",
-      "source": "OpenAI",
-      "date": "Mon, 11 May 2026 10:48:02 GMT"
-    },
-    {
-      "title": "인공지능(AI) 중심 디지털 교육 대전환",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5WazdBOHpBQVM0aWpTV2lVUmRxNFM0a2JtX1dzVGNRVTJmNXI4MkhXOThUR1BHekF3ME5LdkZmTWwwUEh6a2NxbTdxS0JEQWM?oc=5",
-      "source": "v.daum.net",
-      "date": "Mon, 11 May 2026 08:05:23 GMT"
+      "title": "[광화문에서/김현지]인공지능의 위로와 공감이 불편한 이유",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9zREg2WWRQZkRNODMtZFBqRTdWamdGVTZmaXNzdlU5RVVaakdqRnMzbEVHV01jMDQwaFd4MF9sdThLMktMM0N2dzNvZW5selZKc3pVa001Z25EYlpNUEhiZmVmRWszUdIBZkFVX3lxTE9zREg2WWRQZkRNODMtZFBqRTdWamdGVTZmaXNzdlU5RVVaakdqRnMzbEVHV01jMDQwaFd4MF9sdThLMktMM0N2dzNvZW5selZKc3pVa001Z25EYlpNUEhiZmVmRWszUQ?oc=5",
+      "source": "동아일보",
+      "date": "Mon, 11 May 2026 14:09:00 GMT"
     }
   ]
 }
