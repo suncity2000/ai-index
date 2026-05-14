@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T05:54:20.623Z",
+  "last_updated": "2026-05-14T05:53:16.100Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -141,8 +141,8 @@
     {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash",
-      "price_1m_input": 0.14,
-      "price_1m_output": 0.28,
+      "price_1m_input": 0.13,
+      "price_1m_output": 0.25,
       "context_length": 1048576,
       "top_provider": true
     },
