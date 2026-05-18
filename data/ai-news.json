@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-05-17T10:21:08.278Z",
+  "last_updated": "2026-05-18T12:27:28.479Z",
   "news": [
+    {
+      "title": "OpenAI Adds Personal Finance Features to ChatGPT",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55NnAxSlZubkFSQVNNWTRMdFBRd1JOWHpOcU5EN3hEX2JvVFlmZkJaTjNnYjJRU2xZZ1dyaTlqVTZJX0dKMm80WUJVYVdmbC0tUnZVbVVGYUxYbU11VWd5WG81NGk5elNYTGYxbUFYYXN1c016bFFQcmZiWGVNVk0?oc=5",
+      "source": "디자인 나침반",
+      "date": "Mon, 18 May 2026 02:36:33 GMT"
+    },
+    {
+      "title": "솔트룩스, 강원랜드 AI 전환 본격화… '생성형 AI 및 응용서비스 구축' 사업 수주",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ReVpvM1RCMDhiOXhyNmk5NkxpelJYejVicFlScl9QXzVjMXFiVUx4S2NtM3hqbHg2WkN0MkdhQ2wxaEoxWmtMQ1hrWHpwdGRLd3ZQUUlEc0hNellFdUlTcDF6cndjbm8?oc=5",
+      "source": "인공지능신문",
+      "date": "Mon, 18 May 2026 00:25:30 GMT"
+    },
+    {
+      "title": "[대학通] 인공지능(AI) 시대, 대학도서관의 과제",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1NVnFoenpvS0ljaG5hRi15dXFXZlBSOGlDQzcxV3hEM3g3X2Z2VzZoSmNLSW4yS3ZHOGVmQTlmcHRVazgxNVJiTGNza214am5mc1JtNkh4TS1qcEhqUGw5OG40X3BUZw?oc=5",
+      "source": "한국대학신문",
+      "date": "Sun, 17 May 2026 23:40:00 GMT"
+    },
+    {
+      "title": "[엠트리센] 인공지능(AI) 모돈 임신 판독 시스템 '딥소닉'",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1JQjJvZzJMQWhBQVdHRnR3Mks2M2gwNmV6TFEtY1NIdldxRFlwYnZWay1hN3JpN1EwMWpqVFB6QVBuUXdsWXVqX2ZtTVVfRk5wNmFLcU9HZ25nR3JDRGYtem1R?oc=5",
+      "source": "돼지와사람",
+      "date": "Sun, 17 May 2026 23:23:26 GMT"
+    },
+    {
+      "title": "생성형 AI 영상 확산에 넷플릭스·유튜브 가이드라인으로 대응",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqcWx3R214M010LXBwYldlQ3RkTE5oUkNIN2F6WEE1V2NEbHhkaXZaNUU0VmpVNTVCS2xLTXJZRExYb0dGQTdweTV6ejBpWThsZ2JxM0hzUTYxMVhJYjVYbmJUdlNCdDg?oc=5",
+      "source": "mstoday.co.kr",
+      "date": "Sun, 17 May 2026 12:43:08 GMT"
+    },
+    {
+      "title": "인공지능(AI) 시대, 왜 인간의 불안은 더 커지는가",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54Ri1zNF9kNGFLX2c4NEJVRjJOYjFQeGdyZUlTRFhJUDM1b0FhTkJRN2hUMXRsVEMzYXVsS3BTMm9kdU5KV2FOZ2FzSy03Z3pNRUFjU2E3VFNPME5kVjF1bjBYT3RkSjJvcVZqVnJuTdIBc0FVX3lxTE8xRERfRjNTM0pYRUJwYy1mby11b0xrc3lWU1Z0ME82NW1VUEt2RC00NER3SXFLRk9tY2VlbnZCVDBDNFpzdFNlclR4X3JZcmlKb3FyS054eTdtUEdYSnFNaUxhWFgxWFNsZl9NWnRENzRRa0k?oc=5",
+      "source": "실버넷뉴스",
+      "date": "Sun, 17 May 2026 09:58:17 GMT"
+    },
     {
       "title": "생성형 AI 다음은 '개인 AI 비서'…카페24, VPS 시장 대응 채비",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA5c2d0NFBRSVZkUTFFVzBMUlFuMFBuVnNqNXBkSmtMdkN3NVlMNGo1ZXkzTnptU2FTaEZTa2dqbWlJLXdTeTA0c2hKbEF1bERlcmtROWVR?oc=5",
@@ -20,10 +56,10 @@
       "date": "Sat, 16 May 2026 04:39:00 GMT"
     },
     {
-      "title": "사람 중심 AI 기금: 비영리 단체에 5,000만 달러 지원",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE92bmlJY0U4dW9Qb3RJaEJINFRmenRIbWZEYmlpbmdvU29FRkRjOXJfZ1dqdHBTSWpqMDY4VktWbk1fcmZXNF9vdWZHRW1TZ080b1N2NDZKOU9rVC1GNzAwSTBR?oc=5",
-      "source": "OpenAI",
-      "date": "Fri, 15 May 2026 22:19:23 GMT"
+      "title": "[AI돋보기] AI 확산에 몸값 뛰는 현장직, 짐 싸는 화이트칼라",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5EOWVFVzItMXQ2SG1UWHZ1NVFWS3JfSjA0TG1WNVdOajJWQlpyVWh5Q1VGUzhlWVMweEVBdUVHMDFnbC1aSlNIZDJ1aXhDVVFRV1VjS1R0cDdKNmxtZEFPMdIBYEFVX3lxTE5EOWVFVzItMXQ2SG1UWHZ1NVFWS3JfSjA0TG1WNVdOajJWQlpyVWh5Q1VGUzhlWVMweEVBdUVHMDFnbC1aSlNIZDJ1aXhDVVFRV1VjS1R0cDdKNmxtZEFPMQ?oc=5",
+      "source": "연합뉴스",
+      "date": "Fri, 15 May 2026 21:33:01 GMT"
     },
     {
       "title": "“AI가 운영하는 초연결 도시”… 국가인공지능위, 'K-AI 시티' 로드맵 논의",
@@ -36,42 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9SaktSenhRTkhDZW50VDhWZDBkV2ctbmVzVFlsVlQyV3hWMUZjMVdMN0NMZUpHdjlOb1JvTlgwa0pxLUxpVmRCcjJsdy1DYjBUaHR0X9IBVEFVX3lxTE9SaktSenhRTkhDZW50VDhWZDBkV2ctbmVzVFlsVlQyV3hWMUZjMVdMN0NMZUpHdjlOb1JvTlgwa0pxLUxpVmRCcjJsdy1DYjBUaHR0Xw?oc=5",
       "source": "한국경제",
       "date": "Fri, 15 May 2026 08:12:44 GMT"
-    },
-    {
-      "title": "‘인공지능·디지털 포럼’...AI 인공지능 전환 체감에 박차",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5FdVRFOEdZMzhTQUcxS1FHQWltN1JqUXVyWWc3bVlYSFFEcGpQNDloU3FZWXVucDRvSlExSTNDTXBJT1dIRVpRMHNNTnA1dlRIQXdtbmc5MkdDbTBDM2ZyRg?oc=5",
-      "source": "한국농촌경제신문",
-      "date": "Fri, 15 May 2026 06:06:01 GMT"
-    },
-    {
-      "title": "한수원, 중소기업 인공지능(AI) 역량 강화 지원한다",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1iVXJDNlpWZmlibG1nRVB2U1dveHJhMDR3ZWprdVVZTmxmb3hOcEpuanNnNWhVTVhUX2hmelRtd1ZPWk44cEhTQTFESDM4T3dmTjQwVm00Y1ZwTmxST2hHTEZkTUlGNnJFaS1IVWxoNFdnZw?oc=5",
-      "source": "에너지데일리",
-      "date": "Fri, 15 May 2026 05:27:00 GMT"
-    },
-    {
-      "title": "“AI가 대화 읽고 광고 추천”… 챗GPT 광고, ‘대화 데이터’ 활용 논란",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBrSnhsS0J0eWZQR2dudXlfbXdydnotMzVQLVkyUFhsZktHZ2ZVRlRqR0hPYjFOcnBId0J3RmlVUXRQeUtuZ2lGMWRzTE41aC1lR0g5cWJ0WkVXanFYTGJWeEVOVFVXbEJXei1Welk4QzVieG5E0gF0QVVfeXFMUGtKeGxLQnR5ZlBHZ251eV9td3J2ei0zNVAtWTJQWGxmS0dnZlVGVGpHSE9iMU5ycEh3QndGaVVRdFB5S25naUYxZHNMTjVoLWVHSDlxYnRaRVdqcVhMYlZ4RU5UVVdsQld6LVZ6WThDNWJ4bkQ?oc=5",
-      "source": "IT조선",
-      "date": "Thu, 14 May 2026 08:28:18 GMT"
-    },
-    {
-      "title": "여수, 2027~2029 인공지능(AI) 종합계획 수립 추진",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1WSVFDYWRHdC1US1hmaDZFcGhDLTNBVTkwUV9vUFBwWXFtNzZkTDhyMmdZeFc4VGNaTFpOQlZEbVM1TGQ2TEJpX0Y3TWVGVzNHeW5PdHNkOTF3WU9uSDJ2LTFyalF1VVJWNFlyZHg3NNIBb0FVX3lxTE1WSVFDYWRHdC1US1hmaDZFcGhDLTNBVTkwUV9vUFBwWXFtNzZkTDhyMmdZeFc4VGNaTFpOQlZEbVM1TGQ2TEJpX0Y3TWVGVzNHeW5PdHNkOTF3WU9uSDJ2LTFyalF1VVJWNFlyZHg3NA?oc=5",
-      "source": "서울일보",
-      "date": "Thu, 14 May 2026 01:33:46 GMT"
-    },
-    {
-      "title": "SK AX, '챗GPT 엔터프라이즈' 서비스 파트너 계약",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5QT0s1czFhRVZ4UVYyc0tMT3U4TEhZcEFYM0lDWnFGTXlfcnNsYk9kZXVvd0dCeXlYbkZFdTRkbmZJYlktR2hhRjNlRVhBM2h3Zk5YTzZCVTZWU0RPTWVvTWtTNmR3QQ?oc=5",
-      "source": "디일렉",
-      "date": "Thu, 14 May 2026 00:50:02 GMT"
-    },
-    {
-      "title": "생성형AI 시초 '볼츠만 머신', 양자컴퓨팅으로 성능 개선",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ybDZpRS1FeGhCeUZwTmI4b2ExN1kxNEpfLUFjTnE4RUZtYUNHLTlTOUF6Z1hvem16VVY3WENjMWl6RUE0cnhqNzhWRlNvNkFFOVVYaQ?oc=5",
-      "source": "동아사이언스",
-      "date": "Wed, 13 May 2026 08:45:00 GMT"
     }
   ]
 }
