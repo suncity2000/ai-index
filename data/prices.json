@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-17T05:54:09.389Z",
+  "last_updated": "2026-05-18T06:20:38.276Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -259,19 +259,19 @@
       "top_provider": true
     },
     {
+      "id": "google/gemma-4-26b-a4b-it",
+      "name": "Google: Gemma 4 26B A4B ",
+      "price_1m_input": 0.06,
+      "price_1m_output": 0.33,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "google/gemma-3n-e4b-it",
       "name": "Google: Gemma 3n 4B",
       "price_1m_input": 0.06,
       "price_1m_output": 0.12,
       "context_length": 32768,
-      "top_provider": true
-    },
-    {
-      "id": "google/gemma-4-26b-a4b-it",
-      "name": "Google: Gemma 4 26B A4B ",
-      "price_1m_input": 0.07,
-      "price_1m_output": 0.34,
-      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -550,7 +550,7 @@
       "id": "mistralai/mistral-nemo",
       "name": "Mistral: Mistral Nemo",
       "price_1m_input": 0.02,
-      "price_1m_output": 0.04,
+      "price_1m_output": 0.03,
       "context_length": 131072,
       "top_provider": true
     },
@@ -750,7 +750,7 @@
       "id": "openai/gpt-oss-120b",
       "name": "OpenAI: gpt-oss-120b",
       "price_1m_input": 0.04,
-      "price_1m_output": 0.19,
+      "price_1m_output": 0.18,
       "context_length": 131072,
       "top_provider": true
     },
