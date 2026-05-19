@@ -1,17 +1,29 @@
 {
-  "last_updated": "2026-05-18T12:27:28.479Z",
+  "last_updated": "2026-05-19T12:08:00.120Z",
   "news": [
     {
-      "title": "OpenAI Adds Personal Finance Features to ChatGPT",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55NnAxSlZubkFSQVNNWTRMdFBRd1JOWHpOcU5EN3hEX2JvVFlmZkJaTjNnYjJRU2xZZ1dyaTlqVTZJX0dKMm80WUJVYVdmbC0tUnZVbVVGYUxYbU11VWd5WG81NGk5elNYTGYxbUFYYXN1c016bFFQcmZiWGVNVk0?oc=5",
-      "source": "디자인 나침반",
-      "date": "Mon, 18 May 2026 02:36:33 GMT"
+      "title": "「인공지능(AI) Hack Camp 2026」 : 63일간 치열한 혁신의 여정 끝, 영예의 주인공 탄생",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQVRJcGVUTW1UeWtrMVJrM3l5aVRSSE10NjlRWUp1RGJhamNmeFpvRC1lNDdqc2NJN1lId2l0YWU4Q0tsSER5dnU5T1BmbDdUOW4tbDlzNVRsRU12NzZkbXBwTjVXMlotX1RDNFFMa00zckNJdlZZWWswTzExMTNZaGJQTE4tMmRsNG4ySXFEdHk?oc=5",
+      "source": "대한민국 정책브리핑",
+      "date": "Tue, 19 May 2026 02:39:46 GMT"
     },
     {
-      "title": "솔트룩스, 강원랜드 AI 전환 본격화… '생성형 AI 및 응용서비스 구축' 사업 수주",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ReVpvM1RCMDhiOXhyNmk5NkxpelJYejVicFlScl9QXzVjMXFiVUx4S2NtM3hqbHg2WkN0MkdhQ2wxaEoxWmtMQ1hrWHpwdGRLd3ZQUUlEc0hNellFdUlTcDF6cndjbm8?oc=5",
-      "source": "인공지능신문",
-      "date": "Mon, 18 May 2026 00:25:30 GMT"
+      "title": "“생성형 AI가 내 정보 학습 못하게 ‘옵트아웃’ 가능해요”... 개인정보 가이드 나와",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUcklKdHpFc2hKOFdraFgtYzNycGFKbUFVdnk3dm1NVGRLc1ljc3pucmJ4cTBNZmZXNnZ0Y01TajQ0dTRsY1BUaXNnUnpQQW1rTjkzOFlKMFNJeC1ndVZN?oc=5",
+      "source": "보안뉴스",
+      "date": "Tue, 19 May 2026 02:08:00 GMT"
+    },
+    {
+      "title": "충남교육청, 공주교대와 인공지능(AI) 융합 교육 협약",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5EZmdVbVRqQjI0aHh5QkQzdGRsZEh3N1NNZ3I2Z1djQ0Nwa2FaamtzN3F5QjB4eV92RDdOWWJRN2tldGt6Tnc?oc=5",
+      "source": "v.daum.net",
+      "date": "Mon, 18 May 2026 06:18:34 GMT"
+    },
+    {
+      "title": "오픈AI, ChatGPT에 개인 금융 기능 추가",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0tc0pnN0QzbGJQX255Vmx6V1RkdU83Sk9oWDhhSDZJdmw1RXlwekNYQzBuUWtrd2tZaGJiaWFwV0syM1cyNzR1MkdPQVFaczFCWllPcXpPS1VzWTk3bWl5M2h0WGw4SEtzX0JxVk5COA?oc=5",
+      "source": "디자인 나침반",
+      "date": "Mon, 18 May 2026 01:01:07 GMT"
     },
     {
       "title": "[대학通] 인공지능(AI) 시대, 대학도서관의 과제",
@@ -38,6 +50,12 @@
       "date": "Sun, 17 May 2026 09:58:17 GMT"
     },
     {
+      "title": "단순 탐지 넘어 상황 추론…서울시, 생성형 AI CCTV 관제 구축 돌입",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBSV2liWWZIeUxpQ2pFS3l6aDUtdnlWY3ZBcjZJR1QzTjF3UWFSYW94alJWNHVUYUF1aWIwMk9KT0picFJmZjIyNFZ1S1hKZw?oc=5",
+      "source": "전자신문",
+      "date": "Sun, 17 May 2026 08:00:00 GMT"
+    },
+    {
       "title": "생성형 AI 다음은 '개인 AI 비서'…카페24, VPS 시장 대응 채비",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA5c2d0NFBRSVZkUTFFVzBMUlFuMFBuVnNqNXBkSmtMdkN3NVlMNGo1ZXkzTnptU2FTaEZTa2dqbWlJLXdTeTA0c2hKbEF1bERlcmtROWVR?oc=5",
       "source": "지디넷코리아",
@@ -54,24 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbmtaUTRaeVdXRU1xWUpvci1ESDkybUl1Q2NGZDB3X3hlV0pLRzJ3cGx6eW9qdmYxSi1QellxcExleVdFeDA5YXpmWjBiS0pmeGVfQ25QQjFOcmwyRzlHXzczeXh5Y2s4RFNRYmF4NldTMmpWYmJjNmRfQ2pZNndzYUFR?oc=5",
       "source": "한겨레",
       "date": "Sat, 16 May 2026 04:39:00 GMT"
-    },
-    {
-      "title": "[AI돋보기] AI 확산에 몸값 뛰는 현장직, 짐 싸는 화이트칼라",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5EOWVFVzItMXQ2SG1UWHZ1NVFWS3JfSjA0TG1WNVdOajJWQlpyVWh5Q1VGUzhlWVMweEVBdUVHMDFnbC1aSlNIZDJ1aXhDVVFRV1VjS1R0cDdKNmxtZEFPMdIBYEFVX3lxTE5EOWVFVzItMXQ2SG1UWHZ1NVFWS3JfSjA0TG1WNVdOajJWQlpyVWh5Q1VGUzhlWVMweEVBdUVHMDFnbC1aSlNIZDJ1aXhDVVFRV1VjS1R0cDdKNmxtZEFPMQ?oc=5",
-      "source": "연합뉴스",
-      "date": "Fri, 15 May 2026 21:33:01 GMT"
-    },
-    {
-      "title": "“AI가 운영하는 초연결 도시”… 국가인공지능위, 'K-AI 시티' 로드맵 논의",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ja2ZYUzBPbFJyb3VfaV96TW1IcjJiZmRybVRtVVJNMnBjX2hDMURwaS16UlZuNzlEMG9sblRZcTU5Mk5WaU9YOVA1VGFaQQ?oc=5",
-      "source": "전자신문",
-      "date": "Fri, 15 May 2026 09:06:25 GMT"
-    },
-    {
-      "title": "'스킬 코드 인공지능(AI)' 등",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9SaktSenhRTkhDZW50VDhWZDBkV2ctbmVzVFlsVlQyV3hWMUZjMVdMN0NMZUpHdjlOb1JvTlgwa0pxLUxpVmRCcjJsdy1DYjBUaHR0X9IBVEFVX3lxTE9SaktSenhRTkhDZW50VDhWZDBkV2ctbmVzVFlsVlQyV3hWMUZjMVdMN0NMZUpHdjlOb1JvTlgwa0pxLUxpVmRCcjJsdy1DYjBUaHR0Xw?oc=5",
-      "source": "한국경제",
-      "date": "Fri, 15 May 2026 08:12:44 GMT"
     }
   ]
 }
