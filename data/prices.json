@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-18T06:20:38.276Z",
+  "last_updated": "2026-05-19T06:15:07.298Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -787,16 +787,16 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4o-mini-2024-07-18",
-      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+      "id": "openai/gpt-4o-mini",
+      "name": "OpenAI: GPT-4o-mini",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
       "context_length": 128000,
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4o-mini",
-      "name": "OpenAI: GPT-4o-mini",
+      "id": "openai/gpt-4o-mini-2024-07-18",
+      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
       "context_length": 128000,
