@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-20T06:15:18.021Z",
+  "last_updated": "2026-05-21T06:16:33.173Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -311,7 +311,7 @@
       "name": "Google: Gemini 2.0 Flash",
       "price_1m_input": 0.1,
       "price_1m_output": 0.4,
-      "context_length": 1048576,
+      "context_length": 1000000,
       "top_provider": true
     },
     {
@@ -1608,6 +1608,14 @@
       "price_1m_input": 1.04,
       "price_1m_output": 6.24,
       "context_length": 262144,
+      "top_provider": true
+    },
+    {
+      "id": "x-ai/grok-build-0.1",
+      "name": "xAI: Grok Build 0.1",
+      "price_1m_input": 1,
+      "price_1m_output": 2,
+      "context_length": 256000,
       "top_provider": true
     },
     {
