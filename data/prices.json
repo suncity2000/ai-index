@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-22T06:14:55.402Z",
+  "last_updated": "2026-05-23T05:44:42.591Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -141,8 +141,8 @@
     {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash",
-      "price_1m_input": 0.11,
-      "price_1m_output": 0.22,
+      "price_1m_input": 0.1,
+      "price_1m_output": 0.2,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -1379,14 +1379,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3.6-flash",
-      "name": "Qwen: Qwen3.6 Flash",
-      "price_1m_input": 0.12,
-      "price_1m_output": 0.74,
-      "context_length": 1000000,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3-vl-8b-thinking",
       "name": "Qwen: Qwen3 VL 8B Thinking",
       "price_1m_input": 0.12,
@@ -1435,10 +1427,10 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3.6-plus",
-      "name": "Qwen: Qwen3.6 Plus",
-      "price_1m_input": 0.18,
-      "price_1m_output": 1.07,
+      "id": "qwen/qwen3.6-flash",
+      "name": "Qwen: Qwen3.6 Flash",
+      "price_1m_input": 0.19,
+      "price_1m_output": 1.13,
       "context_length": 1000000,
       "top_provider": true
     },
@@ -1544,6 +1536,14 @@
       "price_1m_input": 0.3,
       "price_1m_output": 3.2,
       "context_length": 262144,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3.6-plus",
+      "name": "Qwen: Qwen3.6 Plus",
+      "price_1m_input": 0.33,
+      "price_1m_output": 1.95,
+      "context_length": 1000000,
       "top_provider": true
     },
     {
