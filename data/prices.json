@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-26T06:13:21.055Z",
+  "last_updated": "2026-05-27T06:35:06.546Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -1403,17 +1403,17 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3.5-35b-a3b",
-      "name": "Qwen: Qwen3.5-35B-A3B",
+      "id": "qwen/qwen3.6-35b-a3b",
+      "name": "Qwen: Qwen3.6 35B A3B",
       "price_1m_input": 0.14,
       "price_1m_output": 1,
       "context_length": 262144,
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3.6-35b-a3b",
-      "name": "Qwen: Qwen3.6 35B A3B",
-      "price_1m_input": 0.15,
+      "id": "qwen/qwen3.5-35b-a3b",
+      "name": "Qwen: Qwen3.5-35B-A3B",
+      "price_1m_input": 0.14,
       "price_1m_output": 1,
       "context_length": 262144,
       "top_provider": true
@@ -1523,19 +1523,19 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3.6-27b",
+      "name": "Qwen: Qwen3.6 27B",
+      "price_1m_input": 0.29,
+      "price_1m_output": 3.2,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3.5-plus-20260420",
       "name": "Qwen: Qwen3.5 Plus 2026-04-20",
       "price_1m_input": 0.3,
       "price_1m_output": 1.8,
       "context_length": 1000000,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3.6-27b",
-      "name": "Qwen: Qwen3.6 27B",
-      "price_1m_input": 0.3,
-      "price_1m_output": 3.2,
-      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1613,8 +1613,8 @@
     {
       "id": "qwen/qwen3.7-max",
       "name": "Qwen: Qwen3.7 Max",
-      "price_1m_input": 2.5,
-      "price_1m_output": 7.5,
+      "price_1m_input": 1.25,
+      "price_1m_output": 3.75,
       "context_length": 1000000,
       "top_provider": true
     },
