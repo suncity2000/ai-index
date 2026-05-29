@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-05-28T12:24:39.981Z",
+  "last_updated": "2026-05-29T12:13:33.087Z",
   "news": [
+    {
+      "title": "교육부, 초·중등 AI 담당교원 역량강화 연수",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FUTF0RkY3VFJEOWVBMlQwWEZsMklsd0d3Tkh4SVp6RUVHcHg3TlVmT1dRUGpXem5kYi12dkJheWJSYkd6NjBrQXVQVXFQOV9uRFVNRVdGeDdHTW1aalE5ddIBYEFVX3lxTE9FUTF0RkY3VFJEOWVBMlQwWEZsMklsd0d3Tkh4SVp6RUVHcHg3TlVmT1dRUGpXem5kYi12dkJheWJSYkd6NjBrQXVQVXFQOV9uRFVNRVdGeDdHTW1aalE5dQ?oc=5",
+      "source": "연합뉴스",
+      "date": "Thu, 28 May 2026 21:00:11 GMT"
+    },
+    {
+      "title": "AI 사용 사례 파악 및 규모 확장",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdzc2ZE4zQUV6TUZQQmEyV2pyNmszTnZUTTlIcFVuOEhWdW5jZWc1OHRpQjRJeEFxM0NGQW9qOGJyZUJLNV9STEF4dkRDZlNqd3M5NXFQbkFqdHdkQmxDd1ZXVTZCdmtCeVplek9oMzJvM09IcGJOZGZDN05uQ0pvN2ZlYVpvZHg3NFVvS0N4Slc4WlVMTUE4?oc=5",
+      "source": "OpenAI",
+      "date": "Thu, 28 May 2026 13:18:06 GMT"
+    },
+    {
+      "title": "[일본] 중학생 절반·고교생 60% 이상 생성 AI 활용",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4tVndCZ19JV2g5UXplQXRzdElEcnFFWHVvcGxuSmFnUlNvQWFsODI2c0ljcHlmNW90TWF0YU9RamEtWGdxMnNkMkw1OWQ1Y0tIS0VnTGRVSEhlVHd2blI3WHhLMFh1WEk?oc=5",
+      "source": "교육플러스",
+      "date": "Thu, 28 May 2026 08:56:33 GMT"
+    },
     {
       "title": "생성형 아닌 ‘에이전트 AI’ 시대…업무 생태계 재편",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwSWFLLUhCYnhMZFdvMlp4eGxkeUNDV0VvLURZTmlrTHZhWVk2N0JCeW1CN0N2MDdreUZRckZsWWwxd2VQdWRVU3pkVzAydy0yQzhZN3Z1emY4UTJrTjVoVVJick5xYkRkNmFoQnlnN3XSAXBBVV95cUxQMElhSy1IQmJ4TGRXbzJaeHhsZHlDQ1dFby1EWU5pa0x2YVlZNjdCQnltQjdDdjA3a3lGUXJGbFlsMXdlUHVkVVN6ZFcwMnctMkM4WTd2dXpmOFEya041aFVSYnJOcWJEZDZhaEJ5Zzd1?oc=5",
@@ -14,22 +32,28 @@
       "date": "Thu, 28 May 2026 06:26:11 GMT"
     },
     {
-      "title": "인공지능(AI)·로봇 미래첨단산업 활성화 위해 새만금 자문단 투자·해외분과 '머리 맞대'",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFByVGhSSU92WU03Z0ZZZFJNemdBdFBVTXlrNDYxWlNCRnMyOFdkM2FJOHRNd1lKcGkyTHhUR211OW5BZ2lRNHFRR29zXzRIMWgxSW9yeUVxLUotMzRsakE?oc=5",
-      "source": "한국방송뉴스",
-      "date": "Thu, 28 May 2026 06:10:08 GMT"
-    },
-    {
-      "title": "생성형 AI, 하루 평균 50분 쓴다…10명 중 1명은 2시간 이상",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLRno1cVhuM0x5N0o5UGVpd1ZmYzhjNkduMFZVT3ZNWFoxY2c4VVJpZXh3aENJRlhKRWJ5S0JQdDNVUE5wMXJVMWkxVXVwWXhrdFhydWduWFlrZk9vaUx0TTV5OVQ?oc=5",
-      "source": "한겨레",
-      "date": "Thu, 28 May 2026 06:08:00 GMT"
-    },
-    {
       "title": "건보공단, ‘인공지능(AI) 시대 일과 조직의 미래’ 전문가 특강 개최",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5feVBqbVAwWFFuOGFjRDE4c2RsS2FOMzN1SHczdHpqcXBhVTB0R1RSQUJaLUZJQ1RjaUxoODdjUTZWbFdjdXBEaEZ0WEFxaUcyMjFzekVvLVllWGNLOVNoS28ySjRYcmZnQXRaZmd5cw?oc=5",
       "source": "의사신문",
       "date": "Thu, 28 May 2026 05:48:37 GMT"
+    },
+    {
+      "title": "10명 중 4명 “생성형AI 써봤다”…3년 새 3배 증가",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1WekhkSHZxWnJNdmRKc3hhY3U0RFFOeV9HRmZVNUhiYzJ5VlV0NDFmdmdoQmtMZGtUYnRydHFYMDRLVzBoTzUtaWd2clRaUQ?oc=5",
+      "source": "전자신문",
+      "date": "Thu, 28 May 2026 04:53:54 GMT"
+    },
+    {
+      "title": "AI가 예측하고 디지털트윈이 대응한다…12개 실증 착수",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1yMW02YmlyQ3dvVFBMbEtYMjVfaGh2TnBjMXlpSVE5aGFDQ001WEhrX1FrWF9oaTA4bkh5ek90b2N4c25nTVdzTG80czRSZjRuYWo1N0hZQ2xSb2lFVlc5YtIBYEFVX3lxTE1yMW02YmlyQ3dvVFBMbEtYMjVfaGh2TnBjMXlpSVE5aGFDQ001WEhrX1FrWF9oaTA4bkh5ek90b2N4c25nTVdzTG80czRSZjRuYWo1N0hZQ2xSb2lFVlc5Yg?oc=5",
+      "source": "연합뉴스",
+      "date": "Thu, 28 May 2026 04:00:00 GMT"
+    },
+    {
+      "title": "광진구, 인공지능(AI) 기반 ‘일잘러’ 공무원 키운다",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SUHdnN05ucy1YZXVRS3JlS1ZBYkFCRk5LeXBjS2ZpYlBwTmNzMXU1T3h5UV9Ob09wSE1ib2VHa2RlSEpxVGRvU3lsTklSblJyNHlNaA?oc=5",
+      "source": "v.daum.net",
+      "date": "Thu, 28 May 2026 02:24:18 GMT"
     },
     {
       "title": "[AI픽] 국민 39% \"생성형 AI 써봤다\"…역기능 우려도 급증",
@@ -38,40 +62,16 @@
       "date": "Thu, 28 May 2026 01:51:55 GMT"
     },
     {
+      "title": "생성형AI, 교사들은 학교에서 어떻게 활용하고 있나",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUmdMX19vQWlodnNZNlctVlNVSVozZGV0SHZPS001Wmp4ZEZ3clp1bWwzYU85U0lOUGRadUVnV1Iyb29yRjlUN1kxZ3EybmtmNnZjQVo2bnVWQmRqQWhHeTlFSGR0MmNTWkgya2ZxUTdWaDV5aHpPTVpnQkExUEtYTGdxcmx4OU5OZHI4SWM3Zw?oc=5",
+      "source": "사이언스타임즈",
+      "date": "Thu, 28 May 2026 00:01:53 GMT"
+    },
+    {
       "title": "바이브컴퍼니 썸트렌드, ChatGPT Apps 카테고리 앱으로 정식 승인",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE44YUhXRVd1bVdYS1ZOMFAxcm9fa2xFb0NNbXpwRm9aMUxEYjFZSHdtMjNyMFpFX09MS29oMjBUdUFNNmZpb0NpRlFvaHctN3M?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fQmQ2czZKcDFTUkQ3X0ZLWGNlUklXenREVXplU194cjZBSnRxcS1Nc05tcEVDbEs3ZTZmRWkwSHNNR0wxc29wa1FiS0txUGtlVjRYUw?oc=5",
       "source": "v.daum.net",
       "date": "Wed, 27 May 2026 23:37:53 GMT"
-    },
-    {
-      "title": "오픈AI, 한국 사이버 보안 방어력 강화 지원 나선다…‘한국 사이버 액션 플랜’ 추진",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE95bV83UE1BUjVnNG8weldlLUNGOW1vblJzVjEtYm9VcjE0X3c1akp0Y21WWEQ3b0FtWmUtTWxDRjVNWG1U?oc=5",
-      "source": "산업일보",
-      "date": "Wed, 27 May 2026 05:48:57 GMT"
-    },
-    {
-      "title": "하나투어, 오픈AI ‘챗GPT 앱’ 서비스 론칭…글로벌 AX 영토 확장",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SZU9URGViaGt4Nk1mV3BocEczeHNWU1d5SGRsdjBXY3pxTmdKa3JDR1NnQ2FvQWhVUUY0dXVHVGdwZWVJSGtLaGNiTmxGSmx0R1N1WXQ5bjlzMlpVSVVSc1RRemhYMmViX1NOSllkZVE3MEVtcVdR0gF3QVVfeXFMTVJlT1REZWJoa3g2TWZXcGhwRzN4c1ZTV3lIZGx2MFdjenFOZ0prckNHU2dDYW9BaFVRRjR1dUdUZ3BlZUlIa0toY2JObEZKbHRHU3VZdDluOXMyWlVJVVJzVFF6aFgyZWJfU05KWWRlUTcwRW1xV1E?oc=5",
-      "source": "인사이트코리아",
-      "date": "Wed, 27 May 2026 05:21:23 GMT"
-    },
-    {
-      "title": "온라인 AI 축제 열린다…생성형 AI 직접 체험",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5pamZyc3BDMi0zOUVLSGVFbzRNTmVxcVc1dVotYUZoOFNkd0xuM0R4eDl5cEZpNVlvMzFhcDlKUHlWd3VpUVQ0YkNoTTZiQVk?oc=5",
-      "source": "v.daum.net",
-      "date": "Wed, 27 May 2026 05:06:07 GMT"
-    },
-    {
-      "title": "한국 정부, ‘2026 클릭 온 인공지능(AI) 시즌1’ 개최",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5MYzJ5NFQ1aXpuZU9EYjkxaVdQaWtGTFhsN24xckhKMVZLWkFkbkxsQ0FnNlBiemVjaVQ3amxtRkNRYlRSSDJDdUpJRGJwT1JnVGF6NEttcG83dWRhMFdoOFJHMTdVNDRGekHSAW5BVV95cUxNZnNMY0lyQ2VpOGFLa1FZWkh3elVzZGM0a0ltVFNfOVdFbWdXdmtoY0lxTk56eW41eWxaWGcwWDY5WnFhckYxNENRc0dLQWdwRXhWVU42cTFJU0lDb0lydklSTnAyMERDazZrQUg0QQ?oc=5",
-      "source": "NK경제",
-      "date": "Wed, 27 May 2026 03:05:01 GMT"
-    },
-    {
-      "title": "「전 국민 인공지능 경진대회」, 100만 명 이상 참여 기대되는 온라인 인공지능 체험 축제 \"클릭 온 인공지능(AI) 시즌1\" 시작(오픈)",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYTlFaG5oaFRCWlM5elpIT3U2eEhIZkc0WWdaNmc4aU4xakRXZ2RJb1N1TWpyMms3R3NRNGxFOVdEMWprMVA5RjRacDJDeDRIWXR0d1ZNdURQelhKYlZRUVlCTElnb0F3cktjR3pwWWpKUU4wTzB2NnpJSURzdzMtMUZONGtMT3lWaWJn?oc=5",
-      "source": "대한민국 정책브리핑",
-      "date": "Wed, 27 May 2026 03:00:00 GMT"
     }
   ]
 }
