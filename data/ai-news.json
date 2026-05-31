@@ -1,11 +1,23 @@
 {
-  "last_updated": "2026-05-30T10:46:10.879Z",
+  "last_updated": "2026-05-31T10:55:30.556Z",
   "news": [
     {
-      "title": "인공지능(AI) 기반의 지식재산 데이터 분석 체계… ‘지식재산정보 분석플랫폼(IPOP)’ 구축 착수",
-      "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxOdE9hMjJoTUpQUFNqdHgzdVl6bmk0WTJqWkNlTmtwdTNoWWxmNWlDZ19tN25HQWtFMWFOdnRIa3BKQkNPQUdVVU1pOFYxOFNMTzNJMHdXTXRQZzY5MnkwbF9hUmN2V0tTOWJ1ejZJZ09mclRoY3h2VGIwZTk3dW5DRVVjcE9hdTJSMmhoS2VpcXEwajFHUlVQNVgzMmwzb2V3enlQQWxTcG1XVnlkaGJqdEF3ZmFSYlNoWF9ybDA3YkFMUGxwU3EzWHpCU0RPTERxbm84Vzg2NHlkRXpNRENJLUdDZFU3Q2tXbGJ2VkRST2JCWi1iaTN1M09vUUdJSHItaTNBLUZZQm5rakZBaE0wUVBwRnhHQms4ckJjUWQzZGRhRXBSOF90bm12dzN4YmxCOGpPTEg1R3FCTjZPRVNNYzlpQ3hKdGl0X2dCbDRyTkpUNDZ5NW9qQjBhcFJWeFU?oc=5",
-      "source": "IPDaily",
-      "date": "Fri, 29 May 2026 22:30:00 GMT"
+      "title": "바이브컴퍼니 썸트렌드, '국내 소셜 분석 앱 최초' 챗GPT Apps 정식 승인",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9CeGotdXFhSEdkZFRsWS00ektjV2lmMHZiXy10OG9PaS1ZR3MyWHpyb0RwTE56SWtOUFJXWmlJQTNkZ3kxdV8zYjR2bEw4djRJRWlQMkF6U3NVTmVvNTloMVJ3?oc=5",
+      "source": "헬로티",
+      "date": "Sun, 31 May 2026 06:16:05 GMT"
+    },
+    {
+      "title": "“더 공부하라는 말은 거짓말이 되었다”…AI가 끊어버린 사다리",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hMnYzR005dVBVUm9wWFRHUE92ZFNNRHJGa1BrT2pUV2xzcC0wLVhKUnp4N0FIN3pSSUdudkRlek80QzVuN0VqSkdXSEs3MDNMc2Vad3dJVU51TUk?oc=5",
+      "source": "KBS 뉴스",
+      "date": "Sat, 30 May 2026 21:01:00 GMT"
+    },
+    {
+      "title": "김포시, 인공지능(AI) 데이터 플랫폼 구축 착수…시민 맞춤형서비스 강화",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SWGcyX1ItT2J3VEF2YjFiZHFFdm56OFEwU1hzSjZKbko5LUZqWkNwb0Z4Nnh4MXlLM0ZwMnQ3VlhST1BuX295TGxqM0laNlVLVV93T1VpR0IwaXlORWlUSllfTWpnMXRqdlHSAWpBVV95cUxNUlhnMl9SLU9id1RBdmIxYmRxRXZuejhRMFNYc0o2Sm5KOS1GalpDcG9GeDZ4eDF5SzNGcDJ0N1ZYUk9Qbl9veUxsajNJWjZVS1Vfd09VaUdCMGl5TkVpVEpZX01qZzF0anZR?oc=5",
+      "source": "새한일보",
+      "date": "Sat, 30 May 2026 07:58:41 GMT"
     },
     {
       "title": "의학논문 작성과 생성형 AI…‘정보 정확성’ 한계",
@@ -14,22 +26,28 @@
       "date": "Fri, 29 May 2026 08:19:22 GMT"
     },
     {
+      "title": "SK그룹 최태원 회장 \"인공지능 시대에는 4가지 근육 갖춰야\" |",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4wLUU1ei14ZDRvX0dJOXBCeTh0MEFNdG9yVWJXc1lHOGFqaU16SG5kaG1WdmY1a1lzRjNRWVBXSENHckxKejhqM1JvamdfRjd2emg2OURvc2FoVi1tS2FoaVhQLU1PUnFMUExKZ2NXTDY3V3RF?oc=5",
+      "source": "연합인포맥스",
+      "date": "Fri, 29 May 2026 00:43:45 GMT"
+    },
+    {
+      "title": "교육부, 초·중등 AI 담당교원 역량강화 연수",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FUTF0RkY3VFJEOWVBMlQwWEZsMklsd0d3Tkh4SVp6RUVHcHg3TlVmT1dRUGpXem5kYi12dkJheWJSYkd6NjBrQXVQVXFQOV9uRFVNRVdGeDdHTW1aalE5ddIBYEFVX3lxTE9FUTF0RkY3VFJEOWVBMlQwWEZsMklsd0d3Tkh4SVp6RUVHcHg3TlVmT1dRUGpXem5kYi12dkJheWJSYkd6NjBrQXVQVXFQOV9uRFVNRVdGeDdHTW1aalE5dQ?oc=5",
+      "source": "연합뉴스",
+      "date": "Thu, 28 May 2026 21:00:11 GMT"
+    },
+    {
       "title": "AI 사용 사례 파악 및 규모 확장",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdzc2ZE4zQUV6TUZQQmEyV2pyNmszTnZUTTlIcFVuOEhWdW5jZWc1OHRpQjRJeEFxM0NGQW9qOGJyZUJLNV9STEF4dkRDZlNqd3M5NXFQbkFqdHdkQmxDd1ZXVTZCdmtCeVplek9oMzJvM09IcGJOZGZDN05uQ0pvN2ZlYVpvZHg3NFVvS0N4Slc4WlVMTUE4?oc=5",
       "source": "OpenAI",
       "date": "Thu, 28 May 2026 13:18:06 GMT"
     },
     {
-      "title": "생성형 아닌 ‘에이전트 AI’ 시대…업무 생태계 재편",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwSWFLLUhCYnhMZFdvMlp4eGxkeUNDV0VvLURZTmlrTHZhWVk2N0JCeW1CN0N2MDdreUZRckZsWWwxd2VQdWRVU3pkVzAydy0yQzhZN3Z1emY4UTJrTjVoVVJick5xYkRkNmFoQnlnN3XSAXBBVV95cUxQMElhSy1IQmJ4TGRXbzJaeHhsZHlDQ1dFby1EWU5pa0x2YVlZNjdCQnltQjdDdjA3a3lGUXJGbFlsMXdlUHVkVVN6ZFcwMnctMkM4WTd2dXpmOFEya041aFVSYnJOcWJEZDZhaEJ5Zzd1?oc=5",
-      "source": "전기신문",
-      "date": "Thu, 28 May 2026 08:10:50 GMT"
-    },
-    {
-      "title": "\"생각하는 공장·행동하는 로봇\"…에이전틱 AI가 제조 바꾼다",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CSlFzWHMwQWJiY2tZaWc1NXFnS3hLU1ZsSFFlcEdoc3JrMjVPZ3ZrNzh0SlhKT19JeElnOWZUaXctSGF5b0NFSlZ2TEdvYnlCZmJZcG1vQThSRUtGUXVTN9IBYEFVX3lxTE5CSlFzWHMwQWJiY2tZaWc1NXFnS3hLU1ZsSFFlcEdoc3JrMjVPZ3ZrNzh0SlhKT19JeElnOWZUaXctSGF5b0NFSlZ2TEdvYnlCZmJZcG1vQThSRUtGUXVTNw?oc=5",
-      "source": "연합뉴스",
-      "date": "Thu, 28 May 2026 06:26:11 GMT"
+      "title": "\"생성형 AI, 한 번 쓰면 하루 50분\"…국민 10명 중 4명 이용",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5UTEZUd29JeHQtT2V6emJNQTFyLUVUUWllaWg2Z2daTVhEbWozYmQyWEtONjBMd2FLc0hZN1Jmei1CZl9nb2xQV2FqWi1wQjQ?oc=5",
+      "source": "v.daum.net",
+      "date": "Thu, 28 May 2026 06:58:04 GMT"
     },
     {
       "title": "인공지능(AI)·로봇 미래첨단산업 활성화 위해 새만금 자문단 투자·해외분과 '머리 맞대'",
@@ -50,28 +68,10 @@
       "date": "Thu, 28 May 2026 04:53:54 GMT"
     },
     {
-      "title": "AI가 예측하고 디지털트윈이 대응한다…12개 실증 착수",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1yMW02YmlyQ3dvVFBMbEtYMjVfaGh2TnBjMXlpSVE5aGFDQ001WEhrX1FrWF9oaTA4bkh5ek90b2N4c25nTVdzTG80czRSZjRuYWo1N0hZQ2xSb2lFVlc5YtIBYEFVX3lxTE1yMW02YmlyQ3dvVFBMbEtYMjVfaGh2TnBjMXlpSVE5aGFDQ001WEhrX1FrWF9oaTA4bkh5ek90b2N4c25nTVdzTG80czRSZjRuYWo1N0hZQ2xSb2lFVlc5Yg?oc=5",
-      "source": "연합뉴스",
-      "date": "Thu, 28 May 2026 04:00:00 GMT"
-    },
-    {
-      "title": "[AI픽] 국민 39% \"생성형 AI 써봤다\"…역기능 우려도 급증",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JclZYbjBfck5vdnB2RmxlOGhiYnFONWo2eEVXVHNUVEY1TkJRMEI1WE5RdmZzdnBnb2tiV2hRRmZoZUhwR1lMbVJRS1pZT0U?oc=5",
+      "title": "광진구, 인공지능(AI) 기반 ‘일잘러’ 공무원 키운다",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE13MHVzamdyMy1haWZxOVM0WjNKX0xqOWdYWjFOWC1TTTFDa2theUtrZTFxdENNcFg1OHpGa3NHS2piSGc1ZGNGeHRRMlJEdlk?oc=5",
       "source": "v.daum.net",
-      "date": "Thu, 28 May 2026 01:53:59 GMT"
-    },
-    {
-      "title": "생성형AI, 교사들은 학교에서 어떻게 활용하고 있나",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUmdMX19vQWlodnNZNlctVlNVSVozZGV0SHZPS001Wmp4ZEZ3clp1bWwzYU85U0lOUGRadUVnV1Iyb29yRjlUN1kxZ3EybmtmNnZjQVo2bnVWQmRqQWhHeTlFSGR0MmNTWkgya2ZxUTdWaDV5aHpPTVpnQkExUEtYTGdxcmx4OU5OZHI4SWM3Zw?oc=5",
-      "source": "사이언스타임즈",
-      "date": "Thu, 28 May 2026 00:01:53 GMT"
-    },
-    {
-      "title": "바이브컴퍼니 썸트렌드, ChatGPT Apps 카테고리 앱으로 정식 승인",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE44YUhXRVd1bVdYS1ZOMFAxcm9fa2xFb0NNbXpwRm9aMUxEYjFZSHdtMjNyMFpFX09MS29oMjBUdUFNNmZpb0NpRlFvaHctN3M?oc=5",
-      "source": "v.daum.net",
-      "date": "Wed, 27 May 2026 23:37:53 GMT"
+      "date": "Thu, 28 May 2026 02:24:18 GMT"
     }
   ]
 }
