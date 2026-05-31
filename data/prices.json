@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-30T05:53:25.680Z",
+  "last_updated": "2026-05-31T06:26:08.103Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -608,14 +608,6 @@
       "price_1m_input": 0.1,
       "price_1m_output": 0.3,
       "context_length": 131072,
-      "top_provider": true
-    },
-    {
-      "id": "mistralai/mistral-7b-instruct-v0.1",
-      "name": "Mistral: Mistral 7B Instruct v0.1",
-      "price_1m_input": 0.11,
-      "price_1m_output": 0.19,
-      "context_length": 4096,
       "top_provider": true
     },
     {
@@ -1363,6 +1355,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+      "price_1m_input": 0.1,
+      "price_1m_output": 0.1,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3-14b",
       "name": "Qwen: Qwen3 14B",
       "price_1m_input": 0.1,
@@ -1415,14 +1415,6 @@
       "name": "Qwen: Qwen3.5-35B-A3B",
       "price_1m_input": 0.14,
       "price_1m_output": 1,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-235b-a22b-thinking-2507",
-      "name": "Qwen: Qwen3 235B A22B Thinking 2507",
-      "price_1m_input": 0.15,
-      "price_1m_output": 1.5,
       "context_length": 262144,
       "top_provider": true
     },
