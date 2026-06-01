@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31T06:26:08.103Z",
+  "last_updated": "2026-06-01T07:08:20.706Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -603,14 +603,6 @@
       "top_provider": true
     },
     {
-      "id": "mistralai/devstral-small",
-      "name": "Mistral: Devstral Small 1.1",
-      "price_1m_input": 0.1,
-      "price_1m_output": 0.3,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
       "id": "mistralai/mistral-small-2603",
       "name": "Mistral: Mistral Small 4",
       "price_1m_input": 0.15,
@@ -675,14 +667,6 @@
       "top_provider": true
     },
     {
-      "id": "mistralai/devstral-medium",
-      "name": "Mistral: Devstral Medium",
-      "price_1m_input": 0.4,
-      "price_1m_output": 2,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
       "id": "mistralai/mistral-medium-3",
       "name": "Mistral: Mistral Medium 3",
       "price_1m_input": 0.4,
@@ -707,24 +691,8 @@
       "top_provider": true
     },
     {
-      "id": "mistralai/mistral-large-2411",
-      "name": "Mistral Large 2411",
-      "price_1m_input": 2,
-      "price_1m_output": 6,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
       "id": "mistralai/mistral-large-2407",
       "name": "Mistral Large 2407",
-      "price_1m_input": 2,
-      "price_1m_output": 6,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
-      "id": "mistralai/pixtral-large-2411",
-      "name": "Mistral: Pixtral Large 2411",
       "price_1m_input": 2,
       "price_1m_output": 6,
       "context_length": 131072,
@@ -795,16 +763,16 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4o-mini-2024-07-18",
-      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+      "id": "openai/gpt-4o-mini",
+      "name": "OpenAI: GPT-4o-mini",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
       "context_length": 128000,
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4o-mini",
-      "name": "OpenAI: GPT-4o-mini",
+      "id": "openai/gpt-4o-mini-2024-07-18",
+      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
       "context_length": 128000,
@@ -1219,16 +1187,16 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4-0314",
-      "name": "OpenAI: GPT-4 (older v0314)",
+      "id": "openai/gpt-4",
+      "name": "OpenAI: GPT-4",
       "price_1m_input": 30,
       "price_1m_output": 60,
       "context_length": 8191,
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4",
-      "name": "OpenAI: GPT-4",
+      "id": "openai/gpt-4-0314",
+      "name": "OpenAI: GPT-4 (older v0314)",
       "price_1m_input": 30,
       "price_1m_output": 60,
       "context_length": 8191,
