@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-01T07:08:20.706Z",
+  "last_updated": "2026-06-02T06:48:42.232Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -171,6 +171,14 @@
       "top_provider": true
     },
     {
+      "id": "deepseek/deepseek-chat",
+      "name": "DeepSeek: DeepSeek V3",
+      "price_1m_input": 0.2,
+      "price_1m_output": 0.8,
+      "context_length": 131072,
+      "top_provider": true
+    },
+    {
       "id": "deepseek/deepseek-chat-v3.1",
       "name": "DeepSeek: DeepSeek V3.1",
       "price_1m_input": 0.21,
@@ -179,18 +187,10 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-chat",
-      "name": "DeepSeek: DeepSeek V3",
-      "price_1m_input": 0.23,
-      "price_1m_output": 0.91,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
       "id": "deepseek/deepseek-v3.2",
       "name": "DeepSeek: DeepSeek V3.2",
-      "price_1m_input": 0.25,
-      "price_1m_output": 0.38,
+      "price_1m_input": 0.23,
+      "price_1m_output": 0.34,
       "context_length": 131072,
       "top_provider": true
     },
@@ -291,14 +291,6 @@
       "top_provider": true
     },
     {
-      "id": "google/gemini-2.0-flash-lite-001",
-      "name": "Google: Gemini 2.0 Flash Lite",
-      "price_1m_input": 0.08,
-      "price_1m_output": 0.3,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
       "id": "google/gemini-2.5-flash-lite-preview-09-2025",
       "name": "Google: Gemini 2.5 Flash Lite Preview 09-2025",
       "price_1m_input": 0.1,
@@ -309,14 +301,6 @@
     {
       "id": "google/gemini-2.5-flash-lite",
       "name": "Google: Gemini 2.5 Flash Lite",
-      "price_1m_input": 0.1,
-      "price_1m_output": 0.4,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
-      "id": "google/gemini-2.0-flash-001",
-      "name": "Google: Gemini 2.0 Flash",
       "price_1m_input": 0.1,
       "price_1m_output": 0.4,
       "context_length": 1048576,
@@ -1219,6 +1203,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+      "price_1m_input": 0.04,
+      "price_1m_output": 0.17,
+      "context_length": 131072,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen-2.5-7b-instruct",
       "name": "Qwen: Qwen2.5 7B Instruct",
       "price_1m_input": 0.04,
@@ -1287,14 +1279,6 @@
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
       "price_1m_input": 0.09,
       "price_1m_output": 1.1,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-30b-a3b-instruct-2507",
-      "name": "Qwen: Qwen3 30B A3B Instruct 2507",
-      "price_1m_input": 0.09,
-      "price_1m_output": 0.3,
       "context_length": 262144,
       "top_provider": true
     },
