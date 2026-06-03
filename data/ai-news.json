@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-06-02T12:39:27.350Z",
+  "last_updated": "2026-06-03T13:14:51.968Z",
   "news": [
+    {
+      "title": "모든 역할, 도구, 워크플로를 위한 Codex",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51T1VESmRodWxGS1NIZlkzd01nS3BoVjRqVHprVkt2ejlZbGpZX0doWVgzNDJZOU5mWWlIemdIVVF5c21KZkVjMVBoM29sX1h0S0ZxdFZMYXMxREw3N3NCUkpvV3ZEa1hPNERtUGttNU14OVJK?oc=5",
+      "source": "OpenAI",
+      "date": "Tue, 02 Jun 2026 22:11:34 GMT"
+    },
+    {
+      "title": "제주도, 도내 기업 인공지능(AI) 기술 도입 본격화",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBELXVCblJSSFNfcVdHWjdqNFpSQmo4ZzB5UU02UkFzNjRsZzhvQnZWMXRORTlHeFFwTThqeGw4YmxndEM4NlZvZ2RNWkoyZHFaLVZiNExHcVhkXy1ZcmpyaC1aV2ZDN2V5T2lQcQ?oc=5",
+      "source": "뉴스N제주",
+      "date": "Tue, 02 Jun 2026 16:03:44 GMT"
+    },
     {
       "title": "인공지능 등장으로 회사 풍경이 바뀌었어요",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcGxhcklpRnd4QlZZdExXdXlEWEtJb1FrVko0WmpZRFBTYTI2UkJSaDdoOVdrNExpN1dTR2dlTXdVMzNjWFNhMUZpSUQzb1I3SDdqTnMyMHlQQWlZY1JrVGc0SFVlcEx3Q2cyWC1taE5UeFdhNVZkZXBqYlJUb2lBNERQdkZFck1Cd3N0MUd6eGNlbHpX?oc=5",
@@ -29,7 +41,7 @@
       "title": "AI가 119 신고 접수…일상 속 인공지능 확대",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5sVy03MkdpclR4ZG41UzllZHVmRjQwbElfT0c2c1lDbTNlVnZCLVdiS1ZFVHFkamZ1RkxyZGJKV3pQeDZpb29tQWt1bEFsWGc?oc=5",
       "source": "v.daum.net",
-      "date": "Tue, 02 Jun 2026 00:35:00 GMT"
+      "date": "Tue, 02 Jun 2026 00:35:41 GMT"
     },
     {
       "title": "플로리다주, 오픈AI·샘 올트먼 제소",
@@ -50,28 +62,16 @@
       "date": "Mon, 01 Jun 2026 04:08:00 GMT"
     },
     {
+      "title": "특징주, 오픈베이스-지능형로봇/인공지능(AI) 테마 상승세에 5.31% ↑",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hVEo2UFpwLW9YQzIzOW1IV2k2bFJ5LXZXdzJsUmpsdXRwMFFIYndSRlNrNjVISEFDcU9FSEZYcWdSWnd1RC1pWDNRdUNneEJ3UkE?oc=5",
+      "source": "매일경제 마켓",
+      "date": "Mon, 01 Jun 2026 00:34:55 GMT"
+    },
+    {
       "title": "인공지능(AI) 기술 기반 ‘차세대 항암 신약 후보물질’ 발굴",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VMWF4MGtNbUpHZlh1alUtUjR5eWVEejJxRDBlWWNOUVVNMlViUWdrV1ZfdVQtaFlNbXpMaEJ4X2RXZ1ktRlRvZXk2RjVNUlFVT1d4SjRxYWhWa3JhSlVFMktzM0NoZFhKV2k3RUFJX3NkU3pW?oc=5",
       "source": "데일리메디",
       "date": "Sun, 31 May 2026 20:40:00 GMT"
-    },
-    {
-      "title": "인공지능(AI) 기반의 지식재산 데이터 분석 체계… ‘지식재산정보 분석플랫폼(IPOP)’ 구축 착수",
-      "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxOdE9hMjJoTUpQUFNqdHgzdVl6bmk0WTJqWkNlTmtwdTNoWWxmNWlDZ19tN25HQWtFMWFOdnRIa3BKQkNPQUdVVU1pOFYxOFNMTzNJMHdXTXRQZzY5MnkwbF9hUmN2V0tTOWJ1ejZJZ09mclRoY3h2VGIwZTk3dW5DRVVjcE9hdTJSMmhoS2VpcXEwajFHUlVQNVgzMmwzb2V3enlQQWxTcG1XVnlkaGJqdEF3ZmFSYlNoWF9ybDA3YkFMUGxwU3EzWHpCU0RPTERxbm84Vzg2NHlkRXpNRENJLUdDZFU3Q2tXbGJ2VkRST2JCWi1iaTN1M09vUUdJSHItaTNBLUZZQm5rakZBaE0wUVBwRnhHQms4ckJjUWQzZGRhRXBSOF90bm12dzN4YmxCOGpPTEg1R3FCTjZPRVNNYzlpQ3hKdGl0X2dCbDRyTkpUNDZ5NW9qQjBhcFJWeFU?oc=5",
-      "source": "IPDaily",
-      "date": "Sat, 30 May 2026 07:30:00 GMT"
-    },
-    {
-      "title": "교육부, 2학기 인공지능(AI) 학업장려 학자금 대출",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3VmVjbTIwMG41aWZoaXNXMHlmcjhac1hGWGlJWVVUVkRvWlhZX0pzOGUxSF9KZVpHeUtyT2MxOTNLZjY1RHVSOUNyZjlxbThqWUlSa2xLZ0MyUTZXWS1oQ1lmSUhhODBVSVBTajZUQQ?oc=5",
-      "source": "미디어생활",
-      "date": "Fri, 29 May 2026 00:43:38 GMT"
-    },
-    {
-      "title": "\"생성형 AI, 한 번 쓰면 하루 50분\"…국민 10명 중 4명 이용",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5UTEZUd29JeHQtT2V6emJNQTFyLUVUUWllaWg2Z2daTVhEbWozYmQyWEtONjBMd2FLc0hZN1Jmei1CZl9nb2xQV2FqWi1wQjQ?oc=5",
-      "source": "v.daum.net",
-      "date": "Thu, 28 May 2026 06:58:00 GMT"
     }
   ]
 }
