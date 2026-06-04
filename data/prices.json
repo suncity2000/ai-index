@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03T07:00:20.289Z",
+  "last_updated": "2026-06-04T06:49:43.867Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -1171,14 +1171,6 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4-0314",
-      "name": "OpenAI: GPT-4 (older v0314)",
-      "price_1m_input": 30,
-      "price_1m_output": 60,
-      "context_length": 8191,
-      "top_provider": true
-    },
-    {
       "id": "openai/gpt-4",
       "name": "OpenAI: GPT-4",
       "price_1m_input": 30,
@@ -1504,6 +1496,14 @@
       "price_1m_input": 0.39,
       "price_1m_output": 2.34,
       "context_length": 262144,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3.7-plus",
+      "name": "Qwen: Qwen3.7 Plus",
+      "price_1m_input": 0.4,
+      "price_1m_output": 1.6,
+      "context_length": 1000000,
       "top_provider": true
     },
     {
