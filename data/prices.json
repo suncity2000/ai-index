@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-04T06:49:43.867Z",
+  "last_updated": "2026-06-05T06:38:38.457Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -430,7 +430,7 @@
       "id": "meta-llama/llama-3.1-8b-instruct",
       "name": "Meta: Llama 3.1 8B Instruct",
       "price_1m_input": 0.02,
-      "price_1m_output": 0.05,
+      "price_1m_output": 0.03,
       "context_length": 131072,
       "top_provider": true
     },
@@ -1195,18 +1195,18 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3-30b-a3b-instruct-2507",
-      "name": "Qwen: Qwen3 30B A3B Instruct 2507",
-      "price_1m_input": 0.04,
-      "price_1m_output": 0.17,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen-2.5-7b-instruct",
       "name": "Qwen: Qwen2.5 7B Instruct",
       "price_1m_input": 0.04,
       "price_1m_output": 0.1,
+      "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+      "price_1m_input": 0.05,
+      "price_1m_output": 0.19,
       "context_length": 131072,
       "top_provider": true
     },
