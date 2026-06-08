@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-07T06:37:12.180Z",
+  "last_updated": "2026-06-08T06:52:51.653Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -253,16 +253,16 @@
     {
       "id": "google/gemma-3-4b-it",
       "name": "Google: Gemma 3 4B",
-      "price_1m_input": 0.04,
-      "price_1m_output": 0.08,
+      "price_1m_input": 0.05,
+      "price_1m_output": 0.1,
       "context_length": 131072,
       "top_provider": true
     },
     {
       "id": "google/gemma-3-12b-it",
       "name": "Google: Gemma 3 12B",
-      "price_1m_input": 0.04,
-      "price_1m_output": 0.13,
+      "price_1m_input": 0.05,
+      "price_1m_output": 0.15,
       "context_length": 131072,
       "top_provider": true
     },
@@ -453,7 +453,7 @@
     {
       "id": "meta-llama/llama-4-scout",
       "name": "Meta: Llama 4 Scout",
-      "price_1m_input": 0.08,
+      "price_1m_input": 0.1,
       "price_1m_output": 0.3,
       "context_length": 10000000,
       "top_provider": true
@@ -493,8 +493,8 @@
     {
       "id": "meta-llama/llama-3.2-11b-vision-instruct",
       "name": "Meta: Llama 3.2 11B Vision Instruct",
-      "price_1m_input": 0.25,
-      "price_1m_output": 0.25,
+      "price_1m_input": 0.35,
+      "price_1m_output": 0.35,
       "context_length": 131072,
       "top_provider": true
     },
@@ -1179,14 +1179,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3.5-9b",
-      "name": "Qwen: Qwen3.5-9B",
-      "price_1m_input": 0.04,
-      "price_1m_output": 0.15,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen-2.5-7b-instruct",
       "name": "Qwen: Qwen2.5 7B Instruct",
       "price_1m_input": 0.04,
@@ -1227,14 +1219,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3-235b-a22b-2507",
-      "name": "Qwen: Qwen3 235B A22B Instruct 2507",
-      "price_1m_input": 0.07,
-      "price_1m_output": 0.1,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3-vl-8b-instruct",
       "name": "Qwen: Qwen3 VL 8B Instruct",
       "price_1m_input": 0.08,
@@ -1267,11 +1251,19 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3-30b-a3b",
-      "name": "Qwen: Qwen3 30B A3B",
+      "id": "qwen/qwen3-235b-a22b-2507",
+      "name": "Qwen: Qwen3 235B A22B Instruct 2507",
       "price_1m_input": 0.09,
-      "price_1m_output": 0.45,
-      "context_length": 131072,
+      "price_1m_output": 0.1,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3.5-9b",
+      "name": "Qwen: Qwen3.5-9B",
+      "price_1m_input": 0.1,
+      "price_1m_output": 0.15,
+      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1320,6 +1312,14 @@
       "price_1m_input": 0.12,
       "price_1m_output": 1.37,
       "context_length": 256000,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3-30b-a3b",
+      "name": "Qwen: Qwen3 30B A3B",
+      "price_1m_input": 0.12,
+      "price_1m_output": 0.5,
+      "context_length": 131072,
       "top_provider": true
     },
     {
