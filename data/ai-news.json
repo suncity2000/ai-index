@@ -1,9 +1,45 @@
 {
-  "last_updated": "2026-06-07T11:07:39.798Z",
+  "last_updated": "2026-06-08T13:05:10.116Z",
   "news": [
     {
+      "title": "“생성형 AI 확산 고려해 AI 모델 개념 별도 정립해야”",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9tTGJ2QU12eld1YzdxYTVXSmtjNlJwbkRkamFzMl8zcEhjV285emEtblBYVjBjN25tbEZLTExObDkzREstM1NSV1JSLWNaU3ZjMmZ1LTl0cnpDanhLVG9fRkgyZTNPeUFpU1R2U0RGaVhUZ9IBckFVX3lxTE9tTGJ2QU12eld1YzdxYTVXSmtjNlJwbkRkamFzMl8zcEhjV285emEtblBYVjBjN25tbEZLTExObDkzREstM1NSV1JSLWNaU3ZjMmZ1LTl0cnpDanhLVG9fRkgyZTNPeUFpU1R2U0RGaVhUZw?oc=5",
+      "source": "법률신문",
+      "date": "Mon, 08 Jun 2026 10:59:32 GMT"
+    },
+    {
+      "title": "OpenAI는 ChatGPT를 슈퍼 앱으로 \"개편\"할 계획입니다.",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdHZrSGxvTzQ2dVliM1JkYVQxVEk0ODVRc0NCbFBnaHllN0VuSmQyMG45YW1JTnVvaWRQNE5GdXltRWpJR1VtSmQ2c0x4aTNVc1RuUDVzWkNQVVRwM3hQZ2dvYlBLNVBIRFQxaW1oRXVhRFhyeThLY2JkdGdGMnRxdHFpb2p4VTQ?oc=5",
+      "source": "Vietnam.vn",
+      "date": "Mon, 08 Jun 2026 10:10:01 GMT"
+    },
+    {
+      "title": "단국대 \"인공지능·데이터 기반 연구혁신 본격화\"",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5uSjAxQWlMSWVnelRob1lKOVJFdjU3WWdCdWhhTFZhaE50Rzd4LXJVNnlMcWJOdV9leEdjUTlNTjNKUWpzX0dOYnk0MlZOc01wUWZzaDQ3SW1vMU1fNU00VdIBYEFVX3lxTE5uSjAxQWlMSWVnelRob1lKOVJFdjU3WWdCdWhhTFZhaE50Rzd4LXJVNnlMcWJOdV9leEdjUTlNTjNKUWpzX0dOYnk0MlZOc01wUWZzaDQ3SW1vMU1fNU00VQ?oc=5",
+      "source": "연합뉴스",
+      "date": "Mon, 08 Jun 2026 01:44:38 GMT"
+    },
+    {
+      "title": "오픈AI ‘ChatGPT 락다운 모드’ 공개… 기업용 보안 위해 브라우징·에이전트 차단",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9mSVQ1MnRiTU1pR2E2YkhvbENKSENxQ0dSVUJyXzB2VFFXejA2LTFYR2p1U2RxNlBSU29pWFBmWmsxZzk4M1hJNUlhalNLa0h1bkF1OQ?oc=5",
+      "source": "AI 매터스",
+      "date": "Mon, 08 Jun 2026 01:06:59 GMT"
+    },
+    {
+      "title": "진료보조 넘어 ‘영상 판독·소견서 작성’ 인공지능(AI)",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE96ZFIxT1g0cXgydE5pRWVoZWpoWlhmYjRKa2FQbkR4UndQbEdNYjdXd1laSU52N0lPajFBUkZiLTBIalBfRVA1VDBCSDFjVllWQ3FSM1FQS1VJaVhBVFUxUUI5S2ZyRzItdEM5UVoyal9Wc2tLRndz?oc=5",
+      "source": "데일리메디",
+      "date": "Sun, 07 Jun 2026 20:32:00 GMT"
+    },
+    {
+      "title": "AI가 지워버린 게 문제다 [세상읽기]",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0wa2tNbGhyZ3hjUzZmVmo0Q2NJQUpBM01vT1dPZk40UTZhM2NLZVhKa01FaTdKNTNrYXlnVTdrS1ZqbXRxN3VtajVOYnhhQUxPcjZZZGd1MXhiWXZHUUFIX2RWRUY0UQ?oc=5",
+      "source": "한겨레",
+      "date": "Sun, 07 Jun 2026 10:35:00 GMT"
+    },
+    {
       "title": "충북도, 바이오 공장에 인공지능 심는다… ‘제조 AI’ 전격 도입",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE41eXVKSmdydUl0OFVzWnNuWGdkWk1iRkQ2bGtVdXkxeGtYeFQyQ2lwREhPYXRoYWRidEEyWjR6eU5GallBMjM4VDh2OEhYWWs?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1NY2hRckNaOWNYWmZRRXdLaGI0QlZiT2d4UTVhUklkeGlUOFktWjBrU2k0VDdSYWFGOWxfWGE0U2owSUlEUHRuTmNNWXpUaWp2UGRfWQ?oc=5",
       "source": "v.daum.net",
       "date": "Sun, 07 Jun 2026 09:09:36 GMT"
     },
@@ -14,64 +50,28 @@
       "date": "Sun, 07 Jun 2026 08:42:56 GMT"
     },
     {
+      "title": "국토장관, 中 수소 현장 방문…새만금 수소·인공지능(AI) 거점 구상 - 조선비즈",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMkZaTE9vemFxZFJxMVc0enB0UzdaVkVoREVsQVR2aUNfS1hZSUNueHFEeG9Da1BOSGN2bGhFaUVTQ2VvQUtqRU9DX0dEOHVPclprWHRXcnl4ajFFMEx4dEVNZ3RkZGMzelVKYllsU0RtNnZoN1NyeG1hc0FvdWoyNndxMzF4MjVIZlFCQWdSWHhmdElyM1o3WtIBrAFBVV95cUxQMTI1c2xGZHhMeEJTdWJnMFpENG1MY3MzZlFiSjJ0LVppLXJxaTh2a2ZBckswZnV1bGpQcWNHMmRzbW5IVWpDeEpkSHNobzBsZG9BeVctT3pCVkVrLTVjSy05NWZRQVBYc0dENmF2QkZfYUtyZF9CZ1BEeENLa2pyT2N3eENvVEtkS3EzbHBTWXJ3LTFtSnNZeEZYcWdnWlI1UDBxblc4RFVHMzYx?oc=5",
+      "source": "Chosunbiz",
+      "date": "Sun, 07 Jun 2026 02:21:00 GMT"
+    },
+    {
       "title": "교황청, 인공지능(AI)과 노동에 있어서 인간의 존엄성과 공동선이 지켜져야 한다.",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaWVaVzJZeDdMMlFVRzI1a0ZoeVlPY0ppV0drMHBBU3VoT3FWekZ1V0ZvNG1wVzZnZ09GVUJXdGpJQzNRTmxIMEV3anlLa3Y4WlBrN1B3YVMwSGluYk5Rck1OdjFnUHBKTnphMm5uZFFxay1qYnBTZTNvN29kcnBzQWpVb1E?oc=5",
       "source": "Vatican News",
       "date": "Sat, 06 Jun 2026 13:57:59 GMT"
     },
     {
-      "title": "“AI가 로스쿨 교수 답보다 낫다”",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TWC0wcmN4T2kwdFNGV1RBMEFCb04yUXpOa3NpLTlodHdXZmM3dzR5TFNGczUycWd2akhwbFVHejByZkVYVW1FTXpOSVBmVmZHelhpWm9BSC1YazJzeURydlBUd19GUEg2dWQ5b0Zn0gFyQVVfeXFMUFNyTUhYSG1lNHpNWGJGNzFsUlozendsb1B6UnMtMUhGT3J4c0FyYy0yQnJxR1VMdmVJUnpOQ3VaT3hzR0RGZGFCaDVhZFhGX0J4dVFqNk9IQ0VuRGpROFRmOXlpVjA1ZDZrdUNJWGd4VHhR?oc=5",
-      "source": "법률신문",
-      "date": "Fri, 05 Jun 2026 20:00:00 GMT"
-    },
-    {
       "title": "한은 \"생성형 AI 쓰면 시간 절감…생산 증가는 아직\"",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xcDdXQTlaZDluMk5RNnZuRHE1elNWem9HVWYxUXVMNFl1UnVhaF9XMTV0d2h0ZDhyaklxQXVkZmFWaTNLVVNwd0VJaWtZd0ZVOHR1dUlwclNjZDDSAWBBVV95cUxNY0prRWgxUnRwNVY2YmNPNXNDMXlFeG9DeTZVMGpUVEZFRDZ5TU9xcXBITFh5RUEtMzdFd3hBQVNvVkx4SnhWRTlSaHZqSEtfenpLeEo0YnRoSVluQ25BUUY?oc=5",
       "source": "연합뉴스",
-      "date": "Fri, 05 Jun 2026 14:18:00 GMT"
+      "date": "Fri, 05 Jun 2026 14:20:00 GMT"
     },
     {
-      "title": "오픈AI, 챗GPT 메모리 강화…'드리밍' 시스템 무료 사용자도 지원",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80S0NrNUlHNExkdS1PbHdrOWFucFNrTk1rWXdnT3l1OXFIVEZkQm53M1N3a3RzRHFSalZUOTRKMXdnNzlMTHF2V2xrc1Bsa0w1X1JJZmh6emotNGFYQ3RRWG9yNHA5Nzg2LVE?oc=5",
-      "source": "AI타임스",
-      "date": "Fri, 05 Jun 2026 03:58:30 GMT"
-    },
-    {
-      "title": "메디아나-퓨리오사AI 협력…의료 인공지능 확대",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MLUFVVDFYcnl4Y3BTUm1HbmlqajMyNWNwcGpLNW1oNXZqX01NOWlJTUtWY1p1OXRHazVCQmx0NXFPaUdEUFZsSzItN1FydnhiZGNQLUkxN1FvZDZEekExU1M5U2VOdlNv?oc=5",
-      "source": "데일리메디",
-      "date": "Fri, 05 Jun 2026 02:51:00 GMT"
-    },
-    {
-      "title": "인공지능(AI)을 활용한 맞춤형 교육: 현대 교육의 방향.",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQkFIQi0tck5HZC1JRzJCQjhwSkd3aTZnOVFDel9GVS0yTndMdXJUbEtaVF9sLXdQM2sxZ3YyUm03dzA2bHVZX2pzLXZvZlFDcGxzeWV1ekpFQ3padEpmWV92cnZvT2JvcjBocmpid1ZQNENNTExpVzlQS0NFU0dRVDV5YUY1VFNiMEF6RFFtNGVfUFY1SjV6c2lSRXlxU3RRbnFwM2tqRXgtb1dl?oc=5",
-      "source": "Vietnam.vn",
-      "date": "Fri, 05 Jun 2026 01:47:35 GMT"
-    },
-    {
-      "title": "\"트럼프 행정부, 오픈AI 등 인공지능 기업 지분 확보 검토\"",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4xOVp1bTcySkNxX0hOSndsUzNvUFZxanRjd214dGtPZkNPWHBHRU5DMGtZQ3gzUVppQWNGR2hJOEh2YXo3bDVpLXhDSlBfTllEREgzbTVWTVMxZW9ISEpnVGJvQlhpWXM?oc=5",
-      "source": "연합뉴스TV",
-      "date": "Fri, 05 Jun 2026 01:12:51 GMT"
-    },
-    {
-      "title": "인공지능 ‘인프라 경쟁’ 제국주의 팽창 닮은 꼴… AI 미래, 우리 선택은?[홍성욱의 과학기술과 사회]",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5EODRmYmptQ0p6eU45OHQxNDE1U2NiZW5pNnQ1WEFxdEstWDl1WHEyTW1CanBzVEhhQUMwTU4xWXFmMklkLU8zbnNqR2tURmlY?oc=5",
-      "source": "문화일보",
-      "date": "Fri, 05 Jun 2026 00:24:15 GMT"
-    },
-    {
-      "title": "INSS 이슈리포트 '인공지능(AI)과 고귀한 인류 그리고 민주주의' 오일석",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1zdUItdldiZUVjcWdlV0t4LWJrOEZ0MXJSWlhkbzhNd3ljVjdvV1Rzay1JNFlqYkxDaEpub00tZUxscHl3ZGFoRjhyWTV2dlVheHlCRGxvNXlHZ1RETTFkVWZXUjBlaWRKMmdV?oc=5",
-      "source": "SPN 서울평양뉴스",
-      "date": "Thu, 04 Jun 2026 22:01:21 GMT"
-    },
-    {
-      "title": "생성형AI 이용자 10명중 7명은 챗GPT… 검색은 네이버·메신저는 카카오톡",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQV0RDbEpSaU1nT3dfdjFrMHRRYVB5eHZJUnVFUU50OFp1eFJZbHVCSjk5OEMzMV8tNVhyQmpUUngwTF9PRjdnc0k1SUhhRmE5MWhJX2VZWVgxSmlXTC0wZ2lpVDQwTG1aMjlrVVJFcXLSAXRBVV95cUxNcFhORW5hUkt2V1gxMDVnTm9pd3FadF90RTdYTFR3YlUwNl8wSElNZUtPdms0by1oX0pLZTkyNUJvakpuRUJtd1FnLURtY2xwN1U2cGt2TjVsd2RVcExDbVUyQmJRZFdEVFpkUC1PUDZVMEROUw?oc=5",
-      "source": "IT조선",
-      "date": "Wed, 03 Jun 2026 06:02:44 GMT"
+      "title": "축산물품질평가원, 인공지능(AI) 기반 소 ‘이력제 신고 앱’ 현장 실증",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BT0p6WTQ5V212OGY5dmRoT1JUY2J3TjljNEdfUFlrYXhxWmtBUWtWY21PZUVmUEJmMWRTTDBHZ3VIWnlocmJ5ZFFlaFZ5RUpjTTEza1ZlWkpzcmxNMFhz?oc=5",
+      "source": "축산정보뉴스",
+      "date": "Fri, 05 Jun 2026 07:02:54 GMT"
     }
   ]
 }
