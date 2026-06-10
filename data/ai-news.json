@@ -1,6 +1,60 @@
 {
-  "last_updated": "2026-06-09T11:58:08.549Z",
+  "last_updated": "2026-06-10T12:18:33.909Z",
   "news": [
+    {
+      "title": "생성 AI 기반, '비대면 금융 상담' 보편화",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAtbWVESlhOR200ZHJMbGlNYnItTUVMWTJvRVBMR09XNXpiRVc1N3pXMFNTd29LcF9fWGNpeXBtZHpDLWo4a0d1RjhqNFp6Wnc4LU1wLUF0bTE1am9pbzV5SHdXZEJqRVF5NHI0TGlONng?oc=5",
+      "source": "애플경제",
+      "date": "Wed, 10 Jun 2026 09:38:15 GMT"
+    },
+    {
+      "title": "정신과 의사들, \"생성형 AI는 양날의 검…대체 아닌 보조 수단\"",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tek5NX0c1YUgxTG45Ukhjd2RWQkpPNHRxWlp3eUxPcEFRNUFValdzUUtLZERWcVNxVFYxNDhjQWdiZDNScUpabng4a2JvNGtBeGlSNA?oc=5",
+      "source": "동아사이언스",
+      "date": "Wed, 10 Jun 2026 07:58:00 GMT"
+    },
+    {
+      "title": "고려대 로스쿨, 24일 AI 시대 법교육 논의하는 첫 학술제 개최",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xMzY0OU5YdnJuSThuaTBuenkwTWpyTzF1WGV2dXhxdVp5TFdJMnBYeDgwakpwNk44LUlBZzFVX2l0Q2Q5dy1JTnQ3NE5ONGQ2QjZLbVBmcnRZWUNxWUF0S2JiVlE2Rm1Wd09XejZhR0JQd9IBckFVX3lxTE9xMzY0OU5YdnJuSThuaTBuenkwTWpyTzF1WGV2dXhxdVp5TFdJMnBYeDgwakpwNk44LUlBZzFVX2l0Q2Q5dy1JTnQ3NE5ONGQ2QjZLbVBmcnRZWUNxWUF0S2JiVlE2Rm1Wd09XejZhR0JQdw?oc=5",
+      "source": "법률신문",
+      "date": "Wed, 10 Jun 2026 04:15:18 GMT"
+    },
+    {
+      "title": "오픈AI IPO 신청, 사상 최대 규모의 상장 가능성",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmdDhTd2ZrR0JwalFsaDdpb2NtZi1uRm83MWdFbkVubW5JaVdVSVBrb042ZWJBei1kZWxUdTdRT2xFSDFpYjhPckFPU1hlNUg4cUtZa0Z2RlFfd3lodkRxQ0J0b3dBM3pz?oc=5",
+      "source": "뉴스타운",
+      "date": "Wed, 10 Jun 2026 03:07:48 GMT"
+    },
+    {
+      "title": "보건복지인재원 '의료 인공지능(AI) 공통역량과정' 온라인 콘텐츠 운영",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBIMXh2ZzJENHE2TlBpdm1qZXZGQ3NYOEpEaURpbjRiaVRqc1BGR0pGbjBnOWthVXh4bVlTSTZKQlpZeEhPNkRLOUx6UFBnUUpEaVo1MlVWUEYtNTlkakJLbEMzdkJFcGtsN1lzWQ?oc=5",
+      "source": "약사공론",
+      "date": "Wed, 10 Jun 2026 00:33:00 GMT"
+    },
+    {
+      "title": "챗GPT 개발 ‘오픈 AI’…비공개 ‘기업공개 (IPO)’ 신청",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBvZnFGWUVRSENVUU9BVFFLdUEwV1hqQWxFWmV0ZWQxSWpFTGp2ODRMcWJsS2FSLXdNaTloU1pYZEV1T3dqcUk4M3lYNnJSN2hI0gFTQVVfeXFMTjRyMkFDcDg1aEpCSDc2RjhuQzRTa2JIMzBYNDFhV3BfUEF3NnR4SmlLWVlSWU5WanNNbzV4aWw0N0hFMk1xbWw1dWdQWE5yNl9ZUXc?oc=5",
+      "source": "VOA 한국어 홈페이지",
+      "date": "Tue, 09 Jun 2026 20:56:46 GMT"
+    },
+    {
+      "title": "삼성, 인공지능 대전환 추진…사장단 첫 집중교육",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nQXNlQ3R4Y0JYM3BHcnZsUW4zckRpcnhHazMxVkhhb2FScWg5aks1SkZZdnNzZUNIbTRvNkJwbmF4R0NjQzFuR2FtUTFlNF9HUnl6Y3RwWVl6MEZMd215bNIBYEFVX3lxTE5nQXNlQ3R4Y0JYM3BHcnZsUW4zckRpcnhHazMxVkhhb2FScWg5aks1SkZZdnNzZUNIbTRvNkJwbmF4R0NjQzFuR2FtUTFlNF9HUnl6Y3RwWVl6MEZMd215bA?oc=5",
+      "source": "연합뉴스",
+      "date": "Tue, 09 Jun 2026 20:08:36 GMT"
+    },
+    {
+      "title": "[남영준 칼럼] 인공지능(AI)에 끈이라도 닿아야 돈이 된다",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fZ3JrMnpQYXgwYklIRWhYRXpaSm9iMEhiWUg3Q1NDWkViMGhRUUQ2aGUzalJZcll4MTh4TWFCdmdoVGdUSC1RME1LRzZocEJjMzdkanZGMmlPQ0tpRE1odHJNbkNhTUNVaTQxbg?oc=5",
+      "source": "페로타임즈",
+      "date": "Tue, 09 Jun 2026 18:00:00 GMT"
+    },
+    {
+      "title": "챗GPT·클로드…서울런 회원에 유료 AI 9종 무료 지원",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qcnNsdkxLSFNQYml0Y244VldSamZid3laUnNoSmlCeXJNbEppQjFNOVpVSDNXaXlJREM4U0xmc1pSdnBGT0diZm14Y2psZEphbFF1WTlLMUQ?oc=5",
+      "source": "서울특별시",
+      "date": "Tue, 09 Jun 2026 09:34:00 GMT"
+    },
     {
       "title": "강원영상위원회, ‘인공지능(AI) 영상콘텐츠 크리에이티브 데이’ 13일 개최",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9FQUpSd1lsWkN0ODQtODJYWnExQ2xId01GYV82dzZqWkdEUU11V1dhYTlCMzhUc0xDNjkwcFpsNDhBNC1FQVBnV1BOT2pQT1k?oc=5",
@@ -14,64 +68,10 @@
       "date": "Tue, 09 Jun 2026 07:04:42 GMT"
     },
     {
-      "title": "삼성, 전체 관계사 모든 업무에 AI 도입…대전환 나선다",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGYkgzTGNOQXlQd3Q4UHA5UW4yemVDekQtT3dnQmxFZ0VYWkRWUXpoal9IT0kwV1NQUmxWTmk1SnJla05LYjhLY29YeUZrZ1psQkd3aVNxUFB2UWVoamkzTNIBYEFVX3lxTFBGYkgzTGNOQXlQd3Q4UHA5UW4yemVDekQtT3dnQmxFZ0VYWkRWUXpoal9IT0kwV1NQUmxWTmk1SnJla05LYjhLY29YeUZrZ1psQkd3aVNxUFB2UWVoamkzTA?oc=5",
-      "source": "연합뉴스",
-      "date": "Tue, 09 Jun 2026 05:00:31 GMT"
-    },
-    {
-      "title": "“생성형 AI 광고성 답변 속지마세요”",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9TVGtIVU1TM3VkbmM0Mmhzc0w4T2pEdl9mQy1ULWN2WVU1LXY5aVVVajJOM2liZEplWE4yWFBWWGF6TjhoQ3pHWmtmd1VCZw?oc=5",
-      "source": "전자신문",
-      "date": "Tue, 09 Jun 2026 02:00:00 GMT"
-    },
-    {
-      "title": "무신사, 챗GPT 안으로 들어갔다…AI가 날씨·TPO 맞춰 코디 제안",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZbG02QS1JY1FpYzNDVlNzZmR5VV93T2VLS2xnTU5PeFJ2ZVhaUThQTl9pV3RjNnRvSVJXTGhmbDZPQXV4UllORFRnSXFBTkZjSkxpbA?oc=5",
-      "source": "v.daum.net",
-      "date": "Tue, 09 Jun 2026 01:06:56 GMT"
-    },
-    {
-      "title": "경기도, 인공지능(AI)으로 제작한 영화만 참가하는 인공지능 영화제 개최",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNT1hDeTdxZ2dxSTZOaTdyYjVwUWh1T0F4V2RzaXNtQWY4eUtVX2tmbXdKbm5yT1J4aTgzT2ZXaHFKVUdQY2staURvN1MtcEllZUJ3STRQcjN6Y0pzV1ZOdGVGT0M0bmhWMUJTLTlkUFhlaUtVU0VkVHJibi1aQ2pibzVsZ1JQRHNBUWtvbQ?oc=5",
-      "source": "경기도뉴스포털",
-      "date": "Mon, 08 Jun 2026 23:58:00 GMT"
-    },
-    {
-      "title": "오픈AI·앤트로픽·스페이스X IPO 시동...국내 ETF 판 흔드나",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5JeWh6aFB6aGVwRXd5R0pNMzZtUjZBZl9MSDFfd3Q4OWg5dU03Q2IyWllPZmppcURqRmtOUFgwV0RDWmVIaDhjaE5CbG5oTi1JMzdwQ0paLTBfdGxpdHNXckl0OGtlcENvRmFxaXZYWmExLTNZZXhJ0gF3QVVfeXFMTkl5aHpoUHpoZXBFd3lHSk0zNm1SNkFmX0xIMV93dDg5aDl1TTdDYjJaWU9mamlxRGpGa05QWDBXRENaZUhoOGNoTkJsbmhOLUkzN3BDSlotMF90bGl0c1dySXQ4a2VwQ29GYXFpdlhaYTEtM1lleEk?oc=5",
-      "source": "스트레이트뉴스",
-      "date": "Mon, 08 Jun 2026 23:21:21 GMT"
-    },
-    {
-      "title": "INSS 이슈 브리프 '인공지능(AI)과 고귀한 인류 그리고 민주주의' 오일석",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE43Ujg5a1NpN0VyTmNVUnVmdmVGak11ckttZHZpZl8tUGV3eEEwOUpHNHhCbjUySHlCWUoxeFkwRkVIVjFjQ3AxUzhOY3Q0RjJtMTdJY211bUVqNmVLeDgzVzdqa3RWYWlQbzBn?oc=5",
-      "source": "SPN 서울평양뉴스",
-      "date": "Mon, 08 Jun 2026 13:58:58 GMT"
-    },
-    {
-      "title": "“생성형 AI 확산 고려해 AI 모델 개념 별도 정립해야”",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9tTGJ2QU12eld1YzdxYTVXSmtjNlJwbkRkamFzMl8zcEhjV285emEtblBYVjBjN25tbEZLTExObDkzREstM1NSV1JSLWNaU3ZjMmZ1LTl0cnpDanhLVG9fRkgyZTNPeUFpU1R2U0RGaVhUZ9IBckFVX3lxTE9tTGJ2QU12eld1YzdxYTVXSmtjNlJwbkRkamFzMl8zcEhjV285emEtblBYVjBjN25tbEZLTExObDkzREstM1NSV1JSLWNaU3ZjMmZ1LTl0cnpDanhLVG9fRkgyZTNPeUFpU1R2U0RGaVhUZw?oc=5",
-      "source": "법률신문",
-      "date": "Mon, 08 Jun 2026 10:59:32 GMT"
-    },
-    {
-      "title": "전북대병원, 2026년 의료 인공지능(AI) 세미나 개최",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaFB0bXRHR0ltbDlPcnBkdmNmMEpOaFRiRFZLWmVDS3M2NFNBcV92ZnAtMWF0M3ZMMnlURmZnb1U1aVByYUlQem1KclFyWlozWVhUT0g5VVNBYklXaWhxSjYwdTJUc19QY2lBTmxyVDdBeGt5bEFpcmgyZFlxTXBmd25rRTNnaFE?oc=5",
-      "source": "전북도민일보",
-      "date": "Mon, 08 Jun 2026 07:34:27 GMT"
-    },
-    {
-      "title": "OpenAI는 ChatGPT를 AI \"슈퍼 앱\"으로 개발할 계획입니다.",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS1V0QW5sQlZmVnhleTd0dVRoWDRVRWx6c2NBY3B2ZUUyWFZRWnFVMU41RXNKWThXODlCcnFiaG1XYTc3UWZoSGpfU0hBcFpwQVQ3Vmt2ZHZXYlZES2RDeE9jWExhbWJodjVWR0pKMWhBQlYyYnpaaTRKUzdoTGt0VUtIV3ViZnAwT1FhQXZkVTk?oc=5",
-      "source": "Vietnam.vn",
-      "date": "Mon, 08 Jun 2026 03:34:52 GMT"
-    },
-    {
-      "title": "[게시판] AIA생명, 생성형 AI 기반 상담지원 플랫폼 'AICSR' 오픈",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zWXN6REtNSTBuWlBqSEozckM3ZEFEa1ZRdGh2MVdFMFdVZUQ5aDBtRUl1R2hsN2FuUFFXcFFnYWd3a3VUeUZtVXgtZ3hseHdaZnB1aUUtQWFmVTBCYWZ3Q9IBYEFVX3lxTE0zWXN6REtNSTBuWlBqSEozckM3ZEFEa1ZRdGh2MVdFMFdVZUQ5aDBtRUl1R2hsN2FuUFFXcFFnYWd3a3VUeUZtVXgtZ3hseHdaZnB1aUUtQWFmVTBCYWZ3Qw?oc=5",
-      "source": "연합뉴스",
-      "date": "Mon, 08 Jun 2026 00:32:42 GMT"
+      "title": "“이 트래픽이 악성이라 판단한 이유”, AI가 설명한다... KAIST 사이버보안연구센터-쿼드마이너 공동 연구",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1YZk50LWJxbDRkRncyWHpTaFRNUmRGVER5ZXdLSEx3N0J0RUxGREh3S0xDV3ozTmROcVpYMTRJSUNycDBEQXpaT1UzR3N5Vks4aFU0OWRSaURHQ2FQV2I1VA?oc=5",
+      "source": "보안뉴스",
+      "date": "Tue, 09 Jun 2026 06:28:00 GMT"
     }
   ]
 }
