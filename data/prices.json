@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-10T06:37:47.758Z",
+  "last_updated": "2026-06-11T06:56:51.915Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -175,7 +175,7 @@
       "name": "DeepSeek: DeepSeek V3 0324",
       "price_1m_input": 0.2,
       "price_1m_output": 0.77,
-      "context_length": 163840,
+      "context_length": 131072,
       "top_provider": true
     },
     {
@@ -1347,17 +1347,17 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3.6-35b-a3b",
-      "name": "Qwen: Qwen3.6 35B A3B",
+      "id": "qwen/qwen3.5-35b-a3b",
+      "name": "Qwen: Qwen3.5-35B-A3B",
       "price_1m_input": 0.14,
       "price_1m_output": 1,
       "context_length": 262144,
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3.5-35b-a3b",
-      "name": "Qwen: Qwen3.5-35B-A3B",
-      "price_1m_input": 0.14,
+      "id": "qwen/qwen3.6-35b-a3b",
+      "name": "Qwen: Qwen3.6 35B A3B",
+      "price_1m_input": 0.15,
       "price_1m_output": 1,
       "context_length": 262144,
       "top_provider": true
