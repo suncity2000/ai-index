@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T07:28:56.799Z",
+  "last_updated": "2026-06-16T07:34:34.262Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -165,8 +165,8 @@
     {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash",
-      "price_1m_input": 0.09,
-      "price_1m_output": 0.18,
+      "price_1m_input": 0.1,
+      "price_1m_output": 0.2,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -1486,8 +1486,8 @@
       "id": "qwen/qwen3.5-397b-a17b",
       "name": "Qwen: Qwen3.5 397B A17B",
       "price_1m_input": 0.39,
-      "price_1m_output": 2.34,
-      "context_length": 262144,
+      "price_1m_output": 2.45,
+      "context_length": 256000,
       "top_provider": true
     },
     {
@@ -1571,18 +1571,18 @@
       "top_provider": true
     },
     {
-      "id": "x-ai/grok-4.20",
-      "name": "xAI: Grok 4.20",
+      "id": "x-ai/grok-4.20-multi-agent",
+      "name": "xAI: Grok 4.20 Multi-Agent",
       "price_1m_input": 1.25,
       "price_1m_output": 2.5,
       "context_length": 2000000,
       "top_provider": true
     },
     {
-      "id": "x-ai/grok-4.20-multi-agent",
-      "name": "xAI: Grok 4.20 Multi-Agent",
-      "price_1m_input": 2,
-      "price_1m_output": 6,
+      "id": "x-ai/grok-4.20",
+      "name": "xAI: Grok 4.20",
+      "price_1m_input": 1.25,
+      "price_1m_output": 2.5,
       "context_length": 2000000,
       "top_provider": true
     }
