@@ -1,11 +1,23 @@
 {
-  "last_updated": "2026-06-15T15:12:47.105Z",
+  "last_updated": "2026-06-16T13:26:50.102Z",
   "news": [
+    {
+      "title": "카카오톡 채팅방에 들어온 오픈AI … 카카오, ‘ChatGPT 챗봇’ 전격 도입",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3OHpFTDBYZXNMVTVVRHBFUjhxWkdTUXpPZ1o2dk9ZZUQwcDJFM1QtdXhSeUd0ekRrVjFPV2hmSjE2c0pXZUpabG0wU1pGNHl4ajNVSDFUSTRaWGdCazkwdmN3bVp0YkZ1RmppZQ?oc=5",
+      "source": "워크투데이",
+      "date": "Tue, 16 Jun 2026 04:59:46 GMT"
+    },
     {
       "title": "인공지능(AI)과의 대화",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIRmVEQ00yYngwb3dGTk9RYm5IMEJMUmEtR0xhWGgxU2x2b1dBaFVLYXlzVklVMFh6WVdwa1BYc2dvRU9HdHRySmc4RXlSc3M?oc=5",
       "source": "v.daum.net",
-      "date": "Mon, 15 Jun 2026 08:47:34 GMT"
+      "date": "Mon, 15 Jun 2026 08:47:00 GMT"
+    },
+    {
+      "title": "울산시 2026년 인공지능(AI)디지털배움터 본격 운영",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mRFRBblBSRE1TbDRmNHM0VHdPbW5kdG9Pa0c1UHhLNDRCMGJ2bG9kUWF6ei1aWVptWmdyTGtUZkZUd0RVNXRQcVNxZThSTGdpVF9CVQ?oc=5",
+      "source": "v.daum.net",
+      "date": "Mon, 15 Jun 2026 05:59:20 GMT"
     },
     {
       "title": "울산시 시민 누구나 인공지능(AI)과 디지털 기술 배우는 교육 프로그램 마련",
@@ -26,34 +38,28 @@
       "date": "Mon, 15 Jun 2026 02:24:43 GMT"
     },
     {
-      "title": "피지컬 인공지능(AI) 대전환! 전북, 새만금입니다!",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5BejlieHU4NDVHS3lCVG9NbEF2a1hpTUE4UXQwOGl0RGNHWTlfdHp3X2VxS25BejgwNWQ2andibnFuUkFiRXZWQmVweWt6cmhDWUVyMFJvY05KRTRkNW9uaGx3OE9NTG1YRVZpaNIBcEFVX3lxTFBrZS1kVzRvc0Q2eF9xX3JGdmtrQ2pWcGJkcEFWTlVFSnllZnNtdldZLURNa2JxLWNVR2FFVGpMcmlFc21IdW5VRDFiamVMMXdlbl9VNWkxaDhTR1dVdzgxNXBNUWtlMG5fckk3R2taUjM?oc=5",
-      "source": "전라일보",
-      "date": "Mon, 15 Jun 2026 01:45:59 GMT"
-    },
-    {
       "title": "국민 10명 중 9명 생성형 AI 써봤다",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNclFNRlctX3BZd1NPaVFqc211Wm85bXhOYVd2dlpMUDZzSUExZGdnekRra2JwLV8zNHVma0l2MU9oYjZkMGhBemwxM1pvZlBzTXZzaHJDYWlpTGtBQWYxaWF2Qk9FNzNyelloMWc3TDJQakk3V3hBck1pUE1ybjQ5dlhLTkgwMTg2LVQ1N3hRTmUtRjhzRm05TENwTXFWNi11WFhxTGZ1TTduTV9yUmlsTFhYOXdRczB0a1NDQXJRNWRHeE0?oc=5",
       "source": "사이언스타임즈",
       "date": "Mon, 15 Jun 2026 01:06:26 GMT"
     },
     {
-      "title": "[창간 8주년] 인공지능(AI)이 보는 NK경제의 성향은?",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RQWg3S19VQlFBS2JKZmtoeGc0QWUzajR5YWRDMkx3MDRVX3piM3V5R1VGdHBEZWthU3h3Y1U4TWI3a29NM3R5SU5mOTJLdF92MmcyT0lqVjNERjlfVWhIaEJyMURiVDFQV1Jn0gFuQVVfeXFMTXk2c0FKeXM1UjNUdFhjQWNzWEpYNzl5alhWUE56NWRsVExwX1BkV3AtaDlmeVNOMlE0Qi1zYnJIZ3RqMWtfclF5TEFmUWpGWmIySjRtQS0wZ0xxQ202VUl4MDkwVHlISGhFb2tuU3c?oc=5",
+      "title": "[창간 8주년] 인공지능(AI)이 보는 NK경제의 브랜드 가치는 얼마일까?",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE84X1FYM0RURlZBZ3hfQm1NWGs2VUhINEszeUxidHlBdXpHXzB0LTJzaTBuQm5yam9kMEVOY3YwbkFwRHV3b0FvRzlxN3d6MGpBY1ZmMjhTdVZBM19Rc3RVd1J6M2tfZlZELWlv0gFuQVVfeXFMTkZ2WEhxeFA3ajhVWU9sZWhEemRMc21WSjdLdXJHcm5NUEVxZ2hBM1pGUFdFSjR6YnBQMWVUU2dEYUp1N2tjemlkTnpRZ1lzU0dMYjMwY0UtSUtvWjhtMGFoTXdVbldVRkFVNzRwY2c?oc=5",
       "source": "NK경제",
-      "date": "Sat, 13 Jun 2026 21:00:00 GMT"
-    },
-    {
-      "title": "[칼럼] 피지컬 인공지능(AI) 기반 신기술 도입, 수원시민 일상과 도시 현장을 체감하는 스마트도시로",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1IVm5wN3Q0Z2lFQlZreXljVW5FZVdKb3ZlWEt2ZmliWmJfckVVUDNZSGo4MjdRZG5aNnVnM1NKeEtnTDI4TVdB?oc=5",
-      "source": "정필",
-      "date": "Sat, 13 Jun 2026 08:42:00 GMT"
+      "date": "Sun, 14 Jun 2026 21:10:00 GMT"
     },
     {
       "title": "챗GPT·클로드…서울런 회원에 유료 AI 9종 무료 지원",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qcnNsdkxLSFNQYml0Y244VldSamZid3laUnNoSmlCeXJNbEppQjFNOVpVSDNXaXlJREM4U0xmc1pSdnBGT0diZm14Y2psZEphbFF1WTlLMUQ?oc=5",
-      "source": "내 손안에 서울",
-      "date": "Fri, 12 Jun 2026 11:04:26 GMT"
+      "source": "서울특별시",
+      "date": "Fri, 12 Jun 2026 07:52:02 GMT"
+    },
+    {
+      "title": "챗GPT 막았던 삼성, 생성형 AI 3종 전면 도입… AX 속도 낸다",
+      "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNa2Z6R2FZX0pfaXFOeU84Z1JfSzR0VkhsczdYRUl0d2swbW5IOXNLUVNPeVY1NDJPcEdVMURNaXJ4Z2xyZ25zVnF0MEZhQVFhMFZaeWZMMFVHQ1k4aC1rbzlTRWxVWlR6dUlXeEZ0WFhac0R2VDlQVGpzRU04MW9FeEdtbmFzYWZVbHNfcTVyS2lGN2hSVFoxbXBjeTYtd0hQMjd1a01DWVBfdERXT3VDdXNVUUVkUkJHX25YdzRvMkpoWWZPNTlyaDVzSm1JbzlFNk1RNHZLazZsQk5QMEJ6cUxuVG9OZ25rbHQ3SFN4RkRTQmZzNGJabk1jc2hkRHQ4S0dYTGRvTVoyR2ZHa09HTDRtcXhqcjFFbG5UaHhfcW5keDNYaUlQOXVQZVdKMmZWa3VkaS11aExPSEM0UzlaVEIzVHk0cXJ3R2Iw?oc=5",
+      "source": "cio.com",
+      "date": "Fri, 12 Jun 2026 07:39:34 GMT"
     },
     {
       "title": "챗GPT 결제 구조 악용한 카드 무단 도용…오픈AI \"환불 완료\"",
@@ -66,12 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TMGNqYXhFT2ZZZFJsRjBnd0JVVTE5bTJpVUxEaU5vbkFJX3ZkV1FfRUotYjVnWTJsVmZURks2dDJMN3lOWlBCYVB2SnJHOHdseEZmMlJ4UVYxV3ZEaTh6SnRvUU95UmFmUUxrak5ZdGtORGla0gF0QVVfeXFMT3ZyVnRCN1hEZ2ZENnlSdDhLOHZsTUN1OE9SQjVzckt2NVlzNU1XRWRxV0lfVVpjWVI1dEJPMWoyVDJraHFpSHJVNmM1OTE1c2FtTDlMNVB2NThFVGdGTlVuazhQbklEQjF2RXU5WDNnWFFGNDQ?oc=5",
       "source": "MBC 뉴스",
       "date": "Thu, 11 Jun 2026 02:27:00 GMT"
-    },
-    {
-      "title": "삼성전자, 업무 전반에 생성형 AI 도입…AX 본격화",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBBSGIxRE5BcGUxUm02X0JoV08zUlBJOHRpbnRLZlhTV1BUdk94WHAxOVhZSDBHcjdBWjNmU3VienNKQmdWRi04MGxEdmNBYlU?oc=5",
-      "source": "v.daum.net",
-      "date": "Wed, 10 Jun 2026 23:51:01 GMT"
     }
   ]
 }
