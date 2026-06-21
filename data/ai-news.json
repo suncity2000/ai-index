@@ -1,11 +1,23 @@
 {
-  "last_updated": "2026-06-20T11:16:17.054Z",
+  "last_updated": "2026-06-21T11:44:38.128Z",
   "news": [
     {
-      "title": "AI·법무·노무 등 분야별 실무 세미나",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA1LVl4UVA2aFUzN05iT1E0UFI4bTBuSlN3X2YtYlB4c244dUFnNjBvYlkxX19aMWtlVlU0R21rY3g4aDFKZGpxQzRpWEQ4SmhDeXFhdjBwVWdIVDB1NXNuaVdQa3RDbzF6VE5HY2VSSVNkUdIBckFVX3lxTFA1LVl4UVA2aFUzN05iT1E0UFI4bTBuSlN3X2YtYlB4c244dUFnNjBvYlkxX19aMWtlVlU0R21rY3g4aDFKZGpxQzRpWEQ4SmhDeXFhdjBwVWdIVDB1NXNuaVdQa3RDbzF6VE5HY2VSSVNkUQ?oc=5",
-      "source": "법률신문",
-      "date": "Fri, 19 Jun 2026 20:00:00 GMT"
+      "title": "[농진청] ‘인공지능(AI) 융합, 농업혁신의 날개를 달다’",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBlMkp5bUhlcFdrdm5HeEtvM0w5Q08yVnNCNTc2azE0ZDktV09pX0FlNXAtTGVRalEyckF3THVucXRHblJ3NDQ2T3E3cTE1X0wwY0dsYVUxV1NVQ0lNUVdWejlhWVNjcEQxb1VkeHNud0RDQQ?oc=5",
+      "source": "월간친환경",
+      "date": "Sun, 21 Jun 2026 11:11:43 GMT"
+    },
+    {
+      "title": "인공지능, 돼지 질병 예측부터 도축까지 맡는다…정부, 축산 현장 AI 전환 본격화",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB1UjFKMW9aaFR5RXFaTXBEZVEyS2g2YUF2UjRhVlUtU3FxNU03Y2REYTF6ODJJZWxEZTFxN3J4UnFvUU84LVVEOVZzS0k5ZVIzMUdFRGJIdks2aEVqZXF1OXV3?oc=5",
+      "source": "돼지와사람",
+      "date": "Sun, 21 Jun 2026 08:42:41 GMT"
+    },
+    {
+      "title": "전남대-마틸로AI, AI로 신약 후보물질 설계 혁신…\"스캐폴드 구조 반영한 생성형 AI 모델 개발\"",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9SaUZ2STcyY05MVkhtU2s0RjE0blRleDJ2TUJXMDNHdGxocllPMUFhYVoyMzFMaHY5Zk9nTmIzU0pxWDg1eUZJNFdBclNxN2dWSlFiOGVZOFcyZzczdmdaLUl5MnZmUW8?oc=5",
+      "source": "인공지능신문",
+      "date": "Sat, 20 Jun 2026 03:28:00 GMT"
     },
     {
       "title": "박완수 경남지사, 민선 9기 앞두고 '피지컬 AI' 제조혁신 점검",
@@ -14,15 +26,9 @@
       "date": "Fri, 19 Jun 2026 07:23:32 GMT"
     },
     {
-      "title": "식약처, 식품 민원 상담에 24시간 인공지능(AI) 시스템 전격 도입",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8tNXBHUHZEVFhXbkszQW9YNHk3aVZ1ellwT1NmT1JpNlhKOXpSV1ZLNXJXRWRnWWdVcTcxT2swcEZaSTB0VEtiU0VNZmVpSlhWQ0xJVGNpN1BMNTNYSUtIV2xYSDF2cHNtUEtF?oc=5",
-      "source": "라이센스뉴스",
-      "date": "Fri, 19 Jun 2026 07:07:50 GMT"
-    },
-    {
       "title": "'26년 인공지능(AI)·디지털 활용 과학탐구 활성화 지원 사업 추진",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmOHh1dHBLNVJ0SVctZ3RJd3BTSlBBNmNfQXhxUEtoeEh1d21SNjg3VmFtbTdseWplNEFCU1hiY0dfeGwxVkh4UVJrLXI0QTB4N0Rkd1hsMlY5Q3ZiOWE0?oc=5",
-      "source": "무진장뉴스i",
+      "source": "무진장인터넷뉴스",
       "date": "Fri, 19 Jun 2026 06:17:58 GMT"
     },
     {
@@ -44,10 +50,10 @@
       "date": "Fri, 19 Jun 2026 02:09:28 GMT"
     },
     {
-      "title": "베트남, 동남아 인공지능(AI) 도입률 2위 기록…美마이크로소프트",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91ZDFkTDVWR1ZmRktaVFVyQl9ZSjVCTWM1U2IwR2VJQVdvTmwxVlJMdnZISjR5UzM4aFUyUFU0Q2NrMVRXZnc1emlZLUhNVm9mOE9vX2JJTVZXenprSDN4dURyZFh6YzhMeEppTg?oc=5",
-      "source": "인사이드비나",
-      "date": "Fri, 19 Jun 2026 02:00:00 GMT"
+      "title": "경찰청, 국민･현장과 함께 치안 인공지능(AI) 서비스 만든다",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE85cVpSSkVZMkZrU2poQ09rNHlCdXl5djU5WUI2SWVaOHVqYXdJVHAtZzlSU3ZLek1fQkJ0SzVzOXZGSEJHVXNXdTlGS1pEQjlhN1M0dTJzcDRZWW15Rmp3YlNtRQ?oc=5",
+      "source": "리더스타임즈",
+      "date": "Thu, 18 Jun 2026 08:48:00 GMT"
     },
     {
       "title": "“AI 기본법 시행 원년, 법제 과제는”… 《인공지능법 연구》 출판 기념 세미나",
@@ -60,12 +66,6 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBSNzJjYkNTNl8xNmV2R0NseVU4YTNWaW0yNHlzZWRBSWVaejRMaFlsT19QNUIzc1FGQ3pjZFkzZjNFNU14eXQzekVMazF5OGNDeUdGYmRjeVVWOEhacmZ2SzJhSGVGRE95ZHc?oc=5",
       "source": "코리아타임뉴스",
       "date": "Thu, 18 Jun 2026 05:31:37 GMT"
-    },
-    {
-      "title": "한국, 인도네시아에 AI 슈퍼컴퓨터 구축…아세안 협력 결실",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JSk9qNmlZWVRKZHJNRDhJbEwwc21yNGRSRkJ6QXlmNnpaLV9ST1Y1YWRSVDRvNW02bVZUTFZJb29SUEk1bU91VDJfSVpUcktPSVpXdkpuanU5bUXSAWBBVV95cUxPRVRZbERwdmZFNS1DREJ3TEo1ZHBBcEJqWGNzb0w4RFRhMlJfMUdhbUk4cnh5cEdpam9nQkVMaXFqcXk5SEViZkFTTTVReXRfSVE4UFpQWUFyc0dQeWE4QWE?oc=5",
-      "source": "연합뉴스",
-      "date": "Thu, 18 Jun 2026 03:00:08 GMT"
     },
     {
       "title": "생성형 AI와 콘텐츠 산업의 법적 충돌 — 미국 주요 소송의 현황과 쟁점",
