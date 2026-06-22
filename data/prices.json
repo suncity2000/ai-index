@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21T06:57:34.168Z",
+  "last_updated": "2026-06-22T07:32:48.670Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -7,14 +7,6 @@
       "name": "Anthropic: Claude 3 Haiku",
       "price_1m_input": 0.25,
       "price_1m_output": 1.25,
-      "context_length": 200000,
-      "top_provider": true
-    },
-    {
-      "id": "anthropic/claude-3.5-haiku",
-      "name": "Anthropic: Claude 3.5 Haiku",
-      "price_1m_input": 0.8,
-      "price_1m_output": 4,
       "context_length": 200000,
       "top_provider": true
     },
