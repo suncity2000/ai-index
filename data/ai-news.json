@@ -1,11 +1,65 @@
 {
-  "last_updated": "2026-06-22T14:36:01.521Z",
+  "last_updated": "2026-06-23T12:04:23.797Z",
   "news": [
+    {
+      "title": "성남시, ‘기업 연계 인공지능(AI) 서비스기획자 양성과정’ 교육생 모집",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FN09aT1QwN1F6cDJKSUZmWjk5RmI0V2xFaERPRWFFdldSdWs5dnNBZ2V4Wi1DdkVUel9jdmpodjNwamNmcDF0ZHRKLUNOc29yNTAtQ093SjlDSEd0YnlEZ2dHTXJFd2tRVVd5UkNn?oc=5",
+      "source": "ilyoseoul.co.kr",
+      "date": "Tue, 23 Jun 2026 05:14:44 GMT"
+    },
+    {
+      "title": "ChatGPT와 함께 남극 횡단 사이클링 훈련하기",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBEc092dE5oM0ZLQmItc1hrcXItN1V0X21POWFoNmo1MktlbXZkMGYwQng4eEV3YzhxOHJUeUtPSkloNHNzM2t3Z21ZT3hoM0g2aUV4Mk5HSFFISURzMDZ1Sl90MHlJX3hW?oc=5",
+      "source": "OpenAI",
+      "date": "Tue, 23 Jun 2026 05:12:36 GMT"
+    },
+    {
+      "title": "'인공지능(AI)과 투자, 기업의 미래를 잇다'…수원시, 제12회 매홀벤처포럼 개최",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5HYW9ESzFVWmFGSFktWEVVSm5RM3RpM0FwakRyM2ZEUmcyRDBrc0dUcWlmZHBQUWNZVzBGZUptdWZ0cGRjRzdoYTNubm5nZUFlRENYQ3c3SdIBkAJBVV95cUxNME9wX29hRGx3YmtXWFA0ejVOY3R5Y2F0ZUctUkhZWHdxZ1J2YVh3TVljQkd2eEhsM2gtbFJTRllQX1pHbkZVeXA1aENBUFd0OTVvVkVpaFZDXzFlYzh4d21GUmhSN3BMZXFUdmdKS1U1T3FNUllKckxjOVAwOGRXaUhzTmt4amxaMWgzdFlfQUFyMl9aUDB5ZlNqRGRxcWVlaEdsZzBSQnJSc0VWRkY1emFBem9OVzJOY3oydVliZTNIdnZXcGR2WHRoRGxaajJnb3J3QnF1YzJNMTV6VlhjOGxYTzJFa3Z3WFMyUWV6TktpX3ZiWVBCNmNDU1phZjZ5bWplMmNnQlBvVmZRUUgtMQ?oc=5",
+      "source": "데일리안",
+      "date": "Tue, 23 Jun 2026 04:03:00 GMT"
+    },
+    {
+      "title": "부산시, 인공지능 기술 접목한 맞춤형 가이드 구축 및 원스톱 안내 서비스 추진",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE81cjd2QnREVmlqZFhndkUxdnJHTWdiZjZtQ3k1dEpaS21IWlpPcll4cVZkUUFpODlDVlRvSWl5MlZxMm5YUTJGWWVQbDRZanJWd3NEeFFUS0EtTUtPZE9ZZlNyaw?oc=5",
+      "source": "환경포커스",
+      "date": "Tue, 23 Jun 2026 02:03:04 GMT"
+    },
+    {
+      "title": "제논, '생성형AI 2.0' 고객 체험행사 개최",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5iM0ZEc2IxbTJXU2ZOa2Jxb1R0Ym8wd1A3MzVkMDNoZDF0WUtrU3lJNzZQMU96Yk4tRWd6clM5a3pFUHhCYUlfQUx1RFMtVXFjTTZnTV9EV0RUdHEtRzFhbnVBdXdKUQ?oc=5",
+      "source": "디일렉",
+      "date": "Tue, 23 Jun 2026 01:09:25 GMT"
+    },
+    {
+      "title": "세계 1위 앤트로픽의 인공지능(AI) 왜 두번 퇴출당했나[인사이트]",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBVRFR1aE9kWmhTQUw5WmhqUnk1MXcxVW1jRWVSbmZCREZZbzZSRWh6dkhXWkpWRkwtVmFvRlRoWFpHU0FIdnp3cmQtcThFZVM0WEZiNmNRU3pfdTJrU1NNaWthc1ZEMDBweHNsWnR1MGZOWV9fU1M0?oc=5",
+      "source": "서울신문",
+      "date": "Tue, 23 Jun 2026 00:44:24 GMT"
+    },
+    {
+      "title": "용인시 인공지능(AI) 결합 행정으로 주민편의 증진",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE14OWFzQnNwck9qVzlJdjVRRmpUcHJKSjhEb1lkZjdtbWNmRzh2V2p6NlNEd1B1T1c0cEhjaVR4YmtBYm9kbVo1ZkZyYmc2UzQ?oc=5",
+      "source": "v.daum.net",
+      "date": "Tue, 23 Jun 2026 00:30:38 GMT"
+    },
+    {
+      "title": "[뉴욕 증시] 인공지능(AI) 수익성 우려↑...뉴욕 3대 지수 혼조 마감",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90M2JpVmRROHhyU21WMlR5ajRVVk53ODM2eThWUzZObnNkeUdRM0JDSFpBM09DbjhneFhqWkM5bWJIUHdXbTY0VHNoZDdGaVZwYWtXYlpVMzZMRG1Nd1hpRWlmLWtRYkc4Mkt0QVRtQnM?oc=5",
+      "source": "한양경제",
+      "date": "Tue, 23 Jun 2026 00:00:07 GMT"
+    },
     {
       "title": "경북도, 대한민국 제조업 인공지능(AI) 전환과 자율제조 혁신 선도",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBIYXQteWNLRzkxcEZkbHdPaGhvemhSaFN6N3EwTEM4OXctRU9FVk1td2NLc0t4SWJ6SldIb21wWk1NU19pbTJ0N2dodGlMaGZNbmEtNnh4TGdjZ2prVWlacFZXOE8?oc=5",
       "source": "데일리대구경북뉴스",
       "date": "Mon, 22 Jun 2026 08:27:00 GMT"
+    },
+    {
+      "title": "울산교육청·경북대, AI 활용 학생 맞춤교육 공동연구 추진",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1CbWJQMWczajJOaHVPWGd3dkxUOURFbF9JSG9BUnV0X3lPSFYxUlZXSWlDQkRkWlBoTUVpOFhlbUc0b0xHS2lNdzdtbWJ2S2dlX0lmV3ZZMDJwNjFDNmhwctIBYEFVX3lxTE1CbWJQMWczajJOaHVPWGd3dkxUOURFbF9JSG9BUnV0X3lPSFYxUlZXSWlDQkRkWlBoTUVpOFhlbUc0b0xHS2lNdzdtbWJ2S2dlX0lmV3ZZMDJwNjFDNmhwcg?oc=5",
+      "source": "연합뉴스",
+      "date": "Mon, 22 Jun 2026 05:43:08 GMT"
     },
     {
       "title": "[화보] ‘인공지능(AI) 융합, 농업혁신의 날개를 달다’...농진청, 2026농업기술박람회",
@@ -14,64 +68,10 @@
       "date": "Mon, 22 Jun 2026 04:33:00 GMT"
     },
     {
-      "title": "[교육자의 책] '인공지능 학습혁명' 정제영 \"AI, 위협 아닌 본질을 비추는 거울로\"",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jQkZ5T2hxa2dHb0JPY0xlOUpJQ0pUb2pSY3B6WUJyMGJMWU16UUxoYjNrUFNsQ2R3SlNlVTFERHYydURlRnd1OVdsb1pnOGlZbEExWkxSTXJ2Qjg?oc=5",
-      "source": "더에듀",
-      "date": "Mon, 22 Jun 2026 04:03:34 GMT"
-    },
-    {
-      "title": "금융위원회 인공지능 가이드라인 발표에 따른 기업지배구조 변화",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE15aUY2UWRYVF93M3lXTnI2eER1cUUyMXQzRVpXWElXNmVmcGluS0Q3Y01melZ3WUd0RngwZnlwWmt6cUVFZHZGaUpiV3FwdE9jbkpjdDdyZ0tocXRRU3A0TXJlZnlZaVVTNHR4RlJHVHpRd9IBckFVX3lxTE15aUY2UWRYVF93M3lXTnI2eER1cUUyMXQzRVpXWElXNmVmcGluS0Q3Y01melZ3WUd0RngwZnlwWmt6cUVFZHZGaUpiV3FwdE9jbkpjdDdyZ0tocXRRU3A0TXJlZnlZaVVTNHR4RlJHVHpRdw?oc=5",
-      "source": "법률신문",
-      "date": "Mon, 22 Jun 2026 01:43:21 GMT"
-    },
-    {
-      "title": "다음 AI의 병목지점은 반도체 아니라 '여기' |",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ocWR2dU4zb0hnUlNBWnJTNUJ0a0RlSXRWLW15WGo5WGVmZ2hNckpKeHQtNnAzdkl1MEZqT2JCVTRob0RHbEw5TzhSY1hLZ2dLVTVNMmJ4b0NyOHF6MlNwdFE1Snh2OE9LcFR3empfbVN6Vjlr?oc=5",
-      "source": "연합인포맥스",
-      "date": "Mon, 22 Jun 2026 00:36:27 GMT"
-    },
-    {
-      "title": "부산시교육청, 인공지능·코딩 교육 프로그램 운영",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wcVhESG4wcnd1VGtJZlJUUFZwY2ZzS0JpaWNBclFjUkdJNU4wYlBHT2ZZTTVKbTFlWnBjOExIR1NtT2YxckE0ZFA1U0NrNUprbmdqWDEyUjc5UzlrSDhFUNIBYEFVX3lxTE8wcVhESG4wcnd1VGtJZlJUUFZwY2ZzS0JpaWNBclFjUkdJNU4wYlBHT2ZZTTVKbTFlWnBjOExIR1NtT2YxckE0ZFA1U0NrNUprbmdqWDEyUjc5UzlrSDhFUA?oc=5",
-      "source": "연합뉴스",
-      "date": "Sun, 21 Jun 2026 23:56:43 GMT"
-    },
-    {
-      "title": "[투데이춘추] 거대 지능의 역설: ‘닫기 버튼’ 하나가 드러낸 생성형 AI의 민낯",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8zREVEOWF5dXB2Y2VadVlOd1ZTanpZSVNXWXdZakxRM2I4ZlktQjh4NnJYOWRDUWpaTDJ2WXJWNTZXN0dWWFE?oc=5",
-      "source": "v.daum.net",
-      "date": "Sun, 21 Jun 2026 21:00:13 GMT"
-    },
-    {
       "title": "[해외 크리에이티브] 오픈AI, 건물 외벽을 캔버스로 바꾸다… 챗GPT 이미지로 구현한 착시 옥외광고 공개",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iZXI0allVQi1KQmF1Y2ptbTRHaEZwRDdIN0I1NnF6NHpNWENmVnVaRmhVV1NXdk0wWVV6emVEOEc4d3QzNXZiTDY2UnVmX0tFLXZCOFVqdnFCcUhnU2pKeGRzbEdHZlN5MzAxWQ?oc=5",
       "source": "매드타임스",
       "date": "Sun, 21 Jun 2026 15:00:00 GMT"
-    },
-    {
-      "title": "인공지능, 돼지 질병 예측부터 도축까지 맡는다…정부, 축산 현장 AI 전환 본격화",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB1UjFKMW9aaFR5RXFaTXBEZVEyS2g2YUF2UjRhVlUtU3FxNU03Y2REYTF6ODJJZWxEZTFxN3J4UnFvUU84LVVEOVZzS0k5ZVIzMUdFRGJIdks2aEVqZXF1OXV3?oc=5",
-      "source": "돼지와사람",
-      "date": "Sun, 21 Jun 2026 08:42:41 GMT"
-    },
-    {
-      "title": "AI 많이 쓸수록 손해…기업들, 생성형 AI 비용 통제 나서",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Fck00c0ExUWVFdWxEME5pR2puaE44dUUwTmpvOXhfQnRIQlMxVDA2V1puUU5QUTFJUHNNLVNvUm9aUTFXcWZZUlBUSF9wNnc2bHFUcGhTNExaUFB0UEpFYl9DZS1WSzVsWnJmYWh3QjXSAXRBVV95cUxOclZtcjAxdURRRDRzZ3RNc0xsRjIzOGpWZGVEeVYwZ2dESmV5cFdZS183RVBFdDB1Wlp4SGUzQ1VXVk5NNlIwQjF6M2o3QjlHYjVmX1MySjB0TVBFNGphc0tNdGJOYS1WRnp1Vm1OUFZIWHFmbw?oc=5",
-      "source": "IT조선",
-      "date": "Sun, 21 Jun 2026 07:42:13 GMT"
-    },
-    {
-      "title": "[사색의 정원] 밥과 전기와 인공지능",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ja21fdTI1ekdHcVhhSkw5TDRYNHc3ZkxCQnZ5b3dZZDhPakxwMjFab2MxcklQeXBLazdTaElEVE10WG1mZ3g4bTYwOXNmeWJOYzNZa1o3NURUdw?oc=5",
-      "source": "농민신문",
-      "date": "Fri, 19 Jun 2026 07:00:00 GMT"
-    },
-    {
-      "title": "'26년 인공지능(AI)·디지털 활용 과학탐구 활성화 지원 사업 추진",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmOHh1dHBLNVJ0SVctZ3RJd3BTSlBBNmNfQXhxUEtoeEh1d21SNjg3VmFtbTdseWplNEFCU1hiY0dfeGwxVkh4UVJrLXI0QTB4N0Rkd1hsMlY5Q3ZiOWE0?oc=5",
-      "source": "무진장뉴스i",
-      "date": "Fri, 19 Jun 2026 06:17:58 GMT"
     }
   ]
 }
