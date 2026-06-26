@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-25T06:14:57.274Z",
+  "last_updated": "2026-06-26T06:17:23.506Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -158,7 +158,7 @@
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash",
       "price_1m_input": 0.09,
-      "price_1m_output": 0.22,
+      "price_1m_output": 0.18,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -691,18 +691,18 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-oss-20b",
-      "name": "OpenAI: gpt-oss-20b",
+      "id": "openai/gpt-oss-120b",
+      "name": "OpenAI: gpt-oss-120b",
       "price_1m_input": 0.03,
-      "price_1m_output": 0.14,
+      "price_1m_output": 0.15,
       "context_length": 131072,
       "top_provider": true
     },
     {
-      "id": "openai/gpt-oss-120b",
-      "name": "OpenAI: gpt-oss-120b",
-      "price_1m_input": 0.04,
-      "price_1m_output": 0.18,
+      "id": "openai/gpt-oss-20b",
+      "name": "OpenAI: gpt-oss-20b",
+      "price_1m_input": 0.03,
+      "price_1m_output": 0.14,
       "context_length": 131072,
       "top_provider": true
     },
