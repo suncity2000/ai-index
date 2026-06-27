@@ -1,11 +1,29 @@
 {
-  "last_updated": "2026-06-26T11:43:22.908Z",
+  "last_updated": "2026-06-27T10:56:09.706Z",
   "news": [
     {
+      "title": "오픈AI도 美 정부 요청에 GPT-5.6 제한적 제공",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE92bi16MDBKR2pyOVJHcmlDbEpPZkJjYmRtdkFkV0xEelhXT3pLbG84c0lLby03R1pnbnE5RE5oQ2dEdFFCVGQtRkhFcmpXdllCdEFIOFM0MWgyWExDU0YyNjdTTUc5QjdxMnhBa0NB?oc=5",
+      "source": "보안뉴스",
+      "date": "Sat, 27 Jun 2026 03:16:00 GMT"
+    },
+    {
+      "title": "[오늘을 생각한다] 인공지능 신화 뒤에 숨겨진 오염과 착취",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9NbnpreFVZREFWejAtOUxSZkpiem9JSDRFejA0WmtBWGhZaEhuV3lrMXVta3luZC0tWDNvczRxdWdNR0Z1a245TEs2b3RObDNIMkNaNFFPTmJydDJJekE?oc=5",
+      "source": "주간경향",
+      "date": "Fri, 26 Jun 2026 21:00:00 GMT"
+    },
+    {
       "title": "관세청, '인공지능(AI) 정부 발전 유공' 대통령상 수상",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0Vkp3d1BZZmo3dEtJQ2RwZG9zQ1Yzd3l4V0pVNTJlVTBybElJOTNiUTRiRWExU0FlMDV5d2kzNWxESGdTd1lQa0ZUeWNQVDdnanpINFg2OElXOElPY3hJcHlnYkxPOUN3R2hjcQ?oc=5",
-      "source": "서울포커스",
-      "date": "Fri, 26 Jun 2026 08:58:46 GMT"
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE54SUhNYUFGOTFOcWJfWE1JVV9GQ3FrSUhTVVJmZ1JydGxqR01hSkVXODBHMWFPV2xDbGhQUnlOMWkxTzhrOWt0clhfZ2Vpd1VfMGUycXJmc1JiTk1BSDN1MS04SDRGTUNRWGZvaGhB0gFyQVVfeXFMT0l0TjNFdnJ0UDVVS04xczdKaXVOaGx2b3VNMG03Qjdqdm5XTGVXS0xjTnowNzJueUZ1RjFoWlhMY0VBQS1CVEttU0ZSeVZRYlhRV0p2S1VFQV96enlwV1MzeU9nQWVtZnhyX3J3ZjlyQUpR?oc=5",
+      "source": "엔디엔뉴스",
+      "date": "Fri, 26 Jun 2026 14:32:36 GMT"
+    },
+    {
+      "title": "인공지능(AI) 등 첨단기술 활용 산업안전 패러다임 전환 토론회 개최",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1mM2ZXaWxWSVNreV9QT0psYzZ6eDNnYUZieldISE9iaXY0aUFoNXNWWXNSNkZsUkh2UW82YUUyT3pXN29INkZfTkkwcVhkc19ndVV6TjVBYk1EendGaU5XWmh5WUZKN1FrQi1F?oc=5",
+      "source": "안전정보",
+      "date": "Fri, 26 Jun 2026 09:23:35 GMT"
     },
     {
       "title": "[영상] \"AI 실수도 기업 책임\"…생성형 AI 시대, 리스크 관리가 생존 전략",
@@ -26,16 +44,22 @@
       "date": "Thu, 25 Jun 2026 22:04:01 GMT"
     },
     {
+      "title": "\"인공지능 경쟁, 국가 대항전 양상… 칩·인프라·모델·플랫폼 아울러야\"",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOR0REdXJUNDJ2SkpiVlQtRng5bTVVMm1jSjRCQmZpS3pPYlk4bkh1VGJ6ckZ0QVpibi1GS0ZVb1N5ZUlFSGlTb09Ud2ZBc0VjWlN1YWpISFlfVGRxRWF3bVMyb0JZMWhnbS1TczB3c1l6TU1TWUg1R2lHVkdfVzhiWWVvNTFqd3BmOWk2VUZ3?oc=5",
+      "source": "조선일보",
+      "date": "Thu, 25 Jun 2026 15:38:24 GMT"
+    },
+    {
+      "title": "데이터에도 '직관' 필요···저비용 고품질 AI '비결'AI프렌즈, 실용인공지능 컨퍼런스 산학연 '북적'",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBoNS10bUNFUkN2MDVNWDFrWE1ZZmRZSmhiaEJqdEFFVERfUDVNZHFzZldtcnBhM19QOFVvQTFHbVFXclhHRHZIeF8xU1Y0dXBKbHA0MzV6NGlzRG0xaVdxZVRTSU5PcHFQZmc?oc=5",
+      "source": "헬로디디",
+      "date": "Thu, 25 Jun 2026 08:50:00 GMT"
+    },
+    {
       "title": "오픈AI, 챗GPT '고급 계정 보안' 도입…'활성 세션' 관리·데이터 유출 방지 강화",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1HSGliUzY5b09jTm5SQlhuXzg2SHVjcWdUTzhSSXhMc1dia09nc3hhZm55YmFSRnlfb283clAwQ3pMN1gyYXhOaXgyaWxZQlBaT3I0NzZ3?oc=5",
       "source": "지디넷코리아",
       "date": "Thu, 25 Jun 2026 06:34:10 GMT"
-    },
-    {
-      "title": "경북도, 대학 중심, 인공지능(AI)‧반도체 등 첨단산업 우수 인재 양성 기반 체계 완비",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WaUYwdVRtcEdEdTRROTEycGF5WHdILW1WbTZMMGJRd3prRmZsME9WbnhBTmN4X056SlA0YXV5WjVWM21nbTRnM0xFZVhyaXQwMnYzM3g0WG1tb3Nta0k1b1dYLXBkUQ?oc=5",
-      "source": "데일리대구경북뉴스",
-      "date": "Thu, 25 Jun 2026 01:54:12 GMT"
     },
     {
       "title": "성남시, 국비 100억원 확보로 피지컬 인공지능(AI) 통합검증센터 구축",
@@ -44,34 +68,10 @@
       "date": "Thu, 25 Jun 2026 01:35:05 GMT"
     },
     {
-      "title": "\"인공지능이 보험설계사·영업팀 화법교육\"...딥브레인AI, ‘AI 롤플레이’ 상담 역량 강화 기대",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB5N2x2cGFLLXdtd1FXT0xkVlVYQTRJeHA1eWU4ZWoyQWZqSXNFZFFGZzd6b01qbDdtU1J3WnFwSlJsNnc2QUdOTGhEUEhUQVEzSHd6aHZ3TjlXelVkNHBlT2o4czdQbEE?oc=5",
-      "source": "인공지능신문",
-      "date": "Thu, 25 Jun 2026 00:46:56 GMT"
-    },
-    {
-      "title": "[연속워크숍⓶] 보건의료 분야 AI 도입의 현황과 과제",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIbkFQaFNYbm1uMHJnY1JWX196NFMxRTN6UHdxaEJ0aDlfWGVjUENib3owdUI5RGZHckdiZEV6MFNJNDU0dUxaWGRZcU1OZUR1QVJNNEJB?oc=5",
-      "source": "참여연대",
-      "date": "Thu, 25 Jun 2026 00:23:27 GMT"
-    },
-    {
-      "title": "현대글로비스, 임직원 대상 'AI 부트캠프'…인공지능 활용도 높인다 - 머니투데이",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5zNWdOSjVVTm0wTmFZTVlWdUJEem5vb0tjNEtBc3M2X3RCWTNLZ01xOFdmbkZ0ZzlQT0hkaktRRy1lUnZQYW9HUlRLdVJXVnlFb2RHS285d3RIaFpiQ1F0RE44OFIzSEpkWWFyX0RGd0ZKUdIBckFVX3lxTE5zNWdOSjVVTm0wTmFZTVlWdUJEem5vb0tjNEtBc3M2X3RCWTNLZ01xOFdmbkZ0ZzlQT0hkaktRRy1lUnZQYW9HUlRLdVJXVnlFb2RHS285d3RIaFpiQ1F0RE44OFIzSEpkWWFyX0RGd0ZKUQ?oc=5",
-      "source": "머니투데이",
-      "date": "Thu, 25 Jun 2026 00:18:25 GMT"
-    },
-    {
       "title": "성남시 상대원동 하이테크밸리, 피지컬 인공지능(AI) 산실로 거듭난다",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1MSDBtNF9FLWViQWczX3Bwc01YWjliYjNqZjZ2ZTZnZFdER2c5QTZCOTZXQ3Z3MVBLelRqWEtuZjF6V21lRHBUMlhSOA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Ud3FicFg3YzlyYlE5MmcyOTVKQS1uR19BOUFnUzRmZW05SzhhQ0NSVGZFRERMdlNoMGRPaGd4ZVpQQ2NRanh6eV9ITzA0aGx2WHJRNg?oc=5",
       "source": "v.daum.net",
       "date": "Wed, 24 Jun 2026 23:16:32 GMT"
-    },
-    {
-      "title": "성남시, 인공지능(AI)으로 고독사 위험 살피고 고령자 주차 편의 높인다",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBKYmpXOWgwNF9lNlhCd2ZZSm5MZ1dPQ09Uc1d6Z1JpdFBXdkhzLWMweGo5ZWpuT0NwQjhueDl1OFktQTZadmM3WG16dVBYNWpUYUVjYkFmRmdwX09J?oc=5",
-      "source": "한국방송뉴스",
-      "date": "Wed, 24 Jun 2026 17:16:09 GMT"
     }
   ]
 }
