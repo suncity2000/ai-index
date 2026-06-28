@@ -1,11 +1,53 @@
 {
-  "last_updated": "2026-06-27T10:56:09.706Z",
+  "last_updated": "2026-06-28T11:05:31.114Z",
   "news": [
+    {
+      "title": "AI 등에 업은 사이버범죄 [이서윤의 인공지능&인권지능]",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE12cmx4LVAwV1lnWjIwNGFPNThKUEJPbmJVbExtUVRyUkE5MFRMT21xR2h0NmVOdEFiUnY0bjFUNWNXVDVjbmZFdzBwVlRhVzNPcHFidmNaM0ZZNHNuTUl6UVRoUmRpdw?oc=5",
+      "source": "한겨레",
+      "date": "Sun, 28 Jun 2026 08:19:00 GMT"
+    },
+    {
+      "title": "“노인들 따뜻하지만 역량 떨어져“…생성형AI의 ’은근한 편견’",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9WMnZ5Z1JaTHNwTXJZa3plLTktb1IwLXJDZVNHb2c4OEhPNmFBWnk0ck9jQjhhbTBFalFBZGNFUzZYTjBvN1B5Zlh5Ul9obGlCWHJyMEFzWXE3VXdndko5czBiR0RBeDA?oc=5",
+      "source": "연합뉴스TV",
+      "date": "Sun, 28 Jun 2026 06:38:15 GMT"
+    },
+    {
+      "title": "[포토] 인공지능(AI)으로 침수 계측·경보까지... 더 안전해진다",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9rakRYMGhpdjRZZkI5elRRam9ld1M3ZzRhREJFRGQ2RGdNNnlYcFZ4VGI2b0Y0aGNhWEtOQWtMbFFfQ2htUFZ2eVJneXlRUQ?oc=5",
+      "source": "전자신문",
+      "date": "Sun, 28 Jun 2026 06:04:54 GMT"
+    },
+    {
+      "title": "관세청, ‘인공지능(AI) 정부 발전 유공’ 대통령상 수상",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA0Rk44czFmYzUyYTkwZ29UNXNmTFd1a0RzaVlIUlpyNUZfb1hPV3pWVUpIeHZVbFVHV1dOR2I0bXotMjRpemVJUk9vZVdhZ2JWcGZLbjJEd2Z2UE9xSkU4UDl5Q09BWEYy?oc=5",
+      "source": "충청타임즈",
+      "date": "Sun, 28 Jun 2026 02:29:00 GMT"
+    },
+    {
+      "title": "UNIST \"멀티모달 AI가 더 잘 배우는 이유 수학적으로 규명\"",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1vdGFteThDTHUtVGNkUmg4eHNpSVNDakptOUR4WjdiRzVNRmdaS2ZkS193Szgxd3dXRkFVd1JGWEgtYzVyMXNzOWVGaVV1YWp6RVVzbWFHN2g1Q1lvNFhySdIBYEFVX3lxTE1vdGFteThDTHUtVGNkUmg4eHNpSVNDakptOUR4WjdiRzVNRmdaS2ZkS193Szgxd3dXRkFVd1JGWEgtYzVyMXNzOWVGaVV1YWp6RVVzbWFHN2g1Q1lvNFhySQ?oc=5",
+      "source": "연합뉴스",
+      "date": "Sun, 28 Jun 2026 01:59:37 GMT"
+    },
+    {
+      "title": "“신입 안뽑고 팀장 잘리고, 이 사람만 남았다”…AI시대 뒤집힌 ‘직장인 생존법’",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1VU040RTlwa24zZHUtbm5xbXRyblZaYWVzVXZmVHJwWFhpcjhUajFFTm9wWXR0WkJTOG15NlJSTHRMaXFrWUt1aGFiVU1VdUU?oc=5",
+      "source": "v.daum.net",
+      "date": "Sat, 27 Jun 2026 14:09:00 GMT"
+    },
     {
       "title": "오픈AI도 美 정부 요청에 GPT-5.6 제한적 제공",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE92bi16MDBKR2pyOVJHcmlDbEpPZkJjYmRtdkFkV0xEelhXT3pLbG84c0lLby03R1pnbnE5RE5oQ2dEdFFCVGQtRkhFcmpXdllCdEFIOFM0MWgyWExDU0YyNjdTTUc5QjdxMnhBa0NB?oc=5",
       "source": "보안뉴스",
-      "date": "Sat, 27 Jun 2026 03:16:00 GMT"
+      "date": "Sat, 27 Jun 2026 03:20:00 GMT"
+    },
+    {
+      "title": "“자체 AI만으론 비효율적”···외부 LMM 병행 포기 못하는 네이버·카카오 속사정",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JYWhuSjZpWno3ZFFVa0dUamgyZTF1UmQ2Z1pNeERab0s1MTZuUzNuUjZrLXdDOW14Q1c0b3VJZ1V6T2NkRjNtT01nVkFhN0hQcnd4SnQxamNoeS0zcUprREdyVHN6dG1WWWNma1NWTExIYjlFN3fSAXZBVV95cUxPSWFobko2aVp6N2RRVWtHVGpoMmUxdVJkNmdaTXhEWm9LNTE2blMzblI2ay13QzlteENXNG91SWdVek9jZEYzbU9NZ1ZBYTdIUHJ3eEp0MWpjaHktM3FKa0RHclRzenRtVlljZmtTVkxMSGI5RTd3?oc=5",
+      "source": "시사저널e",
+      "date": "Sat, 27 Jun 2026 00:09:07 GMT"
     },
     {
       "title": "[오늘을 생각한다] 인공지능 신화 뒤에 숨겨진 오염과 착취",
@@ -20,58 +62,16 @@
       "date": "Fri, 26 Jun 2026 14:32:36 GMT"
     },
     {
-      "title": "인공지능(AI) 등 첨단기술 활용 산업안전 패러다임 전환 토론회 개최",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1mM2ZXaWxWSVNreV9QT0psYzZ6eDNnYUZieldISE9iaXY0aUFoNXNWWXNSNkZsUkh2UW82YUUyT3pXN29INkZfTkkwcVhkc19ndVV6TjVBYk1EendGaU5XWmh5WUZKN1FrQi1F?oc=5",
-      "source": "안전정보",
-      "date": "Fri, 26 Jun 2026 09:23:35 GMT"
-    },
-    {
       "title": "[영상] \"AI 실수도 기업 책임\"…생성형 AI 시대, 리스크 관리가 생존 전략",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1EZU5GbWhoanptc2NnbXg1UllvMEFmbERkV1RMd2hEYWRUSWZxUm9SaDdPSzBSQWp5RmNjcV9ValhZWS1leVBWeXFJa09XV3RfaXl0MnJR?oc=5",
       "source": "지디넷코리아",
       "date": "Fri, 26 Jun 2026 01:40:22 GMT"
     },
     {
-      "title": "'AI로 혼잡도 분석'…관광공사, 관광 현안 해결할 기업 5곳 선정",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE50MHJrd2RCTUNrN1dzbkt4bzQyZlRlYjh4S05CbkJlUWxLX2VYdjVHRW03dnBmVEpNWU5Kb2M1NndZaGdkbGt6Y0RjSi1HbFpxNjBCTnY3UGhKbnNCVUFhTtIBYEFVX3lxTE50MHJrd2RCTUNrN1dzbkt4bzQyZlRlYjh4S05CbkJlUWxLX2VYdjVHRW03dnBmVEpNWU5Kb2M1NndZaGdkbGt6Y0RjSi1HbFpxNjBCTnY3UGhKbnNCVUFhTg?oc=5",
-      "source": "연합뉴스",
-      "date": "Fri, 26 Jun 2026 00:00:52 GMT"
-    },
-    {
       "title": "\"협동 AI 중 하나 고장 나도 임무 이어가는 강화학습법 개발\"",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcHQ1QXdNaWc5QnVOXzZkMThhcnRpV00tVWFLX1BGQVlDUC1tRThMcVNUWlBxVXA0QXRXb3lQc1F0UGREN0I3bTR1SUd3T0dqaFBaRDJsTTAwTDRvdV9Bc1RHX2JnaUVZS1Y1WEhLYlYwY3A1STJFVlczRXl1aE1BQ25xNGdFYmNLclA3eVllZw?oc=5",
       "source": "사이언스타임즈",
       "date": "Thu, 25 Jun 2026 22:04:01 GMT"
-    },
-    {
-      "title": "\"인공지능 경쟁, 국가 대항전 양상… 칩·인프라·모델·플랫폼 아울러야\"",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOR0REdXJUNDJ2SkpiVlQtRng5bTVVMm1jSjRCQmZpS3pPYlk4bkh1VGJ6ckZ0QVpibi1GS0ZVb1N5ZUlFSGlTb09Ud2ZBc0VjWlN1YWpISFlfVGRxRWF3bVMyb0JZMWhnbS1TczB3c1l6TU1TWUg1R2lHVkdfVzhiWWVvNTFqd3BmOWk2VUZ3?oc=5",
-      "source": "조선일보",
-      "date": "Thu, 25 Jun 2026 15:38:24 GMT"
-    },
-    {
-      "title": "데이터에도 '직관' 필요···저비용 고품질 AI '비결'AI프렌즈, 실용인공지능 컨퍼런스 산학연 '북적'",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBoNS10bUNFUkN2MDVNWDFrWE1ZZmRZSmhiaEJqdEFFVERfUDVNZHFzZldtcnBhM19QOFVvQTFHbVFXclhHRHZIeF8xU1Y0dXBKbHA0MzV6NGlzRG0xaVdxZVRTSU5PcHFQZmc?oc=5",
-      "source": "헬로디디",
-      "date": "Thu, 25 Jun 2026 08:50:00 GMT"
-    },
-    {
-      "title": "오픈AI, 챗GPT '고급 계정 보안' 도입…'활성 세션' 관리·데이터 유출 방지 강화",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1HSGliUzY5b09jTm5SQlhuXzg2SHVjcWdUTzhSSXhMc1dia09nc3hhZm55YmFSRnlfb283clAwQ3pMN1gyYXhOaXgyaWxZQlBaT3I0NzZ3?oc=5",
-      "source": "지디넷코리아",
-      "date": "Thu, 25 Jun 2026 06:34:10 GMT"
-    },
-    {
-      "title": "성남시, 국비 100억원 확보로 피지컬 인공지능(AI) 통합검증센터 구축",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBoU2k3bEhPMFlqa19uS0RvN3pYejBfRU9VRW1IX3VPOGN4ZmZsVGVTY281LXlxWlhlZjdFWHZ4NzhWWF9FSGFOZEdPQ0Vud2RnOE5CaDlMeHpLdE1Ia1hlT2pDOFNMQTdXYW1IeWcxNmtLeXg4YWc?oc=5",
-      "source": "대한경제",
-      "date": "Thu, 25 Jun 2026 01:35:05 GMT"
-    },
-    {
-      "title": "성남시 상대원동 하이테크밸리, 피지컬 인공지능(AI) 산실로 거듭난다",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Ud3FicFg3YzlyYlE5MmcyOTVKQS1uR19BOUFnUzRmZW05SzhhQ0NSVGZFRERMdlNoMGRPaGd4ZVpQQ2NRanh6eV9ITzA0aGx2WHJRNg?oc=5",
-      "source": "v.daum.net",
-      "date": "Wed, 24 Jun 2026 23:16:32 GMT"
     }
   ]
 }
