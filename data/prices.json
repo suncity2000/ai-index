@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29T06:57:36.133Z",
+  "last_updated": "2026-06-30T06:19:40.146Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -109,14 +109,6 @@
     {
       "id": "anthropic/claude-opus-4.7-fast",
       "name": "Anthropic: Claude Opus 4.7 (Fast)",
-      "price_1m_input": 30,
-      "price_1m_output": 150,
-      "context_length": 1000000,
-      "top_provider": true
-    },
-    {
-      "id": "anthropic/claude-opus-4.6-fast",
-      "name": "Anthropic: Claude Opus 4.6 (Fast)",
       "price_1m_input": 30,
       "price_1m_output": 150,
       "context_length": 1000000,
