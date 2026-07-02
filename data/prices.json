@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01T06:39:51.478Z",
+  "last_updated": "2026-07-02T06:05:48.189Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -157,17 +157,9 @@
     {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash",
-      "price_1m_input": 0.1,
-      "price_1m_output": 0.2,
+      "price_1m_input": 0.09,
+      "price_1m_output": 0.18,
       "context_length": 1048576,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-chat-v3-0324",
-      "name": "DeepSeek: DeepSeek V3 0324",
-      "price_1m_input": 0.2,
-      "price_1m_output": 0.77,
-      "context_length": 163840,
       "top_provider": true
     },
     {
@@ -192,6 +184,14 @@
       "price_1m_input": 0.23,
       "price_1m_output": 0.34,
       "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-chat-v3-0324",
+      "name": "DeepSeek: DeepSeek V3 0324",
+      "price_1m_input": 0.24,
+      "price_1m_output": 0.9,
+      "context_length": 163840,
       "top_provider": true
     },
     {
@@ -1187,14 +1187,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3-8b",
-      "name": "Qwen: Qwen3 8B",
-      "price_1m_input": 0.05,
-      "price_1m_output": 0.4,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3.5-flash-02-23",
       "name": "Qwen: Qwen3.5-Flash",
       "price_1m_input": 0.07,
@@ -1216,14 +1208,6 @@
       "price_1m_input": 0.08,
       "price_1m_output": 0.5,
       "context_length": 256000,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-30b-a3b-thinking-2507",
-      "name": "Qwen: Qwen3 30B A3B Thinking 2507",
-      "price_1m_input": 0.08,
-      "price_1m_output": 0.4,
-      "context_length": 131072,
       "top_provider": true
     },
     {
@@ -1307,6 +1291,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3-8b",
+      "name": "Qwen: Qwen3 8B",
+      "price_1m_input": 0.12,
+      "price_1m_output": 0.45,
+      "context_length": 131072,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3-vl-30b-a3b-thinking",
       "name": "Qwen: Qwen3 VL 30B A3B Thinking",
       "price_1m_input": 0.13,
@@ -1320,6 +1312,14 @@
       "price_1m_input": 0.13,
       "price_1m_output": 0.52,
       "context_length": 262144,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3-30b-a3b-thinking-2507",
+      "name": "Qwen: Qwen3 30B A3B Thinking 2507",
+      "price_1m_input": 0.13,
+      "price_1m_output": 1.56,
+      "context_length": 131072,
       "top_provider": true
     },
     {
