@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-06T06:43:25.534Z",
+  "last_updated": "2026-07-07T06:15:26.502Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -462,7 +462,7 @@
       "id": "meta-llama/llama-3.2-3b-instruct",
       "name": "Meta: Llama 3.2 3B Instruct",
       "price_1m_input": 0.05,
-      "price_1m_output": 0.34,
+      "price_1m_output": 0.33,
       "context_length": 131072,
       "top_provider": true
     },
@@ -739,16 +739,16 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4o-mini",
-      "name": "OpenAI: GPT-4o-mini",
+      "id": "openai/gpt-4o-mini-2024-07-18",
+      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
       "context_length": 128000,
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4o-mini-2024-07-18",
-      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+      "id": "openai/gpt-4o-mini",
+      "name": "OpenAI: GPT-4o-mini",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
       "context_length": 128000,
