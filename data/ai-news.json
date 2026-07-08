@@ -1,11 +1,53 @@
 {
-  "last_updated": "2026-07-07T11:47:21.967Z",
+  "last_updated": "2026-07-08T11:02:13.478Z",
   "news": [
+    {
+      "title": "바당에서 만나는 인공지능(AI) 미래교육",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9nVngxdnI5WkpVcXVrTkpGdVQ1V1ZjSFBZWC0yRGpGYjl1QUkxRjJFOHJvT3I4U3ZnZGh6c3lTTEJMUms4bEs1TDJuUUVDNm5IQzdYcExTbjJVOHl5RXAxYmQwV1JsQUhoMmQ1R3VQaw?oc=5",
+      "source": "뉴스라인제주",
+      "date": "Wed, 08 Jul 2026 08:25:59 GMT"
+    },
+    {
+      "title": "제주도, AI·에너지에 3조8000억 투자...'글로벌 AI 허브' 구축 추진",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1xd0pUUUNNeWZzR2VfdFlOb2hIbWx4YlBWNlBWTzZmUTI3RGhGOTNOZ01fM2hDR1Eybnlya01nZ3JpYkg5dElERkJGMjZpNmkwOEVIS3NTc1IycWN3TlIyQVR4TUR3aXV5ZV94Q1kxalnSAXBBVV95cUxNcXdKVFFDTXlmc0dlX3RZTm9oSG1seGJQVjZQVk82ZlEyN0RoRjkzTmdNXzNoQ0dRMm55cmtNZ2dyaWJIOXRJREZCRjI2aTZpMDhFSEtzU3NSMnFjd05SMkFUeE1Ed2l1eWVfeENZMWpZ?oc=5",
+      "source": "전기신문",
+      "date": "Wed, 08 Jul 2026 08:01:11 GMT"
+    },
+    {
+      "title": "몸을 가진 인공지능 ‘피지컬 AI’가 온다",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeTk0MUZvcTZjUWpjUEhrcncwZ196S3owQzhPcmFkcEl1UVNEX0xYaGdaMVAyYlpkVGRDdDB1eW8zWkQ1X3k0X1paVWtPNW9zYkNaS1dDdVVqQl80ZE9sQ2RCUHdMRFNLdkJUOWVEa0F5NWFoMG1SZzB4dHFBY2FHanVsQzR5ZkU2LW5GcmxnNA?oc=5",
+      "source": "조선일보",
+      "date": "Wed, 08 Jul 2026 04:57:00 GMT"
+    },
+    {
+      "title": "기후부, 인공지능(AI)으로 업무혁신 본격 추진",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBLb29sVnhwQkM5alBpdmlLT0JOaEdlRi1wVHlxbW9MZkNBSzcyODBiRzEwRy11c2l5N1BXLVVSOXA4YnFhT2lDb093bnV6N1dYM0lGdkl3Y0ZoT3dBdVFEZk5lZy1Cd01pVldjTTB3X0PSAXRBVV95cUxQX1FnNDZxRjl3bHZDWWFKOWVZQWZ4RWozZlVVbVFLRkNscnVWRGw1cXlKWnhDbThya1VobDBjM3JvUkpwNXdLNnJMci1BN3U3SFZwMFVRdVEwQnBXaGJURXVSQkk0QmF4VGdWYVphR3V2UUZ0dA?oc=5",
+      "source": "우먼타임스",
+      "date": "Wed, 08 Jul 2026 00:16:48 GMT"
+    },
+    {
+      "title": "메타, 이미지 생성 AI 모델 '뮤즈 이미지' 공개",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE53cUxCSnV1c0d3emZzV1ZtVWFoSUdNcUEtbVZnRjUzS05jT205TUM3VmFZbmdJN2NKUUdkMW00NFZ1U1c3MTliVzhCTXRUTEdXMWt4Y1dEelhVQ2VKSFE?oc=5",
+      "source": "포커스온경제",
+      "date": "Tue, 07 Jul 2026 22:21:12 GMT"
+    },
+    {
+      "title": "업스테이지의 '공공 AI 강화'···생존 위해 택한 '현실 전략'인가",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9WVzNQREp6YkYyZkdnaUYxN1FIUWt4U0Mzb1ZiQTltZVloenFob3lnTHRDMzBNUERibkFKN1JtUm1UU2laRlFha0o1M3pRVUZ0emtqdWZ5eEREX1RsMkJfZEJmZ0xlWUNvVTVCbmt5a2IxVy1TNVHSAXZBVV95cUxPVlczUERKemJGMmZHZ2lGMTdRSFFreFNDM29WYkE5bWVZaHpxaG95Z0x0QzMwTVBEYm5BSjdSbVJtVFNpWkZRYWtKNTN6UVVGdHpranVmeXhERF9UbDJCX2RCZmdMZVlDb1U1Qm5reWtiMVctUzVR?oc=5",
+      "source": "시사저널e",
+      "date": "Tue, 07 Jul 2026 08:27:51 GMT"
+    },
     {
       "title": "[신간] 인공지능 주권의 조건 제시 '인간지능-AI의 협업과 소버린 AI'",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8xNElvSktHOFRNekRjakQyQm5tZUlaNHpreFdoVnkyZGpmSElzMG01UlBKRHdpRjNKTmM0c0JrLURseHp4a3dWbzcyYTVubUhONFJGc1VELXV5XzRFd3pmNlFwMjY?oc=5",
       "source": "매일일보",
       "date": "Tue, 07 Jul 2026 08:12:41 GMT"
+    },
+    {
+      "title": "\"공무원도 AI 책임자 둔다\"... 일본, 생성형 AI 행정 활용 전면 개편",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5oSkllWkl4YkpXRzFHekdPVFZHcWY3d2ZmbnBkalRIQlBudkhIeHkya3RfYV9nNXkzYjhuT1RmYmlFRlNlcjNZdA?oc=5",
+      "source": "특허뉴스",
+      "date": "Tue, 07 Jul 2026 07:37:00 GMT"
     },
     {
       "title": "中 \"작년 AI 산업 규모 224조원 넘어…올해 30% 이상 성장할 것\"",
@@ -14,10 +56,10 @@
       "date": "Tue, 07 Jul 2026 06:36:56 GMT"
     },
     {
-      "title": "AI도 ‘속마음’ 있다...답변하지 않고도 생각",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbUhsRUVTNFBxRzFWWUtLX3lNR25iZUd3cEFuVG80NXp3WjROQmxCUU16NTUyNTBaeDRPWEZxN3NMd2wwZC01RzhEekl5Q1BxcHRKcjhoU1BWTHdBQlhVMW9IRFpkX0YyZHRmTC04dzJuY1VzbjEtMmNjTktmTE1xS2FuYw?oc=5",
-      "source": "조선일보",
-      "date": "Tue, 07 Jul 2026 06:13:46 GMT"
+      "title": "산단공, 직원이 직접 만든 인공지능 도구로 업무 혁신…공공서비스 품질 개선 - 머니투데이",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5EaHlOY0Nqc1k5VjJaS1JtaU0zSFdPZnF6eFhveUxuZllhWlNJamZEOXdKS0dsLThWbGVrc05LV25XV3huWDJ0bzJkbUlsY19kRG5QSjJqa2thbTIxY2xTc3dZazg4bjhZWHJr0gFwQVVfeXFMT0NyZjRjTHpfQ0t4UkgxSmFYRDhHYnlDN1RiOWNvaGhFa243MzNVSktMaXd6dW1iOWxJakdpUzN0MURSSlY5ZHlBbU1tWVBKc1dvcERtVTZ0X2d4MF9kc2FoYnlYakRYLWtqZk5rR095dg?oc=5",
+      "source": "머니투데이",
+      "date": "Mon, 06 Jul 2026 23:32:28 GMT"
     },
     {
       "title": "\"생성형 AI, 사진의 경계까지 확장한다\"…퀄컴 특허 기술이 보여주는 '무한 캔버스'의 시대",
@@ -26,52 +68,10 @@
       "date": "Mon, 06 Jul 2026 10:46:41 GMT"
     },
     {
-      "title": "인공지능(AI)·디지털 활용 교육의 지혜를 나누고, 미래교육을 함께 그리다",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1vT0hEWTVRZV9vODIyR2FoVmYyMGxfcjdjamk4N1g5QmZ2NnpwNnZqWmFyUUdFRnNNb1J4U2RySGJXcUhtdVZqTTFpU2hqZGFPdHVqbEszS0ZfbVlTamJjeWxlWEZUcFVrNFFZ?oc=5",
-      "source": "경남일보",
-      "date": "Mon, 06 Jul 2026 08:08:58 GMT"
-    },
-    {
-      "title": "「금융분야 인공지능 가이드라인」시행과 실무상 유의사항",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBFNm4yMjBIc1UtTWgtSDVoS1Z4NnIzSnRnUTZJZGYzU0JiRGlpeTduRkRxV0tNZHpnODdCU2FrOHQyOTZXQ3dCM1RVbm9WZlJVVkFpbWRSMk9yNGNYeV9uX21jdTVXTUJfaGhRcnVGeFR3Z9IBckFVX3lxTFBFNm4yMjBIc1UtTWgtSDVoS1Z4NnIzSnRnUTZJZGYzU0JiRGlpeTduRkRxV0tNZHpnODdCU2FrOHQyOTZXQ3dCM1RVbm9WZlJVVkFpbWRSMk9yNGNYeV9uX21jdTVXTUJfaGhRcnVGeFR3Zw?oc=5",
-      "source": "법률신문",
-      "date": "Mon, 06 Jul 2026 07:13:52 GMT"
-    },
-    {
-      "title": "[기자수첩] 포천시, 인공지능(AI) 전담 조직& '곰팡이 쌀'",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9SY1MyRHZhUWtGWXQydks2MnBtdVVJWnNCNjhjcmM0V1RIcVVQUUFNUTMweWlVRFdDSFJ3U19ab0tDZTllaE1sQ1dQTDhiSERnUnJwNThDTHVndUVZWVhYZ2R3?oc=5",
-      "source": "경기신문",
-      "date": "Mon, 06 Jul 2026 07:00:07 GMT"
-    },
-    {
-      "title": "교도소 담장 넘은 인공지능…법무부, 수형자 대상 ‘AI 자립교육’ 첫 시행",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5kWXhqQTI1RjFkWEZBYXZydHJLWGNERloyRFR0S1RVZWVMRUFITkRYZGo2blBkcVB2N3lQdC1LOWExUERKUXdiMDFMaFF4em5Qbm56ekNBY0JuY3dfNFk4UGR2UHJuRTg?oc=5",
-      "source": "인공지능신문",
-      "date": "Mon, 06 Jul 2026 02:46:26 GMT"
-    },
-    {
-      "title": "KT \"인공지능 기업으로 전환…AI 인프라에 6조\"",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMWlZITGhCM0ZQblRwSlBVNkwtZ1lHZnhIaU1Rd2xXX3lxal9CYmtJUEVOSGNJNzBWNThJbHhTNFQ4MndSTE5aSE14ckpwdGZYUFBGMmw1MXJTNEF4SHd5N0JUck4xR0hQWHNUTjd6QWc?oc=5",
-      "source": "연합인포맥스",
-      "date": "Mon, 06 Jul 2026 01:05:23 GMT"
-    },
-    {
       "title": "오픈AI, 차세대 사회복지 리더 챗GPT·코덱스 교육",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE52OEstU2JVZl9TUWo5MHBLSjM5NXhmZXhSSktDdzBUQUtfZ0d0MmR3MkFrdHNJZXlfUnJaOE9RWF9ZQ0FBeU04OUJ4WGpjNzRpQW1SRE04RUpER2fSAWBBVV95cUxOeUVwQV9kRWxWNG5zMzBQMV9CcEVUWFNidzc1eV93NlQtQXplZk9aMlRuTnhmX1NIbHc3VTBQTDcxZG1zOFpDMUJGclF4WXI5R05UOWNSd2JXTjQxUGdnYWE?oc=5",
       "source": "연합뉴스",
       "date": "Mon, 06 Jul 2026 00:19:43 GMT"
-    },
-    {
-      "title": "인공지능(AI) 영향 받거나 밀접한 업종서 ‘청년 고용 감소세’",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9CdmxQek1ud1FPOFJ0ck5mdnJ6STdrLU1LdnhaeFpJeWR2ZkZKUlVZMjZ6T1B6OHpRSGtSRGlUNmkzUEphMl9wdFkwZw?oc=5",
-      "source": "v.daum.net",
-      "date": "Sun, 05 Jul 2026 05:50:18 GMT"
-    },
-    {
-      "title": "AI 에이전트, 질문 한 번에 생성형AI보다 전력 136배 더 써",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0yTW00SXpMZG44bEFEV2ljbzM3Zl9LQ1VyMklaZ2Q3cUNzZUFYZVB2ay14ZTlLUWx5WkRLT1hCakV4bGxVcVE?oc=5",
-      "source": "v.daum.net",
-      "date": "Sun, 05 Jul 2026 05:45:00 GMT"
     }
   ]
 }
