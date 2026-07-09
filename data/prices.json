@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08T05:28:12.193Z",
+  "last_updated": "2026-07-09T06:11:48.062Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -739,16 +739,16 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4o-mini",
-      "name": "OpenAI: GPT-4o-mini",
+      "id": "openai/gpt-4o-mini-2024-07-18",
+      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
       "context_length": 128000,
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4o-mini-2024-07-18",
-      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+      "id": "openai/gpt-4o-mini",
+      "name": "OpenAI: GPT-4o-mini",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
       "context_length": 128000,
@@ -1576,6 +1576,14 @@
       "price_1m_input": 1.25,
       "price_1m_output": 2.5,
       "context_length": 2000000,
+      "top_provider": true
+    },
+    {
+      "id": "x-ai/grok-4.5",
+      "name": "xAI: Grok 4.5",
+      "price_1m_input": 2,
+      "price_1m_output": 6,
+      "context_length": 500000,
       "top_provider": true
     }
   ]
