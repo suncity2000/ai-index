@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-07-11T10:12:43.641Z",
+  "last_updated": "2026-07-12T10:26:18.375Z",
   "news": [
+    {
+      "title": "뮤직AI, 생성형 AI 음악·BGM 공모전…10월 9일까지 접수",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE02enpEeVNQWV9pZjNWNWE5U0pWcWtLSWJJQVFxeTgtMEIyaVFhSmg3ZDRoc2pFUEt6TlI0SzlBOGI0c0NMT25IdEdHMHNXUQ?oc=5",
+      "source": "전자신문",
+      "date": "Sat, 11 Jul 2026 08:30:10 GMT"
+    },
+    {
+      "title": "패션산업 AI 활용 확대… 섬개연, 인공지능 전환 지원 본격화",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBMVC1rakVKVE1CQmp5cl9ZVlVLR1pLNEM5SkR3WFJ0RmdYV0hrai1mVS1fZE5uMVhNWURSSk1wdHBfQlFSRVI5V0tDYkR3MWR4djhod2pXYWZFbEtyQlVDclZ3?oc=5",
+      "source": "매일신문",
+      "date": "Sat, 11 Jul 2026 00:30:00 GMT"
+    },
     {
       "title": "2026 스마트농업 인공지능(AI) 경진대회 개막",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5kTFFnOHJ1QUgyYnpKZXlPc0tkT0c4TlNkVWVNYTdMc0RLc2dRZE9TODlyVEtzTUF6cUhUeU16LWF1SDBacEVlM0hiNlFiWlg0aDVBM0l0UUJfaWxidWh2RmFSNXVwQ3h4M1dTUw?oc=5",
@@ -26,10 +38,28 @@
       "date": "Fri, 10 Jul 2026 02:18:38 GMT"
     },
     {
+      "title": "수원특례시, 전국 최초 인공지능(AI) 활용 문화유산 안전관리",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQY3htb3NLWm5keEN0cVctb3pDNzN1ejcyMHUxcEVLWEZmOW1Xb3hUdUM1UVR6YkNmX3JjVjlYTnJqZlhvajlxa2xyWWpFNTRhWXRJNy01YmdsSmNTREZnNTh1XzlfTzBpcnI0UlNSMnB6YmtWX0tXU1hLSmdjSWFhczRVRDd6bUlmZWsxb3ZfWWVmemZ0b3o1ay1Rdk0yR3poLXVNbnhHcktDdElaQmFoQ2RSTEhDNVQyajhBNWVtXzRXblh0Q1B3SmJJMzFZdmFnVXBsQXBkalBzT1hqT1Z1am1IUG54V3Z6WEJVbUtQODZCeHllMVFYazctUTRNczBBelFJR1UtN2lLUGZYamfSAZACQVVfeXFMUGsyQ1JqMXJrcXZYYmphcVRtbURfVzFRbUJnS3NBcHJPa19JZVd6Y2dBMTNuYmRpdU9IbUI0X21lUkdrR0tKSHlhTW91OTJmYzA5WE04R3dXS3RvRmgwekY4MGdpbkltZnR2SmtWTlZzTDRtbndaOTk0VlBxNXcxUzFPSTJoWU5TUDdPV2taME1QVWY0UDdKVkdiaDFya3hXd2RscFdCcEduTVN1QXN1d01kS0RLb21IdHVYdzJWNEVOaEo5ZkJRT1VOV2p0bTR1ZzRFenJaRHpoeTRVeXJxREhaUURMMjBxVU9iM2xZeHB6MUhXUFBZYXdwMmw1UUxqU3M3MVdJR2VReG15UTA5U0c?oc=5",
+      "source": "데일리안",
+      "date": "Fri, 10 Jul 2026 01:33:00 GMT"
+    },
+    {
       "title": "AI 경쟁, ‘누가 더 똑똑한가’에서 ‘누가 더 효율적인가’로....오픈AI, 차세대 AI 모델 'GPT-5.6 ' 출시",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCUzlFT1pCWmlHdUZoSlJtR1BYSHp5ek1lZ0pUOXVNUG9aT3lveExxMmRHSE1RcWlOaDVVWTBYaUx4Ty1vbFlRWl9sWkRzVllVRkNKLVlQOWJEOVkzektlejBjNXBZVVk?oc=5",
       "source": "인공지능신문",
       "date": "Fri, 10 Jul 2026 01:22:01 GMT"
+    },
+    {
+      "title": "인공지능 강연 참석한 한성숙 국무총리",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBnZDZCb3cwV3dNa1BtcmhhUnV5aWprTUtKdjhmMUVqbnpGLVZYekFBcXFSYi10WFpHSDdOQmFCMm1tRjVVNFJFbk9pQ3ptajJkMDlKM2VLeGY5X2diWWo4Q9IBYEFVX3lxTFBnZDZCb3cwV3dNa1BtcmhhUnV5aWprTUtKdjhmMUVqbnpGLVZYekFBcXFSYi10WFpHSDdOQmFCMm1tRjVVNFJFbk9pQ3ptajJkMDlKM2VLeGY5X2diWWo4Qw?oc=5",
+      "source": "연합뉴스",
+      "date": "Fri, 10 Jul 2026 01:18:29 GMT"
+    },
+    {
+      "title": "[AI 트렌드] \"인공지능보다 중요한 건 사람이었다\"…기업들이 다시 '인간 이해'에 주목하는 이유",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB4S2daRUM0elRqbG9IMWw1RXlIZlZSQUtUS3Y2MURZc3dSa0RrMUdpNHhOcjBtakpsVnRRYTc3RTM0QVB5WkFIdkVSWmNwM3NteThxM0NlTWU1eWc2UzJUVENDeXhhZmVkZnZJ?oc=5",
+      "source": "AI라이프경제",
+      "date": "Thu, 09 Jul 2026 20:50:00 GMT"
     },
     {
       "title": "“AI는 숙련기술의 끝 아닌 새로운 시작” [인공지능 시대, 명장의 기로②]",
@@ -42,36 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KUDZJMzJaY0FKU181d3hTM2UwWkpSZnJvS2Jlb0lKaExuSGw0ZkdUSjNJLW5EM2gzc2VJbThXRHdZWDlfdE5CZXhJVW5fbnpfQTd4bFhBdG11aXM?oc=5",
       "source": "중앙일보",
       "date": "Thu, 09 Jul 2026 19:14:09 GMT"
-    },
-    {
-      "title": "[2026 행정 AX 포럼] ‘인공지능 넘어 국가지능으로’… 공공 AI 담당자 100여명 참석 - 조선비즈",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNzlCcmprd2Z0NXUzOG15dzloUk9qUWpERGxnSFRrS3B5U0djRVpWNXhNeU42b3VuOXBQRXAweEFqai1WZjBQWU5ELUFiRnhwSW12QUlaT2VJMWd0ZjhDd3NHSjRaT2J3a2VaWHFyNHNxZWdwMDFZaGhJeGRELXFRcnpxcHU4U0pnVXfSAZ4BQVVfeXFMTXJPVHNEZV82Qkd4bWktMzFjR29QdVFoRl9KblkxRmw1OWptVnBKTlZLeFE2bnA3NF9sNHN0ZXByRUE1NkpMYmRLRXZVb1JEcUZKTHRSWHptTDdwVFo1cVRlMnd5QzF4c05KdWNuOGdib0o3V09La0Z0REVaam90R3FxQnZmMTRlR1BhbTNDUGZWci14TV9KcnA2d2FobXc?oc=5",
-      "source": "Chosunbiz",
-      "date": "Thu, 09 Jul 2026 11:14:00 GMT"
-    },
-    {
-      "title": "ChatGPT는 더 큰 목표를 함께 실현하는 파트너로 나아갑니다",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5XMVFQalZDVVF0QWp4bVlLcXhMRU9EenJkVlRaSXVSWWR4X2FiRW56cTl2VVRaV292NDBDY2tucHdia0E0UjRhYUVKTy1UcS13aEJuR1JkTmRWeGhBM3U5ejRVWndlUWN6al9hQnBXaFNTa3l1dWNJ?oc=5",
-      "source": "OpenAI",
-      "date": "Thu, 09 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "title": "\"AI, 편의도구로만 쓰면 사고력↓…지능확장 방향으로 활용해야\"",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CbXJTa2dramloYjNNclJWMjJHNFFScm5WeUtBT3ZIMlQ0SVlYRmJDX0pPUnBCa2F6Nml3YkVZd19fVXpBNkk3TGJZNzNBVEhYWW4za2RJVlJnSjDSAWBBVV95cUxPVGs2NEozMVU2TGhqZWNNZHJ4THFwbnZOMjRFMmVZbUk0bkozV0o5WEw5c1N1MmtaekVDamtFQzI0REN5VGtxdmlhdVVjZlpIVE1FdmZueWYwdmhSX25XeU0?oc=5",
-      "source": "연합뉴스",
-      "date": "Thu, 09 Jul 2026 06:58:17 GMT"
-    },
-    {
-      "title": "예보, 생성형 AI 업무체계 구축…데이터 관리부터 손본다",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1CcUl5SGt3TmNGVHZuSDJhc2VHOUNnMU44Rzh6TnZ3cXBZVk1jNVIyN1doZ21uQ0ZvNEUwRG9ZQ2tIT2d6aUFFM1pWMHZYdw?oc=5",
-      "source": "전자신문",
-      "date": "Thu, 09 Jul 2026 06:00:00 GMT"
-    },
-    {
-      "title": "제조기업 인공지능(AI) 활용 돕는다… 13일 기업혁신 포럼 개최",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBSSXRYb0NEaVM1RGZKZndibGZYbTVEVGo4RjNTakZmQmotY3YxZVl3MWdMeGp2V1gzZmpYSW5ISUIzSDRPUERwVldwS0NhMWxHUXNVbklBNjFEM3BvVGc?oc=5",
-      "source": "시흥타임즈",
-      "date": "Thu, 09 Jul 2026 05:29:26 GMT"
     }
   ]
 }
