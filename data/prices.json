@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-11T05:19:02.489Z",
+  "last_updated": "2026-07-12T05:34:44.664Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -1419,6 +1419,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen2.5-vl-72b-instruct",
+      "name": "Qwen: Qwen2.5 VL 72B Instruct",
+      "price_1m_input": 0.25,
+      "price_1m_output": 0.75,
+      "context_length": 131072,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3.5-122b-a10b",
       "name": "Qwen: Qwen3.5-122B-A10B",
       "price_1m_input": 0.26,
@@ -1552,14 +1560,6 @@
       "price_1m_input": 0.78,
       "price_1m_output": 3.9,
       "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen2.5-vl-72b-instruct",
-      "name": "Qwen: Qwen2.5 VL 72B Instruct",
-      "price_1m_input": 0.8,
-      "price_1m_output": 1,
-      "context_length": 131072,
       "top_provider": true
     },
     {
