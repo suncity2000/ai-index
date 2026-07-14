@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-13T05:45:06.053Z",
+  "last_updated": "2026-07-14T04:56:39.528Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -157,8 +157,8 @@
     {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash",
-      "price_1m_input": 0.08,
-      "price_1m_output": 0.15,
+      "price_1m_input": 0.09,
+      "price_1m_output": 0.18,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -179,18 +179,18 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-chat-v3.1",
-      "name": "DeepSeek: DeepSeek V3.1",
-      "price_1m_input": 0.21,
-      "price_1m_output": 0.79,
-      "context_length": 163840,
-      "top_provider": true
-    },
-    {
       "id": "deepseek/deepseek-chat-v3-0324",
       "name": "DeepSeek: DeepSeek V3 0324",
       "price_1m_input": 0.24,
       "price_1m_output": 0.9,
+      "context_length": 163840,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-chat-v3.1",
+      "name": "DeepSeek: DeepSeek V3.1",
+      "price_1m_input": 0.25,
+      "price_1m_output": 0.95,
       "context_length": 163840,
       "top_provider": true
     },
@@ -675,18 +675,18 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-oss-20b",
-      "name": "OpenAI: gpt-oss-20b",
+      "id": "openai/gpt-oss-120b",
+      "name": "OpenAI: gpt-oss-120b",
       "price_1m_input": 0.03,
-      "price_1m_output": 0.14,
+      "price_1m_output": 0.15,
       "context_length": 131072,
       "top_provider": true
     },
     {
-      "id": "openai/gpt-oss-120b",
-      "name": "OpenAI: gpt-oss-120b",
-      "price_1m_input": 0.04,
-      "price_1m_output": 0.18,
+      "id": "openai/gpt-oss-20b",
+      "name": "OpenAI: gpt-oss-20b",
+      "price_1m_input": 0.03,
+      "price_1m_output": 0.14,
       "context_length": 131072,
       "top_provider": true
     },
@@ -723,16 +723,16 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4o-mini-2024-07-18",
-      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+      "id": "openai/gpt-4o-mini",
+      "name": "OpenAI: GPT-4o-mini",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
       "context_length": 128000,
       "top_provider": true
     },
     {
-      "id": "openai/gpt-4o-mini",
-      "name": "OpenAI: GPT-4o-mini",
+      "id": "openai/gpt-4o-mini-2024-07-18",
+      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
       "context_length": 128000,
@@ -1451,16 +1451,16 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen-plus-2025-07-28:thinking",
-      "name": "Qwen: Qwen Plus 0728 (thinking)",
+      "id": "qwen/qwen-plus-2025-07-28",
+      "name": "Qwen: Qwen Plus 0728",
       "price_1m_input": 0.26,
       "price_1m_output": 0.78,
       "context_length": 1000000,
       "top_provider": true
     },
     {
-      "id": "qwen/qwen-plus-2025-07-28",
-      "name": "Qwen: Qwen Plus 0728",
+      "id": "qwen/qwen-plus-2025-07-28:thinking",
+      "name": "Qwen: Qwen Plus 0728 (thinking)",
       "price_1m_input": 0.26,
       "price_1m_output": 0.78,
       "context_length": 1000000,
