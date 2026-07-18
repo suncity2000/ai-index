@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-07-17T10:44:41.976Z",
+  "last_updated": "2026-07-18T10:16:17.900Z",
   "news": [
+    {
+      "title": "OpenAI는 Atlas 브라우저 서비스를 종료하고 해당 기능을 ChatGPT로 이전했습니다.",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcmNWVmtTZm9ybHppaThib1l1MGsxbzFrOWR1c21HMkZsVkhPcFBwa3F3RlIyTmMxeXpkVUN2X1VDVFdnOW9ubHNlOHR6ZEVTTlhtZnpxQkVDUWRsZXhjUWNXdlZDX25SRWdKOFkwY1pwRUpSbXc2SjAza2dRS2xXOHJfaVFPalE3anNIcEh1WDdjOVBEX0Y0?oc=5",
+      "source": "Vietnam.vn",
+      "date": "Sat, 18 Jul 2026 00:45:35 GMT"
+    },
+    {
+      "title": "[김대호 진단] 반도체 열전 ⑫ 구글 알파벳 \" 알파고 인공지능 AI 원조\"",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORHFOS05jWEsya29HVFNrQ3NTNXJiOFZIYjhmOTRERUR6XzZUVVZobmFlUmZMWjBYTVFlUG05d01lZTlqc2hjdnU2YVBkWldURGdSTktYWWVVem9NVTcyWUxaRU9objNyVDdDN0VCbDN5OGhwaHVLS0N0VG0tLUZndnljTQ?oc=5",
+      "source": "글로벌이코노믹",
+      "date": "Fri, 17 Jul 2026 15:00:00 GMT"
+    },
     {
       "title": "아마존서 AI 생성 ‘저품질 자서전’ 대량 유통... 도서 생태계 교란 우려",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdHRfWE1OQU1XalJXLTJjZWNaM18tRXhnb3MydWNxVGc3NTNqaTFWQmJQYlM4aGRad1NYY01yVnhnM2xGWmlucGZwVnh2bTQwNFlvdDNwWmtMTjNnVThhTHlwYWp3alp0bWxsU3U1YU9TNlFlVlhteVAtVmgzUlMxdUp1RQ?oc=5",
@@ -18,6 +30,12 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9lSzN5cnNFSWxrdGNEODZ2ZUZ6dC1UZHZWRmh6NnZYTG9aMGF5WkwxeVZBNDlGTDMyTWhyVUp0bWFJdDN5TEJJOUV0YjJ5bG9TY0NLNFhFMmdDZGhYVnFaNnBVYkxIalprVFFQRUVYMHdSZ1RiS3c?oc=5",
       "source": "시사저널e",
       "date": "Fri, 17 Jul 2026 00:19:51 GMT"
+    },
+    {
+      "title": "안양시, ‘인공지능 정책 자문단’ 출범…2년 임기 산·학·관 전문가 20명 위촉",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE53MDF5NWI3dFBsMXVnZ2VJYVNnMWxYeEZHNjdQV1NNVElLSGExZHZPemI3WDhuWXpMVDZJc2FsRlZOZlA4dXc?oc=5",
+      "source": "v.daum.net",
+      "date": "Thu, 16 Jul 2026 23:15:00 GMT"
     },
     {
       "title": "안양시, ‘인공지능(AI) 정책 자문단’ 출범",
@@ -38,10 +56,10 @@
       "date": "Thu, 16 Jul 2026 09:11:50 GMT"
     },
     {
-      "title": "산울초 ‘2026 소프트웨어(SW)·인공지능(AI) 체험주간’ 운영",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wZFVBRVN1VEo4eWd0MmFNSU83aUlkZTlTLUsxaDhJZnBrVmRCTWVSR01nRlhfNDVYTTdIRG16Zms5YlhBRU1mZ2V1Z0UwZXRLb1VCdHR5Uno0NUxmQ3Yyc2hVSjh6VVE?oc=5",
-      "source": "세종의소리",
-      "date": "Thu, 16 Jul 2026 07:58:37 GMT"
+      "title": "‘로마 선언’ 서명, 핵무기와 인공지능(AI)에 관한 공동의 노력",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcWF4LXV6ekFLUVFKZ2hHeFk2V1R4Z1dtRC1PeDR6djhwY1hQNUtDUTZfWW1GVDFURURqT2JFS0RaSkVZTEx0TUdfLVo1bTVtVUoxTGY0T01MbUZvcVRHc29GT2NpVmFBeGc2S1hKcFh4dW1JVGJiMlFDX1VSSkM2R3dTbHkxV2M?oc=5",
+      "source": "Vatican News",
+      "date": "Thu, 16 Jul 2026 07:00:00 GMT"
     },
     {
       "title": "AI 시대의 권리와 법제도, 국민과 함께 논의… '2026 지능정보사회 법제도 포럼' 개최",
@@ -50,28 +68,10 @@
       "date": "Thu, 16 Jul 2026 06:57:42 GMT"
     },
     {
-      "title": "OpenAI가 ChatGPT를 위한 새로운 고급 AI 모델을 출시했습니다.",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOW9nZHZicnNvZW9QVGg1SXdIS3M0VDFZOEFRN2o4blY3cGFnVHhyZE9Ma2lFeGRfajVxZXlabnBXNmlISlhZcXNtVzJGNk9lRGd3anZtU2thdldIb01la3Y2RlozbDdHOWNVZ09TYS1SZ3RsV2g5NjBrYXhJOXNaa0JPU1dDV181?oc=5",
-      "source": "Vietnam.vn",
-      "date": "Thu, 16 Jul 2026 04:57:19 GMT"
-    },
-    {
-      "title": "[가정용 과학 기술] 오픈AI, AI 전용 하드웨어 시장 출사표…'가정용 AI 동반자' 개발",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5RRXlVaFBNbHBndDlBZlRhUGhReFNvcGNONE5hUlBZSDhpQXRiaTdkbzhxemM1bFp4SHRoVEhMeHBqY1ZmX3gzS0dmREoxM1N6VVJQRkI5a1oxeTFJdnpJVjNzN0pBQzROTTdhNlVsZ9IBc0FVX3lxTE5UU3VudnY4MzREMjA0OENfNGJGWFJvbzlXQmdWWGFteEpVWHdudHFNbHcwY002MVZLRUItdFJBMWw4LXV0NUhBNUx1eW43dnpnbXZENk9DTXhxcmFKel9VLWtIaWtFYkU4dzNkQndyTG81amM?oc=5",
-      "source": "데일리뉴스",
-      "date": "Thu, 16 Jul 2026 02:20:11 GMT"
-    },
-    {
-      "title": "“얼음 한 컵 줘“…LG전자, ’인공지능 음성인식’ 얼음정수기 출시",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtdU0tWGJaa0dFVGwwUVpabnpSbGZDb1NleGJnbUxtdHpZQkFma2w2emphTDh6QVNTbDVNV1djYVVFU1d0ejJpdUotQ0s3OW82RjI2S3E0QlJRWDhVSGhZeHZLWTNFN0U?oc=5",
-      "source": "연합뉴스TV",
-      "date": "Thu, 16 Jul 2026 01:35:00 GMT"
-    },
-    {
-      "title": "Supply Co. 아카이브",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5abmZ0OWprYUx0a3pzaTkxOUFTOERpV3VJNlFHZ3BFZ2tsRXlSel9Pakp3Vkd4UnV5dWRfb3VfcGpEdjd4UVI5MlVjVkxvVVh5Wnc?oc=5",
-      "source": "OpenAI",
-      "date": "Wed, 15 Jul 2026 19:35:27 GMT"
+      "title": "사이냅소프트, 법제처 '생성형 AI 법령검색 시스템 구축' 사업 컨소시엄 참여",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3VGU2TnZhLVVqcktoSDVRcUVhRXpLd3dyN1h4WXdZRV9PTktfVHUtSklmcU5fT3JZNExGWnI4U0t5WVZYTy1ZUC0tYzVQb0lQVlgzWjVPZ09FUUgzRzJadHNBckYwR1RSUVE?oc=5",
+      "source": "파이낸스스코프",
+      "date": "Thu, 16 Jul 2026 06:09:00 GMT"
     }
   ]
 }
