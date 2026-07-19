@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-18T04:53:41.539Z",
+  "last_updated": "2026-07-19T05:28:54.100Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -269,8 +269,8 @@
     {
       "id": "google/gemma-4-26b-a4b-it",
       "name": "Google: Gemma 4 26B A4B ",
-      "price_1m_input": 0.1,
-      "price_1m_output": 0.3,
+      "price_1m_input": 0.07,
+      "price_1m_output": 0.34,
       "context_length": 262144,
       "top_provider": true
     },
@@ -1307,14 +1307,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3-14b",
-      "name": "Qwen: Qwen3 14B",
-      "price_1m_input": 0.12,
-      "price_1m_output": 0.24,
-      "context_length": 131702,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3-vl-30b-a3b-thinking",
       "name": "Qwen: Qwen3 VL 30B A3B Thinking",
       "price_1m_input": 0.13,
@@ -1392,6 +1384,14 @@
       "price_1m_input": 0.21,
       "price_1m_output": 1.9,
       "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3-14b",
+      "name": "Qwen: Qwen3 14B",
+      "price_1m_input": 0.23,
+      "price_1m_output": 0.91,
+      "context_length": 131702,
       "top_provider": true
     },
     {
