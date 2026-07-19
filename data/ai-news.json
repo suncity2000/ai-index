@@ -1,11 +1,35 @@
 {
-  "last_updated": "2026-07-18T10:16:17.900Z",
+  "last_updated": "2026-07-19T10:25:15.346Z",
   "news": [
     {
-      "title": "OpenAI는 Atlas 브라우저 서비스를 종료하고 해당 기능을 ChatGPT로 이전했습니다.",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcmNWVmtTZm9ybHppaThib1l1MGsxbzFrOWR1c21HMkZsVkhPcFBwa3F3RlIyTmMxeXpkVUN2X1VDVFdnOW9ubHNlOHR6ZEVTTlhtZnpxQkVDUWRsZXhjUWNXdlZDX25SRWdKOFkwY1pwRUpSbXc2SjAza2dRS2xXOHJfaVFPalE3anNIcEh1WDdjOVBEX0Y0?oc=5",
-      "source": "Vietnam.vn",
-      "date": "Sat, 18 Jul 2026 00:45:35 GMT"
+      "title": "‘로마 선언’ 서명, 핵무기와 인공지능(AI)에 관한 공동의 노력",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcWF4LXV6ekFLUVFKZ2hHeFk2V1R4Z1dtRC1PeDR6djhwY1hQNUtDUTZfWW1GVDFURURqT2JFS0RaSkVZTEx0TUdfLVo1bTVtVUoxTGY0T01MbUZvcVRHc29GT2NpVmFBeGc2S1hKcFh4dW1JVGJiMlFDX1VSSkM2R3dTbHkxV2M?oc=5",
+      "source": "Vatican News",
+      "date": "Sun, 19 Jul 2026 06:57:39 GMT"
+    },
+    {
+      "title": "시흥시, 청소년·청년과 함께 인공지능(AI) 시대 정책 방향 그려",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5PczJVZllwaExKV3oybUQxc3dVUkFKYmI5MFpKdjlGcXF5S0lLMHI2bWlRc3A4MnBHaHBTVU12WHhZRmRUaFE1UUFOVGhCVU5LaW8yOVJjYWVOOFBscGxLRFVwTUVmN1hjajRCQdIBb0FVX3lxTFBibFFfLTM5bWUwbFpxLWlsSTFTYjcxWVhXMXlmMWE5RkxjZWpJbDBNa3NmZEluakJoQ2VjZ3hqRTByQUxvS29MS1JLdWJyeDVKLU5fZlZIc0JENUlWaWh1RE1VdEkzLThlT2NjN1NWYw?oc=5",
+      "source": "서울일보",
+      "date": "Sun, 19 Jul 2026 03:22:51 GMT"
+    },
+    {
+      "title": "안양시 ‘인공지능(AI) 정책 자문단’ 출범",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xQ1NUaTctNTk3RHJILWdBb0tsSzRHUlZoRDlaM2VJSF9FSE5zS1hzek9oSWxxM25kU3NLV0NtODRxQmNiS2hUb1lRWGpqMTd2eFltLUxwa211cEtENWJpcUhGTUljb2NKV3ZydGNuWks?oc=5",
+      "source": "산경일보",
+      "date": "Sun, 19 Jul 2026 01:55:34 GMT"
+    },
+    {
+      "title": "글로벌 헬스케어 인공지능(AI) 2034년 '1조 3천억불’",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83ZnU1SmZtRHlkaXo3N3Vicm1OcGM0LXhGSXM4eHFkLWVnU3ZXMXM4cEd5V2FnZzNOWU5qY3ZrVkR5SEdJeVdtZWxWRzBkMzVuM0RwYnhlTG9QUmVqa1pmSk5hTXFOOE02?oc=5",
+      "source": "데일리메디",
+      "date": "Sat, 18 Jul 2026 23:34:00 GMT"
+    },
+    {
+      "title": "'오픈AI와 앤트로픽 넘어설 것' 중국 문샷, 차세대 인공지능AI 'Kimi K3' 발표... 제2의 '딥시크 사태' 재현될까?",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE54UkRlMThUWHhCWmV5VkNIVGYtNkJITkJLZENTblNrcVM4aERMZEJxQnJTQjZ3a2VIUWgta2VVODAwZTU4Q01VX1Z1bHotVV9nVE8yaHZMRWZLX3o20gFiQVVfeXFMTjhMSUY2akY2WGg3dG9OQXFIbmNwMTBsZ0IyV1l5cFpyczN3OHVEeVJGZnZ4T0Y1T2pVakxsMWtfMUV5NFhGZFhEcE5Ubmdld1pSR1M3SHFrbWNuSzJVZEc1Tnc?oc=5",
+      "source": "BBC",
+      "date": "Sat, 18 Jul 2026 02:36:07 GMT"
     },
     {
       "title": "[김대호 진단] 반도체 열전 ⑫ 구글 알파벳 \" 알파고 인공지능 AI 원조\"",
@@ -33,39 +57,15 @@
     },
     {
       "title": "안양시, ‘인공지능 정책 자문단’ 출범…2년 임기 산·학·관 전문가 20명 위촉",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE53MDF5NWI3dFBsMXVnZ2VJYVNnMWxYeEZHNjdQV1NNVElLSGExZHZPemI3WDhuWXpMVDZJc2FsRlZOZlA4dXc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBGeGlYbXF5NklzNEZ4VkZ6QlhhQVc0REZLNmt4TFRiVVFwZ3RBRkVkRlc4VnMxdjAyeldld3ROdnhSNUo5Q0g0ejBzOXVJNHc3MjFsVA?oc=5",
       "source": "v.daum.net",
       "date": "Thu, 16 Jul 2026 23:15:00 GMT"
-    },
-    {
-      "title": "안양시, ‘인공지능(AI) 정책 자문단’ 출범",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5vMnlhSzNqaXM1ZXRFa01LQUU5ZjFQMHR1WFBfT2hZeU8yNEMwWVdIRDdhaUhzcXRpOS1zRFdiNHdHMXlRUUpIcVp2dFBaSFNJbl9ZVEVyRlRvNWN3a2EzZFN0SDFBSk1KSV9HSEt4R0lOMjhjZEhSOXJsY00?oc=5",
-      "source": "경기헤럴드",
-      "date": "Thu, 16 Jul 2026 21:18:51 GMT"
-    },
-    {
-      "title": "안양시 '인공지능 정책 자문단' 출범...AI 선도 도시 도약 시동",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBfSFB5SFI1dnNGYXJtRklXck81R0R5TXMwY0hHZlp1V0pRdzdCT240VlV5QjJObkEyRUhPUHBUdG1sOVBWdEhyV2txR0ZON0M5a090eTZmR2Z0ZGRI?oc=5",
-      "source": "뉴스핌",
-      "date": "Thu, 16 Jul 2026 09:46:00 GMT"
     },
     {
       "title": "사이냅소프트, 법제처 '생성형 AI 법령검색 시스템 구축' 참여",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZbWVhSk5oU2s0WGZLRy0zc3ZwS0I4cUlLMGZhNm5kY1RLQmFOdkV5cHJKTHBfNWp5M1pWQ3dIUnlQNGNna1VycjltelRHYU1yQ21IR0l2RV8xS0EyNmxYVUdfNkdrdw?oc=5",
       "source": "디일렉",
       "date": "Thu, 16 Jul 2026 09:11:50 GMT"
-    },
-    {
-      "title": "‘로마 선언’ 서명, 핵무기와 인공지능(AI)에 관한 공동의 노력",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcWF4LXV6ekFLUVFKZ2hHeFk2V1R4Z1dtRC1PeDR6djhwY1hQNUtDUTZfWW1GVDFURURqT2JFS0RaSkVZTEx0TUdfLVo1bTVtVUoxTGY0T01MbUZvcVRHc29GT2NpVmFBeGc2S1hKcFh4dW1JVGJiMlFDX1VSSkM2R3dTbHkxV2M?oc=5",
-      "source": "Vatican News",
-      "date": "Thu, 16 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "title": "AI 시대의 권리와 법제도, 국민과 함께 논의… '2026 지능정보사회 법제도 포럼' 개최",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8zMkVCRmVwVDcxWHB2MHMxbDU4dTVaemk5Q1JKN2NfcFBxOGIxaTJSSFRKN29jbnJFU2ZOM3U3UXdFSjN1WTR2WVU5UGxUMC14YWNDdnJYYnlfU19reUJWcFJBUnIyRUFMUmZJazlYNENZZw?oc=5",
-      "source": "로스쿨타임즈",
-      "date": "Thu, 16 Jul 2026 06:57:42 GMT"
     },
     {
       "title": "사이냅소프트, 법제처 '생성형 AI 법령검색 시스템 구축' 사업 컨소시엄 참여",
