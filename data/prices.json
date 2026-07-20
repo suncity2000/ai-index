@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19T05:28:54.100Z",
+  "last_updated": "2026-07-20T05:46:57.350Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -1307,6 +1307,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3-14b",
+      "name": "Qwen: Qwen3 14B",
+      "price_1m_input": 0.12,
+      "price_1m_output": 0.24,
+      "context_length": 131702,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3-vl-30b-a3b-thinking",
       "name": "Qwen: Qwen3 VL 30B A3B Thinking",
       "price_1m_input": 0.13,
@@ -1355,14 +1363,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3-235b-a22b-thinking-2507",
-      "name": "Qwen: Qwen3 235B A22B Thinking 2507",
-      "price_1m_input": 0.15,
-      "price_1m_output": 1.5,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3.6-flash",
       "name": "Qwen: Qwen3.6 Flash",
       "price_1m_input": 0.19,
@@ -1384,14 +1384,6 @@
       "price_1m_input": 0.21,
       "price_1m_output": 1.9,
       "context_length": 131072,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-14b",
-      "name": "Qwen: Qwen3 14B",
-      "price_1m_input": 0.23,
-      "price_1m_output": 0.91,
-      "context_length": 131702,
       "top_provider": true
     },
     {
@@ -1456,6 +1448,14 @@
       "price_1m_input": 0.3,
       "price_1m_output": 1.8,
       "context_length": 1000000,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+      "price_1m_input": 0.3,
+      "price_1m_output": 3,
+      "context_length": 262144,
       "top_provider": true
     },
     {
