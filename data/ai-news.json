@@ -1,77 +1,77 @@
 {
-  "last_updated": "2026-07-20T11:42:34.072Z",
+  "last_updated": "2026-07-21T11:05:40.444Z",
   "news": [
     {
-      "title": "\"다국적 기업도 중국서 인공지능·로봇 분야 집중 투자\"",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LRU5zS2VyZVVxYmxCWndyMGRFT1dZLTlKWk1DRmphc09tUmZodnkzT3BOOUN6YUZlVldOZnhBTGNoZEFYdVBPZzJRSVUzZ3ZEOGQ0MFhUTlN5eVg1MktiSElxdGg1MEdjUjRBZA?oc=5",
-      "source": "로봇신문",
-      "date": "Mon, 20 Jul 2026 08:54:47 GMT"
+      "title": "신진서, 인공지능에 '끝끝내' 역사적 승리",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBiMDE4eWhrZGo2bDI4V3VtNVlGdTZxOS16cndIM3RhU0hRbGxsbG1NUmpoX0szajZEb3BvNXdwRGlveWpfMElzckFaaE9EQnAxVlFnSEE4RWk4Y09UY1pod25MLUZfUDRQ?oc=5",
+      "source": "타이젬바둑",
+      "date": "Tue, 21 Jul 2026 09:08:00 GMT"
     },
     {
-      "title": "안양시, ‘인공지능(AI) 정책 자문단’ 출범",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JdHVSUlRPNEt0RlBiNTFZaFZUcFE5YndEZ1paa2t2RWgxQW1qVDBDR1pkQ3l3UGNLenZaZ2s4YVo3ekdoZ1lyNlFUUmZaRUI5ZkVyNWNDWlQ1bWw3STgxZ0lpVndNT3l0OXl30gFrQVVfeXFMTUl0dVJSVE80S3RGUGI1MVloVlRwUTlid0RnWlpra3ZFaDFBbWpUMENHWmRDeXdQY0t6dlpnazhhWjd6R2hnWXI2UVRSZlpFQjlmRXI1Y0NaVDVtbDdJODFnSWlWd01PeXQ5eXc?oc=5",
-      "source": "서울매일",
-      "date": "Mon, 20 Jul 2026 08:30:33 GMT"
+      "title": "靑 김용범 “모두의 AI로 인공지능 주권 확보…시장 돌면 정부는 퇴장”",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB4MWxNUjlsWEpveEN4Y19oRmhQVEt0WEUteVVubVh3ZnZqQXgtZC1TMmstcGhzU3RSOTlxakx3dU5UYnhGWlRsTGQzTlpOZw?oc=5",
+      "source": "전자신문",
+      "date": "Tue, 21 Jul 2026 06:41:51 GMT"
+    },
+    {
+      "title": "인공지능(AI)은 인간을 정말 쓸모없게 만들까?",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAwOTIxOU9oaUd6aUR6OTJ6aVBPR3M3cU9sOXdoeHFSVHhVSTZUZkxwQVJmampwdzJnQjFVanRqV3VaTFp5VDdqWTl1TDRwazR3N0NfbnozaTF1M3IzclFMeDR6Z2p0WnFPQ2RsZUxn?oc=5",
+      "source": "뉴스타운",
+      "date": "Tue, 21 Jul 2026 06:28:03 GMT"
+    },
+    {
+      "title": "성균관대 연구진, “생성형 AI 의존도 너무 높으면 오히려 학습 성적 떨어진다”",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9BamhMd24zc1A4dEd0Rzlmb3hnRC1ydThkelBDS2hoaGFVbm5KR1pwd1ZYTWR4NHhxZFRRdWFYYnNhZW1sX2xhMDBaeXhoU0lOWnA5aFhiVzk0cjYxVHp6NGx3aGpMUQ?oc=5",
+      "source": "한국대학신문",
+      "date": "Tue, 21 Jul 2026 06:27:12 GMT"
+    },
+    {
+      "title": "AI기본법 후속 개정안 시행…\"생성형 표시 의무\"",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BalJoZnFoejF5ZV9Gd0pIZlZYdmphYXZpVHU3V1lPWGZSYVBQRHgzcy1RczdzMVpXdjNVQjJQOXBEWkFDZGFqNnBQZ2FHRE9fdGdYRENObHZSc2JwYWtTeDlVeF9LWG8?oc=5",
+      "source": "연합뉴스TV",
+      "date": "Tue, 21 Jul 2026 03:49:00 GMT"
+    },
+    {
+      "title": "[AI for Good] 연재를 시작하며",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE55T0N2LWxDUUZjb1lxOE9qMUpzdEloOXVRUVNlOWVTa0JHMDNrc3BRdWJTS29rTk1zcExTS2ZwYmduUVVvMzVWY1hxa1ljby03LXdSMWt3eUhTMm5yQ2NBbk0yVlg3QWZpYy1PYzNUNNIBb0FVX3lxTE55T0N2LWxDUUZjb1lxOE9qMUpzdEloOXVRUVNlOWVTa0JHMDNrc3BRdWJTS29rTk1zcExTS2ZwYmduUVVvMzVWY1hxa1ljby03LXdSMWt3eUhTMm5yQ2NBbk0yVlg3QWZpYy1PYzNUNA?oc=5",
+      "source": "투데이신문",
+      "date": "Tue, 21 Jul 2026 00:46:54 GMT"
+    },
+    {
+      "title": "동서발전, 사내 생성형AI 플랫폼 ‘EZY’ 활성화 워크숍",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5RemZ1SjdXSVFPTXE0b0xPWk9MQndPdEw2SHNuY1QtTjloZ21aeURNYjFnTDFTcUhTS0xPbDhQcXZYZXhXREE?oc=5",
+      "source": "v.daum.net",
+      "date": "Mon, 20 Jul 2026 08:54:09 GMT"
+    },
+    {
+      "title": "화성특례시, 인공지능(AI) 복지서비스 ‘복지봄’구축 사업 참여... 복지 사각지대 없앤다",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfR2lRODVMNlNkeEo4TEVfVnJzUTl3b1RZejRacGRNb2dyMHV0eFgxbkVmZUl2NlNjckVPZmxoY3JNU3pnUERWMFRvYzY2a0dORnRUenc4c2x2STdhSERCSld5WWVDUQ?oc=5",
+      "source": "화성저널",
+      "date": "Mon, 20 Jul 2026 08:44:46 GMT"
     },
     {
       "title": "지자체, 인공지능(AI) '실증도시 구축' 총력전… 행정·안전 패러다임 바꾼다",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1jVnRSVG95VW5KWjVVNlRVWXlZakxnZzM0M01Md2UzQkQwNkFIUnNrbk04UnB6S21acTloSjJ0TEVRbHhwWkVlUWRWZE1qTEt4NUlqUXRNUU5rRTVMZWs4WmVXYVPSAWhBVV95cUxOWUIzUGFEWUU3UVNMbkw4N3c3UlJMN2ZURHdReVNVUDVheEk1cndwV3Jub005cTYxZU1SZkZLWXptRWdodVZYLXJULVJfOUdWN1ZyRjQxSTRFTWMwcm1NQmZzMXNvQUpEcA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZQjNQYURZRTdRU0xuTDg3dzdSUkw3ZlREd1F5U1VQNWF4STVyd3BXcm5vTTlxNjFlTVJmRktZem1FZ2h1VlgtclQtUl85R1Y3VnJGNDFJNEVNYzBybU1CZnMxc29BSkRw0gFoQVVfeXFMTllCM1BhRFlFN1FTTG5MODd3N1JSTDdmVER3UXlTVVA1YXhJNXJ3cFdybm9NOXE2MWVNUmZGS1l6bUVnaHVWWC1yVC1SXzlHVjdWckY0MUk0RU1jMHJtTUJmczFzb0FKRHA?oc=5",
       "source": "경인방송 뉴스",
-      "date": "Mon, 20 Jul 2026 07:44:56 GMT"
+      "date": "Mon, 20 Jul 2026 08:04:48 GMT"
     },
     {
-      "title": "동서발전, 생성형 AI 활용 확대… 전 직원 맞춤형 교육 강화",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xOTJxOHdaT2xlUUxtOGtXSTNXYlZuX0I5WFFXODZoMXcyQXRlcF9FYzNKV0FvYm1faTRUQXVCejkxWUI3SVZyRTlCQV8ybnpsYk5RMFdCWjVrSmRfdlpoNnNaVmVnTDFwMXc?oc=5",
-      "source": "천지일보",
-      "date": "Mon, 20 Jul 2026 05:23:34 GMT"
+      "title": "키미3 수요 폭발에 신규 구독 중단…'제번스 역설' 강화하나 |",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jNFVwbWx6aHgycU9JU1A4Ump4SmFHMllaYzBNNXZwWTg1MnhPcTVvMnBROW9HVEo4bVFKZ09VaWJnSEZJTzVuZHYzMDVmYzllV2RKWXhnLWVlZWxsRnNqWHVRdzlTN0M0T2s5eEZKUy1KZklK?oc=5",
+      "source": "연합인포맥스",
+      "date": "Mon, 20 Jul 2026 06:53:20 GMT"
     },
     {
-      "title": "[단독] 중, 시진핑 공들인 ‘세계인공지능대회’에 한국 고위급 초청했었다",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBCSlpkTmRIdTV4TVY4U3NyU1FvMmlqcGk2NEEzVEpxdjVFaV9fN1VaeElhY1QzaElOdno0dHVpaDBGTjJncG5xSHFCZlFFcEI5ZDN2anRvRzB4UFktekg1WXZFVEFMRV9qaHl6LTQxeU9CTHA5?oc=5",
-      "source": "한겨레",
-      "date": "Mon, 20 Jul 2026 02:55:00 GMT"
-    },
-    {
-      "title": "조선업도 인공지능으로…HD현대-네이버클라우드 맞손",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5URExEVVZNRU9odlVFS0FkNmRzcmxJRFFtaWMza1BGdFVsUEhrWVBVc0hCXzBlLWYtcXVzdTVzYVhwakxidkhZeWhJQUJPVEdQYnliWXBBSElFMXpJemNwWmxoUFhCTkU?oc=5",
-      "source": "연합뉴스TV",
-      "date": "Mon, 20 Jul 2026 00:46:00 GMT"
-    },
-    {
-      "title": "안양시, 인공지능(AI) 정책 자문단 구성ㆍ본격 활동 시작...최대호 \"인공지능 혁신 선도\" 당부",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBTVjYtRmVaZ1JrNVdNemhybUp3QUk0aFN6ekJkcDRpdTljbldOOUhGWmRrSlpLcUxNVDdaME1FbUMyLVJoc0RvT0Z1WjZONV9tR0xLd0U0M0NLRHE0akhWZDFob2NkLW10bEg0SW5JSmU1WnQ5?oc=5",
-      "source": "대한경제",
-      "date": "Sun, 19 Jul 2026 23:37:28 GMT"
+      "title": "인공지능(AI) 모델 '키미 K3' 홍보 부스",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yY2dQaVJkamhVQWtLT1dpWmVsS0FvUWlUcEs1UHFVMzF1UEo0TWV2Q1VWVDFnVkdPMVpjRkxWaFlVLV9LcTBuMnpKMEJGTVNxNk4ta2FOR3lwUEx5SlVvVNIBYEFVX3lxTE9yY2dQaVJkamhVQWtLT1dpWmVsS0FvUWlUcEs1UHFVMzF1UEo0TWV2Q1VWVDFnVkdPMVpjRkxWaFlVLV9LcTBuMnpKMEJGTVNxNk4ta2FOR3lwUEx5SlVvVA?oc=5",
+      "source": "연합뉴스",
+      "date": "Mon, 20 Jul 2026 04:43:00 GMT"
     },
     {
       "title": "[AI 심층기획 ①] '생성형 AI'를 넘어 'AI 에이전트' 시대로… 디지털 노동자가 바꾸는 세계 경제의 새로운 질서",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9paWNrVTNseU9jUEd3YllGVXlWWldsNGNrOEJZR1NpcUctN1dzLWE4VDVDRVhOU2pjanRGYXBYTVRldlVFVFBWTUJIaTVwVHpFNWM5UTFPYkl1VzZ1NldMN1BxRFRqbE9fQ0E?oc=5",
       "source": "뉴스밸류",
       "date": "Sun, 19 Jul 2026 23:00:00 GMT"
-    },
-    {
-      "title": "'인류 대표' 신진서, 2점으로 AI 뛰어넘었다…혈투 끝에 4집반승(종합)",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtNkJOWk4weE9sSFNDOFloM2hQT2t0bGpiVG1LMUhpSXVObVlXU19RdXJXR2NKVkh1VWN4OHpwOC1hVHF0LTVrZEEydl82NXdSZTNfUENRdUtJSmfSAWBBVV95cUxPX3lTNWF3ZjR1UEItWXRxd0dnWURGbkUzU3J4ajMyZlFnR2lBVHNiX01UY2FpamN4S3h6azE3MHJnUmZVYnRweDNiNzdFbGEyNlNhMUIzaUVrUkJHQkI3OGc?oc=5",
-      "source": "연합뉴스",
-      "date": "Sun, 19 Jul 2026 06:24:02 GMT"
-    },
-    {
-      "title": "미·중·일 인공지능 패권전쟁 가열 \"AI 세계표준, 나야 나\" - 머니투데이",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01anY5czBHTHpZSFFGanh0MUpnMm1hVnlPQ1ZSbXpQX2ViUS1FRWYzYkdfM1hDUWJpalN6TUl4VGQ1c1JtblF3ZE1IMTR2VU1kUHptcDdpU1pkNzlRSndvRkw5VWhxbFlw0gFuQVVfeXFMTXFoVDlzTFdWT1pFeDd2VjZyZGwxd2E5SV85ZlB3NDNtcXdIeFlEbmt2d2JqYlNpRGxfYk5jMWV6cUxBMVM4R051bmQyQUd1SjZFVEZaZ1ZwbFJfU1ZWbEMyUjRVRGFFai1CZEVxNFE?oc=5",
-      "source": "머니투데이",
-      "date": "Sun, 19 Jul 2026 06:12:42 GMT"
-    },
-    {
-      "title": "'오픈AI와 앤트로픽 넘어설 것' 중국 문샷, 차세대 인공지능AI 'Kimi K3' 발표... 제2의 '딥시크 사태' 재현될까?",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE54UkRlMThUWHhCWmV5VkNIVGYtNkJITkJLZENTblNrcVM4aERMZEJxQnJTQjZ3a2VIUWgta2VVODAwZTU4Q01VX1Z1bHotVV9nVE8yaHZMRWZLX3o20gFiQVVfeXFMTjhMSUY2akY2WGg3dG9OQXFIbmNwMTBsZ0IyV1l5cFpyczN3OHVEeVJGZnZ4T0Y1T2pVakxsMWtfMUV5NFhGZFhEcE5Ubmdld1pSR1M3SHFrbWNuSzJVZEc1Tnc?oc=5",
-      "source": "BBC",
-      "date": "Sat, 18 Jul 2026 02:36:07 GMT"
-    },
-    {
-      "title": "OpenAI는 Atlas 브라우저 서비스를 종료하고 해당 기능을 ChatGPT로 이전했습니다.",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcmNWVmtTZm9ybHppaThib1l1MGsxbzFrOWR1c21HMkZsVkhPcFBwa3F3RlIyTmMxeXpkVUN2X1VDVFdnOW9ubHNlOHR6ZEVTTlhtZnpxQkVDUWRsZXhjUWNXdlZDX25SRWdKOFkwY1pwRUpSbXc2SjAza2dRS2xXOHJfaVFPalE3anNIcEh1WDdjOVBEX0Y0?oc=5",
-      "source": "Vietnam.vn",
-      "date": "Sat, 18 Jul 2026 00:45:35 GMT"
     }
   ]
 }
