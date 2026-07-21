@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-20T05:46:57.350Z",
+  "last_updated": "2026-07-21T05:26:59.591Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -157,8 +157,8 @@
     {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash",
-      "price_1m_input": 0.1,
-      "price_1m_output": 0.2,
+      "price_1m_input": 0.09,
+      "price_1m_output": 0.19,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -293,8 +293,8 @@
     {
       "id": "google/gemma-4-31b-it",
       "name": "Google: Gemma 4 31B",
-      "price_1m_input": 0.22,
-      "price_1m_output": 0.55,
+      "price_1m_input": 0.12,
+      "price_1m_output": 0.37,
       "context_length": 262144,
       "top_provider": true
     },
@@ -1262,7 +1262,7 @@
       "id": "qwen/qwen3-next-80b-a3b-instruct",
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
       "price_1m_input": 0.1,
-      "price_1m_output": 1.1,
+      "price_1m_output": 0.78,
       "context_length": 262144,
       "top_provider": true
     },
