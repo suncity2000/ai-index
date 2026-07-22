@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-21T05:26:59.591Z",
+  "last_updated": "2026-07-22T05:25:40.102Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -167,7 +167,7 @@
       "name": "DeepSeek: DeepSeek V3",
       "price_1m_input": 0.2,
       "price_1m_output": 0.8,
-      "context_length": 131072,
+      "context_length": 163840,
       "top_provider": true
     },
     {
@@ -199,7 +199,7 @@
       "name": "DeepSeek: DeepSeek V3.1 Terminus",
       "price_1m_input": 0.27,
       "price_1m_output": 1,
-      "context_length": 131072,
+      "context_length": 163840,
       "top_provider": true
     },
     {
@@ -239,7 +239,7 @@
       "name": "DeepSeek: R1 Distill Llama 70B",
       "price_1m_input": 0.8,
       "price_1m_output": 0.8,
-      "context_length": 128000,
+      "context_length": 8192,
       "top_provider": true
     },
     {
@@ -287,7 +287,7 @@
       "name": "Google: Gemma 3 27B",
       "price_1m_input": 0.1,
       "price_1m_output": 0.3,
-      "context_length": 131072,
+      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -319,6 +319,14 @@
       "name": "Google: Gemini 3.1 Flash Lite Preview",
       "price_1m_input": 0.25,
       "price_1m_output": 1.5,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "google/gemini-3.5-flash-lite",
+      "name": "Google: Gemini 3.5 Flash-Lite",
+      "price_1m_input": 0.3,
+      "price_1m_output": 2.5,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -395,6 +403,14 @@
       "top_provider": true
     },
     {
+      "id": "google/gemini-3.6-flash",
+      "name": "Google: Gemini 3.6 Flash",
+      "price_1m_input": 1.5,
+      "price_1m_output": 7.5,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
       "id": "google/gemini-3.5-flash",
       "name": "Google: Gemini 3.5 Flash",
       "price_1m_input": 1.5,
@@ -407,7 +423,7 @@
       "name": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
       "price_1m_input": 2,
       "price_1m_output": 12,
-      "context_length": 65536,
+      "context_length": 131072,
       "top_provider": true
     },
     {
@@ -415,7 +431,7 @@
       "name": "Google: Gemini 3.1 Pro Preview Custom Tools",
       "price_1m_input": 2,
       "price_1m_output": 12,
-      "context_length": 1048756,
+      "context_length": 1048576,
       "top_provider": true
     },
     {
@@ -439,7 +455,7 @@
       "name": "Meta: Llama 3.2 1B Instruct",
       "price_1m_input": 0.03,
       "price_1m_output": 0.2,
-      "context_length": 131072,
+      "context_length": 60000,
       "top_provider": true
     },
     {
@@ -463,7 +479,7 @@
       "name": "Meta: Llama 4 Scout",
       "price_1m_input": 0.1,
       "price_1m_output": 0.3,
-      "context_length": 10000000,
+      "context_length": 1310720,
       "top_provider": true
     },
     {
@@ -479,7 +495,7 @@
       "name": "Meta: Llama Guard 4 12B",
       "price_1m_input": 0.18,
       "price_1m_output": 0.18,
-      "context_length": 163840,
+      "context_length": 1048576,
       "top_provider": true
     },
     {
@@ -511,7 +527,7 @@
       "name": "WizardLM-2 8x22B",
       "price_1m_input": 0.62,
       "price_1m_output": 0.62,
-      "context_length": 65536,
+      "context_length": 65535,
       "top_provider": true
     },
     {
@@ -551,7 +567,7 @@
       "name": "Mistral: Mistral Small 3.2 24B",
       "price_1m_input": 0.1,
       "price_1m_output": 0.3,
-      "context_length": 131072,
+      "context_length": 256000,
       "top_provider": true
     },
     {
@@ -1199,7 +1215,7 @@
       "name": "Qwen: Qwen2.5 7B Instruct",
       "price_1m_input": 0.04,
       "price_1m_output": 0.1,
-      "context_length": 131072,
+      "context_length": 32768,
       "top_provider": true
     },
     {
@@ -1215,7 +1231,7 @@
       "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
       "price_1m_input": 0.07,
       "price_1m_output": 0.27,
-      "context_length": 160000,
+      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1247,7 +1263,7 @@
       "name": "Qwen: Qwen3 VL 32B Instruct",
       "price_1m_input": 0.1,
       "price_1m_output": 0.42,
-      "context_length": 262144,
+      "context_length": 131072,
       "top_provider": true
     },
     {
@@ -1262,7 +1278,7 @@
       "id": "qwen/qwen3-next-80b-a3b-instruct",
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
       "price_1m_input": 0.1,
-      "price_1m_output": 0.78,
+      "price_1m_output": 1.1,
       "context_length": 262144,
       "top_provider": true
     },
@@ -1287,7 +1303,7 @@
       "name": "Qwen: Qwen3 VL 8B Thinking",
       "price_1m_input": 0.12,
       "price_1m_output": 1.37,
-      "context_length": 256000,
+      "context_length": 131072,
       "top_provider": true
     },
     {
@@ -1295,7 +1311,7 @@
       "name": "Qwen: Qwen3 VL 8B Instruct",
       "price_1m_input": 0.12,
       "price_1m_output": 0.45,
-      "context_length": 256000,
+      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1311,7 +1327,7 @@
       "name": "Qwen: Qwen3 14B",
       "price_1m_input": 0.12,
       "price_1m_output": 0.24,
-      "context_length": 131702,
+      "context_length": 131072,
       "top_provider": true
     },
     {
@@ -1319,7 +1335,7 @@
       "name": "Qwen: Qwen3 VL 30B A3B Thinking",
       "price_1m_input": 0.13,
       "price_1m_output": 1.56,
-      "context_length": 131072,
+      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1335,7 +1351,7 @@
       "name": "Qwen: Qwen3 30B A3B Thinking 2507",
       "price_1m_input": 0.13,
       "price_1m_output": 1.56,
-      "context_length": 131072,
+      "context_length": 81920,
       "top_provider": true
     },
     {
@@ -1383,7 +1399,7 @@
       "name": "Qwen: Qwen3 VL 235B A22B Instruct",
       "price_1m_input": 0.21,
       "price_1m_output": 1.9,
-      "context_length": 131072,
+      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1463,7 +1479,7 @@
       "name": "Qwen: Qwen3 Coder 480B A35B",
       "price_1m_input": 0.3,
       "price_1m_output": 1,
-      "context_length": 1048576,
+      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1487,7 +1503,7 @@
       "name": "Qwen2.5 72B Instruct",
       "price_1m_input": 0.36,
       "price_1m_output": 0.4,
-      "context_length": 131072,
+      "context_length": 32768,
       "top_provider": true
     },
     {
@@ -1527,7 +1543,7 @@
       "name": "Qwen2.5 Coder 32B Instruct",
       "price_1m_input": 0.66,
       "price_1m_output": 1,
-      "context_length": 128000,
+      "context_length": 32768,
       "top_provider": true
     },
     {
@@ -1551,7 +1567,7 @@
       "name": "Qwen: Qwen2.5 VL 72B Instruct",
       "price_1m_input": 0.8,
       "price_1m_output": 1,
-      "context_length": 131072,
+      "context_length": 128000,
       "top_provider": true
     },
     {
