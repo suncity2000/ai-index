@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23T05:31:20.552Z",
+  "last_updated": "2026-07-24T05:26:49.705Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -267,6 +267,22 @@
       "top_provider": true
     },
     {
+      "id": "google/gemma-3-27b-it",
+      "name": "Google: Gemma 3 27B",
+      "price_1m_input": 0.08,
+      "price_1m_output": 0.45,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
+      "id": "google/gemma-4-31b-it",
+      "name": "Google: Gemma 4 31B",
+      "price_1m_input": 0.1,
+      "price_1m_output": 0.35,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "google/gemini-2.5-flash-lite",
       "name": "Google: Gemini 2.5 Flash Lite",
       "price_1m_input": 0.1,
@@ -275,24 +291,8 @@
       "top_provider": true
     },
     {
-      "id": "google/gemma-3-27b-it",
-      "name": "Google: Gemma 3 27B",
-      "price_1m_input": 0.1,
-      "price_1m_output": 0.3,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "google/gemma-4-26b-a4b-it",
       "name": "Google: Gemma 4 26B A4B ",
-      "price_1m_input": 0.12,
-      "price_1m_output": 0.35,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "google/gemma-4-31b-it",
-      "name": "Google: Gemma 4 31B",
       "price_1m_input": 0.12,
       "price_1m_output": 0.35,
       "context_length": 262144,
@@ -686,7 +686,7 @@
       "id": "openai/gpt-oss-20b",
       "name": "OpenAI: gpt-oss-20b",
       "price_1m_input": 0.03,
-      "price_1m_output": 0.13,
+      "price_1m_output": 0.14,
       "context_length": 131072,
       "top_provider": true
     },
@@ -1379,6 +1379,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3.5-27b",
+      "name": "Qwen: Qwen3.5-27B",
+      "price_1m_input": 0.2,
+      "price_1m_output": 1.56,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3-coder-flash",
       "name": "Qwen: Qwen3 Coder Flash",
       "price_1m_input": 0.2,
@@ -1400,14 +1408,6 @@
       "price_1m_input": 0.23,
       "price_1m_output": 0.91,
       "context_length": 131072,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3.5-27b",
-      "name": "Qwen: Qwen3.5-27B",
-      "price_1m_input": 0.26,
-      "price_1m_output": 2.6,
-      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1459,6 +1459,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3.6-27b",
+      "name": "Qwen: Qwen3.6 27B",
+      "price_1m_input": 0.29,
+      "price_1m_output": 2.4,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3.5-plus-20260420",
       "name": "Qwen: Qwen3.5 Plus 2026-04-20",
       "price_1m_input": 0.3,
@@ -1471,14 +1479,6 @@
       "name": "Qwen: Qwen3 235B A22B Thinking 2507",
       "price_1m_input": 0.3,
       "price_1m_output": 3,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-coder",
-      "name": "Qwen: Qwen3 Coder 480B A35B",
-      "price_1m_input": 0.3,
-      "price_1m_output": 1,
       "context_length": 262144,
       "top_provider": true
     },
@@ -1507,6 +1507,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3-coder",
+      "name": "Qwen: Qwen3 Coder 480B A35B",
+      "price_1m_input": 0.38,
+      "price_1m_output": 1.55,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3.5-397b-a17b",
       "name": "Qwen: Qwen3.5 397B A17B",
       "price_1m_input": 0.39,
@@ -1520,14 +1528,6 @@
       "price_1m_input": 0.45,
       "price_1m_output": 1.82,
       "context_length": 131072,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3.6-27b",
-      "name": "Qwen: Qwen3.6 27B",
-      "price_1m_input": 0.6,
-      "price_1m_output": 3.6,
-      "context_length": 262144,
       "top_provider": true
     },
     {
