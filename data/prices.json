@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24T05:26:49.705Z",
+  "last_updated": "2026-07-25T05:20:29.237Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -51,6 +51,14 @@
       "top_provider": true
     },
     {
+      "id": "anthropic/claude-opus-5",
+      "name": "Claude Opus 5",
+      "price_1m_input": 5,
+      "price_1m_output": 25,
+      "context_length": 1000000,
+      "top_provider": true
+    },
+    {
       "id": "anthropic/claude-opus-4.8",
       "name": "Anthropic: Claude Opus 4.8",
       "price_1m_input": 5,
@@ -80,6 +88,14 @@
       "price_1m_input": 5,
       "price_1m_output": 25,
       "context_length": 200000,
+      "top_provider": true
+    },
+    {
+      "id": "anthropic/claude-opus-5-fast",
+      "name": "Claude Opus 5 (Fast)",
+      "price_1m_input": 10,
+      "price_1m_output": 50,
+      "context_length": 1000000,
       "top_provider": true
     },
     {
@@ -157,8 +173,8 @@
     {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash",
-      "price_1m_input": 0.1,
-      "price_1m_output": 0.2,
+      "price_1m_input": 0.09,
+      "price_1m_output": 0.19,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -275,14 +291,6 @@
       "top_provider": true
     },
     {
-      "id": "google/gemma-4-31b-it",
-      "name": "Google: Gemma 4 31B",
-      "price_1m_input": 0.1,
-      "price_1m_output": 0.35,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "google/gemini-2.5-flash-lite",
       "name": "Google: Gemini 2.5 Flash Lite",
       "price_1m_input": 0.1,
@@ -295,6 +303,14 @@
       "name": "Google: Gemma 4 26B A4B ",
       "price_1m_input": 0.12,
       "price_1m_output": 0.35,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
+      "id": "google/gemma-4-31b-it",
+      "name": "Google: Gemma 4 31B",
+      "price_1m_input": 0.14,
+      "price_1m_output": 0.4,
       "context_length": 262144,
       "top_provider": true
     },
@@ -686,7 +702,7 @@
       "id": "openai/gpt-oss-20b",
       "name": "OpenAI: gpt-oss-20b",
       "price_1m_input": 0.03,
-      "price_1m_output": 0.14,
+      "price_1m_output": 0.13,
       "context_length": 131072,
       "top_provider": true
     },
@@ -1275,6 +1291,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+      "price_1m_input": 0.1,
+      "price_1m_output": 1.1,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3-30b-a3b-instruct-2507",
       "name": "Qwen: Qwen3 30B A3B Instruct 2507",
       "price_1m_input": 0.1,
@@ -1359,14 +1383,6 @@
       "name": "Qwen: Qwen3 VL 30B A3B Instruct",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-next-80b-a3b-instruct",
-      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
-      "price_1m_input": 0.15,
-      "price_1m_output": 1.2,
       "context_length": 262144,
       "top_provider": true
     },
@@ -1483,6 +1499,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3-coder",
+      "name": "Qwen: Qwen3 Coder 480B A35B",
+      "price_1m_input": 0.3,
+      "price_1m_output": 1,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3.7-plus",
       "name": "Qwen: Qwen3.7 Plus",
       "price_1m_input": 0.32,
@@ -1504,14 +1528,6 @@
       "price_1m_input": 0.36,
       "price_1m_output": 0.4,
       "context_length": 32768,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-coder",
-      "name": "Qwen: Qwen3 Coder 480B A35B",
-      "price_1m_input": 0.38,
-      "price_1m_output": 1.55,
-      "context_length": 262144,
       "top_provider": true
     },
     {
