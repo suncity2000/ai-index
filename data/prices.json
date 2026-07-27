@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-26T05:38:23.665Z",
+  "last_updated": "2026-07-27T05:56:55.741Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -375,7 +375,7 @@
       "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
       "price_1m_input": 0.5,
       "price_1m_output": 3,
-      "context_length": 131072,
+      "context_length": 65536,
       "top_provider": true
     },
     {
@@ -736,14 +736,6 @@
       "price_1m_input": 0.1,
       "price_1m_output": 0.4,
       "context_length": 1047576,
-      "top_provider": true
-    },
-    {
-      "id": "openai/gpt-4o-mini-search-preview",
-      "name": "OpenAI: GPT-4o-mini Search Preview",
-      "price_1m_input": 0.15,
-      "price_1m_output": 0.6,
-      "context_length": 128000,
       "top_provider": true
     },
     {
