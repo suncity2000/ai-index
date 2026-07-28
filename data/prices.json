@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-27T05:56:55.741Z",
+  "last_updated": "2026-07-28T05:20:55.413Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -301,8 +301,8 @@
     {
       "id": "google/gemma-4-26b-a4b-it",
       "name": "Google: Gemma 4 26B A4B ",
-      "price_1m_input": 0.12,
-      "price_1m_output": 0.35,
+      "price_1m_input": 0.14,
+      "price_1m_output": 0.42,
       "context_length": 262144,
       "top_provider": true
     },
@@ -787,6 +787,22 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-5.6-luna-pro",
+      "name": "OpenAI: GPT-5.6 Luna Pro",
+      "price_1m_input": 0.5,
+      "price_1m_output": 3,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.6-luna",
+      "name": "OpenAI: GPT-5.6 Luna",
+      "price_1m_input": 0.5,
+      "price_1m_output": 3,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-3.5-turbo",
       "name": "OpenAI: GPT-3.5 Turbo",
       "price_1m_input": 0.5,
@@ -808,22 +824,6 @@
       "price_1m_input": 0.75,
       "price_1m_output": 4.5,
       "context_length": 400000,
-      "top_provider": true
-    },
-    {
-      "id": "openai/gpt-5.6-luna-pro",
-      "name": "OpenAI: GPT-5.6 Luna Pro",
-      "price_1m_input": 1,
-      "price_1m_output": 6,
-      "context_length": 1050000,
-      "top_provider": true
-    },
-    {
-      "id": "openai/gpt-5.6-luna",
-      "name": "OpenAI: GPT-5.6 Luna",
-      "price_1m_input": 1,
-      "price_1m_output": 6,
-      "context_length": 1050000,
       "top_provider": true
     },
     {
@@ -867,6 +867,22 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-5.6-terra-pro",
+      "name": "OpenAI: GPT-5.6 Terra Pro",
+      "price_1m_input": 1.25,
+      "price_1m_output": 7.5,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.6-terra",
+      "name": "OpenAI: GPT-5.6 Terra",
+      "price_1m_input": 1.25,
+      "price_1m_output": 7.5,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-5.1-codex-max",
       "name": "OpenAI: GPT-5.1-Codex-Max",
       "price_1m_input": 1.25,
@@ -904,14 +920,6 @@
       "price_1m_input": 1.25,
       "price_1m_output": 10,
       "context_length": 400000,
-      "top_provider": true
-    },
-    {
-      "id": "openai/gpt-5-chat",
-      "name": "OpenAI: GPT-5 Chat",
-      "price_1m_input": 1.25,
-      "price_1m_output": 10,
-      "context_length": 128000,
       "top_provider": true
     },
     {
@@ -995,22 +1003,6 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-5.6-terra-pro",
-      "name": "OpenAI: GPT-5.6 Terra Pro",
-      "price_1m_input": 2.5,
-      "price_1m_output": 15,
-      "context_length": 1050000,
-      "top_provider": true
-    },
-    {
-      "id": "openai/gpt-5.6-terra",
-      "name": "OpenAI: GPT-5.6 Terra",
-      "price_1m_input": 2.5,
-      "price_1m_output": 15,
-      "context_length": 1050000,
-      "top_provider": true
-    },
-    {
       "id": "openai/gpt-5.4",
       "name": "OpenAI: GPT-5.4",
       "price_1m_input": 2.5,
@@ -1032,14 +1024,6 @@
       "price_1m_input": 2.5,
       "price_1m_output": 2,
       "context_length": 400000,
-      "top_provider": true
-    },
-    {
-      "id": "openai/gpt-4o-search-preview",
-      "name": "OpenAI: GPT-4o Search Preview",
-      "price_1m_input": 2.5,
-      "price_1m_output": 10,
-      "context_length": 128000,
       "top_provider": true
     },
     {
@@ -1216,6 +1200,14 @@
       "price_1m_input": 150,
       "price_1m_output": 600,
       "context_length": 200000,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3.7-flash",
+      "name": "Qwen: Qwen3.7 Flash",
+      "price_1m_input": 0.03,
+      "price_1m_output": 0.13,
+      "context_length": 1000000,
       "top_provider": true
     },
     {
