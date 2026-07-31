@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30T05:14:52.523Z",
+  "last_updated": "2026-07-31T05:41:44.273Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -883,6 +883,22 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-5.6-luna-pro",
+      "name": "OpenAI: GPT-5.6 Luna Pro",
+      "price_1m_input": 0.1,
+      "price_1m_output": 0.6,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.6-luna",
+      "name": "OpenAI: GPT-5.6 Luna",
+      "price_1m_input": 0.1,
+      "price_1m_output": 0.6,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-5.4-nano:batch",
       "name": "OpenAI: GPT-5.4 Nano (batch)",
       "price_1m_input": 0.1,
@@ -963,22 +979,6 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-5.6-luna-pro",
-      "name": "OpenAI: GPT-5.6 Luna Pro",
-      "price_1m_input": 0.5,
-      "price_1m_output": 3,
-      "context_length": 1050000,
-      "top_provider": true
-    },
-    {
-      "id": "openai/gpt-5.6-luna",
-      "name": "OpenAI: GPT-5.6 Luna",
-      "price_1m_input": 0.5,
-      "price_1m_output": 3,
-      "context_length": 1050000,
-      "top_provider": true
-    },
-    {
       "id": "openai/gpt-3.5-turbo",
       "name": "OpenAI: GPT-3.5 Turbo",
       "price_1m_input": 0.5,
@@ -1027,6 +1027,22 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-5.6-terra-pro",
+      "name": "OpenAI: GPT-5.6 Terra Pro",
+      "price_1m_input": 1,
+      "price_1m_output": 6,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.6-terra",
+      "name": "OpenAI: GPT-5.6 Terra",
+      "price_1m_input": 1,
+      "price_1m_output": 6,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-3.5-turbo-0613",
       "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
       "price_1m_input": 1,
@@ -1067,22 +1083,6 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-5.6-terra-pro",
-      "name": "OpenAI: GPT-5.6 Terra Pro",
-      "price_1m_input": 1.25,
-      "price_1m_output": 7.5,
-      "context_length": 1050000,
-      "top_provider": true
-    },
-    {
-      "id": "openai/gpt-5.6-terra",
-      "name": "OpenAI: GPT-5.6 Terra",
-      "price_1m_input": 1.25,
-      "price_1m_output": 7.5,
-      "context_length": 1050000,
-      "top_provider": true
-    },
-    {
       "id": "openai/gpt-5.4:batch",
       "name": "OpenAI: GPT-5.4 (batch)",
       "price_1m_input": 1.25,
@@ -1117,14 +1117,6 @@
     {
       "id": "openai/gpt-5.1-codex",
       "name": "OpenAI: GPT-5.1-Codex",
-      "price_1m_input": 1.25,
-      "price_1m_output": 10,
-      "context_length": 400000,
-      "top_provider": true
-    },
-    {
-      "id": "openai/gpt-5-codex",
-      "name": "OpenAI: GPT-5 Codex",
       "price_1m_input": 1.25,
       "price_1m_output": 10,
       "context_length": 400000,
@@ -1184,14 +1176,6 @@
       "price_1m_input": 1.75,
       "price_1m_output": 14,
       "context_length": 400000,
-      "top_provider": true
-    },
-    {
-      "id": "openai/o4-mini-deep-research",
-      "name": "OpenAI: o4 Mini Deep Research",
-      "price_1m_input": 2,
-      "price_1m_output": 8,
-      "context_length": 200000,
       "top_provider": true
     },
     {
@@ -1328,14 +1312,6 @@
       "price_1m_input": 10,
       "price_1m_output": 10,
       "context_length": 400000,
-      "top_provider": true
-    },
-    {
-      "id": "openai/o3-deep-research",
-      "name": "OpenAI: o3 Deep Research",
-      "price_1m_input": 10,
-      "price_1m_output": 40,
-      "context_length": 200000,
       "top_provider": true
     },
     {
@@ -1619,6 +1595,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+      "price_1m_input": 0.23,
+      "price_1m_output": 2.3,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3-14b",
       "name": "Qwen: Qwen3 14B",
       "price_1m_input": 0.23,
@@ -1671,14 +1655,6 @@
       "name": "Qwen: Qwen3.6 27B",
       "price_1m_input": 0.3,
       "price_1m_output": 2,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-235b-a22b-thinking-2507",
-      "name": "Qwen: Qwen3 235B A22B Thinking 2507",
-      "price_1m_input": 0.3,
-      "price_1m_output": 3,
       "context_length": 262144,
       "top_provider": true
     },
