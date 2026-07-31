@@ -1,17 +1,47 @@
 {
-  "last_updated": "2026-07-30T11:05:09.502Z",
+  "last_updated": "2026-07-31T11:27:41.467Z",
   "news": [
     {
-      "title": "경남교육청, 인공지능(AI)·디지털 기반 ‘깊이 있는 수업’ 설계 역량 강화",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNWjlNYy1VMWZwcS1XQjdzTVBfNHloX0w4U21ES0dQcHc3TGZiR3dmY1Z2T2hzV1hJYmhlYldBUlhfUTRSOTJiUDF6YlV4WWtPazVsUUVnblBCclB3NEh2eGJUenR1V2FZbnc?oc=5",
-      "source": "idomin.com",
-      "date": "Thu, 30 Jul 2026 08:29:27 GMT"
+      "title": "인공지능(AI) 대전환 선포에 이어 이젠‘챔피언’선발!",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBQal8tajdkRV9xZnFNc0tYWE5rWFFYdjlJVUlfeWh6Q1FkaUFEaU56UWJnWGJtZVRZaEJHUV9XRHNuZ2pxZDhvVGVScTFaN3p3aW1aWktpSGY1dVAtNUVKRERFQ2RaUzNTNDFycUJfTE83T3NQ?oc=5",
+      "source": "구미뉴스",
+      "date": "Fri, 31 Jul 2026 04:58:00 GMT"
+    },
+    {
+      "title": "오픈AI, 학술 연구자 대상 챗GPT 무료 제공 프로그램 출시",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9kNmh1c2Z3R2l5eWlGaXo3Zl9JMTR4MHNmSlBBal8zWlgxS2xFT3RsV3pPMFYtWE01NGctOGlicjFYRURhMXdiN2VOLWVrbXc2N09UWmZhQU9ueWVmVHlqLUFB?oc=5",
+      "source": "e4ds news",
+      "date": "Fri, 31 Jul 2026 00:02:00 GMT"
+    },
+    {
+      "title": "진도군, 인공지능(AI) 안부든든 서비스 본격 운영 “우리 이웃을 함께 지켜주세요”",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBQWjZma3BEZWRzOWxwQ1ZSMjY5d0liT2ZYNHlFZVFqQ0FzQjJrWFd5cVlmRlF6dEE3T1hQTlpRVU80VEFhWFlRSUlCTFdNTFpqNmxENDc5Zw?oc=5",
+      "source": "대한뉴스통신",
+      "date": "Thu, 30 Jul 2026 14:34:00 GMT"
     },
     {
       "title": "[과학 이야기] 월드컵이 남긴 인공지능(AI) 숙제",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9GejdHVTZYVExyNnZ2RGxRLWJpU0trZ1dqQlVUbmFjc29namFpc1Y4X1czNW5JaVFaVFA5VkFGd0ZqN0NkMGpCS21vUUlpT2s?oc=5",
       "source": "v.daum.net",
       "date": "Thu, 30 Jul 2026 08:00:15 GMT"
+    },
+    {
+      "title": "오픈AI, 학술 연구자 위한 챗GPT 출시...한국 17개 기관 포함 글로벌 확대",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8zbjFjQWpRWFNFNzBFZTFkV2tzY1ZfLXdWTWNxbkdBVkZvaUVzQjJXMTdJSEVFTjBYaEpCaWVINkZ0eG5ZN2NpTmNzNlc3NDl1ZU00ZnJnZFNBTjk0RXpZ?oc=5",
+      "source": "헬로티",
+      "date": "Thu, 30 Jul 2026 07:17:37 GMT"
+    },
+    {
+      "title": "\"생성형 AI 약점 7배 더 찾는다\"…KAIST, AI 안전성 검증 기술 개발",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wcnpRNDdILXZTNEtCNWdOaFZCMlRYbDIyQWwtc011cWxfTjNacVRXNkkzT25TN2pObURZNlJVTUN6RlhHTXp5OHZ3a3c0ZUdudWZUeTZFXzFFdTlI?oc=5",
+      "source": "티제이비",
+      "date": "Thu, 30 Jul 2026 06:56:59 GMT"
+    },
+    {
+      "title": "오픈AI, 전 세계 ‘학술 연구자 위한 챗GPT’ 무료 제공…2027년까지 최대 10만 명 지원",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51TXl4TUdFUEdGR0YwaDc0X1JoQzVhMVJ4LVhoc19fT0pYUVJTWFBuWGxxSjNQeTkyREpzMmRoeVM4dDV3dmkzM3RCV0hSV25CaV9HUVdzMGxiVUxuOER3ZnBGN1V1X28?oc=5",
+      "source": "인공지능신문",
+      "date": "Thu, 30 Jul 2026 02:30:29 GMT"
     },
     {
       "title": "\"오픈·효율·최신 기술, 3개 축으로 간다\"…엔비디아 생성형 AI 부사장 인터뷰",
@@ -22,20 +52,14 @@
     {
       "title": "고양시, 인공지능·디지털 배움터 12월까지 운영",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11X1h2dDBsdjdlbHVURVFOcERLWjh0N3FINnA4MG1rWmtfbndoVl9FTTZQY1BCQk0zSUVNR004TUZ5bWpmVWZVZ01KSHB3VV9jb3c1RXItSWRsRENzaTRiQdIBYEFVX3lxTE11X1h2dDBsdjdlbHVURVFOcERLWjh0N3FINnA4MG1rWmtfbndoVl9FTTZQY1BCQk0zSUVNR004TUZ5bWpmVWZVZ01KSHB3VV9jb3c1RXItSWRsRENzaTRiQQ?oc=5",
-      "source": "연합뉴스",
+      "source": "yna.co.kr",
       "date": "Thu, 30 Jul 2026 01:16:43 GMT"
     },
     {
       "title": "[AI시대 주목받는 학과①] 고려대 인공지능학과 “AI 시대 중요한 건 기초 역량”…AI 기초부터 응용까지 체계적 교육과정 운영",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FdTJBRVBWc3ZKU25YbHVkMFRQemx4MUh3ZXc1ZnptQnlUMk1RMTNWY1lhQWtHLWw3aEFrSUd2UVFsUWhEUkRiM2ZZNUhyRUdra2lrZVE2aklKTUlWNXQ0aTdGUVRlUHBf?oc=5",
-      "source": "테크월드",
+      "source": "epnc.co.kr",
       "date": "Thu, 30 Jul 2026 01:00:00 GMT"
-    },
-    {
-      "title": "‘AI 사원’도 뽑았다... 진화화는 식품업계의 인공지능 활용법 - 조선비즈",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcmJKMXFZR05vRW53WE5RNkZ6aWxra1FaUGRqaENrbC1id3ZpbG5ESUNGeXdYVUlxZjN5QWVkN0UySUp0bUJ4eVpSdmN2NlItWU5OMmhKc1I2NWZDX3pLQzZMZnRET21TaldGQVdxMzFwaWh1cUsyMFhaYWo5ekNqdV82emV5QdIBmgFBVV95cUxOdm55U3QyQlFLRGF1a1NiVmhlRC0tN3lZcng5M3dfanZ4SHlHTk1HZ0l0WGRiUHZQVDZ2eWw5VXkydm1SRDVrNTRqQ0Z5LTYxVWlWV2pRY2NmbW5ERFlORGN4VGxsNlhoVEJlQy1rbU80cDZ2YnJ5TWJXSnRLOTFVNnMyMVlDT3YzalRiZEoybW5odlFkb20xcllR?oc=5",
-      "source": "Chosunbiz",
-      "date": "Wed, 29 Jul 2026 21:08:00 GMT"
     },
     {
       "title": "강원권 ‘뇌졸중 인공지능(AI) 플랫폼’ 구축 본격화",
@@ -44,34 +68,10 @@
       "date": "Wed, 29 Jul 2026 20:59:00 GMT"
     },
     {
-      "title": "해양진흥공사, '해(海)GPT' 도입…자체 AI로 일하는 방식 바꾼다",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUbTNwMjVsalpWSUFGQ2tBVlV4Y0dWSkdiaDhOcVZ3ckxUYXNjaFU5OGhFOUdXdEUwWGNROXJ2b0s3SUhScWV6cDBydzZzZ2hhQlRGbzFyUmpUZlVOM0QtczlQM3ZQaksxcC13Ym9XWjfSAXBBVV95cUxQVG0zcDI1bGpaVklBRkNrQVZVeGNHVkpHYmg4TnFWd3JMVGFzY2hVOThoRTlHV3RFMFhjUTlydm9LN0lIUnFlenAwcnc2c2doYUJURm8xclJqVGZVTjNELXM5UDN2UGpLMXAtd2JvV1o3?oc=5",
-      "source": "electimes.com",
-      "date": "Wed, 29 Jul 2026 12:20:03 GMT"
-    },
-    {
-      "title": "경기도교육청, 2026 인공지능(AI) 디지털팔레트 예술학교 운영 시작",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JVDdITko0VWZCd0ZvZ2c1d2NNN2t3Rjcyb25OZ193ZTlrLVRka2M3UmdMVU9JVV84emIwcjJ3SXNublJCcXF3WWNoRFRXaEpveXdDeG5EZDZlV1lzcGtHSkcwTFNqdW8?oc=5",
-      "source": "파주에서신문",
-      "date": "Wed, 29 Jul 2026 08:57:32 GMT"
-    },
-    {
-      "title": "건국대, 인공지능(AI)학과 신설…2027년 수시 1900명 모집",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4yMmRBdFRjZ3g4Q05COEFlNXZxSXcwVmlyd2tUQnlTdThyN2VjYnJ4aHZfa3RKNFhmSjY4aUtWMmhSQmV4T3RsS2UwYm1wVE4tVmR3d0lB?oc=5",
-      "source": "지디넷코리아",
-      "date": "Wed, 29 Jul 2026 03:19:19 GMT"
-    },
-    {
-      "title": "토요일 50분 동안 멈춰 선 ChatGPT·Codex·API…전 세계가 멈춘 OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQQXBtV0ZRMXcyRGlYcVdrbHdvN0dMbTd4amNCcWtoZTZ3a0c4bm5ERmY3aFJ5TVdOYmRVUUtzM21rWEVVeTdPaWRrcVJGa1dtXzJzVnV0TDQzck9HWVNCRVdRM2tmR3RQSWdoai01bFpheWt1TFFRdzRvVnJfUk5NeVdlUlNGcFByc2xKZUc5UzFRd3dhR0x3RFhJSlY3cU9BTHRoNFVlSUlQVVZSUnVHTjBsZTF5akxQcTdUaE5za2RBcW40QTBIelVIdWxOOGp6bzk4Sk5HdkJ4TWF4T3FPSHM1MllDdWxNSzlWd2NwWlV5WFBiNW5yTEdFdDdkZVhtYTU3QWRCbmxjbTNVYjJkSW5OeGV0ZlBVVHpfYkZRTC0wQ1RQdmRFT212WlVidjYxbndISFBmM0Jya0lDUU5N?oc=5",
-      "source": "yellow.com",
-      "date": "Tue, 28 Jul 2026 09:26:13 GMT"
-    },
-    {
-      "title": "생성형 AI가 새로운 쇼핑 채널로…카페24, AI 유입 72% 급증",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBkMTFmZ01oRjBUWGlzOVJyekJlZGRHMXNGRXdCZk9wV29LM0hOZ2hWT0tlYzJXYmdudlFFMHdDVGt6VjNjQ0JwQXpjdndZZldCZGpVNGFPYnFxTUlDSmxxRjRFT0g?oc=5",
-      "source": "MTN 머니투데이방송",
-      "date": "Tue, 28 Jul 2026 08:18:36 GMT"
+      "title": "해진공, 업무 특화 생성형 AI '海GPT' 구축…8월부터 전 직원 서비스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96VW55blpiUFFnMjdET1FRbTdEVlBjMXJjMFVtc01TQkM2cEdGQVpqU2FNZjFEajNDajJzalExNnU3UnNrc3VOeERfdU9oOXl0aHhONlpRU2VqUDBzVXlPNV9zV3RqODNfQnRn?oc=5",
+      "source": "해사신문",
+      "date": "Wed, 29 Jul 2026 08:14:02 GMT"
     }
   ]
 }
