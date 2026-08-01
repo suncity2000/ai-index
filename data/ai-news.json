@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-07-31T11:27:41.467Z",
+  "last_updated": "2026-08-01T10:38:10.825Z",
   "news": [
+    {
+      "title": "의사·AI 함께 진료하면 책임은 누가?…AI 7단계 분류체계 제시",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAwY0pDY0RtZFBhOVRaZzAtb3FqbFdTbmhTZE1XaHQ4bEp2V3VSOVdQUHVXaC0xcnMwQ0x0a1UzZTNnTllvNTY0SDBQb1hWTkJvaGlsQw?oc=5",
+      "source": "동아사이언스",
+      "date": "Sat, 01 Aug 2026 09:00:00 GMT"
+    },
+    {
+      "title": "오픈AI 80% 가격 인하, AI 생태계 주도권 싸움",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5RMW1OWjRrOHF0LWpQUnBzZWRWY2pSRlBqQnh4ZDVIb3l4TnN5d21TVHdfVXFCWFptMC1nZ2phREoydGdzUTU2U3BTb1d2YUpqdVNGZmVXV2Y1NVNYelRaRWJnVlRzRkU4X1llZVdB?oc=5",
+      "source": "뉴스타운",
+      "date": "Sat, 01 Aug 2026 06:13:20 GMT"
+    },
+    {
+      "title": "유럽 전역에서 책임 있는 AI 발전 지원",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ZSlNJXzVJV2NXTGtlMi16SHd1bDB6dnNsck5MQzZCRldvZVo2cDRFOXBuRFFaazl1Q2x0cEx0anlOaGhNNmhFbVVaNW94RFNWZWVHUVZWV1ZQN1BTaFZmSXB4bnBraHlXR0NvY3ZWTXdqRkRKYXBFYnF3?oc=5",
+      "source": "OpenAI",
+      "date": "Sat, 01 Aug 2026 01:22:47 GMT"
+    },
+    {
+      "title": "오픈AI ‘챗GPT’, 활성 사용자 수 10억명 돌파… ‘가격 인하’ 승부수 통했다",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYk9FalBNdWFWMGpHT1JFQm9WLVdfSHY0dzF4TVRqenVVVmxHUWNxb0lmakRJLUF1Rll0d2R6YXR0c1hlMzNIR2FyUFVIOFJtUUdEUzV5ZkZqNmUtVzFCanhmck5BVzFFd0hXZVF5dFFRZlVkdVNKcjVVaGNJbUo1SWRlbw?oc=5",
+      "source": "조선일보",
+      "date": "Sat, 01 Aug 2026 00:06:10 GMT"
+    },
+    {
+      "title": "시흥시, 8월부터 복지행정 전 과정에 생성형 AI 실증 착수",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4waE1QVzh1YS0xajl2VUxEalltOHZkWWt5V3VNMzhQZ0pESjRjTnJqVW5QY20yQ1dCUmpWazE5WUlNMkZpNVNLYVNpMWhuQQ?oc=5",
+      "source": "전자신문",
+      "date": "Fri, 31 Jul 2026 17:47:12 GMT"
+    },
+    {
+      "title": "AI와 관세무역데이터로 창업 아이디어 싹틔우다...'26 관세청 공공데이터·인공지능 활용 창업경진대회 시상식",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sYzZVdkdDMlkzdFU5eWJoMGdxckU4NXJkTFhrOGozUlFySGdheFE1Sy1XeV9TNE5jQU9iTFBGa3VyTUhlbVQ1eTZrUE1GdUsyZjgyaHlRQ1Z0ZGdvdlZkNFpITTZXZlk?oc=5",
+      "source": "인공지능신문",
+      "date": "Fri, 31 Jul 2026 09:18:33 GMT"
+    },
     {
       "title": "인공지능(AI) 대전환 선포에 이어 이젠‘챔피언’선발!",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBQal8tajdkRV9xZnFNc0tYWE5rWFFYdjlJVUlfeWh6Q1FkaUFEaU56UWJnWGJtZVRZaEJHUV9XRHNuZ2pxZDhvVGVScTFaN3p3aW1aWktpSGY1dVAtNUVKRERFQ2RaUzNTNDFycUJfTE83T3NQ?oc=5",
@@ -21,15 +57,9 @@
     },
     {
       "title": "[과학 이야기] 월드컵이 남긴 인공지능(AI) 숙제",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9GejdHVTZYVExyNnZ2RGxRLWJpU0trZ1dqQlVUbmFjc29namFpc1Y4X1czNW5JaVFaVFA5VkFGd0ZqN0NkMGpCS21vUUlpT2s?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1SZmRCaHJjek80ZDdKTlIwblRjOGhOemZWYUZfV3p0UzFPUHpqWUY2bDNyeUFsTUUxYVRJa3dvQWlORWxILVE?oc=5",
       "source": "v.daum.net",
       "date": "Thu, 30 Jul 2026 08:00:15 GMT"
-    },
-    {
-      "title": "오픈AI, 학술 연구자 위한 챗GPT 출시...한국 17개 기관 포함 글로벌 확대",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8zbjFjQWpRWFNFNzBFZTFkV2tzY1ZfLXdWTWNxbkdBVkZvaUVzQjJXMTdJSEVFTjBYaEpCaWVINkZ0eG5ZN2NpTmNzNlc3NDl1ZU00ZnJnZFNBTjk0RXpZ?oc=5",
-      "source": "헬로티",
-      "date": "Thu, 30 Jul 2026 07:17:37 GMT"
     },
     {
       "title": "\"생성형 AI 약점 7배 더 찾는다\"…KAIST, AI 안전성 검증 기술 개발",
@@ -42,36 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51TXl4TUdFUEdGR0YwaDc0X1JoQzVhMVJ4LVhoc19fT0pYUVJTWFBuWGxxSjNQeTkyREpzMmRoeVM4dDV3dmkzM3RCV0hSV25CaV9HUVdzMGxiVUxuOER3ZnBGN1V1X28?oc=5",
       "source": "인공지능신문",
       "date": "Thu, 30 Jul 2026 02:30:29 GMT"
-    },
-    {
-      "title": "\"오픈·효율·최신 기술, 3개 축으로 간다\"…엔비디아 생성형 AI 부사장 인터뷰",
-      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQV3J3TWM2ZERTdkV5Q2RTUmhGSjU2VnJkRWY2RjVFWEJydkdJeEQxRmxiSnhTVE45R05jSjYxQjRDbHlDS3hsUjE3UDVMSDVyc1NZbFE4Qm1rZFFONGp0VEszWW1UYU5vMFRsN2hIRmFHcEY4MWUzZ2RSdzBqWnhQVHRuSHIxWXJ5WDNyd05jUGhpWndtdWlfekJUZ2NOQ2hrTDRFN1NidUpmbERFOERqVENacHhjUnhGTmd1RGFORmxDS0xYM1ZnSUlDZi0tdnBkWjQwYWVoOF9GYnA0WHUwN0hCSGlZdjhrOGZIVkZVNm5ySjI0UWdRZGp2eXBNcnRLeERKb1RDVjRnUXVPaTZ6LWhqUjlwbkNSZDZYLTlwVGVnRjI0aGhxNE5TbV8wNVU3a2ZHNWVCeEpESElhYkIxUUVib2E3ZGFnUnc?oc=5",
-      "source": "itworld.co.kr",
-      "date": "Thu, 30 Jul 2026 01:31:28 GMT"
-    },
-    {
-      "title": "고양시, 인공지능·디지털 배움터 12월까지 운영",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11X1h2dDBsdjdlbHVURVFOcERLWjh0N3FINnA4MG1rWmtfbndoVl9FTTZQY1BCQk0zSUVNR004TUZ5bWpmVWZVZ01KSHB3VV9jb3c1RXItSWRsRENzaTRiQdIBYEFVX3lxTE11X1h2dDBsdjdlbHVURVFOcERLWjh0N3FINnA4MG1rWmtfbndoVl9FTTZQY1BCQk0zSUVNR004TUZ5bWpmVWZVZ01KSHB3VV9jb3c1RXItSWRsRENzaTRiQQ?oc=5",
-      "source": "yna.co.kr",
-      "date": "Thu, 30 Jul 2026 01:16:43 GMT"
-    },
-    {
-      "title": "[AI시대 주목받는 학과①] 고려대 인공지능학과 “AI 시대 중요한 건 기초 역량”…AI 기초부터 응용까지 체계적 교육과정 운영",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FdTJBRVBWc3ZKU25YbHVkMFRQemx4MUh3ZXc1ZnptQnlUMk1RMTNWY1lhQWtHLWw3aEFrSUd2UVFsUWhEUkRiM2ZZNUhyRUdra2lrZVE2aklKTUlWNXQ0aTdGUVRlUHBf?oc=5",
-      "source": "epnc.co.kr",
-      "date": "Thu, 30 Jul 2026 01:00:00 GMT"
-    },
-    {
-      "title": "강원권 ‘뇌졸중 인공지능(AI) 플랫폼’ 구축 본격화",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB3NlkxY3JBTW5LYVF6T3RrUFMwV0pFOHRPeklUTnp6d1pZa1lHRWtJSzQzX2trWURhTlM1RVpybmtLWTBRR1NqcjcxODJNUGVqMUVsaXFBcV9xLXVMOWVWSVQ1d1Uxc1dtT0Zha0NEVTBIQ0lu?oc=5",
-      "source": "데일리메디",
-      "date": "Wed, 29 Jul 2026 20:59:00 GMT"
-    },
-    {
-      "title": "해진공, 업무 특화 생성형 AI '海GPT' 구축…8월부터 전 직원 서비스",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96VW55blpiUFFnMjdET1FRbTdEVlBjMXJjMFVtc01TQkM2cEdGQVpqU2FNZjFEajNDajJzalExNnU3UnNrc3VOeERfdU9oOXl0aHhONlpRU2VqUDBzVXlPNV9zV3RqODNfQnRn?oc=5",
-      "source": "해사신문",
-      "date": "Wed, 29 Jul 2026 08:14:02 GMT"
     }
   ]
 }
