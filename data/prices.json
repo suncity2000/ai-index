@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T05:49:22.275Z",
+  "last_updated": "2026-08-04T05:20:31.531Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -180,7 +180,7 @@
     },
     {
       "id": "deepseek/deepseek-v4-flash",
-      "name": "DeepSeek: DeepSeek V4 Flash",
+      "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "price_1m_input": 0.14,
       "price_1m_output": 0.28,
       "context_length": 1048576,
@@ -509,8 +509,8 @@
     {
       "id": "meta-llama/llama-3.3-70b-instruct",
       "name": "Meta: Llama 3.3 70B Instruct",
-      "price_1m_input": 0.13,
-      "price_1m_output": 0.4,
+      "price_1m_input": 0.1,
+      "price_1m_output": 0.32,
       "context_length": 131072,
       "top_provider": true
     },
@@ -1198,7 +1198,7 @@
       "id": "qwen/qwen3-coder-30b-a3b-instruct",
       "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
       "price_1m_input": 0.07,
-      "price_1m_output": 0.28,
+      "price_1m_output": 0.27,
       "context_length": 262144,
       "top_provider": true
     },
@@ -1208,6 +1208,14 @@
       "price_1m_input": 0.08,
       "price_1m_output": 0.28,
       "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+      "price_1m_input": 0.09,
+      "price_1m_output": 1.1,
+      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1224,14 +1232,6 @@
       "price_1m_input": 0.1,
       "price_1m_output": 0.42,
       "context_length": 131072,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-next-80b-a3b-instruct",
-      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
-      "price_1m_input": 0.1,
-      "price_1m_output": 1.1,
-      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1275,14 +1275,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3-vl-30b-a3b-instruct",
-      "name": "Qwen: Qwen3 VL 30B A3B Instruct",
-      "price_1m_input": 0.13,
-      "price_1m_output": 0.52,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3.6-35b-a3b",
       "name": "Qwen: Qwen3.6 35B A3B",
       "price_1m_input": 0.14,
@@ -1295,6 +1287,14 @@
       "name": "Qwen: Qwen3.5-35B-A3B",
       "price_1m_input": 0.14,
       "price_1m_output": 1,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3-vl-30b-a3b-instruct",
+      "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+      "price_1m_input": 0.15,
+      "price_1m_output": 0.6,
       "context_length": 262144,
       "top_provider": true
     },
@@ -1387,6 +1387,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3.5-122b-a10b",
+      "name": "Qwen: Qwen3.5-122B-A10B",
+      "price_1m_input": 0.26,
+      "price_1m_output": 2.08,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3.5-plus-02-15",
       "name": "Qwen: Qwen3.5 Plus 2026-02-15",
       "price_1m_input": 0.26,
@@ -1411,19 +1419,19 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3.6-27b",
+      "name": "Qwen: Qwen3.6 27B",
+      "price_1m_input": 0.29,
+      "price_1m_output": 2.4,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3.5-plus-20260420",
       "name": "Qwen: Qwen3.5 Plus 2026-04-20",
       "price_1m_input": 0.3,
       "price_1m_output": 1.8,
       "context_length": 1000000,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3.6-27b",
-      "name": "Qwen: Qwen3.6 27B",
-      "price_1m_input": 0.3,
-      "price_1m_output": 2,
-      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1463,14 +1471,6 @@
       "name": "Qwen: Qwen3.5 397B A17B",
       "price_1m_input": 0.39,
       "price_1m_output": 2.34,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3.5-122b-a10b",
-      "name": "Qwen: Qwen3.5-122B-A10B",
-      "price_1m_input": 0.4,
-      "price_1m_output": 3.2,
       "context_length": 262144,
       "top_provider": true
     },
@@ -1551,6 +1551,14 @@
       "name": "Qwen: Qwen3.7 Max",
       "price_1m_input": 1.48,
       "price_1m_output": 4.43,
+      "context_length": 1000000,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3.8-max",
+      "name": "Qwen: Qwen3.8 Max",
+      "price_1m_input": 2,
+      "price_1m_output": 6,
       "context_length": 1000000,
       "top_provider": true
     },
