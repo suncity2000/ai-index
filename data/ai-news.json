@@ -1,11 +1,47 @@
 {
-  "last_updated": "2026-08-05T11:18:15.364Z",
+  "last_updated": "2026-08-06T11:20:51.119Z",
   "news": [
     {
-      "title": "교육부, 2026년 인공지능(AI) 활용 교육 및 대한민국 과학·수학·정보 교사 콘퍼런스 개최",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ra1BYc05vaV9mUElDQWNPQ3BfTTN6Y3ZDYjh0akx4RlpNaVpSQjU2bGRSbWFZbEs4N2ZfVFhDQWhIV3NmUkI2Qy1jRUo2X1g3cEpsR18tQUotbVE?oc=5",
-      "source": "데일리연합",
-      "date": "Wed, 05 Aug 2026 09:24:04 GMT"
+      "title": "AI 해킹: '킬스위치'란 무엇이며, 인공지능의 공격을 막을 수 있을까",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5vZUV6UFluRW9RakhlMzBXWDdYT3pNVF9FME94MWNXcDlGUGwxdEdxLW91Y2JQaFZVd3p2d3hjMFVzVWo3XzQxdTRSQ25WZDl0WXZWR1BoOVdLdWZueWRzNGVn0gFiQVVfeXFMTm9lRXpQWW5Fb1FqSGUzMFdYN1hPek1UX0UwT3gxY1dwOUZQbDF0R3Etb3VjYlBoVlV3enZ3eGMwVXNVajdfNDF1NFJDblZkOXRZdlZHUGg5V0t1Zm55ZHM0ZWc?oc=5",
+      "source": "BBC",
+      "date": "Thu, 06 Aug 2026 09:52:40 GMT"
+    },
+    {
+      "title": "AI 제품, 공공조달 문턱 낮아진다",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MS3RPNUlvSGdXRm5CZ0FCVno3X3ZTT1VPVGxfaTNwbHhQbnJ6UGpBNzVscGlFWjdjanNFWkN4ZHlDd1FVcVY5bXR5OHNLMlNQRk56dlhDVXFnSThKYWhwOEVBNGcyaTlVNDlxTXRwSHHSAXBBVV95cUxOTEt0TzVJb0hnV0ZuQmdBQlZ6N192U09VT1RsX2kzcGx4UG5yelBqQTc1bHBpRVo3Y2pzRVpDeGR5Q3dRVXFWOW10eThzSzJTUEZOenZYQ1VxZ0k4SmFocDhFQTRnMmk5VTQ5cU10cEhx?oc=5",
+      "source": "전기신문",
+      "date": "Thu, 06 Aug 2026 06:08:09 GMT"
+    },
+    {
+      "title": "인천시교육청AI융합교육원, 인천형 인공지능(AI) 융합교육 설계 연수 운영",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBPdGdCNmYyWnprbVkwa1hlZ1YydFdUZ2s4dmVlamxEczZyQ29XUkFvOERPWVhIUFY2cHlMRnl1ZVFKanMwWW4xWGE1a2pIZXBNeTAwS1hxS2dfTlFyc05aV3h6T1VJVElscVkyMWJFMA?oc=5",
+      "source": "incheonnews.com",
+      "date": "Thu, 06 Aug 2026 05:22:30 GMT"
+    },
+    {
+      "title": "시장 1위가 AI에선 4위…생성형 AI가 고른 브랜드는 달랐다",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVGxnbVNJT3dOZTFraWpJNkJlT3J5QUg5QTRZTXE1QXVUWE5zQ240U0FHNlZMSHlvNVpMSEM1T0MyZXNudVFhVTduTmdPb2VOWnBobEpkeE5GTGg1MGxNMV9ZVVlvTEZXei03eUVvMkUzT0lnclpIY0h2SkxON3BHQnA4aw?oc=5",
+      "source": "조선일보",
+      "date": "Thu, 06 Aug 2026 04:03:16 GMT"
+    },
+    {
+      "title": "‘전사적 인공지능 전환(AI Transformation)’ 본격 가동",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9MZTQtZ1oxS0dLYVlwbGlTNGxqVDJNLVpQSmd2aVRqT2N3dzdzMEdUVUk3a3pKby11eUllSU9rOXY2alBtS1hRdmpqRm5MSnRkUlY4RWNRR1l6dkVsV2lkWlpBbE1USGRNc1E?oc=5",
+      "source": "병원신문",
+      "date": "Thu, 06 Aug 2026 00:18:33 GMT"
+    },
+    {
+      "title": "美 오픈AI, 챗GPT ‘Health 기능’ 출시",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBtMm4yYzFmUzBaTk1heXZuN0ZyY09hSEY5X0JMbk5nZ1NIcHN5cXloOG1GWGRKTF9oNkpiZDNEMHFkNTBHLUt5MUl3WjQtaExYdk45dEt6Uzg4em55SV81dmZhTUlVbXRfNWpldktWYTNEWl83?oc=5",
+      "source": "데일리메디",
+      "date": "Wed, 05 Aug 2026 23:40:20 GMT"
+    },
+    {
+      "title": "EBS, 생성형 AI 업무 활용 강좌 '마스터클래스' 시작",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4xYzJRX3FJX1JRUThOYmpXdEY4WEF3NXlabFRTWk1VZ2VxZ0VJWURST0RETjBPaXZrNElzSFJvblFwMHNZc0hvRmJaYlFQUQ?oc=5",
+      "source": "전자신문",
+      "date": "Wed, 05 Aug 2026 10:08:41 GMT"
     },
     {
       "title": "인공지능(AI) 기술 도입으로 교육행정 대전환",
@@ -20,58 +56,22 @@
       "date": "Wed, 05 Aug 2026 04:42:09 GMT"
     },
     {
-      "title": "세종시,' 한글 국제 인공지능(AI) 영상공모전’",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QRkdDUVE0U0psN1Jvd1ZWV2xVNFl5aDVHYjFwY2c5cWQzWWhEbzBvTm1Qa1NBSERDZkxDWk1JbzNTTUJRYTBhWkpVQmxwM0RtRXFOdEVyQUJIWjlxY0wtVTlTd1JqQUZER091WA?oc=5",
-      "source": "충청뉴스",
-      "date": "Wed, 05 Aug 2026 00:30:39 GMT"
+      "title": "전북교육청, 인공지능(AI) 기술 도입으로 교육행정 대전환",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZWlxeFh3MjVDTldCMjZLTThQMmV3a2tYYTEzTWJ3Qm5PQmk0U2RKbHExalBNTnRHSGZZN3BfbmxWWFQ0M0pPU0k3THJDR0F3dWs0MkV2VGFaaS1rdDNfcFdQd1VfNjZOc25tanRDLW9hNnNZblVUSVJrTjlfeklHeUxSR01lcDBiaE9QcjRyNU5XNHNYRUdyS1hFV3gxdDVBV0NTQldn?oc=5",
+      "source": "대한지방자치뉴스",
+      "date": "Wed, 05 Aug 2026 02:17:00 GMT"
     },
     {
-      "title": "서강대 AI창의융합 학부연구소, LG전자·AIVY와 가전용 인공지능 기술 개발 착수",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1WWEEtbXRWNXh2SmdSQW9pS2t4UVJfMlU1aGZ2dUJjUXhPRzRlaEQ2NnVHM1htWlZLekFpWlRUWkVna2tuWEc3NDJzSTE4UUczRTRqLXZqMk9TLUs3THlKaUxVVGhlTjg?oc=5",
+      "title": "퓨리오사AI, 스웨덴 15MW 인공지능 데이터센터 구축…유럽 AI 추론 인프라 상용화 본격",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4U1hHSjhNOGg1aXU3NlA4VFg2Sm1ablBSWUU5aDliWGxjUExJdnZxcENVYXU0SWNXS01DbE5mbUpSQXZUMDhoVDNieGhMS2x5U3poOXJuNXVMeFkxNkdlcXh4ZWxDbE0?oc=5",
       "source": "인공지능신문",
-      "date": "Wed, 05 Aug 2026 00:26:32 GMT"
+      "date": "Wed, 05 Aug 2026 00:49:48 GMT"
     },
     {
-      "title": "‘태양광 사기’가 ‘AI 사기’로",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9uRVlFYjd5NENidkthVlFqTGw1SXkwNGhRamQ5WHJ0U19fM1dfMFRaSzRvOWJFZXlWQ0E4cmlHLXIzeC1Jd1BpaHdTYmJxZWlmRTBtVEtKcVpLeVlOdUM2Ym9kc1otZW93XzJHTUtreGdLQdIBckFVX3lxTE9uRVlFYjd5NENidkthVlFqTGw1SXkwNGhRamQ5WHJ0U19fM1dfMFRaSzRvOWJFZXlWQ0E4cmlHLXIzeC1Jd1BpaHdTYmJxZWlmRTBtVEtKcVpLeVlOdUM2Ym9kc1otZW93XzJHTUtreGdLQQ?oc=5",
-      "source": "법률신문",
-      "date": "Tue, 04 Aug 2026 20:00:00 GMT"
-    },
-    {
-      "title": "아산시, 인공지능(AI) 시대 대비 직원 역량 강화 교육 실시",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAtU3BiMmdHYjlzQnQyVDd0dWx5TkpXRDlnMlYzYWR4Ylp6ajZDVTRoYlgwQzV6dlo3N0ZuYU9WaHF6TGdKaHRJVlpwSUdDdEt3bnhYTnpoTktuZmZZaE1rdGlFRWdvaE9tUUc0RTExdDRXUdIBckFVX3lxTFAtU3BiMmdHYjlzQnQyVDd0dWx5TkpXRDlnMlYzYWR4Ylp6ajZDVTRoYlgwQzV6dlo3N0ZuYU9WaHF6TGdKaHRJVlpwSUdDdEt3bnhYTnpoTktuZmZZaE1rdGlFRWdvaE9tUUc0RTExdDRXUQ?oc=5",
-      "source": "엔디엔뉴스",
-      "date": "Tue, 04 Aug 2026 07:29:23 GMT"
-    },
-    {
-      "title": "[시론] 인공지능이 바꾸는 ‘농업·농촌 미래’",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBKc0c1T3BwOGdzeHR0d0ZjVWlra0owRWlqbXVWV2p0RWtYTEFyNURVLXBYY2d0QktOLUhLQlIxd21MZnNuUEJKMWxSM3poanlWSXBKam9rTFFudw?oc=5",
-      "source": "농민신문",
-      "date": "Tue, 04 Aug 2026 07:29:00 GMT"
-    },
-    {
-      "title": "생성형 AI로 관광 콘텐츠 제작…서울관광재단, 교육생 모집",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9aaDRQbldDQTk3SHBmNHFleW03cjU3R3czT3plZi1YYUJsNHRSS1ZQclhuUDEyc251LTl6MF94ZDNWdWM2bVlQbVN6V2RuN3JnX19SLURfQlVMelI5NTd1QdIBYEFVX3lxTE9aaDRQbldDQTk3SHBmNHFleW03cjU3R3czT3plZi1YYUJsNHRSS1ZQclhuUDEyc251LTl6MF94ZDNWdWM2bVlQbVN6V2RuN3JnX19SLURfQlVMelI5NTd1QQ?oc=5",
-      "source": "연합뉴스",
-      "date": "Tue, 04 Aug 2026 02:28:19 GMT"
-    },
-    {
-      "title": "조달청, 인공지능(AI) 제품 공공조달 지원 본격화",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8zV1cyTWw0SldPVkxjZUl0amR1dGVkd0dMd0ZEY2JxSmtVTHlKdE9uZEN4b2pXLU1GMXdyWjl4aC1JMmFIQzFQR2V3cXdYWDA?oc=5",
-      "source": "v.daum.net",
-      "date": "Tue, 04 Aug 2026 01:05:00 GMT"
-    },
-    {
-      "title": "\"이것도 AI였어?\"…드라마·예능 장악한 인공지능 기술",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE11NVpDYXFxX2UteS1SWnQtanFXWi1xbk8yRTRqa3dhWXNGNk5lbkJNY1MyTUJZTGNzNUNUa1pQMkFMZHB3aTVNQkpyc053N05IWVRkRmt3eTBBWHfSAWBBVV95cUxPcmlJZTBfTElVQnhOMXdfXzl0bS1adDlfOGtBQ0dta2xTUTEtbXV4MXN5UzliNXRyWlk1MjIzaGx5ZzB6U0VRWkY4M1R0MkUtZk01cWd5ZEVDNWZkaGhJRWI?oc=5",
-      "source": "연합뉴스",
-      "date": "Sat, 01 Aug 2026 22:40:00 GMT"
-    },
-    {
-      "title": "오픈AI ‘챗GPT’, 활성 사용자 수 10억명 돌파… ‘가격 인하’ 승부수 통했다",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYk9FalBNdWFWMGpHT1JFQm9WLVdfSHY0dzF4TVRqenVVVmxHUWNxb0lmakRJLUF1Rll0d2R6YXR0c1hlMzNIR2FyUFVIOFJtUUdEUzV5ZkZqNmUtVzFCanhmck5BVzFFd0hXZVF5dFFRZlVkdVNKcjVVaGNJbUo1SWRlbw?oc=5",
-      "source": "조선일보",
-      "date": "Sat, 01 Aug 2026 00:06:10 GMT"
+      "title": "“韓 인공지능기본법, 의료AI 책임 공백 치명적”",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4ySUwwenpOWmR0b0dQaUdwb0tDLUI1V0NxUy0teWFzdEdyZUdzVGlQYWJVbDM2dFdNR3VGMUl6Ni1fbm4wdFE0R0VtX0w3aldoNmRBU1ZhaHE4Vkp5cnJJNWk4U1FNS20z?oc=5",
+      "source": "데일리메디",
+      "date": "Tue, 04 Aug 2026 21:13:00 GMT"
     }
   ]
 }
