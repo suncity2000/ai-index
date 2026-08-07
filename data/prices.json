@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06T05:22:41.520Z",
+  "last_updated": "2026-08-07T04:29:45.156Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -11,6 +11,22 @@
       "top_provider": true
     },
     {
+      "id": "anthropic/claude-haiku-4.5:batch",
+      "name": "Anthropic: Claude Haiku 4.5 (batch)",
+      "price_1m_input": 0.5,
+      "price_1m_output": 2.5,
+      "context_length": 200000,
+      "top_provider": true
+    },
+    {
+      "id": "anthropic/claude-sonnet-5:batch",
+      "name": "Anthropic: Claude Sonnet 5 (batch)",
+      "price_1m_input": 1,
+      "price_1m_output": 5,
+      "context_length": 1000000,
+      "top_provider": true
+    },
+    {
       "id": "anthropic/claude-haiku-4.5",
       "name": "Anthropic: Claude Haiku 4.5",
       "price_1m_input": 1,
@@ -19,11 +35,67 @@
       "top_provider": true
     },
     {
+      "id": "anthropic/claude-sonnet-4.6:batch",
+      "name": "Anthropic: Claude Sonnet 4.6 (batch)",
+      "price_1m_input": 1.5,
+      "price_1m_output": 7.5,
+      "context_length": 1000000,
+      "top_provider": true
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.5:batch",
+      "name": "Anthropic: Claude Sonnet 4.5 (batch)",
+      "price_1m_input": 1.5,
+      "price_1m_output": 7.5,
+      "context_length": 1000000,
+      "top_provider": true
+    },
+    {
       "id": "anthropic/claude-sonnet-5",
       "name": "Anthropic: Claude Sonnet 5",
       "price_1m_input": 2,
       "price_1m_output": 10,
       "context_length": 1000000,
+      "top_provider": true
+    },
+    {
+      "id": "anthropic/claude-opus-5:batch",
+      "name": "Claude Opus 5 (batch)",
+      "price_1m_input": 2.5,
+      "price_1m_output": 12.5,
+      "context_length": 1000000,
+      "top_provider": true
+    },
+    {
+      "id": "anthropic/claude-opus-4.8:batch",
+      "name": "Anthropic: Claude Opus 4.8 (batch)",
+      "price_1m_input": 2.5,
+      "price_1m_output": 12.5,
+      "context_length": 1000000,
+      "top_provider": true
+    },
+    {
+      "id": "anthropic/claude-opus-4.7:batch",
+      "name": "Anthropic: Claude Opus 4.7 (batch)",
+      "price_1m_input": 2.5,
+      "price_1m_output": 12.5,
+      "context_length": 1000000,
+      "top_provider": true
+    },
+    {
+      "id": "anthropic/claude-opus-4.6:batch",
+      "name": "Anthropic: Claude Opus 4.6 (batch)",
+      "price_1m_input": 2.5,
+      "price_1m_output": 12.5,
+      "context_length": 1000000,
+      "top_provider": true
+    },
+    {
+      "id": "anthropic/claude-opus-4.5:batch",
+      "name": "Anthropic: Claude Opus 4.5 (batch)",
+      "price_1m_input": 2.5,
+      "price_1m_output": 12.5,
+      "context_length": 200000,
       "top_provider": true
     },
     {
@@ -59,6 +131,14 @@
       "top_provider": true
     },
     {
+      "id": "anthropic/claude-fable-5:batch",
+      "name": "Anthropic: Claude Fable 5 (batch)",
+      "price_1m_input": 5,
+      "price_1m_output": 25,
+      "context_length": 1000000,
+      "top_provider": true
+    },
+    {
       "id": "anthropic/claude-opus-4.8",
       "name": "Anthropic: Claude Opus 4.8",
       "price_1m_input": 5,
@@ -87,6 +167,14 @@
       "name": "Anthropic: Claude Opus 4.5",
       "price_1m_input": 5,
       "price_1m_output": 25,
+      "context_length": 200000,
+      "top_provider": true
+    },
+    {
+      "id": "anthropic/claude-opus-4.1:batch",
+      "name": "Anthropic: Claude Opus 4.1 (batch)",
+      "price_1m_input": 7.5,
+      "price_1m_output": 37.5,
       "context_length": 200000,
       "top_provider": true
     },
@@ -267,6 +355,14 @@
       "top_provider": true
     },
     {
+      "id": "google/gemini-2.5-flash-lite:batch",
+      "name": "Google: Gemini 2.5 Flash Lite (batch)",
+      "price_1m_input": 0.05,
+      "price_1m_output": 0.2,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
       "id": "google/gemma-3-4b-it",
       "name": "Google: Gemma 3 4B",
       "price_1m_input": 0.05,
@@ -323,6 +419,30 @@
       "top_provider": true
     },
     {
+      "id": "google/gemini-3.1-flash-lite:batch",
+      "name": "Google: Gemini 3.1 Flash Lite (batch)",
+      "price_1m_input": 0.13,
+      "price_1m_output": 0.75,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "google/gemini-3.5-flash-lite:batch",
+      "name": "Google: Gemini 3.5 Flash Lite (batch)",
+      "price_1m_input": 0.15,
+      "price_1m_output": 1.25,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "google/gemini-2.5-flash:batch",
+      "name": "Google: Gemini 2.5 Flash (batch)",
+      "price_1m_input": 0.15,
+      "price_1m_output": 1.25,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
       "id": "google/gemini-3.1-flash-lite-image",
       "name": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
       "price_1m_input": 0.25,
@@ -341,6 +461,14 @@
     {
       "id": "google/gemini-3.1-flash-lite-preview",
       "name": "Google: Gemini 3.1 Flash Lite Preview",
+      "price_1m_input": 0.25,
+      "price_1m_output": 1.5,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "google/gemini-3-flash-preview:batch",
+      "name": "Google: Gemini 3 Flash Preview (batch)",
       "price_1m_input": 0.25,
       "price_1m_output": 1.5,
       "context_length": 1048576,
@@ -395,11 +523,43 @@
       "top_provider": true
     },
     {
+      "id": "google/gemini-2.5-pro:batch",
+      "name": "Google: Gemini 2.5 Pro (batch)",
+      "price_1m_input": 0.63,
+      "price_1m_output": 5,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
       "id": "google/gemma-2-27b-it",
       "name": "Google: Gemma 2 27B",
       "price_1m_input": 0.65,
       "price_1m_output": 0.65,
       "context_length": 8192,
+      "top_provider": true
+    },
+    {
+      "id": "google/gemini-3.6-flash:batch",
+      "name": "Google: Gemini 3.6 Flash (batch)",
+      "price_1m_input": 0.75,
+      "price_1m_output": 3.75,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "google/gemini-3.5-flash:batch",
+      "name": "Google: Gemini 3.5 Flash (batch)",
+      "price_1m_input": 0.75,
+      "price_1m_output": 4.5,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview:batch",
+      "name": "Google: Gemini 3.1 Pro Preview (batch)",
+      "price_1m_input": 1,
+      "price_1m_output": 6,
+      "context_length": 1048576,
       "top_provider": true
     },
     {
@@ -699,6 +859,14 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-5-nano:batch",
+      "name": "OpenAI: GPT-5 Nano (batch)",
+      "price_1m_input": 0.03,
+      "price_1m_output": 0.2,
+      "context_length": 400000,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-oss-20b",
       "name": "OpenAI: gpt-oss-20b",
       "price_1m_input": 0.03,
@@ -723,6 +891,14 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-4.1-nano:batch",
+      "name": "OpenAI: GPT-4.1 Nano (batch)",
+      "price_1m_input": 0.05,
+      "price_1m_output": 0.2,
+      "context_length": 1047576,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-oss-safeguard-20b",
       "name": "OpenAI: gpt-oss-safeguard-20b",
       "price_1m_input": 0.08,
@@ -731,8 +907,24 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-4o-mini:batch",
+      "name": "OpenAI: GPT-4o-mini (batch)",
+      "price_1m_input": 0.08,
+      "price_1m_output": 0.3,
+      "context_length": 128000,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-5.6-luna-pro",
       "name": "OpenAI: GPT-5.6 Luna Pro",
+      "price_1m_input": 0.1,
+      "price_1m_output": 0.6,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.6-luna-pro:batch",
+      "name": "OpenAI: GPT-5.6 Luna Pro (batch)",
       "price_1m_input": 0.1,
       "price_1m_output": 0.6,
       "context_length": 1050000,
@@ -747,11 +939,35 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-5.6-luna:batch",
+      "name": "OpenAI: GPT-5.6 Luna (batch)",
+      "price_1m_input": 0.1,
+      "price_1m_output": 0.6,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.4-nano:batch",
+      "name": "OpenAI: GPT-5.4 Nano (batch)",
+      "price_1m_input": 0.1,
+      "price_1m_output": 0.63,
+      "context_length": 400000,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-4.1-nano",
       "name": "OpenAI: GPT-4.1 Nano",
       "price_1m_input": 0.1,
       "price_1m_output": 0.4,
       "context_length": 1047576,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5-mini:batch",
+      "name": "OpenAI: GPT-5 Mini (batch)",
+      "price_1m_input": 0.13,
+      "price_1m_output": 1,
+      "context_length": 400000,
       "top_provider": true
     },
     {
@@ -779,6 +995,14 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-4.1-mini:batch",
+      "name": "OpenAI: GPT-4.1 Mini (batch)",
+      "price_1m_input": 0.2,
+      "price_1m_output": 0.8,
+      "context_length": 1047576,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-5.1-codex-mini",
       "name": "OpenAI: GPT-5.1-Codex-Mini",
       "price_1m_input": 0.25,
@@ -791,6 +1015,22 @@
       "name": "OpenAI: GPT-5 Mini",
       "price_1m_input": 0.25,
       "price_1m_output": 2,
+      "context_length": 400000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-3.5-turbo:batch",
+      "name": "OpenAI: GPT-3.5 Turbo (batch)",
+      "price_1m_input": 0.25,
+      "price_1m_output": 0.75,
+      "context_length": 16385,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.4-mini:batch",
+      "name": "OpenAI: GPT-5.4 Mini (batch)",
+      "price_1m_input": 0.38,
+      "price_1m_output": 2.25,
       "context_length": 400000,
       "top_provider": true
     },
@@ -811,6 +1051,38 @@
       "top_provider": true
     },
     {
+      "id": "openai/o4-mini-high:batch",
+      "name": "OpenAI: o4 Mini High (batch)",
+      "price_1m_input": 0.55,
+      "price_1m_output": 2.2,
+      "context_length": 200000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/o4-mini:batch",
+      "name": "OpenAI: o4 Mini (batch)",
+      "price_1m_input": 0.55,
+      "price_1m_output": 2.2,
+      "context_length": 200000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/o3-mini-high:batch",
+      "name": "OpenAI: o3 Mini High (batch)",
+      "price_1m_input": 0.55,
+      "price_1m_output": 2.2,
+      "context_length": 200000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/o3-mini:batch",
+      "name": "OpenAI: o3 Mini (batch)",
+      "price_1m_input": 0.55,
+      "price_1m_output": 2.2,
+      "context_length": 200000,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-audio-mini",
       "name": "OpenAI: GPT Audio Mini",
       "price_1m_input": 0.6,
@@ -819,10 +1091,42 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-5.1:batch",
+      "name": "OpenAI: GPT-5.1 (batch)",
+      "price_1m_input": 0.63,
+      "price_1m_output": 5,
+      "context_length": 400000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5-codex:batch",
+      "name": "OpenAI: GPT-5 Codex (batch)",
+      "price_1m_input": 0.63,
+      "price_1m_output": 5,
+      "context_length": 400000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5:batch",
+      "name": "OpenAI: GPT-5 (batch)",
+      "price_1m_input": 0.63,
+      "price_1m_output": 5,
+      "context_length": 400000,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-5.4-mini",
       "name": "OpenAI: GPT-5.4 Mini",
       "price_1m_input": 0.75,
       "price_1m_output": 4.5,
+      "context_length": 400000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.2:batch",
+      "name": "OpenAI: GPT-5.2 (batch)",
+      "price_1m_input": 0.88,
+      "price_1m_output": 7,
       "context_length": 400000,
       "top_provider": true
     },
@@ -835,11 +1139,43 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-5.6-terra-pro:batch",
+      "name": "OpenAI: GPT-5.6 Terra Pro (batch)",
+      "price_1m_input": 1,
+      "price_1m_output": 6,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-5.6-terra",
       "name": "OpenAI: GPT-5.6 Terra",
       "price_1m_input": 1,
       "price_1m_output": 6,
       "context_length": 1050000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.6-terra:batch",
+      "name": "OpenAI: GPT-5.6 Terra (batch)",
+      "price_1m_input": 1,
+      "price_1m_output": 6,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/o3:batch",
+      "name": "OpenAI: o3 (batch)",
+      "price_1m_input": 1,
+      "price_1m_output": 4,
+      "context_length": 200000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-4.1:batch",
+      "name": "OpenAI: GPT-4.1 (batch)",
+      "price_1m_input": 1,
+      "price_1m_output": 4,
+      "context_length": 1047576,
       "top_provider": true
     },
     {
@@ -883,6 +1219,14 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-5.4:batch",
+      "name": "OpenAI: GPT-5.4 (batch)",
+      "price_1m_input": 1.25,
+      "price_1m_output": 7.5,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-5.1-codex-max",
       "name": "OpenAI: GPT-5.1-Codex-Max",
       "price_1m_input": 1.25,
@@ -912,6 +1256,14 @@
       "price_1m_input": 1.25,
       "price_1m_output": 10,
       "context_length": 400000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-4o:batch",
+      "name": "OpenAI: GPT-4o (batch)",
+      "price_1m_input": 1.25,
+      "price_1m_output": 5,
+      "context_length": 128000,
       "top_provider": true
     },
     {
@@ -976,6 +1328,30 @@
       "price_1m_input": 2,
       "price_1m_output": 8,
       "context_length": 1047576,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.6-sol-pro:batch",
+      "name": "OpenAI: GPT-5.6 Sol Pro (batch)",
+      "price_1m_input": 2.5,
+      "price_1m_output": 15,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.6-sol:batch",
+      "name": "OpenAI: GPT-5.6 Sol (batch)",
+      "price_1m_input": 2.5,
+      "price_1m_output": 15,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.5:batch",
+      "name": "OpenAI: GPT-5.5 (batch)",
+      "price_1m_input": 2.5,
+      "price_1m_output": 15,
+      "context_length": 1050000,
       "top_provider": true
     },
     {
@@ -1075,6 +1451,30 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-4-turbo:batch",
+      "name": "OpenAI: GPT-4 Turbo (batch)",
+      "price_1m_input": 5,
+      "price_1m_output": 15,
+      "context_length": 128000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5-pro:batch",
+      "name": "OpenAI: GPT-5 Pro (batch)",
+      "price_1m_input": 7.5,
+      "price_1m_output": 60,
+      "context_length": 400000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/o1:batch",
+      "name": "OpenAI: o1 (batch)",
+      "price_1m_input": 7.5,
+      "price_1m_output": 30,
+      "context_length": 200000,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-5.4-image-2",
       "name": "OpenAI: GPT-5.4 Image 2",
       "price_1m_input": 8,
@@ -1091,6 +1491,14 @@
       "top_provider": true
     },
     {
+      "id": "openai/o3-pro:batch",
+      "name": "OpenAI: o3 Pro (batch)",
+      "price_1m_input": 10,
+      "price_1m_output": 40,
+      "context_length": 200000,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-4-turbo",
       "name": "OpenAI: GPT-4 Turbo",
       "price_1m_input": 10,
@@ -1104,6 +1512,30 @@
       "price_1m_input": 10,
       "price_1m_output": 30,
       "context_length": 128000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.2-pro:batch",
+      "name": "OpenAI: GPT-5.2 Pro (batch)",
+      "price_1m_input": 10.5,
+      "price_1m_output": 84,
+      "context_length": 400000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.5-pro:batch",
+      "name": "OpenAI: GPT-5.5 Pro (batch)",
+      "price_1m_input": 15,
+      "price_1m_output": 90,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.4-pro:batch",
+      "name": "OpenAI: GPT-5.4 Pro (batch)",
+      "price_1m_input": 15,
+      "price_1m_output": 90,
+      "context_length": 1050000,
       "top_provider": true
     },
     {
@@ -1160,6 +1592,14 @@
       "price_1m_input": 30,
       "price_1m_output": 60,
       "context_length": 8191,
+      "top_provider": true
+    },
+    {
+      "id": "openai/o1-pro:batch",
+      "name": "OpenAI: o1-pro (batch)",
+      "price_1m_input": 75,
+      "price_1m_output": 300,
+      "context_length": 200000,
       "top_provider": true
     },
     {
@@ -1395,14 +1835,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3.5-122b-a10b",
-      "name": "Qwen: Qwen3.5-122B-A10B",
-      "price_1m_input": 0.26,
-      "price_1m_output": 2.08,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3.5-plus-02-15",
       "name": "Qwen: Qwen3.5 Plus 2026-02-15",
       "price_1m_input": 0.26,
@@ -1424,6 +1856,14 @@
       "price_1m_input": 0.26,
       "price_1m_output": 0.78,
       "context_length": 1000000,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3.5-122b-a10b",
+      "name": "Qwen: Qwen3.5-122B-A10B",
+      "price_1m_input": 0.29,
+      "price_1m_output": 2.4,
+      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1472,6 +1912,14 @@
       "price_1m_input": 0.39,
       "price_1m_output": 2.34,
       "context_length": 262144,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "name": "Qwen: Qwen3 VL 235B A22B Thinking",
+      "price_1m_input": 0.4,
+      "price_1m_output": 4,
+      "context_length": 131072,
       "top_provider": true
     },
     {
@@ -1528,14 +1976,6 @@
       "price_1m_input": 0.78,
       "price_1m_output": 3.9,
       "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-vl-235b-a22b-thinking",
-      "name": "Qwen: Qwen3 VL 235B A22B Thinking",
-      "price_1m_input": 0.98,
-      "price_1m_output": 3.95,
-      "context_length": 131072,
       "top_provider": true
     },
     {
