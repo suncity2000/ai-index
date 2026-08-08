@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-07T04:29:45.156Z",
+  "last_updated": "2026-08-08T03:39:00.167Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -269,8 +269,8 @@
     {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "price_1m_input": 0.09,
-      "price_1m_output": 0.18,
+      "price_1m_input": 0.14,
+      "price_1m_output": 0.28,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -283,18 +283,18 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-chat",
-      "name": "DeepSeek: DeepSeek V3",
+      "id": "deepseek/deepseek-v3.2",
+      "name": "DeepSeek: DeepSeek V3.2",
       "price_1m_input": 0.26,
-      "price_1m_output": 1.03,
+      "price_1m_output": 0.38,
       "context_length": 163840,
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-v3.2",
-      "name": "DeepSeek: DeepSeek V3.2",
-      "price_1m_input": 0.27,
-      "price_1m_output": 0.4,
+      "id": "deepseek/deepseek-chat",
+      "name": "DeepSeek: DeepSeek V3",
+      "price_1m_input": 0.26,
+      "price_1m_output": 1.03,
       "context_length": 163840,
       "top_provider": true
     },
