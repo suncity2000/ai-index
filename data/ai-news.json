@@ -1,17 +1,65 @@
 {
-  "last_updated": "2026-08-08T09:34:27.198Z",
+  "last_updated": "2026-08-09T09:36:12.899Z",
   "news": [
     {
+      "title": "[르포]“뭐라고 물어봐야 하죠?”…AI 시대, 교실은 ‘질문하는 힘’을 키운다",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ranFSbjJLdF80TWt1T09sMTkyemVrbzhObHBGSlF2ZFM5TzNhVWxRMXo3X2wzS1lJTW4xTElxUTFJd1c4ek9INnBUQmhheGRlalRicXRzN0ZzOV9xRmM4RlVnV3Q4SHNxRC1RU3BR?oc=5",
+      "source": "아시아투데이",
+      "date": "Sun, 09 Aug 2026 09:03:16 GMT"
+    },
+    {
+      "title": "도, 전 직원 ‘생성형 AI’ 일상 도구화",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iR3pZSVl4QS1iUU5hT2txN0czamxRRnFvZTZUeWtEeUdVTU05bkVwZlcwdlU1SkFJenZpWVdUTU45TG9tNFRNQ2NWNTFoX0pzN0J2VTlSSjdiXzBRenBNZWQtOGZCZTJiMDl5Vg?oc=5",
+      "source": "제주매일",
+      "date": "Sun, 09 Aug 2026 05:49:32 GMT"
+    },
+    {
+      "title": "대구, 제조업 인공지능 전환 속도···대·중소기업 간 AI 활용 격차 좁힌다",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pVldvUXM4SEJINGdDdk80VEpUMUluRWNWUmFHR25FRXU0RFNaaklsaWxVZDRxc3VnaTJGVzh6NndRalVBNmNzckJxVzR3NUtUeHVKVWZucW56QdIBX0FVX3lxTFBHRlVIOUtHZ0JRMTdFekJCWUJUMVcyVEdZVm8zeUoySmNfUGVxcXlFTVFTLVVueFdnWkxzY043MFd3Rnd1Wmdha2VzbktEUXo2NHlEZUhIR3NVb2NCekNv?oc=5",
+      "source": "경향신문",
+      "date": "Sun, 09 Aug 2026 01:45:00 GMT"
+    },
+    {
+      "title": "오픈AI, 프레젠테이션 스타트업 '넥스트슬라이드' 인수…챗GPT 시각적 업무 기능 강화",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVMHNjNGd6VEN1YlAxZEhSY191QVFQTnQzY3FUbGV3Q0lGQkdvSFJNUlBqWDBsOHZrV1ZXTnhOMkNRbkhZUXhYaWR4bVhsUUlfQURxZFczUUIxdW5pNnpkT19QUUU5OGk2a2c?oc=5",
+      "source": "AI타임스",
+      "date": "Sun, 09 Aug 2026 01:41:55 GMT"
+    },
+    {
+      "title": "생성형 AI가 노리는 지식 노동… 초년생 고용 타격",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNlZzdUtPRGVneWNxOEd4dEdpV3Q2enA5T1h5TmwzLWRRSGppRTVUNUFYQU83ZU9ETzZJeDBIczRVdUwwczFHUjZoWjVGVHFxemkxS1RVZmtJSTcyZklUUF9PYUYteXpQVjh4aVZ6UjdKYk9GU3I2SVVUQzJxNFB4V1RqVzNIaFd5?oc=5",
+      "source": "글로벌이코노믹",
+      "date": "Sat, 08 Aug 2026 20:30:39 GMT"
+    },
+    {
+      "title": "AI가 만든 '딥페이크' 영상·목소리 잡아낼 수 있을까",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRNUFFVHpWRk9zUW9EZnl6cUVNaXBfQldGS2c5UmtiRkZWNkV0SThPUXZHTXV4OWZaSEx6R09DNGJwT0JlUUpXSkRRM1U0MGhlZUUzdw?oc=5",
+      "source": "동아사이언스",
+      "date": "Fri, 07 Aug 2026 23:00:00 GMT"
+    },
+    {
       "title": "[인공지능 줌인] \"AI가 내 일자리를 삼켰다\"…중국, 무분별한 AI 도입 속 노동시장 '격랑'",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHM1N0QWJXUjVhZ0ttNjA1dDBERGJWN1lOMGpWeUttTUFYMkYxdmNuWk5ET1lnc2gwTkRyeHNyVG55T0FXOVM5SFZxV3R5TDZ5dy1ZaUtuOXhobDA1RnkwVEZrdnhSc0ltbXJKQkRGQQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1pVzM5ZDlaeW5mcHc1dHJGc0pkcnhSVHFuYi12dFkybXUyaTZieDUxcG5GS0VzWFgyeFpMS0Vpa1RTM1RFX3M5N1NIbEV3R0tRMnhoX3gxZS05ZnV4cFVfcENnWHNtMDNPT1RqcDVxbjI?oc=5",
       "source": "위키리크스한국",
       "date": "Fri, 07 Aug 2026 21:02:07 GMT"
     },
     {
-      "title": "건보공단, 생성형 인공지능(AI) 활용 홍보 콘텐츠 자체 제작",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBHN3NQYnRhaUFSZHVURHZoeG9sQm1vNkZteENzQm0yUEdGTzNmU2RSMFNKT3hxb2JsQTZ0NVlfdmRHSG1zUE1iVzFZbFMxUHdxNTRFUWtneGgyOGdZYVJteGI3MjdydVU?oc=5",
-      "source": "의약뉴스",
-      "date": "Fri, 07 Aug 2026 09:16:12 GMT"
+      "title": "시장지배력 노린 오픈AI, 챗GPT 무료고객에 최신 모델 무한제공",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MTlJnUjFwMXQyajFLTm10YWJQNmZTdWFlcHZPM1FYUS1pVExfUWQzVUItdlhwRjZ6akM1cDVxUHROWlgySjk1QlczQTZXbWVSQXZpcmxweVlvWXlHeTY2LdIBYEFVX3lxTE1MTlJnUjFwMXQyajFLTm10YWJQNmZTdWFlcHZPM1FYUS1pVExfUWQzVUItdlhwRjZ6akM1cDVxUHROWlgySjk1QlczQTZXbWVSQXZpcmxweVlvWXlHeTY2LQ?oc=5",
+      "source": "연합뉴스",
+      "date": "Fri, 07 Aug 2026 18:25:55 GMT"
+    },
+    {
+      "title": "주제 2: 인공지능(AI) - 디지털 시대 사회생활과 국가 행정 혁신의 원동력",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVUJEOTRlQ3JUZV8yNDNoV3lHbGdvTkgxVFAxVG0yQXgySkpITHNQSENOZ2ozRTY1S0xPNkdHYmNpZHdTRVBKaUcwYzA2eWNFV2ViMk1SbEdhMmdOOTY1Mi1aMlJTTDlPUTUxcHNsZWpCQmJydlBKbEt2bkRSeDlCRHpJalN3M0h2UDZWM2t5ZEN4Z1BzR3UzQUVtbnhFbFBfbmd6eUMxS2J6NmV1RWhVTy12SkVvM09hMjZzbkViekYtZVdrMEpNYktsSTlHa2RK?oc=5",
+      "source": "Vietnam.vn",
+      "date": "Fri, 07 Aug 2026 10:25:06 GMT"
+    },
+    {
+      "title": "AI로 완전히 새로운 바이러스를 설계한다...기대와 우려는?",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBHRlFYS3YwWlR1Y3h6R1E1OWM5MkVyRVNoQzhOZllEMlk2cndaNTJ1ekMzeDRBY0hoTnYtOFJ5VDhfOEMxNGRWZUZHY0U4VlVNal91SDNhRHhvM0840gFiQVVfeXFMT01tSGJHZGc3ZUlTTUJWa1kxS3E4eWVhdDMxYWdsdjdRRnduSWZTUE5oSU44U2dmY3pKMi1na1Z1b2VoTUNhd2E2b0lVRzlEQzRnYURCc24wd1l3cGNLVUVkMVE?oc=5",
+      "source": "BBC",
+      "date": "Fri, 07 Aug 2026 06:08:17 GMT"
     },
     {
       "title": "\"인공지능, 태풍 예측 정확도 하루 앞당겼다\"...구글 AI 기상예측 '웨더넥스트', 모델·코드 전면 오픈소스 공개",
@@ -20,58 +68,10 @@
       "date": "Fri, 07 Aug 2026 03:43:54 GMT"
     },
     {
-      "title": "건보공단, 생성형 AI로 홍보 콘텐츠 전 과정 자체 제작",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xcHJXaG9rSWRkRXlid1VudmFOUFZxeFFSd3JyeUJTbmV4alZMSC1YZW01c05QV25jNzZ0OVhyQ0FJSmRzZnJGc19ZT0ZDZ2puTDdvWFppdVRaRFFsVjFN?oc=5",
-      "source": "보건신문",
-      "date": "Fri, 07 Aug 2026 02:01:11 GMT"
-    },
-    {
-      "title": "제주 공직자, 업무에 개별 인공지능 더한다...'AI:ON' 운영",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5qa3Zacl9zMUVpM1gxZXEtVjZjdjdDWUYzeWNiRmlWeXRJdVpKYWZ5ZXNzU3FiN3BPeU8yX3QwN2g0MmpQdG5xTUZMajEweGxaa2xlam44SncyQVlDV0h1NlhSQkNjVndWbjh4eUF6Njh0Q3c?oc=5",
-      "source": "헤드라인제주",
-      "date": "Fri, 07 Aug 2026 01:02:06 GMT"
-    },
-    {
-      "title": "경북도, 인공지능(AI) 기반 다크팩토리 시대 앞당긴다",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Sb3R0ZXBCZ2l4dF9tbWJNZ1N2OUlFcl81anloN2MybTU5STdaUWhnT1M2eWstcnVCcXBtajZIRDJoUHVacFNESkhGSDYxbHhNQV9tbFFJNEZMVVZWWGYzTW5fUkNBbTJ2?oc=5",
-      "source": "시사코리아저널",
-      "date": "Fri, 07 Aug 2026 00:41:47 GMT"
-    },
-    {
-      "title": "AI 해킹: '킬스위치'란 무엇이며, 인공지능의 공격을 막을 수 있을까",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE45Y1hPVFc0bTF1azVCUThkSy1YRXFIdGl3R1lpeGJITjR3aERkbE43SXl5VlFTeHYzVHhMeEUzRjdsYnNnelhYM0tIMjhCRkk1RlNkWkVFTlgxMmZ20gFiQVVfeXFMTm9lRXpQWW5Fb1FqSGUzMFdYN1hPek1UX0UwT3gxY1dwOUZQbDF0R3Etb3VjYlBoVlV3enZ3eGMwVXNVajdfNDF1NFJDblZkOXRZdlZHUGg5V0t1Zm55ZHM0ZWc?oc=5",
-      "source": "BBC",
-      "date": "Thu, 06 Aug 2026 10:24:21 GMT"
-    },
-    {
-      "title": "인공지능(AI)은 그림을 모방해 그리지만, 인간은 시대를 창조한다",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9MQTRGbHV4eDhLbVJSNFB4MkVTM0VwN2tSejB0eG0xV1NBWVMxNlRybmQ3SlkwSnluUnZKdWdYdEtPaEtwSkF4dU9DWTk4UWswd1pNTmhEV2lKclV0TGtIdDR4LWNDSU14ZWtyWWdXVQ?oc=5",
-      "source": "자연치유일보",
-      "date": "Thu, 06 Aug 2026 08:05:04 GMT"
-    },
-    {
-      "title": "세종TP, 한국인공지능협회와 AI 산업 육성 맞손",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBCQlBJMzJMcUlkMndLbEVBTlIyMDJvUXUxYi0wYWRCSWNwOGVpNnh2ZUp4bjN2bVVOWGRKVjZZQ0FBWlNBZld2NXRsOGs0R2s?oc=5",
-      "source": "v.daum.net",
-      "date": "Thu, 06 Aug 2026 07:32:28 GMT"
-    },
-    {
-      "title": "인공지능(AI)의 급증은 인프라에 부담을 주고 있다.",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vMDNVdVJfcFNBd19BdTFyVFluQTBLd1NlR25lMWhCS3g0dU0zSHZPa3F4SUZvekMtWDJ0eERfTTJ3OVVuZW5QeUpmampCMTY0cTlLSDZGbTdxQkJKU0dwSThvc3hldEZOY296Vw?oc=5",
-      "source": "Vietnam.vn",
-      "date": "Thu, 06 Aug 2026 07:01:18 GMT"
-    },
-    {
-      "title": "시장 1위가 AI에선 4위…생성형 AI가 고른 브랜드는 달랐다",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVGxnbVNJT3dOZTFraWpJNkJlT3J5QUg5QTRZTXE1QXVUWE5zQ240U0FHNlZMSHlvNVpMSEM1T0MyZXNudVFhVTduTmdPb2VOWnBobEpkeE5GTGg1MGxNMV9ZVVlvTEZXei03eUVvMkUzT0lnclpIY0h2SkxON3BHQnA4aw?oc=5",
-      "source": "chosun.com",
-      "date": "Thu, 06 Aug 2026 04:03:16 GMT"
-    },
-    {
-      "title": "美 오픈AI, 챗GPT ‘Health 기능’ 출시",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBtMm4yYzFmUzBaTk1heXZuN0ZyY09hSEY5X0JMbk5nZ1NIcHN5cXloOG1GWGRKTF9oNkpiZDNEMHFkNTBHLUt5MUl3WjQtaExYdk45dEt6Uzg4em55SV81dmZhTUlVbXRfNWpldktWYTNEWl83?oc=5",
-      "source": "데일리메디",
-      "date": "Wed, 05 Aug 2026 23:40:20 GMT"
+      "title": "건보공단, 생성형 AI로 홍보 콘텐츠 자체 제작",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5kQ1JReVFQcjdtcXB5a1p3VkJtdHA3T21WckpIYWg3R18wd2FmQVFDUmJabWE0VUZHQm5vQ1g0U2FVNjJuZVpndk9sS1MycW5MNWdTVHJfV25jTjJxVU44ZmgxUk4tV09XbFRVZmh6VmjSAXRBVV95cUxORHg2SUg5eHBfNHlHSTdWdUNFZ2lxUktjcmJlNGpzRjZ5N3pZVUtpcmlBXzNwMUNSTDNkRzhDN2tpQTJ0SWVaXy1UM2FXN25iRHV3a0x2YUx4NGFzOUlLbUtheDJHWTFLYmg2dWFVNGRydGpQTw?oc=5",
+      "source": "weekly.hankooki.com",
+      "date": "Fri, 07 Aug 2026 02:26:53 GMT"
     }
   ]
 }
