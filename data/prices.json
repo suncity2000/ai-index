@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-09T03:47:54.625Z",
+  "last_updated": "2026-08-10T04:01:50.437Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -283,18 +283,18 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-v3.2",
-      "name": "DeepSeek: DeepSeek V3.2",
-      "price_1m_input": 0.26,
-      "price_1m_output": 0.38,
-      "context_length": 163840,
-      "top_provider": true
-    },
-    {
       "id": "deepseek/deepseek-chat",
       "name": "DeepSeek: DeepSeek V3",
       "price_1m_input": 0.26,
       "price_1m_output": 1.03,
+      "context_length": 163840,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-v3.2",
+      "name": "DeepSeek: DeepSeek V3.2",
+      "price_1m_input": 0.27,
+      "price_1m_output": 0.4,
       "context_length": 163840,
       "top_provider": true
     },
@@ -387,14 +387,6 @@
       "top_provider": true
     },
     {
-      "id": "google/gemma-4-26b-a4b-it",
-      "name": "Google: Gemma 4 26B A4B ",
-      "price_1m_input": 0.07,
-      "price_1m_output": 0.34,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "google/gemma-3-27b-it",
       "name": "Google: Gemma 3 27B",
       "price_1m_input": 0.08,
@@ -416,6 +408,14 @@
       "price_1m_input": 0.1,
       "price_1m_output": 0.4,
       "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it",
+      "name": "Google: Gemma 4 26B A4B ",
+      "price_1m_input": 0.12,
+      "price_1m_output": 0.4,
+      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -686,7 +686,7 @@
       "id": "meta-llama/llama-4-maverick",
       "name": "Meta: Llama 4 Maverick",
       "price_1m_input": 0.2,
-      "price_1m_output": 0.8,
+      "price_1m_output": 0.7,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -1723,6 +1723,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3-14b",
+      "name": "Qwen: Qwen3 14B",
+      "price_1m_input": 0.12,
+      "price_1m_output": 0.24,
+      "context_length": 131072,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3.5-35b-a3b",
       "name": "Qwen: Qwen3.5-35B-A3B",
       "price_1m_input": 0.14,
@@ -1816,14 +1824,6 @@
       "price_1m_input": 0.23,
       "price_1m_output": 2.3,
       "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-14b",
-      "name": "Qwen: Qwen3 14B",
-      "price_1m_input": 0.23,
-      "price_1m_output": 0.91,
-      "context_length": 131072,
       "top_provider": true
     },
     {
