@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11T03:49:33.401Z",
+  "last_updated": "2026-08-12T04:12:23.711Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -310,7 +310,7 @@
       "id": "deepseek/deepseek-v3.1-terminus",
       "name": "DeepSeek: DeepSeek V3.1 Terminus",
       "price_1m_input": 0.27,
-      "price_1m_output": 1,
+      "price_1m_output": 0.95,
       "context_length": 163840,
       "top_provider": true
     },
@@ -333,8 +333,8 @@
     {
       "id": "deepseek/deepseek-v4-pro",
       "name": "DeepSeek: DeepSeek V4 Pro",
-      "price_1m_input": 0.64,
-      "price_1m_output": 1.29,
+      "price_1m_input": 0.63,
+      "price_1m_output": 1.26,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -867,18 +867,18 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-oss-20b",
-      "name": "OpenAI: gpt-oss-20b",
+      "id": "openai/gpt-oss-120b",
+      "name": "OpenAI: gpt-oss-120b",
       "price_1m_input": 0.03,
-      "price_1m_output": 0.13,
+      "price_1m_output": 0.17,
       "context_length": 131072,
       "top_provider": true
     },
     {
-      "id": "openai/gpt-oss-120b",
-      "name": "OpenAI: gpt-oss-120b",
-      "price_1m_input": 0.04,
-      "price_1m_output": 0.17,
+      "id": "openai/gpt-oss-20b",
+      "name": "OpenAI: gpt-oss-20b",
+      "price_1m_input": 0.03,
+      "price_1m_output": 0.13,
       "context_length": 131072,
       "top_provider": true
     },
@@ -1803,14 +1803,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3-vl-235b-a22b-instruct",
-      "name": "Qwen: Qwen3 VL 235B A22B Instruct",
-      "price_1m_input": 0.21,
-      "price_1m_output": 1.9,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3-235b-a22b-thinking-2507",
       "name": "Qwen: Qwen3 235B A22B Thinking 2507",
       "price_1m_input": 0.23,
@@ -1832,6 +1824,14 @@
       "price_1m_input": 0.26,
       "price_1m_output": 1.56,
       "context_length": 1000000,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3-vl-235b-a22b-instruct",
+      "name": "Qwen: Qwen3 VL 235B A22B Instruct",
+      "price_1m_input": 0.26,
+      "price_1m_output": 1.04,
+      "context_length": 262144,
       "top_provider": true
     },
     {
