@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-08-12T10:00:04.566Z",
+  "last_updated": "2026-08-13T10:01:39.941Z",
   "news": [
+    {
+      "title": "인공지능(AI) 농업 현장코치 양성 본격화",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE05OG5CdWtxaEpfbUtqa3FsWE9yTjRUVU5WVWt2WmF2MWFVM0d0S1RRLTR6ZGJhVzFDUlBUMFRqb3hQb0hsRGtZRVAxeXdxMEVXb2o3QnhmX1hWN25zYjlROGxhQ3VoTXVE?oc=5",
+      "source": "충청타임즈",
+      "date": "Thu, 13 Aug 2026 08:04:02 GMT"
+    },
+    {
+      "title": "'AI 부트캠프' 대학-기업 매칭데이 개최…\"AI 인재상 공유\"",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ja1pTejlZcjUza01yN05rdHBjQjBNOGxMZzhuNGhiTmdrM21wZHAxcFlDUEUtX2c5empfVWk3Qy1VOHlvRlQ3ekViMGJwMHE3R0J5cGtZem9PaFdOYy1oR9IBYEFVX3lxTE1ja1pTejlZcjUza01yN05rdHBjQjBNOGxMZzhuNGhiTmdrM21wZHAxcFlDUEUtX2c5empfVWk3Qy1VOHlvRlQ3ekViMGJwMHE3R0J5cGtZem9PaFdOYy1oRw?oc=5",
+      "source": "연합뉴스",
+      "date": "Thu, 13 Aug 2026 03:00:18 GMT"
+    },
+    {
+      "title": "영주상공회의소, 기업 재직자 인공지능 AI 활용 교육 본격화",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE15ek8ybXdLQUxXNnRmVUJzNEZxUG42RXpocGNad0N3YUU2eWZhbWMxb2FOSTNlN2NvWHVUSWZjajg3aVVEcURVQ1F3eFhOTWd1WFBDbFJYMWc?oc=5",
+      "source": "경북신문",
+      "date": "Thu, 13 Aug 2026 02:23:00 GMT"
+    },
+    {
+      "title": "“AI에 업무 맡긴다”…오픈AI, 기업용 AI 사용 변화 분석",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBheks5SFgyUUVnODNmTmlodDM1OEVjODV2Qld2cGtSR3A2NVprZkFtSGNtcVVQWTZZY3RxYlljUlNPUVFCQy1sVVhKb3pDdDIyNmphbTR5ZFl5WWtxTkxsRlY2NWs?oc=5",
+      "source": "서울경제TV",
+      "date": "Thu, 13 Aug 2026 02:08:13 GMT"
+    },
+    {
+      "title": "유튜브 '맛쿨멋쿨TV' 통해 생성형 AI 실습형 콘텐츠 제공",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5tR0VVdnlTTmJWWGhTTXZKTmFGTTRPWHJWUFdkT1RzUmF3dWxvVmJWcHFLNUtnLTJFclhtYWZTNVYzR2dFbHBGOUZJRklLd0NZb21xdWtoVWc5U2c3ZkM4alM3ZmRaUQ?oc=5",
+      "source": "데일리대구경북뉴스",
+      "date": "Wed, 12 Aug 2026 23:51:28 GMT"
+    },
+    {
+      "title": "“인공지능 AI로 똑똑하게, 휴식은 아날로그 감성”…지금은 ‘이원적 관광’ 시대 [여행+]",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBKZzZnNnd0dURlTWVteGdUUGhONnNZSm9XQjNfLVBwZnUxVERWN0xOMWxQdl95d2d2UWVsRjUwQkt0RzhqeXFBV0MzTQ?oc=5",
+      "source": "v.daum.net",
+      "date": "Wed, 12 Aug 2026 08:34:10 GMT"
+    },
+    {
+      "title": "반곡초 학생들, 생성형 인공지능(AI)으로 학교생활을 담다",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RTHQxZzhjX0lPYlhDcHFQSVl3OWpQT1lOQkJuQlktV0NPaW95bE9lSDlmVmZWeDFhUkpNMFNZV1JMaktDODVrTlJ5SzlzZnN6T2dYWFZtSkN0U0hMSnJCT2Z5TFN5dWpVRFU0?oc=5",
+      "source": "충청메시지",
+      "date": "Wed, 12 Aug 2026 06:44:41 GMT"
+    },
+    {
+      "title": "글로벌 생성형 AI 특허 1년 새 2배 '급증'… 韓 4위로 밀려나, 제조업 AI 융합 '시급'",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9nOU5hOV95eUk1TDU5VGR6SURvNnc1VGNDMWoyTlBYN0E2bHRjc0RXdThuVXJaemRqZVdGVG5BZzJObHlXQUJFU0pkRU5tOURVZTlZUHhYamJvVVBsQkVLUVQzei1uUQ?oc=5",
+      "source": "기계신문",
+      "date": "Wed, 12 Aug 2026 06:17:06 GMT"
+    },
     {
       "title": "대한민국 인공지능(AI) 기반 1번지로 비상(飛上)하고 있는 수원특례시",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85ZEU5RXNla0p3aXRzQU53ZE1FTGtvczN1RC1GZ2xmS0hXVFVDNWc0MjYydGNVQTVjaXdEb0VBMWx6LTREU21UcVVRUjlRSlVrMURxVXVST2tTeTNnN25aLTY4cDBhcHhGLVE?oc=5",
@@ -20,58 +68,10 @@
       "date": "Wed, 12 Aug 2026 03:00:00 GMT"
     },
     {
-      "title": "메타, 오픈소스 AI 재출시…\"초인공지능 집중 위험\"",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QMmxucFNHeXVfamFIMEM0ZThYTFdaemRnaHQ2UGlaLVdNbHluRXgxa1hfY01mM0ROWEV6U3RuSmE4OV9iTXpWaDgycTdSSHhsTnFkSFZudndJYjd4Q0dVVGFBTUdITWRTUC1CR2tYZm0?oc=5",
-      "source": "연합인포맥스",
-      "date": "Tue, 11 Aug 2026 23:15:40 GMT"
-    },
-    {
-      "title": "[단독] “딥페이크 막았다는데 성착취물 1천건 생성”…범죄 도구된 AI",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xRk9LanBMVnd2RjFmcHpWdjRrZV8wa0VDaUhCbXlsRkZvX0pmSUFsWlhfVzJiUV9UVzBxZ3ZGMWMyNGZVNlMyTk9yNWRXZWp2Tl9xWUdBYXF0VUk?oc=5",
-      "source": "KBS 뉴스",
-      "date": "Tue, 11 Aug 2026 22:51:00 GMT"
-    },
-    {
-      "title": "‘인공지능(AI) 대전환, 보건의료 혁신의 미래 열다‘",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBSSVlqOGE4bHVHdjlFeFc1VHhpRl9Td2k4T1hTNFAxX1Z5anY1d3lXMnpQbXZaWDNyb2hLcjZYTFJ0aTFZMHdVTG9nTDc5UnNadGVaRG95d3EzZWctT3hBZm5uNGJZTzVZdFRn?oc=5",
-      "source": "재활뉴스",
-      "date": "Tue, 11 Aug 2026 20:30:00 GMT"
-    },
-    {
-      "title": "‘개방형 AI’ 내세운 메타 “초인공지능 독점 안 돼”",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBCM0hKR0R3ZXBwYS1aVURsSWh1ODFFOWg0Mi1SYXlGeGFKRnFGcUhCU1JSUWY1RHB1M1ZZdHR3VUl1WUMwb1MyWTQtQlBfeFVrWmRkQ05tT04zQdIBX0FVX3lxTE1BSHVvdWNXdWt0bklnaE5rV09BdU9mRzA5OS1FNFg5QktMMnNFTWVkVE5LV0ExcEJ0LTU5XzlRd3pkTlJiWWRzYTRRT05xeE5TNHh3YzdQZEhuVXJoaktv?oc=5",
-      "source": "경향신문",
-      "date": "Tue, 11 Aug 2026 11:40:00 GMT"
-    },
-    {
-      "title": "광명시, '대체불가 인공지능 전환' 전략 모색 ··· 하정우 前 AI수석 초청",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Fb0V6cTdUQS1DWnpTT2VCX1d0aEVyd2VpX0RNV1FHU3JaekJJWlhYZ3dqVUlPUUtvTkFXMlZwLUlLckNZOU1fUHYzaUw3akVkOFkyMjRtVG1BSm94bngtUHI0TGk1MDBCZ295QnB30gFuQVVfeXFMTUVvRXpxN1RBLUNaelNPZUJfV3RoRXJ3ZWlfRE1XUUdTclp6QklaWFhnd2pVSU9RS29OQVcyVnAtSUtyQ1k5TV9QdjNpTDdqRWQ4WTIyNG1UbUFKb3hueC1QcjRMaTUwMEJnb3lCcHc?oc=5",
-      "source": "광명포스트",
-      "date": "Tue, 11 Aug 2026 08:02:21 GMT"
-    },
-    {
-      "title": "축산물품질평가원, 인공지능(AI) 기반 돼지 등급판정 데이터 활용 확대",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rdW5HM0VBUTNYV09YY29rZ0dSSndhdFVsVjd1WHBYMUlnbkI0dDFfRXg0azZlVFFMajYtc1ZFMXdzUV96YWt4MVZZMWgtWmkxaEEzbTJSSVFCZUlGazZz?oc=5",
-      "source": "축산정보뉴스",
-      "date": "Tue, 11 Aug 2026 07:06:09 GMT"
-    },
-    {
-      "title": "경남교육청, 작은학교 교원 대상 생성형 AI 활용 역량 강화",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42NHA1WG9kMUE3MUpqWGNmRlZraDBqa0JVZWhNWFBvVE41dzNFcE92MjNERjAzblJGUnRGZDFFZlI1MTNscjBFNlZsRWJmNlRBbEUwNEF5N0ppS3fSAWBBVV95cUxOS1hNV3g3c2d3NHdjM3pQTkt0QWZZa1dGQXRjdmNyQmxNT0RSVGViVHc3WTlJV1RRMWcwQ1ByTlJFaTBaeWdvOXNQVFljblFYMU54UjNqcXpFY1F6cTc0UDE?oc=5",
-      "source": "연합뉴스",
-      "date": "Tue, 11 Aug 2026 06:27:05 GMT"
-    },
-    {
-      "title": "성남시, 인공지능(AI)·드론으로 포트홀 잡는다…도로 위험 선제 대응",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBIbFVvMHVRNzVfTHlobkJ4QVdpWUJycGM3aHFRbkgwUkZwMkI1bWpPSWE1SWRJT3hLN2R4SEFzMEJ3SWk1UjVrdA?oc=5",
-      "source": "snvision.newsa.kr",
-      "date": "Tue, 11 Aug 2026 04:03:00 GMT"
-    },
-    {
-      "title": "“인공지능에 빠진” 베트남, 상반기 ‘AI앱’ 사용 7억 시간 돌파…전년동기比 2배↑",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NMFdtWHc4eFBVc1BHNDZUa012YVZJZlZCWk5QZGg4OVdZNTZja0pDZVRsbkdqOC1yYUp6Tm5KbmNESGszQjJ0VFBqWkxuTDh3RjVXSm0yRzJ1ZmhJajFCM0Nnem5qeGx0NnNfcw?oc=5",
-      "source": "인사이드비나",
-      "date": "Tue, 11 Aug 2026 03:00:00 GMT"
+      "title": "오픈AI, 리눅스용 챗GPT 앱 미리보기 버전 공개…개발자 플랫폼 공략 가속",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE42bGduRHpiSG9vQUVTU2lCSjcxNG9uV19NU3l1LUNYN0dDUllObXVPbTFxMVhoQVk2MHo3aWI4VTB3dW9VRGhkcnlkNno3V2c?oc=5",
+      "source": "v.daum.net",
+      "date": "Wed, 12 Aug 2026 00:55:37 GMT"
     }
   ]
 }
