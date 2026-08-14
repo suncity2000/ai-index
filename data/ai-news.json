@@ -1,11 +1,53 @@
 {
-  "last_updated": "2026-08-13T10:01:39.941Z",
+  "last_updated": "2026-08-14T09:57:52.980Z",
   "news": [
     {
-      "title": "인공지능(AI) 농업 현장코치 양성 본격화",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE05OG5CdWtxaEpfbUtqa3FsWE9yTjRUVU5WVWt2WmF2MWFVM0d0S1RRLTR6ZGJhVzFDUlBUMFRqb3hQb0hsRGtZRVAxeXdxMEVXb2o3QnhmX1hWN25zYjlROGxhQ3VoTXVE?oc=5",
-      "source": "충청타임즈",
-      "date": "Thu, 13 Aug 2026 08:04:02 GMT"
+      "title": "세종대, 생성형 AI 실무 교육 운영…청년 AI 활용 역량 높인다",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9EZG9pWWZJbkFXYmFSS056RTBmNWVpVVFOTUM0QWoxYlB5WWo1d1Eyak1YdTRIR1FBT09CSTVFYVZrMUJnZHJxZUhGRGpkUQ?oc=5",
+      "source": "전자신문",
+      "date": "Fri, 14 Aug 2026 07:53:16 GMT"
+    },
+    {
+      "title": "의료 인공지능(AI), 기술만 들여놓는다고 병원이 바뀔까",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ONmdGQUplMk9uaFN2am0wUXE0Q1JOMWw1UkdJT2JxR085eEhaUU9oNlFCVVdDR3lXRHRoXzQ3YnJBZVJ0WFhRNUxERzlkb3VSTzM1TXNzYzZsUUFhUTl1cXNzaVVDMFHSAWtBVV95cUxNWWY1TXZXQjZVb2ZBMmRWVll5XzBZZVFYeEFVZk53YU9KNS1seEFUVS1reDFEYTY5T29yZFZ0aU5rdmdRZk1uWWhJQ1lMUEp6NmFFWFpLa1dvbmFMV1JZcWZvRENWVDZKRGlFaw?oc=5",
+      "source": "에이빙",
+      "date": "Fri, 14 Aug 2026 05:13:12 GMT"
+    },
+    {
+      "title": "“인공지능(AI)이 안부 묻고, 위험 감지”… 용산구 스마트행정, 주민 삶 바꾼다",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE81MDhNOHo0SHV5N2l3aFIySm9qM3FLb01aSEhzVFZ6SjBZWVI5dkZrM0k2VnNiXzNUS1YxbmhlYU1VaWNVTGZUa2dUZXBadFBPaGMwNXZWMlFrUjhha0ptZE1sazN1WHdiMlFR0gFvQVVfeXFMUFF1a1ZlOU5IQmNWTjltZmJjSVpkeWJZdVJlbk9JcWgtbml6Q2NUcC1wXzlOQnZmWElHRXJESlBVY3FTVXN5N3N3amFieDlnMUdmeHFFcUJlcjVUYkEtWVFkeXZPUGxvVGJOZ2lwNEM4?oc=5",
+      "source": "서울일보",
+      "date": "Fri, 14 Aug 2026 04:59:12 GMT"
+    },
+    {
+      "title": "노지감귤 생산량 조사에도 인공지능(AI) 도입",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UcHFHdkdIaHA1dEZyZC0zVTNrcUJDbVk5ZldZSjlFZ05YblJPSXZrMV84c3BmTE1lU1F0MzRHeXE0QTR0dU9rZkpVTHhzZ1BEZWNOT2w0eFZodmYycnEwWHY5SVFKTmxBRVd2QjNR?oc=5",
+      "source": "제주투데이",
+      "date": "Fri, 14 Aug 2026 03:08:53 GMT"
+    },
+    {
+      "title": "재정경제부, 한·아프리카 경제협력 20년, 인공지능(AI)·디지털로 공동 번영의 새 길 연다.",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5oTUR4SEpSQWR3bFpfRDNqNFpqUmxITmxjcWlkLVUyaXZNemYzRmtOUUVkNWtsZlVDRFVGTld6QkxaZ3plZjk1ZTNIUXZ5V0lfQ3JqRGJWS0lyb1AxMnVxZWNMNUZJRU82bkgyTw?oc=5",
+      "source": "경기포커스",
+      "date": "Thu, 13 Aug 2026 11:50:08 GMT"
+    },
+    {
+      "title": "[기고] 생성형 AI와 개인정보 국외이전",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95NElOOXZvWTdMeXRoTDFyUTYwOVpZbG1ISWRCUWVKcHE1Wi1LZWQtaVBhZmNWN2VIb0Q3cUdaNjFKbU1JMlczTFZ6MnhBTlJNSnIxNTJB?oc=5",
+      "source": "지디넷코리아",
+      "date": "Thu, 13 Aug 2026 08:09:34 GMT"
+    },
+    {
+      "title": "많이 넣을수록 똑똑해진다? AI는 정말 ‘유일신’ 될까",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE84VjV2a180RFFEYXhmcC1lZ0x0M3NidmwzMzJpaDVFTjNTMDR5RzJiZVpuOUJ5SGNjM1VYUlAyQVNwTlZQbEl5dkZvdTVYTllIVkhHWFVUU21EMDFpcm00WTRTY3RheDFKbE03enlB?oc=5",
+      "source": "thescoop.co.kr",
+      "date": "Thu, 13 Aug 2026 07:21:54 GMT"
+    },
+    {
+      "title": "전북특별자치도교육청, “인공지능(AI) 활용으로 업무 방식 전환 본격화”",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcU9MN1BBZFV5MmlvRGVPR2VFNWFFRE1TQUNWWjVzNy1LZ2ttZmZ4dTA4a2hpWmNUTkR3QkxqT2VlSDlVRlZRS3ZsRXBjWXNkME5xUTRfMWlRM2Z0OS1EYTZybVNQRkE3WDFKYWpvZEN2MXlCREJkOW1NcmxwZFAxc01SVHRpaHFi?oc=5",
+      "source": "전북도민일보",
+      "date": "Thu, 13 Aug 2026 06:32:33 GMT"
     },
     {
       "title": "'AI 부트캠프' 대학-기업 매칭데이 개최…\"AI 인재상 공유\"",
@@ -28,50 +70,8 @@
     {
       "title": "유튜브 '맛쿨멋쿨TV' 통해 생성형 AI 실습형 콘텐츠 제공",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5tR0VVdnlTTmJWWGhTTXZKTmFGTTRPWHJWUFdkT1RzUmF3dWxvVmJWcHFLNUtnLTJFclhtYWZTNVYzR2dFbHBGOUZJRklLd0NZb21xdWtoVWc5U2c3ZkM4alM3ZmRaUQ?oc=5",
-      "source": "데일리대구경북뉴스",
+      "source": "dailydgnews.com",
       "date": "Wed, 12 Aug 2026 23:51:28 GMT"
-    },
-    {
-      "title": "“인공지능 AI로 똑똑하게, 휴식은 아날로그 감성”…지금은 ‘이원적 관광’ 시대 [여행+]",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBKZzZnNnd0dURlTWVteGdUUGhONnNZSm9XQjNfLVBwZnUxVERWN0xOMWxQdl95d2d2UWVsRjUwQkt0RzhqeXFBV0MzTQ?oc=5",
-      "source": "v.daum.net",
-      "date": "Wed, 12 Aug 2026 08:34:10 GMT"
-    },
-    {
-      "title": "반곡초 학생들, 생성형 인공지능(AI)으로 학교생활을 담다",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RTHQxZzhjX0lPYlhDcHFQSVl3OWpQT1lOQkJuQlktV0NPaW95bE9lSDlmVmZWeDFhUkpNMFNZV1JMaktDODVrTlJ5SzlzZnN6T2dYWFZtSkN0U0hMSnJCT2Z5TFN5dWpVRFU0?oc=5",
-      "source": "충청메시지",
-      "date": "Wed, 12 Aug 2026 06:44:41 GMT"
-    },
-    {
-      "title": "글로벌 생성형 AI 특허 1년 새 2배 '급증'… 韓 4위로 밀려나, 제조업 AI 융합 '시급'",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9nOU5hOV95eUk1TDU5VGR6SURvNnc1VGNDMWoyTlBYN0E2bHRjc0RXdThuVXJaemRqZVdGVG5BZzJObHlXQUJFU0pkRU5tOURVZTlZUHhYamJvVVBsQkVLUVQzei1uUQ?oc=5",
-      "source": "기계신문",
-      "date": "Wed, 12 Aug 2026 06:17:06 GMT"
-    },
-    {
-      "title": "대한민국 인공지능(AI) 기반 1번지로 비상(飛上)하고 있는 수원특례시",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85ZEU5RXNla0p3aXRzQU53ZE1FTGtvczN1RC1GZ2xmS0hXVFVDNWc0MjYydGNVQTVjaXdEb0VBMWx6LTREU21UcVVRUjlRSlVrMURxVXVST2tTeTNnN25aLTY4cDBhcHhGLVE?oc=5",
-      "source": "불교닷컴",
-      "date": "Wed, 12 Aug 2026 05:42:12 GMT"
-    },
-    {
-      "title": "인공지능(AI)이 척척… AI교육행정 새지평 열었다",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1pMDN6NGVlZUhTU3dMRHdOazFxUjVoSWx3TEZZdFJKRUJnX1ZFZDlSdHdGSkJpcmhmOHNjRk5TcFRDWEFLTEd5VmdQMGJRLWZDVEFWVXF0OW1Wb1VpTmU2WWdYV0hueXIyS1BfYVpnOA?oc=5",
-      "source": "투데이 군산",
-      "date": "Wed, 12 Aug 2026 03:47:47 GMT"
-    },
-    {
-      "title": "연세대서 배우는 생성형 AI… 전국 고교생 200명 ‘AI 쿰키움 캠프’",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1WOC1FTTZYT2NfdFZvdVV4dGRvZG5Hd0tILVJtYzZnNlc3eXpFQVFQYXpBRlk2T2prNzBrdjZrUjJMb2F5eW8yUUVMMjNoYjNzMC0xdkdHSnZydWlDek14eTQ4a2VHdw?oc=5",
-      "source": "411개 대학을 연결하는 '힘'",
-      "date": "Wed, 12 Aug 2026 03:00:00 GMT"
-    },
-    {
-      "title": "오픈AI, 리눅스용 챗GPT 앱 미리보기 버전 공개…개발자 플랫폼 공략 가속",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE42bGduRHpiSG9vQUVTU2lCSjcxNG9uV19NU3l1LUNYN0dDUllObXVPbTFxMVhoQVk2MHo3aWI4VTB3dW9VRGhkcnlkNno3V2c?oc=5",
-      "source": "v.daum.net",
-      "date": "Wed, 12 Aug 2026 00:55:37 GMT"
     }
   ]
 }
