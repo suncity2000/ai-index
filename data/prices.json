@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-13T04:17:36.186Z",
+  "last_updated": "2026-08-14T04:13:49.809Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -261,8 +261,8 @@
     {
       "id": "deepseek/deepseek-v4-flash-0731",
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "price_1m_input": 0.08,
-      "price_1m_output": 0.18,
+      "price_1m_input": 0.14,
+      "price_1m_output": 0.28,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -343,7 +343,7 @@
       "name": "DeepSeek: R1",
       "price_1m_input": 0.7,
       "price_1m_output": 2.5,
-      "context_length": 163840,
+      "context_length": 64000,
       "top_provider": true
     },
     {
@@ -451,6 +451,14 @@
       "top_provider": true
     },
     {
+      "id": "google/gemini-3.7-flash:batch",
+      "name": "Google: Gemini 3.7 Flash (batch)",
+      "price_1m_input": 0.19,
+      "price_1m_output": 0.94,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
       "id": "google/gemini-3.1-flash-lite-image",
       "name": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
       "price_1m_input": 0.25,
@@ -507,6 +515,22 @@
       "top_provider": true
     },
     {
+      "id": "google/gemini-3.7-flash",
+      "name": "Google: Gemini 3.7 Flash",
+      "price_1m_input": 0.38,
+      "price_1m_output": 1.88,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "google/gemini-3.6-flash:batch",
+      "name": "Google: Gemini 3.6 Flash (batch)",
+      "price_1m_input": 0.38,
+      "price_1m_output": 1.88,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
       "id": "google/gemini-3.1-flash-image",
       "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
       "price_1m_input": 0.5,
@@ -547,8 +571,8 @@
       "top_provider": true
     },
     {
-      "id": "google/gemini-3.6-flash:batch",
-      "name": "Google: Gemini 3.6 Flash (batch)",
+      "id": "google/gemini-3.6-flash",
+      "name": "Google: Gemini 3.6 Flash",
       "price_1m_input": 0.75,
       "price_1m_output": 3.75,
       "context_length": 1048576,
@@ -591,14 +615,6 @@
       "name": "Google: Gemini 2.5 Pro Preview 05-06",
       "price_1m_input": 1.25,
       "price_1m_output": 10,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
-      "id": "google/gemini-3.6-flash",
-      "name": "Google: Gemini 3.6 Flash",
-      "price_1m_input": 1.5,
-      "price_1m_output": 7.5,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -1651,14 +1667,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3-next-80b-a3b-instruct",
-      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
-      "price_1m_input": 0.09,
-      "price_1m_output": 1.1,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3-235b-a22b-2507",
       "name": "Qwen: Qwen3 235B A22B Instruct 2507",
       "price_1m_input": 0.09,
@@ -1680,6 +1688,14 @@
       "price_1m_input": 0.1,
       "price_1m_output": 0.42,
       "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+      "price_1m_input": 0.1,
+      "price_1m_output": 1.1,
+      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1731,18 +1747,18 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3.6-35b-a3b",
-      "name": "Qwen: Qwen3.6 35B A3B",
-      "price_1m_input": 0.15,
-      "price_1m_output": 1,
+      "id": "qwen/qwen3-vl-30b-a3b-instruct",
+      "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+      "price_1m_input": 0.13,
+      "price_1m_output": 0.52,
       "context_length": 262144,
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3-vl-30b-a3b-instruct",
-      "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+      "id": "qwen/qwen3.6-35b-a3b",
+      "name": "Qwen: Qwen3.6 35B A3B",
       "price_1m_input": 0.15,
-      "price_1m_output": 0.6,
+      "price_1m_output": 1,
       "context_length": 262144,
       "top_provider": true
     },
@@ -1923,19 +1939,19 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3.5-397b-a17b",
-      "name": "Qwen: Qwen3.5 397B A17B",
-      "price_1m_input": 0.45,
-      "price_1m_output": 3,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3-235b-a22b",
       "name": "Qwen: Qwen3 235B A22B",
       "price_1m_input": 0.45,
       "price_1m_output": 1.82,
       "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3.5-397b-a17b",
+      "name": "Qwen: Qwen3.5 397B A17B",
+      "price_1m_input": 0.5,
+      "price_1m_output": 3.6,
+      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1999,7 +2015,7 @@
       "name": "Qwen: Qwen3.8 2.4T A95B",
       "price_1m_input": 2,
       "price_1m_output": 6,
-      "context_length": 1000000,
+      "context_length": 1010000,
       "top_provider": true
     },
     {
