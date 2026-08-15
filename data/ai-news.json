@@ -1,11 +1,35 @@
 {
-  "last_updated": "2026-08-14T09:57:52.980Z",
+  "last_updated": "2026-08-15T09:22:26.127Z",
   "news": [
     {
-      "title": "세종대, 생성형 AI 실무 교육 운영…청년 AI 활용 역량 높인다",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9EZG9pWWZJbkFXYmFSS056RTBmNWVpVVFOTUM0QWoxYlB5WWo1d1Eyak1YdTRIR1FBT09CSTVFYVZrMUJnZHJxZUhGRGpkUQ?oc=5",
-      "source": "전자신문",
-      "date": "Fri, 14 Aug 2026 07:53:16 GMT"
+      "title": "챗GPT에 “전 여친 죽이겠다” 총 자랑까지…오픈AI 신고로 ‘쇠고랑’",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1yZTJtcGRSdlNpS0VlMmpKNjRDXzJ0TTFmU3BlMk92eEVtU2U0R1gyY1NLVUh3Tzc5U210dEJQVEJTVUVOejhNMlJxenhPQlZsNU9qWnpqNGFDUzh1NXRDWEFIYTdINjRhdzRCeG10WQ?oc=5",
+      "source": "한겨레",
+      "date": "Sat, 15 Aug 2026 06:51:00 GMT"
+    },
+    {
+      "title": "OpenAI IPO에 대해 알아야 할 핵심 정보",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMXFoSjFPcUg2YzgyM2NQcG9QVi1kZ1UxVk03Ti1yaktpVzRoRTZ4aGtnVmRTQ3B2SlhkOTE2LTF6cUZxQjdTenpLZmszbXdueDJBU29odVNPRUh3cmM3V1BkTURWTG1mUVlWRmdpTURfcmJ0dUFQWGRKWjRaaWdrcXJrenJ3SV9ENDAwc2k4X0Z4WXpfUFRFejZtT2tBR0haVWpYdTBZMUg?oc=5",
+      "source": "TradingKey",
+      "date": "Sat, 15 Aug 2026 01:18:51 GMT"
+    },
+    {
+      "title": "챗GPT에 '전여친 살해계획' 털어논 美남성, 오픈AI 신고로 체포",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5NcVBpYW5CaDFhMWlrNWNzdVhHU3FhYzVjVVRPN29ORTVxWnZxZEdTRkh3aUZWLU9HajYySGZ0Tng2QzBKUFZwamJmMC1FeFhXSW85cTBhQktmaTjSAWBBVV95cUxPVmVHT1hJYVZHckZ2Rlh1TF9qWE9LWXVLSXNJbU5ZX1dCOW5fVWdEYm5nTDc5Z0ZvR2kwcm9hTGxlU1l0dUgyVndUYTRTb2MxM2JLcEduNEUzZTNvQjdZZXA?oc=5",
+      "source": "연합뉴스",
+      "date": "Sat, 15 Aug 2026 01:16:06 GMT"
+    },
+    {
+      "title": "[AI돋보기] AI가 AI를 개발한다…실리콘밸리가 켠 '통제불능' 경고등",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Oc1RHVThpYUNPWlpjREFSemgwalh0ZjdRaGxEX2swMFBSaktLWGhsZjhiRnJMWGUyeGZTVHJyWWVBUWJwNFB3UWtrclNPNXVqYmp1d2VsQ3BnVE3SAWBBVV95cUxNbkJkM3VtcV9nc2I3ckVBZjRmZUlpdm54bWdON2VETG92SU1hS1hMMFFjVUFxeDFma3dyXzU5M3Jzd0Vza2dhcWlEeld2QjRNN1l1QmdSOUVoZkxNMHdfOU0?oc=5",
+      "source": "연합뉴스",
+      "date": "Fri, 14 Aug 2026 21:33:00 GMT"
+    },
+    {
+      "title": "인공지능(AI) 시대에도 지역은 사람을 통해 기록됩니다",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05aTg1dWVfMnloaC1tVGxfanVjcDNHRVZ3YXhPLU1MTXVRbWtTTlBuX181MTcyZ3EwT3RzZzNDbzNyTlplaU1paDhrdDI1c3pEOURlWms5c2Q4a1dQdmFOWm9ZMjRTX3hVMXc?oc=5",
+      "source": "서부경남신문",
+      "date": "Fri, 14 Aug 2026 10:16:25 GMT"
     },
     {
       "title": "의료 인공지능(AI), 기술만 들여놓는다고 병원이 바뀔까",
@@ -20,58 +44,34 @@
       "date": "Fri, 14 Aug 2026 04:59:12 GMT"
     },
     {
+      "title": "[AI 이슈] \"인공지능, 수어를 실시간 텍스트로 바꾼다\"…구글 딥마인드, ‘수어-텍스트(SL2T)’ AI 모델 공개",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4zRG1vTE0xVC04OXcteG1JWnA2S1NqOTFScUk0WUhTellNei1wc2UwMkJ1NEdOcXBxRHZqU05hOXJfaTdfenZrUDh1ZVZTMl9udnpRVXY1U3pEdk11NkdHdUE3Wk93MEk?oc=5",
+      "source": "인공지능신문",
+      "date": "Fri, 14 Aug 2026 04:36:08 GMT"
+    },
+    {
       "title": "노지감귤 생산량 조사에도 인공지능(AI) 도입",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UcHFHdkdIaHA1dEZyZC0zVTNrcUJDbVk5ZldZSjlFZ05YblJPSXZrMV84c3BmTE1lU1F0MzRHeXE0QTR0dU9rZkpVTHhzZ1BEZWNOT2w0eFZodmYycnEwWHY5SVFKTmxBRVd2QjNR?oc=5",
       "source": "제주투데이",
       "date": "Fri, 14 Aug 2026 03:08:53 GMT"
     },
     {
-      "title": "재정경제부, 한·아프리카 경제협력 20년, 인공지능(AI)·디지털로 공동 번영의 새 길 연다.",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5oTUR4SEpSQWR3bFpfRDNqNFpqUmxITmxjcWlkLVUyaXZNemYzRmtOUUVkNWtsZlVDRFVGTld6QkxaZ3plZjk1ZTNIUXZ5V0lfQ3JqRGJWS0lyb1AxMnVxZWNMNUZJRU82bkgyTw?oc=5",
-      "source": "경기포커스",
-      "date": "Thu, 13 Aug 2026 11:50:08 GMT"
+      "title": "한국장학재단, '인공지능(AI) 콜봇' 본격 가동",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfVG9xVG5jcmZXd0haMUtQRmJvSmJSa2s1WThrcTVHd2RwalhKNXpaTEFja2JyVEJzOTZIeGItYTNMbTV5ZDAzMTlpMG9mZDRWcTFmZnNVcVN1YkNkdTI0UDJsX09vUQ?oc=5",
+      "source": "ifocus.kr",
+      "date": "Thu, 13 Aug 2026 21:45:18 GMT"
     },
     {
-      "title": "[기고] 생성형 AI와 개인정보 국외이전",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95NElOOXZvWTdMeXRoTDFyUTYwOVpZbG1ISWRCUWVKcHE1Wi1LZWQtaVBhZmNWN2VIb0Q3cUdaNjFKbU1JMlczTFZ6MnhBTlJNSnIxNTJB?oc=5",
-      "source": "지디넷코리아",
-      "date": "Thu, 13 Aug 2026 08:09:34 GMT"
+      "title": "농식품 공공데이터와 인공지능(AI)으로 농업·농촌의 현안을 해결한다",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE05Y3hBQ0tQN3czdnNqenBuRG5wU2d6Zlgyd3J1NTR6dWhSNU1tTnlPYWJZQTFvMmlEcmg0TVBzWktrNXdXYlE?oc=5",
+      "source": "케이에스피뉴스",
+      "date": "Thu, 13 Aug 2026 11:18:00 GMT"
     },
     {
       "title": "많이 넣을수록 똑똑해진다? AI는 정말 ‘유일신’ 될까",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE84VjV2a180RFFEYXhmcC1lZ0x0M3NidmwzMzJpaDVFTjNTMDR5RzJiZVpuOUJ5SGNjM1VYUlAyQVNwTlZQbEl5dkZvdTVYTllIVkhHWFVUU21EMDFpcm00WTRTY3RheDFKbE03enlB?oc=5",
-      "source": "thescoop.co.kr",
+      "source": "더스쿠프",
       "date": "Thu, 13 Aug 2026 07:21:54 GMT"
-    },
-    {
-      "title": "전북특별자치도교육청, “인공지능(AI) 활용으로 업무 방식 전환 본격화”",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcU9MN1BBZFV5MmlvRGVPR2VFNWFFRE1TQUNWWjVzNy1LZ2ttZmZ4dTA4a2hpWmNUTkR3QkxqT2VlSDlVRlZRS3ZsRXBjWXNkME5xUTRfMWlRM2Z0OS1EYTZybVNQRkE3WDFKYWpvZEN2MXlCREJkOW1NcmxwZFAxc01SVHRpaHFi?oc=5",
-      "source": "전북도민일보",
-      "date": "Thu, 13 Aug 2026 06:32:33 GMT"
-    },
-    {
-      "title": "'AI 부트캠프' 대학-기업 매칭데이 개최…\"AI 인재상 공유\"",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ja1pTejlZcjUza01yN05rdHBjQjBNOGxMZzhuNGhiTmdrM21wZHAxcFlDUEUtX2c5empfVWk3Qy1VOHlvRlQ3ekViMGJwMHE3R0J5cGtZem9PaFdOYy1oR9IBYEFVX3lxTE1ja1pTejlZcjUza01yN05rdHBjQjBNOGxMZzhuNGhiTmdrM21wZHAxcFlDUEUtX2c5empfVWk3Qy1VOHlvRlQ3ekViMGJwMHE3R0J5cGtZem9PaFdOYy1oRw?oc=5",
-      "source": "연합뉴스",
-      "date": "Thu, 13 Aug 2026 03:00:18 GMT"
-    },
-    {
-      "title": "영주상공회의소, 기업 재직자 인공지능 AI 활용 교육 본격화",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE15ek8ybXdLQUxXNnRmVUJzNEZxUG42RXpocGNad0N3YUU2eWZhbWMxb2FOSTNlN2NvWHVUSWZjajg3aVVEcURVQ1F3eFhOTWd1WFBDbFJYMWc?oc=5",
-      "source": "경북신문",
-      "date": "Thu, 13 Aug 2026 02:23:00 GMT"
-    },
-    {
-      "title": "“AI에 업무 맡긴다”…오픈AI, 기업용 AI 사용 변화 분석",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBheks5SFgyUUVnODNmTmlodDM1OEVjODV2Qld2cGtSR3A2NVprZkFtSGNtcVVQWTZZY3RxYlljUlNPUVFCQy1sVVhKb3pDdDIyNmphbTR5ZFl5WWtxTkxsRlY2NWs?oc=5",
-      "source": "서울경제TV",
-      "date": "Thu, 13 Aug 2026 02:08:13 GMT"
-    },
-    {
-      "title": "유튜브 '맛쿨멋쿨TV' 통해 생성형 AI 실습형 콘텐츠 제공",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5tR0VVdnlTTmJWWGhTTXZKTmFGTTRPWHJWUFdkT1RzUmF3dWxvVmJWcHFLNUtnLTJFclhtYWZTNVYzR2dFbHBGOUZJRklLd0NZb21xdWtoVWc5U2c3ZkM4alM3ZmRaUQ?oc=5",
-      "source": "dailydgnews.com",
-      "date": "Wed, 12 Aug 2026 23:51:28 GMT"
     }
   ]
 }
