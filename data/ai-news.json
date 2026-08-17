@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-16T09:23:57.282Z",
+  "last_updated": "2026-08-17T09:37:36.556Z",
   "news": [
     {
       "title": "한국 표적 삼은 北 해킹 ‘최다’… 인공지능(AI)과 딥페이크도 활용",
@@ -11,19 +11,25 @@
       "title": "AI: 중고책 판매가 급증하고 있다...인공지능 때문일까?",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5BbUF1OUdHdVFqVllZY2ZKUjQtODlEbFJOS096aDUyQXBYR2pnNVB3OHZ1Yk13VlJrWHNZZnNxU1NtQ3FyVlhxQ282S0R1cllxYldWMFh6ODNBNXNv0gFiQVVfeXFMUHplaGJhbUYxckFoczBVLXJzenU1VUprWWctVHk4bG40TXpPVHFTcGFTaUdnYmFQY0ZhblNIQ3h0NlBvamNJcGNDSVNOYWgycFZySmNEM1Zvamx2Wm5RVWNCbGc?oc=5",
       "source": "BBC",
-      "date": "Sun, 16 Aug 2026 06:02:49 GMT"
+      "date": "Sun, 16 Aug 2026 06:05:28 GMT"
+    },
+    {
+      "title": "인공지능(AI)이라는 이름의 오해",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5SNzg2LTlCY0JzM2RJTHhweHJIaUVwRkdPZTAwZjhoSU44SUV1TXNfWUl1Qi1Nd3lnUW9EWVNXY2lhc09JN3NiVA?oc=5",
+      "source": "브런치",
+      "date": "Sat, 15 Aug 2026 21:25:56 GMT"
+    },
+    {
+      "title": "“AI 특허 10만 시대 열렸다”... 삼성전자, 글로벌 AI 특허 출원 1위 질주 - e",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9VTFlyaWFJT0d5QlNSVFdJY242OHRSTjNMbTF0MXY0QWZmZDJ4RXF1SzYzQm5ybVFTVVFwOTFXaVNWd3dxUUIyUQ?oc=5",
+      "source": "patentnews.com",
+      "date": "Sat, 15 Aug 2026 10:08:00 GMT"
     },
     {
       "title": "챗GPT에 “전 여친 죽이겠다” 총 자랑까지…오픈AI 신고로 ‘쇠고랑’",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1yZTJtcGRSdlNpS0VlMmpKNjRDXzJ0TTFmU3BlMk92eEVtU2U0R1gyY1NLVUh3Tzc5U210dEJQVEJTVUVOejhNMlJxenhPQlZsNU9qWnpqNGFDUzh1NXRDWEFIYTdINjRhdzRCeG10WQ?oc=5",
       "source": "한겨레",
       "date": "Sat, 15 Aug 2026 06:51:00 GMT"
-    },
-    {
-      "title": "美 \"중국 AI 동참하지마\"…韓 등 35개국에 '양다리 불가' 경고",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByeGxLUVRxYTNHQzdJSV9mT1J2V201LUNYMWVEZTFNalFsV2k4VVFLRlR5YzVlMWNoZ0ZLN25ES3prd2daaUJLMDhlVmoxcU1RZTdpVk9OdzlqcXfSAWBBVV95cUxPWWt5aUM0X1JvTjE4ZmxYTk1xMThQcU5HaWdkNjJ4MXFzOC1velFMY213aWdXdVBuNVl3R0stMGFJLTdRUkJCQXljTFVrNU9iTWhhTWZBWFhjdFp6Nmc0dWg?oc=5",
-      "source": "연합뉴스",
-      "date": "Sat, 15 Aug 2026 02:36:50 GMT"
     },
     {
       "title": "챗GPT에 '전여친 살해계획' 털어논 美남성, 오픈AI 신고로 체포",
@@ -56,22 +62,16 @@
       "date": "Fri, 14 Aug 2026 04:59:12 GMT"
     },
     {
-      "title": "인공지능(AI) 활용으로 업무 방식 전환 본격화",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fLTBuWkw4QkFkdGZCcnpBYVdCNlhKaW1MeVgzek5sdTAtaWk3c1pXeHlVUFRwZHdBSUFTR1h0ZVRSTnMydVpnZlZxRXVwdTNDWE9OLUgzTnNYNDJpaHo4T2VwOGRuQQ?oc=5",
-      "source": "코리아플러스",
-      "date": "Fri, 14 Aug 2026 00:02:52 GMT"
+      "title": "\"AI 보편복지 실현\"…대전 10개 청년공간서 인공지능 전환 추진",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YcklYajBaNy1NUmZBeENDM0hXRWJsVFNvbVRsdF9YQWw2MlVLbW92M2FoNjRaZm1LcjNLUjFUbzA0RXY2ZnZ1Qm9yMktXdEhyaGJFYm5UQmN5TFHSAWBBVV95cUxQcldCakY2eHZQU0xsYlE4ZjN4MHh0VU5zME5CcGZvLXBDYWFtdFdWR2FFX3Q5blMwYldnV3lOSG55aHItRUNxbGdpWkhYSWlpSWdhOTFOcGdvVlhyYU9oREM?oc=5",
+      "source": "연합뉴스",
+      "date": "Fri, 14 Aug 2026 00:22:50 GMT"
     },
     {
       "title": "교육부, 인공지능(AI) 인재 양성을 위하여 대학과 기업이 머리를 맞댑니다",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Ja3ltX1RKZXgxbzJwOFkwei1DMkZDMl9lbjNCVzMzMGVoem9EQjhiUV90cXJob1NiYVVOaElmZ3l2WkcwdVRqYlJ6cndOZVVNY1JEcnhfd29vR0EwcDczenFhTjhMNGtiSXdhaw?oc=5",
       "source": "서울포커스",
       "date": "Thu, 13 Aug 2026 23:17:05 GMT"
-    },
-    {
-      "title": "기업용 생성형 AI 시장 규모, 점유율, 성장률, 분석 (2034년)",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JNFVhX2M4VFpDWDlvSGY4bnFERFZfT01PakwzM09DOFJBNUZhbGJLcnIycUYzQmRqdW1wMW5zODdMVXhGaEcyVjJtUEpLaGZtU1VkWlBXaUduUC1zaEhFakE3SFlOSU56TnNrVS14WkJvd3dnQW9MMQ?oc=5",
-      "source": "Straits Research",
-      "date": "Thu, 13 Aug 2026 07:00:00 GMT"
     }
   ]
 }
