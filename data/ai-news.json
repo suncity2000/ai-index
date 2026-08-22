@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-08-21T09:33:20.263Z",
+  "last_updated": "2026-08-22T09:23:39.575Z",
   "news": [
+    {
+      "title": "AI의 새 위협 ‘가짜 독서’…“질문하는 문해력 필요한 시대”",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBadDQxeWFGVUkyVFRGV3NlZXNTanpSWE15N0M0YTB2U3JNVkplcTB2eVhKY2R2Mi1xR0hrWXRGNUd1UjZyMWl5ZENRQ09vWUdoSnp3TDJRYjlXSkNGSjVBSktCUQ?oc=5",
+      "source": "한겨레",
+      "date": "Fri, 21 Aug 2026 23:59:00 GMT"
+    },
+    {
+      "title": "생성형 AI 넘어 피지컬 AI⋯전북 산업의 미래를 묻다",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBob0taM1o3dTJPT2F5b2tpWERuXzJ1NW9tUVhEeTREZkJzanE2RmhkN09fSkJrVUp5M3QycG00OWdDZnBKT2FoT3ZkOXBsV2NzSUlBWdIBWEFVX3lxTE9LdHpzb01HSkxsY1hQeHJFQVVLM1JUWl90emNCcGplX09ER2FScy1nSk02UldtRTd1WUhGUXhFQ1FCRU5tUG00NWx0OWhabnV4TVhtSUhJY3M?oc=5",
+      "source": "전북일보 인터넷신문",
+      "date": "Fri, 21 Aug 2026 09:48:31 GMT"
+    },
     {
       "title": "법무법인 디엘지, 인공지능기본법 컴플라이언스 실전 가이드 세미나",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwaWdsZzA3SFdhSVdCRVRkb0tkYVZQYlN6cDlGbzlwZmwyRHBfRmR6d3V2YV9wT0toU1RTamFzaXBubEd5bk56V1RPdXFtWGFyM1NqMVpCY2xDdnJKamltWGhValdDNnpKbVBkR2JxM04wd9IBckFVX3lxTFBwaWdsZzA3SFdhSVdCRVRkb0tkYVZQYlN6cDlGbzlwZmwyRHBfRmR6d3V2YV9wT0toU1RTamFzaXBubEd5bk56V1RPdXFtWGFyM1NqMVpCY2xDdnJKamltWGhValdDNnpKbVBkR2JxM04wdw?oc=5",
@@ -14,64 +26,52 @@
       "date": "Fri, 21 Aug 2026 06:32:44 GMT"
     },
     {
+      "title": "공공조달 AI 대전환 속도 낸다… 조달청, ‘인공지능조달혁신과’출범",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8teTZ4ODk4S0xST0tkWnlLNk9UZ1dkck1EdDM2amprQl9ScmF5ZEFZbjJaUTFNUF91M2xBS2Z1VkNOMGhhclNZcTBWeHd3aG02UmVjVkhZTDUwd0JFSFl3UkZlVGJGTDg?oc=5",
+      "source": "인공지능신문",
+      "date": "Fri, 21 Aug 2026 01:06:00 GMT"
+    },
+    {
+      "title": "AI로 직원 줄이면서 \"AI 때문 아냐\"…선긋는 美기업들",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9KS0t5WkRnN3ZtRVJJYW1mTlhZRnJubGFDd3dOT2dNNXFaQWFOSTRjZkhrVC04Sm5mRWZ1bmwwaU1oS3NLR1JWa1kxeTBqTkJMSWU1ckM5Q1ZvZUN0dzhuRWdVTVVtMTA?oc=5",
+      "source": "연합뉴스TV",
+      "date": "Fri, 21 Aug 2026 00:35:00 GMT"
+    },
+    {
       "title": "AI로 직원 줄이면서 \"AI 때문 아니다\"…말 바꾸는 美기업들",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5aUpsWF95NXpBbE01TndsUTJabDgxaUh1LXJIMXFQdVNvZ21mTEtVQ3BNOGpPT2RMeWFMejhvX1BVSnFsZ3p0TzcxZFZUMjlwU3lwSktfMDY1TDItdTdYY9IBYEFVX3lxTFA5aUpsWF95NXpBbE01TndsUTJabDgxaUh1LXJIMXFQdVNvZ21mTEtVQ3BNOGpPT2RMeWFMejhvX1BVSnFsZ3p0TzcxZFZUMjlwU3lwSktfMDY1TDItdTdYYw?oc=5",
       "source": "연합뉴스",
       "date": "Fri, 21 Aug 2026 00:27:47 GMT"
     },
     {
-      "title": "파주시, `인공지능(AI) 시대 맞춤형 공공데이터 개방` 조사 실시",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4xUmJCaERJUThLelozalE4MTR1X3Q0STgzVXFtanl0MFEwS2FUdE5CNXN4bkZzQkJMeWtKTC1BVHp1YjZSekcwVTdB?oc=5",
-      "source": "경기평화신문",
-      "date": "Thu, 20 Aug 2026 23:28:00 GMT"
+      "title": "AI 리뷰·사기메일 딱 걸린다...'인공지능 감별' 미국 스타트업에 뭉칫돈 - 머니투데이",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96WVZicTlKd05QbDRfZUUtQUJuYzZOSHZrWEVERDZIU0tIaVl1ZG5nUzhUMzEwdU9wTHlZZ0NuVWtZS3dIcnBTZmFyLUFNNy14bjVWT2pYbmZFVEdMT2xneHRJczR3MFh20gFuQVVfeXFMT0ROTkpReDA2N1NVN1B3Sll0WTlIWl9PX1ZEcFZIMms5OEdwMF9sSzhoVW5HLXhjNEllcElwYlBlTk8wdFZmQWdJVTdaZkIwTHR6Z0ZWMDRDc0VZSFdLUjBodTBVSnlQSUpiLXBuaGc?oc=5",
+      "source": "머니투데이",
+      "date": "Thu, 20 Aug 2026 21:30:02 GMT"
     },
     {
-      "title": "충남농기원, ‘인공지능(AI) 현장코치’ 양성",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wZVZWV2ZlbGtyWUFud240dlk1c0YwdUpVMVRFYjB0UlRYZ3h0cVpmR2NHWG1Sb2w1Zi11X19uWENkdHFVSV83RmFMUGR6b3ZLcERqZDFtRHVNM25xRThqZ3hjZ3NmUTJy?oc=5",
-      "source": "농축유통신문",
-      "date": "Thu, 20 Aug 2026 07:11:22 GMT"
+      "title": "“인공지능 툴 ‘뚝딱’ 만들더라”…지방 중기 살리는 ‘AI 구원투수’",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5GWFYtWFpYR3o3b1VRd2ViY24xQzZyVExkam5Tb3FYZkNad25CWU4yUElhNE14VzFlSkFxMGFFb212TDFvNFV2dDNxWQ?oc=5",
+      "source": "v.daum.net",
+      "date": "Thu, 20 Aug 2026 20:02:13 GMT"
     },
     {
-      "title": "[기업 이모저모] 유가 예측도 인공지능으로…AI 서밋 가보니 |",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1wZFFSeDVrcHJ6NjkyQy1RZEhZUk53MGFlQ0xJZnBiWnZVZUNBbHZIWHhiZWdua05ldmIzR1lrdlgyUS1Tb3B1azBxRjhLUjNHYTg2bnQxRzExamZWRTRJVDlaNjVDU0d3dThxQjNHM1RjSzlP?oc=5",
-      "source": "연합인포맥스",
-      "date": "Thu, 20 Aug 2026 04:28:00 GMT"
+      "title": "인천항만공사, 인공지능(AI) 전환을 위해 생성형 AI 실전 적용",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBER3M1SnowbU5BbXY3UFR4Sm1DaHVrbDRzS3d1bG5WT1pvMmNJT0gxVnEwSDZZdXBMR1dNYzJ4YThyX1hsb0Voc25RZlduM1ltZTRMUWZtNHE0Rlg1ZjFzdXR4OUVFdUdMZ1dkX00xSHdlWEE?oc=5",
+      "source": "쉬핑뉴스넷",
+      "date": "Thu, 20 Aug 2026 07:51:39 GMT"
+    },
+    {
+      "title": "오픈AI '챗GPT 워크', 업무 넘어 연구보고서 작성도 지원",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE53c0R5ektLS0U1Um51dnpKSUh0Z1pRZ2xndk9DcUxLdV9IMXlXZ2JXZmtSQk1yUzE1MThGMzdJTUppRTJ4VTlsMWN3V1Y1UQ?oc=5",
+      "source": "전자신문",
+      "date": "Thu, 20 Aug 2026 04:57:55 GMT"
     },
     {
       "title": "와이즈스톤, LLM·생성형 AI 검증 리드할 ‘AI 테스트 아키텍트’ 양성 나서",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qVEtvall5Z09PUlR4UF81elVBRXNQc1RVUUd0RDN2N0otM3Zxb25TRjdoc0RkQUMtZFhVb1FSWENyWFctV01rcWJMdWQ1YkQtOW04OGI3U1ZQdURRMU5SZHpPVUlrZkE?oc=5",
       "source": "인공지능신문",
       "date": "Wed, 19 Aug 2026 23:35:16 GMT"
-    },
-    {
-      "title": "친구·부모 대신 AI?…“인공지능이 행동에도 영향”",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAxV3kycXhUbXUybGFWUk5Tbkpmd0ZMMEJBYWR2VEt5U2JRMkZka2F6T2FZN2dQRktrY0pVSjFiaUZ3eEZ4V0pkZmQ0ZW1nX3dJRy1hTFJLeV9Sa0FqeVo4RXRfZzVaQQ?oc=5",
-      "source": "KBS 뉴스",
-      "date": "Wed, 19 Aug 2026 21:49:00 GMT"
-    },
-    {
-      "title": "첫 AI 세대를 준비하는 CodeAI와의 파트너십",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB1ZmtQVXNKSnIxSlEwRk85Y2JtWjRnLUNrSTNKOWFuX2NnQ2psWjNSV0NRbjRqTXNCZlBXZWZZdDJRZXQ4YkMtdjJPX1Z6WmJvdkx4RzU0ODYxS1FiZFI5d2dIekg?oc=5",
-      "source": "OpenAI",
-      "date": "Wed, 19 Aug 2026 10:07:58 GMT"
-    },
-    {
-      "title": "교육부, 인공지능(AI) 온이음, 인공지능(AI)과 이어지는 첫 연결고리",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBmRVRQZ29XVl9Bb1JpOFB5dnFrcHJJMDN1R1QzYjFxMF9sekdrNnBZTW54d1RWRUJ2TmxVWldCQnFOdGJUelZSeDRkMjFiWF9XYlRjbHM5V0h6UFloQ1RaalpYcw?oc=5",
-      "source": "리더스타임즈",
-      "date": "Wed, 19 Aug 2026 09:33:00 GMT"
-    },
-    {
-      "title": "법원 \"네이버, 생성형 AI의 뉴스 학습 지상파에 설명 안 한듯\"",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9CR2JaMENjTWhSY1NveENUQlpzYmd2R0Y1bGp1MjNqUmhHZXpFcEFJWE5hdVh4TmhzczAwaEM4dTZMUWdtcDg2U3RPUU5ZTjhQdVJmN0wySjlDbUxvTWJVSjJ3?oc=5",
-      "source": "한국기자협회",
-      "date": "Wed, 19 Aug 2026 05:03:22 GMT"
-    },
-    {
-      "title": "ChatGPT 광고, 유럽 전역으로 확대",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9INjdWR2lONTA5TXVWTXpnb01pdTJOd2xjbW85b2lqQVMtNHNvcGdZNWN1NUZScHh2andYVGJTcnFveTJTSndRZkoyYl9PNjRta3JJZHI5SEpzRjQyZ05waDJFWnQxbnVaVGZiWHFaNG1OS2c?oc=5",
-      "source": "OpenAI",
-      "date": "Tue, 18 Aug 2026 17:08:18 GMT"
     }
   ]
 }
