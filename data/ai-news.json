@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-08-22T09:23:39.575Z",
+  "last_updated": "2026-08-23T09:24:17.572Z",
   "news": [
+    {
+      "title": "안양시 ‘제1회 전 직원 인공 지능(AI) 활용 경진 대회’ 성료···우수 사례 10건 최종 선정",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pWV9DX3hRdG40d2FydDFZWW8tSUlXc0RjbnRVOUd1b1A2a25uMlpvREQ3Q3p0RzBLcDV4X0Q1S25tZXNUOUJUWVFBblgtcW52UG5CXzAwLV91UW84VEltbUdWWl92aGRhdUV4ZXZWaEw?oc=5",
+      "source": "산경일보",
+      "date": "Sun, 23 Aug 2026 01:43:23 GMT"
+    },
     {
       "title": "AI의 새 위협 ‘가짜 독서’…“질문하는 문해력 필요한 시대”",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBadDQxeWFGVUkyVFRGV3NlZXNTanpSWE15N0M0YTB2U3JNVkplcTB2eVhKY2R2Mi1xR0hrWXRGNUd1UjZyMWl5ZENRQ09vWUdoSnp3TDJRYjlXSkNGSjVBSktCUQ?oc=5",
@@ -20,28 +26,34 @@
       "date": "Fri, 21 Aug 2026 07:17:16 GMT"
     },
     {
+      "title": "서울시, 생성형 AI 위협 대응 첫 '사이버보안 기본계획' 수립 추진",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5TZGl1ODJ0QW5xNWhtbVdzcmdhQmV6NGxkNW1WYlVkdkJZSmYxN09NQmgyaTQyWElVU3RZSUtmeVIyN2lscVR6eXU2ZjZQQQ?oc=5",
+      "source": "전자신문",
+      "date": "Fri, 21 Aug 2026 06:50:00 GMT"
+    },
+    {
       "title": "불교, 인공지능(AI)을 만나다",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xb2pDU0FXRDJfLWI1TGt0b3hNSmw5bkhJR282bFpaYnZVVGk4Z2V0ZlhJU2pwQlI3UlM4VVFUU2dZSmc5c3BMQ2pseW1zak1iWEJZNE9taDVvMmNNX1lqSmpGa1diTzgtSHc?oc=5",
       "source": "불교닷컴",
       "date": "Fri, 21 Aug 2026 06:32:44 GMT"
     },
     {
-      "title": "공공조달 AI 대전환 속도 낸다… 조달청, ‘인공지능조달혁신과’출범",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8teTZ4ODk4S0xST0tkWnlLNk9UZ1dkck1EdDM2amprQl9ScmF5ZEFZbjJaUTFNUF91M2xBS2Z1VkNOMGhhclNZcTBWeHd3aG02UmVjVkhZTDUwd0JFSFl3UkZlVGJGTDg?oc=5",
-      "source": "인공지능신문",
-      "date": "Fri, 21 Aug 2026 01:06:00 GMT"
+      "title": "안양시, ‘제1회 전 직원 인공 지능(AI) 활용 경진 대회’ 성료",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE56TDNsMHVENzdPSnQ0SG8wN19iSVVJVTk4SVdQVzdtZnJ0cXMwTjAwYjlwZWJudF9KWDd1MmF1dWpSZGtRWXhHOXV0QkhzbVQ5MGRXQ1BhOFFFekVfclg0YS1tVE1HeW44WkU2M2pVeHh5SjNwWDFhbjV1T3A?oc=5",
+      "source": "경기헤럴드",
+      "date": "Fri, 21 Aug 2026 02:00:53 GMT"
     },
     {
-      "title": "AI로 직원 줄이면서 \"AI 때문 아냐\"…선긋는 美기업들",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9KS0t5WkRnN3ZtRVJJYW1mTlhZRnJubGFDd3dOT2dNNXFaQWFOSTRjZkhrVC04Sm5mRWZ1bmwwaU1oS3NLR1JWa1kxeTBqTkJMSWU1ckM5Q1ZvZUN0dzhuRWdVTVVtMTA?oc=5",
-      "source": "연합뉴스TV",
-      "date": "Fri, 21 Aug 2026 00:35:00 GMT"
-    },
-    {
-      "title": "AI로 직원 줄이면서 \"AI 때문 아니다\"…말 바꾸는 美기업들",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5aUpsWF95NXpBbE01TndsUTJabDgxaUh1LXJIMXFQdVNvZ21mTEtVQ3BNOGpPT2RMeWFMejhvX1BVSnFsZ3p0TzcxZFZUMjlwU3lwSktfMDY1TDItdTdYY9IBYEFVX3lxTFA5aUpsWF95NXpBbE01TndsUTJabDgxaUh1LXJIMXFQdVNvZ21mTEtVQ3BNOGpPT2RMeWFMejhvX1BVSnFsZ3p0TzcxZFZUMjlwU3lwSktfMDY1TDItdTdYYw?oc=5",
+      "title": "'공공조달 AI 대전환 속도'…조달청, 인공지능조달혁신과 신설",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wYmQ0YzJXeWtaNHRKYkZNMk1SZVp4eDA2OHE0aTNyZGlQaEx5SnV0RlJOSGQ2VjF2QUZIQVVvWU9IdnlOb0NfVFJUdTdzUFNZVVhfOEtJU3U2VFnSAWBBVV95cUxPOW1zXzVEYS1tYXQ0S0pENHVNWm5Fc3NORDJhNklsdjZzeUhXZF9sNnJKUEtPUmRVOThEdzNMWFBrcWJnRllham9FUHQzM0Rmdjk3Um9nX2lVOVI1Ui1IalQ?oc=5",
       "source": "연합뉴스",
-      "date": "Fri, 21 Aug 2026 00:27:47 GMT"
+      "date": "Fri, 21 Aug 2026 01:53:25 GMT"
+    },
+    {
+      "title": "공공조달 AI 대전환 속도 낸다… 조달청,'인공지능조달혁신과'출범 - 보도자료",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbDVjcTBoOGM5aHZ2RnIzOXRURXBSa1dVWUZEVGpPNllaNnFHOEljcy1ZMXpCTzVjVnY1WFgzRlVTUXVubVgtMm9lWnlSOFJaY1FjWFVzTlpxaURRcGlnSXo3UVRmaVc5Wnd3TVJsRmVIcm9FZmR1eGNSQUpSZnFQd0hRY0VPMk92amp3?oc=5",
+      "source": "대한민국 정책브리핑",
+      "date": "Fri, 21 Aug 2026 00:07:55 GMT"
     },
     {
       "title": "AI 리뷰·사기메일 딱 걸린다...'인공지능 감별' 미국 스타트업에 뭉칫돈 - 머니투데이",
@@ -51,7 +63,7 @@
     },
     {
       "title": "“인공지능 툴 ‘뚝딱’ 만들더라”…지방 중기 살리는 ‘AI 구원투수’",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5GWFYtWFpYR3o3b1VRd2ViY24xQzZyVExkam5Tb3FYZkNad25CWU4yUElhNE14VzFlSkFxMGFFb212TDFvNFV2dDNxWQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1pdUI1ZHplUXNxVnV2V09IMVlkUUxlTU1USm1saUFHWnRMeGctZHJNbFBIOWJ5ZFlkOTBEdTRDMElwMmd4OFE?oc=5",
       "source": "v.daum.net",
       "date": "Thu, 20 Aug 2026 20:02:13 GMT"
     },
@@ -60,18 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBER3M1SnowbU5BbXY3UFR4Sm1DaHVrbDRzS3d1bG5WT1pvMmNJT0gxVnEwSDZZdXBMR1dNYzJ4YThyX1hsb0Voc25RZlduM1ltZTRMUWZtNHE0Rlg1ZjFzdXR4OUVFdUdMZ1dkX00xSHdlWEE?oc=5",
       "source": "쉬핑뉴스넷",
       "date": "Thu, 20 Aug 2026 07:51:39 GMT"
-    },
-    {
-      "title": "오픈AI '챗GPT 워크', 업무 넘어 연구보고서 작성도 지원",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE53c0R5ektLS0U1Um51dnpKSUh0Z1pRZ2xndk9DcUxLdV9IMXlXZ2JXZmtSQk1yUzE1MThGMzdJTUppRTJ4VTlsMWN3V1Y1UQ?oc=5",
-      "source": "전자신문",
-      "date": "Thu, 20 Aug 2026 04:57:55 GMT"
-    },
-    {
-      "title": "와이즈스톤, LLM·생성형 AI 검증 리드할 ‘AI 테스트 아키텍트’ 양성 나서",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qVEtvall5Z09PUlR4UF81elVBRXNQc1RVUUd0RDN2N0otM3Zxb25TRjdoc0RkQUMtZFhVb1FSWENyWFctV01rcWJMdWQ1YkQtOW04OGI3U1ZQdURRMU5SZHpPVUlrZkE?oc=5",
-      "source": "인공지능신문",
-      "date": "Wed, 19 Aug 2026 23:35:16 GMT"
     }
   ]
 }
