@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24T03:10:01.496Z",
+  "last_updated": "2026-08-25T03:05:12.378Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -261,8 +261,8 @@
     {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "price_1m_input": 0.06,
-      "price_1m_output": 0.11,
+      "price_1m_input": 0.09,
+      "price_1m_output": 0.18,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -272,14 +272,6 @@
       "price_1m_input": 0.14,
       "price_1m_output": 0.28,
       "context_length": 1310720,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-v4-flash-vision-exp",
-      "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
-      "price_1m_input": 0.22,
-      "price_1m_output": 0.66,
-      "context_length": 1048576,
       "top_provider": true
     },
     {
@@ -323,19 +315,19 @@
       "top_provider": true
     },
     {
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+      "price_1m_input": 0.44,
+      "price_1m_output": 1.32,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
       "id": "deepseek/deepseek-r1-0528",
       "name": "DeepSeek: R1 0528",
       "price_1m_input": 0.5,
       "price_1m_output": 2.15,
       "context_length": 163840,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-v4-pro",
-      "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "price_1m_input": 0.53,
-      "price_1m_output": 1.05,
-      "context_length": 1048576,
       "top_provider": true
     },
     {
@@ -352,6 +344,14 @@
       "price_1m_input": 0.7,
       "price_1m_output": 2.5,
       "context_length": 64000,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek: DeepSeek V4 Pro 0423",
+      "price_1m_input": 0.79,
+      "price_1m_output": 1.58,
+      "context_length": 1048576,
       "top_provider": true
     },
     {
@@ -856,6 +856,14 @@
       "price_1m_input": 0.4,
       "price_1m_output": 2,
       "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "mistralai/devstral-2512",
+      "name": "Mistral: Devstral 2 2512",
+      "price_1m_input": 0.44,
+      "price_1m_output": 2.2,
+      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1847,7 +1855,7 @@
       "name": "Qwen: Qwen3 235B A22B Thinking 2507",
       "price_1m_input": 0.23,
       "price_1m_output": 2.3,
-      "context_length": 262144,
+      "context_length": 131072,
       "top_provider": true
     },
     {
