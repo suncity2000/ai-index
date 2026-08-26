@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T03:05:12.378Z",
+  "last_updated": "2026-08-26T03:11:43.189Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -259,19 +259,19 @@
       "top_provider": true
     },
     {
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "name": "DeepSeek: DeepSeek V4 Flash 0731",
+      "price_1m_input": 0.04,
+      "price_1m_output": 0.08,
+      "context_length": 1310720,
+      "top_provider": true
+    },
+    {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "price_1m_input": 0.09,
       "price_1m_output": 0.18,
       "context_length": 1048576,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-v4-flash-0731",
-      "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "price_1m_input": 0.14,
-      "price_1m_output": 0.28,
-      "context_length": 1310720,
       "top_provider": true
     },
     {
@@ -395,14 +395,6 @@
       "top_provider": true
     },
     {
-      "id": "google/gemma-3n-e4b-it",
-      "name": "Google: Gemma 3n 4B",
-      "price_1m_input": 0.06,
-      "price_1m_output": 0.12,
-      "context_length": 32768,
-      "top_provider": true
-    },
-    {
       "id": "google/gemma-4-26b-a4b-it",
       "name": "Google: Gemma 4 26B A4B ",
       "price_1m_input": 0.07,
@@ -421,7 +413,7 @@
     {
       "id": "google/gemma-4-31b-it",
       "name": "Google: Gemma 4 31B",
-      "price_1m_input": 0.1,
+      "price_1m_input": 0.09,
       "price_1m_output": 0.34,
       "context_length": 262144,
       "top_provider": true
@@ -693,17 +685,9 @@
     {
       "id": "meta-llama/llama-4-scout",
       "name": "Meta: Llama 4 Scout",
-      "price_1m_input": 0.1,
-      "price_1m_output": 0.3,
+      "price_1m_input": 0.11,
+      "price_1m_output": 0.34,
       "context_length": 1310720,
-      "top_provider": true
-    },
-    {
-      "id": "meta-llama/llama-3.3-70b-instruct",
-      "name": "Meta: Llama 3.3 70B Instruct",
-      "price_1m_input": 0.1,
-      "price_1m_output": 0.32,
-      "context_length": 131072,
       "top_provider": true
     },
     {
@@ -711,7 +695,7 @@
       "name": "Meta: Llama Guard 4 12B",
       "price_1m_input": 0.18,
       "price_1m_output": 0.18,
-      "context_length": 1048576,
+      "context_length": 163840,
       "top_provider": true
     },
     {
@@ -727,6 +711,14 @@
       "name": "Meta: Llama 3.1 70B Instruct",
       "price_1m_input": 0.4,
       "price_1m_output": 0.4,
+      "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "meta-llama/llama-3.3-70b-instruct",
+      "name": "Meta: Llama 3.3 70B Instruct",
+      "price_1m_input": 0.71,
+      "price_1m_output": 0.71,
       "context_length": 131072,
       "top_provider": true
     },
@@ -1867,6 +1859,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen2.5-vl-72b-instruct",
+      "name": "Qwen: Qwen2.5 VL 72B Instruct",
+      "price_1m_input": 0.25,
+      "price_1m_output": 0.75,
+      "context_length": 128000,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3.5-122b-a10b",
       "name": "Qwen: Qwen3.5-122B-A10B",
       "price_1m_input": 0.26,
@@ -1885,14 +1885,6 @@
     {
       "id": "qwen/qwen-plus-2025-07-28",
       "name": "Qwen: Qwen Plus 0728",
-      "price_1m_input": 0.26,
-      "price_1m_output": 0.78,
-      "context_length": 1000000,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen-plus-2025-07-28:thinking",
-      "name": "Qwen: Qwen Plus 0728 (thinking)",
       "price_1m_input": 0.26,
       "price_1m_output": 0.78,
       "context_length": 1000000,
@@ -1955,11 +1947,11 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3.8-27b",
-      "name": "Qwen: Qwen3.8 27B",
-      "price_1m_input": 0.4,
-      "price_1m_output": 3,
-      "context_length": 1000000,
+      "id": "qwen/qwen3.5-397b-a17b",
+      "name": "Qwen: Qwen3.5 397B A17B",
+      "price_1m_input": 0.39,
+      "price_1m_output": 2.34,
+      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1971,19 +1963,19 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3.8-27b",
+      "name": "Qwen: Qwen3.8 27B",
+      "price_1m_input": 0.43,
+      "price_1m_output": 2.55,
+      "context_length": 1000000,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3-235b-a22b",
       "name": "Qwen: Qwen3 235B A22B",
       "price_1m_input": 0.45,
       "price_1m_output": 1.82,
       "context_length": 131072,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3.5-397b-a17b",
-      "name": "Qwen: Qwen3.5 397B A17B",
-      "price_1m_input": 0.5,
-      "price_1m_output": 3.6,
-      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -2016,14 +2008,6 @@
       "price_1m_input": 0.78,
       "price_1m_output": 3.9,
       "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen2.5-vl-72b-instruct",
-      "name": "Qwen: Qwen2.5 VL 72B Instruct",
-      "price_1m_input": 0.8,
-      "price_1m_output": 1,
-      "context_length": 128000,
       "top_provider": true
     },
     {
