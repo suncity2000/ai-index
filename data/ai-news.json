@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-08-29T14:09:10.583Z",
+  "last_updated": "2026-08-30T14:15:52.314Z",
   "news": [
+    {
+      "title": "정부·공공기관, '생성형 AI' 허용한다… 정보 등급별로 접속 통제",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aQ25zOGV1eWNYSlAwWmlRay01bmc3aFZLV1N6akRjTlJSVGNuRnBTWGpGaFhrcXJhbW5pQzdxSkxtekVmVl9YYkZfZDBEQmJBb2oyek95UlJyUUp2b1NwejhYOVJqOVBHOVhDMU1JRdIBc0FVX3lxTE0wTjM0cXRnSi1wZnRXWE1pajJXUzdvS0U5Q0xyU2MwUlJNd1FsSjRjUV9XSk10cHhiR2xYV0ZJY2xpTTFsUW4wRVBINkJLWXE4ckJxQ3pYMHZ1TWctS2RpNS12LU9NbmtvR1ViQm82bUg5czQ?oc=5",
+      "source": "한국클라우드신문",
+      "date": "Sun, 30 Aug 2026 12:41:26 GMT"
+    },
+    {
+      "title": "[경일포럼]인공지능(AI)공화국, 인류를 정복하다",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNNk0tcTExdEM1NUVEM3EyWGdIVVVzbmhYdmpWV1VQQ3U4dHZET3Y0WHFXTHRmNTlPV0haLUtaWTU5RDVLUVJMRkc2WmhmY3ZFcVphOUdqWUJCWHpnU0Z5T2FBQlNoNEF4TWdn?oc=5",
+      "source": "경남일보",
+      "date": "Sun, 30 Aug 2026 09:01:23 GMT"
+    },
+    {
+      "title": "“인공지능, 수백만 소재 중 쓸 수 있는 후보 처음부터 골라낸다”...MIT, AI로 ‘안정적인 신소재’ 생성 기술 개발",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE83OFpuMUlEZW85bGUyY3cxbXR3YzF2X2wwYklpNGFLcVFTS1pUN1hlRW9ZMWRNOUllbkJRcldzejhlQkxWT2tOYkdheDFpdnExdk01UnE4R0lwdUtob09KcnFrYVhva1E?oc=5",
+      "source": "인공지능신문",
+      "date": "Sun, 30 Aug 2026 03:53:33 GMT"
+    },
+    {
+      "title": "OpenAI IPO에 대해 알아야 할 핵심 정보",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMXFoSjFPcUg2YzgyM2NQcG9QVi1kZ1UxVk03Ti1yaktpVzRoRTZ4aGtnVmRTQ3B2SlhkOTE2LTF6cUZxQjdTenpLZmszbXdueDJBU29odVNPRUh3cmM3V1BkTURWTG1mUVlWRmdpTURfcmJ0dUFQWGRKWjRaaWdrcXJrenJ3SV9ENDAwc2k4X0Z4WXpfUFRFejZtT2tBR0haVWpYdTBZMUg?oc=5",
+      "source": "TradingKey",
+      "date": "Sun, 30 Aug 2026 01:15:02 GMT"
+    },
+    {
+      "title": "오픈AI, '코덱스' 용량 한계 보완 조치 단행…\"사용 효율 최대 50% 개선\"",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB6cmdiUUcxSUFLX3liZU1UQS10eS1OUWQ4cklrbGJTN0lWMloybnMzcW0teWlGMEJubVpaLVl5Q29fb1hoOHpTVjV5ZXkzWURzaWw1NlZrRXJJUDVkbmdIVWNsb0daa0NETkE?oc=5",
+      "source": "AI타임스",
+      "date": "Sun, 30 Aug 2026 00:56:50 GMT"
+    },
+    {
+      "title": "국제인공지능윤리협회 “수능 서·논술형 AI 채점, 사회적 논의와 합의 거쳐야”",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE02cm1pS25TZUFIYXFuVl84Qld1bjREWmo2eG1tWGo3bmtMSWYxdnp5bjBSSGUwT19SVU11VnZHRURsRlMtUUJzQ21wcG9sMEpTZU1sWXNoelNScktsQlFVcmpadVNaRUlUT0Z3YVE3UdIBb0FVX3lxTE02cm1pS25TZUFIYXFuVl84Qld1bjREWmo2eG1tWGo3bmtMSWYxdnp5bjBSSGUwT19SVU11VnZHRURsRlMtUUJzQ21wcG9sMEpTZU1sWXNoelNScktsQlFVcmpadVNaRUlUT0Z3YVE3UQ?oc=5",
+      "source": "투데이신문",
+      "date": "Sat, 29 Aug 2026 00:53:22 GMT"
+    },
     {
       "title": "비디오 생성 AI ‘제미나이 옴니 1.1 플래시’ 공개… “4K 업스케일링 및 제어 기능 강화”",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84TVYwcWFmYjNlMVhiOXB4UzVlMDZlMUdMNzVOV2tNZTJ1VWlYNnY4c0ZKekw1Q1FnM3RMUWk5aXAyZ25HY1Q4ZXpXQUdhVjNyekVMUU9TQUdvWVVRY0stTDFmU2NyMzQ?oc=5",
@@ -14,64 +50,28 @@
       "date": "Fri, 28 Aug 2026 14:27:00 GMT"
     },
     {
-      "title": "법제처, 미래 신기술과 인공지능(AI) 활용 관련 토론의 장 열어",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWVg2cDRUOGFVaVprdTFZQl8yODd6dUxwb3V2Qk5zajJEZDJ0TzdBWkYyV1o1czQtTEZINUxQTmNodjNMMHVXYzEyNFl1NHNWQUJxajNPeXByem5xSVJFVjU5N1pudHpXVGNzVmExZXF4Z2FIeTJlclRyUkhsOVN2Q0RlTGt4cGZ5Zm5XS3BVZ0xhYWV3YVlFTzlSRUotUkYzelRxZE9CMXJ6a3h0NXd0Ukp4eXYwWUtuMTdjSEw5Ni1DdzVNc3ZEbnB0d28xZEJaSUc2b255dw?oc=5",
-      "source": "법제처",
-      "date": "Fri, 28 Aug 2026 13:24:44 GMT"
+      "title": "경남도, 경남대에 ‘메가존 피지컬AI연구센터’ 개소",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0czVWbFlzWGdrVzRXSW5pT3hTNFMtVlFwU05lRVBmUUdEUi14Q1NxaWVOQW83WWV2TGlEQm1HS2hMSFMxblVfS1dQdUZmcDZKWG43NndmWlhtNERGbktWYnBUbzFydzdzTkppTw?oc=5",
+      "source": "로봇신문",
+      "date": "Fri, 28 Aug 2026 08:16:13 GMT"
     },
     {
-      "title": "대학생 과제에 깊숙이 들어온 생성형 AI…학습 도구와 대필 사이 경계 모호",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4xOGQteE5XV3F2Mnk1Q3ZINmtIa0JIbkQwUEFEcHlCemlEbUVyN0d5d1VRQm1iSmdRaW5SbUVzWVFyanRrVUY0UHR3UWZ6NzNTX1RCMTZ3aDJ2VXpsSzdFeTAzc0xKS2RiSEdF?oc=5",
-      "source": "civicnews.com",
-      "date": "Fri, 28 Aug 2026 06:52:15 GMT"
+      "title": "법제처, 미래 신기술과 인공지능(AI) 활용 관련 토론의 장 열어",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMDg4V043emxiUlFKVEVsdnFVR0tvVXVLVU5QQl9aS0l2Ri1xNUduLVpzLTFMOExzSXZ1Mkk5YVlrb2RJWndOV1ZPUEJmZjdhVi1DNDhHZDA5TjNmU0lCX3NWUmhEQWFzbEtWR2QteGRQSUJQLWpydkJkcjRxNEVlYThGaGdPTUFmaFJwejdNYU9VSktWc2FGakhnczVEOHFsZ3FwM3NBM0dkb2VuVUVLeHd2VmdoZjVndkFqVVZtZjBBN1FoUk4zMXU5bGU2dWhW?oc=5",
+      "source": "법제처",
+      "date": "Fri, 28 Aug 2026 07:02:55 GMT"
     },
     {
       "title": "인천 공공하수·자원순환 처리시설에 인공지능(AI) 기술 적용 확대",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9BTk93S09LNFRJRUk3WVo5YkREU083S3N5Y1ZJY09ITkk2dUc0a3hHeXI0THM2dU1tN2lEM19mek5hTUtKV1F5MFRRSQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE81SW5SVnhQMUxvbGZmR2Q1VnF0VFF4d0Z1V1V0cnkwM2VqWGxGblhFcS1EeHM5MTdvN0oxOGExT0xOWXEwdGc?oc=5",
       "source": "v.daum.net",
-      "date": "Fri, 28 Aug 2026 04:49:08 GMT"
-    },
-    {
-      "title": "경남교육청, 미국 국외 연수 성과 공유…“인공지능(AI)·디지털 교육 현장 확산”",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5JdmJzUkRRTE04M3dZY0JlRjNUOTNNZUJ2REt5Z3RHTEt1bV8zZXhRYWVmWVZRRmk3SzQ0NGhWdUY5VDZaNWMxcWZVUDlkTFZBdTdQRDlrZmI4SVl6MnlSeTZUbWxUbXQ0bnEw?oc=5",
-      "source": "경남일보",
-      "date": "Fri, 28 Aug 2026 00:34:28 GMT"
-    },
-    {
-      "title": "한수원, 인공지능(AI) 기반 감사 혁신 및 내부통제･적극행정 강화",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE01N044TnZRVVFfY1ptWjVlSElDZUZqTkVrLXNqUExycWhXYm92RjZoUTZrRC14YkN0YjBJQXFpdXYzdXVWcVNnS0Q1NkwtYVhMbVg4akNGay1sZXlDLW1zMlJ4a18zUQ?oc=5",
-      "source": "데일리대구경북뉴스",
-      "date": "Fri, 28 Aug 2026 00:29:48 GMT"
+      "date": "Fri, 28 Aug 2026 04:49:00 GMT"
     },
     {
       "title": "소방 인공 지능(AI)·자료(데이터) 활용의 문을 넓힌다... 주요 자료(데이터) 5종 응용프로그램 인터페이스(API) 개방",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZlIyTWxjd0p6N29tMkN4eWl0TWN2NTY3aDRqRThWQVUzdVpnWXZaS3B0RVFrVS1OczBBNWg1UzJERVkxZmVhU19VeWNnSk9YeV96akpkcnVoa3d5VE5xTDhIbHRCbEdDbllQUVhQekpRMV9BSTIzRW1GYk92Zm5hU2ZJa0FJTHJwTXE1bzJSVHVuUQ?oc=5",
       "source": "대한민국 정책브리핑",
       "date": "Thu, 27 Aug 2026 17:01:48 GMT"
-    },
-    {
-      "title": "태니엄 “인공지능 시대 보안 인간의 속도로 따라 잡을 수 없다”",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5CS3JKOHBEY2M5ZkxTbld3VTBUMjZlLW1VUHRIVDJubnJLdGRBTXBlM3VhMU5ieWNWeWhWMzY3S2xpTnF6UENJRl9fb3BVUU5lVnA4MkxQQjNyb05QWGxRSkx3TVgtTVdPeVBRcVFB0gFuQVVfeXFMTkJLcko4cERjYzlmTFNuV3dVMFQyNmUtbVVQdEhUMm5uckt0ZEFNcGUzdWExTmJ5Y1Z5aFYzNjdLbGlOcXpQQ0lGX19vcFVRTmVWcDgyTFBCM3JvTlBYbFFKTHdNWC1NV095UFFxUUE?oc=5",
-      "source": "NK경제",
-      "date": "Thu, 27 Aug 2026 12:26:22 GMT"
-    },
-    {
-      "title": "인공지능(AI) 물결 속에서 저작권의 정의",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVURLUjlET3J4UXhTREpuNGV0enBzdUZaRC1adGZhSV9vcEtQN2NYc2RTRkdKZl9oNHplcHBjS2ZDV3NYZ0pIUmxyYmQ1RlhFYWpsOFVka3NoMDFZaE9RUmpSMmZ6NlUtM0hwckJxTl9UWTRGbVdTU2VwLUc5eC1Xb2pFNk9fTnNIWnZWVFE2QWxLYmc?oc=5",
-      "source": "Vietnam.vn",
-      "date": "Thu, 27 Aug 2026 09:57:56 GMT"
-    },
-    {
-      "title": "인공지능 시대, 로스쿨의 병폐와 법학의 대응",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5jTXF4cGcxdkJfZ0dBaXBXdnMwcFgwY0d6NHBzRUNydXE5RVQtRWdUdzdQdkIxTTQwc0xSMDE5XzhxclNqQk5SM0plM29kYU8ybGhhODlCOEE2bWZYQ2tiRG1pVnR1V3BreXFhdXN1U2loQdIBckFVX3lxTE5jTXF4cGcxdkJfZ0dBaXBXdnMwcFgwY0d6NHBzRUNydXE5RVQtRWdUdzdQdkIxTTQwc0xSMDE5XzhxclNqQk5SM0plM29kYU8ybGhhODlCOEE2bWZYQ2tiRG1pVnR1V3BreXFhdXN1U2loQQ?oc=5",
-      "source": "법률신문",
-      "date": "Thu, 27 Aug 2026 08:47:55 GMT"
-    },
-    {
-      "title": "‘컴퓨터 황제’의 섬찟한 경고 “AI, 인간 인지 대체하고 능가···차원이 다른 충격온다”",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lbmtxdGtiMEdBQnJjRGdxVmhIOHlNWXBGZW1hY3JpTlNpdVpGdktJOFBieHZHcEZoRUJERVRQWUpLaXE5eUpuMG9YNGJWUENYTm53ZTFWcUQzd9IBX0FVX3lxTE96OW5sVkEwT21PRTR3ZnRqalllR0g5VmJickhIUDlKamFVQWhheThCT2VLYTNkYUd0RFFQNmlzdElCV25NR05NMHhuTWFuNWItYVdLUE16c3V2RW1jU1hV?oc=5",
-      "source": "경향신문",
-      "date": "Thu, 27 Aug 2026 05:05:00 GMT"
     }
   ]
 }
