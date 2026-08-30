@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-29T08:53:54.339Z",
+  "last_updated": "2026-08-30T08:11:32.075Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -261,8 +261,8 @@
     {
       "id": "deepseek/deepseek-v4-flash-0731",
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "price_1m_input": 0.05,
-      "price_1m_output": 0.09,
+      "price_1m_input": 0.07,
+      "price_1m_output": 0.18,
       "context_length": 1310720,
       "top_provider": true
     },
@@ -270,7 +270,7 @@
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "price_1m_input": 0.08,
-      "price_1m_output": 0.17,
+      "price_1m_output": 0.16,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -331,6 +331,14 @@
       "top_provider": true
     },
     {
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek: DeepSeek V4 Pro 0423",
+      "price_1m_input": 0.46,
+      "price_1m_output": 0.92,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
       "id": "deepseek/deepseek-r1-0528",
       "name": "DeepSeek: R1 0528",
       "price_1m_input": 0.5,
@@ -351,14 +359,6 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "price_1m_input": 0.66,
       "price_1m_output": 1.98,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-v4-pro",
-      "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "price_1m_input": 0.66,
-      "price_1m_output": 1.32,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -1483,6 +1483,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+      "price_1m_input": 0.09,
+      "price_1m_output": 1.1,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3-235b-a22b-2507",
       "name": "Qwen: Qwen3 235B A22B Instruct 2507",
       "price_1m_input": 0.09,
@@ -1512,14 +1520,6 @@
       "price_1m_input": 0.1,
       "price_1m_output": 0.42,
       "context_length": 131072,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-next-80b-a3b-instruct",
-      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
-      "price_1m_input": 0.1,
-      "price_1m_output": 1.1,
-      "context_length": 262144,
       "top_provider": true
     },
     {
