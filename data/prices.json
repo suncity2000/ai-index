@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30T08:11:32.075Z",
+  "last_updated": "2026-08-31T08:31:37.247Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -269,8 +269,8 @@
     {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "price_1m_input": 0.08,
-      "price_1m_output": 0.16,
+      "price_1m_input": 0.09,
+      "price_1m_output": 0.18,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -279,14 +279,6 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
       "price_1m_input": 0.14,
       "price_1m_output": 0.28,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-v4-flash-vision-exp",
-      "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
-      "price_1m_input": 0.22,
-      "price_1m_output": 0.66,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -331,10 +323,10 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-v4-pro",
-      "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "price_1m_input": 0.46,
-      "price_1m_output": 0.92,
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+      "price_1m_input": 0.44,
+      "price_1m_output": 1.32,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -355,14 +347,6 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-v4-pro-0813",
-      "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "price_1m_input": 0.66,
-      "price_1m_output": 1.98,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
       "id": "deepseek/deepseek-r1",
       "name": "DeepSeek: R1",
       "price_1m_input": 0.7,
@@ -379,10 +363,26 @@
       "top_provider": true
     },
     {
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "name": "DeepSeek: DeepSeek V4 Pro 0813",
+      "price_1m_input": 1.32,
+      "price_1m_output": 3.96,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
       "id": "deepseek/deepseek-v4-pro-0813:batch",
       "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
       "price_1m_input": 1.32,
       "price_1m_output": 3.96,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek: DeepSeek V4 Pro 0423",
+      "price_1m_input": 1.6,
+      "price_1m_output": 3.2,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -726,7 +726,7 @@
       "id": "meta-llama/llama-4-maverick",
       "name": "Meta: Llama 4 Maverick",
       "price_1m_input": 0.2,
-      "price_1m_output": 0.8,
+      "price_1m_output": 0.7,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -875,6 +875,14 @@
       "top_provider": true
     },
     {
+      "id": "mistralai/devstral-2512",
+      "name": "Mistral: Devstral 2 2512",
+      "price_1m_input": 0.4,
+      "price_1m_output": 2,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "mistralai/mistral-medium-3.1",
       "name": "Mistral: Mistral Medium 3.1",
       "price_1m_input": 0.4,
@@ -896,14 +904,6 @@
       "price_1m_input": 0.4,
       "price_1m_output": 2,
       "context_length": 131072,
-      "top_provider": true
-    },
-    {
-      "id": "mistralai/devstral-2512",
-      "name": "Mistral: Devstral 2 2512",
-      "price_1m_input": 0.44,
-      "price_1m_output": 2.2,
-      "context_length": 262144,
       "top_provider": true
     },
     {
