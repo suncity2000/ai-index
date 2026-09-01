@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T08:31:37.247Z",
+  "last_updated": "2026-09-01T07:38:04.997Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -269,8 +269,8 @@
     {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "price_1m_input": 0.09,
-      "price_1m_output": 0.18,
+      "price_1m_input": 0.08,
+      "price_1m_output": 0.16,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -365,8 +365,8 @@
     {
       "id": "deepseek/deepseek-v4-pro-0813",
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "price_1m_input": 1.32,
-      "price_1m_output": 3.96,
+      "price_1m_input": 1.12,
+      "price_1m_output": 3.35,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -709,8 +709,8 @@
     {
       "id": "meta-llama/llama-4-scout",
       "name": "Meta: Llama 4 Scout",
-      "price_1m_input": 0.11,
-      "price_1m_output": 0.34,
+      "price_1m_input": 0.1,
+      "price_1m_output": 0.3,
       "context_length": 1310720,
       "top_provider": true
     },
@@ -811,24 +811,8 @@
       "top_provider": true
     },
     {
-      "id": "mistralai/mistral-small-2603:batch",
-      "name": "Mistral: Mistral Small 4 (batch)",
-      "price_1m_input": 0.15,
-      "price_1m_output": 0.6,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "mistralai/ministral-8b-2512",
       "name": "Mistral: Ministral 3 8B 2512",
-      "price_1m_input": 0.15,
-      "price_1m_output": 0.15,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "mistralai/ministral-8b-2512:batch",
-      "name": "Mistral: Ministral 3 8B 2512 (batch)",
       "price_1m_input": 0.15,
       "price_1m_output": 0.15,
       "context_length": 262144,
@@ -859,14 +843,6 @@
       "top_provider": true
     },
     {
-      "id": "mistralai/codestral-2508:batch",
-      "name": "Mistral: Codestral 2508 (batch)",
-      "price_1m_input": 0.3,
-      "price_1m_output": 0.9,
-      "context_length": 256000,
-      "top_provider": true
-    },
-    {
       "id": "mistralai/mistral-small-3.1-24b-instruct",
       "name": "Mistral: Mistral Small 3.1 24B",
       "price_1m_input": 0.35,
@@ -891,14 +867,6 @@
       "top_provider": true
     },
     {
-      "id": "mistralai/mistral-medium-3.1:batch",
-      "name": "Mistral: Mistral Medium 3.1 (batch)",
-      "price_1m_input": 0.4,
-      "price_1m_output": 2,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
       "id": "mistralai/mistral-medium-3",
       "name": "Mistral: Mistral Medium 3",
       "price_1m_input": 0.4,
@@ -909,14 +877,6 @@
     {
       "id": "mistralai/mistral-large-2512",
       "name": "Mistral: Mistral Large 3 2512",
-      "price_1m_input": 0.5,
-      "price_1m_output": 1.5,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "mistralai/mistral-large-2512:batch",
-      "name": "Mistral: Mistral Large 3 2512 (batch)",
       "price_1m_input": 0.5,
       "price_1m_output": 1.5,
       "context_length": 262144,
@@ -963,6 +923,14 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-5-nano:batch",
+      "name": "OpenAI: GPT-5 Nano (batch)",
+      "price_1m_input": 0.03,
+      "price_1m_output": 0.2,
+      "context_length": 400000,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-oss-20b",
       "name": "OpenAI: gpt-oss-20b",
       "price_1m_input": 0.03,
@@ -995,6 +963,14 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-4.1-nano:batch",
+      "name": "OpenAI: GPT-4.1 Nano (batch)",
+      "price_1m_input": 0.05,
+      "price_1m_output": 0.2,
+      "context_length": 1047576,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-oss-safeguard-20b",
       "name": "OpenAI: gpt-oss-safeguard-20b",
       "price_1m_input": 0.08,
@@ -1003,11 +979,51 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-4o-mini:batch",
+      "name": "OpenAI: GPT-4o-mini (batch)",
+      "price_1m_input": 0.08,
+      "price_1m_output": 0.3,
+      "context_length": 128000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.6-luna-pro:batch",
+      "name": "OpenAI: GPT-5.6 Luna Pro (batch)",
+      "price_1m_input": 0.1,
+      "price_1m_output": 0.6,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.6-luna:batch",
+      "name": "OpenAI: GPT-5.6 Luna (batch)",
+      "price_1m_input": 0.1,
+      "price_1m_output": 0.6,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.4-nano:batch",
+      "name": "OpenAI: GPT-5.4 Nano (batch)",
+      "price_1m_input": 0.1,
+      "price_1m_output": 0.63,
+      "context_length": 400000,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-4.1-nano",
       "name": "OpenAI: GPT-4.1 Nano",
       "price_1m_input": 0.1,
       "price_1m_output": 0.4,
       "context_length": 1047576,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5-mini:batch",
+      "name": "OpenAI: GPT-5 Mini (batch)",
+      "price_1m_input": 0.13,
+      "price_1m_output": 1,
+      "context_length": 400000,
       "top_provider": true
     },
     {
@@ -1059,6 +1075,14 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-4.1-mini:batch",
+      "name": "OpenAI: GPT-4.1 Mini (batch)",
+      "price_1m_input": 0.2,
+      "price_1m_output": 0.8,
+      "context_length": 1047576,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-5.1-codex-mini",
       "name": "OpenAI: GPT-5.1-Codex-Mini",
       "price_1m_input": 0.25,
@@ -1071,6 +1095,22 @@
       "name": "OpenAI: GPT-5 Mini",
       "price_1m_input": 0.25,
       "price_1m_output": 2,
+      "context_length": 400000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-3.5-turbo:batch",
+      "name": "OpenAI: GPT-3.5 Turbo (batch)",
+      "price_1m_input": 0.25,
+      "price_1m_output": 0.75,
+      "context_length": 16385,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.4-mini:batch",
+      "name": "OpenAI: GPT-5.4 Mini (batch)",
+      "price_1m_input": 0.38,
+      "price_1m_output": 2.25,
       "context_length": 400000,
       "top_provider": true
     },
@@ -1091,6 +1131,22 @@
       "top_provider": true
     },
     {
+      "id": "openai/o4-mini:batch",
+      "name": "OpenAI: o4 Mini (batch)",
+      "price_1m_input": 0.55,
+      "price_1m_output": 2.2,
+      "context_length": 200000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/o3-mini:batch",
+      "name": "OpenAI: o3 Mini (batch)",
+      "price_1m_input": 0.55,
+      "price_1m_output": 2.2,
+      "context_length": 200000,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-audio-mini",
       "name": "OpenAI: GPT Audio Mini",
       "price_1m_input": 0.6,
@@ -1099,11 +1155,83 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-5.1:batch",
+      "name": "OpenAI: GPT-5.1 (batch)",
+      "price_1m_input": 0.63,
+      "price_1m_output": 5,
+      "context_length": 400000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5:batch",
+      "name": "OpenAI: GPT-5 (batch)",
+      "price_1m_input": 0.63,
+      "price_1m_output": 5,
+      "context_length": 400000,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-5.4-mini",
       "name": "OpenAI: GPT-5.4 Mini",
       "price_1m_input": 0.75,
       "price_1m_output": 4.5,
       "context_length": 400000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.2:batch",
+      "name": "OpenAI: GPT-5.2 (batch)",
+      "price_1m_input": 0.88,
+      "price_1m_output": 7,
+      "context_length": 400000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.6-terra-pro:batch",
+      "name": "OpenAI: GPT-5.6 Terra Pro (batch)",
+      "price_1m_input": 1,
+      "price_1m_output": 6,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.6-terra:batch",
+      "name": "OpenAI: GPT-5.6 Terra (batch)",
+      "price_1m_input": 1,
+      "price_1m_output": 6,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.6-sol-pro:batch",
+      "name": "OpenAI: GPT-5.6 Sol Pro (batch)",
+      "price_1m_input": 1,
+      "price_1m_output": 5,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.6-sol:batch",
+      "name": "OpenAI: GPT-5.6 Sol (batch)",
+      "price_1m_input": 1,
+      "price_1m_output": 5,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/o3:batch",
+      "name": "OpenAI: o3 (batch)",
+      "price_1m_input": 1,
+      "price_1m_output": 4,
+      "context_length": 200000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-4.1:batch",
+      "name": "OpenAI: GPT-4.1 (batch)",
+      "price_1m_input": 1,
+      "price_1m_output": 4,
+      "context_length": 1047576,
       "top_provider": true
     },
     {
@@ -1147,6 +1275,14 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-5.4:batch",
+      "name": "OpenAI: GPT-5.4 (batch)",
+      "price_1m_input": 1.25,
+      "price_1m_output": 7.5,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-5.1-codex-max",
       "name": "OpenAI: GPT-5.1-Codex-Max",
       "price_1m_input": 1.25,
@@ -1176,6 +1312,14 @@
       "price_1m_input": 1.25,
       "price_1m_output": 10,
       "context_length": 400000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-4o:batch",
+      "name": "OpenAI: GPT-4o (batch)",
+      "price_1m_input": 1.25,
+      "price_1m_output": 5,
+      "context_length": 128000,
       "top_provider": true
     },
     {
@@ -1267,6 +1411,14 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-5.5:batch",
+      "name": "OpenAI: GPT-5.5 (batch)",
+      "price_1m_input": 2.5,
+      "price_1m_output": 15,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-5.4",
       "name": "OpenAI: GPT-5.4",
       "price_1m_input": 2.5,
@@ -1347,6 +1499,22 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-4-turbo:batch",
+      "name": "OpenAI: GPT-4 Turbo (batch)",
+      "price_1m_input": 5,
+      "price_1m_output": 15,
+      "context_length": 128000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5-pro:batch",
+      "name": "OpenAI: GPT-5 Pro (batch)",
+      "price_1m_input": 7.5,
+      "price_1m_output": 60,
+      "context_length": 400000,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-5.4-image-2",
       "name": "OpenAI: GPT-5.4 Image 2",
       "price_1m_input": 8,
@@ -1376,6 +1544,30 @@
       "price_1m_input": 10,
       "price_1m_output": 30,
       "context_length": 128000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.2-pro:batch",
+      "name": "OpenAI: GPT-5.2 Pro (batch)",
+      "price_1m_input": 10.5,
+      "price_1m_output": 84,
+      "context_length": 400000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.5-pro:batch",
+      "name": "OpenAI: GPT-5.5 Pro (batch)",
+      "price_1m_input": 15,
+      "price_1m_output": 90,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-5.4-pro:batch",
+      "name": "OpenAI: GPT-5.4 Pro (batch)",
+      "price_1m_input": 15,
+      "price_1m_output": 90,
+      "context_length": 1050000,
       "top_provider": true
     },
     {
@@ -1483,14 +1675,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3-next-80b-a3b-instruct",
-      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
-      "price_1m_input": 0.09,
-      "price_1m_output": 1.1,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3-235b-a22b-2507",
       "name": "Qwen: Qwen3 235B A22B Instruct 2507",
       "price_1m_input": 0.09,
@@ -1520,6 +1704,14 @@
       "price_1m_input": 0.1,
       "price_1m_output": 0.42,
       "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+      "price_1m_input": 0.1,
+      "price_1m_output": 1.1,
+      "context_length": 262144,
       "top_provider": true
     },
     {
