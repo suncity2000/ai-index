@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-05T06:52:09.561Z",
+  "last_updated": "2026-09-06T07:02:32.706Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -261,8 +261,8 @@
     {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "price_1m_input": 0.09,
-      "price_1m_output": 0.17,
+      "price_1m_input": 0.08,
+      "price_1m_output": 0.16,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -347,19 +347,19 @@
       "top_provider": true
     },
     {
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek: DeepSeek V4 Pro 0423",
+      "price_1m_input": 0.73,
+      "price_1m_output": 1.46,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
       "id": "deepseek/deepseek-r1-distill-llama-70b",
       "name": "DeepSeek: R1 Distill Llama 70B",
       "price_1m_input": 0.8,
       "price_1m_output": 0.8,
       "context_length": 8192,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-v4-pro",
-      "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "price_1m_input": 0.94,
-      "price_1m_output": 1.88,
-      "context_length": 1048576,
       "top_provider": true
     },
     {
@@ -1707,14 +1707,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3.5-35b-a3b",
-      "name": "Qwen: Qwen3.5-35B-A3B",
-      "price_1m_input": 0.08,
-      "price_1m_output": 0.75,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3-32b",
       "name": "Qwen: Qwen3 32B",
       "price_1m_input": 0.08,
@@ -1959,6 +1951,14 @@
       "name": "Qwen: Qwen3 Coder 480B A35B",
       "price_1m_input": 0.3,
       "price_1m_output": 1,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3.5-35b-a3b",
+      "name": "Qwen: Qwen3.5-35B-A3B",
+      "price_1m_input": 0.31,
+      "price_1m_output": 1.25,
       "context_length": 262144,
       "top_provider": true
     },
