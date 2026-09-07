@@ -1,11 +1,65 @@
 {
-  "last_updated": "2026-09-06T12:36:23.368Z",
+  "last_updated": "2026-09-07T14:46:15.398Z",
   "news": [
     {
-      "title": "광명시 ‘시민참여 인공지능(AI) 소셜리빙랩’ 워크숍 개최",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1WdGROcGk2TUp6THBNa2RILVpmR0VFa3FhSFBwSFo0Y2V0VjFkeFlYemU1OEptSDRlczBrZXdoUC1QOWpxM2NMZE5meEJaR1cxYjY1ZDZybXVBNzFVSHk1ZWM5cTE?oc=5",
-      "source": "경기신문",
-      "date": "Sun, 06 Sep 2026 09:26:30 GMT"
+      "title": "성남시 공무원들, 인공지능(AI) 챔피언 인증 획득",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnT1I3SHd1SnhLSFBoUE8zTWdhTlhwbVZmZzdJcnNpN1U1M2NqT3ktd2w4Tm5RRjZrR01yVmdWSDdnTWl3M2c2YTJGMkIwWTMxeWFNTmY1YU4xYkk?oc=5",
+      "source": "경기일보",
+      "date": "Mon, 07 Sep 2026 06:10:44 GMT"
+    },
+    {
+      "title": "성남시 ‘인공지능(AI) 챔피언’ 인증 공무원 2명 추가 배출",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1XM2gyaGNZcFFxQUpNbmltOTJkRDhUN0p6eXQyVGk4ZlBRQjhsb1lqMWdzMWlxZm5YakV6alNaemwzbDFYZ0dNbkh3ZTM5MG9MZUM0M2RwamRTQkxhUlRfTFZubDF6VzdBUlRheEFTQXBLQlJwX0R4TWlBYkhXMVHSAX9BVV95cUxNVzNoMmhjWXBRcUFKTW5pbTkyZEQ4VDdKenl0MlRpOGZQUUI4bG9ZajFnczFpcWZuWGpFempTWnpsM2wxWGdHTW5Id2UzOTBvTGVDNDNkcGpkU0JMYVJUX0xWbmwxelc3QVJUYXhBU0FwS0JScF9EeE1pQWJIVzFR?oc=5",
+      "source": "뉴데일리 경기",
+      "date": "Mon, 07 Sep 2026 04:52:08 GMT"
+    },
+    {
+      "title": "수원시, 인공지능(AI) 전환 창업기업 성장전략 모색",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SNlluNDRvZXc5ODBZbGpUdVN2UENOd2c1VW9sLVlnUUk4UDZhRHdhOVVwY01MSWFxbEt3Y1l3VHJGSjdHS2xRVUFGenRuY0RoZ0VyT3ZuSHFXeUZUS1BycXNVTVFqdDM1?oc=5",
+      "source": "환경일보",
+      "date": "Mon, 07 Sep 2026 03:26:43 GMT"
+    },
+    {
+      "title": "[알림] 2026 대한민국 인공지능대상 주인공을 찾습니다",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBiR1llX1pUVVVJXzJLVVdiZDR1aUxYOTN2RDZoaC1Ja19GU0o5NDZRVEt4N0xyUzF6ekthSklDRGpFeEFMVTBxNHN3d1FPeXZrQllwV2I0ZlVvTlNzYWdHMW9xVFNEbE5xZGRaeEJkSEJfaTc30gF0QVVfeXFMUGJHWWVfWlRVVUlfMktVV2JkNHVpTFg5M3ZENmhoLUlrX0ZTSjk0NlFUS3g3THJTMXp6S2FKSUNEakV4QUxVMHE0c3d3UU95dmtCWXBXYjRmVW9OU3NhZ0cxb3FUU0RsTnFkZFp4QmRIQl9pNzc?oc=5",
+      "source": "it.chosun.com",
+      "date": "Mon, 07 Sep 2026 02:23:12 GMT"
+    },
+    {
+      "title": "'생성형 AI·자동심사' 통했다…DB손해보험, 품질혁신 금상 2관왕",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8xTHVUOXZFLUlJNzktTWFzcTQ4RXBhaU9sc0JEbTd2elFTNm5PeV9pN3l6RUdhUzBITno2alpvdU9rLWRHZktncmdUVGR3SlFKZ1pQa3huWVMtNnI5eURadEhSTGxiYmUwdkJhUlhiVQ?oc=5",
+      "source": "조세일보",
+      "date": "Mon, 07 Sep 2026 01:30:00 GMT"
+    },
+    {
+      "title": "AI 특례를 신설하는 개인정보 보호법 개정안 국회 본회의 통과",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBUd0tfaGgyMHZHakxKQWdhdm5JOFNZSG1VTjQ2UnpLZFRpcGNqV1lBOEVoZExKQ1dmSFFMWjhuRnBTR3E1am53S1BsM09PeHE3VmZjYWdsZWd4N2xiWDEzTjNSa0FId3VDR2tOa3l1enNMUdIBckFVX3lxTFBUd0tfaGgyMHZHakxKQWdhdm5JOFNZSG1VTjQ2UnpLZFRpcGNqV1lBOEVoZExKQ1dmSFFMWjhuRnBTR3E1am53S1BsM09PeHE3VmZjYWdsZWd4N2xiWDEzTjNSa0FId3VDR2tOa3l1enNMUQ?oc=5",
+      "source": "법률신문",
+      "date": "Mon, 07 Sep 2026 00:52:25 GMT"
+    },
+    {
+      "title": "한국지능정보사회진흥원 조직개편…AI정부 실행력 높인다",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1KSkV5eTFMQmxXcnRLLXlPMkI5ZzU1aWl3SFNRVzM3X2J1Sm5aalJTUFdRYlozQTYyYUVFSVBsN2Zuc1RRckE3ZF9FUjlnVmZYVkVycUtrRkptczFHX2d3ddIBYEFVX3lxTE1KSkV5eTFMQmxXcnRLLXlPMkI5ZzU1aWl3SFNRVzM3X2J1Sm5aalJTUFdRYlozQTYyYUVFSVBsN2Zuc1RRckE3ZF9FUjlnVmZYVkVycUtrRkptczFHX2d3dQ?oc=5",
+      "source": "연합뉴스",
+      "date": "Mon, 07 Sep 2026 00:44:41 GMT"
+    },
+    {
+      "title": "성남시, '인공지능(AI) 챔피언' 인증자 추가 배출",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYlhCQ3RrMnpBVi1zSHlGemxMYzNjUlVYOXZzdERtM2RYS0dJRjZaUXE0S2xOaHVfZng1S3VkVVFYZ3BoTTM5M0Zvekhlc25EZk5CbXJTaGNuS190S05zeEx0dEw0ZmNDMTFDaDR0bmVfVW1SLTRRY053TWJyRjE1SEN2MkJ6cHZfMVNsTXZDU0tUY0wtQ3NNWkltSEpmZw?oc=5",
+      "source": "snfocus.net",
+      "date": "Sun, 06 Sep 2026 22:31:00 GMT"
+    },
+    {
+      "title": "[교단에서] 인공지능(AI) 시대, 교사가 더 중요해지는 이유",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zcVpLVm1HQjBZNU53NzgxZFN5MlFnS1JZYU9jbnlLZGpoYy1abG1DVjJqSVVNcU1OTW9BX1ktM29iOXgzMEhzaHRQcVpCeEdoU3drZnlfQlI3U0dJTldIQ09sTUtHb2NZT1E?oc=5",
+      "source": "중부매일",
+      "date": "Sun, 06 Sep 2026 07:10:00 GMT"
+    },
+    {
+      "title": "충남도, '인공지능(AI) 모빌리티 종합 실증 콤플렉스 조성' 활로",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9URkppMld5MWdMNzVlNjI3NjF5eVk5R0ptWEg0Q3pKTjNNYmpVRjJXMWNjN1UwMjNzaDd4SFlwdDZ2SjM0amJGZ1RBR2ltUlJpSV9IdA?oc=5",
+      "source": "v.daum.net",
+      "date": "Sun, 06 Sep 2026 06:52:43 GMT"
     },
     {
       "title": "불한시사 합작시 90. 인공지능(AI) 특이점 - koya",
@@ -14,64 +68,10 @@
       "date": "Sun, 06 Sep 2026 02:44:29 GMT"
     },
     {
-      "title": "한성숙 국무총리, BCG코리아 인공지능(AI) 서밋 참석",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE55UnBrdHpwcjFYV1NoMGY3T3VMRUpRN09aX3lBNVltWTZ4TDh5Rnp0bU1xemR0aWZpWGlaaUdnR1kxdlQ2VGUxeVBST3RsWTJjMndVN1NuTWxhelNlTjVqNV9pYmQ3QQ?oc=5",
-      "source": "뉴뉴스",
-      "date": "Sun, 06 Sep 2026 02:33:53 GMT"
-    },
-    {
-      "title": "G마켓, 'ChatGPT' 플러그인 오픈…AI로 맞춤 상품 추천",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8wMUdobjRLTjVYc0V6bkJHMGw5UlZOQndVV09FUTdWeDBjc3dGb1N1R3F6Wmg2YjBMR01KQ1VTbnJKcm92VjVqbm9jZFE5Sm1oYnExYjNnYzdWNTJwcTctM0JmVWJ0SXVoNGtiLTd3?oc=5",
-      "source": "뉴스후플러스",
-      "date": "Sat, 05 Sep 2026 21:00:00 GMT"
-    },
-    {
-      "title": "G마켓, 'ChatGPT 플러그인' 오픈…AI로 초개인화 쇼핑시대 연다",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5BUEFXX2xxMXpZaXZtanhLYmozVl9hRU9OLWNKQU45ZFY0ZGZVWE5ZeVdBd1E4Qkp0SElFS2IwNmN1aEotS3RabkwzRFpqX3hVSnBJYjNMaElDWkJXamktcG9ZNnFmb3ptdmI4?oc=5",
-      "source": "ngetnews.com",
-      "date": "Sat, 05 Sep 2026 21:00:00 GMT"
-    },
-    {
-      "title": "'경북 성장 인공지능(AI) 인재육성 전략 세미나' 개최",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wZGhtQ1pON01nWXFyVGpCWlBGc2RseXlsTkkzV1pMUEgtN0l3ald1NFR5REtZY1dfd3N6U2ptSERfS3I3azdRb2hCM2JiX2xuUy1pQ2Y4dmw1MHozT1k3TkE3dThWZHpOcXc?oc=5",
-      "source": "경북구미신문",
-      "date": "Sat, 05 Sep 2026 08:15:07 GMT"
-    },
-    {
-      "title": "범죄 잡는 인공지능, 생사람은 안 잡을까…AI에 ‘권한 위임’ 적정선 고민해야",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE12TTlHY1Z3eXNYd0Y1dHhqZXZQYWpTbEZTUUQ2WWlDYV9wZWN0eTFGTlJROFk2U1VNUVFuZGwxWHdrcXpxZy12N1ZIaVpvYktTZ3JJSGRYT1gxVTNjRDFmQTRZSGI5UXpNd1pFQTlGU05LZw?oc=5",
-      "source": "hani.co.kr",
-      "date": "Sat, 05 Sep 2026 01:43:00 GMT"
-    },
-    {
-      "title": "美진보대부 샌더스, '초지능 AI 영구 금지' 법안 추진",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBuMGlLVXdPR2tNa08yX24zblhNenhub0JrX3RLNHZEMkl2a01Ic2VQbHUtMlJ1V0lDVWFibllpRUFzMzgydndaMGRwenFDWVYwZWpmOHV4ZVdiejg1cm5FWdIBYEFVX3lxTFBuMGlLVXdPR2tNa08yX24zblhNenhub0JrX3RLNHZEMkl2a01Ic2VQbHUtMlJ1V0lDVWFibllpRUFzMzgydndaMGRwenFDWVYwZWpmOHV4ZVdiejg1cm5FWQ?oc=5",
-      "source": "연합뉴스",
-      "date": "Fri, 04 Sep 2026 11:59:28 GMT"
-    },
-    {
-      "title": "“서울우유, 인공지능(AI)이 꼽은 우유 브랜드 1위”",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBCTzJOYlhGMFRlVFVhWlNINFZjUUtWRnJuMm9VUVFYWWItZ0piU3NyS05hMWw0dk8yeHM5LS1TSjJCUm0xbmt6V3hrNTJHeWFFcTZwb1JhVnJVdw?oc=5",
-      "source": "농민신문",
-      "date": "Fri, 04 Sep 2026 10:41:00 GMT"
-    },
-    {
-      "title": "BCG코리아 인공지능(AI) 서밋",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4UXpUWmlmVGU3RVBEOGFucTl2cWlnT0VZMm1rN0RzWlF1Vm5BLS1tVjNFZGx0VDc0elVmQlRxRkJ0X3I4YU9tdm1MSnlLS1JDNHhaS1BaalluaURPbEw4bVRSOVFmN21yZ3c?oc=5",
-      "source": "대한민국 정책브리핑",
-      "date": "Fri, 04 Sep 2026 06:57:37 GMT"
-    },
-    {
-      "title": "NH농협은행, 5급 신규직원 120여명 채용…인공지능(AI)·전문 분야 역량 강화",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAyVHp2QmtxdFJqb2FwUjNxM19yRHBZcG1YUkd2Q0hGV3d5eEoyTVoyREl1VGJTaUpiaFZpRWRQLVBzZHpWWWlMSWNaaXB2QQ?oc=5",
-      "source": "전자신문",
-      "date": "Fri, 04 Sep 2026 06:32:20 GMT"
-    },
-    {
-      "title": "제주대, 생성AI '분해·재조립' 원천기술 개발… 최대 110억 지원",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5LLVNOT2JaOUMyZ2kxa3J3OFItRjF1emhZVW90OUppSHE1QnhpSUtVRVNTazdOdFljLVBtRmFBVVo1b0dQZmc?oc=5",
-      "source": "v.daum.net",
-      "date": "Fri, 04 Sep 2026 04:58:10 GMT"
+      "title": "G마켓 ‘ChatGPT 플러그인’ 오픈… AI 기반 초개인화 쇼핑 서비스 선보여",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9GMWRHRXM0ekJFU2RUemFzc0Z6cHYyeWxrcWJuakJVV2VVVTllZEk4ZmYyLTdjNXZoY3V1QVFXbXI5MnBtbjFJTkkycjlKQm5NUmljLWQyRVZoMGs0dkx3aEkzdGw4RHdqRThF0gFuQVVfeXFMUGI4MEFNVDZZaEl3ZzBGQm1KM2hId2E1VzZDR2JSLUltSG9BMUlIUkNXRVBwNE9Yblk4dUZvaEc0cElmMU91OXQxdGhuamNGYWJUckJnUl9zUHVTall3WHBMRmpKNF9MZS10Uk9mNVE?oc=5",
+      "source": "파이낸셜투데이",
+      "date": "Sun, 06 Sep 2026 00:07:35 GMT"
     }
   ]
 }
