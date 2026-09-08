@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T07:13:51.956Z",
+  "last_updated": "2026-09-08T07:09:29.870Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -251,19 +251,19 @@
       "top_provider": true
     },
     {
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "name": "DeepSeek: DeepSeek V4 Flash 0731",
+      "price_1m_input": 0.07,
+      "price_1m_output": 0.18,
+      "context_length": 1310720,
+      "top_provider": true
+    },
+    {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "price_1m_input": 0.09,
       "price_1m_output": 0.18,
       "context_length": 1048576,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-v4-flash-0731",
-      "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "price_1m_input": 0.14,
-      "price_1m_output": 0.28,
-      "context_length": 1310720,
       "top_provider": true
     },
     {
@@ -275,10 +275,10 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-chat-v3-0324",
-      "name": "DeepSeek: DeepSeek V3 0324",
+      "id": "deepseek/deepseek-chat-v3.1",
+      "name": "DeepSeek: DeepSeek V3.1",
       "price_1m_input": 0.25,
-      "price_1m_output": 1,
+      "price_1m_output": 0.95,
       "context_length": 163840,
       "top_provider": true
     },
@@ -307,6 +307,14 @@
       "top_provider": true
     },
     {
+      "id": "deepseek/deepseek-chat-v3-0324",
+      "name": "DeepSeek: DeepSeek V3 0324",
+      "price_1m_input": 0.29,
+      "price_1m_output": 1.14,
+      "context_length": 163840,
+      "top_provider": true
+    },
+    {
       "id": "deepseek/deepseek-chat",
       "name": "DeepSeek: DeepSeek V3",
       "price_1m_input": 0.32,
@@ -331,14 +339,6 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-chat-v3.1",
-      "name": "DeepSeek: DeepSeek V3.1",
-      "price_1m_input": 0.55,
-      "price_1m_output": 1.65,
-      "context_length": 163840,
-      "top_provider": true
-    },
-    {
       "id": "deepseek/deepseek-r1",
       "name": "DeepSeek: R1",
       "price_1m_input": 0.7,
@@ -357,16 +357,16 @@
     {
       "id": "deepseek/deepseek-v4-pro",
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "price_1m_input": 1.04,
-      "price_1m_output": 2.08,
+      "price_1m_input": 0.96,
+      "price_1m_output": 1.91,
       "context_length": 1048576,
       "top_provider": true
     },
     {
       "id": "deepseek/deepseek-v4-pro-0813",
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "price_1m_input": 1.12,
-      "price_1m_output": 3.35,
+      "price_1m_input": 1.05,
+      "price_1m_output": 3.15,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -895,7 +895,7 @@
       "name": "Mistral: Mistral Medium 3.5 (batch)",
       "price_1m_input": 0.75,
       "price_1m_output": 3.75,
-      "context_length": 32768,
+      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1795,14 +1795,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3-14b",
-      "name": "Qwen: Qwen3 14B",
-      "price_1m_input": 0.12,
-      "price_1m_output": 0.24,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3.8-flash",
       "name": "Qwen: Qwen3.8 Flash",
       "price_1m_input": 0.15,
@@ -1895,6 +1887,14 @@
       "name": "Qwen: Qwen3 235B A22B Thinking 2507",
       "price_1m_input": 0.23,
       "price_1m_output": 2.3,
+      "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3-14b",
+      "name": "Qwen: Qwen3 14B",
+      "price_1m_input": 0.23,
+      "price_1m_output": 0.91,
       "context_length": 131072,
       "top_provider": true
     },
