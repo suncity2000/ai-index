@@ -1,11 +1,65 @@
 {
-  "last_updated": "2026-09-08T13:18:41.130Z",
+  "last_updated": "2026-09-09T13:22:50.196Z",
   "news": [
+    {
+      "title": "인공지능: 오픈AI, ‘90년간 수학 난제, 88시간 만에 풀어’",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBIcllwdExWOFpMQnRSblRRYjFKQWRuMmxCTURka1JiWXlKQnFyOG5ORkRCMkF1elpwcmF1aHc3dDZTMXFuZjFJRTA0Y3EwQ2d6N0dNUWRrVk1VcGhG0gFiQVVfeXFMTlFOaElEcHU3UzVGZzhtUG9scVp5NmpxR1U2LW4wczhvdXBQSU84S01MZmhqek5mcWN3YTVWc2FSV3ZOaGQ0UDlqaXVLWUIyaEJEdVozQ19xN2FGUmpXNzh1Mmc?oc=5",
+      "source": "bbc.com",
+      "date": "Wed, 09 Sep 2026 12:45:00 GMT"
+    },
+    {
+      "title": "청소년의 가능성과 AI가 만났을 때! '청소년 인공지능 페스티벌' 현장",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE85UTlGNmc1ZG9odDRwaXR3LUQydkFQelhDd3hZX1dwQVQzdkZhMEYxbTdlS2JEQVF3WVI0Y3NQUFFxOXFwekRnVnNRRUJfRDdWVkV1TVloVDU?oc=5",
+      "source": "서울시청",
+      "date": "Wed, 09 Sep 2026 04:00:00 GMT"
+    },
+    {
+      "title": "지방정부도 AI에 '푹'…재난대응 소요시간 10분→10초 단축",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fUGFOSXlJTzVraC1adTBqTGtjV3JFX2k3QjZkRGxuaVdnczR3ZjRJVGdTS0N1TXN1RnA1UzgyaVZoQmZVVXNYTGtaajhFd2RLZlNScVF4WFZkbUJsRmVzVNIBYEFVX3lxTE5fUGFOSXlJTzVraC1adTBqTGtjV3JFX2k3QjZkRGxuaVdnczR3ZjRJVGdTS0N1TXN1RnA1UzgyaVZoQmZVVXNYTGtaajhFd2RLZlNScVF4WFZkbUJsRmVzVA?oc=5",
+      "source": "연합뉴스",
+      "date": "Wed, 09 Sep 2026 03:00:06 GMT"
+    },
+    {
+      "title": "“AI가 뭘 배웠는지 공개하라”... 日, 생성형 AI에 ‘학습데이터·IP 보호’ 투명성 원칙 꺼냈다",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ONDFfZ2hkTWtSZXdlTzBGTVFXUnBLUi05NXRSSVlEa2hhM1VsNG85VDVHdGdmR0kyWm1EYm9odUg4c3poVnh1Vg?oc=5",
+      "source": "특허뉴스",
+      "date": "Wed, 09 Sep 2026 02:41:00 GMT"
+    },
+    {
+      "title": "[AI프리즘] 오픈AI코리아 1년…챗GPT 기업 이용 28배 급증",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XRC1KelMtMjB4YUxWTnNuRHJUNlFHMnhHdUp4V3pfTlloVkRRVzU1UEFZWG1EX0t1b0lqbDNBdDJWZTRJV2taMDdTLUpfMlB1NnFYSFhxZHBwNEHSAWBBVV95cUxNLTIwY3JUMG9UM2tSS3dwakZmVmIwS0l6bS1DSEc5SF9URW93ZFhFRW9sRVNLQkpBRmRlOEpmYXI5UjRTek4xMEt0dVJ2cmRqRWlNQlN1a2dKakJyTUFXOTg?oc=5",
+      "source": "연합뉴스",
+      "date": "Wed, 09 Sep 2026 02:20:03 GMT"
+    },
+    {
+      "title": "캠코, JDC와 감사 역량 강화 협약…인공지능(AI) 감사기법 교류",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBydEVmZXZyOEc3bDJXRWZPRmN0NzFqU2tCV2FJZjB2ZXBxM25ickxxWGpwaGswVFYyZTJ3TFktb2ZfWmdkRWx5MDhkOUZFZw?oc=5",
+      "source": "전자신문",
+      "date": "Wed, 09 Sep 2026 01:44:56 GMT"
+    },
+    {
+      "title": "퀄컴·코닝 대형 계약 발표, 美 AI 인프라주 일제히 급등",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQd2NVT3duSDh6MlNUV3hiUWJPVi1qRFlVMGVOcTNDOUlGakNVdDZhVXB4UzVfX2FEd1Y5b0tScklCaFRxdWNzZERmdTdUNnR4bDIzMDBSOWFUdUhnMlJfZTgxT1RUdVJrUTRFb2JFMGlNbkEzTDA2aDFxZUQxQWtacA?oc=5",
+      "source": "조선일보",
+      "date": "Wed, 09 Sep 2026 00:25:24 GMT"
+    },
+    {
+      "title": "AI 시대, 역사상 처음으로 인간 지능 퇴보할 위기",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tOFFXZEU4ZUhyeEhWTV9CaHMxZ0lETzB2NWVHUnM0YlBCc1hfNVh3elF2ektLa0pjU3hnbHk4d3BQU01TQl83ckptZ2NqeVRGVWFBNHc2RmNYc1JveGMyYjI3MnBMSFMwblE?oc=5",
+      "source": "시사IN",
+      "date": "Tue, 08 Sep 2026 11:30:34 GMT"
+    },
     {
       "title": "국가AI전략위 출범 1년…\"대체불가 인공지능 공급망 국가로 도약\"",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE43X1F1N3J3QjJEb2NXamlUUW5peDRCOGxQbWdHR2M0RERLT3dOVWI2ellubnN4T3p3MFlTNDJlbndYYXNGazltekhoYktnd3NfbXMwSFhGMWFoWnprMUJZckJqQWFnd2c?oc=5",
       "source": "연합뉴스TV",
       "date": "Tue, 08 Sep 2026 08:23:00 GMT"
+    },
+    {
+      "title": "제주 '인공지능 대전환' 비전 선포…산업·행정에 AI 접목",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tZ0dXdF90SXJWMnFhNGF5dTVfNW4zUVdfMkt3eFhvYVc1MnZBQWRqRy1rODdGTGh0S0dTeGVPVUdZalZ5bWJBLVlMZHJMYVE?oc=5",
+      "source": "v.daum.net",
+      "date": "Tue, 08 Sep 2026 05:00:41 GMT"
     },
     {
       "title": "\"범용인공지능 도래\"…반도체는 웃었는데, 소프트웨어는 '덜덜' |",
@@ -18,60 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QWk9RZkVfV29ycElTbXl1T0dwWVBHNTJjN3BxUjdXaXRjVkpnRkY0a3F4eG1iVk9pWUVjSnhDMGo4MXJ3enZTNWptVjhQNjg3eHRhSlAyWDZiQWtYei02VXhsYU8ySDlpM1lYWWNwcV8xajlMWFE?oc=5",
       "source": "Snowflake",
       "date": "Mon, 07 Sep 2026 12:25:19 GMT"
-    },
-    {
-      "title": "성남시 공무원들, 인공지능(AI) 챔피언 인증 획득",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnT1I3SHd1SnhLSFBoUE8zTWdhTlhwbVZmZzdJcnNpN1U1M2NqT3ktd2w4Tm5RRjZrR01yVmdWSDdnTWl3M2c2YTJGMkIwWTMxeWFNTmY1YU4xYkk?oc=5",
-      "source": "경기일보",
-      "date": "Mon, 07 Sep 2026 06:10:44 GMT"
-    },
-    {
-      "title": "성남시 ‘인공지능(AI) 챔피언’ 인증 공무원 2명 추가 배출",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1XM2gyaGNZcFFxQUpNbmltOTJkRDhUN0p6eXQyVGk4ZlBRQjhsb1lqMWdzMWlxZm5YakV6alNaemwzbDFYZ0dNbkh3ZTM5MG9MZUM0M2RwamRTQkxhUlRfTFZubDF6VzdBUlRheEFTQXBLQlJwX0R4TWlBYkhXMVHSAX9BVV95cUxNVzNoMmhjWXBRcUFKTW5pbTkyZEQ4VDdKenl0MlRpOGZQUUI4bG9ZajFnczFpcWZuWGpFempTWnpsM2wxWGdHTW5Id2UzOTBvTGVDNDNkcGpkU0JMYVJUX0xWbmwxelc3QVJUYXhBU0FwS0JScF9EeE1pQWJIVzFR?oc=5",
-      "source": "뉴데일리 경기",
-      "date": "Mon, 07 Sep 2026 04:52:08 GMT"
-    },
-    {
-      "title": "수원시, 인공지능(AI) 전환 창업기업 성장전략 모색",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SNlluNDRvZXc5ODBZbGpUdVN2UENOd2c1VW9sLVlnUUk4UDZhRHdhOVVwY01MSWFxbEt3Y1l3VHJGSjdHS2xRVUFGenRuY0RoZ0VyT3ZuSHFXeUZUS1BycXNVTVFqdDM1?oc=5",
-      "source": "환경일보",
-      "date": "Mon, 07 Sep 2026 03:26:43 GMT"
-    },
-    {
-      "title": "[알림] 2026 대한민국 인공지능대상 주인공을 찾습니다",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBiR1llX1pUVVVJXzJLVVdiZDR1aUxYOTN2RDZoaC1Ja19GU0o5NDZRVEt4N0xyUzF6ekthSklDRGpFeEFMVTBxNHN3d1FPeXZrQllwV2I0ZlVvTlNzYWdHMW9xVFNEbE5xZGRaeEJkSEJfaTc30gF0QVVfeXFMUGJHWWVfWlRVVUlfMktVV2JkNHVpTFg5M3ZENmhoLUlrX0ZTSjk0NlFUS3g3THJTMXp6S2FKSUNEakV4QUxVMHE0c3d3UU95dmtCWXBXYjRmVW9OU3NhZ0cxb3FUU0RsTnFkZFp4QmRIQl9pNzc?oc=5",
-      "source": "IT조선",
-      "date": "Mon, 07 Sep 2026 02:23:12 GMT"
-    },
-    {
-      "title": "'생성형 AI·자동심사' 통했다…DB손해보험, 품질혁신 금상 2관왕",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8xTHVUOXZFLUlJNzktTWFzcTQ4RXBhaU9sc0JEbTd2elFTNm5PeV9pN3l6RUdhUzBITno2alpvdU9rLWRHZktncmdUVGR3SlFKZ1pQa3huWVMtNnI5eURadEhSTGxiYmUwdkJhUlhiVQ?oc=5",
-      "source": "조세일보",
-      "date": "Mon, 07 Sep 2026 01:30:00 GMT"
-    },
-    {
-      "title": "한국지능정보사회진흥원 조직개편…AI정부 실행력 높인다",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1KSkV5eTFMQmxXcnRLLXlPMkI5ZzU1aWl3SFNRVzM3X2J1Sm5aalJTUFdRYlozQTYyYUVFSVBsN2Zuc1RRckE3ZF9FUjlnVmZYVkVycUtrRkptczFHX2d3ddIBYEFVX3lxTE1KSkV5eTFMQmxXcnRLLXlPMkI5ZzU1aWl3SFNRVzM3X2J1Sm5aalJTUFdRYlozQTYyYUVFSVBsN2Zuc1RRckE3ZF9FUjlnVmZYVkVycUtrRkptczFHX2d3dQ?oc=5",
-      "source": "연합뉴스",
-      "date": "Mon, 07 Sep 2026 00:44:41 GMT"
-    },
-    {
-      "title": "성남시, '인공지능(AI) 챔피언' 인증자 추가 배출",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYlhCQ3RrMnpBVi1zSHlGemxMYzNjUlVYOXZzdERtM2RYS0dJRjZaUXE0S2xOaHVfZng1S3VkVVFYZ3BoTTM5M0Zvekhlc25EZk5CbXJTaGNuS190S05zeEx0dEw0ZmNDMTFDaDR0bmVfVW1SLTRRY053TWJyRjE1SEN2MkJ6cHZfMVNsTXZDU0tUY0wtQ3NNWkltSEpmZw?oc=5",
-      "source": "성남포커스",
-      "date": "Sun, 06 Sep 2026 22:31:00 GMT"
-    },
-    {
-      "title": "충남도, '인공지능(AI) 모빌리티 종합 실증 콤플렉스 조성' 활로",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9URkppMld5MWdMNzVlNjI3NjF5eVk5R0ptWEg0Q3pKTjNNYmpVRjJXMWNjN1UwMjNzaDd4SFlwdDZ2SjM0amJGZ1RBR2ltUlJpSV9IdA?oc=5",
-      "source": "v.daum.net",
-      "date": "Sun, 06 Sep 2026 06:52:43 GMT"
-    },
-    {
-      "title": "G마켓 ‘ChatGPT 플러그인’ 오픈… AI 기반 초개인화 쇼핑 서비스 선보여",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9GMWRHRXM0ekJFU2RUemFzc0Z6cHYyeWxrcWJuakJVV2VVVTllZEk4ZmYyLTdjNXZoY3V1QVFXbXI5MnBtbjFJTkkycjlKQm5NUmljLWQyRVZoMGs0dkx3aEkzdGw4RHdqRThF0gFuQVVfeXFMUGI4MEFNVDZZaEl3ZzBGQm1KM2hId2E1VzZDR2JSLUltSG9BMUlIUkNXRVBwNE9Yblk4dUZvaEc0cElmMU91OXQxdGhuamNGYWJUckJnUl9zUHVTall3WHBMRmpKNF9MZS10Uk9mNVE?oc=5",
-      "source": "파이낸셜투데이",
-      "date": "Sun, 06 Sep 2026 00:07:35 GMT"
     }
   ]
 }
