@@ -1,34 +1,52 @@
 {
-  "last_updated": "2026-09-11T13:13:12.834Z",
+  "last_updated": "2026-09-12T12:37:04.496Z",
   "news": [
     {
       "title": "GPT-6 Astra: 새로운 세대의 지능",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DdWlyc0FQSDFUeE8tblc2YzdaNHNXX29uNkxXbFFlbVF3MXZYU3JSd2NDOFVyUHNXdVowekdEU2NYY1daZlhuLXBzMUxkdmZnU2lfdXhB?oc=5",
       "source": "OpenAI",
-      "date": "Fri, 11 Sep 2026 12:17:57 GMT"
+      "date": "Sat, 12 Sep 2026 12:25:22 GMT"
     },
     {
-      "title": "“AI가 인류 전멸, 그래도 멈출 수 없어” 연구원들의 고백 [팩플]",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Ha3RRcURQRWlOOGVVdFl0UmdnWUdydlZpR1BqVEVGMk9HckNTVGZyNzY4OG5KRUxJNGJDcm1wdnR1ckVVUWFVU1E4VXdoTTU0d2tvRlBn?oc=5",
-      "source": "중앙일보",
-      "date": "Fri, 11 Sep 2026 09:00:40 GMT"
-    },
-    {
-      "title": "경남교육청, 인공지능(AI)·디지털 기반 독서인문교육 포럼",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1NUUw2THYwWWRWSWlwZnVRbEcySW42Ylh3bjRZUEhtOHlkZnRTdDlEZ0lBQjFIYUpWTGZ2NUhaWmFFSGRqQkdhWlRFZzczcEJRVHlmMW5SM1kteDJCaTNFVUNiOWZZU0k1ZHc?oc=5",
-      "source": "idomin.com",
-      "date": "Fri, 11 Sep 2026 05:16:48 GMT"
+      "title": "\"출근해서 뭐 하지?\"…사람보다 3배 더 일하는 AI에 '초긴장'",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1LOGVRZDR2LTBvbmlKSmI2VDViZzBoMHJWVHgwZ3QyNlZBUGppbHlJOUtjQXFiVTROVTdlM3VfaEZaYWRrTDFOTF9HWGU2SWpMbjI2NDBaOC1sdw?oc=5",
+      "source": "한국경제",
+      "date": "Fri, 11 Sep 2026 09:02:33 GMT"
     },
     {
       "title": "교원 전문성 기반 인공지능(AI) 평가 지원체계 구축",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9iTmFaUXU2T3JsUGVHWlZYNkNWYnBfcG5oaWNzbzB0aFVmNWpHVWRtM0ZKa3dmU0w0NnNuQ1N6aUFtV1RSRzM5cDhUT0g4aHliVXBpSUJDTmQwRFI2UUVUNlotRW51QQ?oc=5",
-      "source": "dailydgnews.com",
+      "source": "데일리대구경북뉴스",
       "date": "Thu, 10 Sep 2026 23:58:17 GMT"
+    },
+    {
+      "title": "아스트라 수요 폭주에…오픈AI, 월200달러 요금제 신규가입 중단",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SaDBuQTZBUHNOSk4wVl9SeUl0dDhUSk9pRm1mSWRUV19IajBYOWU3dllic19jb09Lc2dUbXQwR1U4dWJmLWJwT29sUTBQdlFNZ2VLQUpUVDFrd2vSAWBBVV95cUxPZWVJYnpKM3lWd1lGQllwd1Q0UzFPb0FKZE83QWpVczdManpYNXNqc0dQVkFpR3lwQVRQaTB2Z00wWG85cG4yS1FUWkZBWmVkVGUyQUlRLWRMc3ZVYkR4WE8?oc=5",
+      "source": "연합뉴스",
+      "date": "Thu, 10 Sep 2026 23:39:28 GMT"
+    },
+    {
+      "title": "\"사용자 밀접 정보만 저장해 맞춤형 답변하는 AI 기술 개발\"",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQXljZFpHcnFwTVlKWmJpTFZsektFR2RQbWNJMVZmOEZBZzF4dncyZ2xiOWw0NDBFQTZHUVlVRERqN1lIWk9mZDh5Q1FqUGdLRXlsdjFZMzZOQmV0b2FndjhHQURZN19rcmxzVFM2MGFIa1JyTjJPV3ZXS3hMaUNUcUdIUWRvWDVaZlhEdlk2Yw?oc=5",
+      "source": "사이언스타임즈",
+      "date": "Thu, 10 Sep 2026 22:03:08 GMT"
+    },
+    {
+      "title": "OpenAI, GPT-6 Astra 탑재 금융 서비스용 ChatGPT 출시",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1HNm1tTTg3R1JGazBDbTBfU3VwNmJ0dWxySF8wYXNtNElqdk1LN1kwc29hNi1NRlFJSWczSDlybjRRb3lzWTBUS05YSUhvTktOODd6bDBvOUhkQXlvc01YM1gxcGJfcTktTGRPenMwRDYtNHB5N0dv?oc=5",
+      "source": "Investing.com 한국어",
+      "date": "Thu, 10 Sep 2026 17:31:00 GMT"
+    },
+    {
+      "title": "\"AI, 10년 안에 인류 파멸할 수도\"…업계 안팎서 우려",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5kVm4xUUF6Vjl1SFp2Q0JVckdibURkTkUzRDRuelpDUUFjYjBRZndQczNUV3dJZGRHdzlVZ0h5SVdfQV9tVDFTaVpRZjN0SDd2cElaNF9NaVhaMG9UbDBBTF81T253YTA?oc=5",
+      "source": "연합뉴스TV",
+      "date": "Thu, 10 Sep 2026 10:59:00 GMT"
     },
     {
       "title": "[TN 현장] “청소년 일상 파고든 생성형 AI, 과의존 막을 안전장치 필요”",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1nbEh3eHlEZHFRQjJaNVFNZ3JVZlVDR2RlT01DN0s0aVlQcG40S3UxUW1xX3JHSTJLdmZVYWFBUWRUdVJMY3ZiS2ZFV1JGRVg0aG0yY3hqYnhVTngwZVpyeC12ZjROVmFYanh30gFvQVVfeXFMUF8tNGQzaEdfZThMb1puUnl2V1B1OGItcVdFcF9XS092V1VabUkza3NxQ0hEVXZIRVRRSlpqUm9naENrbUZ6WWhaSWVnR0l1NlE1OFYyRTVWLUZmZUxiZE9Cc3AxR3NJVXg1TW5XNU9R?oc=5",
-      "source": "ntoday.co.kr",
+      "source": "투데이신문",
       "date": "Thu, 10 Sep 2026 10:57:08 GMT"
     },
     {
@@ -38,40 +56,22 @@
       "date": "Thu, 10 Sep 2026 10:06:07 GMT"
     },
     {
-      "title": "농업 특화 인공지능 서비스 ‘AI 이삭이’ 품질보증단 신설·운영…답변 신뢰도 높여",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EQmFlOWhuUDJWclgwdE1HbzR5bUZ2TTZXWGQyZDVMZF9Bb0dCRnBlWWUzMVJTdnlZOVFJaXd0aW5qNl9KbHhfRDR5MlpNOTZIUDQ1RGY1SVV3eHBCdFljbEhabWkzaDg?oc=5",
-      "source": "인공지능신문",
-      "date": "Thu, 10 Sep 2026 08:28:11 GMT"
-    },
-    {
-      "title": "AI 대전환 시대, 공법학이 제시하는 규범적 이정표… 행정법이론실무학회 《행정법연구총서》 제1·2권 동시 출간",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE80cUszWjRnT3Jib3lrMUNId2ZXb0tjdGpEVWRlMy1iYmhMb3lIS3dwcHpzRFF5VWZKM3Mtb1FFQXBqRy1ETl9iRUQzWmJ0SUxDRFpoNkNPZExCRFNBWkI3eC1VYXh3LUoyOTJha0llY2tFUdIBckFVX3lxTE80cUszWjRnT3Jib3lrMUNId2ZXb0tjdGpEVWRlMy1iYmhMb3lIS3dwcHpzRFF5VWZKM3Mtb1FFQXBqRy1ETl9iRUQzWmJ0SUxDRFpoNkNPZExCRFNBWkI3eC1VYXh3LUoyOTJha0llY2tFUQ?oc=5",
-      "source": "법률신문",
-      "date": "Thu, 10 Sep 2026 05:46:20 GMT"
-    },
-    {
       "title": "‘이게 아닌데’ 말·몸짓 안해도 눈치 채는 AI···사람 뇌파 읽는 인공지능 기술 개발",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jc19sT2hLZTVvQkxiOWJoUHZJSXpmOS0taGYzMGtLSWNtdWdfOF8tMXhCdnNiRm5tLXpjRUJ1UV9PU0kyRVNidXNzWVdBaDQyX2UwQklEZU5RUdIBX0FVX3lxTE9BcWVDNm9DcWpmaDZKWDg1cmRYSmJoZDMzdGN4LWNqeUZ0MU9fR1VZMWpSZnF2NF9zRnowX1dqMnVCcHZsU1FnTWNJcHdadUN0QlN2WlNNNi1DblF3ZlBN?oc=5",
       "source": "경향신문",
       "date": "Thu, 10 Sep 2026 05:01:00 GMT"
     },
     {
-      "title": "한국보건산업진흥원, ‘인공지능(AI) 기본의료, 지역에서 어떻게 작동시킬 것인가’ 공동 포럼 개최",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9QMDBDVXJPaVVXVzBuazI4dlpiQlo3VUJ3ajdTVDZmdk45SVFyVy1rYlNORldtRWh6cXZXVlVReF9Pd3RrQTl0Q29rMlBtUTMwT1hYUHI2VWNXWlk0M0dHWnIyZG80aG5xMTE4?oc=5",
-      "source": "헬스경향",
-      "date": "Thu, 10 Sep 2026 01:48:06 GMT"
+      "title": "농부의 하늘을 살피는 AI…'격차 없는' 인공지능 시대 연다",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5rRU0wdkUwRzl4UHgxcE5RcHpndHQ5WkVuclJjMmZKRng3RUpPRjd5WFNLVWxGWVI3WmQ4RHhEOFhPTnlfdklHUGtPYw?oc=5",
+      "source": "v.daum.net",
+      "date": "Wed, 09 Sep 2026 20:09:00 GMT"
     },
     {
-      "title": "성평등가족부는 인공지능(AI)의 성평등 제고와 포용적 정책 기반 마련을 위해 소관업무를 차질없이 추진 중입니다",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbW1OVXZMZ2VtbVFVU2dIVUEyUjdkaWhnMDF2cGdlVklxZjdTcE55b3g5b1BEWXEzTWJFeTEzZnppY1psZGhWcTRwR3NxSnA5cWpzdXVsdEdHQWdKUlJLb2R2QkoyV21vcWd1d2R6bHdKU1pXbkZITDJtYy1mMHROM0plUWtmUzRtRHI3d1pjYw?oc=5",
-      "source": "대한민국 정책브리핑",
-      "date": "Thu, 10 Sep 2026 01:29:21 GMT"
-    },
-    {
-      "title": "경쟁 심화 속 OpenAI, ChatGPT 내 경쟁사 AI 광고 제한",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1uR1ZCVlRxZ25XaGpIYmFSbWJtbzhrYlNydzJKVEU2VVV3SV9XOXhHZElPT1dNZkREa2lWVE9XQ0RTWU9rVXk0dXE4ZE9IWUx5RXRJV1J3QzBxWG9RcEFud0FLUGhBZkJrT2F4R1MyU3A?oc=5",
-      "source": "Investing.com 한국어",
-      "date": "Wed, 09 Sep 2026 21:11:00 GMT"
+      "title": "오픈AI, ‘챗GPT 이미지 2.5’ 공개…이미지 생성 속도 최대 50% 빨라졌다",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUam40QXpXMjdVbWxPT2pwckxIZ2trdmxra2JOazQ0VmJOUlEtX2p3MlVXck1Ca2ctOGRuV1JVclYwMlJya1did2dpX1BIanZLY05uRURzSXkwazZmS0REUXd4MHVLVVk?oc=5",
+      "source": "인공지능신문",
+      "date": "Wed, 09 Sep 2026 14:02:35 GMT"
     }
   ]
 }
