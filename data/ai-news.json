@@ -1,11 +1,17 @@
 {
-  "last_updated": "2026-09-12T12:37:04.496Z",
+  "last_updated": "2026-09-13T13:39:00.488Z",
   "news": [
     {
       "title": "GPT-6 Astra: 새로운 세대의 지능",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DdWlyc0FQSDFUeE8tblc2YzdaNHNXX29uNkxXbFFlbVF3MXZYU3JSd2NDOFVyUHNXdVowekdEU2NYY1daZlhuLXBzMUxkdmZnU2lfdXhB?oc=5",
       "source": "OpenAI",
-      "date": "Sat, 12 Sep 2026 12:25:22 GMT"
+      "date": "Sun, 13 Sep 2026 12:34:48 GMT"
+    },
+    {
+      "title": "집안으로 들어온 인공지능…삼성전자, AI가전으로 중남미 공략",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5oMXFtWDNOd1JBWDh6a3Rad1FMbDcwQmljNk5oNEMyd2l4cnU2b2xGbEZFdGwxbnk5OXFBMkxhVnhtMmlWZDNWZHRZb2NyN1E?oc=5",
+      "source": "v.daum.net",
+      "date": "Sun, 13 Sep 2026 02:21:00 GMT"
     },
     {
       "title": "\"출근해서 뭐 하지?\"…사람보다 3배 더 일하는 AI에 '초긴장'",
@@ -14,22 +20,16 @@
       "date": "Fri, 11 Sep 2026 09:02:33 GMT"
     },
     {
-      "title": "교원 전문성 기반 인공지능(AI) 평가 지원체계 구축",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9iTmFaUXU2T3JsUGVHWlZYNkNWYnBfcG5oaWNzbzB0aFVmNWpHVWRtM0ZKa3dmU0w0NnNuQ1N6aUFtV1RSRzM5cDhUT0g4aHliVXBpSUJDTmQwRFI2UUVUNlotRW51QQ?oc=5",
-      "source": "데일리대구경북뉴스",
-      "date": "Thu, 10 Sep 2026 23:58:17 GMT"
+      "title": "안양시, 서울 금천구에 인공지능(AI) 행정 및 조직문화 혁신 우수사례 공유",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBRWjVfOHdBekVPSnRqcUNBckRvUlp4cmJwd2JoRWtodmU3Vkp1cXNPUU5SdC1JSzVvM1pjb2hHdnZzemhwdWpmdmY5U1dtZjJmdWJGSWMwUFc5YlR2RlBmSm1FcnF6SkpaRDllRWdPWTcwbG93TWg1VVM0eE0?oc=5",
+      "source": "ggherald.com",
+      "date": "Fri, 11 Sep 2026 06:36:12 GMT"
     },
     {
       "title": "아스트라 수요 폭주에…오픈AI, 월200달러 요금제 신규가입 중단",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SaDBuQTZBUHNOSk4wVl9SeUl0dDhUSk9pRm1mSWRUV19IajBYOWU3dllic19jb09Lc2dUbXQwR1U4dWJmLWJwT29sUTBQdlFNZ2VLQUpUVDFrd2vSAWBBVV95cUxPZWVJYnpKM3lWd1lGQllwd1Q0UzFPb0FKZE83QWpVczdManpYNXNqc0dQVkFpR3lwQVRQaTB2Z00wWG85cG4yS1FUWkZBWmVkVGUyQUlRLWRMc3ZVYkR4WE8?oc=5",
-      "source": "연합뉴스",
+      "source": "yna.co.kr",
       "date": "Thu, 10 Sep 2026 23:39:28 GMT"
-    },
-    {
-      "title": "\"사용자 밀접 정보만 저장해 맞춤형 답변하는 AI 기술 개발\"",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQXljZFpHcnFwTVlKWmJpTFZsektFR2RQbWNJMVZmOEZBZzF4dncyZ2xiOWw0NDBFQTZHUVlVRERqN1lIWk9mZDh5Q1FqUGdLRXlsdjFZMzZOQmV0b2FndjhHQURZN19rcmxzVFM2MGFIa1JyTjJPV3ZXS3hMaUNUcUdIUWRvWDVaZlhEdlk2Yw?oc=5",
-      "source": "사이언스타임즈",
-      "date": "Thu, 10 Sep 2026 22:03:08 GMT"
     },
     {
       "title": "OpenAI, GPT-6 Astra 탑재 금융 서비스용 ChatGPT 출시",
@@ -38,9 +38,15 @@
       "date": "Thu, 10 Sep 2026 17:31:00 GMT"
     },
     {
+      "title": "차세대 모델 GPT-5.6 Sol 미리 살펴보기",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1JY2x2cXlzYVI5aEZQZDEyeVIyUVJ1c002c0IzdWxVeGxnM2FkNmhtNnFPb2F5ZUNGQ2lPRnlWN1drSmhaUWFPM1ZVQUk4WmFpUDdTeWdBaXdla2V2SXNqR0hCc0Q?oc=5",
+      "source": "OpenAI",
+      "date": "Thu, 10 Sep 2026 15:00:00 GMT"
+    },
+    {
       "title": "\"AI, 10년 안에 인류 파멸할 수도\"…업계 안팎서 우려",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5kVm4xUUF6Vjl1SFp2Q0JVckdibURkTkUzRDRuelpDUUFjYjBRZndQczNUV3dJZGRHdzlVZ0h5SVdfQV9tVDFTaVpRZjN0SDd2cElaNF9NaVhaMG9UbDBBTF81T253YTA?oc=5",
-      "source": "연합뉴스TV",
+      "source": "yonhapnewstv.co.kr",
       "date": "Thu, 10 Sep 2026 10:59:00 GMT"
     },
     {
@@ -50,28 +56,22 @@
       "date": "Thu, 10 Sep 2026 10:57:08 GMT"
     },
     {
-      "title": "생성형 AI 이용자 10명 중 8명 \"개인정보 입력해봤다\"",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1XUW1nZ3FDZVcxNVhlSUJ5TmR2RDdKU2pWVENwTGF1OUlOQ2lJZjk4OXBRVjN4ck5UMnZVUjJjTDNPODIyd0pGMkdCTF80dkJVZ1lLTVhKZVhVd0tBQlRFQ3JR?oc=5",
-      "source": "한국기자협회",
-      "date": "Thu, 10 Sep 2026 10:06:07 GMT"
-    },
-    {
       "title": "‘이게 아닌데’ 말·몸짓 안해도 눈치 채는 AI···사람 뇌파 읽는 인공지능 기술 개발",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jc19sT2hLZTVvQkxiOWJoUHZJSXpmOS0taGYzMGtLSWNtdWdfOF8tMXhCdnNiRm5tLXpjRUJ1UV9PU0kyRVNidXNzWVdBaDQyX2UwQklEZU5RUdIBX0FVX3lxTE9BcWVDNm9DcWpmaDZKWDg1cmRYSmJoZDMzdGN4LWNqeUZ0MU9fR1VZMWpSZnF2NF9zRnowX1dqMnVCcHZsU1FnTWNJcHdadUN0QlN2WlNNNi1DblF3ZlBN?oc=5",
       "source": "경향신문",
       "date": "Thu, 10 Sep 2026 05:01:00 GMT"
     },
     {
-      "title": "농부의 하늘을 살피는 AI…'격차 없는' 인공지능 시대 연다",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5rRU0wdkUwRzl4UHgxcE5RcHpndHQ5WkVuclJjMmZKRng3RUpPRjd5WFNLVWxGWVI3WmQ4RHhEOFhPTnlfdklHUGtPYw?oc=5",
-      "source": "v.daum.net",
-      "date": "Wed, 09 Sep 2026 20:09:00 GMT"
-    },
-    {
       "title": "오픈AI, ‘챗GPT 이미지 2.5’ 공개…이미지 생성 속도 최대 50% 빨라졌다",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUam40QXpXMjdVbWxPT2pwckxIZ2trdmxra2JOazQ0VmJOUlEtX2p3MlVXck1Ca2ctOGRuV1JVclYwMlJya1did2dpX1BIanZLY05uRURzSXkwazZmS0REUXd4MHVLVVk?oc=5",
-      "source": "인공지능신문",
+      "source": "aitimes.kr",
       "date": "Wed, 09 Sep 2026 14:02:35 GMT"
+    },
+    {
+      "title": "“AI가 10년 내 모두 죽일 수도” 앤트로픽 연구원 퇴사하며 경고",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQajBRRWx3S0JmQUtjblVLamxXRUo3cm5NaVo0VERMUENad19xT3ZkT0MwQTB2MEVHMWxwd0xONm53ZVhlSHdjWWlWOHdzR2hPR2VOSzQ1N2hqV3JQRmRBemF0bmNPUXhodmJEZXBzeUFEWERYVy1xU2xYTEU5SXZQYU53?oc=5",
+      "source": "한겨레",
+      "date": "Wed, 09 Sep 2026 12:12:00 GMT"
     }
   ]
 }
