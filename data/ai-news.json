@@ -1,17 +1,29 @@
 {
-  "last_updated": "2026-09-14T15:38:34.001Z",
+  "last_updated": "2026-09-15T14:09:06.824Z",
   "news": [
     {
       "title": "GPT-6 Astra: 새로운 세대의 지능",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DdWlyc0FQSDFUeE8tblc2YzdaNHNXX29uNkxXbFFlbVF3MXZYU3JSd2NDOFVyUHNXdVowekdEU2NYY1daZlhuLXBzMUxkdmZnU2lfdXhB?oc=5",
-      "source": "OpenAI",
-      "date": "Mon, 14 Sep 2026 12:40:32 GMT"
+      "source": "openai.com",
+      "date": "Tue, 15 Sep 2026 12:46:33 GMT"
     },
     {
-      "title": "전남광주통합특별시 북구, 소상공인 생성형 인공지능(AI) 활용 디지털 교육 나선다",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SbEZ6X3RCMjBXdjB3QUtvWUlPbi1WbG9FcVh5T3pEQXBRNnJYMVkwd1RsYk4wLVpTbnFvSTZWaFl5bTkybkNtNGlkUTQtb21keExjbVFVc1ZpSjA?oc=5",
-      "source": "연합뉴스",
-      "date": "Mon, 14 Sep 2026 08:17:47 GMT"
+      "title": "[여기서잠깐!] 스스로 배우는 인공지능 ‘AGI’",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBrSTRxNlZBNWYzYzFjMk9IVWxCZ0VYdVBkQU5sTExsSVRBUXBacElkX0pMRGdNaUJxamRQVHRJemRuZ1d0dXhJaXVzTTV3V0FXMXM3MnJBaWxMU0NzRjE2QjBpdDJjRmt2?oc=5",
+      "source": "대한건설기계신문",
+      "date": "Tue, 15 Sep 2026 04:45:59 GMT"
+    },
+    {
+      "title": "생성형 AI의 치명적 약점 해결…MIT, 안전 규칙 지키는 AI 기술 ‘하드플로우’가 안전선 지킨다",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FYS1PdFdvX3N6VlVnaHdzMDMyTFJ2THpSRVRSVnpEZ05SSUVkcloyY21LS0pBRUEwZDQ4c2pwVmFyVXYwZlJyLXlORkJjUzNRaHp1b1VmT2FHNEd6U3MzelZJdnVNdUU?oc=5",
+      "source": "인공지능신문",
+      "date": "Tue, 15 Sep 2026 03:19:26 GMT"
+    },
+    {
+      "title": "[새로 나온 책] 인공지능 AI시대에 “○○해도 될까요?” 외",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0xQUs2YzBKRHdtcENtMERLNG5rdDlpRUxoM2ZfVWV2elFrNjNYbEdBMWNoTGxvR1hJUlNfOVgteTZSMmpoVHc?oc=5",
+      "source": "v.daum.net",
+      "date": "Mon, 14 Sep 2026 08:29:00 GMT"
     },
     {
       "title": "경남교육청, 인공지능(AI)과 함께 연구하는 교사, 교실의 변화를 이끈다",
@@ -21,9 +33,9 @@
     },
     {
       "title": "인공지능: 앤트로픽 전 연구원, BBC에 '전문가들, 인류의 미래 진심으로 두려워해'",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5UR0EzOXc2SHVKNUIyTlc3aEVBbWlLVUlDX3dGRXhZekduTFdkNFV0Y1RlUXNzR1ZVV2xkREo2QXZjZmM5TzBYZ3hpR01wTnFlQmJONjFPV0ZwdUdSTGluYUJB0gFiQVVfeXFMTlRHQTM5dzZIdUo1QjJOVzdoRUFtaUtVSUNfd0ZFeFl6R25MV2Q0VXRjVGVRc3NHVlVXbGRESjZBdmNmYzlPMFhneGlHTXBOcWVCYk42MU9XRnB1R1JMaW5hQkE?oc=5",
-      "source": "bbc.com",
-      "date": "Mon, 14 Sep 2026 03:31:01 GMT"
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtTkRMWFRvZ0NfYVd6Z2NlbDQwZXRiYkNhV1I0VWVlUGdreFVidjVsUnhzdi15bTg5T2cwRWpzSWRMYi0yR0NpYXVxY2I4SDdmQy1YQVZXUDEySm4y0gFiQVVfeXFMTlRHQTM5dzZIdUo1QjJOVzdoRUFtaUtVSUNfd0ZFeFl6R25MV2Q0VXRjVGVRc3NHVlVXbGRESjZBdmNmYzlPMFhneGlHTXBOcWVCYk42MU9XRnB1R1JMaW5hQkE?oc=5",
+      "source": "BBC",
+      "date": "Mon, 14 Sep 2026 03:30:52 GMT"
     },
     {
       "title": "생성형 AI와 치료 결정 비교…다학제 중요성 확인",
@@ -38,40 +50,28 @@
       "date": "Mon, 14 Sep 2026 00:14:21 GMT"
     },
     {
-      "title": "[새로 나온 책] 인공지능 AI시대에 “OO해도 될까요?”",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1LbTNTUjNrZWZtcHRrTlNQalNsNF9ZZms0ZDgyVzNYbXlsSUZWYmFRTlpUbUc4VlY1djlRb0puOE0zWmVYMk1FeXlMUQ?oc=5",
-      "source": "v.daum.net",
-      "date": "Sun, 13 Sep 2026 22:48:00 GMT"
-    },
-    {
       "title": "[한림원] 생성형 AI 시대, 우리는?",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9EOHpSWXJuU3B5MXF6Y2pKallEV2RkMVlYRnZ0MTRYXzlKTzdlaGVxWVVKUWtoWmdiY3ktMVo3Vkh0ZDVQNDVHc2VSMEZLYTdFalJJQnNqUHVnUThPZUhVYTVxbVFXZUpTVXRR?oc=5",
       "source": "한림학보",
       "date": "Sun, 13 Sep 2026 15:00:12 GMT"
     },
     {
-      "title": "“AI 개발 속도 늦춰야” 올트먼·아모데이·머스크, 이례적 한뜻",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Rb2RPanRJblA4SWpXbXkxMS1JQV9SWEtiSHdPTGI5MGdJMlhDVlFEaXdOLXQwMDdtMmNnaVJhZDJWMHBlSlYtbThYaWxWMElJa0ZSdzNkNDNHRWxVZmJpb1I5ZXNYUWxGbklmVTRiVQ?oc=5",
-      "source": "한겨레",
-      "date": "Sun, 13 Sep 2026 05:24:00 GMT"
+      "title": "허준이 등 필즈상 수상자 25명 \"AI 난제풀이 경쟁, 수학 본질 훼손할 수도\"",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9mYlZGRkFiQ3o5UmtVc1FTS3lxLXctRHBjem9rNG1UZGROWWphaDRjalhRVnJjMnVHVnd5a3E3b3kybUk1Z2x2cTNKLTBRWVUwcFBDZg?oc=5",
+      "source": "DongA Science",
+      "date": "Sun, 13 Sep 2026 02:38:00 GMT"
     },
     {
       "title": "생성형 AI 모델 가격 경쟁 심화…저가모델 확산",
       "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBCZWd2NjNvVG1VV0VfbFBOWUlLTEZiTEpNc3RzSUZZaWlUY3EzN2JwaW5adEVvUjZIRDdmOWU4V3pfWms3?oc=5",
-      "source": "산업일보",
+      "source": "kidd.co.kr",
       "date": "Sun, 13 Sep 2026 02:04:53 GMT"
     },
     {
-      "title": "안양시, 행안부 '인공 지능(AI) 침수 탐지' 실증 지원",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tQWhKYjl2NTBuSHlrQU14aHhPQUx6cEw3Nno0MWlnNGxDTzFIWnctMGdmQ2Z3RVFkeGFxc1F5TXhNWjBCc2tGRWRsUHlyMmN3QmNWTXYycVVuSXdDRzYxRWVjNmhGd9IBakFVX3lxTE9CbTJ6MFpkOTNVVUJtX01lN1EwVVpUd1RHRkZiV3l2QVc1WHkwQkMwM0dkd2FabFFHYWFQYnI3U2JMYktvZW9QTWpob2ZmTmd0d0NIQUc4NDJRbEFwWHF6X1F5LURGOUVxa2c?oc=5",
-      "source": "새한일보",
-      "date": "Sat, 12 Sep 2026 02:44:49 GMT"
-    },
-    {
-      "title": "\"출근해서 뭐 하지?\"…사람보다 3배 더 일하는 AI에 '초긴장'",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1LOGVRZDR2LTBvbmlKSmI2VDViZzBoMHJWVHgwZ3QyNlZBUGppbHlJOUtjQXFiVTROVTdlM3VfaEZaYWRrTDFOTF9HWGU2SWpMbjI2NDBaOC1sdw?oc=5",
-      "source": "hankyung.com",
-      "date": "Fri, 11 Sep 2026 09:02:33 GMT"
+      "title": "오픈AI 코리아 1년, \"AI 도입 끝났다… 이제 일을 맡기는 단계\"",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa0hsNWVJenR0bzRKWW1NbU5fUDVYeFJqUzVlN2hvYmlwOV9NNC1VNU11c0JrLW9xenNnb3RsT1NwSGRKenYtYVh1TEp2bFFSU1JLYmM5cVg3ZnY1d1JBeEJMX1VGR1R6aHh3WklWR0NQRDMyeUFQS2JWS090U3FXU3ZFY0wySl8yZWtOUVFpOFRPblZSMEc1SGZfZ29QS2N5YlpBTmtR0gGrAUFVX3lxTE9QUW9BcEZuUFYwUmZwQmpka1BQTXpTWGxfZl9vR0dRQTBCRGtRZ0FpMlk2SEZWTnhlWHFBVER5NFZPeVVpR2s2WE10R3R2eHRXbjhlZ3AzbHRMRGJPNy00dUlzVFRyQU5HX2ZzN29uUzZXbnB4QkNGbnJJYUNWQm9BdTBmaC02U2ZoZnFzdnNyeWVZYmViZTROMVVfVUVkRzdpbDVKenRmQjg1MA?oc=5",
+      "source": "테크수다",
+      "date": "Fri, 11 Sep 2026 14:05:28 GMT"
     }
   ]
 }
