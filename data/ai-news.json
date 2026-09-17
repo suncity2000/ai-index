@@ -1,29 +1,53 @@
 {
-  "last_updated": "2026-09-16T14:01:19.026Z",
+  "last_updated": "2026-09-17T14:05:23.951Z",
   "news": [
     {
       "title": "GPT-6 Astra: 새로운 세대의 지능",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DdWlyc0FQSDFUeE8tblc2YzdaNHNXX29uNkxXbFFlbVF3MXZYU3JSd2NDOFVyUHNXdVowekdEU2NYY1daZlhuLXBzMUxkdmZnU2lfdXhB?oc=5",
       "source": "OpenAI",
-      "date": "Wed, 16 Sep 2026 12:57:22 GMT"
+      "date": "Thu, 17 Sep 2026 10:01:32 GMT"
     },
     {
-      "title": "환자·보호자 92.3% \"질환·치료 정보 검색에 생성형 AI 활용\"",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10NFJET2ZxMHUwTGZQUV9XRHFySmVpV21rWUFIVGlaRXJ6TkZIN3Q4UTRpZS03Y25aQjhFZVNHV2VlQ2VVUmpWSl9wSDlVdWliQ0hWRFhlT19rVjBDUUJFOXFzSUxaX1Fmb1BrNg?oc=5",
-      "source": "팜뉴스",
-      "date": "Wed, 16 Sep 2026 07:35:13 GMT"
+      "title": "연수구, 인공지능(AI) 활용해 지반침하 사고 사전 예방",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB3SVVHWU5pTWdtUERIaWRuS1ZOV3BLdVRWTTRBRllsUGFUWTNJcnJJQkI3TVhGNHVhOGt1Yng1b1FuOHVZbGowZ21tanZ2UHBoRjN5eGFKczJKMlE?oc=5",
+      "source": "연합뉴스",
+      "date": "Thu, 17 Sep 2026 07:47:59 GMT"
+    },
+    {
+      "title": "인공지능(AI) 기반 학생평가 체제 구축 나선다",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8zN0wzNzRmV3lYQVFuUUNMOEpsOUZtZkRzbmZjSFl5VFNpWF95V2Zrd3BEdGZMdXVFZ3V1M1ExRUNvRGM3N3FfUHgtMHpaRUVhRUg3d1NVQ2x4NlFHdVVPc01DUTdCMU5aX1E?oc=5",
+      "source": "전북제일신문",
+      "date": "Thu, 17 Sep 2026 05:51:35 GMT"
+    },
+    {
+      "title": "2026 AI 안전 지킴이 모집 (생성형 AI 위험·오류 사례 발굴 프로젝트) - 소식알림이의 | 내 손 안의 광장, 빠띠",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1PdzJUYmtGYjFnQjlWOVlwS1JGaDBiZlVrN2dodmhmb2k5eGhVbnFXV1BrYTNkMldZZ2xzWmFNckVLUFlqUTNaUQ?oc=5",
+      "source": "campaigns.do",
+      "date": "Thu, 17 Sep 2026 05:48:22 GMT"
+    },
+    {
+      "title": "[데스크라인]인공지능 예산 유감",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE41TUFMM1NlQVk2aUhDOG1sZU1VaERkMVBkRk10eElzTWFlUVljMEtKSW5oU1htZXgtUU9Lay1wVk5JUWpBamtyaDd3ZVZmQQ?oc=5",
+      "source": "전자신문",
+      "date": "Thu, 17 Sep 2026 05:04:25 GMT"
+    },
+    {
+      "title": "ChatGPT로 ATV Big Air Tour 성장시키기",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBHWGU1MzVQZHh1WVJYVDZyX1dIcTlERWVPWkZ5RjhvRE9Mc0dfRnZfZ183NGdDMHFTSUt5NTgxcHVWX05GSGxzLS1jVVhqU1VNMk41SUxnZV9nMzFiN19pQWZVUGFWYTg?oc=5",
+      "source": "OpenAI",
+      "date": "Wed, 16 Sep 2026 23:55:02 GMT"
+    },
+    {
+      "title": "경북교육청, 인공지능(AI)‧디지털 교육혁신 이끌 학교 관리자 역량 강화",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBHMGdTWE14eDE2Vkw1aXZUSDdsR1BpZDB1QVd1SzZLeHQ2WXRMUmxJVXVvN241TGRzd0RiZU43alAyNjB1OGZHQzctZ3JLRVVOYkdyNWF5bDNIZTkxWERpVmtGX0tKQQ?oc=5",
+      "source": "데일리대구경북뉴스",
+      "date": "Wed, 16 Sep 2026 23:15:50 GMT"
     },
     {
       "title": "블루포인트, 투자 전 과정에 인공지능 적용···'래티스 AI' 가동",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Cek8tYUFxYVp1OWdkdUZsQkQ0WjRac0tyR3dRMGNSWDB2REJTXzRwM09KX0IwaEN3SUgyZWhxTTJWMG1uZVZsMlNCU3Y5OG9feFBWRkUxM2xCa011Ul9TYVREb0hRV1VPOEE?oc=5",
       "source": "헬로디디",
       "date": "Wed, 16 Sep 2026 07:00:00 GMT"
-    },
-    {
-      "title": "\"정확도·속도 동시에 높인 로봇 공간 인식 AI 기술 개발\"",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtdzlzeEZ2Y2d0VmtjamdPYXpIT3V1WWVaSjRreEhMc3NMZkozR3dhMm1UVDNXM0tCSWJfSVBmcGhFdmdpOGkyQ2ZnS3Q3Nlh4SkNOenM2UFRfM0ZEMUdOSNIBYEFVX3lxTFBtdzlzeEZ2Y2d0VmtjamdPYXpIT3V1WWVaSjRreEhMc3NMZkozR3dhMm1UVDNXM0tCSWJfSVBmcGhFdmdpOGkyQ2ZnS3Q3Nlh4SkNOenM2UFRfM0ZEMUdOSA?oc=5",
-      "source": "연합뉴스",
-      "date": "Wed, 16 Sep 2026 04:46:54 GMT"
     },
     {
       "title": "[최상현의 세상보기] 인공지능(AI) 속도조절론과 강행론, 실현 가능성은?",
@@ -38,40 +62,16 @@
       "date": "Wed, 16 Sep 2026 01:51:34 GMT"
     },
     {
+      "title": "수원시, ‘정신건강 인공지능(AI) 대전환’ 선언",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9xeGpESHZmckNkaHFtOGhBb01LaFRXWmdpQmN2ZEh5WVVoT25NcjNlSDdIbWN0VHk5MVNDbUtsbkJZVEFBcjBxX1BJMA?oc=5",
+      "source": "v.daum.net",
+      "date": "Wed, 16 Sep 2026 01:07:52 GMT"
+    },
+    {
       "title": "수성구, 생성형 AI로 만든 ‘부동산 안전 거래 시스템’ 행안부 장관상",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5aYzlrSVFaakZDWWhIbm5MS1paZTBMWXZDT2kzVFgwbTY5UE5lOHJhWXpOSmhfc3FyLVM3cDJVdDZqN3VMd3ZPUm5MbkJFVU5aVW5FdVh5cTJNVHRoTnIwUjJldnlheHFCU1Rac1ZTbHNtbmdLMUFXYlhR0gF_QVVfeXFMUE9SV0RaRnd3Qzl3dWoyU284N0IyYXNqX1JSZHJQWDJzRkFVX0pJUnF1b2lpVGp0WDNXZldGQkRKc1Z3dGo1dGxjeC1EWjQxdzByNEdKMld5b0RIRVJWdEZiaF96Snc3OXR0dElUd05hTnVfaWNuejFDZ2hMVWhRZw?oc=5",
       "source": "뉴데일리 대구경북",
       "date": "Tue, 15 Sep 2026 13:43:59 GMT"
-    },
-    {
-      "title": "생성형 AI의 치명적 약점 해결…MIT, 안전 규칙 지키는 AI 기술 ‘하드플로우’가 안전선 지킨다",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FYS1PdFdvX3N6VlVnaHdzMDMyTFJ2THpSRVRSVnpEZ05SSUVkcloyY21LS0pBRUEwZDQ4c2pwVmFyVXYwZlJyLXlORkJjUzNRaHp1b1VmT2FHNEd6U3MzelZJdnVNdUU?oc=5",
-      "source": "인공지능신문",
-      "date": "Tue, 15 Sep 2026 03:19:26 GMT"
-    },
-    {
-      "title": "[새로 나온 책] 인공지능 AI시대에 “OO해도 될까요?” 외",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE91eTV2WFIwTm1lbnA0bnpYdUJzanU5cUZFTkVOMVRVb25kejQ0UV9jWi02Q1NEUWl4UktORVhzOVJYN3VwVmdvQjIyVQ?oc=5",
-      "source": "v.daum.net",
-      "date": "Mon, 14 Sep 2026 03:57:38 GMT"
-    },
-    {
-      "title": "인공지능: 앤트로픽 전 연구원, BBC에 '전문가들, 인류의 미래 진심으로 두려워해'",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtTkRMWFRvZ0NfYVd6Z2NlbDQwZXRiYkNhV1I0VWVlUGdreFVidjVsUnhzdi15bTg5T2cwRWpzSWRMYi0yR0NpYXVxY2I4SDdmQy1YQVZXUDEySm4y0gFiQVVfeXFMTlRHQTM5dzZIdUo1QjJOVzdoRUFtaUtVSUNfd0ZFeFl6R25MV2Q0VXRjVGVRc3NHVlVXbGRESjZBdmNmYzlPMFhneGlHTXBOcWVCYk42MU9XRnB1R1JMaW5hQkE?oc=5",
-      "source": "BBC",
-      "date": "Mon, 14 Sep 2026 03:30:52 GMT"
-    },
-    {
-      "title": "[한림원] 생성형 AI 시대, 우리는?",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9EOHpSWXJuU3B5MXF6Y2pKallEV2RkMVlYRnZ0MTRYXzlKTzdlaGVxWVVKUWtoWmdiY3ktMVo3Vkh0ZDVQNDVHc2VSMEZLYTdFalJJQnNqUHVnUThPZUhVYTVxbVFXZUpTVXRR?oc=5",
-      "source": "한림학보",
-      "date": "Sun, 13 Sep 2026 15:00:12 GMT"
-    },
-    {
-      "title": "허준이 등 필즈상 수상자 25명 \"AI 난제풀이 경쟁, 수학 본질 훼손할 수도\"",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9mYlZGRkFiQ3o5UmtVc1FTS3lxLXctRHBjem9rNG1UZGROWWphaDRjalhRVnJjMnVHVnd5a3E3b3kybUk1Z2x2cTNKLTBRWVUwcFBDZg?oc=5",
-      "source": "DongA Science",
-      "date": "Sun, 13 Sep 2026 02:38:00 GMT"
     }
   ]
 }
