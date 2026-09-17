@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-16T07:32:45.913Z",
+  "last_updated": "2026-09-17T07:28:47.938Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -381,8 +381,8 @@
     {
       "id": "deepseek/deepseek-v4-pro-0813",
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "price_1m_input": 0.98,
-      "price_1m_output": 2.95,
+      "price_1m_input": 1.32,
+      "price_1m_output": 3.96,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -1827,19 +1827,19 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3-vl-30b-a3b-instruct",
+      "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+      "price_1m_input": 0.13,
+      "price_1m_output": 0.52,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3.8-flash",
       "name": "Qwen: Qwen3.8 Flash",
       "price_1m_input": 0.15,
       "price_1m_output": 0.47,
       "context_length": 1000000,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-vl-30b-a3b-instruct",
-      "name": "Qwen: Qwen3 VL 30B A3B Instruct",
-      "price_1m_input": 0.15,
-      "price_1m_output": 0.6,
-      "context_length": 262144,
       "top_provider": true
     },
     {
