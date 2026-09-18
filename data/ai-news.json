@@ -1,11 +1,23 @@
 {
-  "last_updated": "2026-09-17T14:05:23.951Z",
+  "last_updated": "2026-09-18T13:22:48.632Z",
   "news": [
     {
-      "title": "GPT-6 Astra: 새로운 세대의 지능",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DdWlyc0FQSDFUeE8tblc2YzdaNHNXX29uNkxXbFFlbVF3MXZYU3JSd2NDOFVyUHNXdVowekdEU2NYY1daZlhuLXBzMUxkdmZnU2lfdXhB?oc=5",
-      "source": "OpenAI",
-      "date": "Thu, 17 Sep 2026 10:01:32 GMT"
+      "title": "KAIST-POSTECH ‘사이언스 워’…AI가 마리오 카트 몰고, 생성형 AI로 해킹",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PZk0zOWhBeVlZTnl6YW5LRVRoWVJRNm1RUkdKVGZmRFNlN1lWM08teWpFSnhCYVNFeDR0WDYzNlh2SzRYN1RaX1hxT0pOMWViU2d1Um50Q1BqOWRhSXM1a2luOGVYazg?oc=5",
+      "source": "인공지능신문",
+      "date": "Fri, 18 Sep 2026 04:16:51 GMT"
+    },
+    {
+      "title": "김해시, 인공지능(AI) 번식관리시스템 양돈농가 보급",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzN2d0ZTNIa2xMRnZtMUxDMkdUdTFvd09jaExiRUVSdThNVTlRbVFCUW01aXFpQnpCRXkzMXp6WE5CSE92bkt1UlpFb0hSQlhfanZJX3JpN2EtcDFTWXJRelpISG5CN3JSeEHSAWxBVV95cUxQQ2E0SkxKTUhIN0wzWUo4NHNZQVJxU2w4Uk5RVmRvak9XMmVSb0NwdlZUMjY3dmhwWUpaaVQ1SXBPNUI5ZS04ZGRZSXV6VENKLTRhanRyUDlFcmxrXzZvQk9TbHB1ckhnX1V4RzY?oc=5",
+      "source": "한돈뉴스",
+      "date": "Thu, 17 Sep 2026 19:34:00 GMT"
+    },
+    {
+      "title": "플로우, ChatGPT·Claude 동시 공식 앱 등록...글로벌 AI 앱 생태계 진입",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE80MU5rU2JSR2dTREZIYWFFRXFHSmF3Qi1rREg1d3laV28xejZrdjE2Skl0Y2U3ZGl0U2wyMG4zVXFZWWNCQ3BWaW1sY1IyY3RMbWtCdF84Qm50Z25IZW1v?oc=5",
+      "source": "헬로티",
+      "date": "Thu, 17 Sep 2026 07:53:19 GMT"
     },
     {
       "title": "연수구, 인공지능(AI) 활용해 지반침하 사고 사전 예방",
@@ -16,7 +28,7 @@
     {
       "title": "인공지능(AI) 기반 학생평가 체제 구축 나선다",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8zN0wzNzRmV3lYQVFuUUNMOEpsOUZtZkRzbmZjSFl5VFNpWF95V2Zrd3BEdGZMdXVFZ3V1M1ExRUNvRGM3N3FfUHgtMHpaRUVhRUg3d1NVQ2x4NlFHdVVPc01DUTdCMU5aX1E?oc=5",
-      "source": "전북제일신문",
+      "source": "jbjnews.com",
       "date": "Thu, 17 Sep 2026 05:51:35 GMT"
     },
     {
@@ -24,6 +36,12 @@
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1PdzJUYmtGYjFnQjlWOVlwS1JGaDBiZlVrN2dodmhmb2k5eGhVbnFXV1BrYTNkMldZZ2xzWmFNckVLUFlqUTNaUQ?oc=5",
       "source": "campaigns.do",
       "date": "Thu, 17 Sep 2026 05:48:22 GMT"
+    },
+    {
+      "title": "ChatGPT로 산불 조기 감지하기",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xcm43bkJVY2F5eGs4Ri1DMno5ZzFyeVM3dGt5eU5KODR1N3pNblNvRmRsMUQwU21pbURzdElWc2FWal9jVWl4bmhnbWRFdWcxczY5NkJlaWpsaWJQVDJUWUJSSDNYVzBn?oc=5",
+      "source": "OpenAI",
+      "date": "Thu, 17 Sep 2026 05:16:05 GMT"
     },
     {
       "title": "[데스크라인]인공지능 예산 유감",
@@ -44,34 +62,16 @@
       "date": "Wed, 16 Sep 2026 23:15:50 GMT"
     },
     {
-      "title": "블루포인트, 투자 전 과정에 인공지능 적용···'래티스 AI' 가동",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Cek8tYUFxYVp1OWdkdUZsQkQ0WjRac0tyR3dRMGNSWDB2REJTXzRwM09KX0IwaEN3SUgyZWhxTTJWMG1uZVZsMlNCU3Y5OG9feFBWRkUxM2xCa011Ul9TYVREb0hRV1VPOEE?oc=5",
-      "source": "헬로디디",
-      "date": "Wed, 16 Sep 2026 07:00:00 GMT"
+      "title": "\"정확도·속도 동시에 높인 로봇 공간 인식 AI 기술 개발\"",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUHhSZWgwNVc1OTVGYmVYYi1zNXdMazRyQUxmZmhiR1M3Wmp1RVJZaFZJMjJLUlpPcUhZM1FuTHByUjgzM0l5Q3JHRFpZWXoxeDNtQm4yWDlBd3o4YkJvQXlMYnJNUXQ3dkt5TWlZdXZiTF9GNG1nSkFSX05LNU0ydGRCRVRFZmQ3UUEwUnFwMA?oc=5",
+      "source": "사이언스타임즈",
+      "date": "Wed, 16 Sep 2026 22:04:07 GMT"
     },
     {
-      "title": "[최상현의 세상보기] 인공지능(AI) 속도조절론과 강행론, 실현 가능성은?",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ldGRxZFNORFNpYlJZT3NkUWg3WnRYdklqQnNmUnBybGx1YnJkbGZobVprQnRGZ1d6ZnJwUHo2VkhoVFdiRnhNZUlYdXN6cC1MYzhiUFA5Rm8zS2hIVUNDNzBUQjRRenN4eUE?oc=5",
-      "source": "천지일보",
-      "date": "Wed, 16 Sep 2026 03:20:03 GMT"
-    },
-    {
-      "title": "환자·보호자 10명 중 9명 이상, 생성형 AI로 질환·치료정보 검색",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Yb0h4TUpWWGExVXI1RzFwUkkzX3dOTmpPaDZVbDBjVkNZSEQtSkR3WV9aVFR5QUR3OFp0U3RLek5BbklZRUppSnhSY1JSeXdhbkhuRlpmMlpWd0t3d194cW4xakRqSThJYm0wVDY2cw?oc=5",
-      "source": "의사신문",
-      "date": "Wed, 16 Sep 2026 01:51:34 GMT"
-    },
-    {
-      "title": "수원시, ‘정신건강 인공지능(AI) 대전환’ 선언",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9xeGpESHZmckNkaHFtOGhBb01LaFRXWmdpQmN2ZEh5WVVoT25NcjNlSDdIbWN0VHk5MVNDbUtsbkJZVEFBcjBxX1BJMA?oc=5",
+      "title": "“미국인 63%, 인공지능이 인류 멸망시킬 가능성 우려”",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1jYWZaTlJEMnItc1pHODE5TTNpdnl6b3ZlZEdRbFZKWDFZc2doQmZsc3VLV3Bvc2xGS0k3MkRBMHNqdGxBeWc?oc=5",
       "source": "v.daum.net",
-      "date": "Wed, 16 Sep 2026 01:07:52 GMT"
-    },
-    {
-      "title": "수성구, 생성형 AI로 만든 ‘부동산 안전 거래 시스템’ 행안부 장관상",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5aYzlrSVFaakZDWWhIbm5MS1paZTBMWXZDT2kzVFgwbTY5UE5lOHJhWXpOSmhfc3FyLVM3cDJVdDZqN3VMd3ZPUm5MbkJFVU5aVW5FdVh5cTJNVHRoTnIwUjJldnlheHFCU1Rac1ZTbHNtbmdLMUFXYlhR0gF_QVVfeXFMUE9SV0RaRnd3Qzl3dWoyU284N0IyYXNqX1JSZHJQWDJzRkFVX0pJUnF1b2lpVGp0WDNXZldGQkRKc1Z3dGo1dGxjeC1EWjQxdzByNEdKMld5b0RIRVJWdEZiaF96Snc3OXR0dElUd05hTnVfaWNuejFDZ2hMVWhRZw?oc=5",
-      "source": "뉴데일리 대구경북",
-      "date": "Tue, 15 Sep 2026 13:43:59 GMT"
+      "date": "Wed, 16 Sep 2026 15:42:00 GMT"
     }
   ]
 }
