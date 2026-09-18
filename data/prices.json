@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17T07:28:47.938Z",
+  "last_updated": "2026-09-18T07:17:44.515Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -286,7 +286,7 @@
       "id": "deepseek/deepseek-v4-flash-vision-exp",
       "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
       "price_1m_input": 0.22,
-      "price_1m_output": 0.66,
+      "price_1m_output": 0.65,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -303,14 +303,6 @@
       "name": "DeepSeek: DeepSeek V3 0324",
       "price_1m_input": 0.25,
       "price_1m_output": 1,
-      "context_length": 163840,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-chat",
-      "name": "DeepSeek: DeepSeek V3",
-      "price_1m_input": 0.26,
-      "price_1m_output": 1.03,
       "context_length": 163840,
       "top_provider": true
     },
@@ -344,6 +336,14 @@
       "price_1m_input": 0.3,
       "price_1m_output": 1.2,
       "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-chat",
+      "name": "DeepSeek: DeepSeek V3",
+      "price_1m_input": 0.32,
+      "price_1m_output": 0.89,
+      "context_length": 163840,
       "top_provider": true
     },
     {
@@ -923,14 +923,6 @@
       "top_provider": true
     },
     {
-      "id": "mistralai/mistral-large-2512",
-      "name": "Mistral: Mistral Large 3 2512",
-      "price_1m_input": 0.5,
-      "price_1m_output": 1.5,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "mistralai/mistral-medium-3-5:batch",
       "name": "Mistral: Mistral Medium 3.5 (batch)",
       "price_1m_input": 0.75,
@@ -983,14 +975,6 @@
       "name": "OpenAI: gpt-oss-20b",
       "price_1m_input": 0.03,
       "price_1m_output": 0.13,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
-      "id": "openai/gpt-oss-120b",
-      "name": "OpenAI: gpt-oss-120b",
-      "price_1m_input": 0.04,
-      "price_1m_output": 0.17,
       "context_length": 131072,
       "top_provider": true
     },
@@ -1064,6 +1048,14 @@
       "price_1m_input": 0.13,
       "price_1m_output": 1,
       "context_length": 400000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "name": "OpenAI: gpt-oss-120b",
+      "price_1m_input": 0.15,
+      "price_1m_output": 0.6,
+      "context_length": 131072,
       "top_provider": true
     },
     {
