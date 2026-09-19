@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-18T07:17:44.515Z",
+  "last_updated": "2026-09-19T07:14:23.147Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -253,16 +253,16 @@
     {
       "id": "deepseek/deepseek-v4-flash-0731",
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "price_1m_input": 0.06,
-      "price_1m_output": 0.12,
+      "price_1m_input": 0.04,
+      "price_1m_output": 0.08,
       "context_length": 1310720,
       "top_provider": true
     },
     {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "price_1m_input": 0.09,
-      "price_1m_output": 0.18,
+      "price_1m_input": 0.05,
+      "price_1m_output": 0.09,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -279,6 +279,14 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
       "price_1m_input": 0.11,
       "price_1m_output": 0.33,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash",
+      "name": "DeepSeek: DeepSeek V4.1 Flash",
+      "price_1m_input": 0.15,
+      "price_1m_output": 0.6,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -331,14 +339,6 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-v4.1-flash",
-      "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "price_1m_input": 0.3,
-      "price_1m_output": 1.2,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
       "id": "deepseek/deepseek-chat",
       "name": "DeepSeek: DeepSeek V3",
       "price_1m_input": 0.32,
@@ -352,6 +352,22 @@
       "price_1m_input": 0.5,
       "price_1m_output": 2.15,
       "context_length": 163840,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek: DeepSeek V4 Pro 0423",
+      "price_1m_input": 0.56,
+      "price_1m_output": 1.13,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "name": "DeepSeek: DeepSeek V4 Pro 0813",
+      "price_1m_input": 0.58,
+      "price_1m_output": 1.73,
+      "context_length": 1048576,
       "top_provider": true
     },
     {
@@ -376,22 +392,6 @@
       "price_1m_input": 0.8,
       "price_1m_output": 0.8,
       "context_length": 8192,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-v4-pro-0813",
-      "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "price_1m_input": 1.32,
-      "price_1m_output": 3.96,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-v4-pro",
-      "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "price_1m_input": 1.6,
-      "price_1m_output": 3.2,
-      "context_length": 1048576,
       "top_provider": true
     },
     {
@@ -1819,14 +1819,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3-vl-30b-a3b-instruct",
-      "name": "Qwen: Qwen3 VL 30B A3B Instruct",
-      "price_1m_input": 0.13,
-      "price_1m_output": 0.52,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3.8-flash",
       "name": "Qwen: Qwen3.8 Flash",
       "price_1m_input": 0.15,
@@ -1887,6 +1879,14 @@
       "name": "Qwen: Qwen3 VL 30B A3B Thinking",
       "price_1m_input": 0.2,
       "price_1m_output": 2.4,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3-vl-30b-a3b-instruct",
+      "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+      "price_1m_input": 0.2,
+      "price_1m_output": 0.7,
       "context_length": 262144,
       "top_provider": true
     },
