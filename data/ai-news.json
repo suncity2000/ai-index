@@ -1,17 +1,59 @@
 {
-  "last_updated": "2026-09-19T12:51:45.254Z",
+  "last_updated": "2026-09-20T13:26:25.249Z",
   "news": [
     {
-      "title": "OpenAI IPO에 대해 알아야 할 핵심 정보",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMXFoSjFPcUg2YzgyM2NQcG9QVi1kZ1UxVk03Ti1yaktpVzRoRTZ4aGtnVmRTQ3B2SlhkOTE2LTF6cUZxQjdTenpLZmszbXdueDJBU29odVNPRUh3cmM3V1BkTURWTG1mUVlWRmdpTURfcmJ0dUFQWGRKWjRaaWdrcXJrenJ3SV9ENDAwc2k4X0Z4WXpfUFRFejZtT2tBR0haVWpYdTBZMUg?oc=5",
-      "source": "TradingKey",
-      "date": "Sat, 19 Sep 2026 06:17:03 GMT"
+      "title": "美 트럼프, ‘AI軍’ 만든다… “인공지능 이름 바꿔야” 주장도",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZGtlZF9HQmljaVo5SU9xRURmX3dCZlJVMUlOVW5ZdWprVkVnUXdhYXc4Y24xMXlvNmZ6NzJfTVFqWl9Pa2NQcnJDbExTWjNGbzdqYmVtN3NtaHd6Mmg3Wmg4UW5oaWdRaVd2d29SYml4Tmh2MVoxdlMwRWRaeEFsUGNlUQ?oc=5",
+      "source": "chosun.com",
+      "date": "Sun, 20 Sep 2026 06:05:00 GMT"
+    },
+    {
+      "title": "인천 부평고, 인공지능(AI)·로봇 체험으로 지역 학생과 배움 나눠",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3LUtkcnhCMjROUTNLclhZVDdNazBQaElvNC04clNtYThhQmJIbVpoNDdzSWhqbHBfZzRnVVdjUzdxNEJEN3Q5cGwzWkJyVlU2eGVGRG82UVJ3Z0E?oc=5",
+      "source": "경기일보",
+      "date": "Sun, 20 Sep 2026 05:58:21 GMT"
+    },
+    {
+      "title": "트럼프 \"'AI 군' 창설…인공지능 이름도 바꾸자\"",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iWVJlb1hlNXV4eWxiVmJscWl6VHhoOXVXYm9LdEJvNW5kV1VsQ19vSEtmWUREVVV0V3BuYnZBdlFBVUxmSENRVTFnNFNYUE5KNFRCdV9B?oc=5",
+      "source": "지디넷코리아",
+      "date": "Sun, 20 Sep 2026 00:42:55 GMT"
+    },
+    {
+      "title": "“AI 속도조절을” “대놓고 담합하네?”…인공지능 기업들 고소 당했다",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBmTVUydHd6S241RzM4VHFIa05HSGxGMUVoSWg0LV9MOHZibWxmc1U0ZmFvR0s0UFFOX3k4TzdhWnVFcnFqS2lBR0ZPUTdKZGM?oc=5",
+      "source": "v.daum.net",
+      "date": "Sat, 19 Sep 2026 20:36:00 GMT"
+    },
+    {
+      "title": "트럼프 \"인공지능 대신 최고지능 어떠냐\"…온라인 설문 부쳐",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44UjZBYU5FektDNFgwZTVVOWRQNlVQODJQLXlkMFpQdEFrV2hhc1lCcFQxMzcwR1V3R3AzbUhjQ2FsQTFwVjNPMnphSWdsaW5XSkkydDFDT05JSE3SAWBBVV95cUxPUVloWEpIbUcyUERfcUdwV2w2bGVoYm9zbVowYkFrenItV3V6RG55S2t0czFtRHdINS1SUHJ5OUZkNDJwNVZQYi02U25tSFZEcU5MUU94WlVELUotUWdqejU?oc=5",
+      "source": "연합뉴스",
+      "date": "Sat, 19 Sep 2026 16:03:50 GMT"
+    },
+    {
+      "title": "AI로 약물 찾고 VR로 해부한다..전남대 수의대, 인공지능 융합교육 본격화",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80SUNXSHZnNlhaRWNEMWtoYkgtMWZuNl9pd18xczdTdUJsX2hFSlRpRnV2ekNvZFF6aXluX3dXbEFKTVVrajFBT3ZhblB4XzZDckIzeURVUjA4UQ?oc=5",
+      "source": "데일리벳",
+      "date": "Sat, 19 Sep 2026 00:58:09 GMT"
     },
     {
       "title": "\"AI 통제 실패는 기정 사실…피해자도 존재\"",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1fMnpCdzhiU2RGdjhFeEJuNEhYMlJ1am1CcV9Kc3RwTi10NGRIaEJSMS1ZT01UcU5OOVlxcnVEVFRTSEZwRDFhdGY5YWp2V0lGY3FZLQ?oc=5",
       "source": "DongA Science",
       "date": "Fri, 18 Sep 2026 09:17:00 GMT"
+    },
+    {
+      "title": "KAIST-POSTECH ‘사이언스 워’…AI가 마리오 카트 몰고, 생성형 AI로 해킹",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PZk0zOWhBeVlZTnl6YW5LRVRoWVJRNm1RUkdKVGZmRFNlN1lWM08teWpFSnhCYVNFeDR0WDYzNlh2SzRYN1RaX1hxT0pOMWViU2d1Um50Q1BqOWRhSXM1a2luOGVYazg?oc=5",
+      "source": "aitimes.kr",
+      "date": "Fri, 18 Sep 2026 04:16:51 GMT"
+    },
+    {
+      "title": "한수원, 인공지능(AI) 기술 확산 및 무선통신 기술교류 통한 산업계 협력 강화",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FUUIxSzFNQjB3WWpYZjhoZFNBdkN3anh2czI2d2NBa3Z4bUxkZm9oRnl2RVdlR0puLU9LcVZVV19XdnZoZWdNQ2RySkl0VUNTcTc1V3pCQ09aYjNtVWhJU3hJVXFvQlhG?oc=5",
+      "source": "데일리대구경북뉴스",
+      "date": "Fri, 18 Sep 2026 02:12:13 GMT"
     },
     {
       "title": "\"오픈AI, 챗GPT 개발에 언론사 기사 1천만건 도둑질\"",
@@ -22,56 +64,14 @@
     {
       "title": "김해시, 인공지능(AI) 번식관리시스템 양돈농가 보급",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzN2d0ZTNIa2xMRnZtMUxDMkdUdTFvd09jaExiRUVSdThNVTlRbVFCUW01aXFpQnpCRXkzMXp6WE5CSE92bkt1UlpFb0hSQlhfanZJX3JpN2EtcDFTWXJRelpISG5CN3JSeEHSAWxBVV95cUxQQ2E0SkxKTUhIN0wzWUo4NHNZQVJxU2w4Uk5RVmRvak9XMmVSb0NwdlZUMjY3dmhwWUpaaVQ1SXBPNUI5ZS04ZGRZSXV6VENKLTRhanRyUDlFcmxrXzZvQk9TbHB1ckhnX1V4RzY?oc=5",
-      "source": "pignpork.com",
+      "source": "한돈뉴스",
       "date": "Thu, 17 Sep 2026 19:34:00 GMT"
-    },
-    {
-      "title": "연수구, 인공지능(AI) 활용해 지반침하 사고 사전 예방",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB3SVVHWU5pTWdtUERIaWRuS1ZOV3BLdVRWTTRBRllsUGFUWTNJcnJJQkI3TVhGNHVhOGt1Yng1b1FuOHVZbGowZ21tanZ2UHBoRjN5eGFKczJKMlE?oc=5",
-      "source": "연합뉴스",
-      "date": "Thu, 17 Sep 2026 07:47:59 GMT"
     },
     {
       "title": "경북개발공사 생성형AI·데이터분석 경진대회 개최",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5nLUY0dk1MNWxkMVIycnVPMlVfZWVtQ0tqNzRhU1JnYnR3YzRXdmVSRmFpUy1vZHFiZlBqd3ByUEdzWUdPRERZX2tFYnJ1bEU?oc=5",
       "source": "v.daum.net",
       "date": "Thu, 17 Sep 2026 07:06:03 GMT"
-    },
-    {
-      "title": "AI가 대학생 '인지적 항복' 일으켜…美 MIT 보고서 '파장'",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE43azhKNmdkdEoxYm9xVnRyZC00N1VycVJsLWxfZHNzMUVxZ0xHN1BuUXlEWnMwMEllbnRYOEduRnZPOHFDd2hXTk94TmltVVRpNmVlVg?oc=5",
-      "source": "DongA Science",
-      "date": "Thu, 17 Sep 2026 06:43:00 GMT"
-    },
-    {
-      "title": "AI로 업무 10만시간 줄였다…서부발전, 경영대상 2관왕",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1idGlBX0lYbWd5VFFNQkpqaHB4MW1SdTR5UF9haVU1bnc3QVJHNWZpaU9UbUFVWEYyd3k4bXpBVXlWX2U4VW56Mkl1MFhiR2VEX0hKMXBfT1JHaVM0c19tVUIyd1pnalhYRWQ4SjhnbU_SAXBBVV95cUxNYnRpQV9JWG1neVRRTUJKamhweDFtUnU0eVBfYWlVNW53N0FSRzVmaWlPVG1BVVhGMnd5OG16QVV5Vl9lOFVuejJJdTBYYkdlRF9ISjFwX09SR2lTNHNfbVVCMndaZ2pYWEVkOEo4Z21P?oc=5",
-      "source": "전기신문",
-      "date": "Thu, 17 Sep 2026 06:38:47 GMT"
-    },
-    {
-      "title": "[기자회견] AI 예외주의 반대, 통제 가능한 인공지능으로 - 공공성, 책임성 강화 위한 8개 입법과제 3개 정책과제 제안",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE03UmIwNUFqQk0wWGJGc3pZcGZ6NEFhTkpTejQ5VENNT3RiUy1GT3I1UXRoM2NmOHY2UzN4aFBFTQ?oc=5",
-      "source": "한국여성단체연합",
-      "date": "Thu, 17 Sep 2026 06:19:16 GMT"
-    },
-    {
-      "title": "[데스크라인]인공지능 예산 유감",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE41TUFMM1NlQVk2aUhDOG1sZU1VaERkMVBkRk10eElzTWFlUVljMEtKSW5oU1htZXgtUU9Lay1wVk5JUWpBamtyaDd3ZVZmQQ?oc=5",
-      "source": "전자신문",
-      "date": "Thu, 17 Sep 2026 05:04:25 GMT"
-    },
-    {
-      "title": "바이트사이즈, 인공지능(AI) 신발 솔루션 ‘DEFS.’ 사전 신청 받아",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5qR0Zvb1RZcVgxWkwxRGd3eVRReHo2WE81ZDQwYXQ0RHpmRW5DQmxLRWlzR0NUOXRmYUprMXZUUTBmUFFLQnlMV2IzZw?oc=5",
-      "source": "v.daum.net",
-      "date": "Thu, 17 Sep 2026 00:03:00 GMT"
-    },
-    {
-      "title": "차세대 모델 GPT-5.6 Sol 미리 살펴보기",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1JY2x2cXlzYVI5aEZQZDEyeVIyUVJ1c002c0IzdWxVeGxnM2FkNmhtNnFPb2F5ZUNGQ2lPRnlWN1drSmhaUWFPM1ZVQUk4WmFpUDdTeWdBaXdla2V2SXNqR0hCc0Q?oc=5",
-      "source": "OpenAI",
-      "date": "Wed, 16 Sep 2026 13:00:00 GMT"
     }
   ]
 }
