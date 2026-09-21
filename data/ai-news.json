@@ -1,17 +1,53 @@
 {
-  "last_updated": "2026-09-20T13:26:25.249Z",
+  "last_updated": "2026-09-21T15:38:56.739Z",
   "news": [
+    {
+      "title": "[김대호 진단] 반도체 열전 (55) 허깅페이스...인공지능 AI의 반란",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaXFpUHBpQi1tR2dCZ0ZQcVMxRUZUeXpzNU1saEtDVm94b3hlRVVnRjVDT2U3MEdYcmhqNG1fR051YU1qM1NxZS02N2k1c3Fkd2drcE1DQWt5cmJWTWhfY0NvelNZT2xzRHdsaU91OGpULThLYWxHZE1qbkwyVW1yWVN1eVdkVWZn?oc=5",
+      "source": "글로벌이코노믹",
+      "date": "Mon, 21 Sep 2026 15:00:00 GMT"
+    },
+    {
+      "title": "파수 AI, 생성형 AI 정보 유출 대응 제시",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxS2s2QUtYVnA4bnJjeHJLTUZrdHpmcENLb09EY0VOSERxMkgwNnZjanl6T0dKbkwtWm1qRWdNSHB6WFM2OFhzVktycHdSOFQ4SEIyd3RxYTNLRWJfWFk1c1NWYmpVTjRJUnZyRA?oc=5",
+      "source": "스마트비즈",
+      "date": "Mon, 21 Sep 2026 08:51:00 GMT"
+    },
+    {
+      "title": "인공지능 : 엔비디아 젠슨 황 CEO, AI 때문에 인류 멸망할 확률 '0%'",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1KLTliaDlQRHhzSV9PamZPVkNEQ0pEUEdVSDFIdUd2aTNNM0Zhd29US3ZVWXdybmVOTHZ3a2JxeDJWcDJsOWNaTVBfNC1lVnYwaWtmeXVWaDdXNHNPRlHSAWNBVV95cUxPMWl5VWFlUWZnN2thSktTeWtMNEdRejRYRTlETkMtLXlZcGRqa1hTSVd4bk9kRTU1cXB4Y1NXb1JWUUptRHdEanEtejExeHdvclJHUGIybjFGOXJzYVhVbTN0UFE?oc=5",
+      "source": "bbc.com",
+      "date": "Mon, 21 Sep 2026 07:58:41 GMT"
+    },
+    {
+      "title": "인공지능(AI) 고용서비스, 아이디어부터 개발까지 국민이 직접 만든다 「고용24 국민참여 인공지능(AI) 고용서비스 발굴 온라인 해커톤」 개최",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPS3Y1UlU0d2wtc2lTRXIyZXh1aEhtellod1dZd2hsUkpwVkZuV0xaOGtENUZNRmpIX0ZSc2x4aUFORjBtcGNqMDlGZ0NNVE8wOTRTMWtZNFBUM0otS01WQ3NXLW1rYUtOQlVKZzhWeGxhOExFTDZQYzhURzVnMDBQeExmSFlXSXFXSVZZ?oc=5",
+      "source": "대한민국 정책브리핑",
+      "date": "Mon, 21 Sep 2026 03:59:45 GMT"
+    },
+    {
+      "title": "문체부, 생성형 인공지능 활용 음악의 저작권 신탁·분배 기준 논의",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41bXJfTEVFZlNqTzhMOTB0NlNjai02UUNndk5sUFhaTThkd21PUDNJdGlVdXdjZm9odHo2Szk4WTFGY3E4SjNmcUNYdEJISUtHSjVfWk9CQ2J2S2FZRFdoem5paU0zbjQ?oc=5",
+      "source": "aitimes.kr",
+      "date": "Mon, 21 Sep 2026 02:41:25 GMT"
+    },
+    {
+      "title": "인공지능(AI)이 설계한 어선 3척 바다로! … 직접 타본 어민들 “단단하고 갑판도 넓어”",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBkeVQ2UUswMExHakU4bEszVUpnb1FId1g1MVFzRnhMbE52RDdHZ2Z4bWNxQjVUOXpiSWRqZHlwYkRBalhYSTd1VDRrNFUtTU9UM1NJeEtwYTVBTnQ3bG9vbTJHdjh6cWl2UzYyY3VlRHhpVGM?oc=5",
+      "source": "쉬핑뉴스넷",
+      "date": "Mon, 21 Sep 2026 00:49:53 GMT"
+    },
+    {
+      "title": "AI중독, 인류 퇴화 시작됐다…“내 글인데 기억이 안 나요” [창간기획 AI발 인류지능 퇴보]",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9neHRfTUEyU2pxWmExTV9UNmUxNW5XM2VnRGdWWm5EMHRlU0h5Y01sZS1tSFN5c01LOTg4Q2NqSGtGY3JOQkZ0LUNIVUp0bTFKZDNXZWZ3?oc=5",
+      "source": "중앙일보",
+      "date": "Sun, 20 Sep 2026 20:00:02 GMT"
+    },
     {
       "title": "美 트럼프, ‘AI軍’ 만든다… “인공지능 이름 바꿔야” 주장도",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZGtlZF9HQmljaVo5SU9xRURmX3dCZlJVMUlOVW5ZdWprVkVnUXdhYXc4Y24xMXlvNmZ6NzJfTVFqWl9Pa2NQcnJDbExTWjNGbzdqYmVtN3NtaHd6Mmg3Wmg4UW5oaWdRaVd2d29SYml4Tmh2MVoxdlMwRWRaeEFsUGNlUQ?oc=5",
-      "source": "chosun.com",
+      "source": "조선일보",
       "date": "Sun, 20 Sep 2026 06:05:00 GMT"
-    },
-    {
-      "title": "인천 부평고, 인공지능(AI)·로봇 체험으로 지역 학생과 배움 나눠",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3LUtkcnhCMjROUTNLclhZVDdNazBQaElvNC04clNtYThhQmJIbVpoNDdzSWhqbHBfZzRnVVdjUzdxNEJEN3Q5cGwzWkJyVlU2eGVGRG82UVJ3Z0E?oc=5",
-      "source": "경기일보",
-      "date": "Sun, 20 Sep 2026 05:58:21 GMT"
     },
     {
       "title": "트럼프 \"'AI 군' 창설…인공지능 이름도 바꾸자\"",
@@ -20,58 +56,22 @@
       "date": "Sun, 20 Sep 2026 00:42:55 GMT"
     },
     {
-      "title": "“AI 속도조절을” “대놓고 담합하네?”…인공지능 기업들 고소 당했다",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBmTVUydHd6S241RzM4VHFIa05HSGxGMUVoSWg0LV9MOHZibWxmc1U0ZmFvR0s0UFFOX3k4TzdhWnVFcnFqS2lBR0ZPUTdKZGM?oc=5",
-      "source": "v.daum.net",
-      "date": "Sat, 19 Sep 2026 20:36:00 GMT"
+      "title": "트럼프 \"새 'AI 차르' 임명할 것…인공지능 명칭 바꿔야\"",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5venBPZlVienZ2WEt4RXlxdXFOdjB3dHBXU0FGR2NxMjc5U2xrcEhGeTR6WEgxQXhOMzdqRUd2djlzTjFYRzJVekltaVhpeFBnVnBRNkRSMHktTlVwcEV3ZUNIZzZlM2tMWmc?oc=5",
+      "source": "AI타임스",
+      "date": "Sun, 20 Sep 2026 00:25:42 GMT"
     },
     {
-      "title": "트럼프 \"인공지능 대신 최고지능 어떠냐\"…온라인 설문 부쳐",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44UjZBYU5FektDNFgwZTVVOWRQNlVQODJQLXlkMFpQdEFrV2hhc1lCcFQxMzcwR1V3R3AzbUhjQ2FsQTFwVjNPMnphSWdsaW5XSkkydDFDT05JSE3SAWBBVV95cUxPUVloWEpIbUcyUERfcUdwV2w2bGVoYm9zbVowYkFrenItV3V6RG55S2t0czFtRHdINS1SUHJ5OUZkNDJwNVZQYi02U25tSFZEcU5MUU94WlVELUotUWdqejU?oc=5",
-      "source": "연합뉴스",
-      "date": "Sat, 19 Sep 2026 16:03:50 GMT"
-    },
-    {
-      "title": "AI로 약물 찾고 VR로 해부한다..전남대 수의대, 인공지능 융합교육 본격화",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80SUNXSHZnNlhaRWNEMWtoYkgtMWZuNl9pd18xczdTdUJsX2hFSlRpRnV2ekNvZFF6aXluX3dXbEFKTVVrajFBT3ZhblB4XzZDckIzeURVUjA4UQ?oc=5",
-      "source": "데일리벳",
-      "date": "Sat, 19 Sep 2026 00:58:09 GMT"
+      "title": "트럼프 “’인공지능’ 대신 ’최고지능’ 어떠냐“…온라인 설문 부쳐",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SzR3T1V1R192NXZpMjdSQzA0R3d1RWNSYlgwUWhVVDlsUUp0RzNOQzR3cDJPSkZNQXV3LXBDakJTblJvN0k1YzFjSGtrbTAxYjdoczhNYU9wVC1zLTl5MG5keWtVZm8?oc=5",
+      "source": "연합뉴스TV",
+      "date": "Sat, 19 Sep 2026 16:15:00 GMT"
     },
     {
       "title": "\"AI 통제 실패는 기정 사실…피해자도 존재\"",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1fMnpCdzhiU2RGdjhFeEJuNEhYMlJ1am1CcV9Kc3RwTi10NGRIaEJSMS1ZT01UcU5OOVlxcnVEVFRTSEZwRDFhdGY5YWp2V0lGY3FZLQ?oc=5",
       "source": "DongA Science",
       "date": "Fri, 18 Sep 2026 09:17:00 GMT"
-    },
-    {
-      "title": "KAIST-POSTECH ‘사이언스 워’…AI가 마리오 카트 몰고, 생성형 AI로 해킹",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PZk0zOWhBeVlZTnl6YW5LRVRoWVJRNm1RUkdKVGZmRFNlN1lWM08teWpFSnhCYVNFeDR0WDYzNlh2SzRYN1RaX1hxT0pOMWViU2d1Um50Q1BqOWRhSXM1a2luOGVYazg?oc=5",
-      "source": "aitimes.kr",
-      "date": "Fri, 18 Sep 2026 04:16:51 GMT"
-    },
-    {
-      "title": "한수원, 인공지능(AI) 기술 확산 및 무선통신 기술교류 통한 산업계 협력 강화",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FUUIxSzFNQjB3WWpYZjhoZFNBdkN3anh2czI2d2NBa3Z4bUxkZm9oRnl2RVdlR0puLU9LcVZVV19XdnZoZWdNQ2RySkl0VUNTcTc1V3pCQ09aYjNtVWhJU3hJVXFvQlhG?oc=5",
-      "source": "데일리대구경북뉴스",
-      "date": "Fri, 18 Sep 2026 02:12:13 GMT"
-    },
-    {
-      "title": "\"오픈AI, 챗GPT 개발에 언론사 기사 1천만건 도둑질\"",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MVXN6UkgxazFGZlhCVDI5dTVObFM1QXFFTE1xSHZ2eXVZX00yRDBJZ29UcDZqbXo0SFJfakt0aFdOT1EwLVdJa2pIUUdnMklvRi1PXzZxbnBfVTTSAWBBVV95cUxNQnVQZGI3RHhMMEtvOUNFN2xQcFZuQnBQNExaOUFTNFZndGNrRUpwcEZudi00NVV5emRPa0xBVW5CaHk0YTluNUFUVk9fVkZpY1BGblBWRTdGZmQtdDRvZTQ?oc=5",
-      "source": "연합뉴스",
-      "date": "Fri, 18 Sep 2026 01:33:38 GMT"
-    },
-    {
-      "title": "김해시, 인공지능(AI) 번식관리시스템 양돈농가 보급",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzN2d0ZTNIa2xMRnZtMUxDMkdUdTFvd09jaExiRUVSdThNVTlRbVFCUW01aXFpQnpCRXkzMXp6WE5CSE92bkt1UlpFb0hSQlhfanZJX3JpN2EtcDFTWXJRelpISG5CN3JSeEHSAWxBVV95cUxQQ2E0SkxKTUhIN0wzWUo4NHNZQVJxU2w4Uk5RVmRvak9XMmVSb0NwdlZUMjY3dmhwWUpaaVQ1SXBPNUI5ZS04ZGRZSXV6VENKLTRhanRyUDlFcmxrXzZvQk9TbHB1ckhnX1V4RzY?oc=5",
-      "source": "한돈뉴스",
-      "date": "Thu, 17 Sep 2026 19:34:00 GMT"
-    },
-    {
-      "title": "경북개발공사 생성형AI·데이터분석 경진대회 개최",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5nLUY0dk1MNWxkMVIycnVPMlVfZWVtQ0tqNzRhU1JnYnR3YzRXdmVSRmFpUy1vZHFiZlBqd3ByUEdzWUdPRERZX2tFYnJ1bEU?oc=5",
-      "source": "v.daum.net",
-      "date": "Thu, 17 Sep 2026 07:06:03 GMT"
     }
   ]
 }
