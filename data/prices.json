@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-20T07:39:23.994Z",
+  "last_updated": "2026-09-21T07:51:52.149Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -254,15 +254,15 @@
       "id": "deepseek/deepseek-v4-flash-0731",
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "price_1m_input": 0.04,
-      "price_1m_output": 0.08,
+      "price_1m_output": 0.16,
       "context_length": 1310720,
       "top_provider": true
     },
     {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "price_1m_input": 0.04,
-      "price_1m_output": 0.07,
+      "price_1m_input": 0.09,
+      "price_1m_output": 0.18,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -283,18 +283,10 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-v4.1-flash",
-      "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "price_1m_input": 0.15,
-      "price_1m_output": 0.6,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
       "id": "deepseek/deepseek-v4-flash-vision-exp",
       "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
       "price_1m_input": 0.22,
-      "price_1m_output": 0.65,
+      "price_1m_output": 0.66,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -339,6 +331,14 @@
       "top_provider": true
     },
     {
+      "id": "deepseek/deepseek-v4.1-flash",
+      "name": "DeepSeek: DeepSeek V4.1 Flash",
+      "price_1m_input": 0.3,
+      "price_1m_output": 1.2,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
       "id": "deepseek/deepseek-chat",
       "name": "DeepSeek: DeepSeek V3",
       "price_1m_input": 0.32,
@@ -347,27 +347,11 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-v4-pro",
-      "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "price_1m_input": 0.42,
-      "price_1m_output": 0.84,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
       "id": "deepseek/deepseek-r1-0528",
       "name": "DeepSeek: R1 0528",
       "price_1m_input": 0.5,
       "price_1m_output": 2.15,
       "context_length": 163840,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-v4-pro-0813",
-      "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "price_1m_input": 0.66,
-      "price_1m_output": 1.98,
-      "context_length": 1048576,
       "top_provider": true
     },
     {
@@ -392,6 +376,22 @@
       "price_1m_input": 0.8,
       "price_1m_output": 0.8,
       "context_length": 8192,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek: DeepSeek V4 Pro 0423",
+      "price_1m_input": 0.96,
+      "price_1m_output": 1.91,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "name": "DeepSeek: DeepSeek V4 Pro 0813",
+      "price_1m_input": 1.32,
+      "price_1m_output": 3.96,
+      "context_length": 1048576,
       "top_provider": true
     },
     {
@@ -741,16 +741,16 @@
     {
       "id": "meta-llama/llama-4-maverick",
       "name": "Meta: Llama 4 Maverick",
-      "price_1m_input": 0.19,
-      "price_1m_output": 0.65,
+      "price_1m_input": 0.2,
+      "price_1m_output": 0.8,
       "context_length": 1048576,
       "top_provider": true
     },
     {
       "id": "meta-llama/llama-3.1-70b-instruct",
       "name": "Meta: Llama 3.1 70B Instruct",
-      "price_1m_input": 0.4,
-      "price_1m_output": 0.4,
+      "price_1m_input": 0.72,
+      "price_1m_output": 0.72,
       "context_length": 131072,
       "top_provider": true
     },
@@ -1747,14 +1747,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3.6-35b-a3b",
-      "name": "Qwen: Qwen3.6 35B A3B",
-      "price_1m_input": 0.1,
-      "price_1m_output": 0.9,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3.5-9b",
       "name": "Qwen: Qwen3.5-9B",
       "price_1m_input": 0.1,
@@ -1835,6 +1827,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3.6-35b-a3b",
+      "name": "Qwen: Qwen3.6 35B A3B",
+      "price_1m_input": 0.15,
+      "price_1m_output": 1,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3-next-80b-a3b-thinking",
       "name": "Qwen: Qwen3 Next 80B A3B Thinking",
       "price_1m_input": 0.15,
@@ -1863,6 +1863,14 @@
       "name": "Qwen: Qwen3.6 Flash",
       "price_1m_input": 0.19,
       "price_1m_output": 1.13,
+      "context_length": 1000000,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3.8-27b",
+      "name": "Qwen: Qwen3.8 27B",
+      "price_1m_input": 0.2,
+      "price_1m_output": 2.5,
       "context_length": 1000000,
       "top_provider": true
     },
@@ -2008,14 +2016,6 @@
       "price_1m_input": 0.4,
       "price_1m_output": 4,
       "context_length": 131072,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3.8-27b",
-      "name": "Qwen: Qwen3.8 27B",
-      "price_1m_input": 0.42,
-      "price_1m_output": 3,
-      "context_length": 1000000,
       "top_provider": true
     },
     {
