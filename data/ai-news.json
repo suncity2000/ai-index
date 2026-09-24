@@ -1,11 +1,29 @@
 {
-  "last_updated": "2026-09-23T14:03:49.883Z",
+  "last_updated": "2026-09-24T14:00:30.410Z",
   "news": [
+    {
+      "title": "샘 올트먼, UN안보리 회의에서 인공지능(AI)과 국제 안보 주제 발언",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAybU81WVp2cnhpLUZkbUpTNUdqSkNDRlJMalNFVHBJNVQyNHZfS015S2ZLcV9sVGVOaU1GWEZfQVlSOGFuUlMwdm5LZWFWQQ?oc=5",
+      "source": "전자신문",
+      "date": "Thu, 24 Sep 2026 06:26:35 GMT"
+    },
+    {
+      "title": "OpenAI, ChatGPT의 실시간 음성에 플러그인을 도입하고 작업에 음성을 추가",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVksycG5IZldyTWF3aEJJbDNNaGxIdlJJOUlwTU9Tak02MGlTOEJnSDBHOWlocG5JWV9YMG9uWWhGRGFxNkM2bnZ0WDRLTzg5TElCcUdGMFVMcXI3ZFdid0FkZWp5VG1iYV8zU1FGLThMVGx6ZDRJbkhZazc4Z1NRYnh3c2lwc0tDcXY0aTM0M1Q5Mlk?oc=5",
+      "source": "Unite.AI",
+      "date": "Wed, 23 Sep 2026 18:15:42 GMT"
+    },
     {
       "title": "제주도 공직자 인공지능 업무활용 지원 ‘AI해봄마루' 개소",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5VcWF5YnhWZUJxbUtYRGVMT1VXQWFQRjdqTUc5bzVLVEFKWkFxTHhBaXdYNXlkbTZfRE9lbVVDdnlMY1JhTFZRSHpFTnA5QWp4U2JwdDZaZ3ItblAxUVNQR1VBSnhiWDgza2RHMjJ0RHl3R1k?oc=5",
       "source": "헤드라인제주",
       "date": "Wed, 23 Sep 2026 02:29:54 GMT"
+    },
+    {
+      "title": "한수원, 인공지능(AI) 기반 감사혁신 및 적극행정 지원제도 활성화 협력",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1wbDM3LVhvVlF5QjVjUGVYeDdNZUJVYXU3N1pUdUZRek1nTnRwXzZLZU9oSmNEOWhOb2dTTWJ3S3lOR3A5bVR2TzR2ckVfNTFGOGRodk1rMThXa0x0OEVpQ0d4VmVIQQ?oc=5",
+      "source": "데일리대구경북뉴스",
+      "date": "Wed, 23 Sep 2026 01:10:05 GMT"
     },
     {
       "title": "튜닙, 한국어 최적화 생성형 AI 안전장치 만든다 [서울AI허브 2027]",
@@ -14,22 +32,22 @@
       "date": "Tue, 22 Sep 2026 23:16:31 GMT"
     },
     {
-      "title": "인공지능 사랑하는 트럼프? \"AI, '슈퍼' 지능으로 변경할 것\"",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9oQkZ0U0dEaUUwME1OMHdiYmxLanA3OHlKLXRtWWNYbjlDVU15ZDJJS2lWRE9QaTctb3dqR3VWcnVjS2VoLWVFMXFyZm93Ql9RMTJDVHM5Ul83LVM2ZmIyQ2pNZFB6bmdXLVVv?oc=5",
-      "source": "프레시안",
-      "date": "Tue, 22 Sep 2026 16:26:07 GMT"
-    },
-    {
-      "title": "‘AI 종말론’ 뒤편…‘인공지능 영토’ 미-중 패권 다툼",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE10WXc4a3VIa2JxWkFHT2dPYUNaSV9iZWQwbmhBOVV4OXdSODdXNVZKZWVHUWxXNV9CWmtCYm9lblR0czlsNGROZmlicUtpSG5zRl9pZHVzTEd4cUJ1ZTJBQVUwU20tUQ?oc=5",
-      "source": "한겨레",
-      "date": "Tue, 22 Sep 2026 11:21:00 GMT"
-    },
-    {
       "title": "[AI 활용팁] 엑셀 안에서 바로 쓰는 챗GPT, 설치할 때는 ‘ChatGPT’로 검색해야 한다",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ULVIwRVVwTG5qTVpGN0phN21nME5UbE82RXpPMm4wTXUwMUVyaklWU1VTLWV2TG94UlhzWlBoRnNhRWczci1aTlZNQ3FqcTg?oc=5",
       "source": "AI 매터스",
       "date": "Tue, 22 Sep 2026 05:42:49 GMT"
+    },
+    {
+      "title": "모두의 AI, 현실이 되다…'AI페스타' 1년만에 확 달라진다",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04WmhPdnRyOE9WQ3hfOVNxTXdOdGEtdy1qeTF5bTZzYUZNVzU1Y3k5cnpfZmVEaVc2Q183M0k0QU1YYnNNUUM4b3E2SkYzNWxZZUcyN2hn?oc=5",
+      "source": "지디넷코리아",
+      "date": "Tue, 22 Sep 2026 05:32:49 GMT"
+    },
+    {
+      "title": "관세청, 현장형 인공지능 혁신으로 일하는 방식 바꾼다",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZEZ2cjFJdmRQMWNmekxOZ0x1VHFiUThNeDhZbldxcC1qSVBrY0JPQW1iXzlNSHc5U0F0R3lSWGxjYk0xU0pyYzBUQ1RqRGNlXzFXTi1rb0NwQ3lqY1UyRG5RYXdmSm9xQlRMWEtsbXB2cm5GajREQjdXN1otZ3kxQWJ1Vk9qTVRIQTlEVDMxSk1YZw?oc=5",
+      "source": "대한민국 정책브리핑",
+      "date": "Tue, 22 Sep 2026 05:32:26 GMT"
     },
     {
       "title": "[게시판] 관세청, 인공지능 전환 콘퍼런스…AI활용 성과 공유",
@@ -46,7 +64,7 @@
     {
       "title": "파수AI, 생성형 AI에 입력하는 기밀정보 유출 차단 기술 공개",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBOXzc0eURxMTBHSzlGUERNTFBLVVlFclVzV3REYURIR21KQXlvdFBGelhZZERPMlpZbHctVk1ibW1VRWRRbjlySk1hV3BVdmZIc2dkUHZRZG5xVWRpQW11RFlkS2NTbnc2cTNNZNIBbEFVX3lxTFBOXzc0eURxMTBHSzlGUERNTFBLVVlFclVzV3REYURIR21KQXlvdFBGelhZZERPMlpZbHctVk1ibW1VRWRRbjlySk1hV3BVdmZIc2dkUHZRZG5xVWRpQW11RFlkS2NTbnc2cTNNZA?oc=5",
-      "source": "블로터",
+      "source": "bloter.net",
       "date": "Tue, 22 Sep 2026 01:15:30 GMT"
     },
     {
@@ -54,24 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdzZpbzU3QzNZY2FLX1hlcVB4c0I0bEptYUdvanUyNTl3TzQwTmVBWGJfMjg5Z0kzczVwQlJRSFZmZnBNcTB4ZVRJTFNfZTFMVnYteGkyRDdJTmtDV2lRdktEVUFvbHZ4OFRSSGJwUXE1M2xTc1NIWW5sd2pmUzRHTFl2Yks?oc=5",
       "source": "글로벌이코노믹",
       "date": "Mon, 21 Sep 2026 15:00:00 GMT"
-    },
-    {
-      "title": "\"생성형 AI에 개인정보 넣지 마세요\"…지역정보개발원 보안 강화",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aSFhSNWg3SHFBUEp1YmlmS1JnV2VBZ3R0Zm5DQjcycmNHVGk2aXhmaWduWW9DUXZZR21yYjdIV05SZnphdGNPRFBQb2VoMTVyMUkxWDRnd3VDUQ?oc=5",
-      "source": "한국경제",
-      "date": "Mon, 21 Sep 2026 14:47:40 GMT"
-    },
-    {
-      "title": "파수 AI, 생성형 AI 정보 유출 대응 제시",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxS2s2QUtYVnA4bnJjeHJLTUZrdHpmcENLb09EY0VOSERxMkgwNnZjanl6T0dKbkwtWm1qRWdNSHB6WFM2OFhzVktycHdSOFQ4SEIyd3RxYTNLRWJfWFk1c1NWYmpVTjRJUnZyRA?oc=5",
-      "source": "smartbizn.com",
-      "date": "Mon, 21 Sep 2026 08:51:00 GMT"
-    },
-    {
-      "title": "생성형 AI로 성인용 영상물 접하는 청소년… 보호체계는 ‘공백’[2026 국감]",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE83TmZCWjJ2UG5HUXhZNXJCQTVRc3Vhd3dMcDJCSm95Qm51ekVfU0haY2UxYnJrX2VJREhfN0dDbGY2RFhxZURvb2lPazltSUhyUzVkYUh0RnJiVUx4NEpHQ3BEenhOQQ?oc=5",
-      "source": "news.unn.net",
-      "date": "Mon, 21 Sep 2026 05:43:04 GMT"
     }
   ]
 }
