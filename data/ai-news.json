@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-09-24T14:00:30.410Z",
+  "last_updated": "2026-09-25T14:24:43.919Z",
   "news": [
+    {
+      "title": "OpenAI IPO에 대해 알아야 할 핵심 정보",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMXFoSjFPcUg2YzgyM2NQcG9QVi1kZ1UxVk03Ti1yaktpVzRoRTZ4aGtnVmRTQ3B2SlhkOTE2LTF6cUZxQjdTenpLZmszbXdueDJBU29odVNPRUh3cmM3V1BkTURWTG1mUVlWRmdpTURfcmJ0dUFQWGRKWjRaaWdrcXJrenJ3SV9ENDAwc2k4X0Z4WXpfUFRFejZtT2tBR0haVWpYdTBZMUg?oc=5",
+      "source": "TradingKey",
+      "date": "Fri, 25 Sep 2026 06:13:33 GMT"
+    },
+    {
+      "title": "파주시 중앙도서관, 어린이 대상 ‘인공지능(AI)으로 만드는 특별한 동화책’ 프로그램 운영",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1nTUhNQVMxRFJyRGRPSjY0cUwwNEduT1NUOEZCc0h6SlN5OXlsTkgyaHVwR1FsNDhkZW03bkdhalJibzA5aTBQcHhvcFRVODJZdVJRaGxkS1BkY2JZcUgzMHlzbTFEdw?oc=5",
+      "source": "파주바른신문",
+      "date": "Fri, 25 Sep 2026 05:00:31 GMT"
+    },
+    {
+      "title": "퀄컴, “에이전틱 AI 시대 , 스냅드래곤이 개인 AI 생태계 이끈다”",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NZC1UaS1LVzRKUXdZaUhaT29pZTB2eUkySktxekl5elhVNFVhMlhpc2JHNVJHUmw2bHlTSG55NXRNRE1wM29IVjdIMmdUM1AzU0JzM0dfMmR3djBYM29Jc1NoVUlrbVE?oc=5",
+      "source": "인공지능신문",
+      "date": "Thu, 24 Sep 2026 23:23:18 GMT"
+    },
+    {
+      "title": "유튜브, 생성 AI 전면 도입...\"말 한마디로 편집하고 맞춤 피드 구축\"",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1naW0zVnpwUWVTazFBNk04d1liaHZvNTFKRDdyNjVGUzI0UzhCYVpLaDJuUk5WMEdyMUxteDRzTE1jeWlfTHZHQXFqdE1Hem8tUkdZRWo4S0dzWjJTRy1kWFNzU3g4aTlZMEE?oc=5",
+      "source": "AI타임스",
+      "date": "Thu, 24 Sep 2026 11:41:06 GMT"
+    },
     {
       "title": "샘 올트먼, UN안보리 회의에서 인공지능(AI)과 국제 안보 주제 발언",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAybU81WVp2cnhpLUZkbUpTNUdqSkNDRlJMalNFVHBJNVQyNHZfS015S2ZLcV9sVGVOaU1GWEZfQVlSOGFuUlMwdm5LZWFWQQ?oc=5",
@@ -26,52 +50,28 @@
       "date": "Wed, 23 Sep 2026 01:10:05 GMT"
     },
     {
-      "title": "튜닙, 한국어 최적화 생성형 AI 안전장치 만든다 [서울AI허브 2027]",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFOTZ3QXJQUzhjZzM2NWRsN01PUnV3U1hoRnE4Ui1EZjAxeU1NRDY0T09hTGpRTko3dVNJMkdYNHVKaU9OY05IeGJGZlZ0RERNM0tDZUhxYnpPcV91N2J3WnZMT0RyVDRMSXJtR0hFdW5rbWpD0gF0QVVfeXFMUEU5NndBclBTOGNnMzY1ZGw3TU9SdXdTWGhGcThSLURmMDF5TU1ENjRPT2FMalFOSjd1U0kyR1g0dUppT05jTkh4YkZmVnRERE0zS0NlSHFiek9xX3U3YndadkxPRHJUNExJcm1HSEV1bmttakM?oc=5",
-      "source": "IT조선",
-      "date": "Tue, 22 Sep 2026 23:16:31 GMT"
+      "title": "GPT‑6 Astra로 연구 시간과 비용을 절반으로 줄인 Parallel",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBRMXY0bHZsdnpDejhHamlnbTlZcVA5TkpPTEtWT0pJUTlSanp0RjlTUmt5R0FWMjVBd081OTUybVk3NnR3ai01d0p5VjJZMDdMaTdhbHg2SThSU2tHQ294XzVpbFVqRzNucDk1LWtHYWRGbDJYUUlKOGpR?oc=5",
+      "source": "OpenAI",
+      "date": "Tue, 22 Sep 2026 21:32:58 GMT"
+    },
+    {
+      "title": "“엄마, 저 바보 되어가요” 아이의 충격 고백…AI항복 막을 15분 [AI발 인류지능 퇴보]",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5WaVpnYkQzM1hxY25QWTBOWVU5NzRjbkFNUHlSdC1EQVdpbXB0YWhqRUw2R0YxS09QSmY4T0lzSEVTQmxPc3lyLVFuem1aMDQ?oc=5",
+      "source": "v.daum.net",
+      "date": "Tue, 22 Sep 2026 20:03:08 GMT"
+    },
+    {
+      "title": "“AI가 만들고 침해하면 누가 책임지나”... 중국, 개발자·제공자·사용자 책임 기준 세웠다",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9uQU1xaFEtdmpXaGRnSUZkNk8wYnFZdGFrYWtuTTd1STN4dmhyeGw5N3lNcm1OM3J2UW9tbXJhN2Y5d2ZFOEFrbA?oc=5",
+      "source": "특허뉴스",
+      "date": "Tue, 22 Sep 2026 08:46:00 GMT"
     },
     {
       "title": "[AI 활용팁] 엑셀 안에서 바로 쓰는 챗GPT, 설치할 때는 ‘ChatGPT’로 검색해야 한다",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ULVIwRVVwTG5qTVpGN0phN21nME5UbE82RXpPMm4wTXUwMUVyaklWU1VTLWV2TG94UlhzWlBoRnNhRWczci1aTlZNQ3FqcTg?oc=5",
       "source": "AI 매터스",
       "date": "Tue, 22 Sep 2026 05:42:49 GMT"
-    },
-    {
-      "title": "모두의 AI, 현실이 되다…'AI페스타' 1년만에 확 달라진다",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04WmhPdnRyOE9WQ3hfOVNxTXdOdGEtdy1qeTF5bTZzYUZNVzU1Y3k5cnpfZmVEaVc2Q183M0k0QU1YYnNNUUM4b3E2SkYzNWxZZUcyN2hn?oc=5",
-      "source": "지디넷코리아",
-      "date": "Tue, 22 Sep 2026 05:32:49 GMT"
-    },
-    {
-      "title": "관세청, 현장형 인공지능 혁신으로 일하는 방식 바꾼다",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZEZ2cjFJdmRQMWNmekxOZ0x1VHFiUThNeDhZbldxcC1qSVBrY0JPQW1iXzlNSHc5U0F0R3lSWGxjYk0xU0pyYzBUQ1RqRGNlXzFXTi1rb0NwQ3lqY1UyRG5RYXdmSm9xQlRMWEtsbXB2cm5GajREQjdXN1otZ3kxQWJ1Vk9qTVRIQTlEVDMxSk1YZw?oc=5",
-      "source": "대한민국 정책브리핑",
-      "date": "Tue, 22 Sep 2026 05:32:26 GMT"
-    },
-    {
-      "title": "[게시판] 관세청, 인공지능 전환 콘퍼런스…AI활용 성과 공유",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmbnY5Z3lLYnZKYXhncTAzcjF1SFN0QzllWlhzTE5nTFJOc1U5ZmxFX3VyQ0tGY0kzVGFGS3h2cUxUS1ZKN1N4UlA1NWZYdkkyYjdOY1pKRTAxWVXSAWBBVV95cUxOdVR5blM0eU9kNGhaQ0JUZ09DeTFvSnp5RXJuWWlpNVFkdTRPbTNSbWN1VnJiYk12Sk1qR0FIRURwZ0NGZmsxbmdfRzBXbjlORkZidmpzQVZMUm9LazdudkM?oc=5",
-      "source": "연합뉴스",
-      "date": "Tue, 22 Sep 2026 05:17:49 GMT"
-    },
-    {
-      "title": "포천시, 대표 누리집 전면 개편…인공지능(AI) 검색 도입",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ob241LVpsekhPUlVHZExURDlzWmtrOUtPREt2ekZub1AxNS1CMWQ0eVZrb1hYYmFIMnItX0F6b0lWeFFlRmUtbV9DVFJrMmtMMDN3OTlyVlNTNGo4OGtoS0FfQlPSAWhBVV95cUxQTkVCZ2tJSkFWdU5Yc2JSYXJ0dzF6SVdwb3lBN19MU2pTNHNaT0NsMmdTLTField3cW5LZnA2eUVFRWQwX3VGZnNTZ04wbGpHOEFpLWVRNXo0M1lpcFNYMXpEZWhNZm1oZw?oc=5",
-      "source": "매일일보",
-      "date": "Tue, 22 Sep 2026 04:40:06 GMT"
-    },
-    {
-      "title": "파수AI, 생성형 AI에 입력하는 기밀정보 유출 차단 기술 공개",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBOXzc0eURxMTBHSzlGUERNTFBLVVlFclVzV3REYURIR21KQXlvdFBGelhZZERPMlpZbHctVk1ibW1VRWRRbjlySk1hV3BVdmZIc2dkUHZRZG5xVWRpQW11RFlkS2NTbnc2cTNNZNIBbEFVX3lxTFBOXzc0eURxMTBHSzlGUERNTFBLVVlFclVzV3REYURIR21KQXlvdFBGelhZZERPMlpZbHctVk1ibW1VRWRRbjlySk1hV3BVdmZIc2dkUHZRZG5xVWRpQW11RFlkS2NTbnc2cTNNZA?oc=5",
-      "source": "bloter.net",
-      "date": "Tue, 22 Sep 2026 01:15:30 GMT"
-    },
-    {
-      "title": "[김대호 진단] 반도체 열전 (55) 허깅페이스...인공지능 AI의 반란",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdzZpbzU3QzNZY2FLX1hlcVB4c0I0bEptYUdvanUyNTl3TzQwTmVBWGJfMjg5Z0kzczVwQlJRSFZmZnBNcTB4ZVRJTFNfZTFMVnYteGkyRDdJTmtDV2lRdktEVUFvbHZ4OFRSSGJwUXE1M2xTc1NIWW5sd2pmUzRHTFl2Yks?oc=5",
-      "source": "글로벌이코노믹",
-      "date": "Mon, 21 Sep 2026 15:00:00 GMT"
     }
   ]
 }
