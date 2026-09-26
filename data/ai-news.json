@@ -1,11 +1,41 @@
 {
-  "last_updated": "2026-09-25T14:24:43.919Z",
+  "last_updated": "2026-09-26T13:36:37.947Z",
   "news": [
+    {
+      "title": "[스냅드래곤 서밋 2026] 퀄컴 \"인식 중심 AI, 생성형 AI를 거쳐 에이전틱 AI로 발전\"",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBqR09JZVdzQUR4V2xoQ24zS09qdDlXRU52dEVuUWRyUzEzQkNNLU1ad0RFYzFUVHN6QkgyVjA3RXJXRmRicGd0dzV5bw?oc=5",
+      "source": "아이뉴스24",
+      "date": "Sat, 26 Sep 2026 08:50:37 GMT"
+    },
+    {
+      "title": "OpenAI는 자사의 AI 에이전트가 ChatGPT에서 사용자 사진 53장을 무단으로 온라인에 업로드한 사실을 발견했습니다.",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNEhLSnowMkpCNklvaGVoNWl2T3pzcUd0dHVkUjJQdG9wM21tdkNTTVBIdXQ2RUtKSFpzS1dla3I5MWZtSDlPN3FIZWhJWW9kMW1ndnhxOFhlVFdZZ18zMmp6bWtOUVJPc2dPQURUTjlWQ3BHY0FGRmZRYlNqRjRzTE8zZWJMblB4NVpNUU9ZRjBLVGFMRF85MkhjOA?oc=5",
+      "source": "Vietnam.vn",
+      "date": "Sat, 26 Sep 2026 06:58:39 GMT"
+    },
     {
       "title": "OpenAI IPO에 대해 알아야 할 핵심 정보",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMXFoSjFPcUg2YzgyM2NQcG9QVi1kZ1UxVk03Ti1yaktpVzRoRTZ4aGtnVmRTQ3B2SlhkOTE2LTF6cUZxQjdTenpLZmszbXdueDJBU29odVNPRUh3cmM3V1BkTURWTG1mUVlWRmdpTURfcmJ0dUFQWGRKWjRaaWdrcXJrenJ3SV9ENDAwc2k4X0Z4WXpfUFRFejZtT2tBR0haVWpYdTBZMUg?oc=5",
       "source": "TradingKey",
-      "date": "Fri, 25 Sep 2026 06:13:33 GMT"
+      "date": "Sat, 26 Sep 2026 06:11:35 GMT"
+    },
+    {
+      "title": "오픈AI 에이전트, 챗GPT 이용자 이미지 53장 무단 유출",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5Sk9UODNOQmdFZ3Nla0FOdGtpVjhwMmNqZjJNVWtZckhURnJ0X3VEQUozZ09wcFJaTlNxVFlmY0VhRmxETHQzR2dqOTRfLWtfYW5aWkZYM0JkN3fSAWBBVV95cUxNcGxrSHdwV2VPUDczU003RExQUnY1VU9USnZiRWZ5ZmF3Z1dQUDJYOFVodF8tUUpHcUUyd3MtMUkzb0NSRXBhS2J3MzR0T1VjdElMMFRRaXNYV2R3WGhncG4?oc=5",
+      "source": "연합뉴스",
+      "date": "Fri, 25 Sep 2026 22:46:43 GMT"
+    },
+    {
+      "title": "트럼프 \"인공지능(AI) 대신 수퍼지능(SI) 호칭 합의\" 강조 [이상은의 워싱턴나우]",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hZFRrblFKSVFLZGhZcy1iSjg2WXJleUFyRlVYSHQ2ZVgtTjVDQmFjN29ZejhReU1hQzFyUlppT1owTXoxeUtGU1dfV0RNSTdJNE4wejJWTEtLdw?oc=5",
+      "source": "한국경제",
+      "date": "Fri, 25 Sep 2026 16:18:03 GMT"
+    },
+    {
+      "title": "인공지능(AI)에 대한 낙관론이 다시 고조되면서 미국 주식 펀드가 5주 만에 처음으로 자금 유입을 기록했다",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBQMndod0RaX3VoYkJtUnhFNnhlWnl6VjZqdUhOREJRazhSUUFRZVhSd1ROeU53TVdzZWFtQ1ZxcFlsclk0OGtvcGpsMHIwbmw3RXh6a3RBN0F4eFI4X1l6QmR4VVE2TVo5Z2FheW83WHJRa09NN1dR?oc=5",
+      "source": "TradingView",
+      "date": "Fri, 25 Sep 2026 11:10:21 GMT"
     },
     {
       "title": "파주시 중앙도서관, 어린이 대상 ‘인공지능(AI)으로 만드는 특별한 동화책’ 프로그램 운영",
@@ -20,10 +50,16 @@
       "date": "Thu, 24 Sep 2026 23:23:18 GMT"
     },
     {
-      "title": "유튜브, 생성 AI 전면 도입...\"말 한마디로 편집하고 맞춤 피드 구축\"",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1naW0zVnpwUWVTazFBNk04d1liaHZvNTFKRDdyNjVGUzI0UzhCYVpLaDJuUk5WMEdyMUxteDRzTE1jeWlfTHZHQXFqdE1Hem8tUkdZRWo4S0dzWjJTRy1kWFNzU3g4aTlZMEE?oc=5",
-      "source": "AI타임스",
-      "date": "Thu, 24 Sep 2026 11:41:06 GMT"
+      "title": "영상·음성·음악까지…콘텐츠 제작 바꾸는 특화 AI",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYR2xQcmRROEdlaFhxZlB0T21UVXFQUnNYVlRfeGR0ZEluTGExTFQzVG5IakRkd0x0YmNFX256eEJJUzZQcmZWQnRGeDlWOEtJaVp1ZWRLMFNYTWZ6dkdscWdncjVOU085d1pNeUE5WU3SAXRBVV95cUxOUUx0WVdNWlg1MVh4ZEZhUU1mc2lLRHpCTDZJVTJ2MmtpOEY2MHI5ZFVtXzdQVUlCSHNLU3NZaTZ0RTdXSTZnVXY1b3hETS1JSXZseGpaNmE5cXU4djc5c0VSSHgyaGkwYV9iY095YURfcXhCSw?oc=5",
+      "source": "IT조선",
+      "date": "Thu, 24 Sep 2026 21:00:00 GMT"
+    },
+    {
+      "title": "미국인 10명 중 9명, AI에 \"기대보다 우려\"…규제 강화 요구",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE82YU4yQWdzcmhYaHNaTkRsc0NSVlNMbmRqTjBSTldoRUtodVFrbm5jUlR5b3otT0VLSTlsdldCcDNwSkhHR0dEQXFxTnhCUlB5YUtTZklnZGdZOHPSAWBBVV95cUxQYml6ekh2YVNvVzZmVUpRcjFZREJhZGxfQnB0bE01dEg0WTVkTUh1emhXNE5QRkVPYlBHSG1VNnFsRFZJQ0lWelRiUURkRXFFQ09TdDZudWFnanIxTEhrWWg?oc=5",
+      "source": "연합뉴스",
+      "date": "Thu, 24 Sep 2026 11:00:35 GMT"
     },
     {
       "title": "샘 올트먼, UN안보리 회의에서 인공지능(AI)과 국제 안보 주제 발언",
@@ -32,46 +68,10 @@
       "date": "Thu, 24 Sep 2026 06:26:35 GMT"
     },
     {
-      "title": "OpenAI, ChatGPT의 실시간 음성에 플러그인을 도입하고 작업에 음성을 추가",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVksycG5IZldyTWF3aEJJbDNNaGxIdlJJOUlwTU9Tak02MGlTOEJnSDBHOWlocG5JWV9YMG9uWWhGRGFxNkM2bnZ0WDRLTzg5TElCcUdGMFVMcXI3ZFdid0FkZWp5VG1iYV8zU1FGLThMVGx6ZDRJbkhZazc4Z1NRYnh3c2lwc0tDcXY0aTM0M1Q5Mlk?oc=5",
-      "source": "Unite.AI",
-      "date": "Wed, 23 Sep 2026 18:15:42 GMT"
-    },
-    {
-      "title": "제주도 공직자 인공지능 업무활용 지원 ‘AI해봄마루' 개소",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5VcWF5YnhWZUJxbUtYRGVMT1VXQWFQRjdqTUc5bzVLVEFKWkFxTHhBaXdYNXlkbTZfRE9lbVVDdnlMY1JhTFZRSHpFTnA5QWp4U2JwdDZaZ3ItblAxUVNQR1VBSnhiWDgza2RHMjJ0RHl3R1k?oc=5",
-      "source": "헤드라인제주",
-      "date": "Wed, 23 Sep 2026 02:29:54 GMT"
-    },
-    {
-      "title": "한수원, 인공지능(AI) 기반 감사혁신 및 적극행정 지원제도 활성화 협력",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1wbDM3LVhvVlF5QjVjUGVYeDdNZUJVYXU3N1pUdUZRek1nTnRwXzZLZU9oSmNEOWhOb2dTTWJ3S3lOR3A5bVR2TzR2ckVfNTFGOGRodk1rMThXa0x0OEVpQ0d4VmVIQQ?oc=5",
-      "source": "데일리대구경북뉴스",
-      "date": "Wed, 23 Sep 2026 01:10:05 GMT"
-    },
-    {
-      "title": "GPT‑6 Astra로 연구 시간과 비용을 절반으로 줄인 Parallel",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBRMXY0bHZsdnpDejhHamlnbTlZcVA5TkpPTEtWT0pJUTlSanp0RjlTUmt5R0FWMjVBd081OTUybVk3NnR3ai01d0p5VjJZMDdMaTdhbHg2SThSU2tHQ294XzVpbFVqRzNucDk1LWtHYWRGbDJYUUlKOGpR?oc=5",
+      "title": "차세대 모델 GPT-5.6 Sol 미리 살펴보기",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1JY2x2cXlzYVI5aEZQZDEyeVIyUVJ1c002c0IzdWxVeGxnM2FkNmhtNnFPb2F5ZUNGQ2lPRnlWN1drSmhaUWFPM1ZVQUk4WmFpUDdTeWdBaXdla2V2SXNqR0hCc0Q?oc=5",
       "source": "OpenAI",
-      "date": "Tue, 22 Sep 2026 21:32:58 GMT"
-    },
-    {
-      "title": "“엄마, 저 바보 되어가요” 아이의 충격 고백…AI항복 막을 15분 [AI발 인류지능 퇴보]",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5WaVpnYkQzM1hxY25QWTBOWVU5NzRjbkFNUHlSdC1EQVdpbXB0YWhqRUw2R0YxS09QSmY4T0lzSEVTQmxPc3lyLVFuem1aMDQ?oc=5",
-      "source": "v.daum.net",
-      "date": "Tue, 22 Sep 2026 20:03:08 GMT"
-    },
-    {
-      "title": "“AI가 만들고 침해하면 누가 책임지나”... 중국, 개발자·제공자·사용자 책임 기준 세웠다",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9uQU1xaFEtdmpXaGRnSUZkNk8wYnFZdGFrYWtuTTd1STN4dmhyeGw5N3lNcm1OM3J2UW9tbXJhN2Y5d2ZFOEFrbA?oc=5",
-      "source": "특허뉴스",
-      "date": "Tue, 22 Sep 2026 08:46:00 GMT"
-    },
-    {
-      "title": "[AI 활용팁] 엑셀 안에서 바로 쓰는 챗GPT, 설치할 때는 ‘ChatGPT’로 검색해야 한다",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ULVIwRVVwTG5qTVpGN0phN21nME5UbE82RXpPMm4wTXUwMUVyaklWU1VTLWV2TG94UlhzWlBoRnNhRWczci1aTlZNQ3FqcTg?oc=5",
-      "source": "AI 매터스",
-      "date": "Tue, 22 Sep 2026 05:42:49 GMT"
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT"
     }
   ]
 }
