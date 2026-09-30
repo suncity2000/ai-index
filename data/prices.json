@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-29T08:16:02.111Z",
+  "last_updated": "2026-09-30T08:16:51.432Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -277,9 +277,9 @@
     {
       "id": "deepseek/deepseek-v4-flash-0731",
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "price_1m_input": 0.02,
-      "price_1m_output": 0.32,
-      "context_length": 1310720,
+      "price_1m_input": 0.01,
+      "price_1m_output": 1.28,
+      "context_length": 1048576,
       "top_provider": true
     },
     {
@@ -363,14 +363,6 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-v4-pro-0813",
-      "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "price_1m_input": 0.48,
-      "price_1m_output": 4.2,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
       "id": "deepseek/deepseek-r1-0528",
       "name": "DeepSeek: R1 0528",
       "price_1m_input": 0.5,
@@ -391,6 +383,14 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "price_1m_input": 0.96,
       "price_1m_output": 1.91,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "name": "DeepSeek: DeepSeek V4 Pro 0813",
+      "price_1m_input": 1.32,
+      "price_1m_output": 3.96,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -1267,6 +1267,22 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-6.1-sol-pro:batch",
+      "name": "OpenAI: GPT-6.1 Sol Pro (batch)",
+      "price_1m_input": 1,
+      "price_1m_output": 5,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-6.1-sol:batch",
+      "name": "OpenAI: GPT-6.1 Sol (batch)",
+      "price_1m_input": 1,
+      "price_1m_output": 5,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-6-sol-pro:batch",
       "name": "OpenAI: GPT-6 Sol Pro (batch)",
       "price_1m_input": 1,
@@ -1456,6 +1472,22 @@
       "price_1m_input": 1.75,
       "price_1m_output": 14,
       "context_length": 400000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-6.1-sol-pro",
+      "name": "OpenAI: GPT-6.1 Sol Pro",
+      "price_1m_input": 2,
+      "price_1m_output": 10,
+      "context_length": 1050000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-6.1-sol",
+      "name": "OpenAI: GPT-6.1 Sol",
+      "price_1m_input": 2,
+      "price_1m_output": 10,
+      "context_length": 1050000,
       "top_provider": true
     },
     {
@@ -1787,14 +1819,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3.8-27b",
-      "name": "Qwen: Qwen3.8 27B",
-      "price_1m_input": 0.06,
-      "price_1m_output": 4.4,
-      "context_length": 1000000,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3.5-flash-02-23",
       "name": "Qwen: Qwen3.5-Flash",
       "price_1m_input": 0.07,
@@ -2096,6 +2120,14 @@
       "price_1m_input": 0.4,
       "price_1m_output": 4,
       "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3.8-27b",
+      "name": "Qwen: Qwen3.8 27B",
+      "price_1m_input": 0.42,
+      "price_1m_output": 3,
+      "context_length": 1000000,
       "top_provider": true
     },
     {
