@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-09-29T15:20:56.488Z",
+  "last_updated": "2026-09-30T15:36:35.469Z",
   "news": [
+    {
+      "title": "美 정부, ‘AI’ 대신 ‘슈퍼 인텔리전스(SI)’ 쓴다…트럼프, “새로운 지능 시대 개막”",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54OVdyY0h3UmFQbTNicHcxbkdoT2s5Q0stSXAycTZucDdkTzNUTkx3X2tmcWg0OE1MMmwxWURqRHdESDBja0JhRFU3QlVvejY2Sl9NcF8xMUQyTXgxWmRPdmdGaUtlSkk?oc=5",
+      "source": "인공지능신문",
+      "date": "Wed, 30 Sep 2026 03:14:21 GMT"
+    },
+    {
+      "title": "원전 인공지능(AI) 도입, ‘결정자’ 아닌 ‘조력자’로 활용해야",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42aUY5S3NxdmhELXhSeEtOdlZDYWhCMG95YkxDbVNwSGJnQlBucGFMd1hGZkFKTjU0b3pGUDhBb3YxYlFXRE5NRm8yRVczU1Z2VGo4T1kyR1NWbEV0ckdUZThMU20?oc=5",
+      "source": "에너지안전신문",
+      "date": "Tue, 29 Sep 2026 21:59:08 GMT"
+    },
+    {
+      "title": "DevDay 2026 주요 발표",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBRNlRWMjc4Ykd0NUIxVUF5ZTNyS1dfQmNhNWNRQVFUVllabHZCYW5SR1UwSXMwRFNCRTI4NW50NEs0UHBWSVM1RjF1RVpOT1NoNXV2ZEdfRnJYbG81SHc?oc=5",
+      "source": "OpenAI",
+      "date": "Tue, 29 Sep 2026 17:23:11 GMT"
+    },
+    {
+      "title": "[춘천 AI포럼] 국가인공지능전략위원 “시민 참여로 공익 AI 키우고 일상의 변화 이끌어야”",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Nc1BJT2FrRXBMWWhZQmYwdnhrQmQwVFpmMVh1eEMyRGV4SWp0U255eTVxVWdkNmtadWtDLXV1QUtHbENiY01qMDRCV2diRVA5YWwzSHlPeWNnMUE?oc=5",
+      "source": "kwnews.co.kr",
+      "date": "Tue, 29 Sep 2026 15:00:00 GMT"
+    },
     {
       "title": "[김대호 인물] 페이페이 리 (李飞飞) \"인공지능 AI 어머니\"",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaXRBUVlNNzJHVjNLdFpMMGo2UjF4NG9mN3RPNXJUNW5UVWZSVEIydXFnMnAtSDFpWldPS2pjU053ejhmTi0tUDFSQWlyWWtWd2s3M1dmQTl5RkJCbTRSV2o0UU5ROTJNMEFqZS1maXBwbGFtTVFUUmNuUW03Q1Y5SkxpYl9vX2s?oc=5",
@@ -8,8 +32,14 @@
       "date": "Tue, 29 Sep 2026 14:55:00 GMT"
     },
     {
+      "title": "연구자 22명 “AI가 AI 만드는 ‘지능 폭발’ 대비…인류 멸종 이어질 수도”",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1YOGFLUUZkM0s1dHhfS0JsYUh3aHJIQTMwZEFzc1JnY2F1VTNXRnVZUlF0QVgtWVF1eXllZ25JS0ZsZHdnOXNDbFVMWVAxeHZsOWRhLWtKb2w3bWE4MHRxMkdXUlNZdnVUTWczM2xjYw?oc=5",
+      "source": "한겨레",
+      "date": "Tue, 29 Sep 2026 11:09:00 GMT"
+    },
+    {
       "title": "[세상읽기] 인공지능(AI)과 인류 멸종",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObU5mXzAwYVFidDl4TEltR2R6ZEYxSU1GMUxzcDFpZEtyZ3gyWGpER2xteWU3R2REdElGcUJTTlZGS1NCOXdYYUlBdVQtdURQTENqVEoyMU9takxJQVRyeEVHS196YnVTUmJKUmw5TUVPRlhwMTFGaFVsa0o2Qy1lMUgxdjd5dHp3bUN3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbXJheXFoZmxHWXdJR2pmWUZWZW1PVktTVENkNk9zZ3JDTjhIWlFJejE0anNPQTJqN3ozTTM5UVNTemM4NUUwOUdqaW9ad09tNGdrenE4eUpSVS1SWTFCQ0tqSVk4cThWRjFZZHlWN0dXV19yUTRvdHNfLXQ3N3JIa0ptY0lfVHkwVEtybWx3?oc=5",
       "source": "국제신문",
       "date": "Tue, 29 Sep 2026 09:53:00 GMT"
     },
@@ -20,16 +50,10 @@
       "date": "Tue, 29 Sep 2026 08:46:06 GMT"
     },
     {
-      "title": "공공부문 ‘인공지능(AI) 챔피언’ 17명 배출",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGLTkxVHJST2hGb3NnSE5aako5Z3hUX003bW8wMWJ5Vnh5bjVUdjRvNDRLdGN3TWdVa2pvRGNVVjlfbUlhTHJLUFpMTl9ldTg3ZE1lbGJSUzlHRmhMWGtsc056eUtQaUZ2aGc?oc=5",
-      "source": "전북제일신문",
-      "date": "Tue, 29 Sep 2026 05:59:28 GMT"
-    },
-    {
-      "title": "AI가 AI를 만들기 시작하면?",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrLUdseFliZUZrN1NFRXZMS090dWM2WlhpSEQ4MTNkNnJOOVFOMUdVMTFJRnY4UEFpZDJDeWJCWW5lOElBSmhXWW9WbFZkU2x0c1N6Z1NMZUZWWHdxMVZRZWFQSTFwU1pVaWVqaHRXQjLSAXBBVV95cUxQay1HbHhZYmVGazdTRUV2TEtPdHVjNlpYaUhEODEzZDZyTjlRTjFHVTExSUZ2OFBBaWQyQ3liQlluZThJQUpoV1lvVmxWZFNsdHNTemdTTGVGVlh3cTFWUWVhUEkxcFNaVWllamh0V0Iy?oc=5",
-      "source": "톱클래스",
-      "date": "Tue, 29 Sep 2026 05:07:25 GMT"
+      "title": "비아이매트릭스, 생성형 AI 기반 위성정보 분석 플랫폼 구축…재난·도시관리 활용 확대",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PdVloSHJjMDd1S01iLWp4X0F1NWZoaVVtSFNoOGlfQXpWRll5a0lOZmlEME42ZjJfZzhmNXJPU1FmbmhoOTMwR2ltcGF2dkkydFVjSTNn?oc=5",
+      "source": "지디넷코리아",
+      "date": "Tue, 29 Sep 2026 05:37:19 GMT"
     },
     {
       "title": "“내 손안의 인공지능(AI) 농사 전문가”",
@@ -38,40 +62,16 @@
       "date": "Tue, 29 Sep 2026 04:57:41 GMT"
     },
     {
-      "title": "[충남] 필요한 시스템, 이제 인공지능(AI)으로 직접 만든다",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwclBER0lLYmQtU0tTbVhnZXFZYTZVckk5Ujg4aV9ROHBHdTFlZjVhcWdTZGJjN2N1STV1MGtTQl9KOWtWU1R2cFBMTlFUTWx0TDFPTnI1NDhDZy1pcl9nWHFheTl0azc1MUdoT2VnMl95dw?oc=5",
-      "source": "월간친환경",
-      "date": "Tue, 29 Sep 2026 02:49:04 GMT"
-    },
-    {
-      "title": "[AI픽] 카카오 AI, 배포 전후 안전성 평가받는다…에이전트까지 확대",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1xYlE4TVA4V0N4NEQ4S3JfZWNLWjZQOHg2bEZzZzVPSkhZVFotc0YzaDFNdVB1WEhPSkJHaGNVdVVlX2t4YlJTU29rYkZJYllqVUs3VERDWndKTTZuWTZMONIBYEFVX3lxTE1xYlE4TVA4V0N4NEQ4S3JfZWNLWjZQOHg2bEZzZzVPSkhZVFotc0YzaDFNdVB1WEhPSkJHaGNVdVVlX2t4YlJTU29rYkZJYllqVUs3VERDWndKTTZuWTZMOA?oc=5",
+      "title": "주요 AI연구자 22명 \"AI 지능폭발 임박…통제 못하면 인류멸망\"",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9hLUl2c3ZvdUpVaGFhRUltdDhlcFBLX21nRl9xUVdOcmN4LWNjWXMzWjRJTDFUQ2U4cTBNQkUySnNPREx4VnVVU0VUbGtWcTBlZHZpY3hLMEpOUHfSAWBBVV95cUxNMDRWdXBUVTdjWjhXaHZOTmN3YlJNWUYzblEtUmY1azQ1TEtxcUlBcU9POElYQ2tRd0FDcWRsOGZtTGk1LWxzbTkyTlBqLUFMN3kxX1JjRnBNSlNSQW8zMVM?oc=5",
       "source": "연합뉴스",
-      "date": "Tue, 29 Sep 2026 01:31:21 GMT"
-    },
-    {
-      "title": "한국인 10명 중 4명 생성형 AI 이용한다 MS 보고서…1년 새 15%P 증가",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBdElCZnk0WGhZbTlEQl90c3NWaWV3S19aUHVCWThXNHN0NlVhOVJrZUlyN0VXeTNuUzhFaDdZTi0xZFAyeGlXS1N5RGwyMHNYN3VWeEdadW9TZ9IBX0FVX3lxTE5BUjBzSGo0S2F2a3pOQnpsTndCUFBQS2sxR3dNZk52bHVhekZ6d29JcmZlQ1E2Sjk1UXNndUdJWEdTLXhrM3kySW14V3BNZjUtTmdZVkNiWXZmUnd3M3ZB?oc=5",
-      "source": "경향신문",
-      "date": "Mon, 28 Sep 2026 13:10:00 GMT"
-    },
-    {
-      "title": "인공지능(AI) 대전환·자율주행·문화관광 등 초광역 상생협력 전남광주특별시-울산광역시, ‘대체불가 대한민국’ 선도한다",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1JZURGSF9obXVaeWY4S1M2bmtXWW9SYUZFVVNSOWlqQzkzeGdSZGFyMFVCeTNTcGdpRklVdHlsZkk4Z08zdVdQbndoSnE5Q3V4NkU2M1I5RVdFWTFraFd3Zi1GbU5ET0tnd3JVWjF0ekVDanZuQjBmQg?oc=5",
-      "source": "KJA뉴스통신",
-      "date": "Mon, 28 Sep 2026 07:24:00 GMT"
+      "date": "Mon, 28 Sep 2026 18:07:50 GMT"
     },
     {
       "title": "MS “韓 생성형 AI 사용률 40% 첫 돌파…세계 12위로 상승”",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5pZVFKV2k1UnVBdzRWanFkR1Q4RXU3MmhXMm9Lem9mVDdLOFczX1FxQlF4b1JjWklMV0pETmhCdFBPUWdFeVBfTHhpQ0F5Zw?oc=5",
       "source": "전자신문",
       "date": "Mon, 28 Sep 2026 06:38:20 GMT"
-    },
-    {
-      "title": "오픈AI, 월 500달러 '챗GPT 프로 맥스' 요금제 준비 정황…초고가 AI 시대 오나",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAydkpDUVZhcWl5T2xIUWNpbHpFVGNZTDVVUmJOV09KQ3k4RkxENnRiZFpWdTIwOXdMNjR5OTJZYjZHdmpYMW8waHNIelVjVWRlT2lIOTA5UzNPM0E0OFlHeW9MMkd0U2otc3Eybk00UzVoQjQ?oc=5",
-      "source": "디지털투데이",
-      "date": "Mon, 28 Sep 2026 04:20:00 GMT"
     }
   ]
 }
