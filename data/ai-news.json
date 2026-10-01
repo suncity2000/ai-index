@@ -1,11 +1,65 @@
 {
-  "last_updated": "2026-09-30T15:36:35.469Z",
+  "last_updated": "2026-10-01T15:59:15.158Z",
   "news": [
+    {
+      "title": "GPT-6.1 Sol 소개",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5OemY4emxSNEladU40TC1hcUppTmEweWtJTnBJTkkxYlptbEpIaUhmOFFoYXUwVVI3TWxxX2tVMksyVG1CR3ZxQk1jclZvWWFHS1hPUzdOY3J2UXdweU5kbWYwOFFuUQ?oc=5",
+      "source": "OpenAI",
+      "date": "Thu, 01 Oct 2026 14:38:32 GMT"
+    },
+    {
+      "title": "인공지능(AI) 시대 안전한 개인정보 보호·활용 방안, 국민 의견 모은다",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1xdnNQeUpwa2Nnam5xcHFRS0tmdno1QklPR3Nrc3ptcnFiNDVHb2pJem83TnNLRDZRdlZfMFAzQUplZTY0ZkVUNW1wa29XR2I4Njl6T1NsdUpjYk00SkE?oc=5",
+      "source": "한국방송뉴스",
+      "date": "Thu, 01 Oct 2026 05:53:02 GMT"
+    },
+    {
+      "title": "\"생성형 AI 가짜 정보 속지 마세요\"…방미통위 SNS 캠페인",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mcTBuREVMQm5FUUpoNVlmUGQ0azZreXVpMk5lZVF6NzExNjhORVhYTVJGNU1NZjA3Vk5ud2loYTNxMGVVVjhEV1dhV0FBY3RJdkFVS0otTldsN05DTjFwbDRaU2RCU1E?oc=5",
+      "source": "연합뉴스TV",
+      "date": "Thu, 01 Oct 2026 02:12:00 GMT"
+    },
+    {
+      "title": "네이션에이, 생성형 AI로 새로운 스토리 콘텐츠 시장 연다 [서울AI허브 2027]",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBPMWtPWlRIYm9KNXBLdHZyLXNfQ1IzNVBSYmhCZG5ZWnZyRjZaeGV1YWZ6TDkyWVJUTEFpZTduUi14eG85dDlJVXRrWTIzUVdIZ1pob2NCeDFiU3Axc0c0cmpMMkNMZS14c0dSS0otaGc?oc=5",
+      "source": "IT조선",
+      "date": "Wed, 30 Sep 2026 23:00:00 GMT"
+    },
+    {
+      "title": "인천시, 공공행정 인공지능(AI) 활용 윤리 지침 마련 논의 본격화, 30일 전문가 토론회 개최",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8wZk5RWmV1bkx3OVBPdGdrWHA0NHJ0ZTB1Vzh1Y3JYSXQ2c3E5TFNhaG1fYVZRRFhCQTN5RzRIS2ZXc1JhalEzaVlvdEZaRkU?oc=5",
+      "source": "v.daum.net",
+      "date": "Wed, 30 Sep 2026 08:34:12 GMT"
+    },
     {
       "title": "美 정부, ‘AI’ 대신 ‘슈퍼 인텔리전스(SI)’ 쓴다…트럼프, “새로운 지능 시대 개막”",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54OVdyY0h3UmFQbTNicHcxbkdoT2s5Q0stSXAycTZucDdkTzNUTkx3X2tmcWg0OE1MMmwxWURqRHdESDBja0JhRFU3QlVvejY2Sl9NcF8xMUQyTXgxWmRPdmdGaUtlSkk?oc=5",
-      "source": "인공지능신문",
+      "source": "aitimes.kr",
       "date": "Wed, 30 Sep 2026 03:14:21 GMT"
+    },
+    {
+      "title": "[AI는 지금] 트럼프, 인공지능→슈퍼 인텔리전스로…왜?",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE00UUpPRW5TQURXc3JXZmZRcUoxaXdZa0ZQTDN4d2cyNmVCYlQ2c2t6TEtXbVJXMEJyOC00b3YzZ0xNRThiMmc0Y0RBaUJFUzJSYTNGWHlB?oc=5",
+      "source": "지디넷코리아",
+      "date": "Wed, 30 Sep 2026 00:50:33 GMT"
+    },
+    {
+      "title": "영상과 인공지능(AI) 활용하는 벼농사가 온다",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1HQ3ltRkxSMFFCczd0STJ0M1dtR3Z6YTZremlaYk00NUsyVFk2QWdSQmlWdUFIQWRZUGFsWFFYdHdHeXF0TExDRGpmTHNvM1ZMTnpwN3hXN0pCSHNm?oc=5",
+      "source": "영농자재신문",
+      "date": "Wed, 30 Sep 2026 00:05:57 GMT"
+    },
+    {
+      "title": "[사 설] 인공지능 (AI) 부정론과 긍정론",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRUmVEVTRTd29id2VnSzNzdmRrejQ2aFVQWm43Vi1aQkpId3p5VXVCS3dfYnR3YnpMZVl1dEY5NlgzQUpla2xWT3lKZVM0T2hXM1NrZGt0S2toVjY1OGd4dkRvYlZkN3NReXc?oc=5",
+      "source": "청주일보",
+      "date": "Tue, 29 Sep 2026 22:59:33 GMT"
+    },
+    {
+      "title": "동아대, 인공지능 중심대학 정부 공모 선정…8년간 252억원 투자",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5X205S0lQR3YtVHpmbXhsaS1UNVhlVVpJTVhkWmxPNmE2dF81T1JiNmI4bEpZUkx1b3FFUWNZd09Wb0tIbFJha3d1UVB2NDVaUVRLZGRJWkpoT0dhTTFDWdIBYEFVX3lxTFA5X205S0lQR3YtVHpmbXhsaS1UNVhlVVpJTVhkWmxPNmE2dF81T1JiNmI4bEpZUkx1b3FFUWNZd09Wb0tIbFJha3d1UVB2NDVaUVRLZGRJWkpoT0dhTTFDWQ?oc=5",
+      "source": "연합뉴스",
+      "date": "Tue, 29 Sep 2026 22:56:12 GMT"
     },
     {
       "title": "원전 인공지능(AI) 도입, ‘결정자’ 아닌 ‘조력자’로 활용해야",
@@ -18,60 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBRNlRWMjc4Ykd0NUIxVUF5ZTNyS1dfQmNhNWNRQVFUVllabHZCYW5SR1UwSXMwRFNCRTI4NW50NEs0UHBWSVM1RjF1RVpOT1NoNXV2ZEdfRnJYbG81SHc?oc=5",
       "source": "OpenAI",
       "date": "Tue, 29 Sep 2026 17:23:11 GMT"
-    },
-    {
-      "title": "[춘천 AI포럼] 국가인공지능전략위원 “시민 참여로 공익 AI 키우고 일상의 변화 이끌어야”",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Nc1BJT2FrRXBMWWhZQmYwdnhrQmQwVFpmMVh1eEMyRGV4SWp0U255eTVxVWdkNmtadWtDLXV1QUtHbENiY01qMDRCV2diRVA5YWwzSHlPeWNnMUE?oc=5",
-      "source": "kwnews.co.kr",
-      "date": "Tue, 29 Sep 2026 15:00:00 GMT"
-    },
-    {
-      "title": "[김대호 인물] 페이페이 리 (李飞飞) \"인공지능 AI 어머니\"",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaXRBUVlNNzJHVjNLdFpMMGo2UjF4NG9mN3RPNXJUNW5UVWZSVEIydXFnMnAtSDFpWldPS2pjU053ejhmTi0tUDFSQWlyWWtWd2s3M1dmQTl5RkJCbTRSV2o0UU5ROTJNMEFqZS1maXBwbGFtTVFUUmNuUW03Q1Y5SkxpYl9vX2s?oc=5",
-      "source": "글로벌이코노믹",
-      "date": "Tue, 29 Sep 2026 14:55:00 GMT"
-    },
-    {
-      "title": "연구자 22명 “AI가 AI 만드는 ‘지능 폭발’ 대비…인류 멸종 이어질 수도”",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1YOGFLUUZkM0s1dHhfS0JsYUh3aHJIQTMwZEFzc1JnY2F1VTNXRnVZUlF0QVgtWVF1eXllZ25JS0ZsZHdnOXNDbFVMWVAxeHZsOWRhLWtKb2w3bWE4MHRxMkdXUlNZdnVUTWczM2xjYw?oc=5",
-      "source": "한겨레",
-      "date": "Tue, 29 Sep 2026 11:09:00 GMT"
-    },
-    {
-      "title": "[세상읽기] 인공지능(AI)과 인류 멸종",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbXJheXFoZmxHWXdJR2pmWUZWZW1PVktTVENkNk9zZ3JDTjhIWlFJejE0anNPQTJqN3ozTTM5UVNTemM4NUUwOUdqaW9ad09tNGdrenE4eUpSVS1SWTFCQ0tqSVk4cThWRjFZZHlWN0dXV19yUTRvdHNfLXQ3N3JIa0ptY0lfVHkwVEtybWx3?oc=5",
-      "source": "국제신문",
-      "date": "Tue, 29 Sep 2026 09:53:00 GMT"
-    },
-    {
-      "title": "목원대·건양대, ‘인공지능(AI) 중심대학’ 공모 선정",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sNVgxdWcxZTdvTk9YOE40TnRkZkxGSDNBQU1FQUZ0ODhCM2kwQkFWRk9SZEJreEVSZ2wwamQ1Y0s5MFRUcHVVbjNBeUpTb2NYSE9iWkNHRDFLZzFvWHVIVFpXOE5DTkNhczdpRTRWX2hOZw?oc=5",
-      "source": "굿모닝충청",
-      "date": "Tue, 29 Sep 2026 08:46:06 GMT"
-    },
-    {
-      "title": "비아이매트릭스, 생성형 AI 기반 위성정보 분석 플랫폼 구축…재난·도시관리 활용 확대",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PdVloSHJjMDd1S01iLWp4X0F1NWZoaVVtSFNoOGlfQXpWRll5a0lOZmlEME42ZjJfZzhmNXJPU1FmbmhoOTMwR2ltcGF2dkkydFVjSTNn?oc=5",
-      "source": "지디넷코리아",
-      "date": "Tue, 29 Sep 2026 05:37:19 GMT"
-    },
-    {
-      "title": "“내 손안의 인공지능(AI) 농사 전문가”",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBNazdfalpVYjdtTzBsNjlmOEdSaGRzWmhTVmtzdzlqdThyVlFFY2JGVEh3b3ZmM1gtUGE2UmxvdVROd0VfX09CX2w2SVhoLXlJd1loeFZlMDdUSFdz?oc=5",
-      "source": "영농자재신문",
-      "date": "Tue, 29 Sep 2026 04:57:41 GMT"
-    },
-    {
-      "title": "주요 AI연구자 22명 \"AI 지능폭발 임박…통제 못하면 인류멸망\"",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9hLUl2c3ZvdUpVaGFhRUltdDhlcFBLX21nRl9xUVdOcmN4LWNjWXMzWjRJTDFUQ2U4cTBNQkUySnNPREx4VnVVU0VUbGtWcTBlZHZpY3hLMEpOUHfSAWBBVV95cUxNMDRWdXBUVTdjWjhXaHZOTmN3YlJNWUYzblEtUmY1azQ1TEtxcUlBcU9POElYQ2tRd0FDcWRsOGZtTGk1LWxzbTkyTlBqLUFMN3kxX1JjRnBNSlNSQW8zMVM?oc=5",
-      "source": "연합뉴스",
-      "date": "Mon, 28 Sep 2026 18:07:50 GMT"
-    },
-    {
-      "title": "MS “韓 생성형 AI 사용률 40% 첫 돌파…세계 12위로 상승”",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5pZVFKV2k1UnVBdzRWanFkR1Q4RXU3MmhXMm9Lem9mVDdLOFczX1FxQlF4b1JjWklMV0pETmhCdFBPUWdFeVBfTHhpQ0F5Zw?oc=5",
-      "source": "전자신문",
-      "date": "Mon, 28 Sep 2026 06:38:20 GMT"
     }
   ]
 }
