@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30T08:16:51.432Z",
+  "last_updated": "2026-10-01T08:40:13.170Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -283,6 +283,22 @@
       "top_provider": true
     },
     {
+      "id": "deepseek/deepseek-v4.1-flash",
+      "name": "DeepSeek: DeepSeek V4.1 Flash",
+      "price_1m_input": 0.03,
+      "price_1m_output": 0.6,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash",
+      "name": "DeepSeek: DeepSeek V4 Flash 0423",
+      "price_1m_input": 0.04,
+      "price_1m_output": 0.08,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
       "id": "deepseek/deepseek-v4.1-flash:batch",
       "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
       "price_1m_input": 0.11,
@@ -291,10 +307,10 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-v4-flash",
-      "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "price_1m_input": 0.14,
-      "price_1m_output": 0.28,
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek: DeepSeek V4 Pro 0423",
+      "price_1m_input": 0.21,
+      "price_1m_output": 0.42,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -347,14 +363,6 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-v4.1-flash",
-      "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "price_1m_input": 0.3,
-      "price_1m_output": 1.2,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
       "id": "deepseek/deepseek-v3.1-terminus",
       "name": "DeepSeek: DeepSeek V3.1 Terminus",
       "price_1m_input": 0.3,
@@ -376,14 +384,6 @@
       "price_1m_input": 0.7,
       "price_1m_output": 2.5,
       "context_length": 64000,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-v4-pro",
-      "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "price_1m_input": 0.96,
-      "price_1m_output": 1.91,
-      "context_length": 1048576,
       "top_provider": true
     },
     {
@@ -1267,22 +1267,6 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-6.1-sol-pro:batch",
-      "name": "OpenAI: GPT-6.1 Sol Pro (batch)",
-      "price_1m_input": 1,
-      "price_1m_output": 5,
-      "context_length": 1050000,
-      "top_provider": true
-    },
-    {
-      "id": "openai/gpt-6.1-sol:batch",
-      "name": "OpenAI: GPT-6.1 Sol (batch)",
-      "price_1m_input": 1,
-      "price_1m_output": 5,
-      "context_length": 1050000,
-      "top_provider": true
-    },
-    {
       "id": "openai/gpt-6-sol-pro:batch",
       "name": "OpenAI: GPT-6 Sol Pro (batch)",
       "price_1m_input": 1,
@@ -1899,6 +1883,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3-30b-a3b",
+      "name": "Qwen: Qwen3 30B A3B",
+      "price_1m_input": 0.12,
+      "price_1m_output": 0.5,
+      "context_length": 131072,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3-8b",
       "name": "Qwen: Qwen3 8B",
       "price_1m_input": 0.12,
@@ -1911,14 +1903,6 @@
       "name": "Qwen: Qwen3 14B",
       "price_1m_input": 0.12,
       "price_1m_output": 0.24,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-30b-a3b",
-      "name": "Qwen: Qwen3 30B A3B",
-      "price_1m_input": 0.13,
-      "price_1m_output": 0.52,
       "context_length": 131072,
       "top_provider": true
     },
