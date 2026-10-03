@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-02T08:18:03.390Z",
+  "last_updated": "2026-10-03T07:54:29.826Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -277,24 +277,16 @@
     {
       "id": "deepseek/deepseek-v4-flash-0731",
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "price_1m_input": 0.01,
-      "price_1m_output": 1.28,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-v4.1-flash",
-      "name": "DeepSeek: DeepSeek V4.1 Flash",
       "price_1m_input": 0.02,
-      "price_1m_output": 1.2,
+      "price_1m_output": 1.28,
       "context_length": 1048576,
       "top_provider": true
     },
     {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "price_1m_input": 0.04,
-      "price_1m_output": 0.08,
+      "price_1m_input": 0.03,
+      "price_1m_output": 0.06,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -347,6 +339,14 @@
       "top_provider": true
     },
     {
+      "id": "deepseek/deepseek-v3.1-terminus",
+      "name": "DeepSeek: DeepSeek V3.1 Terminus",
+      "price_1m_input": 0.27,
+      "price_1m_output": 1,
+      "context_length": 163840,
+      "top_provider": true
+    },
+    {
       "id": "deepseek/deepseek-v3.2",
       "name": "DeepSeek: DeepSeek V3.2",
       "price_1m_input": 0.28,
@@ -363,11 +363,11 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-v3.1-terminus",
-      "name": "DeepSeek: DeepSeek V3.1 Terminus",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "name": "DeepSeek: DeepSeek V4.1 Flash",
       "price_1m_input": 0.3,
-      "price_1m_output": 1,
-      "context_length": 163840,
+      "price_1m_output": 1.2,
+      "context_length": 1048576,
       "top_provider": true
     },
     {
@@ -379,19 +379,19 @@
       "top_provider": true
     },
     {
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "name": "DeepSeek: DeepSeek V4 Pro 0813",
+      "price_1m_input": 0.66,
+      "price_1m_output": 1.98,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
       "id": "deepseek/deepseek-r1",
       "name": "DeepSeek: R1",
       "price_1m_input": 0.7,
       "price_1m_output": 2.5,
       "context_length": 64000,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-v4-pro-0813",
-      "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "price_1m_input": 1.32,
-      "price_1m_output": 3.96,
-      "context_length": 1048576,
       "top_provider": true
     },
     {
@@ -419,19 +419,19 @@
       "top_provider": true
     },
     {
+      "id": "google/gemma-4-26b-a4b-it",
+      "name": "Google: Gemma 4 26B A4B ",
+      "price_1m_input": 0.07,
+      "price_1m_output": 0.22,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "google/gemma-3-27b-it",
       "name": "Google: Gemma 3 27B",
       "price_1m_input": 0.08,
       "price_1m_output": 0.45,
       "context_length": 131072,
-      "top_provider": true
-    },
-    {
-      "id": "google/gemma-4-26b-a4b-it",
-      "name": "Google: Gemma 4 26B A4B ",
-      "price_1m_input": 0.09,
-      "price_1m_output": 0.3,
-      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -1795,6 +1795,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+      "price_1m_input": 0.05,
+      "price_1m_output": 0.19,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3.5-flash-02-23",
       "name": "Qwen: Qwen3.5-Flash",
       "price_1m_input": 0.07,
@@ -1847,14 +1855,6 @@
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
       "price_1m_input": 0.1,
       "price_1m_output": 1.1,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-30b-a3b-instruct-2507",
-      "name": "Qwen: Qwen3 30B A3B Instruct 2507",
-      "price_1m_input": 0.1,
-      "price_1m_output": 0.3,
       "context_length": 262144,
       "top_provider": true
     },
