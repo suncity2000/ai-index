@@ -1,11 +1,17 @@
 {
-  "last_updated": "2026-10-03T14:08:06.840Z",
+  "last_updated": "2026-10-04T14:37:46.311Z",
   "news": [
     {
-      "title": "GPT-6.1 Sol 소개",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5OemY4emxSNEladU40TC1hcUppTmEweWtJTnBJTkkxYlptbEpIaUhmOFFoYXUwVVI3TWxxX2tVMksyVG1CR3ZxQk1jclZvWWFHS1hPUzdOY3J2UXdweU5kbWYwOFFuUQ?oc=5",
-      "source": "OpenAI",
-      "date": "Sat, 03 Oct 2026 11:59:56 GMT"
+      "title": "[율곡로] 하고 싶어도 쉽지 않은 'AI 속도조절'",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FUTZDeVlxWk1vemNxZWh5cDh3QXdJdG91cnU4ZDFkR2hza05pYW52aEtFc2JDeHU3NUlOOThZR3pneDllQmY0aUtULXpaT09lVTAyRGFSejU1MnFKX1BxbtIBYEFVX3lxTE1FUTZDeVlxWk1vemNxZWh5cDh3QXdJdG91cnU4ZDFkR2hza05pYW52aEtFc2JDeHU3NUlOOThZR3pneDllQmY0aUtULXpaT09lVTAyRGFSejU1MnFKX1Bxbg?oc=5",
+      "source": "연합뉴스",
+      "date": "Sun, 04 Oct 2026 00:00:04 GMT"
+    },
+    {
+      "title": "OpenAI IPO에 대해 알아야 할 핵심 정보",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMXFoSjFPcUg2YzgyM2NQcG9QVi1kZ1UxVk03Ti1yaktpVzRoRTZ4aGtnVmRTQ3B2SlhkOTE2LTF6cUZxQjdTenpLZmszbXdueDJBU29odVNPRUh3cmM3V1BkTURWTG1mUVlWRmdpTURfcmJ0dUFQWGRKWjRaaWdrcXJrenJ3SV9ENDAwc2k4X0Z4WXpfUFRFejZtT2tBR0haVWpYdTBZMUg?oc=5",
+      "source": "TradingKey",
+      "date": "Sat, 03 Oct 2026 07:27:18 GMT"
     },
     {
       "title": "오픈AI, 말로 웹사이트 만드는 'ChatGPT Sites' 공개 베타 운영...코딩 없이 사이트 제작부터 게시·공유까지",
@@ -14,16 +20,16 @@
       "date": "Sat, 03 Oct 2026 02:48:18 GMT"
     },
     {
+      "title": "'모두의 AI'가 일상을 바꾼다…어떤 변화 생길까",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Fd2lZQ181NFMzQmRLV0stMDJOb0Riay10UUFKQ0J2c0xlQ3M2VWNzek5XWDZhTl9LaDRtR2xwSUs1ZG1NczhpVHBBMDhWWjZ3bWVZRGlR?oc=5",
+      "source": "지디넷코리아",
+      "date": "Sat, 03 Oct 2026 00:11:16 GMT"
+    },
+    {
       "title": "행안부, 6대 핵심가치 담은 ‘공공부문 AI 윤리기준’ 최종 확정...공공분야 인공지능 신뢰성 확보한다",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Nb3RURnJJS2F3M2pVMTBjMVg2LUoydmtfazNGWGJGSnZCV2hHZHhFNGF3UUNfR3BvR3NHRE4xVUpnbFNad0I2cEQ3UnZDZmNRTXR4OFkxWmhoakFPY1h1UEk2T0JHVDQ?oc=5",
       "source": "인공지능신문",
       "date": "Fri, 02 Oct 2026 04:46:05 GMT"
-    },
-    {
-      "title": "동서발전, 인공지능 활용한 알리오 서비스로 공시 무결성 높인다",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE50T2QxQVlqS3pQU2lHYVpSVXJFMjhNVm5DRTJtT2t6THVaR3ktR2FDOV9hbWd6bmN3SUNLcDNRTTR1NjRBWUZmQ3hEaUQ0STl0U1ZFQmlhc2tpUDTSAWBBVV95cUxPQXdaT25xTm1yZktFUXozYnJMYnZPbGk0eGxmdEt3OGVlQWh1Tmd1TGJZeVZ1elFsU2JCVzU2RE5wZXdvQjlzVkpVdkRyQllCVFB2VmRlcktIbU5jMXhqZzU?oc=5",
-      "source": "연합뉴스",
-      "date": "Fri, 02 Oct 2026 01:26:40 GMT"
     },
     {
       "title": "강원영상위원회, 강원 인공지능(AI) 활용 영상콘텐츠 제작 하반기 교육 수강생 모집",
@@ -38,16 +44,10 @@
       "date": "Thu, 01 Oct 2026 23:51:42 GMT"
     },
     {
-      "title": "환경산업기술원, 기후부 산하 공공기관 최초 ‘AI 윤리 준수기관’",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1adFljV3dsTm02akFfbUNVOXdnQk5IX3N6Y0pXS2pab0RIZXV1aEhwQ044WG12LWdhY3pBbzJhUGtYT1Z6YWdpZl9JbHhodlFGclJOMi1YVmd0UVY4NVlkcFVIZy1KajdGaHl0eWlFdnnSAXBBVV95cUxNWnRZY1d3bE5tNmpBX21DVTl3Z0JOSF9zemNKV0tqWm9ESGV1dWhIcENOOFhtdi1nYWN6QW8yYVBrWE9WemFnaWZfSWx4aHZRRnJSTjItWFZndFFWODVZZHBVSGctSmo3Rmh5dHlpRXZ5?oc=5",
-      "source": "전기신문",
-      "date": "Thu, 01 Oct 2026 09:23:36 GMT"
-    },
-    {
-      "title": "농촌진흥청, 농업인 맞춤형 인공지능 ‘AI 이삭이’ 2.0 공개",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93VVhzX0NRZ0NiSGh2b1BHRjlwNEdScmEtb0hTWVlaNFB4UGJCU1Raa0pXWEhCWFF0YmRTQjY0QWJfNzlqV2hOeG9aWmM0eWRxeXJVeXZmZDRHeWUzbk5rcUpGeWRHVXNjVmFZUQ?oc=5",
-      "source": "한국농어민신문",
-      "date": "Thu, 01 Oct 2026 06:08:42 GMT"
+      "title": "[신간] AI가 계약·저작권·재판까지 바꾼다…‘인공지능 법정책’ 출간",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4wM3pHYXR1QXl4RHNFLXBTN0tjVkNfOE9oejdHSzFDck9TbWxWLVNjd2NHQWszWmFrNUVjeURvUENpdjFTZ3VrYkRfOVBEcDREcXBtaU9yNTM2NGxJNTYzaU1BQXR5MHp5cmJyTTJadlJKZw?oc=5",
+      "source": "로스쿨타임즈",
+      "date": "Thu, 01 Oct 2026 07:42:00 GMT"
     },
     {
       "title": "인공지능(AI) 시대 안전한 개인정보 보호·활용 방안, 국민 의견 모은다",
