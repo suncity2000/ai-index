@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-03T07:54:29.826Z",
+  "last_updated": "2026-10-04T08:16:37.810Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -275,6 +275,14 @@
       "top_provider": true
     },
     {
+      "id": "deepseek/deepseek-v4.1-flash",
+      "name": "DeepSeek: DeepSeek V4.1 Flash",
+      "price_1m_input": 0,
+      "price_1m_output": 2.4,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
       "id": "deepseek/deepseek-v4-flash-0731",
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "price_1m_input": 0.02,
@@ -285,8 +293,8 @@
     {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "price_1m_input": 0.03,
-      "price_1m_output": 0.06,
+      "price_1m_input": 0.02,
+      "price_1m_output": 1.28,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -323,6 +331,14 @@
       "top_provider": true
     },
     {
+      "id": "deepseek/deepseek-chat-v3-0324",
+      "name": "DeepSeek: DeepSeek V3 0324",
+      "price_1m_input": 0.25,
+      "price_1m_output": 1,
+      "context_length": 163840,
+      "top_provider": true
+    },
+    {
       "id": "deepseek/deepseek-chat",
       "name": "DeepSeek: DeepSeek V3",
       "price_1m_input": 0.26,
@@ -355,18 +371,10 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-chat-v3-0324",
-      "name": "DeepSeek: DeepSeek V3 0324",
-      "price_1m_input": 0.29,
-      "price_1m_output": 1.14,
-      "context_length": 163840,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-v4.1-flash",
-      "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "price_1m_input": 0.3,
-      "price_1m_output": 1.2,
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "name": "DeepSeek: DeepSeek V4 Pro 0813",
+      "price_1m_input": 0.33,
+      "price_1m_output": 4.2,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -376,14 +384,6 @@
       "price_1m_input": 0.5,
       "price_1m_output": 2.15,
       "context_length": 163840,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-v4-pro-0813",
-      "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "price_1m_input": 0.66,
-      "price_1m_output": 1.98,
-      "context_length": 1048576,
       "top_provider": true
     },
     {
@@ -723,14 +723,6 @@
       "top_provider": true
     },
     {
-      "id": "meta-llama/llama-3.3-70b-instruct",
-      "name": "Meta: Llama 3.3 70B Instruct",
-      "price_1m_input": 0.1,
-      "price_1m_output": 0.32,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
       "id": "meta-llama/llama-guard-4-12b",
       "name": "Meta: Llama Guard 4 12B",
       "price_1m_input": 0.18,
@@ -744,6 +736,14 @@
       "price_1m_input": 0.19,
       "price_1m_output": 0.65,
       "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "meta-llama/llama-3.3-70b-instruct",
+      "name": "Meta: Llama 3.3 70B Instruct",
+      "price_1m_input": 0.22,
+      "price_1m_output": 0.5,
+      "context_length": 131072,
       "top_provider": true
     },
     {
