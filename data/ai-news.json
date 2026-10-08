@@ -1,17 +1,53 @@
 {
-  "last_updated": "2026-10-07T16:04:47.895Z",
+  "last_updated": "2026-10-08T16:07:04.021Z",
   "news": [
     {
-      "title": "부산 초·중·고에 생성형 AI 확대…마음건강 교육도 늘린다",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53VVNIQ09mcWlwRk9TalJKTVBFa08tYTQ0MkJqVHJfcjRIaHBEa0s0Mm1yam0zWnJyVDlHZktZX0h1T3djVUZCSm1ZVzRuVFVCdWpBTGRLMnRlQnNLSm50RDJsamcweDBDekNBNNIBbEFVX3lxTE53VVNIQ09mcWlwRk9TalJKTVBFa08tYTQ0MkJqVHJfcjRIaHBEa0s0Mm1yam0zWnJyVDlHZktZX0h1T3djVUZCSm1ZVzRuVFVCdWpBTGRLMnRlQnNLSm50RDJsamcweDBDekNBNA?oc=5",
-      "source": "국민일보",
-      "date": "Wed, 07 Oct 2026 09:21:00 GMT"
+      "title": "부개어린이도서관, ‘인공지능(AI) 독서탐험대’ 운영",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAwNEhJUS1FbmNNcWNJREVsZms2dDh2c2p3UDcxX0p2Mnc4MTVja1VWMHlZeDNnSFlJTmx1bjZqYkZvcmJ4ZjFTWk83dVZielhRbThBczF0S3VKLWd0VHItc0hCNTFJVXhDM2NyWjdXaw?oc=5",
+      "source": "미디어생활",
+      "date": "Thu, 08 Oct 2026 15:30:46 GMT"
     },
     {
-      "title": "국립해양조사원, 해양조사도 이제는 인공지능(AI) 기술 활용한다",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE54V3BKZ3pWREVFTmRyaHR3N2c1WnR3dFJROWcyNVJIVkptWGxPbWFmQmRrcjJhN1pRT2JURWpicWppZHhETndPUFdkVXhKbm5qdlAwdWRBRnhaRk1aZ1lObDQycw?oc=5",
-      "source": "국토일보",
-      "date": "Wed, 07 Oct 2026 07:57:27 GMT"
+      "title": "[금주의 이천시] 이천시, 인공지능(AI) 홍보대사 ‘서희’ 위촉 外",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5obDY5cGppdGVaQXpSd3dqNjVWSzhaRkJ6U1JwS3Y4eDZ4MmlvUnlaXzR5ejBqTDB4YmFLcHVLcGZGR1FlRmhhX2hqZTJxaFBPVGZleFhwYTF5YUNtNlo4THdNZmRBaTRHSUVuNGVLcw?oc=5",
+      "source": "중부일보",
+      "date": "Thu, 08 Oct 2026 11:22:52 GMT"
+    },
+    {
+      "title": "생성 AI 플랫폼 '제논', 증권신고서 제출…코스닥 상장 공모 절차 본격화",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GaWFnWGZmWWRWYkJJS3Z2TktjeU5TVUViQktJNjVqRG5UTGV1UnNhNDlFbnpHSmZ1SmRVOFJKaXphMV9iVkVIR3pMQ3cwc29LVXRXdGQ2ZzFKZFlSb3BzamxQd1c4UXc?oc=5",
+      "source": "인공지능신문",
+      "date": "Thu, 08 Oct 2026 08:44:50 GMT"
+    },
+    {
+      "title": "프로텐, NIA ‘인공지능(AI) 윤리 준수기관’ 확인마크 획득",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBwWTZBc184R1pEX3F6aWp1VW4wQ0FCR3V4WHVpX01BOXJQQWRFcEZQRU1NbXp4QzQ1dTRzVmJ5a2s4NWc1Rk5RdUNkSmhyejVycUdGSTZ5YkNXcnJWeFkyUVZaTG81WW9K?oc=5",
+      "source": "아이티데일리",
+      "date": "Thu, 08 Oct 2026 08:29:46 GMT"
+    },
+    {
+      "title": "파주중앙도서관, 시니어 대상 '인공지능(AI) 활용' 강좌",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9pR0NFQTR0ampSdExyWDA4RE5KZGtXUklsMlFPZklKcG9YX3BwYzNzcDRSQndkX1AwSlBYUVhoTnZuVjVyaTdiUEkxNlBtT3d4QjRkVGwtUzl6OEQ3aDY3UUZrTXVLa2xGNnc?oc=5",
+      "source": "실버아이뉴스",
+      "date": "Thu, 08 Oct 2026 06:58:59 GMT"
+    },
+    {
+      "title": "정신건강 목적 AI 이용지침 나왔다…\"AI 위로가 사람 대체 못해\"",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvbF9uNzRXcGl6Q0h2MzV2azV5S0I1eXR5Tm5Yb1pfbkl2dU1qZkRUV2s4eF8zcWktWUxnYk8zN0N3dzRLQkh0WGpWQmlIcjVvMVoyRGNiNjV4bDQ2ZXlPYdIBYEFVX3lxTFBvbF9uNzRXcGl6Q0h2MzV2azV5S0I1eXR5Tm5Yb1pfbkl2dU1qZkRUV2s4eF8zcWktWUxnYk8zN0N3dzRLQkh0WGpWQmlIcjVvMVoyRGNiNjV4bDQ2ZXlPYQ?oc=5",
+      "source": "연합뉴스",
+      "date": "Thu, 08 Oct 2026 04:30:01 GMT"
+    },
+    {
+      "title": "청소년의 학습과 미래 설계, AI의 미래를 만들어가는 참여를 지원합니다",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9RSkJKMDExYU1TbS15ekxOSmYxWDBIdmVEejJhdFNZbmYzNHJTajNUekQyRVRPYVhBVHBjYXdjajZ0cTNUNkViZUdCc3l5dHBOa3hJaWZFa3JYczRMeFh3NFdn?oc=5",
+      "source": "OpenAI",
+      "date": "Thu, 08 Oct 2026 01:29:24 GMT"
+    },
+    {
+      "title": "생성형 AI 기술로 피부질환 진단 정확도 높인다",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1CQ2tCcXJPZ1pVMUtpRDNTUW1ubTJVcE9MSDNBc2ZwWkpXNTNCYXd1czlXSjhyVWtGNUhYMUxxNFZwd3RkMkQ0YmM1RWRQbWtYaFFnUTR4dFF3SHlWbV9TN1ZWZTktQkFyVmc?oc=5",
+      "source": "의학신문",
+      "date": "Thu, 08 Oct 2026 00:23:40 GMT"
     },
     {
       "title": "「인공지능(AI)과 함께하는 스마트 행정」 직장교육 개최",
@@ -20,58 +56,22 @@
       "date": "Wed, 07 Oct 2026 06:12:00 GMT"
     },
     {
-      "title": "OpenAI IPO에 대해 알아야 할 핵심 정보",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMXFoSjFPcUg2YzgyM2NQcG9QVi1kZ1UxVk03Ti1yaktpVzRoRTZ4aGtnVmRTQ3B2SlhkOTE2LTF6cUZxQjdTenpLZmszbXdueDJBU29odVNPRUh3cmM3V1BkTURWTG1mUVlWRmdpTURfcmJ0dUFQWGRKWjRaaWdrcXJrenJ3SV9ENDAwc2k4X0Z4WXpfUFRFejZtT2tBR0haVWpYdTBZMUg?oc=5",
-      "source": "TradingKey",
-      "date": "Wed, 07 Oct 2026 02:15:54 GMT"
+      "title": "인천시, '피지컬 인공지능(AI) 실증센터' 구축 착수",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xUjdsbmtxWU0yU1g1U3JiNS1XLWJkeTdIVHM1dENTZk9pb2RJRmx1ZEN1UUJsR3owRUhPWHhHWmR4NHktRXQ4a2NrUW9BdW5iRm5MZzFVcE1TSFJjM0MtcmVR?oc=5",
+      "source": "경기신문",
+      "date": "Wed, 07 Oct 2026 05:11:06 GMT"
     },
     {
-      "title": "공단, 인공지능 전환(AX) 이끌 ‘인공지능(AI) 인재 양성’ 본격 시동",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1jbXJ1T2MydjVFbWdCdUNhRml0Y2lvLWc4UWE1NHduNUZ0WmFmcXNHRjd1bkJ1MlBRTTNHRnpkcTNuVEhxMjc2c3FuZFlKUHdnaTdTVFJUQTRXTFZmb01McW5CemNQUXg3REtNVXV6Zw?oc=5",
-      "source": "의사신문",
-      "date": "Wed, 07 Oct 2026 01:44:28 GMT"
-    },
-    {
-      "title": "‘최종이게진짜최종’ 파일 넘치는 회사, 똑똑한 AI도 헤맨다",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbWJwVFBxTlZ0cjM0MWU3MFlmdjlCaXgxVmVRdjVncUN0aEplNUEtVkhQbWxfdmtHVmFjZi1qQ0RlRUV1YUZPVzA2dkVncTRiTVZOeGZnZzZlZGVETnFGcXFJdnNpaC1INC1rV1NiQngtTjMyLUJkSUJ6elFud2hzTkQ3MA?oc=5",
-      "source": "조선일보",
-      "date": "Tue, 06 Oct 2026 15:32:00 GMT"
-    },
-    {
-      "title": "서부발전, AI 기반 ‘인공지능(AI)’ 가동...최대 90일 수급 예측",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtZEpOUXo2T2FqR0Z3RnVRVk9acURtRmFmcnJMRlRUR2UtZnJvNU5CenlTcUdkQmNrd3NCdTFqa0JuX25DSDlJU3hxX0dtaE5LcnYySDJ3ekZCOGhiQXdZWlVyU1lsdkU?oc=5",
-      "source": "산경e뉴스",
-      "date": "Tue, 06 Oct 2026 08:13:45 GMT"
-    },
-    {
-      "title": "인공지능(AI)으로 펼쳐지는 일상 경험하세요",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0xLWl4WlNzbTlubXdzWC1adl8taUFFaWxoRlN4NF9EZ3BVQnoxNFZkWWpTV0ExNjFKSzRHZ2ZjRXlQWGFLVk0zUTRkQlp1R2xRYnVaMHhFMUJHREROMGFKWlhMa2lHNzU4UThOcnRWb9IBc0FVX3lxTFBYQ3ZaWVNpYWdCcVhzclNsS3FqNHdmYUZCZUYtSTU1VjJMMG1hbzV5ejFUam9lbXhUWmZKRkxPam0tdHUzYnpTLTRfa2xiWjdhUUFESFlXaDg1N3p0Y1A3TEh3WFpkc2p2Nk1nckhmQnpHOTg?oc=5",
-      "source": "K스피릿",
-      "date": "Tue, 06 Oct 2026 07:27:45 GMT"
-    },
-    {
-      "title": "디지털엑스, 앱 전면 개편…생성형 AI 기반 자산관리·대화형 주문 도입",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBCQUNYeE00Y2JMVVVuaklxNnRBczlJREt0aGxfQ1R4TWpiZFgwM2IyNjJ6YkQxX1dVY2YwWTVfMEJpTFYtZXFuRkw5V3hmQnFz?oc=5",
-      "source": "블루밍비트",
-      "date": "Tue, 06 Oct 2026 05:28:19 GMT"
+      "title": "인공지능 모델부터 로봇까지...최첨단 AI기술 '총 집합'",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rZGZEbHFWRVNiMWJERGIwRjIzV1FSSWl6eTl4aVpBYVh2OHZnNWQ1Ym5YTjUwWk5CRnIxcFRqcUVPVC1ZRzhRZkg2aThWWVI3aENhc3FBX3BkdUNDaFo4NU9IRVM1d9IBakFVX3lxTE1pY3dBc3djd3QtUEZyLUw1Mmk4LVFRMkZKWTQ0T3FpaHY2ZWdHbjlsdXl3ZVlIYlI4cy04OGdCOUE2a29tVk1rb1FvX0tyT3VqM3ZjdV90NVYtVVY3cXFKVjNwMG5ScHFYaWc?oc=5",
+      "source": "센트럴경제",
+      "date": "Tue, 06 Oct 2026 14:00:00 GMT"
     },
     {
       "title": "오픈AI, 챗GPT에 '투명 워터마크' 도입… EU만 우선 적용",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLQmdYeE90d0RMNE54dnFNNUJ6Y1RxcHZMdXladzhjTDJRR1RHZDY4Uy1oOWJRXzVQVWhZMy1fVXlNNVNodmFxX1d1VUdCZi00SjlBZlpNR0xQZzJhZ1NsclZQSkxjZGZ2WFE?oc=5",
       "source": "AI타임스",
       "date": "Tue, 06 Oct 2026 04:06:52 GMT"
-    },
-    {
-      "title": "한국인공지능협회, 2026 AI 국정감사 정책의견서 공개",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LaWNoSk15VnhDOGpLeGpVNVgyWnVQVnVjREI4bDAzM2dBZmtIb0F3VktRUjF1ZkIybWstYWo3SS1mSnZETnN2N01aUFdmckQ4dXVoZ2tkSjd2SGtSeHRpXzlwOXNSNDQ?oc=5",
-      "source": "인공지능신문",
-      "date": "Tue, 06 Oct 2026 03:51:26 GMT"
-    },
-    {
-      "title": "‘AI로 종말’…구글·MS 떠난 소아레스 “허깅 해킹은 인류가 받은 마지막 경고”",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1QTHRzdGxmZHI4bVNkM2xJNFY5dDdabmJIUUVUMTV2ekk3dHBlcmstQTFsQmE2anVzaDVKX1o5T3FqWk5rckZNUVdCRlFfRE1TSFBlanF3aTZSY3RRTDZmRVhIRU1ub1ljdzJ3aV9sWQ?oc=5",
-      "source": "한겨레",
-      "date": "Tue, 06 Oct 2026 01:49:00 GMT"
     }
   ]
 }
