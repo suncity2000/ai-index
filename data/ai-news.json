@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-10-10T15:02:05.553Z",
+  "last_updated": "2026-10-11T15:19:24.102Z",
   "news": [
+    {
+      "title": "수성구, 공무원이 직접 인공지능(AI) 서비스 만든다… ‘인공지능(AI) 크루’ 첫 양성",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9sN0tKMHZ2UjgzdHhyenhtMzdHZFptTWVVYzJ4NFZzZzlfWExYQXBnNzJsYlVlMzZLNmRzV21YUDJkSk02Yi16eUpxTUx0MXgydndZRUxkY05DYXkxUFRVSlQxQQ?oc=5",
+      "source": "시사뉴스",
+      "date": "Sun, 11 Oct 2026 12:00:10 GMT"
+    },
+    {
+      "title": "[기고] 인공지능 시대를 항해하는 나침반",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mZUVBVnRCaGRNRUg0SGtBek05TV9KbEYyb1BVQjg1Zk1fMWk2YUF2ODJwemk4dmMzR0ttUjQxM2RHc2ZkZmhVR191cTdWZUNiZ0N4VlBTZFZTZ2hiaVFybEtMNTEzV1h0?oc=5",
+      "source": "충청타임즈",
+      "date": "Sun, 11 Oct 2026 07:00:00 GMT"
+    },
+    {
+      "title": "OpenAI IPO에 대해 알아야 할 핵심 정보",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMXFoSjFPcUg2YzgyM2NQcG9QVi1kZ1UxVk03Ti1yaktpVzRoRTZ4aGtnVmRTQ3B2SlhkOTE2LTF6cUZxQjdTenpLZmszbXdueDJBU29odVNPRUh3cmM3V1BkTURWTG1mUVlWRmdpTURfcmJ0dUFQWGRKWjRaaWdrcXJrenJ3SV9ENDAwc2k4X0Z4WXpfUFRFejZtT2tBR0haVWpYdTBZMUg?oc=5",
+      "source": "TradingKey",
+      "date": "Sun, 11 Oct 2026 05:17:19 GMT"
+    },
+    {
+      "title": "파주중앙도서관, 시니어 대상 인공지능(AI) 활용 강좌 연다",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE44NjlhYk9oV0x1bWR5ZVBNY3RkSGdBYTRuQ1RUNmVMSE01c3RPS2kxcGo3NVc5LVR6NHBYOVdGZDJkRGJDUW5sMlhKTzFGcmxUTTh4NklfLXRUa1ZHVUI3S1dsYw?oc=5",
+      "source": "파주바른신문",
+      "date": "Sun, 11 Oct 2026 01:31:58 GMT"
+    },
     {
       "title": "인공지능(AI)이 살인사건 허위 제보…앤트로픽 72일 뒤에야 발견",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1Q0JGNzNKV2ZnMTRfdjhMS3R0LVNab0VmY0JHamRwTm9KRTgwLWVMa3pGUkNadTFwaXA3WllKcGYwWEFLV0k1UWZYS3Y2UEt2UUVNYXY1X1ZvVDRs?oc=5",
@@ -8,22 +32,16 @@
       "date": "Sat, 10 Oct 2026 00:18:42 GMT"
     },
     {
-      "title": "러시아에서는 인공지능(AI)이 5학년부터 11학년까지 학생들에게 필수 과목이 될 것입니다.",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxON1Z2ZGJzYktHel8tNVBWeUl6MVo5Wi1MZXQwUERJUllFMnBnZXFOV1NTQzhrN05WSHNaOHBQWXJmRUw1RHBpbTJOVGFjb2VwOXNKN2JlWWh0NjhPZGpkN2ltMEVPMVBfdXJmZGk1YnhvZFlQcm91TzVXWmJKZ092MmZ2cE10N05KeWg3eEh4U1U3eDN4UXJR?oc=5",
+      "title": "중소기업에서 인공지능(AI)의 활용은 기대에 미치지 못하고 있다.",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTW1NVXRWUGlYUVNVMnc1T05zcHBCRjBsQ0ZTZVRfS0ZlcjFOOW1HSTJwYTVXc1JHZVBSZ0VnbnJxZmhfOHZ5UVhoQVVQbWxRNnY5bEctRFVXa3hGQlE3RGFCSXBPWGlZSEdnQlduTzhXWW5fUHJTcEV3T3dZT3FkUHFTYmY3Wkp0enZmcURTNm5Xajg?oc=5",
       "source": "Vietnam.vn",
-      "date": "Fri, 09 Oct 2026 15:40:53 GMT"
+      "date": "Fri, 09 Oct 2026 07:53:35 GMT"
     },
     {
-      "title": "청년 직장인 5명 중 1명은 회사에서 AI 쓴다…고졸 10%·대졸 이상 27%",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBrWS1JU3dvTTdtcnFFRDdzOHQ4NW1IQTVucElHMXVFUzJ2WU0wRnJQcjVlY3UtQXB1SUNqUnZ5SmlrLWttUHJJaEpaQnlMTWk0WVU4YWlrZEhTdE5DZnlHMjczWFlQZnNZRHowOFJ3VmlDc2RtSXfSAWZBVV95cUxOdGNzeTduNHJseXdCSGpHX0JKVFF1bDdJMXlrSTFzQmVUdklzTzF2QnFsWUtOS0ZTYU1oU1BjVDBiN2ZSUjM1OU5VZFJmRmtvcm85TVdjMFpBOW9DYy1TWW8zaVpFZkE?oc=5",
-      "source": "동아일보",
-      "date": "Fri, 09 Oct 2026 05:24:00 GMT"
-    },
-    {
-      "title": "트럼프 “‘인공지능’ 대신 ‘슈퍼지능’ 써라···아니면 적으로 간주”",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RYjNKYlNXOHFsTTVpX0kzeDVXYW1XX0pkNDRBd2Y2bVJDcGd5b2xRRTdwNEswWVhsOUFvWmtFbnNqTGM1MFZDZ1NIQ1pNeUVlZXRGQThFMjhDUdIBX0FVX3lxTFB1OGZCUDgxOFFTM09yMllSWFJKNUpNT2lXTkdsSVJ2RXEwbmJNQnhhbWxyXzU1aXpLNkcweFBzcVNMUE5MekVCVi1nS09CbUZzZ0xpU2xad0IzU0p2U1Fz?oc=5",
-      "source": "경향신문",
-      "date": "Thu, 08 Oct 2026 22:32:00 GMT"
+      "title": "美FDA, 생성형 의료AI 규제 검토…韓 기업 촉각",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zNlFXdUFaSzZXMGdmdFk4d0M4ZFBCMUxsR0wwakFsaVdCQlhsMlM5OFVVanlkWXNLdnNiLU5XN29ZYUgwaXdOMmlURFcyX3RmdUpKSU9xQmZVR3M1NnkwSXVTTW1vMFhq?oc=5",
+      "source": "데일리메디",
+      "date": "Thu, 08 Oct 2026 21:44:00 GMT"
     },
     {
       "title": "트럼프 “‘인공지능(AI)’이란 용어 쓰는 사람 적으로 간주할 것”",
@@ -54,24 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBwWTZBc184R1pEX3F6aWp1VW4wQ0FCR3V4WHVpX01BOXJQQWRFcEZQRU1NbXp4QzQ1dTRzVmJ5a2s4NWc1Rk5RdUNkSmhyejVycUdGSTZ5YkNXcnJWeFkyUVZaTG81WW9K?oc=5",
       "source": "아이티데일리",
       "date": "Thu, 08 Oct 2026 08:29:46 GMT"
-    },
-    {
-      "title": "오픈AI \"10대 챗GPT 평균 15분 사용\" 주장에 안전성 논란 불붙어",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55M09NSUFOMVJ2UlVyVkNtcGtOYmpjd0NxM2lNTFFwMFoxd2haNFNYQWZTX3I4UGZNaWxwY21VZ3JwMFkxbUZrNVhibTdWM29LZERfckhfZERSamZrUjMzaG5YUG1jdWhheEE?oc=5",
-      "source": "AI타임스",
-      "date": "Thu, 08 Oct 2026 07:03:11 GMT"
-    },
-    {
-      "title": "파주중앙도서관, 시니어 대상 '인공지능(AI) 활용' 강좌",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9pR0NFQTR0ampSdExyWDA4RE5KZGtXUklsMlFPZklKcG9YX3BwYzNzcDRSQndkX1AwSlBYUVhoTnZuVjVyaTdiUEkxNlBtT3d4QjRkVGwtUzl6OEQ3aDY3UUZrTXVLa2xGNnc?oc=5",
-      "source": "실버아이뉴스",
-      "date": "Thu, 08 Oct 2026 06:58:59 GMT"
-    },
-    {
-      "title": "정신건강 목적 AI 이용지침 나왔다…\"AI 위로가 사람 대체 못해\"",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvbF9uNzRXcGl6Q0h2MzV2azV5S0I1eXR5Tm5Yb1pfbkl2dU1qZkRUV2s4eF8zcWktWUxnYk8zN0N3dzRLQkh0WGpWQmlIcjVvMVoyRGNiNjV4bDQ2ZXlPYdIBYEFVX3lxTFBvbF9uNzRXcGl6Q0h2MzV2azV5S0I1eXR5Tm5Yb1pfbkl2dU1qZkRUV2s4eF8zcWktWUxnYk8zN0N3dzRLQkh0WGpWQmlIcjVvMVoyRGNiNjV4bDQ2ZXlPYQ?oc=5",
-      "source": "연합뉴스",
-      "date": "Thu, 08 Oct 2026 04:30:01 GMT"
     }
   ]
 }
