@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-11T08:37:05.260Z",
+  "last_updated": "2026-10-12T08:59:13.951Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -293,7 +293,7 @@
     {
       "id": "deepseek/deepseek-v4-flash-0731",
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "price_1m_input": 0.01,
+      "price_1m_input": 0.02,
       "price_1m_output": 0.64,
       "context_length": 1048576,
       "top_provider": true
@@ -311,14 +311,6 @@
       "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
       "price_1m_input": 0.11,
       "price_1m_output": 0.34,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-v4-pro",
-      "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "price_1m_input": 0.21,
-      "price_1m_output": 0.42,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -395,19 +387,27 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-v4-pro-0813",
-      "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "price_1m_input": 0.66,
-      "price_1m_output": 1.98,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
       "id": "deepseek/deepseek-r1",
       "name": "DeepSeek: R1",
       "price_1m_input": 0.7,
       "price_1m_output": 2.5,
       "context_length": 64000,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek: DeepSeek V4 Pro 0423",
+      "price_1m_input": 0.96,
+      "price_1m_output": 1.91,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "name": "DeepSeek: DeepSeek V4 Pro 0813",
+      "price_1m_input": 1.32,
+      "price_1m_output": 3.96,
+      "context_length": 1048576,
       "top_provider": true
     },
     {
@@ -435,19 +435,19 @@
       "top_provider": true
     },
     {
-      "id": "google/gemma-4-26b-a4b-it",
-      "name": "Google: Gemma 4 26B A4B ",
-      "price_1m_input": 0.07,
-      "price_1m_output": 0.22,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "google/gemma-3-27b-it",
       "name": "Google: Gemma 3 27B",
       "price_1m_input": 0.08,
       "price_1m_output": 0.45,
       "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it",
+      "name": "Google: Gemma 4 26B A4B ",
+      "price_1m_input": 0.09,
+      "price_1m_output": 0.3,
+      "context_length": 262144,
       "top_provider": true
     },
     {
