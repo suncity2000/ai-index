@@ -1,11 +1,41 @@
 {
-  "last_updated": "2026-10-13T16:42:31.477Z",
+  "last_updated": "2026-10-14T14:19:13.213Z",
   "news": [
     {
-      "title": "위 지사 “제주 인공지능( AI) 대전환의 성패는 도민의 삶이 얼마나 달라졌느냐로 평가받겠다”",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2eGFLT0hlT25MZzJDYzR1ZHlMeHNHeFd6MFBLazE3QlFlNGdhWWEtV3MzWnB5TkNfU1JSLXlYc0x4WDMzaDluY3pxcEM5VDYzVkw0c2sxTExrVEIwUkJTRGp6bURRYWVFVWNubV9B?oc=5",
-      "source": "지금제주",
-      "date": "Tue, 13 Oct 2026 10:02:23 GMT"
+      "title": "경남교육청, 현장 교원과 함께 인공지능(AI)·디지털 교육 미래 방향 모색",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE81ZWg0QnV2c2JtWHZvQ2cxMmF2X1JxbWZwNFkxZW9mM29QRHI1dFJyUF9tZkxlX0d2TTFxQ2ZNVHI3bXJHOXBoRGUxTWx2alp1UXVpVWtGcThaNnBmZWEyQUdQdmpiYTRfNldr?oc=5",
+      "source": "경남일보",
+      "date": "Wed, 14 Oct 2026 08:52:01 GMT"
+    },
+    {
+      "title": "AI가 일상이 되는 순간, 'AI FESTA 26'에서 만난 모두의 AI",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUEI2VEd4NV81M1czTGNseTNDMXJZZ25DcmJIUzJLZTdfelpEZ0FKMTVqa3lzN0xKUFptWTdEYS1lcTFiRFVXZk4zQWlVYjNlUDhCaVVDc001ZFZBMWJKNHlRMS0tRThyaVM4SjRiSjNJZEZhak5CdzVEc1hzQzRHR3RCSUlWNGc?oc=5",
+      "source": "정책브리핑",
+      "date": "Wed, 14 Oct 2026 04:32:00 GMT"
+    },
+    {
+      "title": "달콤한 아첨꾼이 된 AI",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaktRLS05UDFJbHhSTlN2WDg0ZW1OaVZSZkwyYUxRRzNYcTZoYWJJR1Jfd0xmU0tMYTFyNUFkRFJnWmJvdXlYNzd1dlNzZU43eEhRcXBFdWEyYll3MHowaHZENTFhS1A3dXRuY2VhV3F3SnpxUXJKUlhPM1JIT2VXRjk3N3ZXbjNrSXlFM2V0WQ?oc=5",
+      "source": "사이언스타임즈",
+      "date": "Wed, 14 Oct 2026 00:09:32 GMT"
+    },
+    {
+      "title": "[제주 24시] ‘테크플러스 2026 제주’ 열려…AI·AX 시대 제주가 나아갈 방향 공유·성장 기회 마련",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1YRTMzaUZFLXhSU1I1QzhsSnFGZk9hdkN1MnA4d1h5eTJFS3lrNDV6R2xBdWVFMld6WmMtUHdBRVNfb0FYVkF2ZnFaVXA5UlVJMUYwR0k2QTdzOGttcWdILUxnUkZzOHFDUXFHVXdQdndlTjjSAXNBVV95cUxNWEUzM2lGRS14UlNSNUM4bEpxRmZPYXZDdTJwOHdYeXkyRUt5azQ1ekdsQXVlRTJXelpjLVB3QUVTX29BWFZBdmZxWlVwOVJVSTFGMEdJNkE3czhrbXFnSC1MZ1JGczhxQ1FxR1V3UHZ3ZU44?oc=5",
+      "source": "시사저널",
+      "date": "Tue, 13 Oct 2026 23:46:17 GMT"
+    },
+    {
+      "title": "[단독] \"AI 오남용 막자\"…'인공서원'으로 뭉친 서울대",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBwNmdCb2ZsWlgxaEZmRHdMaEtLcnF5TU5OY3VjdHBRYW92ZnRBRTh4M05hc3lGVFEwUDBLb2VLR2o3VkRjOThUUFBKSTBoQVRra1M2WlowT0pEZw?oc=5",
+      "source": "한국경제",
+      "date": "Tue, 13 Oct 2026 22:00:14 GMT"
+    },
+    {
+      "title": "캘리포니아, AI가 쓴 서면 명시 의무",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ERWQwRURWWnR5R3RfbUNXZDhJQU5VWXYxRW5nUGpPYWd0SzJuQlBENlpVUFhCRk9EY3oxQjc2N3FyMXBybFFMTlh0dnJWdXg1OTZBV1NXeGJwUVZRaTFjR0JPejBoVkFkU2ctOTR1WHc2UdIBckFVX3lxTE1ERWQwRURWWnR5R3RfbUNXZDhJQU5VWXYxRW5nUGpPYWd0SzJuQlBENlpVUFhCRk9EY3oxQjc2N3FyMXBybFFMTlh0dnJWdXg1OTZBV1NXeGJwUVZRaTFjR0JPejBoVkFkU2ctOTR1WHc2UQ?oc=5",
+      "source": "법률신문",
+      "date": "Tue, 13 Oct 2026 20:00:00 GMT"
     },
     {
       "title": "광해공단, ‘인공지능 윤리 준수기관’ 확인 마크 획득",
@@ -14,34 +44,16 @@
       "date": "Tue, 13 Oct 2026 09:39:46 GMT"
     },
     {
-      "title": "파수AI, 생성형AI 정보유출 막는 'AI-R DLP' 글로벌 보안상 수상",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBwNVRIZFFyM2t1bVBLNm1FeE85MkNyQldacjh0ejRWLTFZczMwWkdVaTIwaG9jMEQ2eXo0cFN6RHo3YmxCRDBfV0NDLUlLRnVCaUk4c0lESDdqa0F3U081X21YT1RhTHVX0gFsQVVfeXFMTUZOU0xNZ0w5RmhpbmhYNmVkUGIxZE1abE9rMzl1LW1YOHZuYkJuOExTUXRNaGhOVTgzTVgxcjltZHJsbWRlSGs0RUIwVVNPbTNvVzZNQi1mTjV0V1prSFFvTEU1WEw0YUJMTFRU?oc=5",
-      "source": "블로터",
-      "date": "Tue, 13 Oct 2026 07:52:52 GMT"
-    },
-    {
-      "title": "인공지능(AI)·자율주행 시대, APEC 스마트 모빌리티 협력 서울서 넓힌다",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOdnNzSlVDMHlLV3d4bThDZGtvcHUyc0FteWdUVzdFWThXT21Od25acXYyOVd1aGRscERucGl6MVROX2RReEdvbUxocTVyanVNUnptQnN0V09NbjV0RHJHWWxUdm1XQXhhcVQ3S1k2NDIyU1Q1VndFZnNQUTJKWnhmR1UyWGxhQ1lOekhoUmp5Tk1UdDBMLWF4UXNka1NfdVpPUDBXaWthcFRFaGROOG04eVRXUFo3ZXhuNFBfOG5aOG54MWhkODNQZnVhek5Vd1BpdF9mSnlTeml5Nl9DWk51eXByR3ZkNUJXUWVOQjIyNDJnYXJyajNST1BlSk1vUURqd0RQdTUxTHItclg2ZDZDTmJn?oc=5",
-      "source": "정책브리핑",
-      "date": "Tue, 13 Oct 2026 02:00:00 GMT"
-    },
-    {
       "title": "인공지능(AI) 시대의 관광, 제주는 준비되었는가?",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXRFdjeUpfS2twTHlyMHdVdG9qTDd4NFcyMngxOHJzSVdWSWN6MzYtNk5hZy12X1ZxQVpfWFhqSEpHSVFuN3Ryc2pFVFdSSVNKZC1zOTlydFlBUmRfUDJVZXpiQkpNQ2lQMUt6VnBB?oc=5",
       "source": "제주투데이",
       "date": "Tue, 13 Oct 2026 00:50:00 GMT"
     },
     {
-      "title": "제3회 대한민국 인공지능 혁신대상 위원회 개최…“AI·피지컬 AI 로봇 혁신 퍼스트무버 발굴로 K-AI 미래 선도”",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tOC1xbDFld09wMEREMVpNLXFtazVPVi0teWpPMFJOY3lmMXFQOFVEd3dhWEZ4UkRLZURZZmhLT0pyemNibkhZelpSYURyeWcwVE9GZ2s4bmRuOGpudmx2NWUtZXFVOFltMkJrUw?oc=5",
-      "source": "로봇신문",
-      "date": "Mon, 12 Oct 2026 15:10:41 GMT"
-    },
-    {
-      "title": "나델라 CEO, “초지능 AI, 내부자 위협처럼 통제해야”…기업 보안 7대 원칙 제시",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11ZTFhdjlSSHZvT3FpSVNLR3NUUE9SNnJZSUFFZmpMbVlKSWZkS0xKaU9fWTF0TWVfaFZ1THc3OTlkclVLUzJWQTRidHhCeW1fU3l1RHhZV3pjcmRxY3lhLThJS0Npc28?oc=5",
-      "source": "인공지능신문",
-      "date": "Mon, 12 Oct 2026 12:49:18 GMT"
+      "title": "밝히면 손해, 숨기면 이득 ‘이상한 저작권료’…‘AI 음악’ 걸러낼 기준이 없다",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE80enFHUW4tZFc4NFg1encyeFVpMjJlVU9CZll5MmVfWTVyZ2hOY25rWUNBRzFrcUVMYVp4dGZMYVlPb2twTEl1Vzlia01ZdG43cEZWNVlmVnlzYXhRd3c?oc=5",
+      "source": "주간경향",
+      "date": "Mon, 12 Oct 2026 21:00:00 GMT"
     },
     {
       "title": "경북교육청, 생성형 AI 활용 우수사례 발굴",
@@ -60,18 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCVV9XUUE5aWc3MW51bXc0MDZ3d1EtV244Uk1jQXhZeDEybklrOEZncWE5T0UtOUJYd2xvY0NmZmVGbU52aDd1Mkp1X1JyWUxiTzdubThtZWd6Y01QWkdrNnlVRWFIZkU?oc=5",
       "source": "경기매일",
       "date": "Sun, 11 Oct 2026 21:46:59 GMT"
-    },
-    {
-      "title": "트럼프 “‘인공지능(AI)’이란 용어 쓰는 사람 적으로 간주할 것”",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbjBrbnVieVk0NklhSkxKTmtub1k4VW9Sdkk3bDRrdU1QYThUZGFSLTVDSGE4eWhFcnVKNmdyQU1PXzhybVF4QWFpYk50Y2M2MkVadWN4ZEJaRUJWWGdNNGw4b2xYd2N6RHNMRXRIaF94aGtVOW1FQ3BHODRrTF96LVdGSVA?oc=5",
-      "source": "조선일보",
-      "date": "Thu, 08 Oct 2026 19:09:00 GMT"
-    },
-    {
-      "title": "트럼프 \"슈퍼지능 아니라 인공지능 용어 쓰면 적으로 간주\"",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xOFlRV3hoVWpQNDFvUlBWbEc5S1hEa3ZuM3hCWE0zQ1RNV0dmRmJSUWh1dlBNOFVOMmhNLTFDYmdESVc0OXR0dkxieGgxa1h5WnFrRFczSXl0WDTSAWBBVV95cUxPazNYck1NMm5PLWFfbC1mWkJZaVlwN3N6Q0NacmVmU2pYRVY4TW1qRmt6T1RKVjhjUUpYdE1VNEVDZlFHR0hWQ3pKbkhqdnJNTFBJZlZKbEZLVDJaNGxDbEM?oc=5",
-      "source": "연합뉴스",
-      "date": "Thu, 08 Oct 2026 16:55:44 GMT"
     }
   ]
 }
