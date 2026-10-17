@@ -1,11 +1,23 @@
 {
-  "last_updated": "2026-10-16T13:43:56.650Z",
+  "last_updated": "2026-10-17T12:40:49.336Z",
   "news": [
+    {
+      "title": "인공지능이 기억 바꾼다면?…“AI 이미지로 ’가짜 기억’ 늘어 위험“",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9SSFdsTUthMFNUeGpmTjlSNW45MEF3dEtpbzFoX25YQmZFOXpUTmswU0lBTlpxZ2dNd0NTRnlob1NGa3lKbktqcWxzSFM3NklGck85OWVKYUhNRE1WbnBWUDhpTHFnc0U?oc=5",
+      "source": "연합뉴스TV",
+      "date": "Sat, 17 Oct 2026 00:02:00 GMT"
+    },
     {
       "title": "[농진청] 인공지능(AI) 시대, 도시농업 교육·체험 새 역할",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwak4tUXpPOUlzXzgyVS1EeW9iOFhBdlZHRmswT0xRdXBURFl3VHo5WGFzZEwzbU1sYWRoMWZnMGxMTzFOX1g0d2tCaHpLbTJRanNOMmtwS05fSEhMakhTZWZFcTY2M2JsNzJMbFoxdGJiQQ?oc=5",
       "source": "월간친환경",
       "date": "Fri, 16 Oct 2026 10:36:05 GMT"
+    },
+    {
+      "title": "동네 도서관이 AI 교실로…경기도, 65곳에 ‘인공지능 배움터’",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10YkpSV3Q0SG5TZnZUcU9aYjJHaS10dGJGUndOSkhVaHVRV0E2QXUxREx4T3JKQzFCamNqSzZRRFhrVWF2bEpKSUJrV29FOE9RUWhQQUlvLV9iNWpVVUVXTGpB?oc=5",
+      "source": "에너지경제신문",
+      "date": "Fri, 16 Oct 2026 04:59:15 GMT"
     },
     {
       "title": "한국부동산원, 인공지능(AI) 국제표준 인증 획득",
@@ -14,16 +26,22 @@
       "date": "Fri, 16 Oct 2026 04:02:51 GMT"
     },
     {
-      "title": "챗GPT 새벽 로그인 장애… 코덱스·이미지 생성까지 잇단 오류",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8tSzdPNHRROGRTYm50R1RSM1dESG4zb1c0WWJpZDVlMkNLSnlBR1FFbXhlR1YxaWM2RmVIMHN2RXNTOVYzYWVmeVI5RUVZSjJYNnFmUk0zQUV0Umc2Ui1IMHNjYVk?oc=5",
-      "source": "디지털데일리",
-      "date": "Fri, 16 Oct 2026 01:43:55 GMT"
-    },
-    {
       "title": "오픈AI, ChatGPT 음성 기능 업그레이드…한국어 목소리 2종 추가",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE16T0tleF9GaXBQVGptMXk4YTR1NFBPa3E5Yk9ZNUhJWlVfT3V5YVdiUzQyRmVaX0VQRGRDRUNFd2FXNDh4OC1zZkg3RVNLZTJTNDlvRk5n?oc=5",
       "source": "e4ds news",
       "date": "Fri, 16 Oct 2026 01:29:00 GMT"
+    },
+    {
+      "title": "포항 철강산단에 235억 투입…인공지능(AI) 입혀 ‘제조 혁신’ 시동",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HdmE1VllXNzlxNmVsajB0R3ZFdm91NzBkWG9aSklSUVFlX1VtakphNjRuLUNhNm1GSFJMd0wta0gtNXUzaE9hcWNsbVdndW5EZ0U3Q0JzNk9XZw?oc=5",
+      "source": "경북매일",
+      "date": "Fri, 16 Oct 2026 00:39:00 GMT"
+    },
+    {
+      "title": "챗GPT 한국어 대화 더 자연스럽게…오픈AI, 목소리 2종 추가",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xWWFldENTUU8zN01lSkVJN2hZWG84dEpvQkpTZUVDYzdPbUVqSjYtRkdYbk9LZmY5OU5aR005amk4YzFSX1FKUUdSemh4aC1ZN2M1MjRjall5dElxT0JHaF9qeVFaWTN2NEFuRzhvTkPSAXRBVV95cUxQUE9yc1JhZ0VwNmFoSjZvUlhHZ1ZnX1NuZFFwWl9WQ0k1MVNTUm9vNDN6UGlSemI4N3Y3bVNzeE1qZ2w3T3FPajdYM2NsU0hmNW9fWUkwc25MSU5ZTThlaEpyZXNBdmJ3YmtlSHZIcTI0azlEYg?oc=5",
+      "source": "IT조선",
+      "date": "Fri, 16 Oct 2026 00:22:27 GMT"
     },
     {
       "title": "오픈AI, ChatGPT 음성 기능 개선…한국어 대화 자연스러움 높여",
@@ -33,7 +51,7 @@
     },
     {
       "title": "오픈AI, '챗GPT 보이스' 업데이트…\"한국어 더 자연스럽게\"",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBEVE44dTh5OGZrU2U3SjlGano5UUFhSlpBejNLS1RxRmQ1WURwZmlkbXJGTnZKUnVyZnQ3SVNCZDFnN2dwdmk5dlNZMzlXYk1xcUdlZHZtZ1dSWkxVMTBXUNIBYEFVX3lxTFBEVE44dTh5OGZrU2U3SjlGano5UUFhSlpBejNLS1RxRmQ1WURwZmlkbXJGTnZKUnVyZnQ3SVNCZDFnN2dwdmk5dlNZMzlXYk1xcUdlZHZtZ1dSWkxVMTBXUA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE93azFlSnlnSkxoX21zTHd2aGF1VlVGU2ZSalAzWjRQWTNGYVZEcXpJZ09yRGo4aDExMkdXN3kyRWMxZGllVDZWOTRSZkVnclpmTzVGYWo5M0VlZzDSAWBBVV95cUxQRFROOHU4eThma1NlN0o5Rmp6OVFBYUpaQXozS0tUcUZkNVlEcGZpZG1yRk52SlJ1cmZ0N0lTQmQxZzdncHZpOXZTWTM5V2JNcXFHZWR2bWdXUlpMVTEwV1A?oc=5",
       "source": "연합뉴스",
       "date": "Thu, 15 Oct 2026 23:45:04 GMT"
     },
@@ -44,34 +62,16 @@
       "date": "Thu, 15 Oct 2026 23:18:00 GMT"
     },
     {
-      "title": "K-인공지능(AI) 헬스케어, 글로벌 의료 격차 해소 나선다",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBVcTNwOWV4STN2bzZEWmxwZEp5UGs2a3J5Y2VPeE9VYnVmQ2hKSmwyWU1MTlhvSC1sNUR2aFB6aTNLYms5SzhIOXFxYnNQQWUwcmNCc0x5ZkVJdXJVa2tJMTFDTkVFTXNtUTU4?oc=5",
-      "source": "재활뉴스",
-      "date": "Thu, 15 Oct 2026 03:14:11 GMT"
+      "title": "\"인공지능, 행정 문제 해결\"…부산시 데이터·AI 활용 경진대회",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoc2dfb2lNVEUyZ0xDVHQxYXRaNVlPRFZ2cW81YUJUUXJZd1Jfa1NTclJyMjBTYnFUM2VNU3pjTFVnR3ZGaWNnV0Q1Y2FEMTNBQ0FTZnhvdXpYcm51dzV2StIBYEFVX3lxTFBoc2dfb2lNVEUyZ0xDVHQxYXRaNVlPRFZ2cW81YUJUUXJZd1Jfa1NTclJyMjBTYnFUM2VNU3pjTFVnR3ZGaWNnV0Q1Y2FEMTNBQ0FTZnhvdXpYcm51dzV2Sg?oc=5",
+      "source": "연합뉴스",
+      "date": "Thu, 15 Oct 2026 23:01:40 GMT"
     },
     {
       "title": "교수도 AI에게 묻습니다... 전공별 생성형 AI 활용법",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5EWHpuR094NVZBN2NoMkJDb0F2eXBraXBJZVpiajFSaHdjWGVPRF8wenVONlhHSWNuRWIzWTNCQ081cm5TWFhMaUZqaTl0UENTZ2R4b19wRGJHSW5FN2hiZkxqeXRrX2VkNGNr?oc=5",
       "source": "뉴스H",
       "date": "Thu, 15 Oct 2026 02:19:58 GMT"
-    },
-    {
-      "title": "에이전트형 AI가 여는 EU의 다음 장",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1GTElEdWdtMFFfWTJiNFZvdnVTMFNJeHdsRG91MkpZMkhfUEpvaVVrbmFyOFJ3MG9QbTE2X19KOHBPZWlfY3RiZzA3ZEdzNEZZMTlOLUxMVHh6VkV6Y1JNenluZFIwRm9TZUVSYWtwM1lBWmJmNHYwdQ?oc=5",
-      "source": "OpenAI",
-      "date": "Wed, 14 Oct 2026 20:45:32 GMT"
-    },
-    {
-      "title": "'제약사도 생성형 AI 도입 속도' 연구 효율보다 중요한 것은…",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pRFB0ODVQaHpFN2MzYjBwUXc1N3ZpMzZSU3dtZGFfRWFxaEF0M0Jzbk9DR2VjVnRIcTJYMG1zREpYaW9JYnZkeUo1NGFUb2ROZ0g2aDhFdklWeEw4Mk13ZGVOLTNST19MTTFoZA?oc=5",
-      "source": "매경헬스",
-      "date": "Wed, 14 Oct 2026 07:53:10 GMT"
-    },
-    {
-      "title": "생성형 AI에 밀린 게티이미지, 파산보호 추진",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE12NTF6amtFY0ZWb0NhNC12ZDVGNXJFaWF4MEN1UURqTkJ2eHB2OExsQ3pDZEFLSVNXM3g5Z3FOQjNfb0MyTWF2dGxyd05icDZJc1FhUVRDbVYwVDNTZHU0dGRn?oc=5",
-      "source": "디지털데일리",
-      "date": "Wed, 14 Oct 2026 00:25:57 GMT"
     }
   ]
 }
