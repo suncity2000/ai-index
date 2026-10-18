@@ -1,17 +1,35 @@
 {
-  "last_updated": "2026-10-17T12:40:49.336Z",
+  "last_updated": "2026-10-18T12:57:49.884Z",
   "news": [
+    {
+      "title": "경북도, 생성형 AI로 행정시스템 자체 개발…7000만원 절감",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1vQlphUFo4Z2ZyMXpTa3d6Z0pLeGlYZHpaLUZXWk5yQW5ET09aRDZJa0Mzd0FHQ2hfN0JEUlkyWmlEcnVEYldreDhHSFNvakdQb2RBY0pWY1A0QQ?oc=5",
+      "source": "경북매일",
+      "date": "Sun, 18 Oct 2026 06:14:00 GMT"
+    },
+    {
+      "title": "AI가 만든 가짜 생물 사진에 과학계 '발칵'",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE03N19PdjdBRlRrQVFtSlVlMWdab29IdnNBVXF6Qzd4OGREaWFSa3hjdUdrUUdrNG5LaFdaY3BkVmdWcUpwaFNEVnNZOXk0WE91aXZUUA?oc=5",
+      "source": "DongA Science",
+      "date": "Sun, 18 Oct 2026 02:32:00 GMT"
+    },
+    {
+      "title": "세종교육, 인공지능(AI)로 서·논술형 평가 신뢰도 높인다",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9HQlh3YXdFRUgwMzY5SDJ2bE5BMG9PMzJXemlpQWhDb3p5NERsbjRfTThfZkozbjNyVTQ0ME41QzZxTGlHdk1rejZQYjhoeWhsU3BxNEF0UGxZT0xKNmEtSTBaY3J3Nk0?oc=5",
+      "source": "세종의소리",
+      "date": "Sat, 17 Oct 2026 22:02:19 GMT"
+    },
+    {
+      "title": "4개 시도교육청, 인공지능(AI) 기반 학생평가 혁신나서",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9FUTNkYWpRZEl5aDFSNi0zNG9adGx2WmVzT3hJdDRVT2toWlQteW42NEE3VTBYZkt5bmlNeWpXYmhiLUlybzBKVVlXX0JmckR0T1JrUHZnSGxja3hjcml0a1RzYV9fMDNXYkE?oc=5",
+      "source": "경북구미신문",
+      "date": "Sat, 17 Oct 2026 06:51:55 GMT"
+    },
     {
       "title": "인공지능이 기억 바꾼다면?…“AI 이미지로 ’가짜 기억’ 늘어 위험“",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9SSFdsTUthMFNUeGpmTjlSNW45MEF3dEtpbzFoX25YQmZFOXpUTmswU0lBTlpxZ2dNd0NTRnlob1NGa3lKbktqcWxzSFM3NklGck85OWVKYUhNRE1WbnBWUDhpTHFnc0U?oc=5",
       "source": "연합뉴스TV",
       "date": "Sat, 17 Oct 2026 00:02:00 GMT"
-    },
-    {
-      "title": "[농진청] 인공지능(AI) 시대, 도시농업 교육·체험 새 역할",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwak4tUXpPOUlzXzgyVS1EeW9iOFhBdlZHRmswT0xRdXBURFl3VHo5WGFzZEwzbU1sYWRoMWZnMGxMTzFOX1g0d2tCaHpLbTJRanNOMmtwS05fSEhMakhTZWZFcTY2M2JsNzJMbFoxdGJiQQ?oc=5",
-      "source": "월간친환경",
-      "date": "Fri, 16 Oct 2026 10:36:05 GMT"
     },
     {
       "title": "동네 도서관이 AI 교실로…경기도, 65곳에 ‘인공지능 배움터’",
@@ -30,12 +48,6 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE16T0tleF9GaXBQVGptMXk4YTR1NFBPa3E5Yk9ZNUhJWlVfT3V5YVdiUzQyRmVaX0VQRGRDRUNFd2FXNDh4OC1zZkg3RVNLZTJTNDlvRk5n?oc=5",
       "source": "e4ds news",
       "date": "Fri, 16 Oct 2026 01:29:00 GMT"
-    },
-    {
-      "title": "포항 철강산단에 235억 투입…인공지능(AI) 입혀 ‘제조 혁신’ 시동",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HdmE1VllXNzlxNmVsajB0R3ZFdm91NzBkWG9aSklSUVFlX1VtakphNjRuLUNhNm1GSFJMd0wta0gtNXUzaE9hcWNsbVdndW5EZ0U3Q0JzNk9XZw?oc=5",
-      "source": "경북매일",
-      "date": "Fri, 16 Oct 2026 00:39:00 GMT"
     },
     {
       "title": "챗GPT 한국어 대화 더 자연스럽게…오픈AI, 목소리 2종 추가",
@@ -60,18 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5rMnlRQUtoSVJoY2FvUWhZakwwQVYxeGxCX1VOMGtwVFRyN2xPVVhMMDFaUlpiVEtHTDNlTjViTDFtRy1LMThuSjJ5XzRTZ1V6TGc5QWpwU0lNR3RkRG4tYWFvM2dVZnU0MzJyVWdfYURyV3FS?oc=5",
       "source": "구미뉴스",
       "date": "Thu, 15 Oct 2026 23:18:00 GMT"
-    },
-    {
-      "title": "\"인공지능, 행정 문제 해결\"…부산시 데이터·AI 활용 경진대회",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoc2dfb2lNVEUyZ0xDVHQxYXRaNVlPRFZ2cW81YUJUUXJZd1Jfa1NTclJyMjBTYnFUM2VNU3pjTFVnR3ZGaWNnV0Q1Y2FEMTNBQ0FTZnhvdXpYcm51dzV2StIBYEFVX3lxTFBoc2dfb2lNVEUyZ0xDVHQxYXRaNVlPRFZ2cW81YUJUUXJZd1Jfa1NTclJyMjBTYnFUM2VNU3pjTFVnR3ZGaWNnV0Q1Y2FEMTNBQ0FTZnhvdXpYcm51dzV2Sg?oc=5",
-      "source": "연합뉴스",
-      "date": "Thu, 15 Oct 2026 23:01:40 GMT"
-    },
-    {
-      "title": "교수도 AI에게 묻습니다... 전공별 생성형 AI 활용법",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5EWHpuR094NVZBN2NoMkJDb0F2eXBraXBJZVpiajFSaHdjWGVPRF8wenVONlhHSWNuRWIzWTNCQ081cm5TWFhMaUZqaTl0UENTZ2R4b19wRGJHSW5FN2hiZkxqeXRrX2VkNGNr?oc=5",
-      "source": "뉴스H",
-      "date": "Thu, 15 Oct 2026 02:19:58 GMT"
     }
   ]
 }
