@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-17T06:48:29.093Z",
+  "last_updated": "2026-10-18T07:08:22.396Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -285,16 +285,8 @@
     {
       "id": "deepseek/deepseek-v4-flash-0731",
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "price_1m_input": 0.02,
-      "price_1m_output": 0.97,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-v4.1-flash",
-      "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "price_1m_input": 0.03,
-      "price_1m_output": 0.65,
+      "price_1m_input": 0.01,
+      "price_1m_output": 0.45,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -307,10 +299,26 @@
       "top_provider": true
     },
     {
+      "id": "deepseek/deepseek-v4.1-flash",
+      "name": "DeepSeek: DeepSeek V4.1 Flash",
+      "price_1m_input": 0.06,
+      "price_1m_output": 0.14,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "price_1m_input": 0.09,
       "price_1m_output": 0.18,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+      "price_1m_input": 0.15,
+      "price_1m_output": 0.6,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -438,7 +446,7 @@
       "id": "google/gemma-3-27b-it",
       "name": "Google: Gemma 3 27B",
       "price_1m_input": 0.08,
-      "price_1m_output": 0.45,
+      "price_1m_output": 0.35,
       "context_length": 131072,
       "top_provider": true
     },
@@ -1883,6 +1891,14 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+      "price_1m_input": 0.09,
+      "price_1m_output": 0.3,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3-235b-a22b-2507",
       "name": "Qwen: Qwen3 235B A22B Instruct 2507",
       "price_1m_input": 0.09,
@@ -1895,14 +1911,6 @@
       "name": "Qwen: Qwen3.5-9B",
       "price_1m_input": 0.1,
       "price_1m_output": 0.15,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-30b-a3b-instruct-2507",
-      "name": "Qwen: Qwen3 30B A3B Instruct 2507",
-      "price_1m_input": 0.1,
-      "price_1m_output": 0.3,
       "context_length": 262144,
       "top_provider": true
     },
