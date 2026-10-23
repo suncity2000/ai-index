@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T07:31:03.729Z",
+  "last_updated": "2026-10-23T07:18:04.137Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -299,6 +299,14 @@
       "top_provider": true
     },
     {
+      "id": "deepseek/deepseek-v4.1-flash",
+      "name": "DeepSeek: DeepSeek V4.1 Flash",
+      "price_1m_input": 0.17,
+      "price_1m_output": 0.66,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
       "id": "deepseek/deepseek-v4-flash-vision-exp",
       "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
       "price_1m_input": 0.22,
@@ -357,14 +365,6 @@
     {
       "id": "deepseek/deepseek-v4.1-flash-1017",
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
-      "price_1m_input": 0.3,
-      "price_1m_output": 1.2,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-v4.1-flash",
-      "name": "DeepSeek: DeepSeek V4.1 Flash",
       "price_1m_input": 0.3,
       "price_1m_output": 1.2,
       "context_length": 1048576,
@@ -805,8 +805,8 @@
     {
       "id": "mistralai/mistral-small-3.2-24b-instruct",
       "name": "Mistral: Mistral Small 3.2 24B",
-      "price_1m_input": 0.09,
-      "price_1m_output": 0.25,
+      "price_1m_input": 0.08,
+      "price_1m_output": 0.2,
       "context_length": 256000,
       "top_provider": true
     },
@@ -1819,14 +1819,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3.8-27b",
-      "name": "Qwen: Qwen3.8 27B",
-      "price_1m_input": 0.04,
-      "price_1m_output": 1.35,
-      "context_length": 1000000,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3.5-flash-02-23",
       "name": "Qwen: Qwen3.5-Flash",
       "price_1m_input": 0.07,
@@ -1839,14 +1831,6 @@
       "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
       "price_1m_input": 0.07,
       "price_1m_output": 0.28,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3.5-9b",
-      "name": "Qwen: Qwen3.5-9B",
-      "price_1m_input": 0.08,
-      "price_1m_output": 0.13,
       "context_length": 262144,
       "top_provider": true
     },
@@ -1963,10 +1947,26 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3.5-9b",
+      "name": "Qwen: Qwen3.5-9B",
+      "price_1m_input": 0.17,
+      "price_1m_output": 0.25,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3.6-flash",
       "name": "Qwen: Qwen3.6 Flash",
       "price_1m_input": 0.19,
       "price_1m_output": 1.13,
+      "context_length": 1000000,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3.8-27b",
+      "name": "Qwen: Qwen3.8 27B",
+      "price_1m_input": 0.2,
+      "price_1m_output": 2.5,
       "context_length": 1000000,
       "top_provider": true
     },
