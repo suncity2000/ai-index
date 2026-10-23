@@ -1,6 +1,36 @@
 {
-  "last_updated": "2026-10-22T14:19:40.481Z",
+  "last_updated": "2026-10-23T14:03:04.384Z",
   "news": [
+    {
+      "title": "우버, OpenAI와 함께 전 직원에게 ChatGPT Work 도입",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtcW9rSjNHb2NSS2x2Mi04VEJoMTlhUlFyakhyZ0FkUnA3OFl3dXNCSzRzd0pkUGFRYjNjOXRmQnVXZVBDcllOUnJsdy1OS2xiNDlib2w2WHNkUmE0MzB1bE9DMEhaS0JO?oc=5",
+      "source": "OpenAI",
+      "date": "Fri, 23 Oct 2026 01:57:00 GMT"
+    },
+    {
+      "title": "생성형 AI 답변 선택받는 글, 구체적 수치·맥락이 좌우",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5sa3F3SXBGZTN2ZTBvakdVMlhBRlM1cWxIa0pGd2E4elJqSzBOQ0swNG9Id1lSU3pZNW93NUFobklGdDhLS0FQU0tUckt6SWFiZ1NxbTlSMXhVUENUREhsS2E1ejQ?oc=5",
+      "source": "매일일보",
+      "date": "Fri, 23 Oct 2026 00:30:32 GMT"
+    },
+    {
+      "title": "수원특례시, 공직자가 직접 만드는 ‘인공지능(AI) 행정혁신’ 본격 시동",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1uZWIwckpYbWVZdDAtMVgzRk9yb3ItalNTUTZLYzk1VUZScHdYSDJhZExibmZiUlVTSlpkcFJQNWhBVHBrMWVwak1aTy1NVVFoSGFFRzVUbjVKU09GcUVZSEVDY0wtcVBQeVVj?oc=5",
+      "source": "일간투데이",
+      "date": "Thu, 22 Oct 2026 23:32:51 GMT"
+    },
+    {
+      "title": "경북교육청, 인공지능(AI) 청렴에이전트로 교직원 청렴 궁금증 해결 지원",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9VZlE2Q2VTUXNCM0Q1YjNBUnpGbXNtcW1yazU3Qmc5cEJjS0I3QnZ1VjVVTGVRYmUtQ0lFU3NXZXNFTS1UTEhCWV82YVJfQXVxV2FXNkZfZUxzbnpuZnN6OWw3SlAwQQ?oc=5",
+      "source": "데일리대구경북뉴스",
+      "date": "Thu, 22 Oct 2026 23:20:55 GMT"
+    },
+    {
+      "title": "서점가를 긴장시킨 수상한 대량 주문: 정말 인공지능(AI) 학습을 위해 헌책을 사는 걸까? 🤖📖",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aUkZQRUZTQmNBQUhHaDhhRS1FMi1YSFg4NU9KZFpQVXM2bVJqT2ZlRWw0M3pud3FGd3JGeEJTbXBkN2dNakNtTUV3R3dWOFlJa3B3?oc=5",
+      "source": "뉴닉",
+      "date": "Thu, 22 Oct 2026 10:16:22 GMT"
+    },
     {
       "title": "현대차그룹, 임직원 70% 생성형 AI 활용…73개 생산 공정에 AI 적용, 전사 AX 가속",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIY2FSVGpuZ292bFFVUWtQY0d5SUhCNTdEYmc0Q1FvNDh1d3JNdUlFYW1ORHZVdGM3WFBjWGUwWEJ0ekRpbGhyUllIMHc3NVRyYU1HcU93WTNRenBUd08wUTdaTnFsVVE?oc=5",
@@ -9,15 +39,27 @@
     },
     {
       "title": "인공지능융합사업단, 국가 AI데이터센터 고도화 기술 세미나",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UanZ1b3QtbWtJRmRQV21PbkJiT1FuYU1TSC0wTzBvQzFiV1kwN2pnNUpCSHdFaGFSeE53bmM3NlE5ejFKWllGWjMzUEM5Qy1SRnAtTXNZaFczUXlpbUVqbNIBYEFVX3lxTE1UanZ1b3QtbWtJRmRQV21PbkJiT1FuYU1TSC0wTzBvQzFiV1kwN2pnNUpCSHdFaGFSeE53bmM3NlE5ejFKWllGWjMzUEM5Qy1SRnAtTXNZaFczUXlpbUVqbA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZNEVqNFV1R0k0ajVQb1VXamt5MlY0a3htU3AwU2lFWWM0bkRLUzVKYzl1Zkh6cDJGSU1ZbmNQeklINzNIZFRHanFIMUpHcDZza1l5dzFWNHpiVzjSAWBBVV95cUxNVGp2dW90LW1rSUZkUFdtT25CYk9RbmFNU0gtME8wb0MxYldZMDdqZzVKQkh3RWhhUnhOd25jNzZROXoxSlpZRlozM1BDOUMtUkZwLU1zWWhXM1F5aW1Famw?oc=5",
       "source": "연합뉴스",
       "date": "Thu, 22 Oct 2026 07:18:12 GMT"
+    },
+    {
+      "title": "[기고]AI in Motion, 인공지능은 이제 현실을 움직인다",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA1M3Zua1VsaDBFaFZsRkFobHE4Q2JYbHIycjk3V29vekFpdjRBWWkwVTZGek0ySHRJUG5iQVljXzBBZ1pqXzhra2txM2Z1QjFxdlhyUS1hbHgyek1LbFdkenRfNE5YOGxVdW1Cag?oc=5",
+      "source": "로봇신문",
+      "date": "Thu, 22 Oct 2026 02:21:01 GMT"
     },
     {
       "title": "공정위, ‘AI 워싱’ 막는다… 인공지능 표시·광고 가이드라인 제정 추진",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5nWGVDSHllWVQyU2Nxc1pQcTRMYjhOT0dyUS1sVzlPcFhVOWh1Zm4zME9MVVVNc2ZQcDBwa3ZoQXB2azNNLVczd254dEd0UXlHWmg5VGxFSWxtbnB6ZkFvbzlFRlRObHFOeEE?oc=5",
       "source": "Daily NTN",
       "date": "Thu, 22 Oct 2026 01:00:00 GMT"
+    },
+    {
+      "title": "OpenAI가 ChatGPT 광고 서비스를 26개국으로 확대합니다.",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZm9Hd3JEZy1YZ01TcXMwMzFfMnZuNzdTQVhhODFPc2E5SldaeTZVcHlsbERxV1dNRWFDV3pGbXF6dnE0QmxHcFc4b1VtZUFRQUdyWWZrSjdXS3BKSjJHUTVYaEdZcUUzLUhMelhOMkpQTFBSNzZhWENyd2d6R3MxOTVIUjFoTGU4V3cteEZ3?oc=5",
+      "source": "Vietnam.vn",
+      "date": "Wed, 21 Oct 2026 20:47:59 GMT"
     },
     {
       "title": "스페이스X와 슈퍼마이크로가 인공지능(AI) 관련 투자 심리를 끌어올리면서 나스닥이 주도해 월스트리트 증시가 상승 마감했다",
@@ -30,48 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ROVFUV245SDMtU21FWkJDS1Zjc0d6R3dUZzRRUGVjY3I1bUtGV29McnV2QUZ2MnFwa2tVWFpRUEZlZzdHZ2RZWldQOUttRmFVWUFCdHg2LTVSUjB5VER5ZFZzNkNwd05BWUZtT0JyTm9BZkppVnpn?oc=5",
       "source": "OpenAI",
       "date": "Wed, 21 Oct 2026 19:36:25 GMT"
-    },
-    {
-      "title": "네덜란드 방문단, 안양 인공지능(AI)·스마트 도시 기술 현장 찾았다",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5QWG1LWEJBVmNlcTJLNFJEOHNZT3lwWnpMZjZPd2Jwb0ZPbGpKcE5rQXdWZmNNaklWRXdFZElmSmI3TEVaZ3llNm40X2Z6Q3FKX1dmMk1qZEh5TFhzNVpn?oc=5",
-      "source": "세계환경신문",
-      "date": "Wed, 21 Oct 2026 06:44:53 GMT"
-    },
-    {
-      "title": "안양시, 피지컬 인공지능(AI) 로봇 실증사업에 선정...안양중앙시장에 순찰로봇 6대 투입",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9pekNtd1MwYUlfSjVtQnZLUFZMU01Ub3RWQWxleTBYM2JNUFVFWklvYnpZUWlla1oweEE1NXlHM0pxbzNBSlpkLUVsNFc5VlB1QWp2ellnY3Vmd1N1cHlpNENXLVk3XzlvTHllUUttcw?oc=5",
-      "source": "중부일보",
-      "date": "Wed, 21 Oct 2026 05:14:00 GMT"
-    },
-    {
-      "title": "시장 출시 앞둔 환경분야 인공지능(AI) 서비스 첫선 보인다",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ubjlqQlgtekE4d0V4c2wxQmwyMnNQcUtCd3QxWWNaamVpdkJIOHk0RFNLX0doVWhybHFLZ0tuUEJGZkpJS1ZRWENBVWJhcTJ1V0FjenBUOUVnNUpqZ2p4LWVLOUY0UUowcGFv0gFvQVVfeXFMT2tTVFJEXzJFYk93ZV9XaGlkWjhVT1pKNllJUTVJODc1bm53Q1BFSHVrVm1UT3JGQkgzaHFIdnQ4bElleDBBR3N4R1JsNEd4SG92WFROZDZLdHc1RlhWWU53N1JCNUJGQV9rSS03V0dn?oc=5",
-      "source": "환경타임즈",
-      "date": "Wed, 21 Oct 2026 02:21:36 GMT"
-    },
-    {
-      "title": "“공무원이 인공지능(AI)으로 일하는 방식 바꾸다”",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rQndtakxHZ1I1SDBnUmMzWmNIMnlpRVZXSFJkd3ZqNmUyNHRVSWVKeTlJb1BqUFJMVndUaS1SQnJHd2JmSFVscXp6Sk45OWhJUlNFYVdJNV9tbk5HQ01DUXM4cUxsUjA?oc=5",
-      "source": "법률저널",
-      "date": "Wed, 21 Oct 2026 02:17:04 GMT"
-    },
-    {
-      "title": "‘인공지능(AI) 기본사회’ 주도권(이니셔티브) 쥔 충남",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fUUVFaEl3Z1RKWU5sLUZUc0FLVkQtTzJSNy1qc3E1eXp1cWptRXk3Qi1fNmZkWTNCNVdVTGhiYjNwYTFUSEZ1SUxmdnVoX0h5SVNrb0JXZjRVMkg0QzhxYXZ6bzY?oc=5",
-      "source": "서울경제TV",
-      "date": "Wed, 21 Oct 2026 01:36:24 GMT"
-    },
-    {
-      "title": "[알림]경향신문 편집국 생성형AI 활용 준칙 2.0",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yUmlnVnBEUmVaRU4wYm1zQkdpQ2VZRFFMT2pQS0o1OFZDN0k5aHdkdi1YcThKWmdBLTNEOVQzcWJkTU56Wm5iYmxKWTV5MXJYelI0a3loY1d2QdIBX0FVX3lxTFA2MTI2bHJaZVdjdFJBUmh3VG1Ed3lKOG1iUnBVTDBGbXczZGZtNEN1aDUzeUlJRVNRckJ3aWtjd0UyMDRPcXdpUmVZT1c2MHd0d2JCY3VIVTVaSUhrU0ZB?oc=5",
-      "source": "경향신문",
-      "date": "Wed, 21 Oct 2026 00:56:00 GMT"
-    },
-    {
-      "title": "군산시, '생성형 AI 콘텐츠 제작' 수강생 20명 모집",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB4VWgxLVlSYy13S0dXbTdab3h3aXd5alcwa2hKbXV1bUc1ekZqbW90WVBHRlVkekFnQXdJMnhDa3RWU0xISkM5NWxuUFFkWEg4RnhFWi16ZEkzMDDSAWBBVV95cUxOamhvLWdHMG1qQXNwcGVrOGxZN21yMGttX0FfMWtvMTdOcVd0eGFVWGtfWk9fdjZpT29CamxnLXRaYWFVR2c1SEJpOG9IX241SHNZcXFVY0NUazlYTktseE0?oc=5",
-      "source": "연합뉴스",
-      "date": "Wed, 21 Oct 2026 00:05:37 GMT"
     }
   ]
 }
