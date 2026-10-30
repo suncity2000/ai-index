@@ -1,17 +1,41 @@
 {
-  "last_updated": "2026-10-29T15:50:32.130Z",
+  "last_updated": "2026-10-30T15:31:01.540Z",
   "news": [
+    {
+      "title": "텍사스주, 오픈AI와 샘 올트먼 CEO 제소…미성년자 ChatGPT 사용 금지 요구",
+      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQNjhKaG10aWtiSi04ZXhaOFFmNUNnZXBQRVZDRXlVakdVc2Z2RkZ2OTFYSFhqTklmWWk3dnJmWktPUnBuZWNTanZua3FVb2cxVlZmb2FKc204ZEVMRFNfSmV2ZzhTaThyLXluRHhReDZXSWVJdnpnQ0s0dm1jbFl2dC16VFNvcUZkMFFCeGpsRVE2U0NGWDZ1bVZXdEs0dHZqNVJqYmdKa1I1Tm5tTzRQcGladHJkSGkzcDIzWEpUbzJ0Y2dhb09abGdLcnRsVzIxWjc5bnFJVktHdmg4M2NCU0JSUG4wMWY1ZkNYemdtSzhjY09lZ2pUaHlyQWhJNDQzd0MxLXB5MGh0TG84bXdQLVg2TGxvNzNDVVBhZVNJYWJjZmlScU5HeVNLYmhKQllLR0JMcUlvVmRLbTdCLWV5aXlUSnM?oc=5",
+      "source": "Martin Cid Magazine",
+      "date": "Fri, 30 Oct 2026 13:41:13 GMT"
+    },
+    {
+      "title": "英 기업 AI 도입률 1년 만에 두 배, 32%가 활용하지만 업무 혁신 이룬 기업은 소수",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uaVJKWHdhX05mcDRIS2U0eUc3MGtMa1ozQVRGMDE2akpvc2Y0N3BSeWY1VVlJWEVmeTI4VmdwX1JWZHRuaDZuNDBXMmszamtldlBPMXZUanRiOEY3ZC1yWDhiNUpPZ0k?oc=5",
+      "source": "인공지능신문",
+      "date": "Fri, 30 Oct 2026 00:37:31 GMT"
+    },
+    {
+      "title": "[특집]한국승강기안전공단, 자체 인공지능 시스템 구축에 ‘AI 전략위’ 개최도",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1jcjlDcHhuY1NOeGRWbDloaDJPOHc3b0NwaDhhYks2VjBKaHR4X3F3ZnNYcFRDNTRDb2dTRHZpb2tKSk5qY1dPQUZzU0Y4QmdUVEVjUTFqV3ZlRnVTREc00gFfQVVfeXFMTWNyOUNweG5jU054ZFZsOWhoMk84dzdvQ3BoOGFiSzZWMEpodHhfcXdmc1hwVEM1NENvZ1NEdmlva0pKTmpjV09BRnNTRjhCZ1RURWNRMWpXdmVGdVNERzQ?oc=5",
+      "source": "경향신문",
+      "date": "Thu, 29 Oct 2026 10:54:00 GMT"
+    },
+    {
+      "title": "인공지능(AI)으로 쓴 글을 읽는 고역에 관하여 [삶과 문화]",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBuYm1qN3hrTUZEUWlkWUNucDEteklKVkZST1FsQWNqTlNINUhwTnltclpKcS0zTFR5YnRBMEtNX3liaEs3UENaZUp6V2JnR0RVRFFVZzhOVU15dHpvVFI2RHRqb1NSMUpNbTVWRzNB0gFzQVVfeXFMUEJxM2M0eVhYT19Ieks0ajFEY2FDYTYtRDh6RmZlYzlUQjVpQW5qVUUyZHo1anlsdTZ1TEpEVnY5a3VVd2llOUVqSGxNZTg2WlZaQ0U3STBZYXpuSnljMzRhUHB5MHBlQW5tMWxadFl1NEtLOA?oc=5",
+      "source": "한국일보",
+      "date": "Thu, 29 Oct 2026 09:30:00 GMT"
+    },
+    {
+      "title": "춘천시, 인공지능(AI) 도시 본격 전환…9개 중점사업 제시",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBCWjlEakN4VGpRYmVkZ0FBSzNzdXBfV3NSR2pHbDFfVUozOXBhdTlzcmQtVzlia3VxSE5TNUNGUVJCSkNmTmRnaUVDZnRucFJXaVhVWHdibkNRZlRTNEtJSHdsdGphYlQzRmhJdTVlYkI2QdIBckFVX3lxTFBCWjlEakN4VGpRYmVkZ0FBSzNzdXBfV3NSR2pHbDFfVUozOXBhdTlzcmQtVzlia3VxSE5TNUNGUVJCSkNmTmRnaUVDZnRucFJXaVhVWHdibkNRZlRTNEtJSHdsdGphYlQzRmhJdTVlYkI2QQ?oc=5",
+      "source": "엔디엔뉴스",
+      "date": "Thu, 29 Oct 2026 09:15:47 GMT"
+    },
     {
       "title": "[공지] ‘금지AI’ 규제 마련 위한 인공지능기본법 개정 토론회",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1LXh6SkUzRkNxVHdSYm9Wa0ZOTWN5YURLWE5vQllJWV9nMkNsYzRweFplRi1jemlwRkZaVEFva1M1Qlgyc1BLMlVCSzR1SHRzVFN5ODBn?oc=5",
       "source": "참여연대",
       "date": "Thu, 29 Oct 2026 05:27:10 GMT"
-    },
-    {
-      "title": "원전 데이터로 키운 생성형 AI…한수원, 公기관 혁신상",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5zR0JhUFdzdTNKWEJWUW9xZl8yeENmcHVyR1VZeWctQVdBNkpVVExQakZIVWo3dmhLXzZBUDVjZUpoMkRSMmQyZ1JMdXFtUXpNZnI1bmtJTmtON1hMVER3a2xJQVFlMklvSlNwdkk4aXnSAXBBVV95cUxOc0dCYVBXc3UzSlhCVlFvcWZfMnhDZnB1ckdVWXlnLUFXQTZKVVRMUGpGSFVqN3ZoS182QVA1Y2VKaDJEUjJkMmdSTHVxbVF6TWZyNW5rSU5rTjdYTFREd2tsSUFRZTJJb0pTcHZJOGl5?oc=5",
-      "source": "전기신문",
-      "date": "Thu, 29 Oct 2026 04:23:14 GMT"
     },
     {
       "title": "조명·전기설비 분야도 인공지능(AI)·데이터센터가 ‘대세’",
@@ -26,52 +50,28 @@
       "date": "Thu, 29 Oct 2026 02:25:30 GMT"
     },
     {
+      "title": "안산시, 사회복지 현장에 인공지능(AI) 더한다… 종사자 역량강화 교육 실시",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBqbTR4ZnlLRHdfOVVkemE0bUMycU8taDd0QV9hOXRsTEQ1aXAyRWY0WkxVeFlxU0NORWk1TVNKaU9QRktkQW1IY1h3?oc=5",
+      "source": "경기평화신문",
+      "date": "Wed, 28 Oct 2026 23:34:00 GMT"
+    },
+    {
       "title": "OpenAI와 ServiceNow, ChatGPT 워크플로 플러그인으로 파트너십 확대",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaWYxYlhpck1zemRHcUI3LXNMNTRUdlRvcHpRREJLTlFCWmRoTkxPbFdHN19ZN0wxenVxdENoSlhfMm5rcThyZ0VYMWVrblRWazVFaG1YZUEyeW9femVpcUtrTFNfQmd0YTBCSEZ3dGtBaUtRSDN3b1V3X0NKSXNwNktwWW1Fd2JxVEtCb29IUDVqNGV0UHJoNzBB?oc=5",
       "source": "Unite.AI",
       "date": "Wed, 28 Oct 2026 20:45:02 GMT"
     },
     {
-      "title": "수원시, 팔달구 일원에 피지컬 인공지능(AI) 기술 기반 스마트도시 서비스 구축한다",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1McXdOYzJCazBDT2l2ZWhodmRmNWJselpmSG1Vb095T1hRZEhVSHJJYU12Nlo3MHJkSEpMcFg4djFfY1MtZU1CNHJsZnh3dGo0alZYanlxY0l2bmM?oc=5",
-      "source": "연합뉴스",
-      "date": "Wed, 28 Oct 2026 07:59:17 GMT"
+      "title": "OpenAI와 ServiceNow, 기업 워크플로 전반으로 파트너십 확대",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5xYl9ua1RLd1NKSlZITklrOW1XOFoxNXJuZkxYNlJRT2kxb0x0TVdaN01VQ1l4bnFSQmZvZkxyMUJ6SFdKNWdaN2Y3TDdXQXFsSVpiV3dQWGRLUFF0ekItWGhfVVZ0WEZIUm9qUEtNZ18wbjRGVFpVZlFPbw?oc=5",
+      "source": "OpenAI",
+      "date": "Wed, 28 Oct 2026 07:00:00 GMT"
     },
     {
-      "title": "생성형 AI 쓰는 학생 10명 중 7명 \"과제 AI에 맡긴다\"",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCbFRkMXVYQ29pTTRqdWxIS1R4OTh4UkxoYkJnd0JzMENCSkZvM0t2RzJ4NmdJN2Z3RjByMWZPdDZEdGl0eXJ1bWVWa3dvZ0pKUkZvLUtKbzlwSVnSAWBBVV95cUxPa3d2Q3R0NmE2TTE2UG9DRXc2OEtOb0RaekRIWUZQQ1NjWUppZjFPQlk5SzVicFRnR3hNMkNfZG9GYkZqRURxS3dZZEg1cUtWS3VqOHoxYTZBVVJQVFpGR3Q?oc=5",
-      "source": "연합뉴스",
-      "date": "Wed, 28 Oct 2026 02:19:11 GMT"
-    },
-    {
-      "title": "한국 ChatGPT 업무 활용, '컴퓨터 다루기'에서 '창의적 생각'으로 이동",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbk1JZXBYWGxvbElrZGV4bVFOTWlTYktUNkthLTRwSG90ck53a2RqYzJuN3dzaWs1UW01WFBTaVNWYUJWTGV1QUt3WUZndXJBdmVXLTBTYXQxWWJzQ0k3a1kzY0U0QzVzX1JtcmEwUUtad3h1YVMyV1M5bHNYWDFqLWhEcm5qNUnSAYwBQVVfeXFMUHVCNHJnZHRabXg4c0hLUXVxd25PSmNGTnFuTm1jNlVvMDY1aTNaZ1dFdXByRE9tNXMxX2FTSXU4ZWNHdDJnbEFRTk9OUllMYWE0d2E4ZTZ0NEZBYW9zTlNEMjFwMW90WS1qUDk4cUV5dDZpcVVYaEhXSEIxQVc3T01DZWpOdHpHRmM5WFQ?oc=5",
-      "source": "테크수다",
-      "date": "Tue, 27 Oct 2026 06:42:11 GMT"
-    },
-    {
-      "title": "생성형 AI로 개인정보 820만건 탈취…일당 검거",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOU01wYkRXSGJIV3JlR0E4cS1WdUJpV3hFaFRFN2lrTmlmUGt4cTJlR3JTMkVScGEzS1phYjVMZGxVVm5JOHljQmFuMzl5S1c0dHRndU5Jd1B5ZHE4R0lnT18tN3hvTWc?oc=5",
-      "source": "연합뉴스TV",
-      "date": "Mon, 26 Oct 2026 20:31:00 GMT"
-    },
-    {
-      "title": "OpenAI, ChatGPT의 사실적인 선거 이미지 생성 제한",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWm1LLWxCd0RDX0dSb2xES2hEeGNyZ3BOZXl2dmtXV2ZLRlZlRlk2UlhlbzdTMHdpNzZ5TFRKN29uQnRtbnhUZ0Z3YUhNR21Mb1oyRHpxa1piSGNWeG5HUExENFIyQzkzMGl3TC05Y0RXbEJ4dmVHelJsU2dJSWxvMzNORDlqM19ONC1KQXFrR2Y4NnIxZGhTQnFUbzRqaVIyLVhqRlZtbWk?oc=5",
-      "source": "Mezha.net",
-      "date": "Mon, 26 Oct 2026 13:43:00 GMT"
-    },
-    {
-      "title": "경남교육청, 인공지능(AI) 교육 넘어 업무 개선 실천으로",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE95bEhldUYwWlFxRkoxbDlWUnQ3OHNDRFFaYVVpVmlHaDBLME5PYUg2UWFtSHBxa1I4SkdlMnJQb3c1T01VMzNZUFZrNFk1dXdCaHV0RVctVWNLeWFUSjBHdmdXOFlFdF9i?oc=5",
-      "source": "시사코리아저널",
-      "date": "Mon, 26 Oct 2026 13:26:53 GMT"
-    },
-    {
-      "title": "공정위, 「인공지능(AI) 관련 표시·광고 가이드라인」(안) 의견청취 실시",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9kZjFPQjhfRUJ2LW5yVnA5bng2V181QzFBQkpaR2hNTlB5anZMTW95cHo3YXZzdjd0TVVtTy1objU3SkN4MDZyamw5eEdmMUpQRWl0eGhNZEhwcVlZNWZhX1B6eVh6UDBiMUcweU5R0gFyQVVfeXFMT3QwcTJOYmV4NV9BZ05TTVM3OTAtZWlzd00tLUVlSGthYl9DZjc0Ukk4cEc3RWtTd0pMbFRaNURFSm9Qb3BhUXpOeUpUSlRlRGpXenpuendsWjBpNWRMQktDdVdsdUNJcjNyUDBXZ18wTHdB?oc=5",
-      "source": "법률신문",
-      "date": "Mon, 26 Oct 2026 07:27:05 GMT"
+      "title": "게임 제작 파고든 생성형 AI…이용자 신뢰 확보는 과제",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13WjBZU0tQMzdZdHVpNVAxdno5czM1b2JEZUNCc29rcm9TNVA3WkVmVmw4YnNiZk00MHUyUzRoQU5lN09xUnlvamlxRVROTUc1eTV5dGRRbDNNOWx0ZTlmQQ?oc=5",
+      "source": "뉴스토마토",
+      "date": "Wed, 28 Oct 2026 05:43:56 GMT"
     }
   ]
 }
