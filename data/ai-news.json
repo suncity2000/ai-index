@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-10-30T15:31:01.540Z",
+  "last_updated": "2026-10-31T15:00:43.607Z",
   "news": [
+    {
+      "title": "GPT-6.1 Terra 소개",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wQmRIZ3hrNVVkSG0tOFA4aVJYM2JUMGFVclVXZGhlbDFPWXFIUmh0MVpmSndXQjNiQzJzLWFGcW0zMmxuaER4dVByNGFRdFphcnBkXzl1TXd6RU5Pd1RVRUtkRVZScU9U?oc=5",
+      "source": "OpenAI",
+      "date": "Sat, 31 Oct 2026 11:44:35 GMT"
+    },
+    {
+      "title": "오픈AI, 청소년 챗GPT 무기 정보 제한...폭력 징후 땐 대화 중단",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBIU1NIcDFoUmY5WDM3US12WUJhaFRvVEJWaVlPOXJRU3ZkSy1zRVpCSU9WYUtvZVFXMzNiWldSN1V0NE9tSTNNZ29JczZyRGE4Vmk4eE81Q19kTlFwLW9Tb2lQV3JnMmZCUmc?oc=5",
+      "source": "AI타임스",
+      "date": "Sat, 31 Oct 2026 08:09:05 GMT"
+    },
     {
       "title": "텍사스주, 오픈AI와 샘 올트먼 CEO 제소…미성년자 ChatGPT 사용 금지 요구",
       "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQNjhKaG10aWtiSi04ZXhaOFFmNUNnZXBQRVZDRXlVakdVc2Z2RkZ2OTFYSFhqTklmWWk3dnJmWktPUnBuZWNTanZua3FVb2cxVlZmb2FKc204ZEVMRFNfSmV2ZzhTaThyLXluRHhReDZXSWVJdnpnQ0s0dm1jbFl2dC16VFNvcUZkMFFCeGpsRVE2U0NGWDZ1bVZXdEs0dHZqNVJqYmdKa1I1Tm5tTzRQcGladHJkSGkzcDIzWEpUbzJ0Y2dhb09abGdLcnRsVzIxWjc5bnFJVktHdmg4M2NCU0JSUG4wMWY1ZkNYemdtSzhjY09lZ2pUaHlyQWhJNDQzd0MxLXB5MGh0TG84bXdQLVg2TGxvNzNDVVBhZVNJYWJjZmlScU5HeVNLYmhKQllLR0JMcUlvVmRLbTdCLWV5aXlUSnM?oc=5",
@@ -8,34 +20,22 @@
       "date": "Fri, 30 Oct 2026 13:41:13 GMT"
     },
     {
-      "title": "英 기업 AI 도입률 1년 만에 두 배, 32%가 활용하지만 업무 혁신 이룬 기업은 소수",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uaVJKWHdhX05mcDRIS2U0eUc3MGtMa1ozQVRGMDE2akpvc2Y0N3BSeWY1VVlJWEVmeTI4VmdwX1JWZHRuaDZuNDBXMmszamtldlBPMXZUanRiOEY3ZC1yWDhiNUpPZ0k?oc=5",
+      "title": "오픈AI, AI 행동 원칙 전면 개편…지시 따르는 AI 넘어 인간 의도 이해하는 AI로",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1SRVEyS3hMOUxhOHVzaVl6ck9sWjVxSUpzRXRpTmxDdHdKSjhpaExFQ0xoN0FITW4xa3AwTGZOSFRqZ3lxLWl2ZkhzeC1OTmFKbVpnRzVlTEJxQ2xmZFFNeFF5dW5TZHM?oc=5",
       "source": "인공지능신문",
-      "date": "Fri, 30 Oct 2026 00:37:31 GMT"
+      "date": "Fri, 30 Oct 2026 10:25:50 GMT"
     },
     {
-      "title": "[특집]한국승강기안전공단, 자체 인공지능 시스템 구축에 ‘AI 전략위’ 개최도",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1jcjlDcHhuY1NOeGRWbDloaDJPOHc3b0NwaDhhYks2VjBKaHR4X3F3ZnNYcFRDNTRDb2dTRHZpb2tKSk5qY1dPQUZzU0Y4QmdUVEVjUTFqV3ZlRnVTREc00gFfQVVfeXFMTWNyOUNweG5jU054ZFZsOWhoMk84dzdvQ3BoOGFiSzZWMEpodHhfcXdmc1hwVEM1NENvZ1NEdmlva0pKTmpjV09BRnNTRjhCZ1RURWNRMWpXdmVGdVNERzQ?oc=5",
-      "source": "경향신문",
-      "date": "Thu, 29 Oct 2026 10:54:00 GMT"
+      "title": "서울 교사·시민 2천600명 \"초교서 생성형 AI 전면 금지해야\"",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZTHpfYVNpTmJ5dnFsUUpPejAwdDQ0UE9TWlJONEkzMUtJNk1zcUxYT3hTR1NfWkMteDRPUVdjdW9tSUF2NzlvdWJrM080cEt2REFOMTFxYmJCN0gzd1ZTVjhzcy0xcUdZUkQ0b19xV1FSdXJEYXfSAWBBVV95cUxPRUpYZXZZVlkySkhqamthMWZOZ0lIbGU1c2phd1dLSUNwM0JHVkpzbDAwSFUtcjYyUmhFTUVCVTRqSXlXV3NZNWZVOGYxc196LWh0SnE2Q09naXlfYmlOOHU?oc=5",
+      "source": "연합뉴스",
+      "date": "Fri, 30 Oct 2026 01:42:14 GMT"
     },
     {
       "title": "인공지능(AI)으로 쓴 글을 읽는 고역에 관하여 [삶과 문화]",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBuYm1qN3hrTUZEUWlkWUNucDEteklKVkZST1FsQWNqTlNINUhwTnltclpKcS0zTFR5YnRBMEtNX3liaEs3UENaZUp6V2JnR0RVRFFVZzhOVU15dHpvVFI2RHRqb1NSMUpNbTVWRzNB0gFzQVVfeXFMUEJxM2M0eVhYT19Ieks0ajFEY2FDYTYtRDh6RmZlYzlUQjVpQW5qVUUyZHo1anlsdTZ1TEpEVnY5a3VVd2llOUVqSGxNZTg2WlZaQ0U3STBZYXpuSnljMzRhUHB5MHBlQW5tMWxadFl1NEtLOA?oc=5",
       "source": "한국일보",
       "date": "Thu, 29 Oct 2026 09:30:00 GMT"
-    },
-    {
-      "title": "춘천시, 인공지능(AI) 도시 본격 전환…9개 중점사업 제시",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBCWjlEakN4VGpRYmVkZ0FBSzNzdXBfV3NSR2pHbDFfVUozOXBhdTlzcmQtVzlia3VxSE5TNUNGUVJCSkNmTmRnaUVDZnRucFJXaVhVWHdibkNRZlRTNEtJSHdsdGphYlQzRmhJdTVlYkI2QdIBckFVX3lxTFBCWjlEakN4VGpRYmVkZ0FBSzNzdXBfV3NSR2pHbDFfVUozOXBhdTlzcmQtVzlia3VxSE5TNUNGUVJCSkNmTmRnaUVDZnRucFJXaVhVWHdibkNRZlRTNEtJSHdsdGphYlQzRmhJdTVlYkI2QQ?oc=5",
-      "source": "엔디엔뉴스",
-      "date": "Thu, 29 Oct 2026 09:15:47 GMT"
-    },
-    {
-      "title": "[공지] ‘금지AI’ 규제 마련 위한 인공지능기본법 개정 토론회",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1LXh6SkUzRkNxVHdSYm9Wa0ZOTWN5YURLWE5vQllJWV9nMkNsYzRweFplRi1jemlwRkZaVEFva1M1Qlgyc1BLMlVCSzR1SHRzVFN5ODBn?oc=5",
-      "source": "참여연대",
-      "date": "Thu, 29 Oct 2026 05:27:10 GMT"
     },
     {
       "title": "조명·전기설비 분야도 인공지능(AI)·데이터센터가 ‘대세’",
@@ -50,18 +50,6 @@
       "date": "Thu, 29 Oct 2026 02:25:30 GMT"
     },
     {
-      "title": "안산시, 사회복지 현장에 인공지능(AI) 더한다… 종사자 역량강화 교육 실시",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBqbTR4ZnlLRHdfOVVkemE0bUMycU8taDd0QV9hOXRsTEQ1aXAyRWY0WkxVeFlxU0NORWk1TVNKaU9QRktkQW1IY1h3?oc=5",
-      "source": "경기평화신문",
-      "date": "Wed, 28 Oct 2026 23:34:00 GMT"
-    },
-    {
-      "title": "OpenAI와 ServiceNow, ChatGPT 워크플로 플러그인으로 파트너십 확대",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaWYxYlhpck1zemRHcUI3LXNMNTRUdlRvcHpRREJLTlFCWmRoTkxPbFdHN19ZN0wxenVxdENoSlhfMm5rcThyZ0VYMWVrblRWazVFaG1YZUEyeW9femVpcUtrTFNfQmd0YTBCSEZ3dGtBaUtRSDN3b1V3X0NKSXNwNktwWW1Fd2JxVEtCb29IUDVqNGV0UHJoNzBB?oc=5",
-      "source": "Unite.AI",
-      "date": "Wed, 28 Oct 2026 20:45:02 GMT"
-    },
-    {
       "title": "OpenAI와 ServiceNow, 기업 워크플로 전반으로 파트너십 확대",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5xYl9ua1RLd1NKSlZITklrOW1XOFoxNXJuZkxYNlJRT2kxb0x0TVdaN01VQ1l4bnFSQmZvZkxyMUJ6SFdKNWdaN2Y3TDdXQXFsSVpiV3dQWGRLUFF0ekItWGhfVVZ0WEZIUm9qUEtNZ18wbjRGVFpVZlFPbw?oc=5",
       "source": "OpenAI",
@@ -72,6 +60,18 @@
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13WjBZU0tQMzdZdHVpNVAxdno5czM1b2JEZUNCc29rcm9TNVA3WkVmVmw4YnNiZk00MHUyUzRoQU5lN09xUnlvamlxRVROTUc1eTV5dGRRbDNNOWx0ZTlmQQ?oc=5",
       "source": "뉴스토마토",
       "date": "Wed, 28 Oct 2026 05:43:56 GMT"
+    },
+    {
+      "title": "JDC, '인공지능(AI) 윤리 준수기관' 확인마크 획득",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBucWQ3cmM1LWRabDN6aWZnNHZXMHpLR3g2NjlzM1VlaC0zNHdnaV9PQjJ3Z081ZjQweW9QZ05RLTVXZmtKa1JxWGtuODBHbS1tRTRWdEt6RlZQZGEyLXdIYmh5V3I3SGtn?oc=5",
+      "source": "제주환경일보",
+      "date": "Wed, 28 Oct 2026 02:26:29 GMT"
+    },
+    {
+      "title": "수원시, 팔달구 일원에 피지컬 인공지능(AI) 기술 기반 스마트도시 서비스 구축",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8ydWE2dnBvenVQenl3RlBOMmQxZ0w0ZlE2VDBldkFkemhNRXZCdW82a3NUem9tOE9kVWVfU3NPa1FFTzhRR0JqWnZ3c3Bnc09LUFRLRXh4b0RfS0Vhdi04aWtMUm80QVRyTkRhSC1wZw?oc=5",
+      "source": "기호일보",
+      "date": "Wed, 28 Oct 2026 01:55:30 GMT"
     }
   ]
 }
