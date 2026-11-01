@@ -1,17 +1,47 @@
 {
-  "last_updated": "2026-10-31T15:00:43.607Z",
+  "last_updated": "2026-11-01T15:44:11.252Z",
   "news": [
     {
       "title": "GPT-6.1 Terra 소개",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wQmRIZ3hrNVVkSG0tOFA4aVJYM2JUMGFVclVXZGhlbDFPWXFIUmh0MVpmSndXQjNiQzJzLWFGcW0zMmxuaER4dVByNGFRdFphcnBkXzl1TXd6RU5Pd1RVRUtkRVZScU9U?oc=5",
       "source": "OpenAI",
-      "date": "Sat, 31 Oct 2026 11:44:35 GMT"
+      "date": "Sun, 01 Nov 2026 08:09:58 GMT"
+    },
+    {
+      "title": "‘대한민국 인공지능(AI) 수도 충남’ 지능정보화사업 기획부터 체계적으로",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nczFVd1haWk1fbUJGVlM3bTBHcDI3SGJRMndxUy04YUZFT04wMC10Z2xUN1gxNHJEcENYQXNoVl9tNFU4UkFXdUljZy01STVNd3gxaQ?oc=5",
+      "source": "타임뉴스",
+      "date": "Sun, 01 Nov 2026 07:02:01 GMT"
+    },
+    {
+      "title": "시흥시,BIX 2026 참가 성료,인공지능(AI)바이오 혁신거점 경쟁력 강화",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9XaERlaEN0LXFyeWNEZVhIUWhWbWtFU0VmdENGZmQ4d0M0VzktNXlSZXBGVDBSNlhPblhDbHNrNEZQWUhndmpjZEZHSm9YMFpwb1RENW5Id2gybHVLU0JTY0tMaThzenJqb3VubnAzUQ?oc=5",
+      "source": "기호일보",
+      "date": "Sun, 01 Nov 2026 04:55:00 GMT"
+    },
+    {
+      "title": "무차별 인터넷 긁어가기 사라지나…빅테크, AI학습차단 표준도입",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1SQTdXVzZLZUhfdHlGZUhHSDlWS2t1LVlYRUZfQzRQQThSYVZiZjBGU2Nnb1hGRG5aalFxOHdpSmQwZjg0aWhlamQ2N29wdlFtVEhfX0ZNZ0pGRGc0d1p5RNIBYEFVX3lxTE1SQTdXVzZLZUhfdHlGZUhHSDlWS2t1LVlYRUZfQzRQQThSYVZiZjBGU2Nnb1hGRG5aalFxOHdpSmQwZjg0aWhlamQ2N29wdlFtVEhfX0ZNZ0pGRGc0d1p5RA?oc=5",
+      "source": "연합뉴스",
+      "date": "Sun, 01 Nov 2026 01:02:47 GMT"
     },
     {
       "title": "오픈AI, 청소년 챗GPT 무기 정보 제한...폭력 징후 땐 대화 중단",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBIU1NIcDFoUmY5WDM3US12WUJhaFRvVEJWaVlPOXJRU3ZkSy1zRVpCSU9WYUtvZVFXMzNiWldSN1V0NE9tSTNNZ29JczZyRGE4Vmk4eE81Q19kTlFwLW9Tb2lQV3JnMmZCUmc?oc=5",
       "source": "AI타임스",
       "date": "Sat, 31 Oct 2026 08:09:05 GMT"
+    },
+    {
+      "title": "경남교육청, ‘경남 인공지능(AI)·디지털 교육 심포지엄’ 개최 > 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE90ZnpBaWlYMFZSeXNWU29lNGR3SHh3MXZuN0MxQnpEc2tVc0UwbjgycDQwX3NUaTY0dlMtV21yUVB3SHFTaEM2WG1WWEZYVld1ZS03b3ZiZG5NQ2QtRl9TM2xIOFdPU1FTa2ViMFFxLVZndw?oc=5",
+      "source": "더코리아",
+      "date": "Sat, 31 Oct 2026 06:53:00 GMT"
+    },
+    {
+      "title": "[곽재원 컬럼] 인공지능(AI)이 연구개발 하는 시대, 인간은 뭘 해야 하는가?",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3eThCMDFnRXhHOXNSVW0yZlpybG93RFgxRGZXVERfRTlfZWpybTlidlVwLW51M05wQUF1SFpsanlSR1BJMERYN3FlN1hGTTRuOFRfTkt0cnJtY2hGb1hn?oc=5",
+      "source": "저스트 이코노믹스",
+      "date": "Fri, 30 Oct 2026 21:15:00 GMT"
     },
     {
       "title": "텍사스주, 오픈AI와 샘 올트먼 CEO 제소…미성년자 ChatGPT 사용 금지 요구",
@@ -32,46 +62,16 @@
       "date": "Fri, 30 Oct 2026 01:42:14 GMT"
     },
     {
-      "title": "인공지능(AI)으로 쓴 글을 읽는 고역에 관하여 [삶과 문화]",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBuYm1qN3hrTUZEUWlkWUNucDEteklKVkZST1FsQWNqTlNINUhwTnltclpKcS0zTFR5YnRBMEtNX3liaEs3UENaZUp6V2JnR0RVRFFVZzhOVU15dHpvVFI2RHRqb1NSMUpNbTVWRzNB0gFzQVVfeXFMUEJxM2M0eVhYT19Ieks0ajFEY2FDYTYtRDh6RmZlYzlUQjVpQW5qVUUyZHo1anlsdTZ1TEpEVnY5a3VVd2llOUVqSGxNZTg2WlZaQ0U3STBZYXpuSnljMzRhUHB5MHBlQW5tMWxadFl1NEtLOA?oc=5",
-      "source": "한국일보",
-      "date": "Thu, 29 Oct 2026 09:30:00 GMT"
+      "title": "AI 통제 어떻게?…한국의 미래, 공학에 묻는다",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBoOW9kZGpib0gzMXdKUmVMekl5bHc2M1ZmYVF2YUVVdFR6SWl0aWhnTUlXV1MxMEJnYkZvU2JqY2YwVXFKSFBlSHNCMXlXR3hfRTI4cA?oc=5",
+      "source": "DongA Science",
+      "date": "Thu, 29 Oct 2026 22:00:00 GMT"
     },
     {
-      "title": "조명·전기설비 분야도 인공지능(AI)·데이터센터가 ‘대세’",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1jcDlnemRwLXFCem8zV2VieDF0a25GTF9ZeEtZdHFNMWoxTWJDTTBGTDFWYTVNSUlEME1UdEVPVTlRZmtNZ1ZVU3R2TUh5ZUdkNHQ5eFFBRi1oU0ZEa2R4Z3FFQmpFLUFLS1ZFbEt1RlTSAXBBVV95cUxNY3A5Z3pkcC1xQnpvM1dlYngxdGtuRkxfWXhLWXRxTTFqMU1iQ00wRkwxVmE1TUlJRDBNVHRFT1U5UWZrTWdWVVN0dk1IeWVHZDR0OXhRQUYtaFNGRGtkeGdxRUJqRS1BS0tWRWxLdUZU?oc=5",
-      "source": "전기신문",
-      "date": "Thu, 29 Oct 2026 02:40:16 GMT"
-    },
-    {
-      "title": "트럼프 “인공지능(AI) 표현 대신 슈퍼지능(SI) 쓰자”",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ZZlp2cWtsdm1YdUJQdFpGMkRJZlAwWk9jdk12STBCMG9iWG9RV1M2YW55N3hXeERySG1jbE44WTMzQmpyZWpfYTlpV2swQzB2?oc=5",
-      "source": "문화일보",
-      "date": "Thu, 29 Oct 2026 02:25:30 GMT"
-    },
-    {
-      "title": "OpenAI와 ServiceNow, 기업 워크플로 전반으로 파트너십 확대",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5xYl9ua1RLd1NKSlZITklrOW1XOFoxNXJuZkxYNlJRT2kxb0x0TVdaN01VQ1l4bnFSQmZvZkxyMUJ6SFdKNWdaN2Y3TDdXQXFsSVpiV3dQWGRLUFF0ekItWGhfVVZ0WEZIUm9qUEtNZ18wbjRGVFpVZlFPbw?oc=5",
-      "source": "OpenAI",
-      "date": "Wed, 28 Oct 2026 07:00:00 GMT"
-    },
-    {
-      "title": "게임 제작 파고든 생성형 AI…이용자 신뢰 확보는 과제",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13WjBZU0tQMzdZdHVpNVAxdno5czM1b2JEZUNCc29rcm9TNVA3WkVmVmw4YnNiZk00MHUyUzRoQU5lN09xUnlvamlxRVROTUc1eTV5dGRRbDNNOWx0ZTlmQQ?oc=5",
-      "source": "뉴스토마토",
-      "date": "Wed, 28 Oct 2026 05:43:56 GMT"
-    },
-    {
-      "title": "JDC, '인공지능(AI) 윤리 준수기관' 확인마크 획득",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBucWQ3cmM1LWRabDN6aWZnNHZXMHpLR3g2NjlzM1VlaC0zNHdnaV9PQjJ3Z081ZjQweW9QZ05RLTVXZmtKa1JxWGtuODBHbS1tRTRWdEt6RlZQZGEyLXdIYmh5V3I3SGtn?oc=5",
-      "source": "제주환경일보",
-      "date": "Wed, 28 Oct 2026 02:26:29 GMT"
-    },
-    {
-      "title": "수원시, 팔달구 일원에 피지컬 인공지능(AI) 기술 기반 스마트도시 서비스 구축",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8ydWE2dnBvenVQenl3RlBOMmQxZ0w0ZlE2VDBldkFkemhNRXZCdW82a3NUem9tOE9kVWVfU3NPa1FFTzhRR0JqWnZ3c3Bnc09LUFRLRXh4b0RfS0Vhdi04aWtMUm80QVRyTkRhSC1wZw?oc=5",
-      "source": "기호일보",
-      "date": "Wed, 28 Oct 2026 01:55:30 GMT"
+      "title": "의사만큼 똑똑해진 환자들…인공지능 명암",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44YzFwa18wN2xLelR2VkhFd1A1UGtJNmltMUozNVRkWUFDR0Izcjg2ak1CcUp6cjhHVHZmblVpS0V3dXZ3dmJVdmNOdGxmMmhWai1ncG1xeFZyM096QzFWcHdjazRIV2V1?oc=5",
+      "source": "데일리메디",
+      "date": "Thu, 29 Oct 2026 07:09:00 GMT"
     }
   ]
 }
