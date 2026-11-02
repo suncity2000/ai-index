@@ -1,29 +1,53 @@
 {
-  "last_updated": "2026-11-01T15:44:11.252Z",
+  "last_updated": "2026-11-02T19:10:06.184Z",
   "news": [
     {
       "title": "GPT-6.1 Terra 소개",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wQmRIZ3hrNVVkSG0tOFA4aVJYM2JUMGFVclVXZGhlbDFPWXFIUmh0MVpmSndXQjNiQzJzLWFGcW0zMmxuaER4dVByNGFRdFphcnBkXzl1TXd6RU5Pd1RVRUtkRVZScU9U?oc=5",
       "source": "OpenAI",
-      "date": "Sun, 01 Nov 2026 08:09:58 GMT"
+      "date": "Mon, 02 Nov 2026 15:42:31 GMT"
     },
     {
-      "title": "‘대한민국 인공지능(AI) 수도 충남’ 지능정보화사업 기획부터 체계적으로",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nczFVd1haWk1fbUJGVlM3bTBHcDI3SGJRMndxUy04YUZFT04wMC10Z2xUN1gxNHJEcENYQXNoVl9tNFU4UkFXdUljZy01STVNd3gxaQ?oc=5",
-      "source": "타임뉴스",
-      "date": "Sun, 01 Nov 2026 07:02:01 GMT"
+      "title": "AI 관련 표시 · 광고 가이드라인 초안 공개",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsNGlWY244ak1ORnprWlRDLUlXdkRvUnVxWFlNd0tEOGpYSGZBTndzXzU0XzIzeXpTQ0hkWnFnRjlTdTlMTFkxeXZtLVRwUC1FV1dfRGtnSzlacExJYkxFa29KNE9GYm1pdXBmSWVn0gFyQVVfeXFMTTJVR2Y1c3JhLWhHQVFkbzJPSDNHVUwtTUFZdWhiU1lPVV9PZnlpTy05el94OE1ZLVJpeDdlWmM3NlBCbHN2WWVHUjJlYXRMalJBMDk4dFZLOXl6Z2J4MDJHSzdjNkpCLWw3Yl9GZmFzOEJn?oc=5",
+      "source": "법률신문",
+      "date": "Mon, 02 Nov 2026 06:56:54 GMT"
     },
     {
-      "title": "시흥시,BIX 2026 참가 성료,인공지능(AI)바이오 혁신거점 경쟁력 강화",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9XaERlaEN0LXFyeWNEZVhIUWhWbWtFU0VmdENGZmQ4d0M0VzktNXlSZXBGVDBSNlhPblhDbHNrNEZQWUhndmpjZEZHSm9YMFpwb1RENW5Id2gybHVLU0JTY0tMaThzenJqb3VubnAzUQ?oc=5",
-      "source": "기호일보",
-      "date": "Sun, 01 Nov 2026 04:55:00 GMT"
+      "title": "보건산업진흥원, 2026 헬스케어 인공지능(AI) 투자포럼 개최",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CNFZYNXFGSTgtcVFNT2ZELXpWd20wYXRUc3g5dEotTFJPcTNsQldidG82eVZXZG40N1hKVUlyY1hFUmwweU9ucmh0UFROM3hiSklTT2FsZlBwZ19DX1NyRkIzakdUdUkzU0FEYQ?oc=5",
+      "source": "팜뉴스",
+      "date": "Mon, 02 Nov 2026 05:39:21 GMT"
     },
     {
-      "title": "무차별 인터넷 긁어가기 사라지나…빅테크, AI학습차단 표준도입",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1SQTdXVzZLZUhfdHlGZUhHSDlWS2t1LVlYRUZfQzRQQThSYVZiZjBGU2Nnb1hGRG5aalFxOHdpSmQwZjg0aWhlamQ2N29wdlFtVEhfX0ZNZ0pGRGc0d1p5RNIBYEFVX3lxTE1SQTdXVzZLZUhfdHlGZUhHSDlWS2t1LVlYRUZfQzRQQThSYVZiZjBGU2Nnb1hGRG5aalFxOHdpSmQwZjg0aWhlamQ2N29wdlFtVEhfX0ZNZ0pGRGc0d1p5RA?oc=5",
-      "source": "연합뉴스",
-      "date": "Sun, 01 Nov 2026 01:02:47 GMT"
+      "title": "경남교육청, 인공지능(AI)·디지털 교육 현장의 고민에 전문가의 지혜를 더하다",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5GaU9TUl91a0dHY21uQWhZOVBURG5DSGE5QmdHTi0ydWlVeVlMNUhZOTF2RGwxMURkeGNBYTBhWWhnREdWZnJ3d0MtTEJ5YVZuWHpfMWdwY3duWVFFdWJxLWNaUTktV3ZzT3VF?oc=5",
+      "source": "경남일보",
+      "date": "Mon, 02 Nov 2026 05:21:46 GMT"
+    },
+    {
+      "title": "영화 각본도 챗GPT가 쓴다…일본, 전편 생성형 AI 장편영화 2027년 공개",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PS0tWTUdVUU9CbE8xVVZRREhWMkpxcEVlVzNpY29JNTZlX244Sm5VYW9JNEVmdWlIWXBscWMxcWctVzlYVEt2VDhpcnZCdXVTOGlReWlyVjN2OG1zTWx0MTlhRFlReXc?oc=5",
+      "source": "인공지능신문",
+      "date": "Mon, 02 Nov 2026 02:41:08 GMT"
+    },
+    {
+      "title": "보산진, 18일 '2026 헬스케어 인공지능(AI) 투자포럼' 개최",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9LTHMxM3BjcVZ1Z25kajJDYnZ4TVBQZ2JXU3hxSjU2YmMyMDRoR3VZVG5wUlZxOVFubXhEcEpZeWp6MzVESjNLTlRNVHVvY2dvRXZZM3RJZXN1dllhOVpqWXVpbHAyQ2FHUFlv?oc=5",
+      "source": "메디파나뉴스",
+      "date": "Mon, 02 Nov 2026 02:12:08 GMT"
+    },
+    {
+      "title": "OpenAI IPO에 대해 알아야 할 핵심 정보",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMXFoSjFPcUg2YzgyM2NQcG9QVi1kZ1UxVk03Ti1yaktpVzRoRTZ4aGtnVmRTQ3B2SlhkOTE2LTF6cUZxQjdTenpLZmszbXdueDJBU29odVNPRUh3cmM3V1BkTURWTG1mUVlWRmdpTURfcmJ0dUFQWGRKWjRaaWdrcXJrenJ3SV9ENDAwc2k4X0Z4WXpfUFRFejZtT2tBR0haVWpYdTBZMUg?oc=5",
+      "source": "TradingKey",
+      "date": "Sun, 01 Nov 2026 12:53:27 GMT"
+    },
+    {
+      "title": "ChatGPT와 Codex 사용 한도 통합",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBYdmV5ZVMzenpZckdKYUdIRFF0QmU5cHlNRm9rbEJwRTRUYUFLMnQ4bkxPX0dyWDVrUU1talRqMHhkQnRDRlpSdUlWOA?oc=5",
+      "source": "GeekNews",
+      "date": "Sun, 01 Nov 2026 10:31:40 GMT"
     },
     {
       "title": "오픈AI, 청소년 챗GPT 무기 정보 제한...폭력 징후 땐 대화 중단",
@@ -32,28 +56,10 @@
       "date": "Sat, 31 Oct 2026 08:09:05 GMT"
     },
     {
-      "title": "경남교육청, ‘경남 인공지능(AI)·디지털 교육 심포지엄’ 개최 > 뉴스",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE90ZnpBaWlYMFZSeXNWU29lNGR3SHh3MXZuN0MxQnpEc2tVc0UwbjgycDQwX3NUaTY0dlMtV21yUVB3SHFTaEM2WG1WWEZYVld1ZS03b3ZiZG5NQ2QtRl9TM2xIOFdPU1FTa2ViMFFxLVZndw?oc=5",
-      "source": "더코리아",
-      "date": "Sat, 31 Oct 2026 06:53:00 GMT"
-    },
-    {
-      "title": "[곽재원 컬럼] 인공지능(AI)이 연구개발 하는 시대, 인간은 뭘 해야 하는가?",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3eThCMDFnRXhHOXNSVW0yZlpybG93RFgxRGZXVERfRTlfZWpybTlidlVwLW51M05wQUF1SFpsanlSR1BJMERYN3FlN1hGTTRuOFRfTkt0cnJtY2hGb1hn?oc=5",
-      "source": "저스트 이코노믹스",
-      "date": "Fri, 30 Oct 2026 21:15:00 GMT"
-    },
-    {
-      "title": "텍사스주, 오픈AI와 샘 올트먼 CEO 제소…미성년자 ChatGPT 사용 금지 요구",
-      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQNjhKaG10aWtiSi04ZXhaOFFmNUNnZXBQRVZDRXlVakdVc2Z2RkZ2OTFYSFhqTklmWWk3dnJmWktPUnBuZWNTanZua3FVb2cxVlZmb2FKc204ZEVMRFNfSmV2ZzhTaThyLXluRHhReDZXSWVJdnpnQ0s0dm1jbFl2dC16VFNvcUZkMFFCeGpsRVE2U0NGWDZ1bVZXdEs0dHZqNVJqYmdKa1I1Tm5tTzRQcGladHJkSGkzcDIzWEpUbzJ0Y2dhb09abGdLcnRsVzIxWjc5bnFJVktHdmg4M2NCU0JSUG4wMWY1ZkNYemdtSzhjY09lZ2pUaHlyQWhJNDQzd0MxLXB5MGh0TG84bXdQLVg2TGxvNzNDVVBhZVNJYWJjZmlScU5HeVNLYmhKQllLR0JMcUlvVmRLbTdCLWV5aXlUSnM?oc=5",
-      "source": "Martin Cid Magazine",
-      "date": "Fri, 30 Oct 2026 13:41:13 GMT"
-    },
-    {
-      "title": "오픈AI, AI 행동 원칙 전면 개편…지시 따르는 AI 넘어 인간 의도 이해하는 AI로",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1SRVEyS3hMOUxhOHVzaVl6ck9sWjVxSUpzRXRpTmxDdHdKSjhpaExFQ0xoN0FITW4xa3AwTGZOSFRqZ3lxLWl2ZkhzeC1OTmFKbVpnRzVlTEJxQ2xmZFFNeFF5dW5TZHM?oc=5",
-      "source": "인공지능신문",
-      "date": "Fri, 30 Oct 2026 10:25:50 GMT"
+      "title": "생성형 AI의 효율 향상 체감, ‘자료 검색’이 ‘기획안 구상’보다 약 24배 높아",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9lSnNJanFvUTdDX3pGZnpJdlpHb215dzVUVUNTSDkxT2ZwdXRval8zUUVVUTlwNkhYTzhuenFORzN5dlJrekFFWEhIeXJiVEtJb2RwaTN2VjlELXBQVXdoMTJvMEJLZ3FFbG5PSg?oc=5",
+      "source": "대학지성 In&Out",
+      "date": "Sat, 31 Oct 2026 00:49:19 GMT"
     },
     {
       "title": "서울 교사·시민 2천600명 \"초교서 생성형 AI 전면 금지해야\"",
@@ -62,16 +68,10 @@
       "date": "Fri, 30 Oct 2026 01:42:14 GMT"
     },
     {
-      "title": "AI 통제 어떻게?…한국의 미래, 공학에 묻는다",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBoOW9kZGpib0gzMXdKUmVMekl5bHc2M1ZmYVF2YUVVdFR6SWl0aWhnTUlXV1MxMEJnYkZvU2JqY2YwVXFKSFBlSHNCMXlXR3hfRTI4cA?oc=5",
-      "source": "DongA Science",
-      "date": "Thu, 29 Oct 2026 22:00:00 GMT"
-    },
-    {
-      "title": "의사만큼 똑똑해진 환자들…인공지능 명암",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44YzFwa18wN2xLelR2VkhFd1A1UGtJNmltMUozNVRkWUFDR0Izcjg2ak1CcUp6cjhHVHZmblVpS0V3dXZ3dmJVdmNOdGxmMmhWai1ncG1xeFZyM096QzFWcHdjazRIV2V1?oc=5",
-      "source": "데일리메디",
-      "date": "Thu, 29 Oct 2026 07:09:00 GMT"
+      "title": "인공지능(AI)으로 쓴 글을 읽는 고역에 관하여 [삶과 문화]",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBuYm1qN3hrTUZEUWlkWUNucDEteklKVkZST1FsQWNqTlNINUhwTnltclpKcS0zTFR5YnRBMEtNX3liaEs3UENaZUp6V2JnR0RVRFFVZzhOVU15dHpvVFI2RHRqb1NSMUpNbTVWRzNB0gFzQVVfeXFMUEJxM2M0eVhYT19Ieks0ajFEY2FDYTYtRDh6RmZlYzlUQjVpQW5qVUUyZHo1anlsdTZ1TEpEVnY5a3VVd2llOUVqSGxNZTg2WlZaQ0U3STBZYXpuSnljMzRhUHB5MHBlQW5tMWxadFl1NEtLOA?oc=5",
+      "source": "한국일보",
+      "date": "Thu, 29 Oct 2026 09:30:00 GMT"
     }
   ]
 }
