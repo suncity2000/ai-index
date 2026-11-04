@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-03T09:19:50.746Z",
+  "last_updated": "2026-11-04T08:53:52.567Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -318,7 +318,7 @@
       "id": "deepseek/deepseek-v4-pro-0813",
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "price_1m_input": 0.12,
-      "price_1m_output": 4,
+      "price_1m_output": 4.6,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -419,19 +419,19 @@
       "top_provider": true
     },
     {
+      "id": "google/gemma-4-26b-a4b-it",
+      "name": "Google: Gemma 4 26B A4B ",
+      "price_1m_input": 0.08,
+      "price_1m_output": 0.24,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "google/gemma-3-27b-it",
       "name": "Google: Gemma 3 27B",
       "price_1m_input": 0.08,
       "price_1m_output": 0.35,
       "context_length": 131072,
-      "top_provider": true
-    },
-    {
-      "id": "google/gemma-4-26b-a4b-it",
-      "name": "Google: Gemma 4 26B A4B ",
-      "price_1m_input": 0.09,
-      "price_1m_output": 0.28,
-      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -731,6 +731,14 @@
       "top_provider": true
     },
     {
+      "id": "meta-llama/llama-3.3-70b-instruct",
+      "name": "Meta: Llama 3.3 70B Instruct",
+      "price_1m_input": 0.1,
+      "price_1m_output": 0.32,
+      "context_length": 131072,
+      "top_provider": true
+    },
+    {
       "id": "meta-llama/llama-guard-4-12b",
       "name": "Meta: Llama Guard 4 12B",
       "price_1m_input": 0.18,
@@ -747,18 +755,10 @@
       "top_provider": true
     },
     {
-      "id": "meta-llama/llama-3.3-70b-instruct",
-      "name": "Meta: Llama 3.3 70B Instruct",
-      "price_1m_input": 0.2,
-      "price_1m_output": 0.52,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
       "id": "meta-llama/llama-3.1-70b-instruct",
       "name": "Meta: Llama 3.1 70B Instruct",
-      "price_1m_input": 0.4,
-      "price_1m_output": 0.4,
+      "price_1m_input": 0.72,
+      "price_1m_output": 0.72,
       "context_length": 131072,
       "top_provider": true
     },
@@ -955,14 +955,6 @@
       "top_provider": true
     },
     {
-      "id": "openai/gpt-oss-120b",
-      "name": "OpenAI: gpt-oss-120b",
-      "price_1m_input": 0.03,
-      "price_1m_output": 0.11,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
       "id": "openai/gpt-oss-120b:batch",
       "name": "OpenAI: gpt-oss-120b (batch)",
       "price_1m_input": 0.03,
@@ -1080,6 +1072,14 @@
       "price_1m_input": 0.13,
       "price_1m_output": 1,
       "context_length": 400000,
+      "top_provider": true
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "name": "OpenAI: gpt-oss-120b",
+      "price_1m_input": 0.15,
+      "price_1m_output": 0.6,
+      "context_length": 131072,
       "top_provider": true
     },
     {
@@ -2096,6 +2096,22 @@
       "price_1m_input": 1.25,
       "price_1m_output": 2.5,
       "context_length": 2000000,
+      "top_provider": true
+    },
+    {
+      "id": "x-ai/grok-4.7:batch",
+      "name": "SpaceXAI: Grok 4.7 (batch)",
+      "price_1m_input": 1.6,
+      "price_1m_output": 4.8,
+      "context_length": 500000,
+      "top_provider": true
+    },
+    {
+      "id": "x-ai/grok-4.6:batch",
+      "name": "SpaceXAI: Grok 4.6 (batch)",
+      "price_1m_input": 1.6,
+      "price_1m_output": 4.8,
+      "context_length": 500000,
       "top_provider": true
     },
     {
