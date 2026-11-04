@@ -1,17 +1,35 @@
 {
-  "last_updated": "2026-11-03T16:49:01.176Z",
+  "last_updated": "2026-11-04T16:49:10.049Z",
   "news": [
+    {
+      "title": "의사는 ‘13분’ 인공지능(AI)은 ‘2~3초’",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1wdHhrRGlnZE5HTmJGd3BfTjI1czE2YnljU3ZpYlgydGtpUDhzUlQ2YkRxZ0t6RWhjMG4wZWpMM3YzbUpBcFp0cEJMWlpnVFJBT0F1dFJzakZsOTRKY3c0eEF6aDRPYk5sUkkyTU9CTlVjYTJi?oc=5",
+      "source": "데일리메디",
+      "date": "Wed, 04 Nov 2026 06:48:00 GMT"
+    },
+    {
+      "title": "생성형 AI 기초를 위한 작은 책: 직관적인 수학 입문서",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9fSHQ0T21UemtVTnhpaVFiYkZ3NGtiaWlwcFAxQndVaVpkRGRDT2k0Vm5sbWl2T3dxMDROMk1VbGxwWXo3ZEkyTzFsUQ?oc=5",
+      "source": "GeekNews",
+      "date": "Wed, 04 Nov 2026 01:36:53 GMT"
+    },
+    {
+      "title": "[임기범의 AI 혁신 스토리] 인공지능이 낸 답만 의심할 것인가",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPNUM3SmQtV1VEMmZiZFpxcHRLNFlzcTdGcGVRbU0xUWx6SEtmNnJwZW4ySEhoVkNLWGFvblNLdXNZOEpmUkEtTzZQWjNadjVMZDcwYzJOcW13aTU5Q2ZwRdIBYEFVX3lxTFBPNUM3SmQtV1VEMmZiZFpxcHRLNFlzcTdGcGVRbU0xUWx6SEtmNnJwZW4ySEhoVkNLWGFvblNLdXNZOEpmUkEtTzZQWjNadjVMZDcwYzJOcW13aTU5Q2ZwRQ?oc=5",
+      "source": "연합뉴스",
+      "date": "Wed, 04 Nov 2026 01:33:39 GMT"
+    },
+    {
+      "title": "현대제철, 차세대 생성형 AI 플랫폼 Steel-X 가동 | 뉴스 | 현대자동차그룹",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa0NIN3ItR0tLdjJab1A0aVljc3RJdTYxcXotek82WktvV1YtNy0wUGYyd003NDFjZ2ZBR2RMTEdZdzh1QTBwLVFkUUNOWXZTOVdnTVB3TEtYczB1MmtmRVRlQmhSSVNrZV9tZlNwZ3JhcnRTYlFFVG1nUnloeGpVaDBKMmFTZGlaNnRkV0N3UkJGOEYzckF5dg?oc=5",
+      "source": "Hyundai Motor Group",
+      "date": "Tue, 03 Nov 2026 23:30:00 GMT"
+    },
     {
       "title": "경남교육청, 생성형 인공지능(AI)을 교육·보육 현장으로",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEUFVpcy1LQmpoOENhVVItMTE5TDFyZlpyLTZtYlBlWnpMSWlZbUpxd3h6LUhzX3hwQUtsdXpBUkpidHh1TVIybnJGS3g3bnBCWE5DOHVkN0g1YVJMSi1YaEhhNXFUUG1SLWc?oc=5",
       "source": "경남도민일보",
       "date": "Tue, 03 Nov 2026 07:50:58 GMT"
-    },
-    {
-      "title": "“인공지능(AI) 시대, 학부모 역량이 미래 교육의 빛이 되다”",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkNjA4b0xkRFlSdThJWHJTaWI3eV9RTU1vbGJmWWdIR2g5emM3R3R3eGprY0ZkdWl3VURVaG9QVjVnX2ZxejJ4SXhSWFYySG41dHJFQlYyemRrMGNoLWRnMEkxRzkxRUdMa0E?oc=5",
-      "source": "여수넷통뉴스",
-      "date": "Tue, 03 Nov 2026 05:51:03 GMT"
     },
     {
       "title": "오픈AI, 12월부터 챗GPT·코덱스 사용량 통합…기존 앱 1월 종료",
@@ -20,16 +38,22 @@
       "date": "Tue, 03 Nov 2026 02:27:55 GMT"
     },
     {
-      "title": "[AI 시대, 필란트로피를 묻다] 인공지능이 인간의 선의를 대신할 수 있는가",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSM0d2eG5ESWtwYk9RQlhqTjduQnZWaGZLZXJYUG5jbUVLbGszNllLTWdZNEhqSnRqbFotbUU3LVRQWF9NajdrdUdmb2ZwZzR6Z2c?oc=5",
-      "source": "더나은미래",
-      "date": "Tue, 03 Nov 2026 02:22:00 GMT"
-    },
-    {
       "title": "인공지능(AI)과 공간정보가 바꿀 미래 11월 4일 킨텍스에서 만나세요",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9KM3BEYUNhSHZ6aG81TzcwdnpEd1lSM0hZbFNUYmVxZnpCTUpkczBHbkljZndzRXZpSWhSRWE3UVlHMFJJRm9kd3hoUzVDRnZ5LXc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1jVHJQMXp5ZmsxX2VuRXZXYzhaVWJDWW9CMTNCa1Q1c3NHUE5sWkx5S1N0NjhMX21Fb09jbnROOE1YTlR0N1I1OWp1N2JtVEpOU1F6T1dRWmVZLUZFVkZ4bjdiN3B2U3JERVBpcDFB?oc=5",
       "source": "투위복지뉴스",
       "date": "Tue, 03 Nov 2026 02:13:25 GMT"
+    },
+    {
+      "title": "11월 한 달간 운영, 생성형 인공지능(AI) 시대🤖 저작권의 가치와 존중 문화를 확산하다!",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVml1b3NtWjFZRUxybnMzaXZoejhvU3VaLTVZQzIzYTFENmVVdk9MQklLN1htMXJ3T2VubGZwTWpUOWg4WUE3TXUtTlg1MDl6ajhpSzAyNkt6YnBJbF83X09KLVJSQXdTbWRBQ2l0WHl4R05tOXNZU2ZsVVlHTHhwUEpYcll6enl3NTUzcEJfejE?oc=5",
+      "source": "Naver Blog",
+      "date": "Mon, 02 Nov 2026 23:10:23 GMT"
+    },
+    {
+      "title": "OpenAI, 12월부터 ChatGPT와 Codex 사용량을 통합",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWTZmNXRFUzA1YWY2OGdnMXZwNTFPUXpCMjB4dWlWYmVmZHhEWkdFOWZOdlVaQUJFMklmYzdXT0xnX1FacE5UNlg2Wl9EXzJXX2E0X3k2dXo5RGJ2Nm1vV2JjRlBLNDQwcWM1cXZSTzZwWjhWT0wxOXQ1TVlhSEZkelVHTXBqLVZVYU9lNk5OelJTYnRl?oc=5",
+      "source": "Unite.AI",
+      "date": "Mon, 02 Nov 2026 06:21:02 GMT"
     },
     {
       "title": "보건산업진흥원, 2026 헬스케어 인공지능(AI) 투자포럼 개최",
@@ -44,34 +68,10 @@
       "date": "Mon, 02 Nov 2026 02:41:08 GMT"
     },
     {
-      "title": "ChatGPT와 Codex 사용 한도 통합",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBYdmV5ZVMzenpZckdKYUdIRFF0QmU5cHlNRm9rbEJwRTRUYUFLMnQ4bkxPX0dyWDVrUU1talRqMHhkQnRDRlpSdUlWOA?oc=5",
-      "source": "GeekNews",
-      "date": "Sun, 01 Nov 2026 10:31:40 GMT"
-    },
-    {
-      "title": "생성형 AI의 효율 향상 체감, ‘자료 검색’이 ‘기획안 구상’보다 약 24배 높아",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9lSnNJanFvUTdDX3pGZnpJdlpHb215dzVUVUNTSDkxT2ZwdXRval8zUUVVUTlwNkhYTzhuenFORzN5dlJrekFFWEhIeXJiVEtJb2RwaTN2VjlELXBQVXdoMTJvMEJLZ3FFbG5PSg?oc=5",
-      "source": "대학지성 In&Out",
-      "date": "Sat, 31 Oct 2026 00:49:19 GMT"
-    },
-    {
-      "title": "텍사스주, 오픈AI와 샘 올트먼 CEO 제소…미성년자 ChatGPT 사용 금지 요구",
-      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQNjhKaG10aWtiSi04ZXhaOFFmNUNnZXBQRVZDRXlVakdVc2Z2RkZ2OTFYSFhqTklmWWk3dnJmWktPUnBuZWNTanZua3FVb2cxVlZmb2FKc204ZEVMRFNfSmV2ZzhTaThyLXluRHhReDZXSWVJdnpnQ0s0dm1jbFl2dC16VFNvcUZkMFFCeGpsRVE2U0NGWDZ1bVZXdEs0dHZqNVJqYmdKa1I1Tm5tTzRQcGladHJkSGkzcDIzWEpUbzJ0Y2dhb09abGdLcnRsVzIxWjc5bnFJVktHdmg4M2NCU0JSUG4wMWY1ZkNYemdtSzhjY09lZ2pUaHlyQWhJNDQzd0MxLXB5MGh0TG84bXdQLVg2TGxvNzNDVVBhZVNJYWJjZmlScU5HeVNLYmhKQllLR0JMcUlvVmRLbTdCLWV5aXlUSnM?oc=5",
-      "source": "Martin Cid Magazine",
-      "date": "Fri, 30 Oct 2026 13:41:13 GMT"
-    },
-    {
-      "title": "인공지능(AI)으로 쓴 글을 읽는 고역에 관하여 [삶과 문화]",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBuYm1qN3hrTUZEUWlkWUNucDEteklKVkZST1FsQWNqTlNINUhwTnltclpKcS0zTFR5YnRBMEtNX3liaEs3UENaZUp6V2JnR0RVRFFVZzhOVU15dHpvVFI2RHRqb1NSMUpNbTVWRzNB0gFzQVVfeXFMUEJxM2M0eVhYT19Ieks0ajFEY2FDYTYtRDh6RmZlYzlUQjVpQW5qVUUyZHo1anlsdTZ1TEpEVnY5a3VVd2llOUVqSGxNZTg2WlZaQ0U3STBZYXpuSnljMzRhUHB5MHBlQW5tMWxadFl1NEtLOA?oc=5",
-      "source": "한국일보",
-      "date": "Thu, 29 Oct 2026 09:30:00 GMT"
-    },
-    {
-      "title": "조명·전기설비 분야도 인공지능(AI)·데이터센터가 ‘대세’",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9HYzEzejJMNWhvc1k2U2hwbkdjVllWamhRSEhNOS1aMHgwQ084Q3BNRVJlSHl6QWVNMklZV1RSMUNLTTBDOUpCM0NDYUdGcEpBT0ZjdG9tN0xaQ3FIaDM1THRzNWZwdUhXaXotMtIBcEFVX3lxTE1jcDlnemRwLXFCem8zV2VieDF0a25GTF9ZeEtZdHFNMWoxTWJDTTBGTDFWYTVNSUlEME1UdEVPVTlRZmtNZ1ZVU3R2TUh5ZUdkNHQ5eFFBRi1oU0ZEa2R4Z3FFQmpFLUFLS1ZFbEt1RlQ?oc=5",
-      "source": "전기신문",
-      "date": "Thu, 29 Oct 2026 02:25:30 GMT"
+      "title": "대전시 공무원이 생성형 AI로 행정 오류 복구프로그램 개발",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5DanQ1U1BnZ3NVb25EQldmaWl1S2xCanNBRXRCNks5T19JS1VNaV9ENGREWXJSRzI1Y3kyS25uZFU1NkhkdDRhR2ZzZ2ZMRFdyNFdpMmVqSDVwTXPSAWBBVV95cUxPa2NqSkdHSzljWnRPMXZ2ZFFuREFpVWxiSHIxamNNVmNId1dCcHp3SHMybi1nYWRHV3VRSG1uR3pFQUljVF9SVXR0Nmg5ME80U3pRNFpfRlFWSmRMTzZUQTM?oc=5",
+      "source": "연합뉴스",
+      "date": "Mon, 02 Nov 2026 00:54:53 GMT"
     }
   ]
 }
