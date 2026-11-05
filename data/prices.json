@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-04T08:53:52.567Z",
+  "last_updated": "2026-11-05T09:17:04.511Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -291,14 +291,6 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-v4.1-flash:batch",
-      "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
-      "price_1m_input": 0.05,
-      "price_1m_output": 0.15,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
       "id": "deepseek/deepseek-v4-flash-0731",
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "price_1m_input": 0.06,
@@ -317,8 +309,16 @@
     {
       "id": "deepseek/deepseek-v4-pro-0813",
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "price_1m_input": 0.12,
-      "price_1m_output": 4.6,
+      "price_1m_input": 0.1,
+      "price_1m_output": 4.11,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash:batch",
+      "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
+      "price_1m_input": 0.11,
+      "price_1m_output": 0.34,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -421,8 +421,8 @@
     {
       "id": "google/gemma-4-26b-a4b-it",
       "name": "Google: Gemma 4 26B A4B ",
-      "price_1m_input": 0.08,
-      "price_1m_output": 0.24,
+      "price_1m_input": 0.06,
+      "price_1m_output": 0.17,
       "context_length": 262144,
       "top_provider": true
     },
@@ -731,14 +731,6 @@
       "top_provider": true
     },
     {
-      "id": "meta-llama/llama-3.3-70b-instruct",
-      "name": "Meta: Llama 3.3 70B Instruct",
-      "price_1m_input": 0.1,
-      "price_1m_output": 0.32,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
       "id": "meta-llama/llama-guard-4-12b",
       "name": "Meta: Llama Guard 4 12B",
       "price_1m_input": 0.18,
@@ -747,10 +739,18 @@
       "top_provider": true
     },
     {
+      "id": "meta-llama/llama-3.3-70b-instruct",
+      "name": "Meta: Llama 3.3 70B Instruct",
+      "price_1m_input": 0.2,
+      "price_1m_output": 0.52,
+      "context_length": 131072,
+      "top_provider": true
+    },
+    {
       "id": "meta-llama/llama-4-maverick",
       "name": "Meta: Llama 4 Maverick",
-      "price_1m_input": 0.19,
-      "price_1m_output": 0.65,
+      "price_1m_input": 0.35,
+      "price_1m_output": 1,
       "context_length": 524288,
       "top_provider": true
     },
@@ -939,6 +939,14 @@
       "top_provider": true
     },
     {
+      "id": "openai/gpt-oss-120b",
+      "name": "OpenAI: gpt-oss-120b",
+      "price_1m_input": 0.02,
+      "price_1m_output": 0.09,
+      "context_length": 131072,
+      "top_provider": true
+    },
+    {
       "id": "openai/gpt-oss-20b:batch",
       "name": "OpenAI: gpt-oss-20b (batch)",
       "price_1m_input": 0.02,
@@ -1072,14 +1080,6 @@
       "price_1m_input": 0.13,
       "price_1m_output": 1,
       "context_length": 400000,
-      "top_provider": true
-    },
-    {
-      "id": "openai/gpt-oss-120b",
-      "name": "OpenAI: gpt-oss-120b",
-      "price_1m_input": 0.15,
-      "price_1m_output": 0.6,
-      "context_length": 131072,
       "top_provider": true
     },
     {
@@ -1747,18 +1747,18 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3.6-35b-a3b",
-      "name": "Qwen: Qwen3.6 35B A3B",
-      "price_1m_input": 0.1,
-      "price_1m_output": 0.9,
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+      "price_1m_input": 0.09,
+      "price_1m_output": 1.1,
       "context_length": 262144,
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3-next-80b-a3b-instruct",
-      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+      "id": "qwen/qwen3.6-35b-a3b",
+      "name": "Qwen: Qwen3.6 35B A3B",
       "price_1m_input": 0.1,
-      "price_1m_output": 1.1,
+      "price_1m_output": 0.9,
       "context_length": 262144,
       "top_provider": true
     },
