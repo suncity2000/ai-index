@@ -1,23 +1,35 @@
 {
-  "last_updated": "2026-11-04T16:49:10.049Z",
+  "last_updated": "2026-11-05T17:05:12.428Z",
   "news": [
+    {
+      "title": "[게시판] 인공지능산업법학회, 13일 '지속가능한 AI' 학술대회",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJMlprUk9ORnpOckZGU1BtOTh2bnNNN3NvV0hYTTg3cVpmM2o3bmZMSmhnbmtla1Q0T3FhTEpMWFVoTF9yS3NBR1Eyb2VDYmx4VTVIRWw2aGM3SEHSAWBBVV95cUxORG15U2l0NUNjcE5oamxlY3BVLTZldzNod2kyVDYtbzNNcTRJaFJBNS04eW04bXhfQWpSaXR6TVB1c29lR09rYVloNllZU3pWeGxKb0JkdUYyeXF6Mm55dWI?oc=5",
+      "source": "연합뉴스",
+      "date": "Thu, 05 Nov 2026 06:16:39 GMT"
+    },
+    {
+      "title": "웹케시, 생성 AI 연결 ‘경리나라 MCP’ 12월 출시",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1GdWtVY0RJR0NYQlpvcjU4UnNYSjhkY2xfaFBFOUZXaGJvdnV5dzdjWlNVcjhLVndNZDNOYTE1di1ENWpsUkY3ZXBWZGpvbmI2LXFzTDZ0Z1lsdGcwU2lVQ1B3OVI0cmlRcHc?oc=5",
+      "source": "AI타임스",
+      "date": "Thu, 05 Nov 2026 02:45:07 GMT"
+    },
+    {
+      "title": "동서발전, 기후부 주관 ‘인공지능(AI) 프렌즈’ 대상 수상",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE13OWRHR1hBdGl1Q2tNeUxKdGI3QnNsTURnWG5yUllMNnMwMHh5bERscVMzTmgyTlBlcEFUS3E3eURNSERISjZ5MmFtWE4xMTBaenlYY1ZlQVJKTGwxNlF6SXVqak9ZQjBDYzJralFWeGNrUQ?oc=5",
+      "source": "에너지데일리",
+      "date": "Thu, 05 Nov 2026 00:09:12 GMT"
+    },
+    {
+      "title": "“나도 생성형 AI 작가”… 양천구, 첫 ‘생성형 인공지능(AI) 창작 전시회’ 개최",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DSTd3V25RMndlSS1EU0Rqd3ZtcGF4VTVYOVZESjFzRUtIaWdFelg1WWxOVTdtc196NXNnQ3hMWk9lT2N2YWtWWnpmcks4amlfUDROSHFTbkhLc19fU1RuMDF1X0M?oc=5",
+      "source": "매일일보",
+      "date": "Wed, 04 Nov 2026 23:36:45 GMT"
+    },
     {
       "title": "의사는 ‘13분’ 인공지능(AI)은 ‘2~3초’",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1wdHhrRGlnZE5HTmJGd3BfTjI1czE2YnljU3ZpYlgydGtpUDhzUlQ2YkRxZ0t6RWhjMG4wZWpMM3YzbUpBcFp0cEJMWlpnVFJBT0F1dFJzakZsOTRKY3c0eEF6aDRPYk5sUkkyTU9CTlVjYTJi?oc=5",
       "source": "데일리메디",
       "date": "Wed, 04 Nov 2026 06:48:00 GMT"
-    },
-    {
-      "title": "생성형 AI 기초를 위한 작은 책: 직관적인 수학 입문서",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9fSHQ0T21UemtVTnhpaVFiYkZ3NGtiaWlwcFAxQndVaVpkRGRDT2k0Vm5sbWl2T3dxMDROMk1VbGxwWXo3ZEkyTzFsUQ?oc=5",
-      "source": "GeekNews",
-      "date": "Wed, 04 Nov 2026 01:36:53 GMT"
-    },
-    {
-      "title": "[임기범의 AI 혁신 스토리] 인공지능이 낸 답만 의심할 것인가",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPNUM3SmQtV1VEMmZiZFpxcHRLNFlzcTdGcGVRbU0xUWx6SEtmNnJwZW4ySEhoVkNLWGFvblNLdXNZOEpmUkEtTzZQWjNadjVMZDcwYzJOcW13aTU5Q2ZwRdIBYEFVX3lxTFBPNUM3SmQtV1VEMmZiZFpxcHRLNFlzcTdGcGVRbU0xUWx6SEtmNnJwZW4ySEhoVkNLWGFvblNLdXNZOEpmUkEtTzZQWjNadjVMZDcwYzJOcW13aTU5Q2ZwRQ?oc=5",
-      "source": "연합뉴스",
-      "date": "Wed, 04 Nov 2026 01:33:39 GMT"
     },
     {
       "title": "현대제철, 차세대 생성형 AI 플랫폼 Steel-X 가동 | 뉴스 | 현대자동차그룹",
@@ -26,10 +38,10 @@
       "date": "Tue, 03 Nov 2026 23:30:00 GMT"
     },
     {
-      "title": "경남교육청, 생성형 인공지능(AI)을 교육·보육 현장으로",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEUFVpcy1LQmpoOENhVVItMTE5TDFyZlpyLTZtYlBlWnpMSWlZbUpxd3h6LUhzX3hwQUtsdXpBUkpidHh1TVIybnJGS3g3bnBCWE5DOHVkN0g1YVJMSi1YaEhhNXFUUG1SLWc?oc=5",
-      "source": "경남도민일보",
-      "date": "Tue, 03 Nov 2026 07:50:58 GMT"
+      "title": "“인공지능(AI) 시대, 학부모 역량이 미래 교육의 빛이 되다”",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkNjA4b0xkRFlSdThJWHJTaWI3eV9RTU1vbGJmWWdIR2g5emM3R3R3eGprY0ZkdWl3VURVaG9QVjVnX2ZxejJ4SXhSWFYySG41dHJFQlYyemRrMGNoLWRnMEkxRzkxRUdMa0E?oc=5",
+      "source": "여수넷통뉴스",
+      "date": "Tue, 03 Nov 2026 05:51:03 GMT"
     },
     {
       "title": "오픈AI, 12월부터 챗GPT·코덱스 사용량 통합…기존 앱 1월 종료",
@@ -60,18 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CNFZYNXFGSTgtcVFNT2ZELXpWd20wYXRUc3g5dEotTFJPcTNsQldidG82eVZXZG40N1hKVUlyY1hFUmwweU9ucmh0UFROM3hiSklTT2FsZlBwZ19DX1NyRkIzakdUdUkzU0FEYQ?oc=5",
       "source": "팜뉴스",
       "date": "Mon, 02 Nov 2026 05:39:21 GMT"
-    },
-    {
-      "title": "영화 각본도 챗GPT가 쓴다…일본, 전편 생성형 AI 장편영화 2027년 공개",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PS0tWTUdVUU9CbE8xVVZRREhWMkpxcEVlVzNpY29JNTZlX244Sm5VYW9JNEVmdWlIWXBscWMxcWctVzlYVEt2VDhpcnZCdXVTOGlReWlyVjN2OG1zTWx0MTlhRFlReXc?oc=5",
-      "source": "인공지능신문",
-      "date": "Mon, 02 Nov 2026 02:41:08 GMT"
-    },
-    {
-      "title": "대전시 공무원이 생성형 AI로 행정 오류 복구프로그램 개발",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5DanQ1U1BnZ3NVb25EQldmaWl1S2xCanNBRXRCNks5T19JS1VNaV9ENGREWXJSRzI1Y3kyS25uZFU1NkhkdDRhR2ZzZ2ZMRFdyNFdpMmVqSDVwTXPSAWBBVV95cUxPa2NqSkdHSzljWnRPMXZ2ZFFuREFpVWxiSHIxamNNVmNId1dCcHp3SHMybi1nYWRHV3VRSG1uR3pFQUljVF9SVXR0Nmg5ME80U3pRNFpfRlFWSmRMTzZUQTM?oc=5",
-      "source": "연합뉴스",
-      "date": "Mon, 02 Nov 2026 00:54:53 GMT"
     }
   ]
 }
