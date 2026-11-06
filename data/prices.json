@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-05T09:17:04.511Z",
+  "last_updated": "2026-11-06T09:10:46.430Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -286,7 +286,7 @@
       "id": "deepseek/deepseek-v4.1-flash",
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "price_1m_input": 0.05,
-      "price_1m_output": 0.5,
+      "price_1m_output": 0.57,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -307,14 +307,6 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-v4-pro-0813",
-      "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "price_1m_input": 0.1,
-      "price_1m_output": 4.11,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
       "id": "deepseek/deepseek-v4.1-flash:batch",
       "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
       "price_1m_input": 0.11,
@@ -323,10 +315,10 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-v4-flash-vision-exp",
-      "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
-      "price_1m_input": 0.22,
-      "price_1m_output": 0.65,
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "name": "DeepSeek: DeepSeek V4 Pro 0813",
+      "price_1m_input": 0.12,
+      "price_1m_output": 4.66,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -343,14 +335,6 @@
       "name": "DeepSeek: DeepSeek V3.2",
       "price_1m_input": 0.26,
       "price_1m_output": 0.38,
-      "context_length": 163840,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-chat",
-      "name": "DeepSeek: DeepSeek V3",
-      "price_1m_input": 0.26,
-      "price_1m_output": 1.03,
       "context_length": 163840,
       "top_provider": true
     },
@@ -387,6 +371,22 @@
       "top_provider": true
     },
     {
+      "id": "deepseek/deepseek-chat",
+      "name": "DeepSeek: DeepSeek V3",
+      "price_1m_input": 0.32,
+      "price_1m_output": 0.89,
+      "context_length": 163840,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+      "price_1m_input": 0.44,
+      "price_1m_output": 1.32,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
       "id": "deepseek/deepseek-r1-0528",
       "name": "DeepSeek: R1 0528",
       "price_1m_input": 0.5,
@@ -397,8 +397,8 @@
     {
       "id": "deepseek/deepseek-v4-pro",
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "price_1m_input": 1.6,
-      "price_1m_output": 3.2,
+      "price_1m_input": 0.96,
+      "price_1m_output": 1.91,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -419,19 +419,19 @@
       "top_provider": true
     },
     {
-      "id": "google/gemma-4-26b-a4b-it",
-      "name": "Google: Gemma 4 26B A4B ",
-      "price_1m_input": 0.06,
-      "price_1m_output": 0.17,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "google/gemma-3-27b-it",
       "name": "Google: Gemma 3 27B",
       "price_1m_input": 0.08,
       "price_1m_output": 0.35,
       "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it",
+      "name": "Google: Gemma 4 26B A4B ",
+      "price_1m_input": 0.09,
+      "price_1m_output": 0.3,
+      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -643,6 +643,22 @@
       "top_provider": true
     },
     {
+      "id": "google/gemini-omni-1.2-flash",
+      "name": "Google: Gemini Omni 1.2 Flash",
+      "price_1m_input": 1.5,
+      "price_1m_output": 9,
+      "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "google/gemini-omni-1.1-flash",
+      "name": "Google: Gemini Omni 1.1 Flash",
+      "price_1m_input": 1.5,
+      "price_1m_output": 9,
+      "context_length": 131072,
+      "top_provider": true
+    },
+    {
       "id": "google/gemini-nano-banana-2.1",
       "name": "Google: Nano Banana 2.1",
       "price_1m_input": 1.5,
@@ -739,19 +755,19 @@
       "top_provider": true
     },
     {
-      "id": "meta-llama/llama-3.3-70b-instruct",
-      "name": "Meta: Llama 3.3 70B Instruct",
-      "price_1m_input": 0.2,
-      "price_1m_output": 0.52,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
       "id": "meta-llama/llama-4-maverick",
       "name": "Meta: Llama 4 Maverick",
       "price_1m_input": 0.35,
       "price_1m_output": 1,
       "context_length": 524288,
+      "top_provider": true
+    },
+    {
+      "id": "meta-llama/llama-3.3-70b-instruct",
+      "name": "Meta: Llama 3.3 70B Instruct",
+      "price_1m_input": 0.59,
+      "price_1m_output": 0.79,
+      "context_length": 131072,
       "top_provider": true
     },
     {
