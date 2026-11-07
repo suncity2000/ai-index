@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-06T09:10:46.430Z",
+  "last_updated": "2026-11-07T08:37:08.727Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -293,8 +293,16 @@
     {
       "id": "deepseek/deepseek-v4-flash-0731",
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "price_1m_input": 0.06,
+      "price_1m_input": 0.05,
       "price_1m_output": 0.3,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-0731:batch",
+      "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
+      "price_1m_input": 0.05,
+      "price_1m_output": 0.14,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -319,6 +327,14 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "price_1m_input": 0.12,
       "price_1m_output": 4.66,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+      "price_1m_input": 0.15,
+      "price_1m_output": 0.6,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -363,14 +379,6 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-v4.1-flash-1017",
-      "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
-      "price_1m_input": 0.3,
-      "price_1m_output": 1.2,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
       "id": "deepseek/deepseek-chat",
       "name": "DeepSeek: DeepSeek V3",
       "price_1m_input": 0.32,
@@ -397,8 +405,8 @@
     {
       "id": "deepseek/deepseek-v4-pro",
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "price_1m_input": 0.96,
-      "price_1m_output": 1.91,
+      "price_1m_input": 0.81,
+      "price_1m_output": 1.62,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -419,19 +427,19 @@
       "top_provider": true
     },
     {
+      "id": "google/gemma-4-26b-a4b-it",
+      "name": "Google: Gemma 4 26B A4B ",
+      "price_1m_input": 0.07,
+      "price_1m_output": 0.22,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "google/gemma-3-27b-it",
       "name": "Google: Gemma 3 27B",
       "price_1m_input": 0.08,
       "price_1m_output": 0.35,
       "context_length": 131072,
-      "top_provider": true
-    },
-    {
-      "id": "google/gemma-4-26b-a4b-it",
-      "name": "Google: Gemma 4 26B A4B ",
-      "price_1m_input": 0.09,
-      "price_1m_output": 0.3,
-      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -958,7 +966,7 @@
       "id": "openai/gpt-oss-120b",
       "name": "OpenAI: gpt-oss-120b",
       "price_1m_input": 0.02,
-      "price_1m_output": 0.09,
+      "price_1m_output": 0.06,
       "context_length": 131072,
       "top_provider": true
     },
@@ -1871,6 +1879,14 @@
       "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
       "price_1m_input": 0.15,
       "price_1m_output": 0.6,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3.8-27b:batch",
+      "name": "Qwen: Qwen3.8 27B (batch)",
+      "price_1m_input": 0.16,
+      "price_1m_output": 2,
       "context_length": 262144,
       "top_provider": true
     },
