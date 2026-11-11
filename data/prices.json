@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10T09:34:09.029Z",
+  "last_updated": "2026-11-11T09:09:21.827Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -315,18 +315,18 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-v4.1-flash",
-      "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "price_1m_input": 0.01,
-      "price_1m_output": 0.5,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
       "id": "deepseek/deepseek-v4-flash-0731",
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "price_1m_input": 0.04,
       "price_1m_output": 0.3,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash",
+      "name": "DeepSeek: DeepSeek V4.1 Flash",
+      "price_1m_input": 0.05,
+      "price_1m_output": 0.57,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -643,6 +643,14 @@
       "top_provider": true
     },
     {
+      "id": "google/gemini-4-carbon:batch",
+      "name": "Google: Gemini 4 Carbon (batch)",
+      "price_1m_input": 1,
+      "price_1m_output": 5,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
       "id": "google/gemini-4-argon:batch",
       "name": "Google: Gemini 4 Argon (batch)",
       "price_1m_input": 1,
@@ -703,6 +711,14 @@
       "name": "Google: Gemini 3.5 Flash",
       "price_1m_input": 1.5,
       "price_1m_output": 9,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "google/gemini-4-carbon",
+      "name": "Google: Gemini 4 Carbon",
+      "price_1m_input": 2,
+      "price_1m_output": 10,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -1824,14 +1840,6 @@
       "price_1m_input": 0.1,
       "price_1m_output": 0.22,
       "context_length": 40960,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen-2.5-7b-instruct",
-      "name": "Qwen: Qwen2.5 7B Instruct",
-      "price_1m_input": 0.1,
-      "price_1m_output": 0.2,
-      "context_length": 32768,
       "top_provider": true
     },
     {
