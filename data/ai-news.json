@@ -1,29 +1,65 @@
 {
-  "last_updated": "2026-11-10T16:46:19.801Z",
+  "last_updated": "2026-11-11T16:52:07.195Z",
   "news": [
     {
-      "title": "챗GPT, 주요 AI 챗봇 이용량 81% 차지…클로드 급성장에도 독주",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tWnBYb1kwMjltZnp6TXU3d00xTGxrMm9GZl9YVzkyTGo5NzV5cGluZllLV0s5WlRjWnhYTXlxSmZQWTFrSnBaMzFpVGFvWG8zcDlJRndQX1N5QVp3ajk4VnJHa2dfcU12a1E?oc=5",
+      "title": "축평원, 제4회 스마트축산 인공지능(AI) 경진대회’ 개최",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11ZHVSSEdDaFcxRURjdWpRYTcyUzloWG9yR25DMDc2MHNkUEJvcGxlZHZfYVJSUTB2YVp5S0tuNXNJMW1SaGg1WFlJYnVzbVU2Y2FQZjJ6WFdjci1lWHNEZklKRWVHWmVK?oc=5",
+      "source": "농축유통신문",
+      "date": "Wed, 11 Nov 2026 10:46:53 GMT"
+    },
+    {
+      "title": "\"AI가 답해도 판단은 인간이 한다\"…유네스코, 생성형 AI 시대 새로운 교육 지침 공개",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmSEhjd2JjcktrUEh1QWRGcWR4bE9Yd2JxbEV0N1NJZEtRMV9fNXloNTg4R0NxZm5wbnhtZl8yY2hiQkVTM0pFSUZ3blpUUjhnVjQ4ZzZfWER2aXF2RlNBc2N1U1JtNHc?oc=5",
+      "source": "인공지능신문",
+      "date": "Wed, 11 Nov 2026 07:46:53 GMT"
+    },
+    {
+      "title": "인공지능(AI)이 만드는 미래 농업관측의 표준",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44WE5NZmV0cFB6Xy1ZODlfWjZUdm5SZFVBRmFQdktMQ0RxYnladDFwVEl6VXZxai01TFV5dkRzVEFHd2R2S3BqLWhNNUdGTmxfc0RQVW5kMW9abnZIWnJlbkNFMXRFbVVHY2tfNg?oc=5",
+      "source": "제주매일",
+      "date": "Wed, 11 Nov 2026 06:41:49 GMT"
+    },
+    {
+      "title": "[AI리더의 서가] 파이토치로 배우는 현대 인공지능",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKNllrakVMRmN2V05TRWNsZ2hQNzMtLTM4S3pvQXdGU0Z0cDE1MkowVF8yS2JGaGFBWnN4NWdWNUVZWDl3dmZncERvTTM3bHBZSFJiN1JfOEJOZTNaMXhyQnpLUnpVdjNZQUE?oc=5",
       "source": "AI타임스",
-      "date": "Tue, 10 Nov 2026 09:14:53 GMT"
+      "date": "Wed, 11 Nov 2026 00:00:00 GMT"
     },
     {
-      "title": "“인공지능 선용의 최우선 기준은 인간 존엄”",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZMG9TVjBucC1mM1ZIZmozRDI2Q0ZoYURQM292S1VUUnNLZnV4djRjZDk0LUNYMFFWeTRRSmlvLTA2MmNWdmRRT0JoRkNib3ROekd3VFp3OURxemt4d1djRUJB?oc=5",
-      "source": "가톨릭신문",
-      "date": "Tue, 10 Nov 2026 07:20:37 GMT"
+      "title": "오픈AI, 챗GPT에 기업 AI고객센터 도입…온라인쇼핑 플랫폼 역할",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OeWhaaGw5Z0J2dWpnczBXcGRjRVdxNzJPZElPSVozMTNNUnV1cExDbDB0Ym9QcHI2SDF3cHRFbXlaZ3FGdTg2blUwLVBzMEJRSFBrTGxkanZKMDDSAWBBVV95cUxOS0lVYVpoaHYzZWlyUXo1VGwxa0J1dmxZa2lESGwwNDQ2eWJORVk0Y01obXdUWDJFZldtQU1KYTEzMjhjX2ZwUFNzSVdZc1VsVDdCUFR2bS1IZ3gwVXk4bVk?oc=5",
+      "source": "연합뉴스",
+      "date": "Tue, 10 Nov 2026 23:12:53 GMT"
     },
     {
-      "title": "엔트리연구원, 인공지능협회와 AI 시험·인증 협력 강화",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE95d3FzcldTclFYSS1heG9mRzJ3RGhzWF9HNWI0UTlqRDlqWTRhT3NXNUs1SWt6M3VvVU83dWU3NEtfbFVkak8zVDUxMlpMdw?oc=5",
-      "source": "전자신문",
-      "date": "Tue, 10 Nov 2026 04:43:45 GMT"
+      "title": "“아마존 잡으려다 구글 됐다”… OpenAI, ChatGPT에 기업용 ‘비즈니스 허브’ 도입 - 기업 프로필·전용 에이전트 생성 기능 출시… 검색 엔진 모델로 방향 전환",
+      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE92MV8wN05lYTRUcHc5QlpNcTRzeVVIWnVjakxSNmttZlBxM2xlX1pidFhadEJjS0tqNnljdlUyN08?oc=5",
+      "source": "AI넷",
+      "date": "Tue, 10 Nov 2026 23:00:00 GMT"
     },
     {
-      "title": "한국인공지능협회·엔트리연구원, AI 시험·인증 협력 강화",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5mbW9Td1I5VlY4SXF2Q3pWaU5UN20wZXViMFY3LUlrWDZGT3pWMkpRc3FiM0s3eVprV2xjMWFWa1dDM3YzdUsyb3VUdXgwX3pOamh1MGJ2MVRwXzBTZ19Z?oc=5",
-      "source": "헬로티",
-      "date": "Tue, 10 Nov 2026 04:36:08 GMT"
+      "title": "김포시 공무원들, 인공지능（AI） 배우는 데서 그치지 않고 직접 만든다",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1iY3pZSW14QVlCYzg4N3NXQ2JTeEdVZ0tYTkNSa2V4MVpOVjVHdUtMTExONm93N21UekEtbDdqeklNNVN6eDFoZnlLMkszMjBNaERIVTZJZno3UUotYlFTa0x4UURCMFXSAWpBVV95cUxQYUw3VmhHMkxTX2pHQUdBMkJoeHdta1lIQWYwNVlETVpJWjVpOEVoNEtTSnpTTGNsMjJ4dlBnTTBmcFZid1k0dUVpX3hGSkZrZzA5SnB5ZEhGMmxaaEFqOGZ2ck5xbXdBVHJB?oc=5",
+      "source": "새한일보",
+      "date": "Tue, 10 Nov 2026 12:18:25 GMT"
+    },
+    {
+      "title": "기상청, \"극한호우-이상기후, 똑똑한 인공지능(AI)으로 잡는다\"",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBfamRCenN3QXlyR0ZHSzBlMk1DSjE5UzlNelZmX0dxbGdneWlFZEFhQzAxRmpleldONlFaLVpZTUw1bmhiTXc?oc=5",
+      "source": "케이에스피뉴스",
+      "date": "Tue, 10 Nov 2026 11:15:00 GMT"
+    },
+    {
+      "title": "제주, 인공지능(AI) 활용 맞춤형 농업지원 체계 구축",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aVGp2MVQ4M3VuQjljU0dIUGVvaDlLVXJHdXgxR1FUVXNGR09hX195Y3RjWlVHbl9GNHhMU01RRHZTQ3dRNzhEdlpqMWFRcjNxbkpKdHh0ZEthQm1TckN1aV9NYmZzdmtz?oc=5",
+      "source": "한라일보",
+      "date": "Tue, 10 Nov 2026 07:54:55 GMT"
+    },
+    {
+      "title": "조달청 직원이 외부 AI에 평가위원 사진 올렸다…189명 사진 유출",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yeFZuUjVIS1VfQTNnRmdyRmZCRlptTzY3TE1MdGx3VnZSNHk4RTY3MHhwb0lHRGpFWWU4ZHV0d2NZc0ZnRW9ReVFUV1p4ald1QWdZYVF5a1V2d9IBX0FVX3lxTE92RTQzNUxqb0NEdmt4Z3BTTzJJcGFITnNTZTJxRUhqTUJ0dmdhdGY5VUdrNEdNb0NESzJ4bW1CYVFMUmVFQzFJQkViYzYxS1dMVHRTTWdvTVVYcm42NmN3?oc=5",
+      "source": "경향신문",
+      "date": "Tue, 10 Nov 2026 06:44:00 GMT"
     },
     {
       "title": "한국가스공사, '인공지능(AI) 윤리 준수기관 확인마크' 취득",
@@ -36,42 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CR2YwV3BBOW5uSWJxdUxlM2ZGeG9SazROcmpFX0NfVVF6Vmg4bndaOTV2d1FKb1JIOWJLVkxwN1VqV3FmWmZtV014T2VKNmpYb2hzS1MtY3NkekE?oc=5",
       "source": "연합뉴스",
       "date": "Tue, 10 Nov 2026 02:42:25 GMT"
-    },
-    {
-      "title": "코리아넷뉴스 - AI 콘텐츠 체험부터 투자까지···'인공지능 콘텐츠 페스티벌' 개막",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNQ0dlLU9icHBpLUhEUE8tNmFQSHZ4WjVZM3JrNExVaWIzbmVpTU90anZVS3dna2FuVUxGZWtNUENrTFZKMEgtX1lRaTZTUmhIdE9DNWV4c2VUQnVGVVpWcnhlb2ZzZVVyTzBrY24zOUpsQlpycnJXVFR0TXg1M3BVb0JlSXoyMmV4R29TTWFvTmRabWlnRXJpdjlxMnN2MWxDdUhuWTFEUDExZ3BlMVVSb2VQaWwzTFVINXRKU3YwZ1N5N25udjhJd0wwY0xyUUI0MTRETEZBR2tkSEljaUIwNE56VlJYakVCQ2VUTlRlUi04SmUyT3c?oc=5",
-      "source": "문화체육관광부 한국문화원",
-      "date": "Tue, 10 Nov 2026 02:02:46 GMT"
-    },
-    {
-      "title": "ChatGPT Enterprise now available in AWS Marketplace",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9sQy1pSUJsdzhQeDRaeUpOMDVpMzIwODJ4ZmVGNFJEazVrV3VwUGJ0ZnJDOFpGaXFaZDBhb2ZrMHhpT1J5MFhvTklHdWJrTHo3NjBiNkpaWDhibEtXdXVLbzVEYlNMbjB2bEQ5MDQ3MFUxUkdE?oc=5",
-      "source": "OpenAI",
-      "date": "Tue, 10 Nov 2026 01:41:12 GMT"
-    },
-    {
-      "title": "김포시 공무원들, 인공지능(AI) 배우는 데서 그치지 않고 직접 만든다",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XQUFkRXI2aVNwRDNJQThyQ21CZ0NKWVVyaE4zRmhDLWFHVEhzSGZHdUhsQXpOSU5ZTE9JUUpwMjUzX2xmZlJfMEw4d0NzQ0p5cksxd0sxMVg2NnFxWkV4ZHN2VFBrTXZ1N3VJ?oc=5",
-      "source": "일간투데이",
-      "date": "Tue, 10 Nov 2026 01:10:09 GMT"
-    },
-    {
-      "title": "성인 46.2%, 생성형 AI에 건강·의료정보 문의",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wSXU5RS16aVMxTTV0STRRMjF3ZmhIMU5McWJNTnhmZ0FLVzZGVEd4eEVVdFJSSFJDWkxmOEk3ekFqSFpEc1NPTTNjOVhKdWYzMkpjd1VfSjBTZ2xWQmg4R016dnRoTDFzNUtwVzgtZ2UxZGJM?oc=5",
-      "source": "데일리메디",
-      "date": "Tue, 10 Nov 2026 00:36:00 GMT"
-    },
-    {
-      "title": "어피닛, 생성형 AI 심사 응답 위험지표 전환 특허 등록",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1zVDZjR1h5ZWRpNHZ0STJEbDZRN3hmb1o5Wk1sWXZCR0lxZVBZM1NDODBHenNIa0ZJWTRCaU5LWXByX2VkaHZRTHJ5VVJWTDg?oc=5",
-      "source": "와우테일",
-      "date": "Tue, 10 Nov 2026 00:13:54 GMT"
-    },
-    {
-      "title": "(시론)인공지능(AI)과 대학 풍경",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQVnl2YlA3NEk2ZXZmeUdheFliTDJHYVBtRG8zWG5BLUpkRks0VGZuZWFrLXlJbmlJdThVTUtRSnFyU3BEVk9UaEhXMmtDaExlWXY1TjRXbTVsa09yVU04WQ?oc=5",
-      "source": "뉴스토마토",
-      "date": "Mon, 09 Nov 2026 21:00:00 GMT"
     }
   ]
 }
