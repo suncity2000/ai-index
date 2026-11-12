@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-11-11T16:52:07.195Z",
+  "last_updated": "2026-11-12T17:22:22.954Z",
   "news": [
     {
-      "title": "축평원, 제4회 스마트축산 인공지능(AI) 경진대회’ 개최",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11ZHVSSEdDaFcxRURjdWpRYTcyUzloWG9yR25DMDc2MHNkUEJvcGxlZHZfYVJSUTB2YVp5S0tuNXNJMW1SaGg1WFlJYnVzbVU2Y2FQZjJ6WFdjci1lWHNEZklKRWVHWmVK?oc=5",
-      "source": "농축유통신문",
-      "date": "Wed, 11 Nov 2026 10:46:53 GMT"
+      "title": "‘인공지능(AI) 광고’ 규제 동향 및 시사점",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8wM25DOTRXZzBfWEdQeGxMZXNBWmQ3WFdJZDVTRzRZeC0wY3VIX3BOLVY4VWpaUktUVzRCZmJQMkFWdlNPbnVxaW1WYmRxXzVEU1RBcGt0VFJYd1JNd2tRVmoxa2k2R2Zja0VTR1RB0gFyQVVfeXFMTnowTk5lN2V6V1JXRDJTbGFQU1FZQjJTUXU2YWdLQUQ2VThmRlJEUjNteFZUMWZLR2l3M2xpSXFNU09xQUI1N1YyLVpvSzNnMXNzemhiRHZJYkE2QjZqNzdCRE1wYnRsbjVjVlBKNEhkcHFB?oc=5",
+      "source": "법률신문",
+      "date": "Thu, 12 Nov 2026 08:21:47 GMT"
     },
     {
       "title": "\"AI가 답해도 판단은 인간이 한다\"…유네스코, 생성형 AI 시대 새로운 교육 지침 공개",
@@ -14,10 +14,10 @@
       "date": "Wed, 11 Nov 2026 07:46:53 GMT"
     },
     {
-      "title": "인공지능(AI)이 만드는 미래 농업관측의 표준",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44WE5NZmV0cFB6Xy1ZODlfWjZUdm5SZFVBRmFQdktMQ0RxYnladDFwVEl6VXZxai01TFV5dkRzVEFHd2R2S3BqLWhNNUdGTmxfc0RQVW5kMW9abnZIWnJlbkNFMXRFbVVHY2tfNg?oc=5",
-      "source": "제주매일",
-      "date": "Wed, 11 Nov 2026 06:41:49 GMT"
+      "title": "5년 동안 교실에서 생성형 AI 접속이 막힌다면",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1xbWhLYndwZkxGLW5Zb1V3QjJEVzNZMTJnbFljQ1VaM2N6anJ3aVFyWDlVUlBpSzd6bGFfLS1HVDdnRkJyWlIyYVpBNWxudk9Sc3BvVUpzVEdvd3FTMUsxNTFRWkxRYWhHN2c?oc=5",
+      "source": "시사IN",
+      "date": "Wed, 11 Nov 2026 05:27:00 GMT"
     },
     {
       "title": "[AI리더의 서가] 파이토치로 배우는 현대 인공지능",
@@ -38,22 +38,16 @@
       "date": "Tue, 10 Nov 2026 23:00:00 GMT"
     },
     {
+      "title": "OpenAI, ChatGPT에 비즈니스 허브와 비즈니스 에이전트 출시",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT3NEbUtkNmdFc3E2M0U5VVIxY05rQVFuYWFma3RIVDVyb1ZnZnBiNU11Z2JoUHd2Uy1qbFhmVEZUVEZ3eDB1OUR0MkR4aFdGU3N3RlhhQ2Z4eXBVdDFVZjlCeDJBcndWaWVzR1hpcEI3N0xvVW1GMTZQMWhScGh0Z055RnRrUXM3ZHgwTQ?oc=5",
+      "source": "Unite.AI",
+      "date": "Tue, 10 Nov 2026 18:25:02 GMT"
+    },
+    {
       "title": "김포시 공무원들, 인공지능（AI） 배우는 데서 그치지 않고 직접 만든다",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1iY3pZSW14QVlCYzg4N3NXQ2JTeEdVZ0tYTkNSa2V4MVpOVjVHdUtMTExONm93N21UekEtbDdqeklNNVN6eDFoZnlLMkszMjBNaERIVTZJZno3UUotYlFTa0x4UURCMFXSAWpBVV95cUxQYUw3VmhHMkxTX2pHQUdBMkJoeHdta1lIQWYwNVlETVpJWjVpOEVoNEtTSnpTTGNsMjJ4dlBnTTBmcFZid1k0dUVpX3hGSkZrZzA5SnB5ZEhGMmxaaEFqOGZ2ck5xbXdBVHJB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBhTDdWaEcyTFNfakdBR0EyQmh4d21rWUhBZjA1WURNWklaNWk4RWg0S1NKelNMY2wyMnh2UGdNMGZwVmJ3WTR1RWlfeEZKRmtnMDlKcHlkSEYybFpoQWo4ZnZyTnFtd0FUckHSAWpBVV95cUxQYUw3VmhHMkxTX2pHQUdBMkJoeHdta1lIQWYwNVlETVpJWjVpOEVoNEtTSnpTTGNsMjJ4dlBnTTBmcFZid1k0dUVpX3hGSkZrZzA5SnB5ZEhGMmxaaEFqOGZ2ck5xbXdBVHJB?oc=5",
       "source": "새한일보",
-      "date": "Tue, 10 Nov 2026 12:18:25 GMT"
-    },
-    {
-      "title": "기상청, \"극한호우-이상기후, 똑똑한 인공지능(AI)으로 잡는다\"",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBfamRCenN3QXlyR0ZHSzBlMk1DSjE5UzlNelZmX0dxbGdneWlFZEFhQzAxRmpleldONlFaLVpZTUw1bmhiTXc?oc=5",
-      "source": "케이에스피뉴스",
-      "date": "Tue, 10 Nov 2026 11:15:00 GMT"
-    },
-    {
-      "title": "제주, 인공지능(AI) 활용 맞춤형 농업지원 체계 구축",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aVGp2MVQ4M3VuQjljU0dIUGVvaDlLVXJHdXgxR1FUVXNGR09hX195Y3RjWlVHbl9GNHhMU01RRHZTQ3dRNzhEdlpqMWFRcjNxbkpKdHh0ZEthQm1TckN1aV9NYmZzdmtz?oc=5",
-      "source": "한라일보",
-      "date": "Tue, 10 Nov 2026 07:54:55 GMT"
+      "date": "Tue, 10 Nov 2026 12:46:39 GMT"
     },
     {
       "title": "조달청 직원이 외부 AI에 평가위원 사진 올렸다…189명 사진 유출",
@@ -72,6 +66,12 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CR2YwV3BBOW5uSWJxdUxlM2ZGeG9SazROcmpFX0NfVVF6Vmg4bndaOTV2d1FKb1JIOWJLVkxwN1VqV3FmWmZtV014T2VKNmpYb2hzS1MtY3NkekE?oc=5",
       "source": "연합뉴스",
       "date": "Tue, 10 Nov 2026 02:42:25 GMT"
+    },
+    {
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9sQy1pSUJsdzhQeDRaeUpOMDVpMzIwODJ4ZmVGNFJEazVrV3VwUGJ0ZnJDOFpGaXFaZDBhb2ZrMHhpT1J5MFhvTklHdWJrTHo3NjBiNkpaWDhibEtXdXVLbzVEYlNMbjB2bEQ5MDQ3MFUxUkdE?oc=5",
+      "source": "OpenAI",
+      "date": "Tue, 10 Nov 2026 01:41:12 GMT"
     }
   ]
 }
