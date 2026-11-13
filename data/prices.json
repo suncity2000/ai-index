@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12T09:36:42.240Z",
+  "last_updated": "2026-11-13T09:21:56.155Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -299,26 +299,18 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-v4.1-flash-1017:batch",
-      "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
-      "price_1m_input": 0.01,
-      "price_1m_output": 0.2,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
-      "id": "deepseek/deepseek-v4.1-flash",
-      "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "price_1m_input": 0.02,
-      "price_1m_output": 0.4,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
       "id": "deepseek/deepseek-v4-flash-0731",
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "price_1m_input": 0.04,
       "price_1m_output": 0.3,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash-1017:batch",
+      "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
+      "price_1m_input": 0.05,
+      "price_1m_output": 0.15,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -403,6 +395,14 @@
       "top_provider": true
     },
     {
+      "id": "deepseek/deepseek-v4.1-flash",
+      "name": "DeepSeek: DeepSeek V4.1 Flash",
+      "price_1m_input": 0.3,
+      "price_1m_output": 1.2,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
       "id": "deepseek/deepseek-chat",
       "name": "DeepSeek: DeepSeek V3",
       "price_1m_input": 0.32,
@@ -429,8 +429,8 @@
     {
       "id": "deepseek/deepseek-v4-pro",
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "price_1m_input": 0.96,
-      "price_1m_output": 1.91,
+      "price_1m_input": 0.9,
+      "price_1m_output": 1.5,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -451,19 +451,19 @@
       "top_provider": true
     },
     {
-      "id": "google/gemma-4-26b-a4b-it",
-      "name": "Google: Gemma 4 26B A4B ",
-      "price_1m_input": 0.08,
-      "price_1m_output": 0.1,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "google/gemma-3-27b-it",
       "name": "Google: Gemma 3 27B",
       "price_1m_input": 0.08,
       "price_1m_output": 0.35,
       "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it",
+      "name": "Google: Gemma 4 26B A4B ",
+      "price_1m_input": 0.09,
+      "price_1m_output": 0.3,
+      "context_length": 262144,
       "top_provider": true
     },
     {
@@ -611,6 +611,14 @@
       "top_provider": true
     },
     {
+      "id": "google/gemini-4-hydrogen:batch",
+      "name": "Google: Gemini 4 Hydrogen (batch)",
+      "price_1m_input": 0.75,
+      "price_1m_output": 3.75,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
       "id": "google/gemini-3.7-flash",
       "name": "Google: Gemini 3.7 Flash",
       "price_1m_input": 0.75,
@@ -679,6 +687,14 @@
       "name": "Google: Gemini 2.5 Pro Preview 06-05",
       "price_1m_input": 1.25,
       "price_1m_output": 10,
+      "context_length": 1048576,
+      "top_provider": true
+    },
+    {
+      "id": "google/gemini-4-hydrogen",
+      "name": "Google: Gemini 4 Hydrogen",
+      "price_1m_input": 1.5,
+      "price_1m_output": 7.5,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -1795,14 +1811,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3.5-9b",
-      "name": "Qwen: Qwen3.5-9B",
-      "price_1m_input": 0.05,
-      "price_1m_output": 0.07,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3.5-flash-02-23",
       "name": "Qwen: Qwen3.5-Flash",
       "price_1m_input": 0.07,
@@ -1835,19 +1843,19 @@
       "top_provider": true
     },
     {
+      "id": "qwen/qwen3.5-9b",
+      "name": "Qwen: Qwen3.5-9B",
+      "price_1m_input": 0.1,
+      "price_1m_output": 0.14,
+      "context_length": 262144,
+      "top_provider": true
+    },
+    {
       "id": "qwen/qwen3-30b-a3b-instruct-2507",
       "name": "Qwen: Qwen3 30B A3B Instruct 2507",
       "price_1m_input": 0.1,
       "price_1m_output": 0.3,
       "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "qwen/qwen3-14b",
-      "name": "Qwen: Qwen3 14B",
-      "price_1m_input": 0.1,
-      "price_1m_output": 0.22,
-      "context_length": 40960,
       "top_provider": true
     },
     {
@@ -1863,6 +1871,14 @@
       "name": "Qwen: Qwen3 30B A3B",
       "price_1m_input": 0.12,
       "price_1m_output": 0.5,
+      "context_length": 40960,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3-14b",
+      "name": "Qwen: Qwen3 14B",
+      "price_1m_input": 0.12,
+      "price_1m_output": 0.24,
       "context_length": 40960,
       "top_provider": true
     },
