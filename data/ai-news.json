@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-11-13T16:56:14.503Z",
+  "last_updated": "2026-11-14T15:32:26.552Z",
   "news": [
+    {
+      "title": "OpenAI IPO에 대해 알아야 할 핵심 정보",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMXFoSjFPcUg2YzgyM2NQcG9QVi1kZ1UxVk03Ti1yaktpVzRoRTZ4aGtnVmRTQ3B2SlhkOTE2LTF6cUZxQjdTenpLZmszbXdueDJBU29odVNPRUh3cmM3V1BkTURWTG1mUVlWRmdpTURfcmJ0dUFQWGRKWjRaaWdrcXJrenJ3SV9ENDAwc2k4X0Z4WXpfUFRFejZtT2tBR0haVWpYdTBZMUg?oc=5",
+      "source": "TradingKey",
+      "date": "Sat, 14 Nov 2026 07:33:16 GMT"
+    },
+    {
+      "title": "범죄 도구 악용되는 생성형 AI…막을 방법은 아직",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NU0w0OWtNSTBEY1FsWVEtQUZyOV9BWGZLeVBjRDVoVFNnWklYVzRjZmFXelNXU2JMejdFaDVDRndSX1VkT09MbVNtcjNVT1FyT3RYbkJOYmUzZEFlSTkwa0VFMTMxb2M?oc=5",
+      "source": "연합뉴스TV",
+      "date": "Sat, 14 Nov 2026 01:55:00 GMT"
+    },
+    {
+      "title": "오픈AI, AI 에이전트가 대신 결제하는 '챗GPT 월렛' 출시",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmcmkwRXI4TE5IWXhwNmVJZ205YTdZai1fV2YydWVpaHFMS0JmMXFxWGN3alU3Wmt6eFFhc3JIVk1CRnFOdUxyME5wb0JaUWdHSFp3ZnZXb3dPaThUVWpaZlVURUxpWFhEeEE?oc=5",
+      "source": "AI타임스",
+      "date": "Sat, 14 Nov 2026 01:41:50 GMT"
+    },
     {
       "title": "생성형 AI는 기대에 부응할 것인가?",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBISWNzU1gydTNRQ05PQU1CQlBqMkxkZWR6aWt1WC1BeHRaWV82YUxsa1htZTctSGdNMHVjNEduSktDOU9DRjVwNlNRdHRwS05mcE42Yl9QMmdwMkZFVDM4dnRkOFZBeXo2R2FDQkhNWTY?oc=5",
@@ -8,22 +26,10 @@
       "date": "Fri, 13 Nov 2026 15:38:06 GMT"
     },
     {
-      "title": "OpenAI, ChatGPT 월렛 출시로 AI 기반 커머스 확장",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4ycmtzb0lWeVZpTU9xV0lIT2JvNElJUFQ5VkszZGp6ZlJsSWNiUDdmZmEzVGN0SkEzSzV4cTZ1TUQwYk1qTUVOeUFsVFgwZDNkX21MQklMbVEyOVVsMlB1dFRwdU1LaTBZQUZ3emRUeGc?oc=5",
-      "source": "Investing.com 한국어",
-      "date": "Fri, 13 Nov 2026 15:32:00 GMT"
-    },
-    {
-      "title": "생성형 AI 시대, 대학에서 사라지는 질문…청년들은 왜 침묵하는가",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BMHo4OUtiRzNXaDBHVkRxdkx4RTN6VS1kemFPSnF1V3RJdFB6c1lleGFiME9KOFlyWUo2QTZCZDBxdkg3SldERHg5eWlBUkwzSEN0LXdDQndRYjFyeU1rQUxIb1lpYVFUNHZ3M2ZYVVdzWTQ?oc=5",
-      "source": "헤드라인제주",
-      "date": "Fri, 13 Nov 2026 05:53:28 GMT"
-    },
-    {
-      "title": "OpenAI IPO에 대해 알아야 할 핵심 정보",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMXFoSjFPcUg2YzgyM2NQcG9QVi1kZ1UxVk03Ti1yaktpVzRoRTZ4aGtnVmRTQ3B2SlhkOTE2LTF6cUZxQjdTenpLZmszbXdueDJBU29odVNPRUh3cmM3V1BkTURWTG1mUVlWRmdpTURfcmJ0dUFQWGRKWjRaaWdrcXJrenJ3SV9ENDAwc2k4X0Z4WXpfUFRFejZtT2tBR0haVWpYdTBZMUg?oc=5",
-      "source": "TradingKey",
-      "date": "Thu, 12 Nov 2026 23:52:23 GMT"
+      "title": "ChatGPT 내 비즈니스: 비즈니스 소유권 등록하기",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5jQkljOXJfX2F4OWlkVlZWaF9HaW5NalhTTTZqeDd6YjJHU2h4V2RyVGZ5MU9OZHJwR1dzVnZLS2toY3VnWHU3cTd1X2ZpRm9Udnc5VnlGUmRCeERjUXc5aE5iUWdzc1U?oc=5",
+      "source": "OpenAI",
+      "date": "Thu, 12 Nov 2026 18:58:44 GMT"
     },
     {
       "title": "5년 동안 교실에서 생성형 AI 접속이 막힌다면",
@@ -56,22 +62,16 @@
       "date": "Wed, 11 Nov 2026 07:46:53 GMT"
     },
     {
+      "title": "인공지능(AI)에 지배되지 않으려면-C.S 칼럼(569)",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBWaWU5WHZoa2pKNmRCeUplLXEtYjF0bXVLU2ZDcDJYS0wzeEhwaU00cWRfQmR0N2dyTU9qbDR3di1iU2RNQzhTeldLYmlDWmJqMXR6LUc2TWswLTFTb3lqYkVkbFF2Smw0MlpSU1VWZw?oc=5",
+      "source": "식품음료신문",
+      "date": "Wed, 11 Nov 2026 05:36:00 GMT"
+    },
+    {
       "title": "[AI리더의 서가] 파이토치로 배우는 현대 인공지능",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKNllrakVMRmN2V05TRWNsZ2hQNzMtLTM4S3pvQXdGU0Z0cDE1MkowVF8yS2JGaGFBWnN4NWdWNUVZWDl3dmZncERvTTM3bHBZSFJiN1JfOEJOZTNaMXhyQnpLUnpVdjNZQUE?oc=5",
       "source": "AI타임스",
       "date": "Wed, 11 Nov 2026 00:00:00 GMT"
-    },
-    {
-      "title": "오픈AI, 챗GPT에 기업 AI고객센터 도입…온라인쇼핑 플랫폼 역할",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OeWhaaGw5Z0J2dWpnczBXcGRjRVdxNzJPZElPSVozMTNNUnV1cExDbDB0Ym9QcHI2SDF3cHRFbXlaZ3FGdTg2blUwLVBzMEJRSFBrTGxkanZKMDDSAWBBVV95cUxOS0lVYVpoaHYzZWlyUXo1VGwxa0J1dmxZa2lESGwwNDQ2eWJORVk0Y01obXdUWDJFZldtQU1KYTEzMjhjX2ZwUFNzSVdZc1VsVDdCUFR2bS1IZ3gwVXk4bVk?oc=5",
-      "source": "연합뉴스",
-      "date": "Tue, 10 Nov 2026 23:12:53 GMT"
-    },
-    {
-      "title": "김포시 공무원들, 인공지능（AI） 배우는 데서 그치지 않고 직접 만든다",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBhTDdWaEcyTFNfakdBR0EyQmh4d21rWUhBZjA1WURNWklaNWk4RWg0S1NKelNMY2wyMnh2UGdNMGZwVmJ3WTR1RWlfeEZKRmtnMDlKcHlkSEYybFpoQWo4ZnZyTnFtd0FUckHSAWpBVV95cUxQYUw3VmhHMkxTX2pHQUdBMkJoeHdta1lIQWYwNVlETVpJWjVpOEVoNEtTSnpTTGNsMjJ4dlBnTTBmcFZid1k0dUVpX3hGSkZrZzA5SnB5ZEhGMmxaaEFqOGZ2ck5xbXdBVHJB?oc=5",
-      "source": "새한일보",
-      "date": "Tue, 10 Nov 2026 12:46:39 GMT"
     }
   ]
 }
