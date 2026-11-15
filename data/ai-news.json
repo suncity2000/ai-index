@@ -1,11 +1,23 @@
 {
-  "last_updated": "2026-11-14T15:32:26.552Z",
+  "last_updated": "2026-11-15T16:03:10.898Z",
   "news": [
+    {
+      "title": "인천시, 지역 인공지능(AI) 기업과 ‘글로벌 인공지능(AI) 허브’유치 전략 모색",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcmxWanBtUEFmVXJLOGUwY0g0U0JOMWhJU0REdGZrOGhpbzFQdXpNSGVoaUptNlR4RVUyMmhnQjlOTzBLVHVhb1JWd2ZOaU5fU2RKcDhyb2xpczBnZ0FPMjRBRUYyc0JjSXZsdW9HRU55bnhPMDZadE5VQVlOQ3ljTS1fWFpfMDVkZTJXcw?oc=5",
+      "source": "인천광역시",
+      "date": "Sun, 15 Nov 2026 14:59:28 GMT"
+    },
     {
       "title": "OpenAI IPO에 대해 알아야 할 핵심 정보",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMXFoSjFPcUg2YzgyM2NQcG9QVi1kZ1UxVk03Ti1yaktpVzRoRTZ4aGtnVmRTQ3B2SlhkOTE2LTF6cUZxQjdTenpLZmszbXdueDJBU29odVNPRUh3cmM3V1BkTURWTG1mUVlWRmdpTURfcmJ0dUFQWGRKWjRaaWdrcXJrenJ3SV9ENDAwc2k4X0Z4WXpfUFRFejZtT2tBR0haVWpYdTBZMUg?oc=5",
       "source": "TradingKey",
-      "date": "Sat, 14 Nov 2026 07:33:16 GMT"
+      "date": "Sun, 15 Nov 2026 08:18:44 GMT"
+    },
+    {
+      "title": "에이니온, 생성형 AI 시대 기업정보 관리 새로운 길 연다",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBxMUlramg1bjVJT0RSclltNmplY2ZyRzk5YnRjeWM1cGdRTzUzR0FZcVJ5UUtkSTNmcEFRMDQzUnVUNG4tZEI1dEoyZ0tmdw?oc=5",
+      "source": "전자신문",
+      "date": "Sun, 15 Nov 2026 04:00:00 GMT"
     },
     {
       "title": "범죄 도구 악용되는 생성형 AI…막을 방법은 아직",
@@ -20,10 +32,16 @@
       "date": "Sat, 14 Nov 2026 01:41:50 GMT"
     },
     {
-      "title": "생성형 AI는 기대에 부응할 것인가?",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBISWNzU1gydTNRQ05PQU1CQlBqMkxkZWR6aWt1WC1BeHRaWV82YUxsa1htZTctSGdNMHVjNEduSktDOU9DRjVwNlNRdHRwS05mcE42Yl9QMmdwMkZFVDM4dnRkOFZBeXo2R2FDQkhNWTY?oc=5",
-      "source": "IBM",
-      "date": "Fri, 13 Nov 2026 15:38:06 GMT"
+      "title": "OpenAI, ChatGPT 월렛 출시로 AI 기반 커머스 확장 By Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4ycmtzb0lWeVZpTU9xV0lIT2JvNElJUFQ5VkszZGp6ZlJsSWNiUDdmZmEzVGN0SkEzSzV4cTZ1TUQwYk1qTUVOeUFsVFgwZDNkX21MQklMbVEyOVVsMlB1dFRwdU1LaTBZQUZ3emRUeGc?oc=5",
+      "source": "Investing.com 한국어",
+      "date": "Fri, 13 Nov 2026 15:32:00 GMT"
+    },
+    {
+      "title": "더 스마트하게 스타트업 확장하기: 핵심 생성형 AI 사용 사례",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOTJiUFVoZXN5QnNPV0ROZHJBQWNZeVlyNGhBV2hlZjQ3bFlJaVRrUlFBQnkxREw5bEF3bWFXZ2ZWMHpkdlB6aFZNMkRydU5sdUtXZkNzNFo1OUJtaGt5UkQxbmJZV3NnTFFrVDFtdzlHWVoxXzkzYVk5Z2Rta1RGR0FfRFRDZjZ0bHFYdUR0bVlydFNEdmhNRm9zN002b2N0RnlRVFBHcUs4UQ?oc=5",
+      "source": "Amazon Web Services (AWS)",
+      "date": "Fri, 13 Nov 2026 04:40:42 GMT"
     },
     {
       "title": "ChatGPT 내 비즈니스: 비즈니스 소유권 등록하기",
@@ -32,22 +50,16 @@
       "date": "Thu, 12 Nov 2026 18:58:44 GMT"
     },
     {
-      "title": "5년 동안 교실에서 생성형 AI 접속이 막힌다면",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1xbWhLYndwZkxGLW5Zb1V3QjJEVzNZMTJnbFljQ1VaM2N6anJ3aVFyWDlVUlBpSzd6bGFfLS1HVDdnRkJyWlIyYVpBNWxudk9Sc3BvVUpzVEdvd3FTMUsxNTFRWkxRYWhHN2c?oc=5",
-      "source": "시사IN",
-      "date": "Thu, 12 Nov 2026 15:17:52 GMT"
+      "title": "\"인공지능(AI)이라는 이름표가 신약의 가치를 결정해서는 안 된다\"",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9LU3NENlltY3NPNGozbU5UeDlkb1JZWVF4VG85NUFEOHByelV6UjZtalFQSWxZb2d2QTl2by14OEczcEI4S1BGbXBfY0szYzh0RU14eU1adjRTSXZ6WkQ1aVh3S0JBZWxGanJ3?oc=5",
+      "source": "히트뉴스",
+      "date": "Thu, 12 Nov 2026 08:00:00 GMT"
     },
     {
-      "title": "‘인공지능(AI) 광고’ 규제 동향 및 시사점",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8wM25DOTRXZzBfWEdQeGxMZXNBWmQ3WFdJZDVTRzRZeC0wY3VIX3BOLVY4VWpaUktUVzRCZmJQMkFWdlNPbnVxaW1WYmRxXzVEU1RBcGt0VFJYd1JNd2tRVmoxa2k2R2Zja0VTR1RB0gFyQVVfeXFMTnowTk5lN2V6V1JXRDJTbGFQU1FZQjJTUXU2YWdLQUQ2VThmRlJEUjNteFZUMWZLR2l3M2xpSXFNU09xQUI1N1YyLVpvSzNnMXNzemhiRHZJYkE2QjZqNzdCRE1wYnRsbjVjVlBKNEhkcHFB?oc=5",
+      "title": "공정위, ‘인공지능(AI) 관련 표시·광고 가이드라인’(안) 공개 및 의견청취 실시",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA1VTdVc0tWNU5VM19YekFEQkF4X0Rqb0s1UjlEWFRCU0Q4dC1aM2RpOVU3ZjVtRlVuNzlCMG1mRHdSYWZoVmY2NE5hSl8zRHRLLURMVTgzbV96b3VJVWhqcEVzRHVHT19DT3dVb3VJM0czd9IBckFVX3lxTFA1VTdVc0tWNU5VM19YekFEQkF4X0Rqb0s1UjlEWFRCU0Q4dC1aM2RpOVU3ZjVtRlVuNzlCMG1mRHdSYWZoVmY2NE5hSl8zRHRLLURMVTgzbV96b3VJVWhqcEVzRHVHT19DT3dVb3VJM0czdw?oc=5",
       "source": "법률신문",
-      "date": "Thu, 12 Nov 2026 08:21:47 GMT"
-    },
-    {
-      "title": "축평원, 제4회 스마트축산 인공지능(AI) 경진대회’ 개최",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11ZHVSSEdDaFcxRURjdWpRYTcyUzloWG9yR25DMDc2MHNkUEJvcGxlZHZfYVJSUTB2YVp5S0tuNXNJMW1SaGg1WFlJYnVzbVU2Y2FQZjJ6WFdjci1lWHNEZklKRWVHWmVK?oc=5",
-      "source": "농축유통신문",
-      "date": "Wed, 11 Nov 2026 10:46:53 GMT"
+      "date": "Thu, 12 Nov 2026 01:33:33 GMT"
     },
     {
       "title": "제대군인 2만 명 이상이 ChatGPT Plus 무료 이용 신청",
@@ -60,18 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmSEhjd2JjcktrUEh1QWRGcWR4bE9Yd2JxbEV0N1NJZEtRMV9fNXloNTg4R0NxZm5wbnhtZl8yY2hiQkVTM0pFSUZ3blpUUjhnVjQ4ZzZfWER2aXF2RlNBc2N1U1JtNHc?oc=5",
       "source": "인공지능신문",
       "date": "Wed, 11 Nov 2026 07:46:53 GMT"
-    },
-    {
-      "title": "인공지능(AI)에 지배되지 않으려면-C.S 칼럼(569)",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBWaWU5WHZoa2pKNmRCeUplLXEtYjF0bXVLU2ZDcDJYS0wzeEhwaU00cWRfQmR0N2dyTU9qbDR3di1iU2RNQzhTeldLYmlDWmJqMXR6LUc2TWswLTFTb3lqYkVkbFF2Smw0MlpSU1VWZw?oc=5",
-      "source": "식품음료신문",
-      "date": "Wed, 11 Nov 2026 05:36:00 GMT"
-    },
-    {
-      "title": "[AI리더의 서가] 파이토치로 배우는 현대 인공지능",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKNllrakVMRmN2V05TRWNsZ2hQNzMtLTM4S3pvQXdGU0Z0cDE1MkowVF8yS2JGaGFBWnN4NWdWNUVZWDl3dmZncERvTTM3bHBZSFJiN1JfOEJOZTNaMXhyQnpLUnpVdjNZQUE?oc=5",
-      "source": "AI타임스",
-      "date": "Wed, 11 Nov 2026 00:00:00 GMT"
     }
   ]
 }
