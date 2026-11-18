@@ -1,23 +1,41 @@
 {
-  "last_updated": "2026-11-17T18:07:35.022Z",
+  "last_updated": "2026-11-18T17:46:19.288Z",
   "news": [
+    {
+      "title": "우리금융, '2026 AI Day' 개최…계열사 인공지능(AI) 혁신 성과 공유",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4zeHpKcDl3Vnc0SkJpSWI5VE1lNWRHTzVwcHB6eFAzeG9aZDVYNGdpYlhIWWVJSDdmajNxaWZqMTNBb2U2LXBmYklsWFhPQQ?oc=5",
+      "source": "전자신문",
+      "date": "Wed, 18 Nov 2026 02:02:06 GMT"
+    },
+    {
+      "title": "오픈AI, GPT-6.2 아스트라·솔 전격 공개…전문가급 AI 업무 수행에 비용 혁신까지",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfU3VXNlBBY052a3lHTXFPeEJ2YzhsT0dRMUsxVTZhMFpoNDFXbDdLVHlxeUNjcnZobzFtVW9EcXozVE00QXhZblV3amttRFBBWlhiOWNWNlFZQU5xMGI1UXNDV0RBSUk?oc=5",
+      "source": "인공지능신문",
+      "date": "Wed, 18 Nov 2026 00:52:11 GMT"
+    },
+    {
+      "title": "[전문인칼럼] 인공지능(AI)과 노동권",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSSXRWaS1ydkhRTmU5MHBPcW1MSzJSeDl2cGFIMllwa2NoZTFXcUNXbVlHRGo3UDJOZG5JVFVBQlJmNXZpWVRWcC1qbjBFSElCeTBHS3R6LUM3RGplMDNaRk41dERpcWwxZWtOWjU2bDVBTUXSAXNBVV95cUxQUkl0VmktcnZIUU5lOTBwT3FtTEsyUng5dnBhSDJZcGtjaGUxV3FDV21ZR0RqN1AyTmRuSVRVQUJSZjV2aVlUVnAtam4wRUhJQnkwR0t0ei1DN0RqZTAzWkZONXREaXFsMWVrTlo1Nmw1QU1F?oc=5",
+      "source": "대전일보",
+      "date": "Tue, 17 Nov 2026 22:02:15 GMT"
+    },
+    {
+      "title": "인공지능(AI) 활용해서 2024년 의대 진학",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5iUlI1NVRGV1ZXd3NQNFN6bFVybHZTbjBOT0NJVWo1dllMT1RHdXpsYVZraHNuWkM4bVY2dC16QnBLcTBGdHlhYnRxcTNOS0xBRnAwSk9sVXMxdUtEQ0FZRWtuM2RQd2hHaFRwazJremFZLTNW?oc=5",
+      "source": "데일리메디",
+      "date": "Tue, 17 Nov 2026 21:00:00 GMT"
+    },
+    {
+      "title": "구독료 중 OTT 비중 3년새 반토막… 생성형 AI는 1.8%서 19.6%로 급증",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNnhMLTY3b1BJT3pRU054Nk91d1o2cGlLQkRHSmRDbmw1THhvRzZrMkdvUTEwREZLaF9GdE84SnlRQlF1Tmk1UllwQTFyYi16aWtMM05UTWZZS3pwUEwybnRwWllCRG5TeWtjekVaT3JadGUtZmc1ZnN5U1p4cnVlLWgxUDZRWVVyZ280?oc=5",
+      "source": "조선일보",
+      "date": "Tue, 17 Nov 2026 15:34:00 GMT"
+    },
     {
       "title": "안양시, 인공지능(AI) 인재가 인공지능(AI) 인재 키운다…",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBhYVR1bEpTeTFGWTV1TTlMYlo3Ukd1NU04RFlHWmIwOTF2SXRDZlYtdXNCMzNTLThnY0cyT2c3azE4TklyUWtBcmIzLVROMmZ3bE5qNzM3NjhOQmN2Ri0xdUdZdVA2QdIBakFVX3lxTE1DWDVvQnlpZ3BwbUhpQkFRZ2FNY0RBR3NNU3M3VTNaN295ZldYSzBNSDVVU2UxWHp5MkhIZnNrMlB2aDdrOFlOMnlKV0hJR0lrTVY4U2tFd2ZmZW5DRjVuN1NFSDJfLTF1cEE?oc=5",
       "source": "새한일보",
       "date": "Tue, 17 Nov 2026 10:55:05 GMT"
-    },
-    {
-      "title": "안양시, 인공지능(AI) 인재가 인공지능(AI) 인재 키운다",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE54czJUdTd4WDMwR1JRN2F2NGh5dk9FWktoZmkteWgyRXpaWjVZMXN3bFB4bEdGbjVsWlY0bzhyUkxVUmVmSXBIUTZfUS1oOExjQVpPblNpZUNNTFdpYmg5WWI1M1NmNy10RHBybWszWXRMYm85SXA3bFBNU3Y?oc=5",
-      "source": "경기헤럴드",
-      "date": "Tue, 17 Nov 2026 07:43:44 GMT"
-    },
-    {
-      "title": "오픈AI, 전 세계 연구자 20만 명에 챗GPT 무료 지원…AI 연구 생태계 확대",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ZZ1J2Z1lVZVp6LU5EZG1CLVNWcjBvcXI1bVpvcUJreW0wWVVGU3RsdVNlVjJhSl9SdUl3VVRsSDVjUW45SzVaODRCMTFkMGl6OUxIbHI3VXNaejhNb2FlMFZpaEJDS00?oc=5",
-      "source": "인공지능신문",
-      "date": "Tue, 17 Nov 2026 03:57:21 GMT"
     },
     {
       "title": "더 많은 과학자에게 AI 활용 기회를",
@@ -26,52 +44,34 @@
       "date": "Tue, 17 Nov 2026 02:09:04 GMT"
     },
     {
-      "title": "'협치에 인공지능(AI) 어떻게 쓸까'… 은평구, 주민참여 위원 시민교육",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LakE2OXlyblJNQ1FMbUZCbTFmMUpMTGpZekJuRG40NWN1QVl0aUxWdXozUFVTYmUtV1pMQlQxRVhabnlCZUpvQnI4VnBOUXBYNGpTYjU2ZEJzWWp5WFAwLXJTd05IOUU?oc=5",
-      "source": "은평시민신문",
-      "date": "Tue, 17 Nov 2026 01:44:34 GMT"
-    },
-    {
-      "title": "지로 ‘드롭샷 AI’ 콘텐츠 생성 7개월 만에 10배 성장",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCTFd2NXVWZTItMGhlZDFDVzFDUmZDREJiekQxSEkxMnptV1hWSy1Qc0xLZEVJYS13MjJFOTl5c2NHemZyWkhkX3VTNVpxalFEZUpxempR?oc=5",
-      "source": "지디넷코리아",
-      "date": "Mon, 16 Nov 2026 04:32:45 GMT"
-    },
-    {
       "title": "北, 올해 '최우수 정보기술' 10개 선정...인공지능(AI) 두각",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9hWkRKM2gxN2FTWXM3VEVobzFNeG0zcW5JQ0I0S2g4WXd0Z3U2WGNaNDVQdG11UnBRT0pjQjduRm1mcmRxRThlWVJNbTRiby1zNjQ3ZEt4a0ZmQkZk?oc=5",
       "source": "뉴스핌",
       "date": "Mon, 16 Nov 2026 01:38:00 GMT"
     },
     {
-      "title": "인천시, 지역 기업과 '글로벌 인공지능(AI) 허브' 유치 전략 논의",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBFbWNFRHVUeVMxTHZzOVdEQjJ3YVBHZnZRRjlRMFA0dUJJNjVyLWZKTnRCTi1ET3RRby11WWpCWFh3YUFwcmptbzhGbmhnSjlUQXVuYlAwQXItd3ctNWlkODZYUkI?oc=5",
-      "source": "매일일보",
-      "date": "Sun, 15 Nov 2026 12:25:13 GMT"
+      "title": "경북교육청, 인공지능(AI)․디지털 시대 사람 중심 인성교육 방향 모색",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JWjRCOF9QaXlNdnhjZm5zSGZUSDRmdjZNdjlfS283ODdBWFEyM0FRbFF5SUJRV1huaGwyMGVaNm1iSGJ6TzVESEtOMHFFdEdGMzQzc3kyT3loVHc1Yi1xbEFtUEhfQQ?oc=5",
+      "source": "데일리대구경북뉴스",
+      "date": "Sun, 15 Nov 2026 23:24:14 GMT"
+    },
+    {
+      "title": "오픈AI, AI 에이전트가 대신 결제하는 '챗GPT 월렛' 출시",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmcmkwRXI4TE5IWXhwNmVJZ205YTdZai1fV2YydWVpaHFMS0JmMXFxWGN3alU3Wmt6eFFhc3JIVk1CRnFOdUxyME5wb0JaUWdHSFp3ZnZXb3dPaThUVWpaZlVURUxpWFhEeEE?oc=5",
+      "source": "AI타임스",
+      "date": "Sun, 15 Nov 2026 08:00:00 GMT"
+    },
+    {
+      "title": "공무원연금공단, 직원 참여로 인공지능(AI) 활용 업무혁신 우수사례 5건 선정",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5yT3JYRnBRQkFaRzNHcHNaZ0dTWlhaMldEREF1UHhFWkdxYWJjaXo2WlhPQnp3dnRER1F6a05TUVliWXBBT0RmcVY1UVdqdWFEekNQeFVvNV9nYnFLU0Rncm1pQlF4VVowenA4?oc=5",
+      "source": "뉴스데일리",
+      "date": "Sun, 15 Nov 2026 06:43:24 GMT"
     },
     {
       "title": "에이니온, 생성형 AI 시대 기업정보 관리 새로운 길 연다",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBxMUlramg1bjVJT0RSclltNmplY2ZyRzk5YnRjeWM1cGdRTzUzR0FZcVJ5UUtkSTNmcEFRMDQzUnVUNG4tZEI1dEoyZ0tmdw?oc=5",
       "source": "전자신문",
       "date": "Sun, 15 Nov 2026 04:00:00 GMT"
-    },
-    {
-      "title": "입모양만 보고 말 알아듣는 AI 개발",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Nd3RKTHU0Um81c28xZDlVVm9RcUJpZ1dfLTAyclFBZ19BNkxLNjM4UVFUOHM4Q3dHRXZHS2dmLUlIcnJLc3JDQnRpUVV1ZjctMzgwVg?oc=5",
-      "source": "DongA Science",
-      "date": "Sun, 15 Nov 2026 03:00:00 GMT"
-    },
-    {
-      "title": "\"인공지능(AI)이라는 이름표가 신약의 가치를 결정해서는 안 된다\"",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9LU3NENlltY3NPNGozbU5UeDlkb1JZWVF4VG85NUFEOHByelV6UjZtalFQSWxZb2d2QTl2by14OEczcEI4S1BGbXBfY0szYzh0RU14eU1adjRTSXZ6WkQ1aVh3S0JBZWxGanJ3?oc=5",
-      "source": "히트뉴스",
-      "date": "Sat, 14 Nov 2026 21:00:00 GMT"
-    },
-    {
-      "title": "범죄 도구 악용되는 생성형 AI…막을 방법은 아직",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NU0w0OWtNSTBEY1FsWVEtQUZyOV9BWGZLeVBjRDVoVFNnWklYVzRjZmFXelNXU2JMejdFaDVDRndSX1VkT09MbVNtcjNVT1FyT3RYbkJOYmUzZEFlSTkwa0VFMTMxb2M?oc=5",
-      "source": "연합뉴스TV",
-      "date": "Sat, 14 Nov 2026 01:55:00 GMT"
     }
   ]
 }
