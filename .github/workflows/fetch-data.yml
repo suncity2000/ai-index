@@ -50,40 +50,18 @@ jobs:
           done
           echo "Cleaned old history files (cutoff: ${CUTOFF})"
 
-      - name: Fetch LLM data
-        run: |
-          curl --retry 3 --retry-delay 5 --fail --show-error --silent \
-               -H "X-API-Key: ${{ secrets.AI_MODELS_KEY }}" \
-               -o data/llms.json \
-               https://artificialanalysis.ai/api/v2/data/llms/models
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
 
-      - name: Fetch Text-to-Image data
-        run: |
-          curl --retry 3 --retry-delay 5 --fail --show-error --silent \
-               -H "X-API-Key: ${{ secrets.AI_MODELS_KEY }}" \
-               -o data/text-to-image.json \
-               https://artificialanalysis.ai/api/v2/data/media/text-to-image
-
-      - name: Fetch Text-to-Speech data
-        run: |
-          curl --retry 3 --retry-delay 5 --fail --show-error --silent \
-               -H "X-API-Key: ${{ secrets.AI_MODELS_KEY }}" \
-               -o data/text-to-speech.json \
-               https://artificialanalysis.ai/api/v2/data/media/text-to-speech
-
-      - name: Fetch Text-to-Video data
-        run: |
-          curl --retry 3 --retry-delay 5 --fail --show-error --silent \
-               -H "X-API-Key: ${{ secrets.AI_MODELS_KEY }}" \
-               -o data/text-to-video.json \
-               https://artificialanalysis.ai/api/v2/data/media/text-to-video
-
-      - name: Fetch Image-to-Video data
-        run: |
-          curl --retry 3 --retry-delay 5 --fail --show-error --silent \
-               -H "X-API-Key: ${{ secrets.AI_MODELS_KEY }}" \
-               -o data/image-to-video.json \
-               https://artificialanalysis.ai/api/v2/data/media/image-to-video
+      # Artificial Analysis retired the legacy /api/v2/data/* endpoints on 2026-11-04.
+      # This script calls the new V2 free-tier endpoints and saves the data in the
+      # same shape the site already reads. It writes nothing unless every request succeeds.
+      - name: Fetch AI model data (LLM, image, speech, video)
+        env:
+          AI_MODELS_KEY: ${{ secrets.AI_MODELS_KEY }}
+        run: node scripts/fetch-ai-data.js
 
       - name: Update timestamp
         run: |
