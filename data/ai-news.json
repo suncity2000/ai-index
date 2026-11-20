@@ -1,11 +1,29 @@
 {
-  "last_updated": "2026-11-19T17:57:28.408Z",
+  "last_updated": "2026-11-20T17:31:13.987Z",
   "news": [
     {
-      "title": "개발협력 현장에 들어온 인공지능(AI), 맞춤형 해법 찾는다",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93ZFg4TDFXSkY2aEtsZk9jRGhwQURQRDgtR2NKYWh6VUg2aVZmNGYwVkFHV0N4bEpwWTNlUl8xUS1iUlZ4NHVzT2hLRmpyZEZuLVNiaGJ3NU0taFYydVlsdE5Gd0JyMW9xNWNPTQ?oc=5",
-      "source": "월간조선",
-      "date": "Thu, 19 Nov 2026 04:20:27 GMT"
+      "title": "\"지적 놓쳐 미안\"…AI끼리 연구 맡기자 12주 동안 논문 초안 936편 등록",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13aExWejEyYUhWMThpN1lld3pWSlc2TThxMVdqT2RHNUpCdWMxZ2c2YjNFQWVLLVIweG1vOXdsSmFIVXB0QzJSTnc3bm1xVlY1RjdUWg?oc=5",
+      "source": "DongA Science",
+      "date": "Fri, 20 Nov 2026 08:45:00 GMT"
+    },
+    {
+      "title": "인천시, 지역 13개 대학과 ‘글로벌 인공지능(AI) 허브’ 유치 전략 모색",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE40LThxNDJCNUNEVU9UVWR2WEc3amJ1VU5PQ0JVYlhBOWEzTVFTR05vSXE4bXRidVctM1dWN1h3UzJFMjdWVFA2M3JyWVBGTlN2YjZjODEwbUtzNnVMVk44?oc=5",
+      "source": "세계환경신문",
+      "date": "Fri, 20 Nov 2026 06:47:33 GMT"
+    },
+    {
+      "title": "경기도서관, 30일까지 인공지능(AI) 관련 문화행사 펼쳐",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUkhIaGgwQzhXYloyUmhEZ2JvNGdkdVh5TmdsNlpQdjFOLV8xcVkxcVNHbDlwQWJMRkdidTVWQzZTZ3V0SnFlOV9ETkxia3l6ajl1TkFGejFOaHozMWhxSUtsT2lNTkpPSkg0MjN4NlpoOHZ5VkxjcDZrR2dlZHAzcUxZMUM?oc=5",
+      "source": "경기도뉴스포털",
+      "date": "Thu, 19 Nov 2026 22:00:00 GMT"
+    },
+    {
+      "title": "\"생성형 AI 의존한 의약품 복용, 부작용 많아\"",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yY2pPQ2xJMV82eUZ3bWZqN3dldDJ6UjM2SV9Mek1sV3Flb040TXBXUHpoTlhOWENNRHdoMkVDYThSamNSWFNfamNjSUhTWE5xcnNZYTYwWGRLMlVjWFA4OTVWNENwQnM?oc=5",
+      "source": "연합뉴스TV",
+      "date": "Thu, 19 Nov 2026 20:46:00 GMT"
     },
     {
       "title": "[포토] 인공지능(AI) 솔루션 원AI",
@@ -14,10 +32,22 @@
       "date": "Thu, 19 Nov 2026 04:20:18 GMT"
     },
     {
+      "title": "미국 FDA 생성형 AI 의료기기 논의문에 대한 이해관계자 의견 수렴 결과와 쟁점 [Vol.615]",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaUozcVBTTVZ4ZmZ4S1BjXzZ6R1RMYmNTSnd6OVAwTmZxaXYxUlNkaldxMXVQcFROb1NzMEFNa0dwQzlPVGMwcHFNUjJPWTZPMFh6c251NmQwYUJZeXV3NGFMbURTVS1iVWp5b3VScDBPMDFIWEk2TUdhT3AxbUdqNw?oc=5",
+      "source": "BRIC",
+      "date": "Thu, 19 Nov 2026 03:19:17 GMT"
+    },
+    {
       "title": "실험실 밖 의약품 실제 사용 데이터와 생성형 AI",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdEZlUTNORGlWTE9RNnowOW1aWnRYamQ1Q0R6Z0kwc2hVWW1CVGJVbjF3Y2VxekZPMHp2TGo1ZXpWTDl2QVcxbUFLQjhiT0cwVllsWU1jRnk3eEJZN1I1NXFjbVctRWk4dElJSUJsNVNOYTlQcjRQUDVsck0xU0lnVXR5Nk1oQmgtR1NLcGxCV2I?oc=5",
       "source": "Deloitte",
       "date": "Thu, 19 Nov 2026 01:50:42 GMT"
+    },
+    {
+      "title": "르피가로 그룹과 OpenAI, 르피가로 보도의 ChatGPT 제공을 위한 파트너십 체결",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVkdCZUhkVnJkWm5JTTFyM3ozbmV5RFFldUM0ZndVc1V5UDNmSHdFbHJkNGE1WlRTNnhiaGNSSngxZm1ndlRxQUxPd25JX1lnanlRVVpPUnhyaC1BOWUwaHZaZzhUZ2lrTHFDZ0lzbmFLUVRZQmluaDRENk1qVEdTbHJkMlZuS3M?oc=5",
+      "source": "OpenAI",
+      "date": "Wed, 18 Nov 2026 08:00:00 GMT"
     },
     {
       "title": "오픈AI, GPT-6.2 아스트라·솔 전격 공개…전문가급 AI 업무 수행에 비용 혁신까지",
@@ -26,14 +56,8 @@
       "date": "Wed, 18 Nov 2026 00:52:11 GMT"
     },
     {
-      "title": "[전문인칼럼] 인공지능(AI)과 노동권",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSSXRWaS1ydkhRTmU5MHBPcW1MSzJSeDl2cGFIMllwa2NoZTFXcUNXbVlHRGo3UDJOZG5JVFVBQlJmNXZpWVRWcC1qbjBFSElCeTBHS3R6LUM3RGplMDNaRk41dERpcWwxZWtOWjU2bDVBTUXSAXNBVV95cUxQUkl0VmktcnZIUU5lOTBwT3FtTEsyUng5dnBhSDJZcGtjaGUxV3FDV21ZR0RqN1AyTmRuSVRVQUJSZjV2aVlUVnAtam4wRUhJQnkwR0t0ei1DN0RqZTAzWkZONXREaXFsMWVrTlo1Nmw1QU1F?oc=5",
-      "source": "대전일보",
-      "date": "Tue, 17 Nov 2026 22:02:15 GMT"
-    },
-    {
       "title": "인공지능(AI) 활용해서 2024년 의대 진학",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5iUlI1NVRGV1ZXd3NQNFN6bFVybHZTbjBOT0NJVWo1dllMT1RHdXpsYVZraHNuWkM4bVY2dC16QnBLcTBGdHlhYnRxcTNOS0xBRnAwSk9sVXMxdUtEQ0FZRWtuM2RQd2hHaFRwazJremFZLTNW?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxMGdrUHBqUVUwN2JCRkZxZnNRZ0RTZkZHQlBGQk9CcU0xSm9KdVgtYnFfaTNReVJ0YzlWSjdDa3dxdkhRMk1LeE5ZQnExeGtiS25zcnFjWjRvTjlUb1N5cFBLdzh0emNu?oc=5",
       "source": "데일리메디",
       "date": "Tue, 17 Nov 2026 21:00:00 GMT"
     },
@@ -48,30 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5udmNJQ0RPZGZXdkQxZmVaQ1o3LTB2em9LUU80VS01NXJvcmNtRkFPZmFobVg1RHpsRmw3MDRKSGN6cE9rWGM2VC1icmtrUEJmaFNWX1RLdkRsXzhXTzJDa2JJQTdsYXM5ZEhMdlBueXFWZ3VRdGNOQ3lsQ1NmcDA?oc=5",
       "source": "OpenAI",
       "date": "Tue, 17 Nov 2026 02:09:04 GMT"
-    },
-    {
-      "title": "'협치에 인공지능(AI) 어떻게 쓸까'… 은평구, 주민참여 위원 시민교육",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LakE2OXlyblJNQ1FMbUZCbTFmMUpMTGpZekJuRG40NWN1QVl0aUxWdXozUFVTYmUtV1pMQlQxRVhabnlCZUpvQnI4VnBOUXBYNGpTYjU2ZEJzWWp5WFAwLXJTd05IOUU?oc=5",
-      "source": "은평시민신문",
-      "date": "Tue, 17 Nov 2026 01:44:34 GMT"
-    },
-    {
-      "title": "北, 올해 '최우수 정보기술' 10개 선정...인공지능(AI) 두각",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9hWkRKM2gxN2FTWXM3VEVobzFNeG0zcW5JQ0I0S2g4WXd0Z3U2WGNaNDVQdG11UnBRT0pjQjduRm1mcmRxRThlWVJNbTRiby1zNjQ3ZEt4a0ZmQkZk?oc=5",
-      "source": "뉴스핌",
-      "date": "Mon, 16 Nov 2026 01:38:00 GMT"
-    },
-    {
-      "title": "경북교육청, 인공지능(AI)․디지털 시대 사람 중심 인성교육 방향 모색",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JWjRCOF9QaXlNdnhjZm5zSGZUSDRmdjZNdjlfS283ODdBWFEyM0FRbFF5SUJRV1huaGwyMGVaNm1iSGJ6TzVESEtOMHFFdEdGMzQzc3kyT3loVHc1Yi1xbEFtUEhfQQ?oc=5",
-      "source": "데일리대구경북뉴스",
-      "date": "Sun, 15 Nov 2026 23:24:14 GMT"
-    },
-    {
-      "title": "인천시, 지역 기업과 '글로벌 인공지능(AI) 허브' 유치 전략 논의",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBFbWNFRHVUeVMxTHZzOVdEQjJ3YVBHZnZRRjlRMFA0dUJJNjVyLWZKTnRCTi1ET3RRby11WWpCWFh3YUFwcmptbzhGbmhnSjlUQXVuYlAwQXItd3ctNWlkODZYUkI?oc=5",
-      "source": "매일일보",
-      "date": "Sun, 15 Nov 2026 12:25:13 GMT"
     }
   ]
 }
