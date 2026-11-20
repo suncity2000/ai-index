@@ -10,6 +10,24 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ainet.io.kr/"/>
   </url>
   <url>
+    <loc>https://ainet.io.kr/articles/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ainet.io.kr/articles/ai-diffusion-q2-2026.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ainet.io.kr/articles/llm-ranking-q1-2026.html</loc>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://ainet.io.kr/privacy-policy.html</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>monthly</changefreq>

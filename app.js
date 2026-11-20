@@ -39,7 +39,7 @@ const translations = {
         heroStatCompanies: 'AI 기업',
         heroStatFreq: '매일',
         heroStatUpdate: '업데이트',
-        heroBadge: (m, y) => `${y}년 ${m}월 업데이트`,
+        heroBadge: (y, m, d) => `${y}년 ${m}월 ${d}일 업데이트`,
         // News
         newsTitle: '📰 AI 최신 뉴스',
         newsViewAll: '전체보기',
@@ -151,9 +151,9 @@ const translations = {
         heroStatCompanies: 'AI Companies',
         heroStatFreq: 'Daily',
         heroStatUpdate: 'Updates',
-        heroBadge: (m, y) => {
+        heroBadge: (y, m, d) => {
             const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-            return `${months[m-1]} ${y} Update`;
+            return `Updated ${months[m-1]} ${d}, ${y}`;
         },
         // News
         newsTitle: '📰 Latest AI News',
@@ -280,11 +280,6 @@ function applyTranslations() {
         if (typeof val === 'string') el.innerHTML = val;
     });
 
-    // Hero badge (dynamic date)
-    const now = new Date();
-    const badgeEl = document.getElementById('hero-badge-date');
-    if (badgeEl) badgeEl.textContent = t('heroBadge', now.getMonth() + 1, now.getFullYear());
-
     // Re-format stored dates
     updateLastUpdatedDisplay();
 
@@ -326,6 +321,10 @@ function updateLastUpdatedDisplay() {
     if (lastUpdatedEl) lastUpdatedEl.textContent = formattedDate;
     const headerEl = document.getElementById('header-last-updated');
     if (headerEl) headerEl.textContent = shortDate;
+    // Hero badge follows the data's last-updated date (shown in the viewer's local time zone)
+    const badgeEl = document.getElementById('hero-badge-date');
+    if (badgeEl) badgeEl.textContent = t('heroBadge',
+        lastUpdatedDateObj.getFullYear(), lastUpdatedDateObj.getMonth() + 1, lastUpdatedDateObj.getDate());
 }
 
 function initLang() {
@@ -343,9 +342,6 @@ function initLang() {
             const val = t(key);
             if (typeof val === 'string') el.innerHTML = val;
         });
-        const now = new Date();
-        const badgeEl = document.getElementById('hero-badge-date');
-        if (badgeEl) badgeEl.textContent = t('heroBadge', now.getMonth() + 1, now.getFullYear());
         document.documentElement.lang = 'en';
     }
 }
