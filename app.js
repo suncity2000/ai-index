@@ -13,7 +13,7 @@ let comparisonChart = null;
 
 // Pricing data
 let pricingData = null;
-let manualPricingData = null;
+let servicePlansData = null; // data/services-plans.json (shared with cost-calculator.html)
 let pricingSortField = 'input'; // default: sort by input price
 let pricingSortDir = 'asc';     // 'asc' | 'desc'
 
@@ -724,12 +724,12 @@ async function loadData() {
 
 // Load pricing data (non-blocking: runs in background after main data loads)
 async function loadPricingData(cacheBust) {
-    const [pricesRes, manualRes] = await Promise.all([
+    const [pricesRes, plansRes] = await Promise.all([
         fetch(`data/prices.json?v=${cacheBust}`).catch(() => null),
-        fetch(`data/prices-manual.json?v=${cacheBust}`).catch(() => null)
+        fetch(`data/services-plans.json?v=${cacheBust}`).catch(() => null)
     ]);
     if (pricesRes?.ok) pricingData = await pricesRes.json();
-    if (manualRes?.ok) manualPricingData = await manualRes.json();
+    if (plansRes?.ok) servicePlansData = await plansRes.json();
 
     // If pricing tab is currently active, refresh the view
     if (currentCategory === 'pricing') renderContent();
@@ -741,9 +741,14 @@ async function loadPricingData(cacheBust) {
 function renderPricingContent() {
     const isKo = currentLang === 'ko';
 
-    const plansHtml = manualPricingData?.plans?.length
-        ? renderSubscriptionPlans(manualPricingData.plans, isKo)
+    const plansHtml = servicePlansData?.services?.length
+        ? renderSubscriptionPlans(servicePlansData, isKo)
         : `<div class="text-gray-500 dark:text-gray-400 text-sm py-4">${isKo ? '구독 플랜 데이터를 불러오는 중...' : 'Loading subscription plans...'}</div>`;
+    let plansDate = '';
+    if (servicePlansData?.last_updated) {
+        const [y, m, d] = servicePlansData.last_updated.split('-').map(Number);
+        plansDate = isKo ? `가격 기준일: ${y}년 ${m}월 ${d}일` : `Prices as of ${new Date(y, m - 1, d).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}`;
+    }
 
     const apiHtml = pricingData?.models?.length
         ? renderApiPricingTable(pricingData.models, isKo)
@@ -762,11 +767,15 @@ function renderPricingContent() {
           <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100">
             ${isKo ? '💳 AI 구독 플랜 비교' : '💳 AI Subscription Plans'}
           </h2>
-          <span class="text-xs text-gray-400 dark:text-gray-500">
-            ${isKo ? '* 가격은 USD 기준이며 변동될 수 있습니다' : '* Prices in USD, subject to change'}
+          <span class="text-xs text-gray-400 dark:text-gray-500 text-right">
+            ${isKo ? '* 가격은 USD 기준이며 변동될 수 있습니다' : '* Prices in USD, subject to change'}${plansDate ? `<br>${plansDate}` : ''}
           </span>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">
+          ${isKo ? '서비스별 대표 요금제입니다. 모든 요금제 비교와 사용량별 비용 계산은' : "Each service's most popular plan. Compare every plan and estimate costs in the"}
+          <a href="/cost-calculator.html" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">${isKo ? 'AI 비용 계산기 →' : 'AI Cost Calculator →'}</a>
+        </p>
+        <div class="space-y-6">
           ${plansHtml}
         </div>
       </div>
@@ -792,43 +801,63 @@ function renderPricingContent() {
     </div>`;
 }
 
-function renderSubscriptionPlans(plans, isKo) {
-    return plans.map(plan => {
-        const features = plan.features.slice(0, 4).map(f =>
-            `<li class="flex items-start gap-1.5"><span class="text-green-500 mt-0.5">✓</span><span>${f}</span></li>`
-        ).join('');
+// Subscription plans: one representative plan (highlight) per service, grouped by category.
+// Data comes from data/services-plans.json, the same file the cost calculator uses.
+function renderSubscriptionPlans(data, isKo) {
+    const cats = data.categories || [];
+    return cats.map(cat => {
+        const services = data.services.filter(s => s.category === cat.id);
+        if (!services.length) return '';
+        const cards = services.map(svc => {
+            const plan = svc.plans.find(p => p.highlight) || svc.plans.find(p => p.price_monthly > 0) || svc.plans[0];
+            const features = (plan.features || []).slice(0, 4).map(f =>
+                `<li class="flex items-start gap-1.5"><span class="text-green-500 mt-0.5">✓</span><span>${f}</span></li>`
+            ).join('');
+            const ym = plan.price_yearly_monthly;
+            const showYearly = ym != null && ym > 0 && ym < plan.price_monthly;
+            const unverified = svc.price_status === 'unverified';
+            const tip = unverified ? `${svc.price_note_ko ? svc.price_note_ko + ' · ' : ''}${svc.price_checked || ''}` : '';
+            const otherPlans = svc.plans.length - 1;
 
-        const yearlyMonthly = plan.price_yearly ? (plan.price_yearly / 12).toFixed(2) : null;
+            return `
+            <div class="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-5 flex flex-col hover:shadow-md transition-shadow">
+              <div class="flex items-center gap-3 mb-3">
+                <div class="w-10 h-10 rounded-lg flex items-center justify-center text-white font-bold text-sm flex-shrink-0"
+                     style="background-color: ${svc.provider_color || '#6B7280'}">
+                  ${svc.name.charAt(0)}
+                </div>
+                <div class="min-w-0">
+                  <div class="font-semibold text-gray-900 dark:text-gray-100 text-sm">${svc.name} ${plan.name}</div>
+                  <div class="text-xs text-gray-500 dark:text-gray-400">${svc.provider}</div>
+                </div>
+                ${unverified ? `<span class="ml-auto text-xs font-semibold px-1.5 py-0.5 rounded bg-amber-100 dark:bg-amber-900/50 text-amber-700 dark:text-amber-400 whitespace-nowrap" title="${tip}">${isKo ? '⚠ 가격 미확인' : '⚠ Unverified'}</span>` : ''}
+              </div>
 
+              <div class="mb-4">
+                <span class="text-2xl font-bold text-gray-900 dark:text-gray-100">$${plan.price_monthly}</span>
+                <span class="text-gray-500 dark:text-gray-400 text-sm">/${isKo ? '월' : 'mo'}</span>
+                ${showYearly ? `<div class="text-xs text-gray-400 dark:text-gray-500">${isKo ? '연간 결제 시' : 'Billed yearly'} $${ym}/${isKo ? '월' : 'mo'}</div>` : ''}
+              </div>
+
+              <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-1.5 mb-4 flex-1">
+                ${features}
+              </ul>
+
+              ${plan.limits ? `<div class="text-xs text-gray-400 dark:text-gray-500 bg-gray-50 dark:bg-gray-700/50 rounded-lg px-3 py-2 mb-3">${plan.limits}</div>` : ''}
+
+              <div class="flex items-center justify-between text-xs">
+                <span class="text-gray-400 dark:text-gray-500">${otherPlans > 0 ? (isKo ? `다른 요금제 ${otherPlans}개` : `${otherPlans} more plan${otherPlans > 1 ? 's' : ''}`) : ''}</span>
+                <a href="${svc.url}" target="_blank" rel="noopener noreferrer"
+                   class="font-medium text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors">
+                  ${isKo ? '공식 페이지 →' : 'Official page →'}
+                </a>
+              </div>
+            </div>`;
+        }).join('');
         return `
-        <div class="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-5 flex flex-col hover:shadow-md transition-shadow">
-          <div class="flex items-center gap-3 mb-3">
-            <div class="w-10 h-10 rounded-lg flex items-center justify-center text-white font-bold text-sm flex-shrink-0"
-                 style="background-color: ${plan.provider_color || '#6B7280'}">
-              ${plan.provider.charAt(0)}
-            </div>
-            <div>
-              <div class="font-semibold text-gray-900 dark:text-gray-100 text-sm">${plan.name}</div>
-              <div class="text-xs text-gray-500 dark:text-gray-400">${plan.provider}</div>
-            </div>
-          </div>
-
-          <div class="mb-4">
-            <span class="text-2xl font-bold text-gray-900 dark:text-gray-100">$${plan.price_monthly}</span>
-            <span class="text-gray-500 dark:text-gray-400 text-sm">/${isKo ? '월' : 'mo'}</span>
-            ${yearlyMonthly ? `<div class="text-xs text-gray-400 dark:text-gray-500">${isKo ? '연간 결제 시' : 'Billed yearly'} $${yearlyMonthly}/${isKo ? '월' : 'mo'}</div>` : ''}
-          </div>
-
-          <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-1.5 mb-4 flex-1">
-            ${features}
-          </ul>
-
-          ${plan.limits ? `<div class="text-xs text-gray-400 dark:text-gray-500 bg-gray-50 dark:bg-gray-700/50 rounded-lg px-3 py-2 mb-3">${plan.limits}</div>` : ''}
-
-          <a href="${plan.url}" target="_blank" rel="noopener noreferrer"
-             class="text-center text-xs font-medium text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors">
-            ${isKo ? '자세히 보기 →' : 'Learn more →'}
-          </a>
+        <div>
+          <h3 class="text-sm font-bold text-gray-500 dark:text-gray-400 mb-3">${isKo ? cat.name_ko : cat.name_en}</h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">${cards}</div>
         </div>`;
     }).join('');
 }
