@@ -1,14 +1,42 @@
 {
-  "last_updated": "2026-03-25",
-  "note": "17개 AI 서비스 구독 플랜 데이터. 가격은 USD 기준, 수동 관리. Enterprise/커스텀 플랜 제외. generation_type: image/video/audio 서비스는 플랜별 credits_monthly, credit_unit_ko, generation_examples 필드 포함.",
+  "last_updated": "2026-11-20",
+  "note": "17개 AI 서비스 구독 플랜 데이터. 가격은 USD 기준, 수동 관리. Enterprise/커스텀 플랜 제외. price_status: official(공식 페이지 확인) / secondary(공식 페이지 자동 접근 불가, 다수 외부 자료 일치) / unverified(확인 불가, 이전 자료 유지). price_checked: 마지막 확인일. generation_type: image/video/audio 서비스는 플랜별 credits_monthly, credit_unit_ko, generation_examples 필드 포함.",
   "categories": [
-    { "id": "ai-assistant", "name_ko": "AI 어시스턴트", "name_en": "AI Assistant" },
-    { "id": "image-gen",    "name_ko": "이미지 생성",   "name_en": "Image Generation" },
-    { "id": "video-gen",    "name_ko": "영상 생성",     "name_en": "Video Generation" },
-    { "id": "audio-gen",    "name_ko": "음원 생성",     "name_en": "Audio Generation" },
-    { "id": "productivity", "name_ko": "생산성 도구",   "name_en": "Productivity" },
-    { "id": "app-builder",  "name_ko": "앱 빌더",       "name_en": "App Builder" },
-    { "id": "automation",   "name_ko": "자동화",         "name_en": "Automation" }
+    {
+      "id": "ai-assistant",
+      "name_ko": "AI 어시스턴트",
+      "name_en": "AI Assistant"
+    },
+    {
+      "id": "image-gen",
+      "name_ko": "이미지 생성",
+      "name_en": "Image Generation"
+    },
+    {
+      "id": "video-gen",
+      "name_ko": "영상 생성",
+      "name_en": "Video Generation"
+    },
+    {
+      "id": "audio-gen",
+      "name_ko": "음원 생성",
+      "name_en": "Audio Generation"
+    },
+    {
+      "id": "productivity",
+      "name_ko": "생산성 도구",
+      "name_en": "Productivity"
+    },
+    {
+      "id": "app-builder",
+      "name_ko": "앱 빌더",
+      "name_en": "App Builder"
+    },
+    {
+      "id": "automation",
+      "name_ko": "자동화",
+      "name_en": "Automation"
+    }
   ],
   "services": [
     {
@@ -17,15 +45,34 @@
       "provider": "OpenAI",
       "provider_color": "#10A37F",
       "category": "ai-assistant",
-      "url": "https://openai.com/chatgpt/pricing",
+      "url": "https://chatgpt.com/pricing",
       "plans": [
         {
           "id": "chatgpt-free",
           "name": "Free",
           "price_monthly": 0,
           "price_yearly_monthly": 0,
-          "features": ["GPT-5 제한 접근", "웹 검색", "기본 이미지 생성", "파일 업로드"],
-          "limits": "일일 사용 제한 있음",
+          "features": [
+            "GPT-6 텍스트 채팅",
+            "제한된 이미지 생성",
+            "제한된 Deep Research",
+            "제한된 Codex"
+          ],
+          "limits": "업로드·도구 사용 제한, 광고 포함 가능",
+          "highlight": false
+        },
+        {
+          "id": "chatgpt-go",
+          "name": "Go",
+          "price_monthly": 8,
+          "price_yearly_monthly": null,
+          "features": [
+            "Free의 모든 기능",
+            "더 많은 메시지·업로드",
+            "더 많은 이미지 생성",
+            "더 긴 메모리"
+          ],
+          "limits": "광고 포함 가능, 월 결제만 가능",
           "highlight": false
         },
         {
@@ -33,20 +80,61 @@
           "name": "Plus",
           "price_monthly": 20,
           "price_yearly_monthly": null,
-          "features": ["GPT-5.4 Thinking 모드", "Deep Research", "Sora 영상 생성", "DALL-E 3", "코드 실행"],
-          "limits": "넉넉한 일일 한도, 고급 도구 이용 가능",
+          "features": [
+            "GPT-6 고급 추론 모델",
+            "확장된 Deep Research",
+            "프로젝트·예약 작업·GPTs",
+            "확장된 Codex·ChatGPT Work"
+          ],
+          "limits": "넉넉한 한도, 광고 없음",
           "highlight": true
         },
         {
+          "id": "chatgpt-pro-100",
+          "name": "Pro 100",
+          "price_monthly": 100,
+          "price_yearly_monthly": null,
+          "features": [
+            "GPT-6 Astra Pro 추론",
+            "상시 에이전트 Dot",
+            "무제한·빠른 이미지 생성",
+            "월 $100 API 크레딧"
+          ],
+          "limits": "Pro 최소 사용 한도",
+          "highlight": false
+        },
+        {
           "id": "chatgpt-pro",
-          "name": "Pro",
+          "name": "Pro 200",
           "price_monthly": 200,
           "price_yearly_monthly": null,
-          "features": ["GPT-5 무제한 접근", "모든 고급 도구 무제한", "최우선 처리", "Sora 무제한"],
+          "features": [
+            "Pro 100의 모든 기능",
+            "더 높은 사용 한도",
+            "더 긴 Codex·Work 세션",
+            "월 $200 API 크레딧"
+          ],
+          "limits": "Pro 중간 사용 한도",
+          "highlight": false
+        },
+        {
+          "id": "chatgpt-pro-500",
+          "name": "Pro 500",
+          "price_monthly": 500,
+          "price_yearly_monthly": null,
+          "features": [
+            "Pro 200의 모든 기능",
+            "최고 사용 한도",
+            "초고속(Ultrafast) 모드",
+            "월 $500 API 크레딧"
+          ],
           "limits": "최고 사용 한도",
           "highlight": false
         }
-      ]
+      ],
+      "price_status": "secondary",
+      "price_checked": "2026-11-20",
+      "price_note_ko": "요금제 구성은 공식 페이지, 가격은 2026년 11월 다수 자료 기준 (미국 가격)"
     },
     {
       "id": "claude",
@@ -54,15 +142,20 @@
       "provider": "Anthropic",
       "provider_color": "#D97706",
       "category": "ai-assistant",
-      "url": "https://www.anthropic.com/claude/pricing",
+      "url": "https://claude.com/pricing",
       "plans": [
         {
           "id": "claude-free",
           "name": "Free",
           "price_monthly": 0,
           "price_yearly_monthly": 0,
-          "features": ["Claude Sonnet 4.6 접근", "웹·iOS·Android 이용", "파일 업로드", "기본 프로젝트"],
-          "limits": "일일 사용 제한 있음",
+          "features": [
+            "Sonnet·Haiku 모델",
+            "웹 검색",
+            "파일 생성·코드 실행",
+            "메모리·Artifacts"
+          ],
+          "limits": "5시간·주간 사용량 제한",
           "highlight": false
         },
         {
@@ -70,20 +163,47 @@
           "name": "Pro",
           "price_monthly": 20,
           "price_yearly_monthly": 17,
-          "features": ["Claude Sonnet 4.6 · Opus 4.6 접근", "Claude Code (터미널)", "Google Workspace 연동", "확장된 리서치 도구", "무제한 프로젝트"],
-          "limits": "일반 대비 5배 사용량",
+          "features": [
+            "Opus·Sonnet·Haiku 모델",
+            "Fable (사용량 크레딧)",
+            "Claude Code",
+            "Research·Projects",
+            "Chrome·Microsoft 365 연동"
+          ],
+          "limits": "Free보다 많은 사용량",
           "highlight": true
         },
         {
           "id": "claude-max-5x",
-          "name": "Max (5x)",
+          "name": "Max",
           "price_monthly": 100,
           "price_yearly_monthly": null,
-          "features": ["전 모델 최우선 접근", "Pro 대비 5배 사용량", "Claude Code 고성능", "모든 Pro 기능 포함"],
-          "limits": "Pro 대비 5배 한도",
+          "features": [
+            "Pro 대비 5배 사용량",
+            "Fable (주간 한도의 절반까지)",
+            "월 $100 API 크레딧",
+            "신기능 우선 체험"
+          ],
+          "limits": "Pro의 5배 (5시간·주간)",
+          "highlight": false
+        },
+        {
+          "id": "claude-ultra",
+          "name": "Ultra",
+          "price_monthly": 200,
+          "price_yearly_monthly": null,
+          "features": [
+            "Max의 모든 기능",
+            "5시간 한도 없음 (인증 계정)",
+            "Pro 대비 주간 10배 사용량",
+            "월 $200 API 크레딧"
+          ],
+          "limits": "Pro의 10배 (주간)",
           "highlight": false
         }
-      ]
+      ],
+      "price_status": "official",
+      "price_checked": "2026-11-20"
     },
     {
       "id": "gemini",
@@ -91,36 +211,68 @@
       "provider": "Google",
       "provider_color": "#4285F4",
       "category": "ai-assistant",
-      "url": "https://one.google.com/about/plans",
+      "url": "https://gemini.google/subscriptions/",
       "plans": [
         {
           "id": "gemini-free",
           "name": "Free",
           "price_monthly": 0,
           "price_yearly_monthly": 0,
-          "features": ["Gemini 2.0 Flash 접근", "기본 Google 앱 연동", "웹 검색 통합"],
-          "limits": "일일 사용 제한 있음",
+          "features": [
+            "Gemini 앱 (자동 모델 선택)",
+            "이미지 생성·편집",
+            "Deep Research",
+            "15GB 저장공간"
+          ],
+          "limits": "기본 사용 한도",
+          "highlight": false
+        },
+        {
+          "id": "gemini-plus",
+          "name": "AI Plus",
+          "price_monthly": 4.99,
+          "price_yearly_monthly": null,
+          "features": [
+            "Gemini 4 Hydrogen",
+            "무료 대비 2배 Gemini 사용량",
+            "Gmail 등 Google 앱 AI",
+            "400GB 저장공간"
+          ],
+          "limits": "무료 대비 2배",
           "highlight": false
         },
         {
           "id": "gemini-ai-pro",
           "name": "AI Pro",
           "price_monthly": 19.99,
-          "price_yearly_monthly": 9.99,
-          "features": ["Gemini 3.1 Pro 접근", "Gmail·Docs·Sheets AI 기능", "NotebookLM Plus", "2TB Google 드라이브", "Google Workspace 연동"],
-          "limits": "고급 모델 우선 접근",
+          "price_yearly_monthly": 16.67,
+          "features": [
+            "Gemini 4 Neon",
+            "무료 대비 4배 Gemini 사용량",
+            "Docs·Sheets·Gmail AI 기능",
+            "5TB 저장공간"
+          ],
+          "limits": "무료 대비 4배",
           "highlight": true
         },
         {
           "id": "gemini-ai-ultra",
           "name": "AI Ultra",
-          "price_monthly": 149.99,
+          "price_monthly": 99.99,
           "price_yearly_monthly": null,
-          "features": ["Gemini 3.1 Ultra 접근", "최고 성능 모델", "AI Pro 모든 기능 포함", "최대 사용 한도"],
-          "limits": "최고 사용 한도",
+          "features": [
+            "Gemini 4 Carbon (최상위 모델)",
+            "AI Pro 대비 5배 사용량",
+            "20TB 저장공간",
+            "YouTube Premium Family 포함"
+          ],
+          "limits": "AI Pro 대비 5배 (최저가 요금 기준)",
           "highlight": false
         }
-      ]
+      ],
+      "price_status": "official",
+      "price_checked": "2026-11-20",
+      "price_note_ko": "AI Pro 연간 결제 $199.99 기준. AI Ultra는 '최저 $99.99부터'"
     },
     {
       "id": "grok",
@@ -135,7 +287,10 @@
           "name": "Free",
           "price_monthly": 0,
           "price_yearly_monthly": 0,
-          "features": ["Grok 기본 모델 접근", "웹 검색 통합"],
+          "features": [
+            "Grok 기본 모델 접근",
+            "웹 검색 통합"
+          ],
           "limits": "2시간마다 10회 요청",
           "highlight": false
         },
@@ -144,11 +299,19 @@
           "name": "SuperGrok",
           "price_monthly": 30,
           "price_yearly_monthly": 25,
-          "features": ["Grok 4 전체 접근", "200만 토큰 컨텍스트", "최고 품질 응답", "X 계정 불필요"],
+          "features": [
+            "Grok 4 전체 접근",
+            "200만 토큰 컨텍스트",
+            "최고 품질 응답",
+            "X 계정 불필요"
+          ],
           "limits": "높은 사용 한도",
           "highlight": true
         }
-      ]
+      ],
+      "price_status": "unverified",
+      "price_checked": "2026-03-25",
+      "price_note_ko": "공식 페이지 확인 불가. 2026년 10월 이후 신규 가입 방식이 바뀌었다는 보도가 있음"
     },
     {
       "id": "midjourney",
@@ -164,14 +327,23 @@
           "name": "Basic",
           "price_monthly": 10,
           "price_yearly_monthly": 8,
-          "features": ["이미지 생성 기본 기능", "일반 GPU 시간", "상업적 이용 가능"],
-          "limits": "Fast GPU 3.3시간/월",
+          "features": [
+            "이미지 생성 기본 기능",
+            "일반 GPU 시간",
+            "상업적 이용 가능"
+          ],
+          "limits": "월 약 200회 이미지 작업 (1회 = 4장)",
           "highlight": false,
           "credits_monthly": 198,
           "credit_unit_ko": "Fast GPU분",
           "credit_unit_en": "Fast GPU minutes",
           "generation_examples": [
-            { "action_ko": "표준 이미지 생성 (v7)", "action_en": "Standard image (v7)", "credits_per": 1, "monthly_count": 198 }
+            {
+              "action_ko": "표준 이미지 생성 (v7)",
+              "action_en": "Standard image (v7)",
+              "credits_per": 1,
+              "monthly_count": 198
+            }
           ]
         },
         {
@@ -179,15 +351,30 @@
           "name": "Standard",
           "price_monthly": 30,
           "price_yearly_monthly": 24,
-          "features": ["Fast GPU 15시간/월", "Relax 모드 무제한", "상업적 이용", "갤러리 접근"],
+          "features": [
+            "Fast GPU 15시간/월",
+            "Relax 모드 무제한",
+            "상업적 이용",
+            "갤러리 접근"
+          ],
           "limits": "Fast GPU 15시간/월 + Relax 무제한",
           "highlight": true,
           "credits_monthly": 900,
           "credit_unit_ko": "Fast GPU분",
           "credit_unit_en": "Fast GPU minutes",
           "generation_examples": [
-            { "action_ko": "표준 이미지 생성 (Fast)", "action_en": "Standard image (Fast)", "credits_per": 1, "monthly_count": 900 },
-            { "action_ko": "이미지 생성 (Relax, 느린 큐)", "action_en": "Image (Relax, slow queue)", "credits_per": 0, "monthly_count": null }
+            {
+              "action_ko": "표준 이미지 생성 (Fast)",
+              "action_en": "Standard image (Fast)",
+              "credits_per": 1,
+              "monthly_count": 900
+            },
+            {
+              "action_ko": "이미지 생성 (Relax, 느린 큐)",
+              "action_en": "Image (Relax, slow queue)",
+              "credits_per": 0,
+              "monthly_count": null
+            }
           ]
         },
         {
@@ -195,15 +382,30 @@
           "name": "Pro",
           "price_monthly": 60,
           "price_yearly_monthly": 48,
-          "features": ["Fast GPU 30시간/월", "Stealth 모드 (비공개)", "Relax 무제한", "최대 12개 동시 생성"],
+          "features": [
+            "Fast GPU 30시간/월",
+            "Stealth 모드 (비공개)",
+            "Relax 무제한",
+            "최대 12개 동시 생성"
+          ],
           "limits": "Fast GPU 30시간/월 + Relax 무제한",
           "highlight": false,
           "credits_monthly": 1800,
           "credit_unit_ko": "Fast GPU분",
           "credit_unit_en": "Fast GPU minutes",
           "generation_examples": [
-            { "action_ko": "표준 이미지 생성 (Fast)", "action_en": "Standard image (Fast)", "credits_per": 1, "monthly_count": 1800 },
-            { "action_ko": "이미지 생성 (Relax, 느린 큐)", "action_en": "Image (Relax, slow queue)", "credits_per": 0, "monthly_count": null }
+            {
+              "action_ko": "표준 이미지 생성 (Fast)",
+              "action_en": "Standard image (Fast)",
+              "credits_per": 1,
+              "monthly_count": 1800
+            },
+            {
+              "action_ko": "이미지 생성 (Relax, 느린 큐)",
+              "action_en": "Image (Relax, slow queue)",
+              "credits_per": 0,
+              "monthly_count": null
+            }
           ]
         },
         {
@@ -211,22 +413,38 @@
           "name": "Mega",
           "price_monthly": 120,
           "price_yearly_monthly": 96,
-          "features": ["Fast GPU 60시간/월", "Pro 모든 기능 포함", "최대 12개 동시 생성"],
+          "features": [
+            "Fast GPU 60시간/월",
+            "Pro 모든 기능 포함",
+            "최대 12개 동시 생성"
+          ],
           "limits": "Fast GPU 60시간/월 + Relax 무제한",
           "highlight": false,
           "credits_monthly": 3600,
           "credit_unit_ko": "Fast GPU분",
           "credit_unit_en": "Fast GPU minutes",
           "generation_examples": [
-            { "action_ko": "표준 이미지 생성 (Fast)", "action_en": "Standard image (Fast)", "credits_per": 1, "monthly_count": 3600 },
-            { "action_ko": "이미지 생성 (Relax, 느린 큐)", "action_en": "Image (Relax, slow queue)", "credits_per": 0, "monthly_count": null }
+            {
+              "action_ko": "표준 이미지 생성 (Fast)",
+              "action_en": "Standard image (Fast)",
+              "credits_per": 1,
+              "monthly_count": 3600
+            },
+            {
+              "action_ko": "이미지 생성 (Relax, 느린 큐)",
+              "action_en": "Image (Relax, slow queue)",
+              "credits_per": 0,
+              "monthly_count": null
+            }
           ]
         }
-      ]
+      ],
+      "price_status": "official",
+      "price_checked": "2026-11-20"
     },
     {
       "id": "freepik",
-      "name": "Freepik",
+      "name": "Freepik (Magnific)",
       "provider": "Freepik",
       "provider_color": "#1273EB",
       "category": "image-gen",
@@ -234,57 +452,83 @@
       "url": "https://www.freepik.com/pricing",
       "plans": [
         {
-          "id": "freepik-essential",
-          "name": "Essential",
-          "price_monthly": 5.75,
-          "price_yearly_monthly": 5.75,
-          "features": ["AI 이미지 생성", "AI 영상 생성", "AI 오디오 생성", "기본 AI 도구"],
-          "limits": "월 7,000 AI 크레딧",
-          "highlight": false,
-          "credits_monthly": 7000,
-          "credit_unit_ko": "AI 크레딧",
-          "credit_unit_en": "AI credits",
-          "generation_examples": [
-            { "action_ko": "이미지 기본 생성 (Classic Fast, 4장)", "action_en": "Image basic (Classic Fast, 4 images)", "credits_per": 1, "monthly_count": 7000 },
-            { "action_ko": "이미지 표준 생성 (1장)", "action_en": "Image standard (1 image)", "credits_per": 50, "monthly_count": 140 },
-            { "action_ko": "영상 생성 (5초)", "action_en": "Video (5 sec)", "credits_per": 200, "monthly_count": 35 }
-          ]
-        },
-        {
           "id": "freepik-premium",
           "name": "Premium",
-          "price_monthly": 12,
-          "price_yearly_monthly": 10,
-          "features": ["전체 AI 도구 접근", "고품질 이미지·영상·오디오", "상업적 이용 라이선스", "워터마크 없음"],
-          "limits": "월 18,000 AI 크레딧",
+          "price_monthly": 20,
+          "price_yearly_monthly": 14.5,
+          "features": [
+            "전체 AI 도구 접근",
+            "고품질 이미지·영상·오디오",
+            "상업적 이용 라이선스",
+            "워터마크 없음"
+          ],
+          "limits": "월 20,000 AI 크레딧",
           "highlight": true,
-          "credits_monthly": 18000,
+          "credits_monthly": 20000,
           "credit_unit_ko": "AI 크레딧",
           "credit_unit_en": "AI credits",
           "generation_examples": [
-            { "action_ko": "이미지 기본 생성 (Classic Fast, 4장)", "action_en": "Image basic (Classic Fast, 4 images)", "credits_per": 1, "monthly_count": 18000 },
-            { "action_ko": "이미지 표준 생성 (1장)", "action_en": "Image standard (1 image)", "credits_per": 50, "monthly_count": 360 },
-            { "action_ko": "영상 생성 (5초)", "action_en": "Video (5 sec)", "credits_per": 200, "monthly_count": 90 }
+            {
+              "action_ko": "이미지 기본 생성 (Classic Fast, 4장)",
+              "action_en": "Image basic (Classic Fast, 4 images)",
+              "credits_per": 1,
+              "monthly_count": 20000
+            },
+            {
+              "action_ko": "이미지 표준 생성 (1장)",
+              "action_en": "Image standard (1 image)",
+              "credits_per": 50,
+              "monthly_count": 400
+            },
+            {
+              "action_ko": "영상 생성 (5초)",
+              "action_en": "Video (5 sec)",
+              "credits_per": 200,
+              "monthly_count": 100
+            }
           ]
         },
         {
           "id": "freepik-premium-plus",
           "name": "Premium+",
-          "price_monthly": 24.50,
-          "price_yearly_monthly": 19.60,
-          "features": ["강화된 AI 도구", "고해상도 생성", "Premium 모든 기능 포함", "우선 처리"],
+          "price_monthly": 45,
+          "price_yearly_monthly": 33.75,
+          "features": [
+            "Premium 모든 기능 포함",
+            "약 30개 모델 무제한 사용",
+            "크레딧 추가 구매 가능",
+            "고해상도 생성"
+          ],
           "limits": "월 45,000 AI 크레딧",
           "highlight": false,
           "credits_monthly": 45000,
           "credit_unit_ko": "AI 크레딧",
           "credit_unit_en": "AI credits",
           "generation_examples": [
-            { "action_ko": "이미지 기본 생성 (Classic Fast, 4장)", "action_en": "Image basic (Classic Fast, 4 images)", "credits_per": 1, "monthly_count": 45000 },
-            { "action_ko": "이미지 표준 생성 (1장)", "action_en": "Image standard (1 image)", "credits_per": 50, "monthly_count": 900 },
-            { "action_ko": "영상 생성 (5초)", "action_en": "Video (5 sec)", "credits_per": 200, "monthly_count": 225 }
+            {
+              "action_ko": "이미지 기본 생성 (Classic Fast, 4장)",
+              "action_en": "Image basic (Classic Fast, 4 images)",
+              "credits_per": 1,
+              "monthly_count": 45000
+            },
+            {
+              "action_ko": "이미지 표준 생성 (1장)",
+              "action_en": "Image standard (1 image)",
+              "credits_per": 50,
+              "monthly_count": 900
+            },
+            {
+              "action_ko": "영상 생성 (5초)",
+              "action_en": "Video (5 sec)",
+              "credits_per": 200,
+              "monthly_count": 225
+            }
           ]
         }
-      ]
+      ],
+      "price_status": "secondary",
+      "price_checked": "2026-11-20",
+      "price_note_ko": "Essential 요금제 폐지, Magnific으로 브랜드 변경. 상위 Pro($280/월)는 제외. 생성당 크레딧 소모량은 이전 자료 기준"
     },
     {
       "id": "seedream",
@@ -300,14 +544,24 @@
           "name": "Free",
           "price_monthly": 0,
           "price_yearly_monthly": 0,
-          "features": ["Seedream 5.0 Lite 접근", "로그인 불필요", "워터마크 없음", "무제한 생성"],
+          "features": [
+            "Seedream 5.0 Lite 접근",
+            "로그인 불필요",
+            "워터마크 없음",
+            "무제한 생성"
+          ],
           "limits": "브라우저 기반, 무제한",
           "highlight": false,
           "credits_monthly": null,
           "credit_unit_ko": "이미지",
           "credit_unit_en": "images",
           "generation_examples": [
-            { "action_ko": "이미지 생성 (브라우저, 무제한)", "action_en": "Image generation (browser, unlimited)", "credits_per": 1, "monthly_count": null }
+            {
+              "action_ko": "이미지 생성 (브라우저, 무제한)",
+              "action_en": "Image generation (browser, unlimited)",
+              "credits_per": 1,
+              "monthly_count": null
+            }
           ]
         },
         {
@@ -315,14 +569,24 @@
           "name": "Starter",
           "price_monthly": 6.99,
           "price_yearly_monthly": null,
-          "features": ["월 400장 생성", "고해상도 출력", "상업적 이용 가능", "빠른 처리"],
+          "features": [
+            "월 400장 생성",
+            "고해상도 출력",
+            "상업적 이용 가능",
+            "빠른 처리"
+          ],
           "limits": "월 400장",
           "highlight": true,
           "credits_monthly": 400,
           "credit_unit_ko": "이미지",
           "credit_unit_en": "images",
           "generation_examples": [
-            { "action_ko": "이미지 생성 (1장)", "action_en": "Image generation (1 image)", "credits_per": 1, "monthly_count": 400 }
+            {
+              "action_ko": "이미지 생성 (1장)",
+              "action_en": "Image generation (1 image)",
+              "credits_per": 1,
+              "monthly_count": 400
+            }
           ]
         },
         {
@@ -330,17 +594,30 @@
           "name": "Pro",
           "price_monthly": 49.99,
           "price_yearly_monthly": null,
-          "features": ["월 2,000장 생성", "최신 모델 우선 접근", "고해상도·고품질", "API 접근"],
+          "features": [
+            "월 2,000장 생성",
+            "최신 모델 우선 접근",
+            "고해상도·고품질",
+            "API 접근"
+          ],
           "limits": "월 2,000장",
           "highlight": false,
           "credits_monthly": 2000,
           "credit_unit_ko": "이미지",
           "credit_unit_en": "images",
           "generation_examples": [
-            { "action_ko": "이미지 생성 (1장)", "action_en": "Image generation (1 image)", "credits_per": 1, "monthly_count": 2000 }
+            {
+              "action_ko": "이미지 생성 (1장)",
+              "action_en": "Image generation (1 image)",
+              "credits_per": 1,
+              "monthly_count": 2000
+            }
           ]
         }
-      ]
+      ],
+      "price_status": "unverified",
+      "price_checked": "2026-03-25",
+      "price_note_ko": "공식 구독 가격 페이지를 찾지 못함"
     },
     {
       "id": "higgsfield",
@@ -356,31 +633,59 @@
           "name": "Free",
           "price_monthly": 0,
           "price_yearly_monthly": 0,
-          "features": ["기본 영상 생성 모델", "1개 동시 작업"],
+          "features": [
+            "기본 영상 생성 모델",
+            "1개 동시 작업"
+          ],
           "limits": "일 10 크레딧 (월 ~300)",
           "highlight": false,
           "credits_monthly": 300,
           "credit_unit_ko": "크레딧",
           "credit_unit_en": "credits",
           "generation_examples": [
-            { "action_ko": "표준 영상 (8초, 720p)", "action_en": "Standard video (8s, 720p)", "credits_per": 25, "monthly_count": 12 }
+            {
+              "action_ko": "표준 영상 (8초, 720p)",
+              "action_en": "Standard video (8s, 720p)",
+              "credits_per": 25,
+              "monthly_count": 12
+            }
           ]
         },
         {
           "id": "higgsfield-pro",
           "name": "Pro",
           "price_monthly": 29,
-          "price_yearly_monthly": 17.40,
-          "features": ["전체 모델 접근 (Sora 2·Veo 3.1·Kling 2.6·WAN 2.5)", "우선 처리", "상업적 이용", "워터마크 없음"],
+          "price_yearly_monthly": 17.4,
+          "features": [
+            "전체 모델 접근 (Sora 2·Veo 3.1·Kling 2.6·WAN 2.5)",
+            "우선 처리",
+            "상업적 이용",
+            "워터마크 없음"
+          ],
           "limits": "월 600 크레딧",
           "highlight": true,
           "credits_monthly": 600,
           "credit_unit_ko": "크레딧",
           "credit_unit_en": "credits",
           "generation_examples": [
-            { "action_ko": "표준 영상 (8초, 720p)", "action_en": "Standard video (8s, 720p)", "credits_per": 25, "monthly_count": 24 },
-            { "action_ko": "Sora 2 Pro (8초, 720p)", "action_en": "Sora 2 Pro (8s, 720p)", "credits_per": 89, "monthly_count": 6 },
-            { "action_ko": "Veo 3.1 Fast (8초, 720p)", "action_en": "Veo 3.1 Fast (8s, 720p)", "credits_per": 40, "monthly_count": 15 }
+            {
+              "action_ko": "표준 영상 (8초, 720p)",
+              "action_en": "Standard video (8s, 720p)",
+              "credits_per": 25,
+              "monthly_count": 24
+            },
+            {
+              "action_ko": "Sora 2 Pro (8초, 720p)",
+              "action_en": "Sora 2 Pro (8s, 720p)",
+              "credits_per": 89,
+              "monthly_count": 6
+            },
+            {
+              "action_ko": "Veo 3.1 Fast (8초, 720p)",
+              "action_en": "Veo 3.1 Fast (8s, 720p)",
+              "credits_per": 40,
+              "monthly_count": 15
+            }
           ]
         },
         {
@@ -388,36 +693,79 @@
           "name": "Ultimate",
           "price_monthly": 49,
           "price_yearly_monthly": null,
-          "features": ["Pro 모든 기능 포함", "월 1,200 크레딧", "고해상도 출력", "우선 처리"],
+          "features": [
+            "Pro 모든 기능 포함",
+            "월 1,200 크레딧",
+            "고해상도 출력",
+            "우선 처리"
+          ],
           "limits": "월 1,200 크레딧",
           "highlight": false,
           "credits_monthly": 1200,
           "credit_unit_ko": "크레딧",
           "credit_unit_en": "credits",
           "generation_examples": [
-            { "action_ko": "표준 영상 (8초, 720p)", "action_en": "Standard video (8s, 720p)", "credits_per": 25, "monthly_count": 48 },
-            { "action_ko": "Sora 2 Pro (8초, 720p)", "action_en": "Sora 2 Pro (8s, 720p)", "credits_per": 89, "monthly_count": 13 },
-            { "action_ko": "Veo 3.1 Fast (8초, 720p)", "action_en": "Veo 3.1 Fast (8s, 720p)", "credits_per": 40, "monthly_count": 30 }
+            {
+              "action_ko": "표준 영상 (8초, 720p)",
+              "action_en": "Standard video (8s, 720p)",
+              "credits_per": 25,
+              "monthly_count": 48
+            },
+            {
+              "action_ko": "Sora 2 Pro (8초, 720p)",
+              "action_en": "Sora 2 Pro (8s, 720p)",
+              "credits_per": 89,
+              "monthly_count": 13
+            },
+            {
+              "action_ko": "Veo 3.1 Fast (8초, 720p)",
+              "action_en": "Veo 3.1 Fast (8s, 720p)",
+              "credits_per": 40,
+              "monthly_count": 30
+            }
           ]
         },
         {
           "id": "higgsfield-creator",
           "name": "Creator",
           "price_monthly": 149,
-          "price_yearly_monthly": 49.80,
-          "features": ["프로 스튜디오 기능", "최우선 처리", "Ultimate 모든 기능 포함", "고해상도 출력"],
+          "price_yearly_monthly": 49.8,
+          "features": [
+            "프로 스튜디오 기능",
+            "최우선 처리",
+            "Ultimate 모든 기능 포함",
+            "고해상도 출력"
+          ],
           "limits": "월 6,000 크레딧",
           "highlight": false,
           "credits_monthly": 6000,
           "credit_unit_ko": "크레딧",
           "credit_unit_en": "credits",
           "generation_examples": [
-            { "action_ko": "표준 영상 (8초, 720p)", "action_en": "Standard video (8s, 720p)", "credits_per": 25, "monthly_count": 240 },
-            { "action_ko": "Sora 2 Pro (8초, 720p)", "action_en": "Sora 2 Pro (8s, 720p)", "credits_per": 89, "monthly_count": 67 },
-            { "action_ko": "Veo 3.1 Fast (8초, 720p)", "action_en": "Veo 3.1 Fast (8s, 720p)", "credits_per": 40, "monthly_count": 150 }
+            {
+              "action_ko": "표준 영상 (8초, 720p)",
+              "action_en": "Standard video (8s, 720p)",
+              "credits_per": 25,
+              "monthly_count": 240
+            },
+            {
+              "action_ko": "Sora 2 Pro (8초, 720p)",
+              "action_en": "Sora 2 Pro (8s, 720p)",
+              "credits_per": 89,
+              "monthly_count": 67
+            },
+            {
+              "action_ko": "Veo 3.1 Fast (8초, 720p)",
+              "action_en": "Veo 3.1 Fast (8s, 720p)",
+              "credits_per": 40,
+              "monthly_count": 150
+            }
           ]
         }
-      ]
+      ],
+      "price_status": "unverified",
+      "price_checked": "2026-03-25",
+      "price_note_ko": "지역·시기별로 요금제 구성이 달라 확인 불가"
     },
     {
       "id": "kling-ai",
@@ -433,15 +781,29 @@
           "name": "Free",
           "price_monthly": 0,
           "price_yearly_monthly": 0,
-          "features": ["기본 영상 생성", "일일 무료 크레딧 제공", "워터마크 포함"],
+          "features": [
+            "기본 영상 생성",
+            "일일 무료 크레딧 제공",
+            "워터마크 포함"
+          ],
           "limits": "일 66 크레딧 (월 약 1,980, 롤오버 없음)",
           "highlight": false,
           "credits_monthly": 1980,
           "credit_unit_ko": "크레딧",
           "credit_unit_en": "credits",
           "generation_examples": [
-            { "action_ko": "5초 영상 표준 (720p)", "action_en": "5s video standard (720p)", "credits_per": 10, "monthly_count": 198 },
-            { "action_ko": "5초 영상 전문가 (1080p)", "action_en": "5s video pro (1080p)", "credits_per": 35, "monthly_count": 56 }
+            {
+              "action_ko": "5초 영상 표준 (720p)",
+              "action_en": "5s video standard (720p)",
+              "credits_per": 10,
+              "monthly_count": 198
+            },
+            {
+              "action_ko": "5초 영상 전문가 (1080p)",
+              "action_en": "5s video pro (1080p)",
+              "credits_per": 35,
+              "monthly_count": 56
+            }
           ]
         },
         {
@@ -449,16 +811,35 @@
           "name": "Standard",
           "price_monthly": 10,
           "price_yearly_monthly": null,
-          "features": ["1080p 워터마크 없는 출력", "표준 영상 생성", "상업적 이용 가능"],
+          "features": [
+            "1080p 워터마크 없는 출력",
+            "표준 영상 생성",
+            "상업적 이용 가능"
+          ],
           "limits": "월 660 크레딧",
           "highlight": false,
           "credits_monthly": 660,
           "credit_unit_ko": "크레딧",
           "credit_unit_en": "credits",
           "generation_examples": [
-            { "action_ko": "5초 영상 표준 (720p)", "action_en": "5s video standard (720p)", "credits_per": 10, "monthly_count": 66 },
-            { "action_ko": "5초 영상 전문가 (1080p)", "action_en": "5s video pro (1080p)", "credits_per": 35, "monthly_count": 18 },
-            { "action_ko": "10초 영상 표준", "action_en": "10s video standard", "credits_per": 20, "monthly_count": 33 }
+            {
+              "action_ko": "5초 영상 표준 (720p)",
+              "action_en": "5s video standard (720p)",
+              "credits_per": 10,
+              "monthly_count": 66
+            },
+            {
+              "action_ko": "5초 영상 전문가 (1080p)",
+              "action_en": "5s video pro (1080p)",
+              "credits_per": 35,
+              "monthly_count": 18
+            },
+            {
+              "action_ko": "10초 영상 표준",
+              "action_en": "10s video standard",
+              "credits_per": 20,
+              "monthly_count": 33
+            }
           ]
         },
         {
@@ -466,16 +847,36 @@
           "name": "Pro",
           "price_monthly": 37,
           "price_yearly_monthly": null,
-          "features": ["1080p 네이티브 출력", "Professional 모드 접근", "고품질 영상", "우선 처리"],
+          "features": [
+            "1080p 네이티브 출력",
+            "Professional 모드 접근",
+            "고품질 영상",
+            "우선 처리"
+          ],
           "limits": "월 3,000 크레딧",
           "highlight": true,
           "credits_monthly": 3000,
           "credit_unit_ko": "크레딧",
           "credit_unit_en": "credits",
           "generation_examples": [
-            { "action_ko": "5초 영상 표준 (720p)", "action_en": "5s video standard (720p)", "credits_per": 10, "monthly_count": 300 },
-            { "action_ko": "5초 영상 전문가 (1080p)", "action_en": "5s video pro (1080p)", "credits_per": 35, "monthly_count": 85 },
-            { "action_ko": "10초 영상 전문가", "action_en": "10s video pro", "credits_per": 70, "monthly_count": 42 }
+            {
+              "action_ko": "5초 영상 표준 (720p)",
+              "action_en": "5s video standard (720p)",
+              "credits_per": 10,
+              "monthly_count": 300
+            },
+            {
+              "action_ko": "5초 영상 전문가 (1080p)",
+              "action_en": "5s video pro (1080p)",
+              "credits_per": 35,
+              "monthly_count": 85
+            },
+            {
+              "action_ko": "10초 영상 전문가",
+              "action_en": "10s video pro",
+              "credits_per": 70,
+              "monthly_count": 42
+            }
           ]
         },
         {
@@ -483,19 +884,41 @@
           "name": "Premier",
           "price_monthly": 92,
           "price_yearly_monthly": null,
-          "features": ["Pro 모든 기능 포함", "최우선 처리", "고해상도 고품질"],
+          "features": [
+            "Pro 모든 기능 포함",
+            "최우선 처리",
+            "고해상도 고품질"
+          ],
           "limits": "월 8,000 크레딧",
           "highlight": false,
           "credits_monthly": 8000,
           "credit_unit_ko": "크레딧",
           "credit_unit_en": "credits",
           "generation_examples": [
-            { "action_ko": "5초 영상 표준 (720p)", "action_en": "5s video standard (720p)", "credits_per": 10, "monthly_count": 800 },
-            { "action_ko": "5초 영상 전문가 (1080p)", "action_en": "5s video pro (1080p)", "credits_per": 35, "monthly_count": 228 },
-            { "action_ko": "10초 영상 전문가", "action_en": "10s video pro", "credits_per": 70, "monthly_count": 114 }
+            {
+              "action_ko": "5초 영상 표준 (720p)",
+              "action_en": "5s video standard (720p)",
+              "credits_per": 10,
+              "monthly_count": 800
+            },
+            {
+              "action_ko": "5초 영상 전문가 (1080p)",
+              "action_en": "5s video pro (1080p)",
+              "credits_per": 35,
+              "monthly_count": 228
+            },
+            {
+              "action_ko": "10초 영상 전문가",
+              "action_en": "10s video pro",
+              "credits_per": 70,
+              "monthly_count": 114
+            }
           ]
         }
-      ]
+      ],
+      "price_status": "unverified",
+      "price_checked": "2026-03-25",
+      "price_note_ko": "할인가·정가 자료가 엇갈려 확인 불가"
     },
     {
       "id": "hailuo-ai",
@@ -511,14 +934,23 @@
           "name": "Free",
           "price_monthly": 0,
           "price_yearly_monthly": 0,
-          "features": ["기본 영상 생성", "워터마크 포함", "대기 시간 있음"],
+          "features": [
+            "기본 영상 생성",
+            "워터마크 포함",
+            "대기 시간 있음"
+          ],
           "limits": "일일 크레딧 제한",
           "highlight": false,
           "credits_monthly": null,
           "credit_unit_ko": "크레딧",
           "credit_unit_en": "credits",
           "generation_examples": [
-            { "action_ko": "6초 영상 (768p)", "action_en": "6s video (768p)", "credits_per": 10, "monthly_count": null }
+            {
+              "action_ko": "6초 영상 (768p)",
+              "action_en": "6s video (768p)",
+              "credits_per": 10,
+              "monthly_count": null
+            }
           ]
         },
         {
@@ -526,16 +958,36 @@
           "name": "Standard",
           "price_monthly": 14.99,
           "price_yearly_monthly": null,
-          "features": ["가속 처리", "워터마크 없음", "상업적 이용 가능", "Hailuo 01·02 모델"],
+          "features": [
+            "가속 처리",
+            "워터마크 없음",
+            "상업적 이용 가능",
+            "Hailuo 01·02 모델"
+          ],
           "limits": "월 1,000 크레딧",
           "highlight": false,
           "credits_monthly": 1000,
           "credit_unit_ko": "크레딧",
           "credit_unit_en": "credits",
           "generation_examples": [
-            { "action_ko": "6초 영상 (768p)", "action_en": "6s video (768p)", "credits_per": 10, "monthly_count": 100 },
-            { "action_ko": "6초 영상 HD (1080p)", "action_en": "6s video HD (1080p)", "credits_per": 40, "monthly_count": 25 },
-            { "action_ko": "10초 영상 (768p)", "action_en": "10s video (768p)", "credits_per": 20, "monthly_count": 50 }
+            {
+              "action_ko": "6초 영상 (768p)",
+              "action_en": "6s video (768p)",
+              "credits_per": 10,
+              "monthly_count": 100
+            },
+            {
+              "action_ko": "6초 영상 HD (1080p)",
+              "action_en": "6s video HD (1080p)",
+              "credits_per": 40,
+              "monthly_count": 25
+            },
+            {
+              "action_ko": "10초 영상 (768p)",
+              "action_en": "10s video (768p)",
+              "credits_per": 20,
+              "monthly_count": 50
+            }
           ]
         },
         {
@@ -543,16 +995,35 @@
           "name": "Pro",
           "price_monthly": 54.99,
           "price_yearly_monthly": null,
-          "features": ["고급 모델 접근", "우선 처리", "Standard 모든 기능 포함"],
+          "features": [
+            "고급 모델 접근",
+            "우선 처리",
+            "Standard 모든 기능 포함"
+          ],
           "limits": "월 4,500 크레딧",
           "highlight": true,
           "credits_monthly": 4500,
           "credit_unit_ko": "크레딧",
           "credit_unit_en": "credits",
           "generation_examples": [
-            { "action_ko": "6초 영상 (768p)", "action_en": "6s video (768p)", "credits_per": 10, "monthly_count": 450 },
-            { "action_ko": "6초 영상 HD (1080p)", "action_en": "6s video HD (1080p)", "credits_per": 40, "monthly_count": 112 },
-            { "action_ko": "10초 영상 (768p)", "action_en": "10s video (768p)", "credits_per": 20, "monthly_count": 225 }
+            {
+              "action_ko": "6초 영상 (768p)",
+              "action_en": "6s video (768p)",
+              "credits_per": 10,
+              "monthly_count": 450
+            },
+            {
+              "action_ko": "6초 영상 HD (1080p)",
+              "action_en": "6s video HD (1080p)",
+              "credits_per": 40,
+              "monthly_count": 112
+            },
+            {
+              "action_ko": "10초 영상 (768p)",
+              "action_en": "10s video (768p)",
+              "credits_per": 20,
+              "monthly_count": 225
+            }
           ]
         },
         {
@@ -560,19 +1031,41 @@
           "name": "Master",
           "price_monthly": 119.99,
           "price_yearly_monthly": null,
-          "features": ["최고 사용 한도", "최우선 처리", "Pro 모든 기능 포함"],
+          "features": [
+            "최고 사용 한도",
+            "최우선 처리",
+            "Pro 모든 기능 포함"
+          ],
           "limits": "월 10,000 크레딧",
           "highlight": false,
           "credits_monthly": 10000,
           "credit_unit_ko": "크레딧",
           "credit_unit_en": "credits",
           "generation_examples": [
-            { "action_ko": "6초 영상 (768p)", "action_en": "6s video (768p)", "credits_per": 10, "monthly_count": 1000 },
-            { "action_ko": "6초 영상 HD (1080p)", "action_en": "6s video HD (1080p)", "credits_per": 40, "monthly_count": 250 },
-            { "action_ko": "10초 영상 (768p)", "action_en": "10s video (768p)", "credits_per": 20, "monthly_count": 500 }
+            {
+              "action_ko": "6초 영상 (768p)",
+              "action_en": "6s video (768p)",
+              "credits_per": 10,
+              "monthly_count": 1000
+            },
+            {
+              "action_ko": "6초 영상 HD (1080p)",
+              "action_en": "6s video HD (1080p)",
+              "credits_per": 40,
+              "monthly_count": 250
+            },
+            {
+              "action_ko": "10초 영상 (768p)",
+              "action_en": "10s video (768p)",
+              "credits_per": 20,
+              "monthly_count": 500
+            }
           ]
         }
-      ]
+      ],
+      "price_status": "secondary",
+      "price_checked": "2026-11-20",
+      "price_note_ko": "정가 기준 (할인 프로모션 자주 있음)"
     },
     {
       "id": "seedance",
@@ -588,51 +1081,102 @@
           "name": "Free",
           "price_monthly": 0,
           "price_yearly_monthly": 0,
-          "features": ["기본 영상 생성", "대기열 우선순위 낮음"],
+          "features": [
+            "기본 영상 생성",
+            "대기열 우선순위 낮음"
+          ],
           "limits": "일 60 크레딧 (월 약 1,800)",
           "highlight": false,
           "credits_monthly": 1800,
           "credit_unit_ko": "크레딧",
           "credit_unit_en": "credits",
           "generation_examples": [
-            { "action_ko": "6초 영상 (오디오 없음)", "action_en": "6s video (no audio)", "credits_per": 60, "monthly_count": 30 },
-            { "action_ko": "6초 영상 (오디오 포함)", "action_en": "6s video (with audio)", "credits_per": 120, "monthly_count": 15 }
+            {
+              "action_ko": "6초 영상 (오디오 없음)",
+              "action_en": "6s video (no audio)",
+              "credits_per": 60,
+              "monthly_count": 30
+            },
+            {
+              "action_ko": "6초 영상 (오디오 포함)",
+              "action_en": "6s video (with audio)",
+              "credits_per": 120,
+              "monthly_count": 15
+            }
           ]
         },
         {
           "id": "seedance-starter",
           "name": "Starter",
-          "price_monthly": 19.90,
+          "price_monthly": 19.9,
           "price_yearly_monthly": null,
-          "features": ["전문 영상 생성", "우선 처리", "워터마크 없음", "상업적 이용"],
+          "features": [
+            "전문 영상 생성",
+            "우선 처리",
+            "워터마크 없음",
+            "상업적 이용"
+          ],
           "limits": "월 약 250 크레딧",
           "highlight": false,
           "credits_monthly": 250,
           "credit_unit_ko": "크레딧",
           "credit_unit_en": "credits",
           "generation_examples": [
-            { "action_ko": "6초 영상 (오디오 없음)", "action_en": "6s video (no audio)", "credits_per": 60, "monthly_count": 4 },
-            { "action_ko": "6초 영상 (오디오 포함)", "action_en": "6s video (with audio)", "credits_per": 120, "monthly_count": 2 }
+            {
+              "action_ko": "6초 영상 (오디오 없음)",
+              "action_en": "6s video (no audio)",
+              "credits_per": 60,
+              "monthly_count": 4
+            },
+            {
+              "action_ko": "6초 영상 (오디오 포함)",
+              "action_en": "6s video (with audio)",
+              "credits_per": 120,
+              "monthly_count": 2
+            }
           ]
         },
         {
           "id": "seedance-pro",
           "name": "Pro",
-          "price_monthly": 39.90,
+          "price_monthly": 39.9,
           "price_yearly_monthly": null,
-          "features": ["고급 모델 접근", "고해상도 출력", "빠른 처리", "Starter 모든 기능 포함"],
+          "features": [
+            "고급 모델 접근",
+            "고해상도 출력",
+            "빠른 처리",
+            "Starter 모든 기능 포함"
+          ],
           "limits": "월 800 크레딧",
           "highlight": true,
           "credits_monthly": 800,
           "credit_unit_ko": "크레딧",
           "credit_unit_en": "credits",
           "generation_examples": [
-            { "action_ko": "6초 영상 (오디오 없음)", "action_en": "6s video (no audio)", "credits_per": 60, "monthly_count": 13 },
-            { "action_ko": "6초 영상 (오디오 포함)", "action_en": "6s video (with audio)", "credits_per": 120, "monthly_count": 6 },
-            { "action_ko": "12초 영상 (오디오 없음)", "action_en": "12s video (no audio)", "credits_per": 120, "monthly_count": 6 }
+            {
+              "action_ko": "6초 영상 (오디오 없음)",
+              "action_en": "6s video (no audio)",
+              "credits_per": 60,
+              "monthly_count": 13
+            },
+            {
+              "action_ko": "6초 영상 (오디오 포함)",
+              "action_en": "6s video (with audio)",
+              "credits_per": 120,
+              "monthly_count": 6
+            },
+            {
+              "action_ko": "12초 영상 (오디오 없음)",
+              "action_en": "12s video (no audio)",
+              "credits_per": 120,
+              "monthly_count": 6
+            }
           ]
         }
-      ]
+      ],
+      "price_status": "unverified",
+      "price_checked": "2026-03-25",
+      "price_note_ko": "공식 가격 페이지 확인 불가"
     },
     {
       "id": "suno",
@@ -648,15 +1192,30 @@
           "name": "Free",
           "price_monthly": 0,
           "price_yearly_monthly": 0,
-          "features": ["기본 음악 생성", "AI 가사 생성", "인스트루멘탈 생성", "기본 stem 추출"],
-          "limits": "일 50 크레딧 (월 약 1,500), 비상업적 이용",
+          "features": [
+            "무료 모델 이용",
+            "하루 50 크레딧",
+            "기본 기능",
+            "오디오 업로드 (최대 8분)"
+          ],
+          "limits": "일 50 크레딧 (월 약 1,500), 다운로드·상업적 이용 불가",
           "highlight": false,
           "credits_monthly": 1500,
           "credit_unit_ko": "크레딧",
           "credit_unit_en": "credits",
           "generation_examples": [
-            { "action_ko": "곡 생성 (2분, 2곡 동시 생성)", "action_en": "Song generation (2 min, 2 songs)", "credits_per": 10, "monthly_count": 150 },
-            { "action_ko": "곡 연장 (Extend)", "action_en": "Song extend", "credits_per": 10, "monthly_count": 150 }
+            {
+              "action_ko": "곡 생성 (2분, 2곡 동시 생성)",
+              "action_en": "Song generation (2 min, 2 songs)",
+              "credits_per": 10,
+              "monthly_count": 150
+            },
+            {
+              "action_ko": "곡 연장 (Extend)",
+              "action_en": "Song extend",
+              "credits_per": 10,
+              "monthly_count": 150
+            }
           ]
         },
         {
@@ -664,16 +1223,37 @@
           "name": "Pro",
           "price_monthly": 10,
           "price_yearly_monthly": 8,
-          "features": ["최신 v5 모델 접근", "상업적 이용 권리", "커버 곡 생성", "곡 연장·리믹스", "우선 처리"],
-          "limits": "월 2,500 크레딧",
+          "features": [
+            "최신 모델 이용",
+            "월 20곡 다운로드",
+            "상업적 이용 권리",
+            "Stem 분리 2종",
+            "우선 처리 (동시 10곡)"
+          ],
+          "limits": "월 2,500 크레딧, 다운로드 20곡",
           "highlight": true,
           "credits_monthly": 2500,
           "credit_unit_ko": "크레딧",
           "credit_unit_en": "credits",
           "generation_examples": [
-            { "action_ko": "곡 생성 (2분, 2곡 동시 생성)", "action_en": "Song generation (2 min, 2 songs)", "credits_per": 10, "monthly_count": 250 },
-            { "action_ko": "곡 연장 (Extend)", "action_en": "Song extend", "credits_per": 10, "monthly_count": 250 },
-            { "action_ko": "커버 곡 생성", "action_en": "Cover song", "credits_per": 10, "monthly_count": 250 }
+            {
+              "action_ko": "곡 생성 (2분, 2곡 동시 생성)",
+              "action_en": "Song generation (2 min, 2 songs)",
+              "credits_per": 10,
+              "monthly_count": 250
+            },
+            {
+              "action_ko": "곡 연장 (Extend)",
+              "action_en": "Song extend",
+              "credits_per": 10,
+              "monthly_count": 250
+            },
+            {
+              "action_ko": "커버 곡 생성",
+              "action_en": "Cover song",
+              "credits_per": 10,
+              "monthly_count": 250
+            }
           ]
         },
         {
@@ -681,19 +1261,79 @@
           "name": "Premier",
           "price_monthly": 30,
           "price_yearly_monthly": 24,
-          "features": ["Suno Studio (DAW 기능)", "멀티트랙 편집", "Stem 분리 (최대 12트랙)", "MIDI 추출", "Pro 모든 기능 포함", "얼리 액세스"],
-          "limits": "월 10,000 크레딧",
+          "features": [
+            "Suno Studio (MIDI·이펙트)",
+            "월 60곡 다운로드",
+            "Stem 분리 3종",
+            "오디오 업로드 (최대 30분)",
+            "Pro 모든 기능 포함"
+          ],
+          "limits": "월 10,000 크레딧, 다운로드 60곡",
           "highlight": false,
           "credits_monthly": 10000,
           "credit_unit_ko": "크레딧",
           "credit_unit_en": "credits",
           "generation_examples": [
-            { "action_ko": "곡 생성 (2분, 2곡 동시 생성)", "action_en": "Song generation (2 min, 2 songs)", "credits_per": 10, "monthly_count": 1000 },
-            { "action_ko": "곡 연장 (Extend)", "action_en": "Song extend", "credits_per": 10, "monthly_count": 1000 },
-            { "action_ko": "MIDI 추출 (Stem당)", "action_en": "MIDI extraction (per stem)", "credits_per": 10, "monthly_count": 1000 }
+            {
+              "action_ko": "곡 생성 (2분, 2곡 동시 생성)",
+              "action_en": "Song generation (2 min, 2 songs)",
+              "credits_per": 10,
+              "monthly_count": 1000
+            },
+            {
+              "action_ko": "곡 연장 (Extend)",
+              "action_en": "Song extend",
+              "credits_per": 10,
+              "monthly_count": 1000
+            },
+            {
+              "action_ko": "MIDI 추출 (Stem당)",
+              "action_en": "MIDI extraction (per stem)",
+              "credits_per": 10,
+              "monthly_count": 1000
+            }
+          ]
+        },
+        {
+          "id": "suno-platinum",
+          "name": "Platinum",
+          "price_monthly": 120,
+          "price_yearly_monthly": 100,
+          "features": [
+            "Premier 모든 기능 포함",
+            "월 120곡 다운로드",
+            "곡 비주얼 생성 (월 20,000 비주얼 크레딧)",
+            "최대 크레딧"
+          ],
+          "limits": "월 15,000 크레딧, 다운로드 120곡",
+          "highlight": false,
+          "credits_monthly": 15000,
+          "credit_unit_ko": "크레딧",
+          "credit_unit_en": "credits",
+          "generation_examples": [
+            {
+              "action_ko": "곡 생성 (2분, 2곡 동시 생성)",
+              "action_en": "Song generation (2 min, 2 songs)",
+              "credits_per": 10,
+              "monthly_count": 1500
+            },
+            {
+              "action_ko": "곡 연장 (Extend)",
+              "action_en": "Song extend",
+              "credits_per": 10,
+              "monthly_count": 1500
+            },
+            {
+              "action_ko": "MIDI 추출 (Stem당)",
+              "action_en": "MIDI extraction (per stem)",
+              "credits_per": 10,
+              "monthly_count": 1500
+            }
           ]
         }
-      ]
+      ],
+      "price_status": "official",
+      "price_checked": "2026-11-20"
     },
     {
       "id": "genspark",
@@ -708,7 +1348,13 @@
           "name": "Free",
           "price_monthly": 0,
           "price_yearly_monthly": 0,
-          "features": ["AI 채팅", "Sparkpage 리포트", "딥 리서치", "이미지·영상 생성 (워터마크)", "웹·앱 빌딩"],
+          "features": [
+            "AI 채팅",
+            "Sparkpage 리포트",
+            "딥 리서치",
+            "이미지·영상 생성 (워터마크)",
+            "웹·앱 빌딩"
+          ],
           "limits": "일 100 크레딧 (월 3,000)",
           "highlight": false
         },
@@ -717,8 +1363,13 @@
           "name": "Plus",
           "price_monthly": 24.99,
           "price_yearly_monthly": 19.99,
-          "features": ["FLUX·Kling 프리미엄 모델", "AI 슬라이드 생성", "우선 에이전트 접근", "50GB 스토리지"],
-          "limits": "월 10,000 크레딧",
+          "features": [
+            "FLUX·Kling 프리미엄 모델",
+            "AI 슬라이드 생성",
+            "우선 에이전트 접근",
+            "50GB 스토리지"
+          ],
+          "limits": "월 10,000 크레딧부터, 50GB 저장공간",
           "highlight": true
         },
         {
@@ -726,11 +1377,18 @@
           "name": "Pro",
           "price_monthly": 249.99,
           "price_yearly_monthly": 199.99,
-          "features": ["전체 에이전트 접근", "최고 미디어 모델", "1TB 스토리지", "Plus 모든 기능 포함"],
-          "limits": "월 125,000 크레딧",
+          "features": [
+            "전체 에이전트 접근",
+            "최고 미디어 모델",
+            "1TB 스토리지",
+            "Plus 모든 기능 포함"
+          ],
+          "limits": "월 125,000 크레딧부터, 1TB 저장공간",
           "highlight": false
         }
-      ]
+      ],
+      "price_status": "secondary",
+      "price_checked": "2026-11-20"
     },
     {
       "id": "notion-ai",
@@ -738,14 +1396,19 @@
       "provider": "Notion",
       "provider_color": "#000000",
       "category": "productivity",
-      "url": "https://www.notion.so/pricing",
+      "url": "https://www.notion.com/pricing",
       "plans": [
         {
           "id": "notion-free",
           "name": "Free",
           "price_monthly": 0,
           "price_yearly_monthly": 0,
-          "features": ["기본 워크스페이스 기능", "AI 응답 20회 (일회성)"],
+          "features": [
+            "기본 워크스페이스",
+            "Notion AI 체험",
+            "기본 폼·사이트",
+            "Notion Calendar"
+          ],
           "limits": "AI 응답 20회 (누적 한도)",
           "highlight": false
         },
@@ -754,20 +1417,33 @@
           "name": "Plus",
           "price_monthly": 12,
           "price_yearly_monthly": 10,
-          "features": ["무제한 저장공간", "30일 버전 히스토리", "AI 기능 포함"],
+          "features": [
+            "Notion AI 체험",
+            "커스텀 폼·사이트",
+            "차트",
+            "파일 업로드 무제한"
+          ],
           "limits": "AI 응답 20회 (누적 한도)",
           "highlight": false
         },
         {
           "id": "notion-business",
           "name": "Business",
-          "price_monthly": 20,
-          "price_yearly_monthly": null,
-          "features": ["Notion AI 무제한", "AI 에이전트 기능", "SAML SSO", "고급 워크스페이스 분석"],
-          "limits": "AI 무제한 (AI 에이전트는 1,000 크레딧당 $10)",
+          "price_monthly": 24,
+          "price_yearly_monthly": 20,
+          "features": [
+            "Notion Agent",
+            "AI 회의록",
+            "Enterprise Search (베타)",
+            "SAML SSO"
+          ],
+          "limits": "멤버당 가격, AI 기능 포함",
           "highlight": true
         }
-      ]
+      ],
+      "price_status": "official",
+      "price_checked": "2026-11-20",
+      "price_note_ko": "멤버(사용자) 1명 기준 가격"
     },
     {
       "id": "lovable",
@@ -782,7 +1458,12 @@
           "name": "Free",
           "price_monthly": 0,
           "price_yearly_monthly": 0,
-          "features": ["공개 프로젝트", "무제한 협업자", "Lovable 도메인", "무료 클라우드 호스팅"],
+          "features": [
+            "공개 프로젝트",
+            "무제한 협업자",
+            "Lovable 도메인",
+            "무료 클라우드 호스팅"
+          ],
           "limits": "일 5 크레딧 (월 약 30)",
           "highlight": false
         },
@@ -791,8 +1472,13 @@
           "name": "Pro",
           "price_monthly": 25,
           "price_yearly_monthly": 21,
-          "features": ["비공개 프로젝트", "커스텀 도메인", "사용자 역할 관리", "배지 제거"],
-          "limits": "월 100 크레딧",
+          "features": [
+            "비공개 프로젝트",
+            "커스텀 도메인",
+            "사용자 역할 관리",
+            "배지 제거"
+          ],
+          "limits": "월 100 크레딧 (이월 가능)",
           "highlight": true
         },
         {
@@ -800,11 +1486,18 @@
           "name": "Business",
           "price_monthly": 50,
           "price_yearly_monthly": 42,
-          "features": ["SSO 지원", "데이터 학습 제외 옵션", "디자인 템플릿", "Pro 모든 기능 포함"],
-          "limits": "월 200 크레딧",
+          "features": [
+            "SSO 지원",
+            "데이터 학습 제외 옵션",
+            "디자인 템플릿",
+            "Pro 모든 기능 포함"
+          ],
+          "limits": "월 100 크레딧, 팀 워크스페이스",
           "highlight": false
         }
-      ]
+      ],
+      "price_status": "official",
+      "price_checked": "2026-11-20"
     },
     {
       "id": "base44",
@@ -819,38 +1512,70 @@
           "name": "Free",
           "price_monthly": 0,
           "price_yearly_monthly": 0,
-          "features": ["기본 앱 빌딩", "AI 채팅 기반 개발"],
-          "limits": "일 5 메시지 (월 25)",
+          "features": [
+            "기본 앱 빌딩",
+            "AI 채팅 기반 개발"
+          ],
+          "limits": "월 25 메시지 크레딧",
           "highlight": false
         },
         {
           "id": "base44-starter",
           "name": "Starter",
-          "price_monthly": 25,
+          "price_monthly": 20,
           "price_yearly_monthly": 16,
-          "features": ["앱 빌딩 입문", "기본 연동 기능"],
-          "limits": "월 메시지 크레딧 제한",
+          "features": [
+            "앱 빌딩 입문",
+            "기본 연동 기능"
+          ],
+          "limits": "월 100 메시지 크레딧, 2,000 연동 크레딧",
           "highlight": false
         },
         {
           "id": "base44-builder",
           "name": "Builder",
-          "price_monthly": 49,
+          "price_monthly": 50,
           "price_yearly_monthly": 40,
-          "features": ["공유 파운데이션", "외부 서비스 연동", "250 메시지 크레딧", "10,000 연동 크레딧"],
-          "limits": "월 250 메시지 + 10,000 연동 크레딧",
+          "features": [
+            "공유 파운데이션",
+            "외부 서비스 연동",
+            "250 메시지 크레딧",
+            "10,000 연동 크레딧"
+          ],
+          "limits": "월 250 메시지 크레딧, 10,000 연동 크레딧",
           "highlight": true
         },
         {
           "id": "base44-pro",
           "name": "Pro",
-          "price_monthly": 99,
+          "price_monthly": 100,
           "price_yearly_monthly": 80,
-          "features": ["고급 기능 전체 접근", "500 메시지 크레딧", "25,000 연동 크레딧", "Builder 모든 기능 포함"],
-          "limits": "월 500 메시지 + 25,000 연동 크레딧",
+          "features": [
+            "고급 기능 전체 접근",
+            "500 메시지 크레딧",
+            "25,000 연동 크레딧",
+            "Builder 모든 기능 포함"
+          ],
+          "limits": "월 500 메시지 크레딧, 20,000 연동 크레딧",
+          "highlight": false
+        },
+        {
+          "id": "base44-elite",
+          "name": "Elite",
+          "price_monthly": 200,
+          "price_yearly_monthly": 160,
+          "features": [
+            "Pro 모든 기능 포함",
+            "최대 크레딧",
+            "프리미엄 지원",
+            "GitHub 연동"
+          ],
+          "limits": "월 1,200 메시지 크레딧, 50,000 연동 크레딧",
           "highlight": false
         }
-      ]
+      ],
+      "price_status": "official",
+      "price_checked": "2026-11-20"
     },
     {
       "id": "zapier",
@@ -865,8 +1590,12 @@
           "name": "Free",
           "price_monthly": 0,
           "price_yearly_monthly": 0,
-          "features": ["기본 워크플로우 (Zap)", "2단계 자동화", "기본 앱 연동"],
-          "limits": "월 100 작업",
+          "features": [
+            "기본 워크플로우 (Zap)",
+            "2단계 자동화",
+            "기본 앱 연동"
+          ],
+          "limits": "월 100 태스크",
           "highlight": false
         },
         {
@@ -874,11 +1603,19 @@
           "name": "Professional",
           "price_monthly": 29.99,
           "price_yearly_monthly": 19.99,
-          "features": ["멀티 스텝 Zap 무제한", "프리미엄 앱 연동", "2분 폴링 간격", "필터·포맷터 기능"],
+          "features": [
+            "멀티 스텝 Zap 무제한",
+            "프리미엄 앱 연동",
+            "2분 폴링 간격",
+            "필터·포맷터 기능"
+          ],
           "limits": "월 750 작업",
           "highlight": true
         }
-      ]
+      ],
+      "price_status": "official",
+      "price_checked": "2026-11-20",
+      "price_note_ko": "연간 결제가($19.99/월, 750 태스크)는 공식 페이지, 월 결제가는 외부 자료 기준"
     }
   ]
 }
