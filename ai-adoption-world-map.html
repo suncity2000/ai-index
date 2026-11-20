@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>전 세계 AI 확산 현황 2025</title>
+  <title>전 세계 AI 확산 현황 2026</title>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -368,13 +368,15 @@
       flex-shrink: 0;
     }
 
-    .rank-confirmed {
-      width: 5px; height: 5px;
-      border-radius: 50%;
+    .rank-change {
+      font-size: 10px;
+      color: var(--muted);
+      width: 44px;
+      text-align: right;
       flex-shrink: 0;
     }
-    .rank-confirmed.c { background: var(--accent); opacity: 0.7; }
-    .rank-confirmed.e { background: var(--yellow); opacity: 0.5; }
+    .rank-change.up { color: #34d399; }
+    .rank-change.down { color: #f87171; }
 
     /* ── Footer ── */
     footer {
@@ -403,8 +405,8 @@
 <body>
 <div class="wrap">
 
-  <div class="live-badge">반기 업데이트 · 147개국 분석</div>
-  <h1>전 세계 <span>AI 확산</span> 현황 2025</h1>
+  <div class="live-badge">분기 업데이트 · 147개국 분석</div>
+  <h1>전 세계 <span>AI 확산</span> 현황 2026</h1>
   <p class="subtitle">
     국가별 생산가능인구 중 생성형 AI 도구 사용 비율 —
     Microsoft AI Economy Institute 공식 보고서 기반
@@ -412,11 +414,11 @@
 
   <div class="stats">
     <div class="stat">
-      <div class="stat-num">16.3%</div>
+      <div class="stat-num">18.8%</div>
       <div class="stat-label">전 세계 평균<br>AI 사용률</div>
     </div>
     <div class="stat">
-      <div class="stat-num">64.0%</div>
+      <div class="stat-num">73.3%</div>
       <div class="stat-label">최고: UAE<br>세계 1위</div>
     </div>
     <div class="stat">
@@ -424,8 +426,8 @@
       <div class="stat-label">측정 대상<br>국가 수</div>
     </div>
     <div class="stat">
-      <div class="stat-num">+1.2pp</div>
-      <div class="stat-label">전반기 대비<br>증가폭</div>
+      <div class="stat-num">+1.0pp</div>
+      <div class="stat-label">전분기 대비<br>증가폭</div>
     </div>
   </div>
 
@@ -449,12 +451,12 @@
           <div class="legend-scale">
             <div class="legend-bar"></div>
             <div class="legend-ticks">
-              <span>0%</span><span>16%</span><span>32%</span><span>48%</span><span>64%+</span>
+              <span>0%</span><span>18%</span><span>36%</span><span>54%</span><span>72%+</span>
             </div>
           </div>
           <div class="legend-note">
             AI 사용률 (생산가능인구 기준)<br>
-            <b>~ 추정치</b> 포함 (지역 평균 기반)
+            전 국가 Microsoft 공식 수치
           </div>
         </div>
       </div>
@@ -472,11 +474,11 @@
 
   <footer>
     <div class="src-info">
-      <b>출처:</b> Microsoft AI Economy Institute, Global AI Adoption Report 2025 H2 &nbsp;|&nbsp;
-      <b>업데이트 주기:</b> 반기 (6개월)<br>
-      공식 확인 데이터 + 지역 평균 기반 추정치 포함 · 호버 시 구분 표시됨
+      <b>출처:</b> <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/09/Microsoft-AI-Diffusion-Report-2026-Q2.pdf" target="_blank" rel="noopener" style="color:inherit">Microsoft AI Economy Institute, Global AI Diffusion Q2 2026</a> &nbsp;|&nbsp;
+      <b>업데이트 주기:</b> 분기 (3개월)<br>
+      147개국 전체 공식 데이터 · 증감은 2026 Q1 대비 (%p)
     </div>
-    <div class="period-pill">2025 H2 기준</div>
+    <div class="period-pill">2026 Q2 (6월) 기준</div>
   </footer>
 
 </div>
@@ -484,70 +486,155 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
 <script>
-/* ── Data: confirmed (c:true) from Microsoft report; estimated (c:false) from regional averages ── */
+/* ── Data: Microsoft Global AI Diffusion Q2 2026 (r = Q2 usage %, d = change vs Q1 in pp) ── */
 const AI = {
-  784:{n:"아랍에미리트",r:64.0,c:true},
-  702:{n:"싱가포르",r:60.9,c:true},
-  578:{n:"노르웨이",r:46.4,c:true},
-  372:{n:"아일랜드",r:44.6,c:true},
-  250:{n:"프랑스",r:44.0,c:true},
-  840:{n:"미국",r:28.3,c:true},
-  724:{n:"스페인",r:40.0,c:false},
-  752:{n:"스웨덴",r:39.0,c:false},
-  208:{n:"덴마크",r:38.0,c:false},
-  246:{n:"핀란드",r:37.0,c:false},
-  528:{n:"네덜란드",r:36.0,c:false},
-  756:{n:"스위스",r:34.0,c:false},
-  56: {n:"벨기에",r:33.0,c:false},
-  826:{n:"영국",r:33.0,c:false},
-  36: {n:"호주",r:32.0,c:false},
-  682:{n:"사우디아라비아",r:32.0,c:false},
-  376:{n:"이스라엘",r:35.0,c:false},
-  634:{n:"카타르",r:34.0,c:false},
-  48: {n:"바레인",r:36.0,c:false},
-  276:{n:"독일",r:30.0,c:false},
-  620:{n:"포르투갈",r:30.0,c:false},
-  40: {n:"오스트리아",r:29.0,c:false},
-  124:{n:"캐나다",r:29.0,c:false},
-  410:{n:"대한민국",r:27.0,c:false},
-  380:{n:"이탈리아",r:27.0,c:false},
-  554:{n:"뉴질랜드",r:28.0,c:false},
-  392:{n:"일본",r:24.0,c:false},
-  616:{n:"폴란드",r:22.0,c:false},
-  300:{n:"그리스",r:22.0,c:false},
-  458:{n:"말레이시아",r:22.0,c:false},
-  203:{n:"체코",r:21.0,c:false},
-  348:{n:"헝가리",r:20.0,c:false},
-  792:{n:"튀르키예",r:18.0,c:false},
-  76: {n:"브라질",r:17.0,c:false},
-  608:{n:"필리핀",r:16.0,c:false},
-  858:{n:"우루과이",r:16.0,c:false},
-  356:{n:"인도",r:15.0,c:false},
-  642:{n:"루마니아",r:15.0,c:false},
-  484:{n:"멕시코",r:15.0,c:false},
-  764:{n:"태국",r:15.0,c:false},
-  643:{n:"러시아",r:14.0,c:false},
-  170:{n:"콜롬비아",r:14.0,c:false},
-  704:{n:"베트남",r:14.0,c:false},
-  360:{n:"인도네시아",r:13.0,c:false},
-  710:{n:"남아프리카",r:13.0,c:false},
-  804:{n:"우크라이나",r:12.0,c:false},
-  604:{n:"페루",r:12.0,c:false},
-  818:{n:"이집트",r:12.0,c:false},
-  504:{n:"모로코",r:11.0,c:false},
-  156:{n:"중국",r:18.0,c:false},
-  32: {n:"아르헨티나",r:15.0,c:false},
-  152:{n:"칠레",r:18.0,c:false},
-  566:{n:"나이지리아",r:9.0,c:false},
-  404:{n:"케냐",r:9.0,c:false},
-  288:{n:"가나",r:8.0,c:false},
-  586:{n:"파키스탄",r:8.0,c:false},
-  50: {n:"방글라데시",r:7.0,c:false},
-  834:{n:"탄자니아",r:6.0,c:false},
-  800:{n:"우간다",r:6.0,c:false},
-  716:{n:"짐바브웨",r:6.0,c:false},
-  24: {n:"앙골라",r:5.0,c:false},
-  231:{n:"에티오피아",r:5.0,c:false},
+  784:{n:"아랍에미리트",r:73.3,d:3.2},
+  702:{n:"싱가포르",r:64.3,d:0.9},
+  372:{n:"아일랜드",r:49.9,d:1.5},
+  250:{n:"프랑스",r:49.6,d:1.8},
+  578:{n:"노르웨이",r:49.4,d:0.8},
+  724:{n:"스페인",r:45.1,d:0.9},
+  554:{n:"뉴질랜드",r:44.1,d:1.1},
+  826:{n:"영국",r:43.7,d:1.5},
+  528:{n:"네덜란드",r:43.5,d:1.4},
+  634:{n:"카타르",r:43.5,d:1.7},
+  36:{n:"호주",r:40.7,d:1.2},
+  410:{n:"대한민국",r:40.6,d:3.5},
+  56:{n:"벨기에",r:40.3,d:1.3},
+  756:{n:"스위스",r:39.1,d:1.3},
+  376:{n:"이스라엘",r:38.7,d:0.6},
+  124:{n:"캐나다",r:38.5,d:1.2},
+  752:{n:"스웨덴",r:37.3,d:1.2},
+  40:{n:"오스트리아",r:35.4,d:1.3},
+  158:{n:"대만",r:33.8,d:2.0},
+  348:{n:"헝가리",r:33.3,d:1.1},
+  840:{n:"미국",r:33.0,d:1.7},
+  208:{n:"덴마크",r:32.4,d:1.2},
+  276:{n:"독일",r:32.3,d:1.2},
+  616:{n:"폴란드",r:32.3,d:1.3},
+  682:{n:"사우디아라비아",r:31.4,d:2.0},
+  380:{n:"이탈리아",r:31.4,d:1.2},
+  203:{n:"체코",r:31.2,d:1.1},
+  400:{n:"요르단",r:31.2,d:1.5},
+  100:{n:"불가리아",r:30.7,d:1.0},
+  246:{n:"핀란드",r:30.6,d:1.1},
+  705:{n:"슬로베니아",r:30.1,d:1.1},
+  188:{n:"코스타리카",r:29.7,d:1.2},
+  704:{n:"베트남",r:27.9,d:1.4},
+  422:{n:"레바논",r:27.7,d:0.4},
+  512:{n:"오만",r:27.6,d:1.1},
+  620:{n:"포르투갈",r:27.4,d:1.0},
+  191:{n:"크로아티아",r:27.2,d:1.1},
+  703:{n:"슬로바키아",r:27.1,d:1.0},
+  170:{n:"콜롬비아",r:25.9,d:1.4},
+  214:{n:"도미니카공화국",r:25.8,d:1.0},
+  858:{n:"우루과이",r:25.7,d:1.1},
+  688:{n:"세르비아",r:25.3,d:1.2},
+  440:{n:"리투아니아",r:25.1,d:0.8},
+  388:{n:"자메이카",r:25.0,d:1.0},
+  392:{n:"일본",r:24.7,d:2.2},
+  591:{n:"파나마",r:24.2,d:0.9},
+  152:{n:"칠레",r:24.0,d:1.3},
+  710:{n:"남아프리카공화국",r:23.9,d:0.8},
+  32:{n:"아르헨티나",r:23.4,d:1.5},
+  70:{n:"보스니아 헤르체고비나",r:23.2,d:1.1},
+  458:{n:"말레이시아",r:22.6,d:0.8},
+  414:{n:"쿠웨이트",r:22.6,d:1.5},
+  268:{n:"조지아",r:21.6,d:1.1},
+  300:{n:"그리스",r:21.5,d:0.7},
+  484:{n:"멕시코",r:21.4,d:1.3},
+  608:{n:"필리핀",r:20.7,d:0.6},
+  218:{n:"에콰도르",r:20.3,d:0.8},
+  76:{n:"브라질",r:20.2,d:1.1},
+  222:{n:"엘살바도르",r:20.1,d:1.8},
+  8:{n:"알바니아",r:19.2,d:0.7},
+  498:{n:"몰도바",r:19.1,d:0.6},
+  792:{n:"튀르키예",r:18.9,d:1.5},
+  31:{n:"아제르바이잔",r:18.7,d:1.0},
+  356:{n:"인도",r:18.5,d:0.9},
+  642:{n:"루마니아",r:18.0,d:0.5},
+  496:{n:"몽골",r:17.9,d:1.2},
+  156:{n:"중국",r:17.5,d:1.1},
+  604:{n:"페루",r:17.3,d:0.9},
+  320:{n:"과테말라",r:17.3,d:0.9},
+  398:{n:"카자흐스탄",r:16.9,d:1.0},
+  266:{n:"가봉",r:15.7,d:0.7},
+  434:{n:"리비아",r:15.5,d:0.5},
+  818:{n:"이집트",r:15.5,d:0.7},
+  516:{n:"나미비아",r:15.4,d:0.3},
+  72:{n:"보츠와나",r:15.0,d:0.2},
+  360:{n:"인도네시아",r:14.8,d:0.7},
+  524:{n:"네팔",r:14.6,d:0.4},
+  340:{n:"온두라스",r:14.5,d:0.5},
+  686:{n:"세네갈",r:14.4,d:0.5},
+  788:{n:"튀니지",r:13.9,d:0.4},
+  12:{n:"알제리",r:13.8,d:0.5},
+  384:{n:"코트디부아르",r:13.7,d:0.6},
+  764:{n:"태국",r:13.4,d:1.0},
+  68:{n:"볼리비아",r:13.3,d:0.6},
+  894:{n:"잠비아",r:13.3,d:0.2},
+  368:{n:"이라크",r:13.0,d:0.5},
+  364:{n:"이란",r:12.8,d:0.2},
+  600:{n:"파라과이",r:12.6,d:0.4},
+  558:{n:"니카라과",r:12.5,d:0.7},
+  504:{n:"모로코",r:12.0,d:0.3},
+  586:{n:"파키스탄",r:11.9,d:0.5},
+  270:{n:"감비아",r:11.5,d:0.0},
+  508:{n:"모잠비크",r:11.4,d:0.5},
+  24:{n:"앙골라",r:11.4,d:0.5},
+  450:{n:"마다가스카르",r:11.4,d:0.5},
+  454:{n:"말라위",r:11.4,d:0.5},
+  328:{n:"가이아나",r:11.3,d:1.0},
+  740:{n:"수리남",r:11.3,d:1.0},
+  862:{n:"베네수엘라",r:11.3,d:1.0},
+  254:{n:"프랑스령 기아나",r:11.3,d:1.0},
+  104:{n:"미얀마",r:10.4,d:0.4},
+  768:{n:"토고",r:10.4,d:0.3},
+  324:{n:"기니",r:10.4,d:0.3},
+  562:{n:"니제르",r:10.4,d:0.3},
+  430:{n:"라이베리아",r:10.4,d:0.3},
+  566:{n:"나이지리아",r:10.4,d:0.3},
+  204:{n:"베냉",r:10.4,d:0.3},
+  466:{n:"말리",r:10.4,d:0.3},
+  288:{n:"가나",r:10.4,d:0.3},
+  624:{n:"기니비사우",r:10.4,d:0.3},
+  694:{n:"시에라리온",r:10.4,d:0.3},
+  478:{n:"모리타니",r:10.4,d:0.3},
+  854:{n:"부르키나파소",r:10.4,d:0.3},
+  112:{n:"벨라루스",r:10.3,d:0.7},
+  417:{n:"키르기스스탄",r:10.0,d:0.5},
+  643:{n:"러시아",r:9.9,d:0.4},
+  426:{n:"레소토",r:9.9,d:0.1},
+  804:{n:"우크라이나",r:9.5,d:0.0},
+  148:{n:"차드",r:9.1,d:0.4},
+  140:{n:"중앙아프리카공화국",r:9.1,d:0.4},
+  120:{n:"카메룬",r:9.1,d:0.4},
+  180:{n:"콩고민주공화국",r:9.1,d:0.4},
+  178:{n:"콩고공화국",r:9.1,d:0.4},
+  332:{n:"아이티",r:8.9,d:0.4},
+  404:{n:"케냐",r:8.9,d:0.2},
+  716:{n:"짐바브웨",r:8.9,d:0.4},
+  418:{n:"라오스",r:8.4,d:0.6},
+  50:{n:"방글라데시",r:8.0,d:0.2},
+  800:{n:"우간다",r:8.0,d:0.4},
+  231:{n:"에티오피아",r:8.0,d:0.4},
+  706:{n:"소말리아",r:8.0,d:0.4},
+  232:{n:"에리트레아",r:8.0,d:0.4},
+  728:{n:"남수단",r:8.0,d:0.4},
+  729:{n:"수단",r:8.0,d:0.4},
+  108:{n:"부룬디",r:8.0,d:0.4},
+  834:{n:"탄자니아",r:8.0,d:0.4},
+  51:{n:"아르메니아",r:7.7,d:0.3},
+  598:{n:"파푸아뉴기니",r:7.6,d:-0.1},
+  144:{n:"스리랑카",r:7.6,d:0.3},
+  646:{n:"르완다",r:7.6,d:0.4},
+  860:{n:"우즈베키스탄",r:7.6,d:0.4},
+  760:{n:"시리아",r:7.4,d:-0.1},
+  192:{n:"쿠바",r:6.8,d:0.1},
+  762:{n:"타지키스탄",r:6.3,d:0.2},
+  4:{n:"아프가니스탄",r:6.3,d:0.2},
+  795:{n:"투르크메니스탄",r:6.3,d:0.2},
+  116:{n:"캄보디아",r:6.1,d:0.3},
 };
 
 const W = 960, H = 500;
@@ -557,7 +644,7 @@ const proj = d3.geoNaturalEarth1().scale(153).translate([W/2, H/2 + 10]);
 const path = d3.geoPath().projection(proj);
 
 const colorScale = d3.scaleSequential()
-  .domain([0, 65])
+  .domain([0, 75])
   .interpolator(d3.interpolate("#0d1e37", "#3b82f6"));
 
 // Ocean
@@ -575,6 +662,8 @@ const mapCard = document.querySelector(".map-card");
 // Map from country id → SVG path element (for highlighting)
 const countryPathMap = new Map();
 
+const fmtChange = v => (v > 0 ? "+" : "") + v.toFixed(1) + "%p";
+
 // ── Build ranking list ──
 const rankSorted = Object.entries(AI)
   .map(([id, d]) => ({ id: +id, ...d }))
@@ -588,7 +677,7 @@ rankSorted.forEach((d, i) => {
   row.className = 'rank-row';
   row.dataset.id = d.id;
 
-  const barPct = Math.min((d.r / 65) * 100, 100).toFixed(1);
+  const barPct = Math.min((d.r / 75) * 100, 100).toFixed(1);
 
   row.innerHTML = `
     <div class="rank-num">${i + 1}</div>
@@ -599,7 +688,7 @@ rankSorted.forEach((d, i) => {
         <div class="rank-pct">${d.r.toFixed(1)}%</div>
       </div>
     </div>
-    <div class="rank-confirmed ${d.c ? 'c' : 'e'}" title="${d.c ? '공식 데이터' : '추정치'}"></div>
+    <div class="rank-change ${d.d > 0 ? 'up' : d.d < 0 ? 'down' : ''}" title="2026 Q1 대비">${fmtChange(d.d)}</div>
   `;
 
   row.addEventListener('mouseenter', () => highlightFromList(d.id));
@@ -676,15 +765,9 @@ fetch("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json")
         if (info) {
           ttName.textContent = info.n;
           ttRate.textContent = info.r.toFixed(1) + "%";
-          if (info.c) {
-            ttTag.textContent  = "✓ 공식 데이터";
-            ttTag.className    = "tt-tag c";
-            tip.className      = "show confirmed";
-          } else {
-            ttTag.textContent  = "~ 추정치";
-            ttTag.className    = "tt-tag e";
-            tip.className      = "show estimated";
-          }
+          ttTag.textContent  = "Q1 대비 " + fmtChange(info.d);
+          ttTag.className    = "tt-tag c";
+          tip.className      = "show confirmed";
           highlightFromMap(+d.id);
         } else {
           ttName.textContent = "데이터 없음";
