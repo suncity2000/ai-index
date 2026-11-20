@@ -53,8 +53,6 @@ const translations = {
         catKorean: '🇰🇷 한국 서비스',
         catPricing: '💰 AI 가격',
         filterOverall: '🏆 종합순위',
-        filterCoding: '💻 코딩',
-        filterMath: '🔢 수학',
         filterValue: '💰 가성비',
         filterSpeed: '⚡ 속도',
         // Loading / error
@@ -78,7 +76,7 @@ const translations = {
         // Ranking
         rankingTitle: (label) => `🏆 ${label} 순위`,
         mediaRankTitle: (emoji, name) => `${emoji} ${name} 순위`,
-        sortLabel: { overall: '지능 지수', coding: '코딩 점수', math: '수학 점수', value: '가성비 점수', speed: '속도' },
+        sortLabel: { overall: '지능 지수', value: '가성비 점수', speed: '속도' },
         unitScore: '점', unitValueScore: '점/$', unitSpeed: 'tok/s',
         // Ranking change
         rankUp: (n) => `어제보다 ${n}계단 상승`,
@@ -103,8 +101,7 @@ const translations = {
         eloCompareTitle: '📊 ELO 점수 비교',
         detailCompareTitle: '📋 상세 지표 비교',
         // Comparison metrics
-        metricIntelligence: '🧠 지능 지수', metricCoding: '💻 코딩 지수',
-        metricMath: '🔢 수학 지수', metricSpeed: '⚡ 속도',
+        metricIntelligence: '🧠 지능 지수', metricSpeed: '⚡ 속도',
         metricInputPrice: '💵 입력 가격', metricOutputPrice: '💵 출력 가격',
         metricValue: '🌟 가성비', metricRank: '🏆 전체 순위',
         metricElo: '📊 ELO 점수', metricEvalCount: '🔢 평가 횟수',
@@ -117,8 +114,7 @@ const translations = {
         noRankChanges: '오늘은 변동 없음',
         andMore: (n) => `외 ${n}개`,
         // Chart labels
-        chartIntelligence: '지능 지수', chartCoding: '코딩',
-        chartMath: '수학', chartSpeed: '속도', chartValue: '가성비',
+        chartIntelligence: '지능 지수', chartSpeed: '속도', chartValue: '가성비',
         // HuggingFace section
         hfTitle: '🔥 HuggingFace 인기 모델 TOP 5',
         hfViewAll: '전체 트렌드 보기 →',
@@ -128,8 +124,6 @@ const translations = {
         // Score info modal titles
         scoreInfoTitle: {
             overall: '🧠 인공 분석 지능 지수란?',
-            coding: '💻 코딩 점수란?',
-            math: '🔢 수학 점수란?',
             value: '💰 가성비란?',
             speed: '⚡ 속도란?',
             'text-to-image': '🎨 Text-to-Image ELO 점수란?',
@@ -174,8 +168,6 @@ const translations = {
         catKorean: '🇰🇷 Korean Services',
         catPricing: '💰 AI Pricing',
         filterOverall: '🏆 Overall',
-        filterCoding: '💻 Coding',
-        filterMath: '🔢 Math',
         filterValue: '💰 Value',
         filterSpeed: '⚡ Speed',
         // Loading / error
@@ -199,7 +191,7 @@ const translations = {
         // Ranking
         rankingTitle: (label) => `🏆 ${label} Rankings`,
         mediaRankTitle: (emoji, name) => `${emoji} ${name} Rankings`,
-        sortLabel: { overall: 'Intelligence', coding: 'Coding', math: 'Math', value: 'Value', speed: 'Speed' },
+        sortLabel: { overall: 'Intelligence', value: 'Value', speed: 'Speed' },
         unitScore: 'pts', unitValueScore: 'pts/$', unitSpeed: 'tok/s',
         // Ranking change
         rankUp: (n) => `Up ${n} from yesterday`,
@@ -224,8 +216,7 @@ const translations = {
         eloCompareTitle: '📊 ELO Score Comparison',
         detailCompareTitle: '📋 Detailed Metrics',
         // Comparison metrics
-        metricIntelligence: '🧠 Intelligence', metricCoding: '💻 Coding',
-        metricMath: '🔢 Math', metricSpeed: '⚡ Speed',
+        metricIntelligence: '🧠 Intelligence', metricSpeed: '⚡ Speed',
         metricInputPrice: '💵 Input Price', metricOutputPrice: '💵 Output Price',
         metricValue: '🌟 Value', metricRank: '🏆 Overall Rank',
         metricElo: '📊 ELO Score', metricEvalCount: '🔢 Evaluations',
@@ -238,8 +229,7 @@ const translations = {
         noRankChanges: 'No changes today',
         andMore: (n) => `+${n} more`,
         // Chart labels
-        chartIntelligence: 'Intelligence', chartCoding: 'Coding',
-        chartMath: 'Math', chartSpeed: 'Speed', chartValue: 'Value',
+        chartIntelligence: 'Intelligence', chartSpeed: 'Speed', chartValue: 'Value',
         // HuggingFace section
         hfTitle: '🔥 HuggingFace Top 5 Models',
         hfViewAll: 'View All Trends →',
@@ -249,8 +239,6 @@ const translations = {
         // Score info modal titles
         scoreInfoTitle: {
             overall: '🧠 What is the AI Intelligence Index?',
-            coding: '💻 What is the Coding Score?',
-            math: '🔢 What is the Math Score?',
             value: '💰 What is Value for Money?',
             speed: '⚡ What is Speed?',
             'text-to-image': '🎨 What is the Text-to-Image ELO Score?',
@@ -1038,8 +1026,6 @@ function calculateRankingChanges() {
     // LLM rankings with different filters
     const llmFilters = {
         'overall': 'artificial_analysis_intelligence_index',
-        'coding': 'artificial_analysis_coding_index',
-        'math': 'artificial_analysis_math_index',
         'value': 'value_ratio',
         'speed': 'median_output_tokens_per_second'
     };
@@ -1401,12 +1387,6 @@ function renderLLMContent() {
     // Determine which field to sort by
     let sortField, isValueRatio = false;
     switch (currentFilter) {
-        case 'coding':
-            sortField = 'artificial_analysis_coding_index';
-            break;
-        case 'math':
-            sortField = 'artificial_analysis_math_index';
-            break;
         case 'value':
             sortField = 'value_ratio';
             isValueRatio = true;
@@ -1610,8 +1590,6 @@ function renderMediaContent() {
                             <th class="text-left py-3 px-4 font-semibold">${t('thModel')}</th>
                             <th class="text-left py-3 px-4 font-semibold">${t('thCompany')}</th>
                             <th class="text-right py-3 px-4 font-semibold">${t('thElo')}</th>
-                            <th class="text-right py-3 px-4 font-semibold">${t('thEval')}</th>
-                            <th class="text-right py-3 px-4 font-semibold">${t('thRelease')}</th>
                             <th class="text-center py-3 px-4 font-semibold">${t('thCompare')}</th>
                         </tr>
                     </thead>
@@ -1667,12 +1645,6 @@ function renderMediaContent() {
                                         <span class="font-bold text-blue-600 dark:text-blue-400 text-lg">
                                             ${item.elo ? Math.round(item.elo) : '-'}
                                         </span>
-                                    </td>
-                                    <td class="py-4 px-4 text-right text-gray-600 dark:text-gray-400">
-                                        ${item.appearances ? item.appearances.toLocaleString() : '-'}
-                                    </td>
-                                    <td class="py-4 px-4 text-right text-gray-600 dark:text-gray-400">
-                                        ${item.release_date ? new Date(item.release_date).toLocaleDateString(t('dateLocale')) : '-'}
                                     </td>
                                     <td class="py-4 px-4 text-center">
                                         <button onclick="toggleCompareModel('${itemId}')" id="cmp-btn-${itemId}" class="${cmpBtnClass} px-3 py-1.5 text-xs font-medium rounded-lg border transition-all whitespace-nowrap">
@@ -1878,64 +1850,6 @@ function showScoreInfoModal(filterType) {
                 <p class="text-sm text-gray-600 dark:text-gray-400 italic">
                     ※ 모든 평가 지표와 마찬가지로 한계가 있으며, 모든 사용 사례에 직접 적용할 수는 없습니다.
                 </p>
-            `
-        },
-        coding: {
-            title: '💻 코딩 점수란?',
-            content: `
-                <p class="leading-relaxed">
-                    <strong class="text-blue-600 dark:text-blue-400">코딩 지수(Coding Index)</strong>는
-                    프로그래밍 작업을 수행하는 언어 모델의 능력을 평가하는 지표입니다.
-                </p>
-                <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
-                    <h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 점수 체계</h4>
-                    <p class="text-sm mb-2">
-                        <strong>0-100점 척도</strong>로 평가됩니다.
-                    </p>
-                    <ul class="text-sm space-y-1 list-disc list-inside">
-                        <li>70점 이상: 고급 프로그래밍 능력</li>
-                        <li>50-70점: 중급 프로그래밍 능력</li>
-                        <li>50점 미만: 기본 프로그래밍 능력</li>
-                    </ul>
-                </div>
-                <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
-                    <h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">🎯 평가 항목</h4>
-                    <ul class="text-sm space-y-1 list-disc list-inside">
-                        <li>코드 생성 및 완성</li>
-                        <li>버그 수정 및 디버깅</li>
-                        <li>알고리즘 구현</li>
-                        <li>코드 리팩토링</li>
-                    </ul>
-                </div>
-            `
-        },
-        math: {
-            title: '🔢 수학 점수란?',
-            content: `
-                <p class="leading-relaxed">
-                    <strong class="text-blue-600 dark:text-blue-400">수학 지수(Math Index)</strong>는
-                    수학적 문제 해결 능력을 평가하는 지표입니다.
-                </p>
-                <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
-                    <h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 점수 체계</h4>
-                    <p class="text-sm mb-2">
-                        <strong>0-100점 척도</strong>로 평가됩니다.
-                    </p>
-                    <ul class="text-sm space-y-1 list-disc list-inside">
-                        <li>70점 이상: 고급 수학 문제 해결</li>
-                        <li>50-70점: 중급 수학 문제 해결</li>
-                        <li>50점 미만: 기본 수학 문제 해결</li>
-                    </ul>
-                </div>
-                <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
-                    <h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">🎯 평가 항목</h4>
-                    <ul class="text-sm space-y-1 list-disc list-inside">
-                        <li>대수학 및 기하학</li>
-                        <li>미적분학 및 확률론</li>
-                        <li>논리적 추론</li>
-                        <li>복잡한 수식 계산</li>
-                    </ul>
-                </div>
             `
         },
         value: {
@@ -2154,14 +2068,6 @@ function showScoreInfoModal(filterType) {
             <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📋 Benchmarks</h4><p class="text-sm">GDPval-AA, τ²-Bench Telecom, Terminal-Bench Hard, SciCode, AA-LCR, AA-Omniscience, IFBench, Humanity's Last Exam, GPQA Diamond, CritPt</p></div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-3"><div class="bg-gray-100 dark:bg-gray-700 rounded-lg p-3"><div class="text-sm font-semibold mb-1">✅ Reliability</div><div class="text-xs">95% confidence interval &lt;±1%</div></div><div class="bg-gray-100 dark:bg-gray-700 rounded-lg p-3"><div class="text-sm font-semibold mb-1">🌐 Scope</div><div class="text-xs">Text-only, English evaluation</div></div></div>
             <p class="text-sm text-gray-600 dark:text-gray-400 italic">※ Like all metrics, this has limitations and may not apply to every use case.</p>`,
-        coding: `
-            <p class="leading-relaxed"><strong class="text-blue-600 dark:text-blue-400">Coding Index</strong> evaluates the ability of language models to perform programming tasks.</p>
-            <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 Scoring</h4><p class="text-sm mb-2">Scored on a <strong>0–100 scale</strong>.</p><ul class="text-sm space-y-1 list-disc list-inside"><li>70+: Advanced programming</li><li>50–70: Intermediate</li><li>&lt;50: Basic</li></ul></div>
-            <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">🎯 Tasks</h4><ul class="text-sm space-y-1 list-disc list-inside"><li>Code generation &amp; completion</li><li>Bug fixing &amp; debugging</li><li>Algorithm implementation</li><li>Code refactoring</li></ul></div>`,
-        math: `
-            <p class="leading-relaxed"><strong class="text-blue-600 dark:text-blue-400">Math Index</strong> evaluates mathematical problem-solving capabilities.</p>
-            <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 Scoring</h4><p class="text-sm mb-2">Scored on a <strong>0–100 scale</strong>.</p><ul class="text-sm space-y-1 list-disc list-inside"><li>70+: Advanced math</li><li>50–70: Intermediate</li><li>&lt;50: Basic</li></ul></div>
-            <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">🎯 Topics</h4><ul class="text-sm space-y-1 list-disc list-inside"><li>Algebra &amp; Geometry</li><li>Calculus &amp; Probability</li><li>Logical reasoning</li><li>Complex calculations</li></ul></div>`,
         value: `
             <p class="leading-relaxed"><strong class="text-blue-600 dark:text-blue-400">Value for Money</strong> measures cost-efficiency relative to performance.</p>
             <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4"><h4 class="font-semibold mb-2 text-blue-900 dark:text-blue-300">📊 Formula</h4><p class="text-sm mb-2"><strong>Value = Intelligence Index / Price</strong></p><p class="text-sm">Unit: <strong>pts/$</strong> (performance per dollar)</p></div>
@@ -2361,9 +2267,7 @@ function renderLLMComparison() {
 
     // Max values for normalization (relative to all LLMs in dataset)
     const maxIntelligence = Math.max(...allLLMs.map(m => m.evaluations?.artificial_analysis_intelligence_index || 0));
-    const maxCoding = Math.max(...allLLMs.map(m => m.evaluations?.artificial_analysis_coding_index || 0));
-    const maxMath = Math.max(...allLLMs.map(m => m.evaluations?.artificial_analysis_math_index || 0));
-    const maxSpeed = Math.max(...allLLMs.map(m => m.pricing?.median_output_tokens_per_second || 0));
+    const maxSpeed = Math.max(...allLLMs.map(m => m.median_output_tokens_per_second || 0));
     const maxValue = Math.max(...allLLMs.map(m => {
         const perf = m.evaluations?.artificial_analysis_intelligence_index;
         const price = m.pricing?.price_1m_blended_3_to_1;
@@ -2375,9 +2279,7 @@ function renderLLMComparison() {
     const datasets = models.map((model, i) => {
         const item = model.data;
         const intelligence = item.evaluations?.artificial_analysis_intelligence_index || 0;
-        const coding = item.evaluations?.artificial_analysis_coding_index || 0;
-        const math = item.evaluations?.artificial_analysis_math_index || 0;
-        const speed = item.pricing?.median_output_tokens_per_second || 0;
+        const speed = item.median_output_tokens_per_second || 0;
         const price = item.pricing?.price_1m_blended_3_to_1;
         const valueRatio = (intelligence && price && price > 0) ? intelligence / price : 0;
 
@@ -2385,8 +2287,6 @@ function renderLLMComparison() {
             label: model.name,
             data: [
                 normalize(intelligence, maxIntelligence),
-                normalize(coding, maxCoding),
-                normalize(math, maxMath),
                 normalize(speed, maxSpeed),
                 normalize(valueRatio, maxValue),
             ],
@@ -2407,20 +2307,8 @@ function renderLLMComparison() {
             higherIsBetter: true,
         },
         {
-            label: t('metricCoding'), unit: t('unitScore'),
-            getValue: item => item.evaluations?.artificial_analysis_coding_index,
-            format: v => v != null ? v.toFixed(1) : '-',
-            higherIsBetter: true,
-        },
-        {
-            label: t('metricMath'), unit: t('unitScore'),
-            getValue: item => item.evaluations?.artificial_analysis_math_index,
-            format: v => v != null ? v.toFixed(1) : '-',
-            higherIsBetter: true,
-        },
-        {
             label: t('metricSpeed'), unit: 'tok/s',
-            getValue: item => item.pricing?.median_output_tokens_per_second,
+            getValue: item => item.median_output_tokens_per_second,
             format: v => v != null ? Math.round(v).toLocaleString() : '-',
             higherIsBetter: true,
         },
@@ -2518,7 +2406,7 @@ function renderLLMComparison() {
         comparisonChart = new Chart(canvas, {
             type: 'radar',
             data: {
-                labels: [t('chartIntelligence'), t('chartCoding'), t('chartMath'), t('chartSpeed'), t('chartValue')],
+                labels: [t('chartIntelligence'), t('chartSpeed'), t('chartValue')],
                 datasets,
             },
             options: {
@@ -2574,18 +2462,6 @@ function renderMediaComparison() {
             getValue: item => item.elo,
             format: v => v != null ? Math.round(v).toLocaleString() : '-',
             higherIsBetter: true,
-        },
-        {
-            label: t('metricEvalCount'),
-            getValue: item => item.appearances,
-            format: v => v != null ? v.toLocaleString() : '-',
-            higherIsBetter: true,
-        },
-        {
-            label: t('metricReleaseDate'),
-            getValue: item => item.release_date,
-            format: v => v ? new Date(v).toLocaleDateString(t('dateLocale')) : '-',
-            higherIsBetter: null,
         },
     ];
 
