@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-24T12:17:26.162Z",
+  "last_updated": "2026-11-25T11:03:38.518Z",
   "source": "OpenRouter API",
   "models": [
     {
@@ -299,14 +299,6 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-v4.1-flash-1017",
-      "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
-      "price_1m_input": 0.03,
-      "price_1m_output": 0.2,
-      "context_length": 1048576,
-      "top_provider": true
-    },
-    {
       "id": "deepseek/deepseek-v4.1-flash-1017:batch",
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
       "price_1m_input": 0.04,
@@ -363,10 +355,10 @@
       "top_provider": true
     },
     {
-      "id": "deepseek/deepseek-v4-flash-vision-exp",
-      "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
-      "price_1m_input": 0.22,
-      "price_1m_output": 0.65,
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+      "price_1m_input": 0.15,
+      "price_1m_output": 0.6,
       "context_length": 1048576,
       "top_provider": true
     },
@@ -416,6 +408,14 @@
       "price_1m_input": 0.27,
       "price_1m_output": 1,
       "context_length": 163840,
+      "top_provider": true
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+      "price_1m_input": 0.44,
+      "price_1m_output": 1.32,
+      "context_length": 1048576,
       "top_provider": true
     },
     {
@@ -952,22 +952,6 @@
       "price_1m_input": 0.4,
       "price_1m_output": 2,
       "context_length": 262144,
-      "top_provider": true
-    },
-    {
-      "id": "mistralai/mistral-medium-3.1",
-      "name": "Mistral: Mistral Medium 3.1",
-      "price_1m_input": 0.44,
-      "price_1m_output": 2.2,
-      "context_length": 131072,
-      "top_provider": true
-    },
-    {
-      "id": "mistralai/mistral-medium-3",
-      "name": "Mistral: Mistral Medium 3",
-      "price_1m_input": 0.44,
-      "price_1m_output": 2.2,
-      "context_length": 131072,
       "top_provider": true
     },
     {
@@ -1899,14 +1883,6 @@
       "top_provider": true
     },
     {
-      "id": "qwen/qwen3.6-35b-a3b",
-      "name": "Qwen: Qwen3.6 35B A3B",
-      "price_1m_input": 0.05,
-      "price_1m_output": 0.7,
-      "context_length": 262144,
-      "top_provider": true
-    },
-    {
       "id": "qwen/qwen3.5-flash-02-23",
       "name": "Qwen: Qwen3.5-Flash",
       "price_1m_input": 0.07,
@@ -1928,6 +1904,14 @@
       "price_1m_input": 0.08,
       "price_1m_output": 0.28,
       "context_length": 131072,
+      "top_provider": true
+    },
+    {
+      "id": "qwen/qwen3.6-35b-a3b",
+      "name": "Qwen: Qwen3.6 35B A3B",
+      "price_1m_input": 0.1,
+      "price_1m_output": 0.89,
+      "context_length": 262144,
       "top_provider": true
     },
     {
