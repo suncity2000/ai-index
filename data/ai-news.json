@@ -1,17 +1,65 @@
 {
-  "last_updated": "2026-11-25T18:57:56.049Z",
+  "last_updated": "2026-11-26T18:49:11.166Z",
   "news": [
     {
-      "title": "부산항만공사, 정부혁신박람회에서 인공지능(AI)ㆍ디지털 기반 부산항 혁신사례 알려",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBick9zUWdqVUZtQ2Q0R25WNXdDLUdXbnNZRDRZMHQ3Sm9RSFc5bFo4MkNRd0xySjZtR1NFMDhuLXVrbGIwLXBiRU1oY1pDVzB4akVCY2dXdlEzUWxJRDFta24tUFBoUzZlR2RYR0hVM09ncDA?oc=5",
-      "source": "쉬핑뉴스넷",
-      "date": "Wed, 25 Nov 2026 07:32:07 GMT"
+      "title": "북한 AI 전문가 “AI 챗봇, 정치적 질문인지 먼저 판단 뒤 답변 생성” – RFA 자유아시아방송",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdjYtTDVmUjFCM1o5STloR1BfYVgzT2ZMMEdYUHo0YnhOa2RpSVB6RTQ0TkdiazY1THZneFJhMXg0VHI1Snk0UnN5X0hGbnVBQ3dFb05FY2M4VkYxZ0lab0ZwN1YzY2tuM0RkZ29ya0o3WDJXM2xINXBOTVAyVDhtc2RBOUpMdkg5d2oxRlRFdk9nUmFVOWxj?oc=5",
+      "source": "Radio Free Asia",
+      "date": "Thu, 26 Nov 2026 09:01:29 GMT"
+    },
+    {
+      "title": "광진구, 인공지능(AI) 기본계획 수립, 정책협의체 출범",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5oLVBoMFVjOUJuWHhLTVFmNkxNTktRWXJ0M1JUQTdZTlZpQ0JwS29zSDREcGpPWjNKSllVWHhZUUNjMEFya0c5SDhjYUlYaTFBYkdkQXpTN0FrZUc4clFlc21UWVBxUWF4b050cVg0MjVHb3p5dWxEeA?oc=5",
+      "source": "디지털광진",
+      "date": "Thu, 26 Nov 2026 06:36:00 GMT"
+    },
+    {
+      "title": "대한항공, 인공지능(AI) 기반의 ‘디지털 수면검사’ 도입",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5SERmbXhSMXp1MmRfVE9RS25vVElFVkhGR2pZTC1JR1JiTE9ES0NITFZwLTBQc0oyVWNRbmU3SnNrVWVkVW1BS3d1VlhRNjRJa3lZUl9xSVQtRzFJSzJRUHF2bXoxS2t3OFNyUlh2VEI?oc=5",
+      "source": "인천일보",
+      "date": "Thu, 26 Nov 2026 02:14:00 GMT"
+    },
+    {
+      "title": "EBS, 전 국민 AI 학습 플랫폼 ‘AI이솦’ 정식 오픈…국내외 생성형 AI 5종 무료 제공",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9jYU5Nek5Yd0xTemI0NjBkaHpHR3lRN05CdUpMbzc5OUdweS0za25ubkhnU01VcXY5Tm1YV0dodHY2ZExyT0lYRGdab1EyZGtDM1pZcjZiSGdacV9DQzJ5LXVZc25zUEk?oc=5",
+      "source": "인공지능신문",
+      "date": "Thu, 26 Nov 2026 01:55:11 GMT"
+    },
+    {
+      "title": "OpenAI, Chat과 Work 통합으로 헤비 ChatGPT 사용자는 한도에 더 일찍 도달할 수 있다고 밝혀",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSGZqWFdhTFQ1S2pDcFZjWHlLdGRYWjh4SEY0el9WTkJsREp6Z0hGRWhQRERJTDFacDRUWXZBYjdVOUpyMm4wYk9sN2FmU1hZLThrUUpRbG43SkNXeUlaTDhCbF9MUE8wTkZodHhNckRxS1NNMko5V3c3b3F1cFo1Z0F3ZkdDdU0tNm1pWmU4a0NUaGdTLWR3WA?oc=5",
+      "source": "Mezha.net",
+      "date": "Wed, 25 Nov 2026 13:12:00 GMT"
+    },
+    {
+      "title": "日 사카나 AI, 300억 파라미터 추론 모델 ‘나마즈 스몰’ 발표…4배 큰 엔비디아 모델 평균 성능 추월",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYa1gwcXBvNGQ3SXAtS0hMdFhJdzZPU2czWTZ2SVI0S2FkaWN4Z3JPZ0E0V2hhNkNQRlU1RFBPYTBEUFJYZzJXU215NGFOdVRNb0EzcDNzT19FRHR4LXRXN25ramVLdnc?oc=5",
+      "source": "인공지능신문",
+      "date": "Wed, 25 Nov 2026 10:15:35 GMT"
+    },
+    {
+      "title": "교육부, 전국 인공지능(AI) 인재가 한자리에, 인공지능(AI) 부트캠프 학생 교류의 장 마련",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5id2swdHcyZ1R5YWZSN0dSZGY5YXNaS3RHLW8tekh3ZHRsSEFDRkM3bVdaSG1EeVZkNTZYRElZT1haZFZPN201WjZ0XzZxVFRYbWtBNnMwcUZfV1JXeHNCa1dR?oc=5",
+      "source": "누리일보",
+      "date": "Wed, 25 Nov 2026 08:12:05 GMT"
+    },
+    {
+      "title": "서울, 글로벌 인공지능(AI) 도시 지수 2년 연속 2위···부산도 26계단 대폭 상승",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb190NmFpRmMtR1V5bXYwNlY0ZW9jbDROaGdqaERIZnZKV1BpNW9RMFRrT0V3aENhSlEzM3QxSW1HemNLamljUWkzaWl1ckljbDRwN3VpanY0MDJzU0hHSDV6eVo5SVcyYnc2TFp2UUVsOGtyM1gzVVJ3Y3BVSndQUGc4NFU?oc=5",
+      "source": "Korea.net",
+      "date": "Wed, 25 Nov 2026 07:41:59 GMT"
     },
     {
       "title": "“충북 AI 대전환“…’충북인공지능위원회’ 내년 1월 출범",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9MZlN6OW1FY09rTXlLbVBNTnhKYmprRlV1UEhDWHByX2wzLUxwX1BkcWZNUk93d2ZzUXRWb2RjeUJwU1lQNzl5ak1IeHJZQWVKOUZMZGx2SlZ5b2RaOFo0dlF5S2RxZTg?oc=5",
       "source": "연합뉴스TV",
       "date": "Wed, 25 Nov 2026 07:22:00 GMT"
+    },
+    {
+      "title": "인천시, 글로벌 인공지능(AI) 허브 유치 밑그림 그렸다",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1HNWZ5Tk5PVHlNTzlFQ29xenJyZm5UNndmV3hCMk1ZMUtJX21kb2hTVlNFc1laemtSU1NncjlSWTkwd3NfRnJqRnBaeGpHbXpiVVZ5OUFubzM0QUVWOG9ydjBCc3Zfd2hXQ3BjRdIBb0FVX3lxTE5MR01ZQl9ndkRzLUN2T25zbGxkekhJSGFXSF9MMnZNd1BKeFdmTk5vVlRTVVNJbERUczhqeEczUWNiV25nR1pQQlpYVVROeFMyQ0xkZlJldTIwaUZIazlyamJ6dlpZNmg0ZnNsVlZIaw?oc=5",
+      "source": "서울일보",
+      "date": "Wed, 25 Nov 2026 07:13:02 GMT"
     },
     {
       "title": "김천 청년농부, 농업에 인공지능(AI)을 더하다",
@@ -24,54 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBwNTY4bEg3UVJtNk1UZkJwTFlINi00VExKUlVXQkIxMGU4V05qa3p5OUR2ZFVVUWxaQ0NnYzNGdTh5Uy1lanJiblpGRnNMOUI1RGFPZkpzMEltQy01bTF3NNIBYEFVX3lxTFBwNTY4bEg3UVJtNk1UZkJwTFlINi00VExKUlVXQkIxMGU4V05qa3p5OUR2ZFVVUWxaQ0NnYzNGdTh5Uy1lanJiblpGRnNMOUI1RGFPZkpzMEltQy01bTF3NA?oc=5",
       "source": "연합뉴스",
       "date": "Wed, 25 Nov 2026 06:00:06 GMT"
-    },
-    {
-      "title": "코리아넷뉴스 - 서울, 글로벌 인공지능(AI) 도시 지수 2년 연속 2위···부산도 26계단 대폭 상승",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOS1BoVllNMkZSX0pNT0tQYmljVzllOUd5a1g4Y2ZJTmxwekVacG5NNWNTazFsV1RwX3BLV3BIcjliUE96MFczMUZ0M2V0MWhuTmRvOUttckNPTlM3MHJjbGo1WUM2Wk1vVXdXQjlFaXNQWmRZY3d0Q0hLSFAwTXZZSWdwcWJrOHlETHM3RUdOM2FuZk5sU29DUVpDNjd0WG45X0dRRWtZQVpVTVRncGU1OG1rZjFZMTVRa1R1ajFlZElDRU5GWUFDckRCeUYyel9qcXBPRHFKdFY1N25MeWdCME5NR3l1Q1JmUHh2c2pRZGJ1V1B5aVE?oc=5",
-      "source": "문화체육관광부 한국문화원",
-      "date": "Wed, 25 Nov 2026 04:32:48 GMT"
-    },
-    {
-      "title": "EBS, 생성형 AI 기반 애니메이션 5편 내달 순차 방영",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vY1NPLTFlOFFIV2pjWHNlZDg0YXdCNDFUOTU3RU45T1dqNTJMbzdwUk5sbEJJYjN6bGxMM0ducmVMM1BEeW9wWDNxYjRZSHJyQ3ptSmptWkc0S1nSAWBBVV95cUxPdUJ2VGVHQmVndkZZUXllM1lKYlhlMVl6MzRlYU5IYTNLT1pNdVZwLXlCSmJkeHVySW50ZjdZZUNuXzhoM1Q2WENIWkplaC1TbnhTbXE5eURzeWlGNFVYM1Y?oc=5",
-      "source": "연합뉴스",
-      "date": "Wed, 25 Nov 2026 02:32:28 GMT"
-    },
-    {
-      "title": "세계가 주목하는 스마트시티로…안양시, 인공지능(AI) 선도 도시 도약",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5iM2tYLXlzeGVEdUJjbDJ0ZXBRSURTSnFyZEhEZ25qOWZaWGxPU1VaTUxBSVpoN0d3MjdDbEVUeU9nRVdheUJGRGJoQmRiekdFemRWdFlfOEdrZHBTR3BB?oc=5",
-      "source": "세계환경신문",
-      "date": "Wed, 25 Nov 2026 02:08:15 GMT"
-    },
-    {
-      "title": "[기획: 북한도 생성형 AI 시대]① ‘지혜의 샘’ 공개…북한 AI, 생성형으로 진화",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yYnFyRW9NYzBhSjBXSUMxeHJTU19Uakx2d19EbnUyRzFUZ2RqVDlLcUhNUjRZdG9jUnVTMjVKOTREVmFIb2VFTjlzTGtLRUx3a2M1YUo2anZPNG9JT3VuWFJmU0lNUzA?oc=5",
-      "source": "남북경협뉴스",
-      "date": "Tue, 24 Nov 2026 20:06:10 GMT"
-    },
-    {
-      "title": "5년 동안 교실에서 생성형 AI 접속이 막힌다면",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1xbWhLYndwZkxGLW5Zb1V3QjJEVzNZMTJnbFljQ1VaM2N6anJ3aVFyWDlVUlBpSzd6bGFfLS1HVDdnRkJyWlIyYVpBNWxudk9Sc3BvVUpzVEdvd3FTMUsxNTFRWkxRYWhHN2c?oc=5",
-      "source": "시사IN",
-      "date": "Tue, 24 Nov 2026 12:21:20 GMT"
-    },
-    {
-      "title": "금천구, 인공지능(AI) 경진대회와 상생기업 시상",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5OWW55UHdvV0hJLTJiVmhRdlVzcE44VlY1UUNyOXU4cWZReVpxeVlnNVZ1aENLcUdhS1M0d21KNng5MF9DWGRRTGRiREZVcTdZb0Jia2NqWl9JNDR1bXlmUHUtaTU?oc=5",
-      "source": "매일일보",
-      "date": "Mon, 23 Nov 2026 05:41:55 GMT"
-    },
-    {
-      "title": "오픈AI, 챗GPT 플러스 구독자에 '닷츠' 확대...비즈니스 스탠더드도 지원",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE94cU55V2w2SkxkeGRTOXJDUWE1Zkt1aHZkMHgxSGw3c2RuSkQ1cDg1R0RIemYtSTNRZlNPTG5mekxEeTBjdnBqZGc5OTg5MTZBQy1HY1paUHg4amFXTkYtbWdfNEN6SFA1RXc?oc=5",
-      "source": "AI타임스",
-      "date": "Sun, 22 Nov 2026 02:24:10 GMT"
-    },
-    {
-      "title": "ChatGPT 전화에 대한 새로운 사실들이 밝혀졌습니다.",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBmNHJhTVJmRWZPR2hNeE1icDF5VXVLdjF5dzVJdVNIanluQjk1eDZfOUNsNDB4VEVkWVdaX2JfMUNqcUJacUhNaGJLYXRtS2dfUmp0Vzh2LVBWdzh6UFVIZUdDeko?oc=5",
-      "source": "Vietnam.vn",
-      "date": "Sat, 21 Nov 2026 01:21:01 GMT"
     }
   ]
 }
